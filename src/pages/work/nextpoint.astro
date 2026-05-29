@@ -29,7 +29,11 @@ const outcomes = [
 
 		<main id="main-content">
 			<section class="case-hero">
-				<p class="eyebrow"><a href="/#work">Case Study</a> / Nextpoint</p>
+				<p class="eyebrow">
+					<a class="breadcrumb-link" href="/work">Case Study</a>
+					<span class="breadcrumb-separator" aria-hidden="true">/</span>
+					<span>Nextpoint</span>
+				</p>
 				<h1 class="display-title">Designing a legal dashboard that makes AI summaries feel useful, legible, and trustworthy.</h1>
 				<div class="hero-subgrid">
 					<p class="hero-text">
@@ -179,13 +183,17 @@ const outcomes = [
 	}
 
 	.eyebrow a {
-		color: inherit;
+		display: inline-flex;
+		align-items: center;
+		padding: 0.1rem 0;
+		color: var(--foreground);
 		text-decoration: none;
+		transition: opacity 120ms ease;
 	}
 
 	.eyebrow a:hover,
 	.eyebrow a:focus-visible {
-		text-decoration: underline;
+		opacity: 0.68;
 		outline: none;
 	}
 
@@ -197,9 +205,22 @@ const outcomes = [
 	.meta-label,
 	.section-kicker {
 		margin: 0;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 0.55rem;
+		margin-bottom: 1.1rem;
 		color: var(--muted-foreground);
 		font-style: italic;
 		font-weight: 500;
+	}
+
+	.breadcrumb-link {
+		font-weight: 600;
+	}
+
+	.breadcrumb-separator {
+		color: #9a9a9a;
 	}
 
 	h1,
