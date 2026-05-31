@@ -2,10 +2,10 @@
 import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
-import portraitImage from '../assets/images/smiling-adult-male-portrait.webp';
+import portraitImage from '../assets/images/maria.webp';
 ---
 
-<Layout title="About | Alba Studio" description="About page for a UX designer portfolio.">
+<Layout title="About | Maria" description="About page for a UX designer portfolio.">
 	<a class="skip-link" href="#main-content">Skip to content</a>
 
 	<div class="page">
@@ -18,16 +18,16 @@ import portraitImage from '../assets/images/smiling-adult-male-portrait.webp';
 					<div class="hero-copy">
 						<h1 class="display-title">I design products that make complicated things feel clearer and easier to use.</h1>
 						<p class="hero-text">
-							I'm Andrei Alba, a UX designer focused on turning dense workflows, fuzzy product
-							requirements, and overloaded interfaces into experiences that people can actually
-							navigate with confidence.
+							I'm Maria, a UX designer focused on turning dense workflows, fuzzy product
+							requirements, and overloaded interfaces into experiences people can navigate
+							with confidence.
 						</p>
 					</div>
 					<div class="hero-portrait-wrap">
 						<Image
 							class="hero-portrait"
 							src={portraitImage}
-							alt="Smiling portrait of Andrei Alba"
+							alt="Portrait of Maria"
 							loading="eager"
 							decoding="async"
 							widths={[320, 480, 640]}

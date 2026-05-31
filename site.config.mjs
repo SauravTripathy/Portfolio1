@@ -1,11 +1,11 @@
 export const siteConfig = {
-	name: 'Alba',
-	title: 'Alba Studio | UX Designer Portfolio',
+	name: 'Maria',
+	title: 'Maria | UX Designer Portfolio',
 	description: 'A clean Astro portfolio template for UX designers and visual product thinkers.',
 	siteUrl: 'https://your-domain.com',
-	email: 'hello@alba.com',
+	email: 'hello@maria.com',
 	locale: 'en-US',
-	authorName: 'Andrei Alba',
+	authorName: 'Maria',
 	authorRole: 'UX Designer',
 	keywords: [
 		'UX designer portfolio',

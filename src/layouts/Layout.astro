@@ -66,7 +66,7 @@ const schemaData =
 		<script type="application/ld+json" set:html={JSON.stringify(schemaData)}></script>
 		<script is:inline>
 			(() => {
-				const storageKey = 'alba-theme';
+				const storageKey = 'maria-theme';
 				const root = document.documentElement;
 				const storedTheme = localStorage.getItem(storageKey);
 				const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -81,7 +81,7 @@ const schemaData =
 		<SiteFooter showCta={showFooterCta} />
 		<script is:inline>
 			(() => {
-				const storageKey = 'alba-theme';
+				const storageKey = 'maria-theme';
 				const root = document.documentElement;
 				const toggle = document.querySelector('[data-theme-toggle]');
 				if (!toggle) {

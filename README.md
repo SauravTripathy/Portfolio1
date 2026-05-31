@@ -1,15 +1,16 @@
-# Alba - Astro Theme for UI/UX and Product Designers
+# Maria - Astro Theme for UI/UX and Product Designers
 
-![Alba theme preview](./public/theme-preview.png)
+[![Maria theme preview](./public/maria-astro.webp)](https://maria-lake.vercel.app/)
 
 [![Astro 6](https://img.shields.io/badge/Astro-6-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
 [![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Configured-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-84cc16?style=for-the-badge)](./LICENSE)
 
-**Preview:** [alba-mocha-iota.vercel.app](https://alba-mocha-iota.vercel.app/)
+**Preview:** [maria-lake.vercel.app](https://maria-lake.vercel.app/)
+**Repository:** [andreialba/maria](https://github.com/andreialba/maria)
 
-Alba is a clean Astro portfolio theme for UI/UX designers, product designers, and visual product thinkers.
+Maria is a clean Astro portfolio theme for UI/UX designers, product designers, and visual product thinkers.
 
 It includes:
 
