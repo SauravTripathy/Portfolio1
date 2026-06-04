@@ -1,6 +1,6 @@
 # Maria - Astro Theme for UI/UX and Product Designers
 
-[![Maria theme preview](./public/maria-astro.webp)](https://maria-lake.vercel.app/)
+[![Maria theme preview](https://raw.githubusercontent.com/andreialba/maria/main/public/screenshot.png)](https://maria-lake.vercel.app/)
 
 [![Astro 6](https://img.shields.io/badge/Astro-6-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
 [![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
@@ -167,8 +167,6 @@ Main pages:
 
 - `/`
 - `/about`
-- `/notes`
-- `/notes/getting-started`
 - `/resume`
 - `/work`
 - `/work/nextpoint`
@@ -195,12 +193,6 @@ Notes:
 - Tool logos are self-hosted SVGs.
 - `public/` is reserved for files that should be served as-is, such as favicons and the Open Graph image.
 - Cookie consent assets live in [public/cookie-consent.js](./public/cookie-consent.js) and [public/cookie-consent.css](./public/cookie-consent.css).
-
-There is also a starter MDX content example in:
-
-- [src/content/pages/getting-started.mdx](./src/content/pages/getting-started.mdx)
-
-Those MDX entries are rendered by the `/notes` section, so adding new files under `src/content/pages/` will automatically create new note pages at `/notes/[slug]`.
 
 ## Deployment
 
