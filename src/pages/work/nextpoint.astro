@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
+import { siteConfig } from '../../config/site';
 import nextpointImage from '../../assets/images/nextpoint.webp';
 import nextpointTranscriptsImage from '../../assets/images/nextpoint-transcripts.webp';
 
@@ -16,11 +17,61 @@ const outcomes = [
 	'Made the dashboard easier to scan by separating signals from supporting detail.',
 	'Shifted the AI summary area from a passive widget into a more actionable next step.',
 ];
+
+const caseStudyUrl = new URL('/work/nextpoint', siteConfig.siteUrl).toString();
+const caseStudySchema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			{
+				'@type': 'ListItem',
+				position: 1,
+				name: 'Home',
+				item: siteConfig.siteUrl,
+			},
+			{
+				'@type': 'ListItem',
+				position: 2,
+				name: 'Work',
+				item: new URL('/work', siteConfig.siteUrl).toString(),
+			},
+			{
+				'@type': 'ListItem',
+				position: 3,
+				name: 'Nextpoint Case Study',
+				item: caseStudyUrl,
+			},
+		],
+	},
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CreativeWork',
+		name: 'Nextpoint Case Study',
+		headline: 'Sample Nextpoint case study for the Maria Astro portfolio theme',
+		description:
+			'A sample UI/UX case study page included in the Maria Astro theme for designer portfolios, focused on product design storytelling and structured project presentation.',
+		url: caseStudyUrl,
+		author: {
+			'@type': 'Person',
+			name: siteConfig.authorName,
+		},
+		isPartOf: {
+			'@type': 'WebSite',
+			name: siteConfig.name,
+			url: siteConfig.siteUrl,
+		},
+		inLanguage: siteConfig.locale,
+	},
+];
 ---
 
 <Layout
-	title="Nextpoint Case Study | Maria"
-	description="Sample UX portfolio case study page for Nextpoint."
+	title="Nextpoint Case Study | Astro Theme for UI/UX Designer Portfolios"
+	description="Sample Nextpoint case study from the Maria Astro theme for UI/UX designer portfolios, built to showcase product design decisions and visual storytelling."
+	ogType="article"
+	ogImageAlt="Preview of the Nextpoint sample case study page in the Maria Astro theme"
+	schema={caseStudySchema}
 >
 	<a class="skip-link" href="#main-content">Skip to content</a>
 

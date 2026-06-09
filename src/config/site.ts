@@ -20,22 +20,27 @@ export type SiteConfig = {
 	socialLinks: SiteLink[];
 };
 
+const defaultSiteUrl = 'https://maria-lake.vercel.app';
+const envSiteUrl = process.env.SITE_URL ?? process.env.PUBLIC_SITE_URL;
+const normalizedSiteUrl = (envSiteUrl || defaultSiteUrl).replace(/\/+$/, '');
+
 export const siteConfig: SiteConfig = {
 	name: 'Maria',
-	title: 'Maria | UX Designer Portfolio',
-	description: 'A clean Astro portfolio template for UX designers and visual product thinkers.',
-	// Replace this when reusing the theme for your own site so canonical URLs and the sitemap stay valid.
-	siteUrl: 'https://maria-lake.vercel.app',
+	title: 'Maria | Astro Theme for UI/UX Designer Portfolios',
+	description:
+		'A clean Astro theme for UI/UX designer portfolios, case studies, and modern product design presentations.',
+	// Set SITE_URL or PUBLIC_SITE_URL to keep canonicals, robots.txt, and the sitemap aligned in each environment.
+	siteUrl: normalizedSiteUrl,
 	email: 'hello@maria.com',
 	locale: 'en-US',
 	authorName: 'Maria',
 	authorRole: 'UX Designer',
 	keywords: [
-		'UX designer portfolio',
+		'Astro UI UX portfolio theme',
+		'UI UX designer portfolio template',
 		'Astro portfolio template',
-		'product designer template',
-		'case study portfolio',
-		'UI UX designer',
+		'product designer portfolio theme',
+		'case study portfolio theme',
 	],
 	ogImage: '/og-image.svg',
 	navLinks: [

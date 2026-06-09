@@ -63,7 +63,6 @@ The main template settings live in:
 
 Update this file before publishing:
 
-- `siteUrl`
 - `name`
 - `title`
 - `description`
@@ -71,6 +70,13 @@ Update this file before publishing:
 - `authorName`
 - `authorRole`
 - social links
+
+Set your production domain with an environment variable before publishing:
+
+- `SITE_URL=https://your-domain.com`
+- or `PUBLIC_SITE_URL=https://your-domain.com`
+
+This keeps canonical URLs, `robots.txt`, and the sitemap aligned without editing source for each environment.
 
 ## SEO
 
@@ -210,5 +216,5 @@ This project is licensed under the [MIT License](./LICENSE).
 ## Notes
 
 - Replace the example project copy and images with your own work.
-- Replace the demo URL in [src/config/site.ts](./src/config/site.ts) before deploying.
+- Set `SITE_URL` or `PUBLIC_SITE_URL` before deploying so SEO URLs do not point to the demo domain.
 - The social share image is a template default and can be replaced with your own branded preview.
