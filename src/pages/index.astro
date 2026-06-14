@@ -24,8 +24,8 @@ const sections: {
     subtitle: 'Foundations and AI Research',
     icon: 'brain',
     links: [
-      { label: 'Transformer Basics: So What?', href: '/ai/transformer-basics' },
-      { label: 'AI Research Papers & Takeaways', href: '/ai/research-papers' },
+      { label: 'Transformer Basics', href: '/ai/transformer-basics' },
+      { label: 'Key AI Research Papers', href: '/ai/research-papers' },
       { label: 'AI Solution Types', href: '/ai/ai-solution-types' },
     ],
   },
@@ -44,8 +44,8 @@ const sections: {
     subtitle: 'Agentic AI & RAG Demos',
     icon: 'cube',
     links: [
-      { label: 'MarTech Vendor Evaluation Agent', href: '/projects/vendor-evaluation-agent' },
-      { label: 'MarTech Content Evaluator Agent', href: '/projects/content-evaluator-agent' },
+      { label: 'MarTech Vendor Eval Agent', href: '/projects/vendor-evaluation-agent' },
+      { label: 'MarTech Content Eval Agent', href: '/projects/content-evaluator-agent' },
       { label: 'Chat with Me', href: '/projects/chat-with-me' },
     ],
   },
@@ -160,20 +160,20 @@ const sections: {
                 <div class="space-y-4">
                   {section.links.map((link) => (
                     <a
-                      href={link.href}
-                      class="flex items-center justify-between gap-4 rounded-2xl py-1 text-base font-medium text-white transition hover:text-blue-100"
-                    >
-                      <span class="flex items-center gap-4">
-                        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/15 text-white">
-                          →
-                        </span>
-                        <span>{link.label}</span>
-                      </span>
+						href={link.href}
+						class="flex items-center justify-between gap-4 rounded-2xl py-1 text-base font-medium !text-blue-100 transition hover:!text-white"
+						>
+						<span class="flex items-center gap-4">
+							<span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/15 !text-blue-100">
+							→
+							</span>
+							<span class="!text-blue-100">{link.label}</span>
+						</span>
 
-                      <span class="text-2xl leading-none text-white transition group-hover:translate-x-1">
-                        ›
-                      </span>
-                    </a>
+						<span class="text-2xl leading-none !text-blue-100 transition group-hover:translate-x-1">
+							›
+						</span>
+					</a>
                   ))}
                 </div>
               </div>
