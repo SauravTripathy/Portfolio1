@@ -60,24 +60,32 @@ const sections: {
 
   <main class="relative overflow-hidden bg-[#f8fbff] text-[#06142f]">
     <!-- Background pattern -->
-    <div class="pointer-events-none absolute inset-0 overflow-hidden">
-      <div class="absolute right-[-12rem] top-32 h-[34rem] w-[52rem] rounded-full bg-blue-100/50 blur-3xl"></div>
-      <div class="absolute right-0 top-40 hidden h-[30rem] w-[46rem] opacity-40 lg:block">
-        <div class="h-full w-full bg-[radial-gradient(circle_at_center,#2563eb_1px,transparent_1.5px)] bg-[length:28px_28px]"></div>
-      </div>
-      <div class="absolute right-[-8rem] top-[21rem] hidden h-72 w-[58rem] rotate-[-8deg] rounded-[100%] border border-blue-200/60 lg:block"></div>
-      <div class="absolute right-[-10rem] top-[23rem] hidden h-72 w-[58rem] rotate-[-5deg] rounded-[100%] border border-blue-200/40 lg:block"></div>
-      <div class="absolute right-[-12rem] top-[25rem] hidden h-72 w-[58rem] rotate-[-2deg] rounded-[100%] border border-blue-200/30 lg:block"></div>
-    </div>
+   <!-- Background design -->
+<div class="pointer-events-none absolute inset-0 overflow-hidden">
+  <!-- Soft blue wash -->
+  <div class="absolute inset-0 bg-[linear-gradient(135deg,#f8fbff_0%,#eef6ff_45%,#ffffff_100%)]"></div>
 
-    <section class="relative mx-auto max-w-7xl px-6 pb-8 pt-14 sm:px-8 lg:px-10 lg:pb-10 lg:pt-16">
+  <!-- Dot grid -->
+  <div class="absolute inset-0 opacity-[0.22] bg-[radial-gradient(circle_at_center,#2563eb_1px,transparent_1.3px)] bg-[length:26px_26px]"></div>
+
+  <!-- Large blue glow top right -->
+  <div class="absolute right-[-14rem] top-[-8rem] h-[34rem] w-[34rem] rounded-full bg-blue-300/35 blur-3xl"></div>
+
+  <!-- Large navy glow bottom left -->
+  <div class="absolute left-[-12rem] bottom-[-12rem] h-[28rem] w-[28rem] rounded-full bg-sky-200/45 blur-3xl"></div>
+
+  <!-- Curved line effect -->
+  <div class="absolute right-[-12rem] top-[18rem] hidden h-80 w-[60rem] rotate-[-8deg] rounded-[100%] border border-blue-300/40 lg:block"></div>
+  <div class="absolute right-[-14rem] top-[20rem] hidden h-80 w-[60rem] rotate-[-5deg] rounded-[100%] border border-blue-300/30 lg:block"></div>
+  <div class="absolute right-[-16rem] top-[22rem] hidden h-80 w-[60rem] rotate-[-2deg] rounded-[100%] border border-blue-300/20 lg:block"></div>
+</div>
       <!-- Hero -->
 <div class="max-w-none -mt-8 lg:-mt-12">
   <p class="text-2xl font-semibold tracking-[-0.02em] text-slate-600 sm:text-3xl lg:text-4xl">
     Welcome to my portfolio.
   </p>
 
-  <h1 class="mt-5 max-w-none text-[1.55rem] font-semibold leading-[1.08] tracking-[-0.045em] text-[#06142f] sm:text-3xl lg:text-4xl xl:text-5xl">
+  <h1 class="mt-5 max-w-none text-[1.50rem] font-semibold leading-[1.08] tracking-[-0.045em] text-[#06142f] sm:text-3xl lg:text-4xl xl:text-5xl">
    	I’m passionate about using AI to modernize enterprise workflows by combining strategy, product sense, and disciplined execution.
   </h1>
 
