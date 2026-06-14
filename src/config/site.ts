@@ -15,7 +15,6 @@ export type SiteConfig = {
 	keywords: string[];
 	ogImage: string;
 	navLinks: SiteLink[];
-	extraPages: SiteLink[];
 	legalLinks: SiteLink[];
 	socialLinks: SiteLink[];
 };
@@ -44,18 +43,12 @@ export const siteConfig: SiteConfig = {
 	],
 	ogImage: '/og-image.svg',
 	navLinks: [
-		{ href: '/work', label: 'Work' },
-		{ href: '/about', label: 'About' },
-		{ href: '/resume', label: 'Resume' },
+		{ href: '/About', label: 'About' },
+		{ href: '/AI', label: 'AI' },
+		{ href: '/MarTech', label: 'MarTech' },
+		{ href: '/Projects', label: 'Projects' },
 	],
-	extraPages: [
-		{ href: '/work/nextpoint', label: 'Case Study' },
-		{ href: '/cookies', label: 'Cookies' },
-		{ href: '/privacy', label: 'Privacy' },
-		{ href: '/terms', label: 'Terms' },
-		{ href: '/404', label: '404' },
-	],
-	legalLinks: [
+		legalLinks: [
 		{ href: '/cookies', label: 'Cookies' },
 		{ href: '/privacy', label: 'Privacy' },
 		{ href: '/terms', label: 'Terms' },
