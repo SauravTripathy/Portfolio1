@@ -5,7 +5,7 @@ import SiteHeader from '../components/SiteHeader.astro';
 const tenets = [
   {
     title: 'Customer centricity',
-    icon: 'M12 21s-7-4.35-7-10a4.1 4.1 0 0 1 7-2.9A4.1 4.1 0 0 1 19 11c0 5.65-7 10-7 10Z',
+    icon: 'M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm0 2c-4.42 0-8 2.24-8 5v1h10.2a5.5 5.5 0 0 1-.2-1.5c0-1.56.64-2.98 1.67-4A10.2 10.2 0 0 0 12 14Zm6.5 1.2c-1.16 0-2.1.62-2.6 1.48-.5-.86-1.44-1.48-2.6-1.48-1.5 0-2.8 1.2-2.8 2.75 0 2.5 5.4 5.55 5.4 5.55s5.4-3.05 5.4-5.55c0-1.55-1.3-2.75-2.8-2.75Z',
   },
   {
     title: 'Structured problem solving',
@@ -16,11 +16,11 @@ const tenets = [
     icon: 'M12 21a9 9 0 1 0-9-9 9 9 0 0 0 9 9Zm0-4.5A4.5 4.5 0 1 0 7.5 12 4.5 4.5 0 0 0 12 16.5Zm0-3a1.5 1.5 0 1 0-1.5-1.5A1.5 1.5 0 0 0 12 13.5Zm4.5-7.5 3-3m-1 0h1v1',
   },
   {
-    title: 'Next Gen Tech',
+    title: 'Next Generation Tech & AI',
     icon: 'M9 2h6v3h4v4h3v6h-3v4h-4v3H9v-3H5v-4H2V9h3V5h4V2Zm1 7v6h4V9h-4Z',
   },
   {
-    title: 'Bias for action',
+    title: 'Bias for execution',
     icon: 'M12 2 4 22l8-4 8 4-8-20Zm0 4.8 3.6 10.2-3.6-1.8-3.6 1.8L12 6.8Z',
   },
 ];
@@ -28,22 +28,22 @@ const tenets = [
 const background = [
   {
     title: 'Digital Transformation',
-    text: 'Automated high volume, manual processes, reduced costs, impoved operational efficiency',
-    icon: 'M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3Zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13Zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5Z',
+    text: 'Automated high-volume manual processes, reduced costs, and improved operational efficiency.',
+    icon: 'M7 4h10a3 3 0 0 1 3 3v3h-2V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v3H4V7a3 3 0 0 1 3-3Zm11 10h2v3a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-3h2v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3ZM8 8h3v3H8V8Zm5 0h3v3h-3V8Zm-5 5h3v3H8v-3Zm5 0h3v3h-3v-3Z',
   },
   {
     title: 'Product Management',
-    text: 'Improved customer engagement, elevated customer journeys and customer experience',
+    text: 'Improved customer engagement, elevated customer journeys, and strengthened customer experience.',
     icon: 'M12 2 3.5 6.75v10.5L12 22l8.5-4.75V6.75L12 2Zm0 2.3 5.9 3.3L12 10.9 6.1 7.6 12 4.3Zm-6.5 5 5.5 3.1v6.4l-5.5-3.1V9.3Zm13 0v6.4L13 18.8v-6.4l5.5-3.1Z',
   },
   {
     title: 'Sales Strategy',
-    text: 'Established compliant onboarding and payment processes, crafted acquisition strategy for efficient growth',
+    text: 'Established compliant onboarding and payment processes, and shaped acquisition strategy for efficient growth.',
     icon: 'M4 19h16v2H4v-2Zm2-2h3V9H6v8Zm5 0h3V5h-3v12Zm5 0h3v-7h-3v7ZM4 4h2v2H4V4Zm14 0h2v2h-2V4Z',
   },
   {
     title: 'Analytics & AI',
-    text: 'Used data to inform sales and marketing strategies, reduced data processing time, built ML models to reduce costs',
+    text: 'Used data to inform sales and marketing strategies, reduce processing time, and apply AI to real business problems.',
     icon: 'M11 2v20a10 10 0 1 1 10-10h-8V2h-2Zm4 0v6h6a8 8 0 0 0-6-6Z',
   },
 ];
@@ -62,17 +62,17 @@ const background = [
       <aside class="profile-card" aria-label="Profile summary">
         <img
           class="profile-photo"
-          src="/saurav-headshot.png"
+          src="/images/saurav-headshot.png.jpg"
           alt="Saurav Tripathy"
           loading="eager"
         />
 
         <div class="profile-heading">
           <h1>Saurav Tripathy</h1>
-              </div>
+           </div>
 
         <div class="profile-actions">
-          <a class="button button-primary" href="/Saurav-Tripathy-CV.pdf" download>
+          <a class="button button-primary" href="/files/Saurav-Tripathy-CV.pdf.pdf" download>
             <span aria-hidden="true">↓</span>
             Download CV
           </a>
@@ -96,15 +96,18 @@ const background = [
       </aside>
 
       <section class="about-content">
-        <section class="intro-section">
-          <p class="eyebrow">About me</p>
-          <h2>
+        <section class="intro-section" aria-labelledby="about-title">
+          <h2 id="about-title" class="section-title">About me</h2>
+
+          <h3 class="intro-headline">
             Product and strategy professional focused on outcome-driven, AI-led enterprise transformations.
-          </h2>
+          </h3>
 
           <div class="intro-copy">
             <p>
-              I’m a product and strategy professional with 10+ years of experience across digital transformation, product management, sales strategy, and marketing analytics.
+              I’m a product and strategy professional with 10+ years of experience
+              across digital transformation, product management, sales strategy,
+              and marketing analytics.
             </p>
 
             <p>
@@ -119,7 +122,7 @@ const background = [
 
         <section class="section-block" aria-labelledby="tenets-title">
           <div class="section-heading">
-            <h2 id="tenets-title">Tenets</h2>
+            <h2 id="tenets-title" class="section-title">Tenets</h2>
           </div>
 
           <div class="tenets-grid">
@@ -138,7 +141,7 @@ const background = [
 
         <section class="section-block" aria-labelledby="background-title">
           <div class="section-heading">
-            <h2 id="background-title">My background</h2>
+            <h2 id="background-title" class="section-title">Impact Overview</h2>
           </div>
 
           <div class="background-grid">
@@ -311,35 +314,23 @@ const background = [
     padding: 0.75rem 0 2.2rem;
   }
 
-  .eyebrow {
-    position: relative;
-    display: inline-block;
-    margin: 0 0 0.9rem;
+  .section-title {
+    margin: 0 0 1.35rem;
     color: #0b4dcc;
-    font-size: 0.95rem;
+    font-size: clamp(2.25rem, 3.4vw, 3rem);
+    line-height: 1.1;
     font-weight: 900;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    letter-spacing: -0.045em;
   }
 
-  .eyebrow::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -0.6rem;
-    width: 3.75rem;
-    height: 3px;
-    border-radius: 999px;
-    background: #0b4dcc;
-  }
-
-  .intro-section h2 {
-    max-width: 900px;
-    margin: 1.6rem 0 1.4rem;
+  .intro-headline {
+    max-width: 860px;
+    margin: 1.2rem 0 1.3rem;
     color: #071633;
-    font-size: clamp(1.6rem, 3vw, 2rem);
-    line-height: 1.02;
-    letter-spacing: -0.055em;
+    font-size: clamp(1.5rem, 2.2vw, 2.2rem);
+    line-height: 1.18;
+    font-weight: 850;
+    letter-spacing: -0.035em;
   }
 
   .intro-copy {
@@ -362,13 +353,6 @@ const background = [
 
   .section-heading {
     margin-bottom: 1.35rem;
-  }
-
-  .section-heading h2 {
-    margin: 0;
-    color: #071633;
-    font-size: clamp(1.85rem, 3vw, 2.35rem);
-    letter-spacing: -0.04em;
   }
 
   .tenets-grid {
@@ -478,6 +462,14 @@ const background = [
     .profile-photo {
       width: 150px;
       height: 150px;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 9vw, 2.5rem);
+    }
+
+    .intro-headline {
+      font-size: clamp(1.45rem, 7vw, 1.9rem);
     }
 
     .tenets-grid,
