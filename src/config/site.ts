@@ -26,9 +26,9 @@ const normalizedSiteUrl = (envSiteUrl || defaultSiteUrl).replace(/\/+$/, '');
 
 export const siteConfig: SiteConfig = {
 	name: 'Home',
-	title: 'Saurav | Astro Theme for UI/UX Designer Portfolios',
+	title: 'Saurav Tripathy Portfolio',
 	description:
-		'A clean Astro theme for UI/UX designer portfolios, case studies, and modern product design presentations.',
+		'TBD',
 	// Set SITE_URL or PUBLIC_SITE_URL to keep canonicals, robots.txt, and the sitemap aligned in each environment.
 	siteUrl: normalizedSiteUrl,
 	email: 'sauravtripathy@yahoo.com',
