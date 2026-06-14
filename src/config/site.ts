@@ -25,7 +25,7 @@ const envSiteUrl = process.env.SITE_URL ?? process.env.PUBLIC_SITE_URL;
 const normalizedSiteUrl = (envSiteUrl || defaultSiteUrl).replace(/\/+$/, '');
 
 export const siteConfig: SiteConfig = {
-	name: 'Saurav',
+	name: 'Home',
 	title: 'Saurav | Astro Theme for UI/UX Designer Portfolios',
 	description:
 		'A clean Astro theme for UI/UX designer portfolios, case studies, and modern product design presentations.',
