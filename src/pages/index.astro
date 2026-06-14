@@ -1,487 +1,149 @@
 ---
-import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
-import { projects } from '../data/projects';
+
+const iconPaths = {
+  brain: 'M12 4.75c-1.38 0-2.5 1.12-2.5 2.5v.25H9a2.5 2.5 0 0 0-2.5 2.5v.25H6A2.5 2.5 0 0 0 3.5 12.75v.5A2.5 2.5 0 0 0 6 15.75h.5V16A2.5 2.5 0 0 0 9 18.5h.5v.25a2.5 2.5 0 0 0 5 0V18.5h.5A2.5 2.5 0 0 0 17.5 16v-.25h.5a2.5 2.5 0 0 0 2.5-2.5v-.5a2.5 2.5 0 0 0-2.5-2.5h-.5V10A2.5 2.5 0 0 0 15 7.5h-.5v-.25A2.5 2.5 0 0 0 12 4.75Zm0 0v14m-2.5-11.5H9m5.5 0h.5m-8.5 3H6m12 0h-.5m-11 5H6m12 0h-.5m-8 2.75H9m5.5 0h.5',
+  target: 'M12 21a9 9 0 1 0-9-9 9 9 0 0 0 9 9Zm0-4.5A4.5 4.5 0 1 0 7.5 12 4.5 4.5 0 0 0 12 16.5Zm0-3a1.5 1.5 0 1 0-1.5-1.5A1.5 1.5 0 0 0 12 13.5Zm4.5-7.5 3-3m-1 0h1v1',
+  cube: 'M12 3.75 4.5 7.875v8.25L12 20.25l7.5-4.125v-8.25L12 3.75Zm0 8.25 7.5-4.125M12 12 4.5 7.875M12 12v8.25',
+} as const;
+
+type IconName = keyof typeof iconPaths;
+
+const sections: {
+  title: string;
+  subtitle: string;
+  icon: IconName;
+  links: {
+    label: string;
+    href: string;
+  }[];
+}[] = [
+  {
+    title: 'Understand AI',
+    subtitle: 'Foundations, research, and evaluation.',
+    icon: 'brain',
+    links: [
+      { label: 'Transformer Basics: So What?', href: '/ai/transformer-basics' },
+      { label: 'AI Research Papers & Takeaways', href: '/ai/research-papers' },
+      { label: 'Responsible AI & LLM Evaluation', href: '/ai/responsible-ai-evaluation' },
+    ],
+  },
+  {
+    title: 'Apply to MarTech',
+    subtitle: 'Strategy, opportunity, and roadmap.',
+    icon: 'target',
+    links: [
+      { label: 'MarTech Landscape', href: '/martech/landscape' },
+      { label: 'MarTech AI Opportunity Map', href: '/martech/opportunity-map' },
+      { label: '2–3 Year MarTech AI Roadmap', href: '/martech/roadmap' },
+    ],
+  },
+  {
+    title: 'Build Proof',
+    subtitle: 'Working demos and applied AI products.',
+    icon: 'cube',
+    links: [
+      { label: 'MarTech Vendor Evaluation Agent', href: '/projects/vendor-evaluation-agent' },
+      { label: 'MarTech Content Evaluator Agent', href: '/projects/content-evaluator-agent' },
+      { label: 'Chat with Me', href: '/projects/chat-with-me' },
+    ],
+  },
+];
 ---
 
 <Layout
-	title="Maria | Astro Theme for UI/UX Designer Portfolios"
-	description="An Astro theme for UI/UX designer portfolios with case study pages, a polished homepage, and modern product design presentation."
+  title="Home | Saurav Tripathy"
+  description="AI strategy, MarTech transformation, and agentic AI portfolio by Saurav Tripathy."
 >
-	<a class="skip-link" href="#main-content">Skip to content</a>
+  <SiteHeader />
 
-	<div class="page">
-		<SiteHeader />
+  <main class="relative min-h-screen overflow-hidden bg-[#f8fbff] text-[#06142f]">
+    <!-- Background pattern -->
+    <div class="pointer-events-none absolute inset-0 overflow-hidden">
+      <div class="absolute right-[-12rem] top-32 h-[34rem] w-[52rem] rounded-full bg-blue-100/50 blur-3xl"></div>
+      <div class="absolute right-0 top-40 hidden h-[30rem] w-[46rem] opacity-40 lg:block">
+        <div class="h-full w-full bg-[radial-gradient(circle_at_center,#2563eb_1px,transparent_1.5px)] bg-[length:28px_28px]"></div>
+      </div>
+      <div class="absolute right-[-8rem] top-[21rem] hidden h-72 w-[58rem] rotate-[-8deg] rounded-[100%] border border-blue-200/60 lg:block"></div>
+      <div class="absolute right-[-10rem] top-[23rem] hidden h-72 w-[58rem] rotate-[-5deg] rounded-[100%] border border-blue-200/40 lg:block"></div>
+      <div class="absolute right-[-12rem] top-[25rem] hidden h-72 w-[58rem] rotate-[-2deg] rounded-[100%] border border-blue-200/30 lg:block"></div>
+    </div>
 
-		<main id="main-content">
-			<section class="hero" id="top">
-				<div class="hero-copy">
-					<h1 class="display-title">Hi, I'm Maria. I design digital products that actually make sense.</h1>
-					<p class="hero-text">
-						Ten-plus years helping teams turn messy problems into clear, useful experiences.
-						Corporations, startups, scrappy independents: if there's a user confused
-						somewhere, I want to fix that.
-					</p>
-					<p class="hero-note" id="about">
-						I work best in the messy middle - where requirements are fuzzy, stakes are real,
-						and good design actually matters.
-					</p>
-				</div>
-			</section>
+    <section class="relative mx-auto max-w-7xl px-6 pb-20 pt-20 sm:px-8 lg:px-10 lg:pb-28 lg:pt-24">
+      <!-- Hero -->
+      <div class="max-w-5xl">
+        <p class="text-xl font-medium text-slate-600 sm:text-2xl">
+          Welcome to my portfolio.
+        </p>
 
-			<section class="projects" id="work">
-				<div class="projects-grid">
-					{
-						projects.map((project, index) => (
-							<a class="project-link" href={project.href}>
-								<article class={`project-card ${project.background}`}>
-									<div class="project-header">
-										<p class="project-name">{project.name}</p>
-									</div>
-									<h2 class="project-title">{project.title}</h2>
+        <h1 class="mt-7 max-w-5xl text-5xl font-semibold leading-[1.04] tracking-[-0.055em] text-[#06142f] sm:text-6xl lg:text-7xl">
+          I’m passionate about using AI to modernize enterprise processes by connecting strategic problem-solving, product thinking, and efficient execution.
+        </h1>
 
-									<div class={`project-visual ${project.variant}`}>
-										<Image
-											class={project.imageClass}
-											src={project.image}
-											alt={project.alt}
-											loading={index < 2 ? 'eager' : 'lazy'}
-											decoding="async"
-											widths={[480, 720, 960]}
-											sizes="(max-width: 980px) 100vw, 50vw"
-										/>
-									</div>
-								</article>
-							</a>
-						))
-					}
-				</div>
-			</section>
+        <p class="mt-7 text-xl font-medium text-slate-600 sm:text-2xl">
+          Have feedback or ideas? Get in touch.
+        </p>
+      </div>
 
-		</main>
-	</div>
+      <!-- Cards -->
+      <div class="mt-12 grid gap-7 lg:mt-16 lg:grid-cols-3">
+        {
+          sections.map((section) => (
+            <article class="group relative overflow-hidden rounded-3xl border border-blue-300/20 bg-gradient-to-br from-[#031943] via-[#073b8f] to-[#0059c8] p-8 shadow-2xl shadow-blue-950/20 transition duration-300 hover:-translate-y-1 hover:shadow-blue-950/30">
+              <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(96,165,250,0.35),transparent_32rem)]"></div>
+              <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#03112d]/80 to-transparent"></div>
+
+              <div class="relative">
+                <div class="flex h-16 w-16 items-center justify-center rounded-full border border-blue-300/35 bg-blue-500/10 text-blue-200">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="h-8 w-8"
+                    aria-hidden="true"
+                  >
+                    <path d={iconPaths[section.icon]} />
+                  </svg>
+                </div>
+
+                <h2 class="mt-8 text-4xl font-semibold tracking-[-0.04em] text-white">
+                  {section.title}
+                </h2>
+
+                <p class="mt-3 text-lg text-blue-100/85">
+                  {section.subtitle}
+                </p>
+
+                <div class="my-7 h-px w-full bg-blue-200/30"></div>
+
+                <div class="space-y-4">
+                  {section.links.map((link) => (
+                    <a
+                      href={link.href}
+                      class="flex items-center justify-between gap-4 rounded-2xl py-1 text-base font-medium text-white transition hover:text-blue-100"
+                    >
+                      <span class="flex items-center gap-4">
+                        <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-500/40 text-blue-100">
+                          →
+                        </span>
+                        <span>{link.label}</span>
+                      </span>
+
+                      <span class="text-2xl leading-none text-blue-100/70 transition group-hover:translate-x-1">
+                        ›
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+  </main>
 </Layout>
-
-<style>
-	.page {
-		position: relative;
-		width: min(calc(100% - 3rem), 78rem);
-		margin: 0 auto;
-		padding: 1.25rem 0 5rem;
-	}
-
-	.eyebrow,
-	.project-name {
-		font-family: var(--font-mono);
-		font-size: 0.82rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-		line-height: 1.4;
-		text-transform: uppercase;
-	}
-
-	.hero {
-		padding: 7rem 0 6.5rem;
-	}
-
-	.hero-copy {
-		width: 100%;
-		max-width: 100%;
-	}
-
-	.eyebrow,
-	.project-name {
-		margin: 0;
-		color: var(--muted-foreground);
-		font-style: normal;
-	}
-
-	.project-card .project-name {
-		color: rgba(23, 23, 23, 0.72);
-	}
-
-	.project-card h2 {
-		color: #171717;
-	}
-
-	h1,
-	h2,
-	h3 {
-		margin: 0;
-		font-weight: 800;
-		letter-spacing: -0.05em;
-		color: var(--foreground);
-	}
-
-	.hero-text,
-	.hero-note,
-	blockquote,
-	.footer-note p,
-	.footer-note a {
-		font-size: 1.2rem;
-		line-height: 1.55;
-	}
-
-	.hero-text {
-		max-width: 38rem;
-		margin: 1.5rem 0 0;
-	}
-
-	.hero-note {
-		max-width: 40rem;
-		margin: 1rem 0 0;
-		color: var(--muted-foreground);
-		font-style: italic;
-	}
-
-	.projects-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 2rem;
-	}
-
-	.project-link {
-		display: block;
-		color: inherit;
-		text-decoration: none;
-	}
-
-	.project-link:hover,
-	.project-link:focus-visible,
-	.project-link:visited,
-	.project-link:active {
-		color: inherit;
-		text-decoration: none;
-	}
-
-	.project-card {
-		display: grid;
-		gap: 1.5rem;
-		padding: 1.5rem;
-		border-radius: 1.35rem;
-		overflow: hidden;
-		transition:
-			transform 140ms ease,
-			box-shadow 140ms ease;
-	}
-
-	.project-link:hover .project-card,
-	.project-link:focus-visible .project-card {
-		transform: translateY(-4px);
-		box-shadow: var(--shadow-soft);
-	}
-
-	.project-link:focus-visible {
-		outline-offset: 6px;
-	}
-
-	.project-card.lime {
-		background: #dbff63;
-	}
-
-	.project-card.cyan {
-		background: #91e6ee;
-	}
-
-	.project-card.lavender {
-		background: #c5baf9;
-	}
-
-	.project-card.mint {
-		background: #78f1cf;
-	}
-
-	.project-header {
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-	}
-
-	h2 {
-		font-size: clamp(1.85rem, 2.4vw, 2.35rem);
-		line-height: 1.04;
-	}
-
-	.project-title {
-		max-width: none;
-		width: 100%;
-		font-size: clamp(1.45rem, 1.75vw, 1.9rem);
-		line-height: 1.16;
-		letter-spacing: -0.04em;
-		text-wrap: pretty;
-	}
-
-	.project-visual {
-		position: relative;
-		height: 17rem;
-		display: grid;
-		align-items: end;
-		justify-items: center;
-		overflow: hidden;
-	}
-
-	.project-preview-image {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		object-position: center top;
-		border-radius: 1rem;
-		box-shadow: var(--shadow-medium);
-	}
-
-	.project-visual.split {
-		grid-template-columns: 8rem 1fr;
-		gap: 1rem;
-		align-items: end;
-	}
-
-	.project-visual.split .project-preview-image {
-		grid-column: 1 / -1;
-	}
-
-	.ui-window,
-	.ui-phone,
-	.ui-board {
-		background: var(--card);
-		border: 1.5px solid color-mix(in srgb, var(--foreground) 10%, transparent);
-		box-shadow: var(--shadow-medium);
-	}
-
-	.ui-window {
-		width: 100%;
-		height: 13.75rem;
-		border-radius: 0.95rem;
-		overflow: hidden;
-	}
-
-	.ui-window.compact {
-		height: 13rem;
-	}
-
-	.ui-topbar {
-		height: 1rem;
-		background: color-mix(in srgb, var(--foreground) 86%, #2f3640 14%);
-	}
-
-	.ui-window-body {
-		display: grid;
-		grid-template-columns: 5rem 1fr;
-		height: calc(100% - 1rem);
-	}
-
-	.ui-column {
-		background: color-mix(in srgb, var(--card) 72%, var(--background) 28%);
-		border-right: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.ui-content,
-	.ui-content.tight {
-		padding: 0.9rem;
-		display: grid;
-		align-content: start;
-		gap: 0.65rem;
-	}
-
-	.ui-line,
-	.ui-panel,
-	.ui-phone-card,
-	.ui-photo,
-	.ui-board-card,
-	.ui-table-row,
-	.ui-search {
-		border-radius: 0.7rem;
-	}
-
-	.ui-line {
-		height: 0.8rem;
-		background: color-mix(in srgb, var(--border) 85%, var(--background) 15%);
-	}
-
-	.ui-line.short {
-		width: 56%;
-	}
-
-	.ui-panel.large {
-		height: 4.8rem;
-		background: color-mix(in srgb, var(--muted) 60%, var(--card) 40%);
-		border: 1px solid color-mix(in srgb, var(--border) 90%, var(--background) 10%);
-	}
-
-	.ui-panel-row {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 0.7rem;
-	}
-
-	.ui-panel {
-		height: 3.4rem;
-		background: color-mix(in srgb, var(--muted) 72%, var(--card) 28%);
-		border: 1px solid color-mix(in srgb, var(--border) 90%, var(--background) 10%);
-	}
-
-	.ui-phone {
-		width: 7.25rem;
-		height: 13rem;
-		padding: 0.65rem 0.55rem;
-		border-radius: 1.2rem;
-		display: grid;
-		align-content: start;
-		gap: 0.45rem;
-	}
-
-	.ui-phone.tall {
-		width: 7.5rem;
-		height: 14.3rem;
-	}
-
-	.ui-phone-notch {
-		width: 2.4rem;
-		height: 0.45rem;
-		margin: 0 auto 0.2rem;
-		border-radius: 999px;
-		background: color-mix(in srgb, var(--foreground) 92%, #232323 8%);
-	}
-
-	.ui-phone-line {
-		height: 0.68rem;
-		background: color-mix(in srgb, var(--border) 76%, var(--background) 24%);
-	}
-
-	.ui-phone-line.short {
-		width: 60%;
-	}
-
-	.ui-phone-card {
-		height: 2.35rem;
-		background: color-mix(in srgb, var(--muted) 52%, var(--card) 48%);
-		border: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.ui-phone-card.slim {
-		height: 1.5rem;
-	}
-
-	.ui-photo {
-		height: 4.6rem;
-		background: linear-gradient(135deg, #dce7f5 0%, #f5dcc9 100%);
-		border: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.phones {
-		display: flex;
-		gap: 0.8rem;
-		align-items: end;
-		justify-content: center;
-	}
-
-	.ui-table-row {
-		height: 1.6rem;
-		background: color-mix(in srgb, var(--muted) 56%, var(--card) 44%);
-		border: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.ui-board {
-		width: 100%;
-		height: 14.5rem;
-		padding: 0.9rem;
-		border-radius: 1rem;
-		display: grid;
-		gap: 0.8rem;
-	}
-
-	.ui-board-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 0.8rem;
-	}
-
-	.ui-search {
-		height: 1.45rem;
-		flex: 1;
-		background: color-mix(in srgb, var(--muted) 56%, var(--card) 44%);
-		border: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.ui-avatar {
-		width: 1.5rem;
-		height: 1.5rem;
-		border-radius: 50%;
-		background: color-mix(in srgb, var(--border) 84%, var(--background) 16%);
-	}
-
-	.ui-board-grid {
-		display: grid;
-		grid-template-columns: 1.2fr 1fr 1fr;
-		gap: 0.7rem;
-		height: 100%;
-	}
-
-	.ui-board-card {
-		min-height: 4rem;
-		background: color-mix(in srgb, var(--muted) 52%, var(--card) 48%);
-		border: 1px solid color-mix(in srgb, var(--border) 88%, var(--background) 12%);
-	}
-
-	.ui-board-card.feature {
-		grid-row: span 2;
-	}
-
-	@media (max-width: 980px) {
-		.projects-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	@media (max-width: 720px) {
-		.page {
-			width: min(calc(100% - 1.5rem), 78rem);
-			padding-top: 1rem;
-		}
-
-		.hero {
-			padding: 4rem 0 4.5rem;
-		}
-
-		.hero-text,
-		.hero-note {
-			font-size: 1.05rem;
-		}
-
-		.project-card {
-			padding: 1.25rem;
-			border-radius: 1.15rem;
-		}
-
-		.project-title {
-			min-height: auto;
-		}
-
-		.project-visual {
-			height: auto;
-			overflow: visible;
-			align-items: start;
-		}
-
-		.project-visual.split {
-			grid-template-columns: 6.5rem 1fr;
-		}
-
-		.project-preview-image {
-			height: auto;
-			object-fit: initial;
-			object-position: initial;
-		}
-
-		.ui-phone,
-		.ui-phone.tall {
-			width: 6.3rem;
-			height: 12.3rem;
-		}
-
-		.desktop-hide-small {
-			display: none;
-		}
-	}
-</style>
