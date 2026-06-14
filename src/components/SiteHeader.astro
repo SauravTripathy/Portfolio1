@@ -1,11 +1,38 @@
 ---
 const currentPath = Astro.url.pathname || '/';
 
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/ai', label: 'AI' },
-  { href: '/martech', label: 'MarTech' },
-  { href: '/projects', label: 'Projects' },
+const navItems = [
+  {
+    href: '/',
+    label: 'Home',
+  },
+  {
+    href: '/ai',
+    label: 'AI',
+    children: [
+      { label: 'Transformer Basics', href: '/ai/transformer-basics' },
+      { label: 'Key AI Research Papers', href: '/ai/research-papers' },
+      { label: 'AI Solution Types', href: '/ai/solution-types' },
+    ],
+  },
+  {
+    href: '/martech',
+    label: 'MarTech',
+    children: [
+      { label: 'MarTech 2026 Landscape', href: '/martech/landscape-2026' },
+      { label: 'MarTech AI Opportunity', href: '/martech/ai-opportunity' },
+      { label: 'MarTech AI Value Creation', href: '/martech/value-creation' },
+    ],
+  },
+  {
+    href: '/projects',
+    label: 'Projects',
+    children: [
+      { label: 'MarTech Vendor Eval Agent', href: '/projects/vendor-evaluation-agent' },
+      { label: 'MarTech Content Eval Agent', href: '/projects/content-evaluator-agent' },
+      { label: 'Chat with Me', href: '/projects/chat-with-me' },
+    ],
+  },
 ];
 
 const normalizePath = (path: string) =>
@@ -25,16 +52,49 @@ const isActive = (href: string) => {
       class="flex items-center justify-center gap-12 text-lg font-medium text-[#06142f]"
       aria-label="Primary navigation"
     >
-      {navLinks.map((link) => (
-        <a
-          href={link.href}
-          aria-current={isActive(link.href) ? 'page' : undefined}
-          class={`transition hover:text-blue-600 ${
-            isActive(link.href) ? 'text-blue-700' : 'text-[#06142f]'
-          }`}
-        >
-          {link.label}
-        </a>
+      {navItems.map((item) => (
+        item.children ? (
+          <div class="group relative">
+            <a
+              href={item.href}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+              class={`inline-flex items-center gap-2 py-7 transition hover:text-blue-600 ${
+                isActive(item.href) ? 'text-blue-700' : 'text-[#06142f]'
+              }`}
+            >
+              {item.label}
+              <span class="text-sm transition group-hover:rotate-180">⌄</span>
+            </a>
+
+            <div
+              class="invisible absolute left-1/2 top-full w-80 -translate-x-1/2 translate-y-2 rounded-2xl border border-blue-100 bg-white p-3 opacity-0 shadow-xl shadow-blue-950/10 transition duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100"
+            >
+              <div class="space-y-1">
+                {item.children.map((child) => (
+                  <a
+                    href={child.href}
+                    class="flex items-center gap-3 rounded-xl px-4 py-3 text-base text-slate-700 transition hover:bg-blue-50 hover:text-blue-700"
+                  >
+                    <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm text-blue-700">
+                      →
+                    </span>
+                    <span>{child.label}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <a
+            href={item.href}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+            class={`py-7 transition hover:text-blue-600 ${
+              isActive(item.href) ? 'text-blue-700' : 'text-[#06142f]'
+            }`}
+          >
+            {item.label}
+          </a>
+        )
       ))}
     </nav>
   </div>
