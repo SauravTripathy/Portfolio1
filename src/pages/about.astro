@@ -1,16 +1,488 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
+
+const tenets = [
+  {
+    title: 'Customer centricity',
+    icon: 'M12 21s-7-4.35-7-10a4.1 4.1 0 0 1 7-2.9A4.1 4.1 0 0 1 19 11c0 5.65-7 10-7 10Z',
+  },
+  {
+    title: 'Structured problem solving',
+    icon: 'M8 3h8v5h5v8h-5v5H8v-5H3V8h5V3Z',
+  },
+  {
+    title: 'Build for tomorrow',
+    icon: 'M12 21a9 9 0 1 0-9-9 9 9 0 0 0 9 9Zm0-4.5A4.5 4.5 0 1 0 7.5 12 4.5 4.5 0 0 0 12 16.5Zm0-3a1.5 1.5 0 1 0-1.5-1.5A1.5 1.5 0 0 0 12 13.5Zm4.5-7.5 3-3m-1 0h1v1',
+  },
+  {
+    title: 'Next Gen Tech',
+    icon: 'M9 2h6v3h4v4h3v6h-3v4h-4v3H9v-3H5v-4H2V9h3V5h4V2Zm1 7v6h4V9h-4Z',
+  },
+  {
+    title: 'Bias for action',
+    icon: 'M12 2 4 22l8-4 8 4-8-20Zm0 4.8 3.6 10.2-3.6-1.8-3.6 1.8L12 6.8Z',
+  },
+];
+
+const background = [
+  {
+    title: 'Digital Transformation',
+    text: 'Automated high volume, manual processes, reduced costs, impoved operational efficiency',
+    icon: 'M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm-8 0c1.66 0 3-1.34 3-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3Zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13Zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5Z',
+  },
+  {
+    title: 'Product Management',
+    text: 'Improved customer engagement, elevated customer journeys and customer experience',
+    icon: 'M12 2 3.5 6.75v10.5L12 22l8.5-4.75V6.75L12 2Zm0 2.3 5.9 3.3L12 10.9 6.1 7.6 12 4.3Zm-6.5 5 5.5 3.1v6.4l-5.5-3.1V9.3Zm13 0v6.4L13 18.8v-6.4l5.5-3.1Z',
+  },
+  {
+    title: 'Sales Strategy',
+    text: 'Established compliant onboarding and payment processes, crafted acquisition strategy for efficient growth',
+    icon: 'M4 19h16v2H4v-2Zm2-2h3V9H6v8Zm5 0h3V5h-3v12Zm5 0h3v-7h-3v7ZM4 4h2v2H4V4Zm14 0h2v2h-2V4Z',
+  },
+  {
+    title: 'Analytics & AI',
+    text: 'Used data to inform sales and marketing strategies, reduced data processing time, built ML models to reduce costs',
+    icon: 'M11 2v20a10 10 0 1 1 10-10h-8V2h-2Zm4 0v6h6a8 8 0 0 0-6-6Z',
+  },
+];
 ---
 
-<Layout title="About | Saurav Tripathy" description="About Saurav Tripathy">
+<Layout
+  title="About | Saurav Tripathy"
+  description="About Saurav Tripathy — product and strategy professional focused on AI, analytics, product management, and digital transformation."
+  showFooterCta={false}
+>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <SiteHeader />
 
-  <main class="min-h-screen bg-[#f8fbff] px-6 py-20 text-[#06142f]">
-    <section class="mx-auto max-w-5xl">
-      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-700">About</p>
-      <h1 class="mt-4 text-5xl font-semibold tracking-[-0.04em]">About</h1>
-      <p class="mt-6 text-xl text-slate-600">This page is under construction.</p>
+  <main id="main-content" class="about-page">
+    <section class="about-shell">
+      <aside class="profile-card" aria-label="Profile summary">
+        <img
+          class="profile-photo"
+          src="/saurav-headshot.png"
+          alt="Saurav Tripathy"
+          loading="eager"
+        />
+
+        <div class="profile-heading">
+          <h1>Saurav Tripathy</h1>
+              </div>
+
+        <div class="profile-actions">
+          <a class="button button-primary" href="/Saurav-Tripathy-CV.pdf" download>
+            <span aria-hidden="true">↓</span>
+            Download CV
+          </a>
+
+          <a class="button" href="/book-time-with-me">
+            <span aria-hidden="true">□</span>
+            Book time with me
+          </a>
+
+          <a class="button" href="/projects/chat-with-me">
+            <span aria-hidden="true">○</span>
+            Chat with me!
+          </a>
+        </div>
+
+        <div class="contact-list" aria-label="Contact details">
+          <p>📍 London, UK</p>
+          <p>✉️ sauravtripathy@yahoo.com</p>
+          <p>☎️ +44 737 539 2330</p>
+        </div>
+      </aside>
+
+      <section class="about-content">
+        <section class="intro-section">
+          <p class="eyebrow">About me</p>
+          <h2>
+            Product and strategy professional focused on outcome-driven, AI-led enterprise transformations.
+          </h2>
+
+          <div class="intro-copy">
+            <p>
+              I’m a product and strategy professional with 10+ years of experience across digital transformation, product management, sales strategy, and marketing analytics.
+            </p>
+
+            <p>
+              I’m currently focused on leveraging AI to solve real business problems.
+            </p>
+
+            <p>
+              I hold an MBA from London Business School and an MS in Analytics from UT Austin.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="tenets-title">
+          <div class="section-heading">
+            <h2 id="tenets-title">Tenets</h2>
+          </div>
+
+          <div class="tenets-grid">
+            {tenets.map((tenet) => (
+              <article class="tenet-card">
+                <div class="icon-box">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d={tenet.icon}></path>
+                  </svg>
+                </div>
+                <h3>{tenet.title}</h3>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="background-title">
+          <div class="section-heading">
+            <h2 id="background-title">My background</h2>
+          </div>
+
+          <div class="background-grid">
+            {background.map((item) => (
+              <article class="background-card">
+                <div class="icon-circle">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d={item.icon}></path>
+                  </svg>
+                </div>
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      </section>
     </section>
   </main>
 </Layout>
+
+<style>
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
+  :global(body) {
+    background: #f8fbff;
+    color: #071633;
+  }
+
+  .skip-link {
+    position: absolute;
+    left: -999px;
+    top: 1rem;
+    z-index: 100;
+    border-radius: 999px;
+    background: #0b4dcc;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+  }
+
+  .skip-link:focus {
+    left: 1rem;
+  }
+
+  .about-page {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top left, rgba(30, 99, 255, 0.08), transparent 32rem),
+      linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    padding: 3rem 1.25rem 5rem;
+  }
+
+  .about-shell {
+    display: grid;
+    grid-template-columns: minmax(260px, 330px) minmax(0, 1fr);
+    gap: 2.5rem;
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .profile-card {
+    position: sticky;
+    top: 2rem;
+    border: 1px solid rgba(10, 45, 95, 0.12);
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+    padding: 2rem;
+  }
+
+  .profile-photo {
+    display: block;
+    width: 190px;
+    height: 190px;
+    margin: 0 auto 1.75rem;
+    border: 6px solid #ffffff;
+    border-radius: 999px;
+    object-fit: cover;
+    box-shadow: 0 14px 35px rgba(15, 23, 42, 0.16);
+  }
+
+  .profile-heading {
+    text-align: center;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid rgba(10, 45, 95, 0.12);
+  }
+
+  .profile-heading h1 {
+    margin: 0;
+    color: #071633;
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+
+  .profile-heading p {
+    margin: 0.65rem 0 0;
+    color: #0b4dcc;
+    font-weight: 800;
+    font-size: 1.05rem;
+  }
+
+  .profile-actions {
+    display: grid;
+    gap: 0.9rem;
+    margin: 1.75rem 0;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid rgba(10, 45, 95, 0.24);
+    border-radius: 0.85rem;
+    background: #ffffff;
+    color: #073075;
+    padding: 0.95rem 1.1rem;
+    text-decoration: none;
+    font-weight: 800;
+    transition:
+      transform 160ms ease,
+      box-shadow 160ms ease,
+      border-color 160ms ease;
+  }
+
+  .button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(11, 77, 204, 0.5);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+  }
+
+  .button-primary {
+    background: linear-gradient(135deg, #0b4dcc, #073075);
+    color: #ffffff;
+    border-color: transparent;
+  }
+
+  .button span {
+    display: inline-grid;
+    place-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.35rem;
+    line-height: 1;
+  }
+
+  .contact-list {
+    display: grid;
+    gap: 0.85rem;
+    margin-top: 1.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(10, 45, 95, 0.12);
+    color: #1d2d4f;
+    font-size: 0.98rem;
+  }
+
+  .contact-list p {
+    margin: 0;
+  }
+
+  .about-content {
+    min-width: 0;
+  }
+
+  .intro-section {
+    padding: 0.75rem 0 2.2rem;
+  }
+
+  .eyebrow {
+    position: relative;
+    display: inline-block;
+    margin: 0 0 0.9rem;
+    color: #0b4dcc;
+    font-size: 0.95rem;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .eyebrow::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.6rem;
+    width: 3.75rem;
+    height: 3px;
+    border-radius: 999px;
+    background: #0b4dcc;
+  }
+
+  .intro-section h2 {
+    max-width: 900px;
+    margin: 1.6rem 0 1.4rem;
+    color: #071633;
+    font-size: clamp(1.6rem, 3vw, 2rem);
+    line-height: 1.02;
+    letter-spacing: -0.055em;
+  }
+
+  .intro-copy {
+    display: grid;
+    gap: 1.15rem;
+    max-width: 820px;
+    color: #17243f;
+    font-size: clamp(1.05rem, 2vw, 1.22rem);
+    line-height: 1.7;
+  }
+
+  .intro-copy p {
+    margin: 0;
+  }
+
+  .section-block {
+    padding: 2rem 0;
+    border-top: 1px solid rgba(10, 45, 95, 0.14);
+  }
+
+  .section-heading {
+    margin-bottom: 1.35rem;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    color: #071633;
+    font-size: clamp(1.85rem, 3vw, 2.35rem);
+    letter-spacing: -0.04em;
+  }
+
+  .tenets-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .tenet-card,
+  .background-card {
+    border: 1px solid rgba(10, 45, 95, 0.12);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
+  }
+
+  .tenet-card {
+    display: grid;
+    place-items: center;
+    min-height: 150px;
+    padding: 1.15rem 0.85rem;
+    text-align: center;
+  }
+
+  .tenet-card h3 {
+    margin: 0.7rem 0 0;
+    color: #071633;
+    font-size: 0.98rem;
+    line-height: 1.25;
+  }
+
+  .icon-box,
+  .icon-circle {
+    display: grid;
+    place-items: center;
+    color: #0b4dcc;
+  }
+
+  .icon-box {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 1rem;
+    background: rgba(11, 77, 204, 0.08);
+  }
+
+  .icon-circle {
+    width: 4.1rem;
+    height: 4.1rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #0b4dcc, #073075);
+    color: #ffffff;
+  }
+
+  svg {
+    width: 1.85rem;
+    height: 1.85rem;
+    fill: currentColor;
+  }
+
+  .background-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .background-card {
+    padding: 1.6rem;
+  }
+
+  .background-card h3 {
+    margin: 1.1rem 0 0.65rem;
+    color: #071633;
+    font-size: 1.25rem;
+    letter-spacing: -0.025em;
+  }
+
+  .background-card p {
+    margin: 0;
+    color: #203250;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 980px) {
+    .about-shell {
+      grid-template-columns: 1fr;
+    }
+
+    .profile-card {
+      position: static;
+    }
+
+    .tenets-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .about-page {
+      padding: 1.5rem 1rem 3rem;
+    }
+
+    .profile-card {
+      padding: 1.35rem;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+    }
+
+    .tenets-grid,
+    .background-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
