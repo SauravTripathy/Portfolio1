@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from './SiteHeader.astro';
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  description?: string;
+}
+
+const {
+  eyebrow,
+  title,
+  description = 'This page is under construction.',
+} = Astro.props;
+---
+
+<Layout title={`${title} | Saurav Tripathy`} description={description}>
+  <SiteHeader />
+
+  <main class="min-h-screen bg-[#f8fbff] px-6 py-20 text-[#06142f]">
+    <section class="mx-auto max-w-5xl">
+      <p class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-700">
+        {eyebrow}
+      </p>
+
+      <h1 class="mt-4 text-5xl font-semibold tracking-[-0.04em]">
+        {title}
+      </h1>
+
+      <p class="mt-6 text-xl text-slate-600">
+        {description}
+      </p>
+    </section>
+  </main>
+</Layout>
