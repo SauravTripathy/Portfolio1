@@ -15,6 +15,7 @@ export type SiteConfig = {
 	keywords: string[];
 	ogImage: string;
 	navLinks: SiteLink[];
+	extraPages: SiteLink[];
 	legalLinks: SiteLink[];
 	socialLinks: SiteLink[];
 };
@@ -48,6 +49,7 @@ export const siteConfig: SiteConfig = {
 		{ href: '/MarTech', label: 'MarTech' },
 		{ href: '/Projects', label: 'Projects' },
 	],
+	extraPages: [],
 		legalLinks: [
 		{ href: '/cookies', label: 'Cookies' },
 		{ href: '/privacy', label: 'Privacy' },
