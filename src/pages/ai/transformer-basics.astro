@@ -18,19 +18,27 @@ const transformerImage = '/transformer-architecture.png';
         AI Understanding
       </p>
 
-      <h1 class="mt-5 text-5xl font-semibold tracking-[-0.04em] sm:text-6xl">
+      <h1 class="mt-5 text-3xl font-semibold tracking-[-0.04em] sm:text-5xl">
         Transformer Basics
       </h1>
 
       <div class="mt-12 grid gap-8 lg:grid-cols-2 lg:items-stretch">
-        <!-- Left half: photo area -->
-        <div class="h-[560px] overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm lg:h-[680px]">
-          <img
-            src={transformerImage}
-            alt="Transformer architecture visual"
-            class="h-full w-full object-contain p-6"
-          />
-        </div>
+       
+         <!-- Left half: photo area -->
+          <div
+            class="h-[560px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm lg:h-[680px]"
+            data-full-image={transformerImage}
+            role="button"
+            tabindex="0"
+            aria-label="Open transformer architecture image at full size"
+            title="Double-click to open full-size image"
+          >
+            <img
+              src={transformerImage}
+              alt="Transformer architecture visual"
+              class="h-full w-full object-contain p-6"
+            />
+          </div>
 
         <!-- Right half: scrollable text box -->
         <article class="h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm scroll-box sm:p-10 lg:h-[680px]">
@@ -93,9 +101,88 @@ const transformerImage = '/transformer-architecture.png';
           </div>
         </article>
       </div>
+      <!-- Full-size image overlay -->
+      <div
+        id="image-lightbox"
+        class="fixed inset-0 z-50 hidden overflow-auto bg-black/90 p-8"
+        aria-hidden="true"
+      >
+        <button
+          id="close-lightbox"
+          type="button"
+          class="fixed right-6 top-6 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 shadow-lg"
+          aria-label="Close full-size image"
+        >
+          Esc / Close
+        </button>
+
+        <div class="flex min-h-full items-center justify-center">
+          <img
+            id="lightbox-image"
+            src=""
+            alt="Full-size transformer architecture visual"
+            class="max-w-none"
+          />
+        </div>
+      </div>
+
     </section>
   </main>
 </Layout>
+
+<script>
+  const imageBlock = document.querySelector('[data-full-image]');
+  const lightbox = document.querySelector('#image-lightbox');
+  const lightboxImage = document.querySelector('#lightbox-image');
+  const closeButton = document.querySelector('#close-lightbox');
+
+  const openLightbox = () => {
+    if (!(imageBlock instanceof HTMLElement)) return;
+    if (!(lightbox instanceof HTMLElement)) return;
+    if (!(lightboxImage instanceof HTMLImageElement)) return;
+
+    const imageUrl = imageBlock.dataset.fullImage;
+
+    if (!imageUrl) return;
+
+    lightboxImage.src = imageUrl;
+    lightbox.classList.remove('hidden');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    if (!(lightbox instanceof HTMLElement)) return;
+    if (!(lightboxImage instanceof HTMLImageElement)) return;
+
+    lightbox.classList.add('hidden');
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxImage.src = '';
+    document.body.style.overflow = '';
+  };
+
+  imageBlock?.addEventListener('click', openLightbox);
+
+  imageBlock?.addEventListener('keydown', (event) => {
+    if (event instanceof KeyboardEvent && event.key === 'Enter') {
+      openLightbox();
+    }
+  });
+
+  closeButton?.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeLightbox();
+    }
+  });
+
+  lightbox?.addEventListener('click', (event) => {
+    if (event.target === lightbox) {
+      closeLightbox();
+    }
+  });
+</script>
 
 <style>
   .scroll-box {
