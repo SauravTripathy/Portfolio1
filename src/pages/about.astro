@@ -2,22 +2,26 @@
 import Layout from '../layouts/Layout.astro';
 import SiteHeader from '../components/SiteHeader.astro';
 
+const linkedInUrl = 'https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/';
+const email = 'sauravtripathy@yahoo.com';
+const whatsappUrl = 'https://wa.me/15127580447';
+
 const tenets = [
   {
-    title: 'Customer Centricity',
+    title: 'Customer centricity',
     icon: 'M12 12a4 4 0 1 0-4-4 4 4 0 0 0 4 4Zm0 2c-4.42 0-8 2.24-8 5v1h10.2a5.5 5.5 0 0 1-.2-1.5c0-1.56.64-2.98 1.67-4A10.2 10.2 0 0 0 12 14Zm6.5 1.2c-1.16 0-2.1.62-2.6 1.48-.5-.86-1.44-1.48-2.6-1.48-1.5 0-2.8 1.2-2.8 2.75 0 2.5 5.4 5.55 5.4 5.55s5.4-3.05 5.4-5.55c0-1.55-1.3-2.75-2.8-2.75Z',
   },
   {
-    title: 'Structured Thinking',
+    title: 'Structured problem solving',
     icon: 'M8 3h8v5h5v8h-5v5H8v-5H3V8h5V3Z',
   },
   {
-    title: 'Long-term impact',
+    title: 'Long-term thinking',
     icon: 'M12 21a9 9 0 1 0-9-9 9 9 0 0 0 9 9Zm0-4.5A4.5 4.5 0 1 0 7.5 12 4.5 4.5 0 0 0 12 16.5Zm0-3a1.5 1.5 0 1 0-1.5-1.5A1.5 1.5 0 0 0 12 13.5Zm4.5-7.5 3-3m-1 0h1v1',
   },
   {
-    title: 'Next-Gen Tech & AI',
-    icon: 'M9 2h6v3h4v4h3v6h-3v4h-4v3H9v-3H5v-4H2V9h3V5h4V2Zm1 7v6h4V9h-4Z',
+    title: 'Next-Gen AI Solutions',
+    icon: 'M7 4h10a3 3 0 0 1 3 3v3h-2V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v3H4V7a3 3 0 0 1 3-3Zm11 10h2v3a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-3h2v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3ZM8 8h3v3H8V8Zm5 0h3v3h-3V8Zm-5 5h3v3H8v-3Zm5 0h3v3h-3v-3Z',
   },
   {
     title: 'Bias for Execution',
@@ -25,7 +29,7 @@ const tenets = [
   },
 ];
 
-const background = [
+const impactOverview = [
   {
     title: 'Digital Transformation',
     text: 'Automated high-volume manual processes, optimized workflows, reduced costs.',
@@ -69,17 +73,48 @@ const background = [
 
         <div class="profile-heading">
           <h1>Saurav Tripathy</h1>
-           </div>
 
-                  <div class="profile-actions">
+          <div class="profile-socials" aria-label="Contact links">
+            <a
+              class="profile-social-icon"
+              href={linkedInUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8h4V24h-4V8Zm7.5 0h3.84v2.18h.05c.53-1 1.84-2.18 3.8-2.18C19.75 8 20.5 10.67 20.5 14.14V24h-4v-8.75c0-2.09-.04-4.77-2.9-4.77-2.9 0-3.35 2.27-3.35 4.62V24h-4V8Z"></path>
+              </svg>
+            </a>
+
+            <a
+              class="profile-social-icon"
+              href={`mailto:${email}`}
+              aria-label="Email"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm8 9 8-5V6l-8 5-8-5v2l8 5Z"></path>
+              </svg>
+            </a>
+
+            <a
+              class="profile-social-icon"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="WhatsApp"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12.04 2a9.94 9.94 0 0 0-8.62 14.9L2 22l5.25-1.38A9.98 9.98 0 1 0 12.04 2Zm0 18.2a8.18 8.18 0 0 1-4.18-1.14l-.3-.18-3.12.82.84-3.04-.2-.31a8.2 8.2 0 1 1 6.96 3.85Zm4.5-6.14c-.25-.12-1.47-.72-1.7-.8-.23-.08-.4-.12-.56.12-.17.25-.65.8-.8.96-.15.17-.3.19-.55.07-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.38-1.73-.15-.25-.02-.38.11-.51.12-.11.25-.3.38-.45.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.03 2.6c.13.17 1.78 2.72 4.31 3.81.6.26 1.07.41 1.44.52.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29Z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="profile-actions">
           <a class="button button-primary" href="/Saurav-Tripathy-CV.pdf" download>
             <span aria-hidden="true">↓</span>
             Download CV
-          </a>
-
-          <a class="button" href="/book-time-with-me">
-            <span aria-hidden="true">□</span>
-            Book time with me
           </a>
 
           <a class="button" href="/projects/chat-with-me">
@@ -103,13 +138,6 @@ const background = [
               </article>
             ))}
           </div>
-        </div>
-
-        <div class="contact-list" aria-label="Contact details">
-
-          <p>📍 London, UK</p>
-          <p>✉️ sauravtripathy@yahoo.com</p>
-          <p>☎️ +44 737 539 2330</p>
         </div>
       </aside>
 
@@ -136,13 +164,13 @@ const background = [
           </div>
         </section>
 
-        <section class="section-block" aria-labelledby="background-title">
+        <section class="section-block" aria-labelledby="impact-title">
           <div class="section-heading">
-            <h2 id="background-title" class="section-title">Impact Overview</h2>
+            <h2 id="impact-title" class="section-title">Impact Overview</h2>
           </div>
 
           <div class="background-grid">
-            {background.map((item) => (
+            {impactOverview.map((item) => (
               <article class="background-card">
                 <div class="icon-circle">
                   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -226,14 +254,14 @@ const background = [
 
   .profile-heading {
     text-align: center;
-    padding-bottom: 1.75rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid rgba(10, 45, 95, 0.12);
   }
 
   .profile-heading h1 {
     margin: 0;
     color: #071633;
-    font-size: clamp(2rem, 4vw, 2.5rem);
+    font-size: clamp(2rem, 2vw, 2rem);
     line-height: 1.05;
     letter-spacing: -0.04em;
   }
@@ -245,64 +273,53 @@ const background = [
     font-size: 1.05rem;
   }
 
+  .profile-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.85rem;
+    margin-top: 1rem;
+  }
+
+  .profile-social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.35rem;
+    height: 2.35rem;
+    border: 1px solid rgba(10, 45, 95, 0.16);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #071633;
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease,
+      border-color 160ms ease,
+      background 160ms ease;
+  }
+
+  .profile-social-icon:hover {
+    transform: translateY(-2px);
+    color: #0b4dcc;
+    border-color: rgba(11, 77, 204, 0.45);
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+  }
+
+  .profile-social-icon svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    fill: currentColor;
+  }
+
   .profile-actions {
     display: grid;
     gap: 0.9rem;
     margin: 1.75rem 0;
   }
-
-  .sidebar-tenets {
-  margin: 1.75rem 0;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(10, 45, 95, 0.12);
-}
-
-.sidebar-tenets h2 {
-  margin: 0 0 1rem;
-  color: #0b4dcc;
-  font-size: 1.15rem;
-  line-height: 1.2;
-  font-weight: 900;
-  letter-spacing: -0.025em;
-}
-
-.sidebar-tenets-list {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.sidebar-tenet {
-  display: grid;
-  grid-template-columns: 2.4rem 1fr;
-  align-items: center;
-  gap: 0.75rem;
-  background: rgba(255, 255, 255, 0.78);
-  padding: 0.75rem;
-}
-
-.sidebar-tenet-icon {
-  display: grid;
-  place-items: center;
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 0.75rem;
-  background: rgba(11, 77, 204, 0.08);
-  color: #0b4dcc;
-}
-
-.sidebar-tenet-icon svg {
-  width: 1.25rem;
-  height: 1.25rem;
-  fill: currentColor;
-}
-
-.sidebar-tenet h3 {
-  margin: 0;
-  color: #071633;
-  font-size: 0.9rem;
-  line-height: 1.25;
-  font-weight: 800;
-}
 
   .button {
     display: flex;
@@ -342,18 +359,56 @@ const background = [
     line-height: 1;
   }
 
-  .contact-list {
-    display: grid;
-    gap: 0.85rem;
-    margin-top: 1.75rem;
+  .sidebar-tenets {
+    margin: 1.75rem 0 0;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(10, 45, 95, 0.12);
-    color: #1d2d4f;
-    font-size: 0.98rem;
   }
 
-  .contact-list p {
+  .sidebar-tenets h2 {
+    margin: 0 0 1rem;
+    color: #0b4dcc;
+    font-size: 1.15rem;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: -0.025em;
+  }
+
+  .sidebar-tenets-list {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .sidebar-tenet {
+    display: grid;
+    grid-template-columns: 2.4rem 1fr;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.35rem 0;
+  }
+
+  .sidebar-tenet-icon {
+    display: grid;
+    place-items: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 0.75rem;
+    background: rgba(11, 77, 204, 0.08);
+    color: #0b4dcc;
+  }
+
+  .sidebar-tenet-icon svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: currentColor;
+  }
+
+  .sidebar-tenet h3 {
     margin: 0;
+    color: #071633;
+    font-size: 0.9rem;
+    line-height: 1.25;
+    font-weight: 800;
   }
 
   .about-content {
@@ -377,7 +432,7 @@ const background = [
     max-width: 860px;
     margin: 1.2rem 0 1.3rem;
     color: #071633;
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.65rem, 2vw, 2rem);
     line-height: 1.18;
     font-weight: 850;
     letter-spacing: -0.035em;
@@ -405,63 +460,6 @@ const background = [
     margin-bottom: 1.35rem;
   }
 
-  .tenets-grid {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 1rem;
-  }
-
-  .tenet-card,
-  .background-card {
-    border: 1px solid rgba(10, 45, 95, 0.12);
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.82);
-    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
-  }
-
-  .tenet-card {
-    display: grid;
-    place-items: center;
-    min-height: 150px;
-    padding: 1.15rem 0.85rem;
-    text-align: center;
-  }
-
-  .tenet-card h3 {
-    margin: 0.7rem 0 0;
-    color: #071633;
-    font-size: 0.98rem;
-    line-height: 1.25;
-  }
-
-  .icon-box,
-  .icon-circle {
-    display: grid;
-    place-items: center;
-    color: #0b4dcc;
-  }
-
-  .icon-box {
-    width: 3.6rem;
-    height: 3.6rem;
-    border-radius: 1rem;
-    background: rgba(11, 77, 204, 0.08);
-  }
-
-  .icon-circle {
-    width: 4.1rem;
-    height: 4.1rem;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #0b4dcc, #073075);
-    color: #ffffff;
-  }
-
-  svg {
-    width: 1.85rem;
-    height: 1.85rem;
-    fill: currentColor;
-  }
-
   .background-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -469,7 +467,27 @@ const background = [
   }
 
   .background-card {
+    border: 1px solid rgba(10, 45, 95, 0.12);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.05);
     padding: 1.6rem;
+  }
+
+  .icon-circle {
+    display: grid;
+    place-items: center;
+    width: 4.1rem;
+    height: 4.1rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #0b4dcc, #073075);
+    color: #ffffff;
+  }
+
+  .icon-circle svg {
+    width: 1.85rem;
+    height: 1.85rem;
+    fill: currentColor;
   }
 
   .background-card h3 {
@@ -493,10 +511,6 @@ const background = [
 
     .profile-card {
       position: static;
-    }
-
-    .tenets-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
@@ -522,7 +536,6 @@ const background = [
       font-size: clamp(1.45rem, 7vw, 1.9rem);
     }
 
-    .tenets-grid,
     .background-grid {
       grid-template-columns: 1fr;
     }
