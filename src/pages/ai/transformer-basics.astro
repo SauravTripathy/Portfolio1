@@ -1,8 +1,141 @@
 ---
-import PlaceholderPage from '../../components/PlaceholderPage.astro';
+import Layout from '../../layouts/Layout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+
+const transformerImage = '/transformer-architecture.png'; 
 ---
 
-<PlaceholderPage
-  eyebrow="AI Understanding"
-  title="Transformer Basics"
-/>
+<Layout
+  title="Transformer Basics | Saurav Tripathy"
+  description="A beginner-friendly explanation of how transformer architecture works."
+  showFooterCta={false}
+>
+  <SiteHeader />
+
+  <main class="min-h-screen bg-[#f8fbff] px-6 py-16 text-[#06142f]">
+    <section class="mx-auto max-w-7xl">
+      <p class="text-sm font-semibold uppercase tracking-[0.28em] text-blue-700">
+        AI Understanding
+      </p>
+
+      <h1 class="mt-5 text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
+        Transformer Basics
+      </h1>
+
+      <div class="mt-12 grid gap-8 lg:grid-cols-2">
+        <!-- Left half: photo area -->
+        <div class="min-h-[520px] overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm">
+          {
+            transformerImage ? (
+              <img
+                src={transformerImage}
+                alt="Transformer architecture visual"
+                class="h-full w-full object-cover"
+              />
+            ) : (
+              <div class="flex h-full min-h-[520px] items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-700 p-10 text-center">
+                <div>
+                  <p class="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-100">
+                    Image placeholder
+                  </p>
+                  <p class="mt-4 text-3xl font-semibold tracking-[-0.03em] text-white">
+                    Transformer Architecture Photo
+                  </p>
+                  <p class="mt-4 max-w-md text-base leading-7 text-cyan-50/80">
+                    Upload your visual to the public/images folder and update the
+                    transformerImage path at the top of this file.
+                  </p>
+                </div>
+              </div>
+            )
+          }
+        </div>
+
+        <!-- Right half: scrollable text box -->
+        <article class="h-[520px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm scroll-box sm:p-10">
+          <p class="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
+            Simple explanation
+          </p>
+
+          <h2 class="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#06142f]">
+            What is a transformer?
+          </h2>
+
+          <div class="mt-6 space-y-6 text-lg leading-8 text-slate-700">
+            <p>
+              A transformer is the core architecture behind modern large language
+              models. It takes text, breaks it into smaller pieces called tokens,
+              turns those tokens into numbers, and then learns how each token
+              relates to the others.
+            </p>
+
+            <p>
+              The key idea is attention. Instead of reading words one by one like
+              older models, a transformer can look across the full sentence and
+              decide which words matter most for understanding the current word.
+            </p>
+
+            <p>
+              For example, in the sentence “The dog chased the ball because it was
+              excited,” the model needs to understand that “it” probably refers to
+              the dog. Attention helps the model make that connection.
+            </p>
+
+            <h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+              The basic flow
+            </h3>
+
+            <p>
+              First, text is split into tokens. Then each token is converted into an
+              embedding, which is just a vector of numbers. Positional information is
+              added so the model knows the order of the words.
+            </p>
+
+            <p>
+              The model then passes these embeddings through layers of attention and
+              feed-forward neural networks. Each layer refines the model’s
+              understanding of the sentence.
+            </p>
+
+            <p>
+              At the end, the model predicts the most likely next token. Repeating
+              this process again and again is how a model generates full responses.
+            </p>
+
+            <h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+              Why it matters
+            </h3>
+
+            <p>
+              Transformers made AI much better at language because they can capture
+              context, relationships, and meaning across long pieces of text. That is
+              why they power chatbots, coding assistants, summarization tools, search,
+              agents, and many modern AI applications.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .scroll-box {
+    scrollbar-width: thin;
+    scrollbar-color: #2563eb #e2e8f0;
+  }
+
+  .scroll-box::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .scroll-box::-webkit-scrollbar-track {
+    background: #e2e8f0;
+    border-radius: 999px;
+  }
+
+  .scroll-box::-webkit-scrollbar-thumb {
+    background: #2563eb;
+    border-radius: 999px;
+  }
+</style>
