@@ -44,61 +44,191 @@ const transformerImage = '/transformer-architecture.png';
         <article class="h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm scroll-box sm:p-10 lg:h-[680px]">
         
           <h2 class="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[#06142f]">
-            What is a transformer?
+            Peek into inner transformer mechanisms
           </h2>
 
-          <div class="mt-6 space-y-4 text-lg leading-6 text-slate-700">
-            <p>
-              A transformer is the core architecture behind modern large language
-              models. It takes text, breaks it into smaller pieces called tokens,
-              turns those tokens into numbers, and then learns how each token
-              relates to the others.
+<div class="mt-6 space-y-4 text-lg leading-6 text-slate-700">
+<p>
+              AI tools and Large Language Models (LLMs) are everywhere. At the most basic level, we input text to an LLM (e.g., ChatGPT, Gemini, Claude, etc.) and it gives us back text answers. But what exactly is happening between our input and the output we get back? How is the input being changed by the LLM? Well, at the heart of an LLM lies the Transformer, the "T" in ChatGPT. Transformers are neural net architectures that power the LLMs. Let's dive in to see exactly what transformations (there are 18!) the input goes through to generate the output. I like to understand things at an intuitive level first, so this text will be very light on technicals.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+The basic flow
+</h3>
+<p>
+Let's first understand how an LLM is different from a Transformer. People often use the two words interchangeably, but they're not quite the same thing. The Transformer is the underlying design — the engine. An LLM is the whole vehicle: that engine scaled up massively and trained on enormous amounts of text until it gets good at predicting language. So every modern LLM is built on a Transformer, but the LLM is the bigger package that also includes the surrounding bits — like the part that turns your words into numbers and back again.
+At the most basic level, given an input text "Sun rises in the", the transformer predicts and generates the next word "East". A transformer essentially does three things:
+1.	Convert our input words into numbers
+2.	Transform those numbers so they carry more meaning
+3.	Convert those numbers back to text, which is sent back to us
+Everything below is just those three jobs, broken into 18 small steps.
             </p>
 
-            <p>
-              The key idea is attention. Instead of reading words one by one like
-              older models, a transformer can look across the full sentence and
-              decide which words matter most for understanding the current word.
-            </p>
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step One
+</h3>
 
-            <p>
-              For example, in the sentence “The dog chased the ball because it was
-              excited,” the model needs to understand that “it” probably refers to
-              the dog. Attention helps the model make that connection.
-            </p>
+<p>
+The LLM receives the input from the user: "Sun rises in the".
+</p>
 
-            <h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
-              The basic flow
-            </h3>
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+	Step Two
+</h3>
 
-            <p>
-              First, text is split into tokens. Then each token is converted into an
-              embedding, which is just a vector of numbers. Positional information is
-              added so the model knows the order of the words.
-            </p>
+<p>
+The LLM breaks down the sentence into smaller pieces called tokens. A token is a small piece of text — usually a word, part of a word, a punctuation mark, or a space-like unit. Roughly, one token is said to be about 0.75 of a word. So instead of handling the whole sentence at once, the model handles small pieces.
+</p>
 
-            <p>
-              The model then passes these embeddings through layers of attention and
-              feed-forward neural networks. Each layer refines the model’s
-              understanding of the sentence.
-            </p>
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+	Step Three
+</h3>
 
-            <p>
-              At the end, the model predicts the most likely next token. Repeating
-              this process again and again is how a model generates full responses.
-            </p>
+<p>
+Each token (e.g., "Sun") is now converted to a token ID (e.g., 120), which is a number assigned to that token. The LLM does not deal with words; it deals with numbers. Think of it as the LLM having a giant dictionary where every token has its own ID.
+</p>
 
-            <h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
-              Why it matters
-            </h3>
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Four
+</h3>
 
-            <p>
-              Transformers made AI much better at language because they can capture
-              context, relationships, and meaning across long pieces of text. That is
-              why they power chatbots, coding assistants, summarization tools, search,
-              agents, and many modern AI applications.
-            </p>
-          </div>
+<p>
+A token ID is just a label — on its own it carries no meaning. The number 120 tells you nothing about "Sun". So the model swaps each ID for a list of numbers called a vector (or an "embedding"). Think of it as giving every token a location on a vast map of meaning, where tokens with similar meanings sit close together. "Sun" lands near "moon" and "star", and far away from "banana". Now the numbers actually capture relationships, not just labels.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Five
+</h3>
+
+<p>
+Word order matters. "Sun rises in the" means something very different from "the in rises Sun". But the model looks at all the tokens at once, so by itself it has no built-in sense of sequence. To fix this, it adds a second set of numbers that encode each token's position in the sentence. Now every token carries two things: what it means, and where it sits.
+</p>
+
+
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+
+</h3>
+
+<p>
+
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Six
+</h3>
+
+<p>
+This is where the real "thinking" happens. The numbers now pass through a Transformer block — and crucially, this block is repeated 12 times, each one stacked on top of the last. (The 12 blocks share the same structure, but each has learned its own settings.) Every pass lets the model build a slightly richer understanding of the sentence. Let's peek inside a single block — that's steps 7 to 14.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Seven
+</h3>
+
+<p>
+Before doing anything clever, the model tidies up the numbers, keeping them in a sensible, balanced range so the calculations stay stable. Think of it as straightening your desk before you start work.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Eight
+</h3>
+
+<p>
+This is the star of the show, and the real magic of Transformers: attention. Attention lets each token "look at" the other tokens and decide which ones matter for understanding it. To make sense of "the", the model might pay attention to "Sun" and "rises" to work out what's likely coming next. "Masked" means each token is only allowed to look backwards, at the words that came before it — which makes sense, since the whole goal is to predict what comes next. "Multi-head" simply means the model does this several times in parallel, with each "head" focusing on a different kind of relationship.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Nine
+</h3>
+
+<p>
+During training only, the model randomly ignores some of the numbers. It sounds counterproductive, but it stops the model from leaning too heavily on any single detail and helps it cope with new, unseen text — a bit like studying a topic from several angles instead of memorising one textbook.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Ten
+</h3>
+
+<p>
+The model takes the result of the attention step and adds it back to what it had just before that step. This "shortcut" keeps the original information from getting lost and makes these deep stacks far easier to train. Nothing important gets thrown away — new insights are simply layered on top.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Eleven
+</h3>
+
+<p>
+Another quick tidy-up of the numbers, exactly like Step Seven, to keep things stable before the next stage.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Twelve
+</h3>
+
+<p>
+Each token's numbers now pass through a small network that processes them further, helping the model mix and refine what it has picked up. This happens to each token individually.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Thirteen
+</h3>
+
+
+<p>
+The same idea as Step Nine — a little random "forgetting" during training to keep the model robust.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Fourteen
+</h3>
+
+<p>
+Just like Step Ten, the new result is added back to the running total, so useful information is preserved as we move along.
+And that's one full block. Remember — this whole sequence (Steps 7 to 14) repeats 12 times, with the output of one block flowing straight into the next.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Fifteen
+</h3>
+
+<p>
+After the final block, the numbers get one last tidy-up to make sure they're in good shape for the closing steps.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Sixteen
+</h3>
+
+<p>
+Now the model converts those numbers into a score for every possible token in its vocabulary. Each score is essentially how strongly the model believes that token should come next. In our example, "east" gets the highest score (4.3), comfortably ahead of "today", "west", and the rest.
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Seventeen
+</h3>
+<p>
+The model picks the winner. Often that's simply the highest-scoring token, but models can also "sample" — every so often choosing a slightly lower-scoring option to keep their answers varied and natural rather than robotic. Here, it picks "east".
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Step Eighteen
+</h3>
+<p>
+Finally, the chosen token is turned back into readable text and handed back to us: "Sun rises in the east".
+</p>
+
+<h3 class="pt-4 text-2xl font-semibold tracking-[-0.02em] text-[#06142f]">
+Subsequent Loops
+</h3>
+<p>
+One important thing to know: the model only ever generates a single token at a time. To write a full sentence or paragraph, it adds the new word to the input and runs the entire 18-step process again to predict the next token, and then again, and again, until the answer is complete.
+So the next time ChatGPT, Claude or Gemini replies to you, you'll know there's no real magic behind it — just your text turned into numbers, reshaped 18 steps (and 12 blocks) at a time to capture meaning, and then turned back into words. One token at a time. 
+</p>
+
+</div>
+
+
         </article>
       </div>
       <!-- Full-size image overlay -->
