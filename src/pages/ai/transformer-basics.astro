@@ -31,7 +31,7 @@ const transformerImage = '/transformer-architecture.png';
             role="button"
             tabindex="0"
             aria-label="Open transformer architecture image at full size"
-            title="Double-click to open full-size image"
+            title="Click to open full-size image"
           >
             <img
               src={transformerImage}
@@ -234,24 +234,19 @@ So the next time ChatGPT, Claude or Gemini replies to you, you'll know there's n
       <!-- Full-size image overlay -->
       <div
         id="image-lightbox"
-        class="fixed inset-0 z-50 hidden overflow-auto bg-black/90 p-8"
+        class="fixed inset-0 z-50 hidden cursor-zoom-out overflow-auto bg-black/90 p-8"
         aria-hidden="true"
+        role="button"
+        tabindex="0"
+        aria-label="Close full-size image and return to page"
+        title="Click to return to page"
       >
-        <button
-          id="close-lightbox"
-          type="button"
-          class="fixed right-6 top-6 rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 shadow-lg"
-          aria-label="Close full-size image"
-        >
-          Esc / Close
-        </button>
-
         <div class="flex min-h-full items-center justify-center">
           <img
             id="lightbox-image"
             src=""
             alt="Full-size transformer architecture visual"
-            class="max-w-none"
+            class="max-w-none cursor-zoom-out"
           />
         </div>
       </div>
@@ -260,11 +255,12 @@ So the next time ChatGPT, Claude or Gemini replies to you, you'll know there's n
   </main>
 </Layout>
 
+<!-- Script -->
+
 <script>
   const imageBlock = document.querySelector('[data-full-image]');
   const lightbox = document.querySelector('#image-lightbox');
   const lightboxImage = document.querySelector('#lightbox-image');
-  const closeButton = document.querySelector('#close-lightbox');
 
   const openLightbox = () => {
     if (!(imageBlock instanceof HTMLElement)) return;
@@ -299,16 +295,13 @@ So the next time ChatGPT, Claude or Gemini replies to you, you'll know there's n
     }
   });
 
-  closeButton?.addEventListener('click', closeLightbox);
+  lightbox?.addEventListener('click', closeLightbox);
 
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
-      closeLightbox();
-    }
-  });
-
-  lightbox?.addEventListener('click', (event) => {
-    if (event.target === lightbox) {
+  lightbox?.addEventListener('keydown', (event) => {
+    if (
+      event instanceof KeyboardEvent &&
+      (event.key === 'Enter' || event.key === ' ')
+    ) {
       closeLightbox();
     }
   });
