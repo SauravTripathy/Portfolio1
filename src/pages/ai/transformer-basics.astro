@@ -44,12 +44,12 @@ const transformerImage = '/transformer-architecture.png';
         <article class="h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm scroll-box sm:p-10 lg:h-[680px]">
         
           <h2 class="mt-4 text-xl font-semibold tracking-[-0.03em] text-[#06142f]">
-          A peek inside a Transformer
+          A peek under the hood
           </h2>
 
 <div class="mt-6 space-y-4 text-sm leading-6 text-slate-700">
 <p>
-Artificial intelligence (AI) tools and large language models (LLMs) are everywhere. Ever since my first conversation with ChatGPT, I've been fascinated by what happens behind the scenes: how does an LLM turn my input into a coherent response? Is there a human secretly typing away in the background? Can ChatGPT magically read my mind?
+Artificial intelligence (AI) tools and large language models (LLMs) are everywhere. Ever since my first conversation with ChatGPT, I've been fascinated by what happens behind the scenes: how does an LLM turn my input into a coherent response? Is there a human secretly typing away in the background? Can ChatGPT magically read my mind? <br><br> 
 These questions sent me down the path of exploring how LLMs work under the hood. But most explainers I found had the same problem: they were either too shallow to be satisfying or too technical to be approachable. This piece is my attempt to bridge that gap. The goal here is not to dive into machine learning theory or advanced AI concepts. Instead, I want to outline what actually happens to the text after you send it to an LLM, and why each step is necessary.
 </p>
 
@@ -57,11 +57,11 @@ These questions sent me down the path of exploring how LLMs work under the hood.
 Transformer vs LLM 
   </h3>
 <p>
-Machine learning has been around since the 1950s, and neural networks are one important type of machine learning model. In 2017, a new neural network architecture called the transformer — the “T” in ChatGPT — became the foundation for the modern LLMs we use today.
+Machine learning has been around since the 1950s, and neural networks are one important type of machine learning model. In 2017, a new neural network architecture called the <strong style="color: blue;">transformer</strong> — the “T” in ChatGPT — became the foundation for the modern LLMs we use today. <br><br>
 At their core, LLMs are prediction machines. More specifically, they predict the next token — a token might be a word, part of a word, a punctuation mark, or even a space. Given a block of text, the LLM converts this text to tokens and estimates which tokens are most likely to come next. Then it repeats that process again and again, generating sentences, paragraphs, and eventually full responses.
-So how is a transformer different from an LLM?
-First, think of a factory. Now imagine ChatGPT is the entire factory. Inside that factory are one or more trained machines or LLMs, such as GPT-5.5 or GPT-5.4. Each LLM is like a specialized production machine for language. At the heart of that LLM machine is the transformer: the neural network architecture that processes numbers and produces scores for what token might come next. 
-ChatGPT is hence the full factory—to function as a complete app, it must wrap the transformer-powered LLM machine with an assembly line of other vital components, including system prompts, safety layers, memory features, context handling, tool integrations, and the user interface.
+So how is a transformer different from an LLM? <br><br>
+First, think of a factory. Now imagine ChatGPT is the entire factory. Inside that factory are one or more trained machines or LLMs, such as GPT-5.5 or GPT-5.4. Each LLM is like a specialized production machine for language. At the heart of that LLM machine is the transformer: the neural network architecture that processes numbers and produces scores for what token might come next. <br><br> 
+ChatGPT is hence the full factory—to function as a complete <strong style="color: blue;">app</strong>, it must wrap the transformer-powered LLM machine with an assembly line of other vital components, including system prompts, safety layers, memory features, context handling, tool integrations, and the user interface.
 
 </p>
 
@@ -94,7 +94,7 @@ You type your prompt – 'Sun rises in the' – into the LLM chat box and hit se
 </h3>
 
 <p>
-First, the tokenizer springs into action. The tokenizer is a text preprocessing component used with the LLM. It breaks down the sentence into smaller pieces called tokens. A token is a small piece of text — usually a word, part of a word, a punctuation mark, or a space-like unit. Roughly, one token is said to be about three-quarters of a word.
+First, the tokenizer springs into action. The tokenizer is a text preprocessing component used with the LLM. It breaks down the sentence into smaller pieces called <strong style="color: blue;">tokens</strong>. A token is a small piece of text — usually a word, part of a word, a punctuation mark, or a space-like unit. Roughly, one token is said to be about three-quarters of a word.
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
@@ -102,7 +102,7 @@ Step 3: Tokens to Token IDs
 </h3>
 
 <p>
-Each token (e.g., "Sun") is then converted to a token ID (e.g., 3457), which is a number assigned to that token by the tokenizer. The transformer does not deal with words, rather it deals with numbers. Every token in the tokenizer’s dictionary has its own unique token ID. Size of the LLM tokenizer dictionary is decided by the LLM builders.
+Each token (e.g., "Sun") is then converted to a <strong style="color: blue;">token ID</strong> (e.g., 3457), which is a number assigned to that token by the tokenizer. The transformer does not deal with words, rather it deals with numbers. Every token in the tokenizer’s dictionary has its own unique token ID. Size of the LLM tokenizer dictionary is decided by the LLM builders.
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
@@ -110,12 +110,16 @@ Step 4: Representing meaning with numbers
 </h3>
 
 <p>
-A token ID is just a label. By itself, it does not carry any meaning. The number 3457 does not tell the model anything about the idea of "Sun"; it simply tells the model where to look.
-The LLM uses that token ID to look up a row in a large table of numbers called the embedding matrix. You can think of this matrix as a giant lookup table. Every token in the tokenizer’s vocabulary has its own row, and each row contains a list of numbers. That list of numbers is called a token embedding or token vector. During training, the LLM learns the numbers in this embedding matrix. Over time, tokens that appear in similar contexts tend to get similar vectors. For example, the vector for "Sun" may end up closer to the vector for "moon" than to the vector for "banana".
+A token ID is just a label. By itself, it does not carry any meaning. The number 3457 does not tell the model anything about the idea of "Sun"; it simply tells the model where to look. <br><br>
+The LLM uses that token ID to look up a row in a large table of numbers called the embedding matrix. You can think of this matrix as a giant lookup table. Every token in the tokenizer’s vocabulary has its own row, and each row contains a list of numbers. That list of numbers is called a token embedding or <strong style="color: blue;">token vector</strong>. During training, the LLM learns the numbers in this embedding matrix. Over time, tokens that appear in similar contexts tend to get similar vectors. For example, the vector for "Sun" may end up closer to the vector for "moon" than to the vector for "banana".
+<br><br>
 So when the model sees token ID 3457, it does not treat 3457 as meaningful on its own. It uses 3457 like an address, retrieves the matching token vector, and sends that vector into the transformer for further processing.
-One important detail: the token vector is only the starting numerical representation of the token. As it passes through the transformer layers, its values are updated based on the surrounding words. If the same token appears twice in the same input sequence, both occurrences usually start with the same token embedding. But after the transformer layers process the sequence, each occurrence can end up with a different contextual meaning because the surrounding words are different.
+<br><br>
+One important detail: the token vector is only the <strong style="color: blue;">starting numerical representation</strong> of the token. As it passes through the transformer layers, its values are updated based on the surrounding words. If the same token appears twice in the same input sequence, both occurrences usually start with the same token embedding. But after the transformer layers process the sequence, each occurrence can end up with a different contextual meaning because the surrounding words are different.
+<br><br>
 For example: I sat by the bank. I saw a duck on the water. Then, I deposited money in the bank. I then opened a new account.
-In this sequence, the word "bank" appears twice. Each "bank" occurrence would usually start with the same initial token vector, because it is the same token. But after the transformer processes the full sequence, each "bank" token vector will end up with a different contextual meaning. So the first “bank” is likely a riverbank because of “duck” and “water” while the second "bank" is likely financial bank, because of "deposited money" and "account". This is one of the key jobs of the transformer: it turns a token’s basic starting meaning into a richer, context-aware meaning.
+<br><br>
+In this sequence, the word "bank" appears twice. Each "bank" occurrence would usually start with the same initial token vector, because it is the same token. But after the transformer processes the full sequence, each "bank" token vector will end up with a different contextual meaning. So the first “bank” is likely a riverbank because of “duck” and “water” while the second "bank" is likely financial bank, because of "deposited money" and "account". This is one of the key jobs of the transformer: it turns a token’s basic starting meaning into a richer, <strong style="color: blue;">context-aware</strong> meaning.
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
@@ -132,14 +136,21 @@ Step 6: Transformer Blocks
 </h3>
 
 <p>
-This is where the main computation happens. The original token vectors now pass through a stack of transformer blocks. In this example architecture (see figure on the left), there are 12 transformer blocks, that process token vectors one after another. The number of transformer blocks is decided by the model builders. All the transformer blocks have the same general structure, but each block has its own parameters or weights – these are internal numerical values learned during LLM training that control how each transformer block transforms the token vectors. As the token vectors move through the transformer layers, their values get updated becoming more contextual and more useful for predicting what token should come next. 
+This is where the main computation happens. The original token vectors now pass through a stack of transformer blocks. In this example architecture <strong style="color: blue;">(see figure on the left)</strong>, there are <strong style="color: blue;">12 transformer blocks</strong>, that process token vectors one after another. The number of transformer blocks is decided by the model builders. <br><br>All the transformer blocks have the same general structure, but each block has its own parameters or weights – these are internal numerical values learned during LLM training that control how each transformer block transforms the token vectors. As the token vectors move through the transformer layers, their values get updated becoming more contextual and more useful for predicting what token should come next. 
+<br><br>
 Here’s some background info that happens during LLM training and not in the current flow while the LLM is being used. During training, the LLM repeatedly sees examples like:
+<br><br>
 The sun rises in the ___
-It predicts a next token. Maybe at first it predicts something bad:
-The sun rises in the banana
+<br><br>
+LLM predicts a next token. Maybe at first it predicts something bad:
+<br><br>
+The sun rises in the banana.
+<br><br>
 The training process compares the LLM’s prediction with the actual next token in the training data: east
+<br><br>
 Then the LLM adjusts its internal weights slightly so that next time, the LLM is more likely to predict a better continuation. Over billions or trillions of examples, the LLM discovers that to predict text well, it must internally track certain patterns. Some of those patterns correspond to things we call grammar, tone, style, facts, etc. These patterns become encoded in the LLM’s learned weights and in the changing token vectors as they pass through the layers.
-Now let’s continue our journey and look inside one transformer block in Steps 7 to 12. In case this section feels slightly heavy— the big idea is that context gets added and refined, layer by layer.
+<br><br>
+Now let’s continue our journey and look inside <strong style="color: blue;">one transformer block</strong> in Steps 7 to 12. In case this section feels slightly heavy— the big idea is that context gets added and refined, layer by layer.
 
 </p>
 
@@ -148,7 +159,7 @@ Step 7: Transformer – stabilize numbers
 </h3>
 
 <p>
-In many transformer designs, before further calculation, the LLM normalizes the token vectors. Some numbers in the token vectors can be too high or too low. Normalization is a process of adjusting these numbers to a standardized scale so that the transformer can focus on extracting the meaning rather than reacting to how big or small the numbers are. 
+In many transformer designs, before further calculation, the LLM <strong style="color: blue;">normalizes</strong> the token vectors. Some numbers in the token vectors can be too high or too low. Normalization is a process of adjusting these numbers to a standardized scale so that the transformer can focus on extracting the meaning rather than reacting to how big or small the numbers are. 
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
@@ -156,14 +167,23 @@ Step 8: Transformer – attention mechanism
 </h3>
 
 <p>
-And now presenting - the star of the show: attention. 
+And now presenting - the star of the show: <strong style="color: blue;">attention</strong>. 
+<br><br>
 Attention is a mechanism which lets each input word (remember words are represented by token vectors at this point) "look at" other input words and determine which other words matter more to itself. Once the importance is determined, each word updates its values in the token vector. In our example, “Sun rises in the,” the final token “the” might determine that tokens like “Sun,” and “rises” are important in predicting the next token. So the token vector values for “the” will be updated in a way that is useful for predicting the next token.
-Masked means each token is only allowed to consider itself and the tokens that came before it. This matters because the LLM’s goal is to predict what comes next, so it should not be allowed to peek ahead. In our example, 
-"Sun" can only look at: 	"Sun" and not the words that come after, i.e., “rises”, “in”, “the”
-"rises" can only look at: 	"Sun rises"
-"in" can only look at: 		"Sun rises in"
-"the" can only look at: 	"Sun rises in the"
+<br><br>
+<strong style="color: blue;">Masked</strong> means each token is only allowed to consider itself and the tokens that came before it. This matters because the LLM’s goal is to predict what comes next, so it should not be allowed to peek ahead. In our example, 
+<br><br>
+"Sun" can only see "Sun" and not the words that come after, i.e., “rises”, “in”, “the”
+<br>
+"rises" can only see "Sun rises"
+<br>
+"in" can only see	"Sun rises in"
+<br>
+"the" can only see "Sun rises in the"
+<br><br>
 So the final token “the” has the fullest view of the sentence so far, which is why its updated token vector is especially important for predicting the next token.
+<br><br>
+<strong style="color: blue;">Multi-head</strong> simply means the LLM does this attention calculation several times in parallel, with each "head" focusing on different kinds of relationships such as nearby words, grammatical structure, repeated concepts, or longer-range dependencies. Calculations from parallel processing are then combined for each token vector. 
 
 </p>
 
@@ -196,7 +216,7 @@ Step 12: Transformer – retaining original values
 </h3>
 
 <p>
-New token vector values are added back to the values of token vectors at the end of Step 9, so useful information is preserved as we move along. And that's one full transformer block. Remember - this whole sequence (Steps 7 to 12) repeats 12 times, with the output of one transformer block flowing straight into the next.
+New token vector values are added back to the values of token vectors at the end of Step 9, so useful information is preserved as we move along. And that's one full transformer block. Remember - this whole sequence (Steps 7 to 12) <strong style="color: blue;">repeats 12 times</strong>, with the output of one transformer block flowing straight into the next.
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
@@ -223,7 +243,7 @@ The LLM picks the winner. Often that's simply the highest-scoring token, but LLM
 </p>
 
 <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
-Step 16: LLM output
+Step 16: LLM response
 </h3>
 
 <p>
@@ -235,22 +255,24 @@ Finally, the chosen token is converted back into readable text. The LLM then app
 Subsequent Loops
 </h3>
 <p>
-One important thing to know: the LLM generates only one token at a time. To write a full sentence or paragraph, it adds the newly chosen token to the text so far, then repeats the prediction process to choose the next token, and then the next token, and then the next.
-In practice, modern LLMs use shortcuts so they do not recalculate all the previous token information from scratch each time. But the basic idea remains the same: the response is built one token at a time. The loop continues until the LLM reaches a stopping point, predicts an end token, hits a length limit, or is stopped by the system.
+One important thing to know: the LLM generates only <strong style="color: blue;">one token at a time.</strong> <br><br> To write a full sentence or paragraph, it adds the newly chosen token to the text so far, then repeats the prediction process to choose the next token, and then the next token, and then the next.
+<br><br>
+In practice, modern LLMs use shortcuts so they do not recalculate all the previous token information from scratch each time. But the basic idea remains the same: the response is built one token at a time. The loop continues until the LLM reaches a stopping point, predicts an end token, hits a limit, or is stopped by the system.
+<br><br>
 So the next time ChatGPT, Claude, or Gemini replies to you, you’ll have a better sense of what is happening under the hood:
 </p>
 
 <ul class="list-disc list-inside space-y-2 pl-2">
     <li> Your text is broken into small pieces called tokens</li>
     <li> Each token is turned into a number the LLM can work with</li>
-    <li> Those numbers pass through transformer blocks and are updated based on context</li>
+    <li> These numbers pass through transformers and are updated based on context</li>
     <li> Using that context, the LLM scores possible next tokens</li>
-    <li> It picks one token, adds it to the response, and repeats the process</li>
-    <li> Finally, those tokens are converted back into readable text — giving you the reply you see</li>
+    <li> LLM picks one token, adds it to the response, and repeats the process</li>
+    <li> LLM converts these tokens back into readable text giving you the reply</li>
   </ul>
 
   <p>
-Not magic — just math, repeated one token at a time.
+    Not magic — just math, repeated one token at a time.
   </p>
 </div>
 
