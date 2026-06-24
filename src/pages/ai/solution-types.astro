@@ -1,6 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
+
+const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
 ---
 
 <Layout
@@ -20,12 +22,19 @@ import SiteHeader from '../../components/SiteHeader.astro';
         AI Solution Types
       </h1>
 
-      <!-- Same format as transformer-basics, but stacked vertically -->
+      <!-- Same structure as transformer-basics, but stacked vertically -->
       <div class="mt-12 grid gap-8">
-        <!-- Top panel: image area -->
-        <div class="h-[420px] overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm lg:h-[560px]">
+        <!-- Top panel: clickable image area -->
+        <div
+          class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+          data-full-image={solutionLandscapeImage}
+          role="button"
+          tabindex="0"
+          aria-label="Open generative AI solution landscape image at full size"
+          title="Click to expand image"
+        >
           <img
-            src="/GenAI_Solution_Landscape.PNG"
+            src={solutionLandscapeImage}
             alt="Generative AI solution landscape"
             class="h-full w-full object-contain p-4"
             loading="eager"
@@ -33,87 +42,153 @@ import SiteHeader from '../../components/SiteHeader.astro';
         </div>
 
         <!-- Bottom panel: scrollable text area -->
-        <article class="h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm scroll-box sm:p-10 lg:h-[680px]">
+        <article class="scroll-box h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10 lg:h-[680px]">
           <h2 class="mt-4 text-xl font-semibold tracking-[-0.03em] text-[#06142f]">
-            GenAI Solution Landscape: Why the Real Shift Is Not Model Improvement, but Solution Jumps  
+            Text
           </h2>
 
+          <div class="mt-6 space-y-4 text-sm leading-6 text-slate-700">
+            <p>
+              Add your explanation of AI solution types here.
+            </p>
 
             <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
               Example Section
             </h3>
 
             <p>
-              
+              This bottom panel is scrollable. Once your explanation becomes
+              longer than the panel height, users can scroll inside this card.
+            </p>
 
-The slide makes an important point: generative AI is no longer just about better frontier models. The real enterprise story is the expansion of AI solutions from simple user-facing chat tools to deeply embedded, automated, and increasingly autonomous systems. In other words, the market is moving from **AI as a tool people use** to **AI as infrastructure that changes how work gets done**.
+            <p>
+              You can use this area to explain the Generative AI solution
+              landscape, including chatbots, copilots, agents, RAG systems,
+              workflow automation, fine-tuned models, and custom AI applications.
+            </p>
 
-This distinction matters because each layer of the landscape represents a different “solution jump.” These jumps are not merely technical upgrades. They change who uses the AI, where it sits in the workflow, how much autonomy it has, what enterprise controls are needed, and how value is captured.
+            <p>
+              Replace this placeholder content with your actual writing. The
+              scroll behavior will stay the same.
+            </p>
 
-At the most basic level, **Assist** solutions give users direct access to a model. Chat interfaces such as ChatGPT, Gemini, or Claude allow employees to ask questions, summarize text, brainstorm, draft emails, or analyze information. The enterprise value here is broad but shallow. These tools can improve individual productivity, but they often sit outside core systems of record and depend heavily on the user’s ability to ask good questions. The AI assists the human, but the human still owns the task, the judgment, the workflow, and the final output.
+            <p>
+              Add more content here to test scrolling. The page itself keeps the
+              top image and bottom text box stacked vertically, while the bottom
+              card handles its own scrolling.
+            </p>
 
-The first major jump is from **chat interfaces to API access**. This shifts AI from a front-end productivity tool to a programmable capability. With APIs, developers can embed model intelligence into applications, workflows, and products. The model becomes a building block rather than a destination. For enterprises, this is a meaningful leap because it allows AI to be integrated into existing systems: CRM, servicing platforms, marketing tools, risk systems, knowledge bases, internal portals, and customer-facing applications. The implication is that AI strategy can no longer sit only with innovation teams. It starts to require engineering, architecture, product management, security, and procurement alignment.
+            <p>
+              This is useful when you want the image to act like a reference
+              diagram and the text panel to act like a detailed explanation area.
+            </p>
 
-The second jump is from **general-purpose AI to shaped assistants**. Custom assistants, such as Custom GPTs or enterprise copilots, narrow the model around a specific task, context, knowledge base, or user group. This is where AI begins to move from “helpful generalist” to “purpose-built support layer.” The assistant may have instructions, files, tools, and guardrails that make it more useful for a defined business problem. For example, a sales assistant may help reps prepare for client meetings, while a marketing assistant may help translate campaign briefs into audience hypotheses.
+            <p>
+              Keep writing as much as you need. The card will preserve the same
+              rounded, clean portfolio format.
+            </p>
 
-For enterprises, this stage introduces the first serious questions of ownership and maintenance. Who owns the assistant’s instructions? Who validates its answers? Who updates the source material? Who monitors usage and failure patterns? The value increases, but so does the need for lifecycle management. A badly maintained assistant becomes a polished but unreliable internal knowledge shortcut.
+            <p>
+              More placeholder text. More placeholder text. More placeholder text.
+              More placeholder text. More placeholder text.
+            </p>
 
-The next jump is from **standalone assistants to embedded AI-native applications and copilots**. This is a bigger shift because AI moves inside the software employees already use. Instead of asking a separate chatbot to help, the user receives AI support inside Salesforce, Microsoft Office, ServiceNow, Adobe, internal tools, or AI-native applications such as Cursor or Perplexity. The AI is no longer a separate destination; it becomes part of the work surface.
+            <p>
+              More placeholder text. More placeholder text. More placeholder text.
+              More placeholder text. More placeholder text.
+            </p>
 
-This has major implications for enterprise adoption. Embedded tools typically have a better chance of changing behavior because they reduce friction. Employees do not need to remember to use AI; AI appears at the point of work. However, embedded AI also creates vendor dependency. Enterprises must decide when to buy AI capabilities from existing software vendors, when to build their own, and when to combine both. The procurement question changes from “Should we give employees access to ChatGPT?” to “Which parts of our technology stack should become AI-enabled, and where do we need proprietary differentiation?”
-
-The third major jump is from **embedded assistance to grounded knowledge systems**, especially RAG and knowledge solutions. This is where AI starts to become useful for enterprise-specific answers. Instead of relying only on the model’s general knowledge, the system retrieves information from company documents, policies, product manuals, call transcripts, knowledge bases, or internal data sources. This improves relevance and reduces hallucination risk when designed properly.
-
-The enterprise implication is clear: AI quality becomes dependent on data quality. If the underlying content is fragmented, outdated, duplicated, poorly permissioned, or inconsistently labeled, the AI will expose those weaknesses. Many companies think they have an AI problem when they actually have an information architecture problem. RAG forces enterprises to confront document governance, access control, metadata, content ownership, and source-of-truth discipline. In this stage, the winners are not just the companies with better models. They are the companies with cleaner knowledge systems.
-
-The fourth jump is from **knowledge retrieval to workflow automation**. Here, AI stops only answering questions and starts helping complete routine processes. Workflow automation follows a fixed, pre-set sequence of steps. For example, an AI-enabled workflow might classify an inbound request, extract key fields, update a CRM record, draft a response, route the task, and trigger an approval. This is where GenAI begins to merge with traditional automation, business process management, and integration platforms.
-
-For enterprises, this is a critical value zone. Most large organizations do not suffer from a shortage of ideas; they suffer from broken handoffs, manual rework, swivel-chair operations, and fragmented systems. Workflow automation can drive measurable productivity gains because it attacks process friction directly. But it also requires a different implementation mindset. The enterprise cannot simply deploy a chatbot and hope productivity improves. It must map the process, define inputs and outputs, identify exception paths, assign controls, and measure outcomes. This is where AI becomes operational transformation, not experimentation.
-
-The fifth and more profound jump is from **workflow automation to agentic systems**. Workflow automation follows a known path. Agentic systems can work out steps dynamically, use tools, remember context, reason through a goal, and adapt their approach depending on what happens. This is a major leap in autonomy. The AI is no longer just executing a pre-designed sequence. It is choosing actions within a bounded environment.
-
-This jump is powerful but risky. Agentic systems can unlock complex use cases: customer service resolution, sales research, campaign operations, fraud investigation, software engineering, procurement support, and internal operations triage. But the enterprise implications are significant. Agents require tool access, memory, permissions, orchestration, evaluation, monitoring, and fallback mechanisms. They also require clear boundaries. What can the agent see? What can it change? When must it ask for approval? What happens if it takes the wrong action? Who is accountable?
-
-This is where governance and evaluation become non-negotiable. A simple chatbot can produce a bad answer. An agent can produce a bad action. That difference changes the control environment completely.
-
-The next jump is from **single-agent systems to multi-agent systems**. Multi-agent systems split work across specialized agents that can coordinate, critique, verify, or hand off tasks. One agent might gather information, another might analyze it, another might draft a recommendation, and another might evaluate the output. This can mirror how human teams operate, but with software agents performing specialized roles.
-
-For enterprises, multi-agent systems are attractive because many business problems are cross-functional by nature. A marketing campaign, for example, may involve insight generation, audience selection, creative briefing, compliance review, channel planning, performance monitoring, and budget optimization. A single assistant may struggle to handle that end-to-end. A multi-agent system can potentially distribute the work more intelligently.
-
-But this also increases complexity. More agents mean more coordination risk, more evaluation points, more latency, more cost, and more failure modes. Enterprises will need to avoid building impressive but fragile agent architectures. The goal should not be to maximize the number of agents. The goal should be to design the minimum effective system that solves the business problem reliably.
-
-The final jump is toward **autonomous systems, world models, and physical AI**. Autonomous systems chain many tasks together with limited human oversight. World models and embodied systems go even further by modeling the physical world or acting through robots and devices. This is where AI begins to move from digital assistance to real-world agency.
-
-For most enterprises, this layer is still early and will apply unevenly. It may matter sooner in industries like logistics, manufacturing, healthcare operations, robotics, autonomous vehicles, field service, and scientific research. The implication is not that every company needs embodied AI today. The implication is that autonomy will continue expanding from low-risk digital tasks into higher-risk operational environments. Companies should start building the governance muscle now, because the control problem will only get harder.
-
-A key insight from the slide is that **modality cuts across all solution types**. Text, image, video, and audio are not separate strategies. They are input and output forms that can appear at every level of the landscape. A chat assistant can handle text. A copilot can analyze images. A workflow automation can process audio calls. An agentic system can review video, generate summaries, trigger actions, and update records. Enterprises should therefore avoid treating multimodality as a novelty. The real question is: which modality matters for the workflow? In marketing, image and video may be central. In customer service, audio and text may matter more. In operations, documents, screenshots, forms, and system logs may be the critical inputs.
-
-The bottom layer of the slide — foundation models, APIs, vector databases, orchestration, governance, and evaluation — is the enabling infrastructure. This is the part enterprises often underestimate. The visible AI experience may be a chatbot or copilot, but the durable advantage comes from the infrastructure behind it. Enterprises need model access, secure APIs, retrieval systems, orchestration frameworks, observability, testing, policy controls, and evaluation loops. Without these, AI solutions remain pilots. With them, AI can become a repeatable enterprise capability.
-
-The biggest strategic message is this: enterprises should not think of the landscape as a ladder where every use case must climb to full autonomy. Instead, they should treat it as a portfolio. Some problems only need chat access. Some need embedded copilots. Some need RAG. Some need deterministic workflow automation. A smaller number deserve agentic systems. Very few require full autonomy today.
-
-The danger is over-engineering. Many companies will try to label everything as “agentic AI” because it sounds advanced. That is the wrong instinct. The right question is not “How do we use the most advanced AI?” The right question is “What level of AI autonomy is justified by the value, risk, process maturity, and available controls?”
-
-For enterprises, the solution jumps create five major implications.
-
-First, **AI ownership must move from experimentation to operating model design**. As solutions become embedded and automated, ownership cannot sit only with innovation teams. Business, product, engineering, risk, legal, compliance, data, and operations must be involved.
-
-Second, **data readiness becomes a competitive advantage**. RAG, copilots, and agents are only as good as the systems and knowledge they can access. Companies with fragmented data will struggle to scale beyond demos.
-
-Third, **evaluation becomes as important as deployment**. Enterprises need to measure accuracy, groundedness, relevance, safety, latency, cost, user satisfaction, and business outcomes. For agentic systems, they also need to evaluate action quality and failure recovery.
-
-Fourth, **workflow redesign matters more than model selection**. Better models help, but the real value comes from rethinking work: fewer handoffs, faster decisions, automated preparation, better routing, and more consistent execution.
-
-Fifth, **governance must scale with autonomy**. A chat tool needs usage policies. A RAG system needs source validation. A workflow automation needs process controls. An agent needs permissions, audit trails, escalation paths, and human-in-the-loop checkpoints. As autonomy rises, governance must become more rigorous.
-
-Ultimately, the slide captures the evolution of GenAI from a productivity layer to an enterprise transformation layer. The companies that win will not be the ones that simply give employees access to the latest model. They will be the ones that understand the solution jumps, match the right AI architecture to the right business problem, and build the infrastructure, governance, and operating model needed to scale safely.
-  </p>
+            <p>
+              More placeholder text. More placeholder text. More placeholder text.
+              More placeholder text. More placeholder text.
+            </p>
           </div>
         </article>
+      </div>
+
+      <!-- Full-size image overlay -->
+      <div
+        id="image-lightbox"
+        class="fixed inset-0 z-50 hidden cursor-zoom-out overflow-auto bg-black/90 p-4 sm:p-8"
+        aria-hidden="true"
+        role="button"
+        tabindex="0"
+        aria-label="Close full-size image"
+        title="Click to close image"
+      >
+        <div class="flex min-h-full items-center justify-center">
+          <img
+            id="lightbox-image"
+            src=""
+            alt="Full-size generative AI solution landscape"
+            class="max-w-none cursor-zoom-out rounded-2xl bg-white"
+          />
+        </div>
       </div>
     </section>
   </main>
 </Layout>
+
+<script>
+  const imageBlock = document.querySelector('[data-full-image]');
+  const lightbox = document.querySelector('#image-lightbox');
+  const lightboxImage = document.querySelector('#lightbox-image');
+
+  const openLightbox = () => {
+    if (!(imageBlock instanceof HTMLElement)) return;
+    if (!(lightbox instanceof HTMLElement)) return;
+    if (!(lightboxImage instanceof HTMLImageElement)) return;
+
+    const imageUrl = imageBlock.dataset.fullImage;
+    if (!imageUrl) return;
+
+    lightboxImage.src = imageUrl;
+    lightbox.classList.remove('hidden');
+    lightbox.setAttribute('aria-hidden', 'false');
+    imageBlock.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    if (!(imageBlock instanceof HTMLElement)) return;
+    if (!(lightbox instanceof HTMLElement)) return;
+    if (!(lightboxImage instanceof HTMLImageElement)) return;
+
+    lightbox.classList.add('hidden');
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxImage.src = '';
+    imageBlock.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  };
+
+  imageBlock?.addEventListener('click', openLightbox);
+
+  imageBlock?.addEventListener('keydown', (event) => {
+    if (!(event instanceof KeyboardEvent)) return;
+
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      openLightbox();
+    }
+  });
+
+  lightbox?.addEventListener('click', closeLightbox);
+
+  lightbox?.addEventListener('keydown', (event) => {
+    if (!(event instanceof KeyboardEvent)) return;
+
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeLightbox();
+    }
+  });
+</script>
 
 <style>
   .scroll-box {
