@@ -3,6 +3,72 @@ import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 
 const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
+
+const solutionTradeoffs = [
+  {
+    solution: ['1. Assist (chat interfaces)'],
+    productivity:
+      'Broad individual productivity - summarizing, drafting, analysis on demand',
+    complexity:
+      'Sits outside systems of record; value depends on the user asking good questions; human still owns the task',
+  },
+  {
+    solution: ['2. API access'],
+    productivity:
+      'Turns the model into a programmable building block that can be embedded into existing systems / workflows',
+    complexity:
+      'AI strategy now needs engineering, architecture, and security alignment',
+  },
+  {
+    solution: ['3. Custom assistants'],
+    productivity:
+      'Narrows the model to a specific task or knowledge base, becoming a purpose-built support layer',
+    complexity:
+      'Ownership and lifecycle questions emerge - who maintains prompts, validates answers, updates sources',
+  },
+  {
+    solution: ['4. AI-native apps &', '5. Embedded copilots'],
+    productivity:
+      'AI appears at the point of work (Salesforce, Office, etc.), reducing friction and driving adoption',
+    complexity:
+      'Creates vendor dependency; forces buy-vs-build decisions across the tech stack',
+  },
+  {
+    solution: ['6. RAG'],
+    productivity:
+      'Delivers enterprise-specific answers and reduces hallucination by grounding in company content',
+    complexity:
+      'AI quality relies on data quality; forces governance, access control, metadata, and source-of-truth discipline',
+  },
+  {
+    solution: ['7. Workflow automation'],
+    productivity:
+      'Completes routine multi-step processes end to end, attacking handoffs and manual rework directly',
+    complexity:
+      'Requires process mapping, defined inputs/outputs, exception paths, controls, and outcome measurement',
+  },
+  {
+    solution: ['8. Agentic systems'],
+    productivity:
+      'Dynamically reasons through goals, uses tools, and adapts — unlocking complex use cases',
+    complexity:
+      'Agents take actions, not just give answers; needs permissions, orchestration, monitoring, boundaries, and accountability',
+  },
+  {
+    solution: ['9. Multi-agent systems'],
+    productivity:
+      'Distributes cross-functional work across specialized, coordinating agents',
+    complexity:
+      'More coordination risk, latency, cost, and failure modes; risk of fragile architectures',
+  },
+  {
+    solution: ['10. Autonomous &', '11. Physical AI'],
+    productivity:
+      'Chains many tasks with limited oversight; world models and robots extend AI into the physical world',
+    complexity:
+      'Higher-risk operational environments; governance muscle must be built before autonomy expands',
+  },
+];
 ---
 
 <Layout
@@ -22,7 +88,6 @@ const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
         AI Solution Types
       </h1>
 
-      <!-- Same structure as transformer-basics, but stacked vertically -->
       <div class="mt-12 grid gap-8">
         <!-- Top panel: clickable image area -->
         <div
@@ -41,67 +106,43 @@ const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
           />
         </div>
 
-        <!-- Bottom panel: scrollable text area -->
+        <!-- Bottom panel: scrollable text/table area -->
         <article class="scroll-box h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10 lg:h-[680px]">
-          <h2 class="mt-4 text-xl font-semibold tracking-[-0.03em] text-[#06142f]">
-            Text
+          <h2 class="text-2xl font-bold tracking-[-0.03em] text-[#073763] sm:text-3xl">
+            No Free Jumps: every step up the GenAI landscape trades productivity for complexity
           </h2>
 
-          <div class="mt-6 space-y-4 text-sm leading-6 text-slate-700">
-            <p>
-              Add your explanation of AI solution types here.
-            </p>
+          <p class="mt-2 text-base leading-7 text-slate-600 sm:text-lg">
+            Distinction across the solution groups is increasingly blurring and
+            enterprise solution adoption is often non-linear
+          </p>
 
-            <h3 class="pt-4 text-xl font-semibold tracking-[-0.02em] text-[#06142f]">
-              Example Section
-            </h3>
+          <div class="mt-10 overflow-x-auto">
+            <table class="tradeoff-table min-w-[980px] w-full border-collapse text-middle text-sm sm:text-base">
+              <thead>
+                <tr>
+                  <th>Solution</th>
+                  <th>Productivity Unlock</th>
+                  <th>Complexity Addition</th>
+                </tr>
+              </thead>
 
-            <p>
-              This bottom panel is scrollable. Once your explanation becomes
-              longer than the panel height, users can scroll inside this card.
-            </p>
-
-            <p>
-              You can use this area to explain the Generative AI solution
-              landscape, including chatbots, copilots, agents, RAG systems,
-              workflow automation, fine-tuned models, and custom AI applications.
-            </p>
-
-            <p>
-              Replace this placeholder content with your actual writing. The
-              scroll behavior will stay the same.
-            </p>
-
-            <p>
-              Add more content here to test scrolling. The page itself keeps the
-              top image and bottom text box stacked vertically, while the bottom
-              card handles its own scrolling.
-            </p>
-
-            <p>
-              This is useful when you want the image to act like a reference
-              diagram and the text panel to act like a detailed explanation area.
-            </p>
-
-            <p>
-              Keep writing as much as you need. The card will preserve the same
-              rounded, clean portfolio format.
-            </p>
-
-            <p>
-              More placeholder text. More placeholder text. More placeholder text.
-              More placeholder text. More placeholder text.
-            </p>
-
-            <p>
-              More placeholder text. More placeholder text. More placeholder text.
-              More placeholder text. More placeholder text.
-            </p>
-
-            <p>
-              More placeholder text. More placeholder text. More placeholder text.
-              More placeholder text. More placeholder text.
-            </p>
+              <tbody>
+                {
+                  solutionTradeoffs.map((row, index) => (
+                    <tr class:list={[index % 2 === 0 ? 'table-row-dark' : 'table-row-light']}>
+                      <td class="solution-cell">
+                        {row.solution.map((line) => (
+                          <span class="block">{line}</span>
+                        ))}
+                      </td>
+                      <td>{row.productivity}</td>
+                      <td>{row.complexity}</td>
+                    </tr>
+                  ))
+                }
+              </tbody>
+            </table>
           </div>
         </article>
       </div>
@@ -208,5 +249,45 @@ const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
   .scroll-box::-webkit-scrollbar-thumb {
     background: #2563eb;
     border-radius: 999px;
+  }
+
+  .tradeoff-table th {
+    background: #d9d9d9;
+    border: 2px solid #ffffff;
+    color: #000000;
+    font-weight: 800;
+    padding: 14px 12px;
+    vertical-align: top;
+  }
+
+  .tradeoff-table td {
+    border: 2px solid #ffffff;
+    color: #000000;
+    line-height: 1.25;
+    padding: 10px 12px;
+    vertical-align: top;
+  }
+
+  .tradeoff-table .solution-cell {
+    font-weight: 800;
+    width: 20%;
+  }
+
+  .tradeoff-table th:nth-child(2),
+  .tradeoff-table td:nth-child(2) {
+    width: 40%;
+  }
+
+  .tradeoff-table th:nth-child(3),
+  .tradeoff-table td:nth-child(3) {
+    width: 40%;
+  }
+
+  .table-row-dark {
+    background: #cbd6e8;
+  }
+
+  .table-row-light {
+    background: #e8ecf3;
   }
 </style>
