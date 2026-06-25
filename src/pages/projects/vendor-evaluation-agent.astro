@@ -66,13 +66,20 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
       <div class="mt-8 flex flex-wrap gap-4">
         <a
           href={codeHref}
+          download="MarTech_Vendor_Scorecard_Single.xlsx"
           class="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[#06142f] transition hover:border-blue-700 hover:text-blue-700"
+        >
+          Download vendor evaluation excel template
+        </a>
+        <a
+          href={codeHref}
+          class="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[#06142f]] transition hover:border-blue-700 hover:text-white-700"
         >
           View code
         </a>
         <a
           href={demoHref}
-          class="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[#06142f] transition hover:border-blue-700 hover:text-blue-700"
+          class="bg-blue-600 rounded-full border border-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-yellow-400 hover:text-blue-900"
         >
           Live demo
         </a>
@@ -82,7 +89,7 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
       <div class="mt-16 grid gap-10 md:grid-cols-3">
         <div>
           <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
-            Design
+            Agentic Design
           </h2>
           <p class="mt-3 text-slate-600">Researcher-Judge Workflow</p>
         </div>
@@ -123,14 +130,6 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
         </div>
       </div>
 
-      <!-- Disclaimer -->
-      <div class="mt-16 border-t border-slate-200 pt-12">
-        <p class="max-w-3xl text-sm text-slate-500">
-          Initial assessment from publicly available sources. Output is a decision
-          aid, not an oracle: category subtotals and must-pass gates are designed
-          to keep a high overall score from hiding a disqualifying gap.
-        </p>
-      </div>
     </section>
   </main>
 </Layout>
