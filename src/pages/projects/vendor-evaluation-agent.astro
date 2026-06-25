@@ -8,7 +8,7 @@ const description =
 
 // TODO: replace these with your real links once the code repo / demo are live.
 const codeHref = 'https://github.com/SauravTripathy/martech-vendor-agent';
-const demoHref = 'https://huggingface.co/spaces/SauravTripathy/martech-vendor-agent'; // e.g. a Hugging Face Space URL
+const demoHref = 'https://sauravtripathy-martech-vendor-agent.hf.space'; // e.g. a Hugging Face Space URL
 
 const nodes = [
   {
@@ -30,16 +30,16 @@ const nodes = [
 
 const decisions = [
   {
-    name: 'Gates are control flow, not a field',
-    body: 'A failed must-pass gate (no SOC 2, no EU residency) short-circuits the graph — the vendor is eliminated and the second-model pass is skipped to avoid spending tokens ranking a disqualified vendor.',
+    name: 'TBD',
+    body: 'TBD',
   },
   {
-    name: 'Scores capped by evidence tier',
-    body: 'A claim supported only by a vendor’s own marketing page cannot exceed 3/5. The ceiling is enforced in the prompt and again in code, so a public-source agent can’t award “best-in-class” off a brochure.',
+    name: 'TBD',
+    body: 'TBD',
   },
   {
-    name: 'Consistency, not accuracy',
-    body: 'With no ground truth, the agent measures model agreement rather than claiming accuracy. Non-evaluable criteria are left blank, never zero, so a data gap can’t silently sink a vendor.',
+    name: 'TBD',
+    body: 'TBD',
   },
 ];
 
@@ -84,7 +84,7 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
           <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
             Design
           </h2>
-          <p class="mt-3 text-slate-600">Design &amp; Researcher-Judge pattern</p>
+          <p class="mt-3 text-slate-600">Researcher-Judge Workflow</p>
         </div>
     
         <div>
