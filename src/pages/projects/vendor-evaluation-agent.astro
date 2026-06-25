@@ -7,8 +7,9 @@ const description =
   'A LangGraph agent that runs a single-vendor MarTech deep-dive: gathers public evidence, scores it against a weighted rubric, enforces must-pass gates, and cross-checks with a second model.';
 
 // TODO: replace these with your real links once the code repo / demo are live.
+const excelHref = 'https://github.com/SauravTripathy/martech-vendor-agent/raw/main/MarTech_Vendor_Scorecard_Single.xlsx';
 const codeHref = 'https://github.com/SauravTripathy/martech-vendor-agent';
-const demoHref = 'https://sauravtripathy-martech-vendor-agent.hf.space'; // e.g. a Hugging Face Space URL
+const demoHref = 'https://sauravtripathy-martech-vendor-agent.hf.space';
 
 const nodes = [
   {
@@ -65,24 +66,29 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
 
       <div class="mt-8 flex flex-wrap gap-4">
         <a
-          href={codeHref}
+          href={excelHref}
           download="MarTech_Vendor_Scorecard_Single.xlsx"
           class="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[#06142f] transition hover:border-blue-700 hover:text-blue-700"
         >
           Download vendor evaluation excel template
         </a>
+        
         <a
           href={codeHref}
+          target="_blank"
+          rel="noopener noreferrer"
           class="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[#06142f]] transition hover:border-blue-700 hover:text-white-700"
         >
           View code
         </a>
-        <a
-          href={demoHref}
-          class="bg-blue-600 rounded-full border border-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-yellow-400 hover:text-blue-900"
+       <a
+        href={demoHref}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-blue-600 rounded-full border border-blue-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-yellow-400 hover:text-blue-900"
         >
-          Live demo
-        </a>
+  Live demo
+</a>
       </div>
 
       <!-- Overview -->
