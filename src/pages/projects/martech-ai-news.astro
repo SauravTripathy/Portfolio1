@@ -39,7 +39,7 @@ type NewsData = {
   windows?: {
     day?: { stories?: Story[] };
     week?: { stories?: Story[] };
-    month?: { skicker?: string; themes?: Theme[]; takeaway?: string };
+    month?: { themes?: Theme[] };
   };
 };
 
@@ -51,7 +51,7 @@ const emptyNewsData: NewsData = {
   windows: {
     day: { stories: [] },
     week: { stories: [] },
-    month: { themes: [], takeaway: '' },
+    month: { themes: [] },
   },
 };
 
@@ -71,21 +71,18 @@ const monthThemes = newsData.windows?.month?.themes ?? [];
 const windows = [
   {
     id: 'day',
-    label: 'Window 01',
     name: 'Last 24 hours',
     count: `${dayStories.length} items`,
     mode: 'What actually dropped',
   },
   {
     id: 'week',
-    label: 'Window 02',
     name: 'Past week',
     count: `${weekStories.length} items`,
     mode: 'What held up past the news cycle',
   },
   {
     id: 'month',
-    label: 'Window 03',
     name: 'Past month',
     count: `${monthThemes.length} themes`,
     mode: '',
@@ -139,16 +136,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
         <p class="thesis">{description}</p>
 
         <div class="dateline">
-          <span>
-            EDITION — <b>{editionLabel}</b>
-            <span class="sep">/</span>
-            Sources scanned: <b>{newsData.sourcesScanned ?? 0}</b>
-            <span class="sep">/</span>
-            Surfaced: <b>{newsData.surfaced ?? 0}</b>
-          </span>
-          <button class="refresh" id="refresh" type="button" aria-label="Refresh the brief">
-            Refresh ↻
-          </button>
+          <span>EDITION — <b>{editionLabel}</b></span>
         </div>
       </header>
 
@@ -163,7 +151,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
             data-win={w.id}
             type="button"
           >
-            <span class="wlabel">{w.label}</span>
             <span class="wname">{w.name} <span class="wcount">{w.count}</span></span>
             {w.mode && <span class="wmode">{w.mode}</span>}
           </button>
@@ -206,13 +193,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
                   )}
                 </article>
               ))}
-
-              {(newsData.windows?.month?.takeaway ?? '').length > 0 && (
-                <aside class="takeaway">
-                  <div class="tlabel">The one line to carry in</div>
-                  <p>{newsData.windows?.month?.takeaway}</p>
-                </aside>
-              )}
             </div>
           ) : (
             <div class="story-feed">
@@ -292,9 +272,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     border-bottom: 1px solid var(--line-strong);
   }
 
-  .eyebrow,
   .dateline,
-  .wlabel,
   .wcount,
   .wmode,
   .story-num,
@@ -303,21 +281,11 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   .plain-label,
   .needs-label,
   .chip,
-  .skicker,
   .tnum,
-  .elabel,
-  .tlabel {
+  .elabel {
     font-family: var(--mono);
   }
 
-  .eyebrow {
-    margin: 0 0 0.4rem;
-    color: var(--accent);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-  }
 
   .decoder-masthead h1 {
     margin: 0;
@@ -347,7 +315,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   .dateline {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 1rem;
     margin-top: 1.25rem;
     color: var(--muted);
@@ -361,29 +329,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     font-weight: 700;
   }
 
-  .sep {
-    display: inline-block;
-    margin: 0 0.45rem;
-    color: var(--line-strong);
-  }
-
-  .refresh {
-    flex: 0 0 auto;
-    border: 1px solid var(--line-strong);
-    background: transparent;
-    color: var(--teal);
-    padding: 0.35rem 0.65rem;
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-
-  .refresh:hover {
-    border-color: var(--teal);
-    background: #e9eee9;
-  }
 
   .windows {
     display: grid;
@@ -409,18 +354,8 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     background: #ece9e1;
   }
 
-  .wlabel {
-    display: block;
-    color: var(--accent);
-    font-size: 0.62rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
   .wname {
     display: block;
-    margin-top: 0.3rem;
     font-family: var(--serif);
     font-size: 1.05rem;
     font-weight: 700;
@@ -585,14 +520,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     padding-top: 1.5rem;
   }
 
-  .skicker {
-    margin-bottom: 1rem;
-    color: var(--accent);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-  }
 
   .theme-card {
     border-top: 1px solid var(--line);
@@ -655,30 +582,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
 
   .evidence a:hover {
     border-color: var(--teal);
-  }
-
-  .takeaway {
-    margin-top: 1.25rem;
-    border: 1px solid var(--teal);
-    background: #e8eee9;
-    padding: 1.15rem 1.25rem;
-  }
-
-  .tlabel {
-    margin-bottom: 0.5rem;
-    color: var(--teal);
-    font-size: 0.62rem;
-    font-weight: 800;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-  }
-
-  .takeaway p {
-    margin: 0;
-    font-family: var(--serif);
-    font-size: 1.3rem;
-    font-weight: 700;
-    line-height: 1.25;
   }
 
   @media (max-width: 640px) {
@@ -767,11 +670,5 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
       const id = nextTab.dataset.win;
       if (id) activate(id);
     });
-  });
-
-  document.querySelector<HTMLButtonElement>('#refresh')?.addEventListener('click', () => {
-    const url = new URL(window.location.href);
-    url.searchParams.set('t', String(Date.now()));
-    window.location.href = url.toString();
   });
 </script>
