@@ -1,62 +1,148 @@
 ---
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 
-const title = "AI in MarTech AI, the Decoder's Brief";
+const title = "AI in MarTech, the Decoder's Brief";
 const description = 'MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.';
 
-// Read the agent's output at build time. The same file is served at /martech-news.json
-// so the in-page Refresh button can re-fetch (or re-run) it client-side.
-let newsData: any;
+type Concept = {
+  name?: string;
+  gloss?: string;
+};
+
+type Story = {
+  num?: string;
+  src?: string;
+  fresh?: boolean;
+  head?: string;
+  url?: string;
+  plain?: string;
+  chips?: string[];
+};
+
+type Theme = {
+  num?: string;
+  head?: string;
+  url?: string;
+  body?: string[];
+  ev?: [string, string][];
+};
+
+type NewsData = {
+  generatedAt?: string;
+  sourcesScanned?: number;
+  surfaced?: number;
+  concepts?: Record<string, Concept>;
+  windows?: {
+    day?: { stories?: Story[] };
+    week?: { stories?: Story[] };
+    month?: { skicker?: string; themes?: Theme[]; takeaway?: string };
+  };
+};
+
+const emptyNewsData: NewsData = {
+  generatedAt: new Date().toISOString(),
+  sourcesScanned: 0,
+  surfaced: 0,
+  concepts: {},
+  windows: {
+    day: { stories: [] },
+    week: { stories: [] },
+    month: { skicker: '30-day synthesis', themes: [], takeaway: '' },
+  },
+};
+
+let newsData: NewsData = emptyNewsData;
+
 try {
   const p = fileURLToPath(new URL('../../../public/martech-news.json', import.meta.url));
-  newsData = JSON.parse(readFileSync(p, 'utf8'));
+  newsData = JSON.parse(readFileSync(p, 'utf8')) as NewsData;
 } catch {
-  newsData = { generatedAt: new Date().toISOString(), sourcesScanned: 0, surfaced: 0, concepts: {}, windows: { day: { stories: [] }, week: { stories: [] }, month: { themes: [], takeaway: '' } } };
+  newsData = emptyNewsData;
 }
 
+const dayStories = newsData.windows?.day?.stories ?? [];
+const weekStories = newsData.windows?.week?.stories ?? [];
+const monthThemes = newsData.windows?.month?.themes ?? [];
+
 const windows = [
-  { id: 'day', label: 'Window 01', name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
-  { id: 'week', label: 'Window 02', name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
-  { id: 'month', label: 'Window 03', name: 'Past month', count: '5 themes', mode: 'The themes underneath the headlines' },
-];
+  {
+    id: 'day',
+    label: 'Window 01',
+    name: 'Last 24 hours',
+    count: `${dayStories.length} items`,
+    mode: 'What actually dropped',
+  },
+  {
+    id: 'week',
+    label: 'Window 02',
+    name: 'Past week',
+    count: `${weekStories.length} items`,
+    mode: 'What held up past the news cycle',
+  },
+  {
+    id: 'month',
+    label: 'Window 03',
+    name: 'Past month',
+    count: `${monthThemes.length} themes`,
+    mode: 'The themes underneath the headlines',
+  },
+] as const;
 
 const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const gd = new Date(newsData.generatedAt ?? Date.now());
 const editionLabel = `${wd[gd.getUTCDay()]} ${String(gd.getUTCDate()).padStart(2, '0')} ${mo[gd.getUTCMonth()]} ${gd.getUTCFullYear()}`;
+
+const escapeHtml = (value: unknown) =>
+  String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
+const formatInline = (value: unknown) =>
+  escapeHtml(value)
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br />');
+
+const getStoriesForWindow = (id: string) => {
+  if (id === 'day') return dayStories;
+  if (id === 'week') return weekStories;
+  return [];
+};
+
+const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss: '' };
 ---
 
-<Layout title={`${title} | Saurav Tripathy`} description={description}>
+<Layout title={`${title} | Saurav Tripathy`} description={description} showFooterCta={false}>
   <SiteHeader />
 
-  <main class="decoder min-h-screen bg-[#f8fbff] px-6 py-16 text-[#06142f]">
-    <section class="mx-auto max-w-5xl">
+  <main class="decoder-page">
+    <section class="decoder-shell" aria-labelledby="decoder-title">
+      <header class="decoder-masthead">
+        <p class="eyebrow">MarTech AI briefing</p>
+        <h1 id="decoder-title">AI in MarTech, the <em>Decoder’s Brief</em></h1>
+        <p class="thesis">{description}</p>
 
-      <!-- Masthead -->
-      <header class="border-b-2 border-[#06142f] pb-6">
-        <h1 class="dh1">AI in MarTech, the <em>Decoder’s Brief</em></h1>
-        <p class="thesis">
-          MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.
-        </p>
         <div class="dateline">
-          <span class="ed">
-            EDITION — <b id="edition">{editionLabel}</b> &nbsp;/&nbsp;
-            Sources scanned: <b id="scanned">{newsData.sourcesScanned}</b> &nbsp;/&nbsp;
-            Surfaced: <b id="surfaced">{newsData.surfaced}</b>
+          <span>
+            EDITION — <b>{editionLabel}</b>
+            <span class="sep">/</span>
+            Sources scanned: <b>{newsData.sourcesScanned ?? 0}</b>
+            <span class="sep">/</span>
+            Surfaced: <b>{newsData.surfaced ?? 0}</b>
           </span>
           <button class="refresh" id="refresh" type="button" aria-label="Refresh the brief">
-            <svg class="ricon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <path d="M21 12a9 9 0 1 1-2.64-6.36" /><path d="M21 3v6h-6" />
-            </svg>
-            <span class="rtext">Refresh</span>
+            Refresh ↻
           </button>
         </div>
       </header>
 
-      <!-- Window selector -->
       <div class="windows" role="tablist" aria-label="Time window">
         {windows.map((w, i) => (
           <button
@@ -66,6 +152,7 @@ const editionLabel = `${wd[gd.getUTCDay()]} ${String(gd.getUTCDate()).padStart(2
             aria-controls={`panel-${w.id}`}
             aria-selected={i === 0 ? 'true' : 'false'}
             data-win={w.id}
+            type="button"
           >
             <span class="wlabel">{w.label}</span>
             <span class="wname">{w.name} <span class="wcount">{w.count}</span></span>
@@ -74,242 +161,594 @@ const editionLabel = `${wd[gd.getUTCDay()]} ${String(gd.getUTCDate()).padStart(2
         ))}
       </div>
 
-      <!-- Panels (filled client-side from the agent's JSON) -->
       {windows.map((w, i) => (
-        <section class="panel" id={`panel-${w.id}`} role="tabpanel" aria-labelledby={`tab-${w.id}`} hidden={i !== 0}></section>
-      ))}
+        <section
+          class="panel"
+          id={`panel-${w.id}`}
+          role="tabpanel"
+          aria-labelledby={`tab-${w.id}`}
+          data-panel={w.id}
+          hidden={i !== 0}
+        >
+          {w.id === 'month' ? (
+            <div class="synth">
+              <div class="skicker">{newsData.windows?.month?.skicker ?? '30-day synthesis'}</div>
 
+              {monthThemes.map((theme) => (
+                <article class="theme-card">
+                  <div class="tnum">{theme.num}</div>
+                  <h2>
+                    <a href={theme.url} target="_blank" rel="noopener noreferrer">
+                      {theme.head}
+                    </a>
+                  </h2>
+
+                  {(theme.body ?? []).map((paragraph) => (
+                    <p set:html={formatInline(paragraph)}></p>
+                  ))}
+
+                  {(theme.ev ?? []).length > 0 && (
+                    <div class="evidence">
+                      <span class="elabel">Articles</span>
+                      {(theme.ev ?? []).map((item) => (
+                        <a href={item[1]} target="_blank" rel="noopener noreferrer">
+                          {item[0]}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
+
+              {(newsData.windows?.month?.takeaway ?? '').length > 0 && (
+                <aside class="takeaway">
+                  <div class="tlabel">The one line to carry in</div>
+                  <p>{newsData.windows?.month?.takeaway}</p>
+                </aside>
+              )}
+            </div>
+          ) : (
+            <div class="story-feed">
+              {getStoriesForWindow(w.id).map((story) => (
+                <article class="story-card">
+                  <div class="story-news">
+                    <div class="story-num">{story.num}</div>
+                    <div class="story-source">
+                      <span>{story.src}</span>
+                      {story.fresh && <span class="fresh">Fresh</span>}
+                    </div>
+                    <h2 class="story-head">
+                      <a href={story.url} target="_blank" rel="noopener noreferrer">
+                        {story.head}
+                      </a>
+                    </h2>
+                    <a class="read-source" href={story.url} target="_blank" rel="noopener noreferrer">
+                      Read source →
+                    </a>
+                  </div>
+
+                  <div class="story-plain">
+                    <div class="plain-label">In plain English</div>
+                    <p class="plain-copy" set:html={formatInline(story.plain)}></p>
+
+                    {(story.chips ?? []).length > 0 && (
+                      <div class="needs">
+                        <div class="needs-label">To follow this, you need:</div>
+                        <div class="chips">
+                          {(story.chips ?? []).map((id) => {
+                            const concept = getConcept(id);
+                            return (
+                              <span class="chip" title={concept.gloss ?? ''}>{concept.name ?? id}</span>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          )}
+        </section>
+      ))}
     </section>
   </main>
 </Layout>
 
 <style>
-  .decoder {
-    --d-ink: #06142f;
-    --d-soft: #475569;
-    --d-faint: #7c879b;
-    --d-line: #dbe3ef;
-    --d-line-strong: #c3cede;
-    --d-blue: #1d4ed8;
-    --d-blue-deep: #1e3a8a;
-    --d-blue-wash: #e8effe;
-    --d-amber: #b45309;
-    --d-card: #ffffff;
-    --d-mono: var(--font-mono);
-  }
-  .decoder em { font-style: italic; color: var(--d-blue); }
+  .decoder-page {
+    --paper: #f1f0eb;
+    --ink: #11100d;
+    --muted: #7f7a70;
+    --soft: #4b4740;
+    --line: #d7d1c4;
+    --line-strong: #c6beae;
+    --accent: #9b6411;
+    --teal: #004f5f;
+    --chip-bg: #f6f4ef;
+    --mono: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace);
+    --serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 
-  .dh1 { margin: 0 0 4px; font-size: clamp(2.4rem, 5.4vw, 4rem); line-height: 1.02; letter-spacing: -0.045em; font-weight: 800; }
-  .thesis { margin: 0.75rem 0 0; max-width: 42rem; font-size: clamp(1.05rem, 2vw, 1.3rem); line-height: 1.4; color: var(--d-soft); }
+    min-height: 100vh;
+    background: var(--paper);
+    color: var(--ink);
+    padding: clamp(2rem, 5vw, 4rem) 1rem 5rem;
+  }
+
+  .decoder-shell {
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+
+  .decoder-masthead {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--line-strong);
+  }
+
+  .eyebrow,
+  .dateline,
+  .wlabel,
+  .wcount,
+  .wmode,
+  .story-num,
+  .story-source,
+  .read-source,
+  .plain-label,
+  .needs-label,
+  .chip,
+  .skicker,
+  .tnum,
+  .elabel,
+  .tlabel {
+    font-family: var(--mono);
+  }
+
+  .eyebrow {
+    margin: 0 0 0.4rem;
+    color: var(--accent);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .decoder-masthead h1 {
+    margin: 0;
+    max-width: 12ch;
+    font-family: var(--serif);
+    font-size: clamp(2.6rem, 8vw, 4.6rem);
+    font-weight: 700;
+    letter-spacing: -0.06em;
+    line-height: 0.92;
+  }
+
+  .decoder-masthead em {
+    color: var(--teal);
+    font-style: italic;
+  }
+
+  .thesis {
+    margin: 1rem 0 0;
+    max-width: 34rem;
+    color: var(--soft);
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    line-height: 1.5;
+  }
 
   .dateline {
-    margin: 1.5rem 0 0;
-    display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    color: var(--muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
   }
-  .ed { font-family: var(--d-mono); font-size: 0.72rem; letter-spacing: 0.04em; color: var(--d-faint); }
-  .ed b { color: var(--d-soft); font-weight: 600; }
+
+  .dateline b {
+    color: var(--soft);
+    font-weight: 700;
+  }
+
+  .sep {
+    display: inline-block;
+    margin: 0 0.45rem;
+    color: var(--line-strong);
+  }
 
   .refresh {
-    display: inline-flex; align-items: center; gap: 0.45rem;
-    padding: 0.4rem 0.8rem;
-    font-family: var(--d-mono); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em;
-    color: var(--d-blue); background: #fff;
-    border: 1px solid var(--d-line-strong); border-radius: 999px;
-    cursor: pointer; transition: all 150ms ease;
+    flex: 0 0 auto;
+    border: 1px solid var(--line-strong);
+    background: transparent;
+    color: var(--teal);
+    padding: 0.35rem 0.65rem;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
   }
-  .refresh:hover { border-color: var(--d-blue); background: var(--d-blue-wash); }
-  .refresh:disabled { opacity: 0.6; cursor: progress; }
-  .refresh .ricon { width: 13px; height: 13px; }
-  .refresh.spin .ricon { animation: rspin 0.8s linear infinite; }
-  @keyframes rspin { to { transform: rotate(360deg); } }
 
-  /* Window selector */
-  .windows { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--d-line-strong); }
-  .win { cursor: pointer; text-align: left; padding: 1.15rem 1.25rem 1rem; border-right: 1px solid var(--d-line); background: none; position: relative; transition: background 160ms ease; }
-  .win:last-child { border-right: none; }
-  .win:hover { background: #eef3fb; }
-  .win[aria-selected='true'] { background: var(--d-card); }
-  .win[aria-selected='true']::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--d-blue); }
-  .wlabel { display: block; font-family: var(--d-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-faint); font-weight: 500; }
-  .win[aria-selected='true'] .wlabel { color: var(--d-blue); }
-  .wname { display: flex; align-items: baseline; gap: 0.55rem; margin-top: 0.4rem; font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
-  .wcount { font-family: var(--d-mono); font-size: 0.72rem; color: var(--d-faint); font-weight: 500; }
-  .wmode { display: block; margin-top: 0.5rem; font-size: 0.78rem; color: var(--d-soft); white-space: nowrap; }
+  .refresh:hover {
+    border-color: var(--teal);
+    background: #e9eee9;
+  }
 
-  /* Story card */
-  .story { display: grid; grid-template-columns: 1.05fr 1fr; border-bottom: 1px solid var(--d-line); }
-  .col-news { border-right: 1px dotted var(--d-line-strong); padding: 1.5rem 2.25rem 1.6rem 0; }
-  .col-plain { padding: 1.5rem 0 1.6rem 2.25rem; }
-  .snum { font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-amber); letter-spacing: 0.1em; font-weight: 600; }
-  .ssrc { margin-top: 0.2rem; font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-faint); letter-spacing: 0.04em; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
-  .fresh { background: var(--d-amber); color: #fff; font-size: 0.56rem; padding: 0.12rem 0.4rem; border-radius: 2px; letter-spacing: 0.1em; font-weight: 700; }
-  .shead { margin: 0.6rem 0 0.75rem; font-size: 1.3rem; line-height: 1.18; letter-spacing: -0.02em; font-weight: 700; }
-  .shead a { color: var(--d-ink); text-decoration: none; background-image: linear-gradient(var(--d-blue), var(--d-blue)); background-size: 0% 1.5px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 250ms ease; }
-  .shead a:hover { background-size: 100% 1.5px; color: var(--d-blue-deep); }
-  .sread { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--d-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.04em; color: var(--d-blue); text-decoration: none; }
-  .sread svg { width: 11px; height: 11px; }
-  .sread:hover { color: var(--d-amber); }
-  .plabel { display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.55rem; font-family: var(--d-mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-blue); }
-  .plabel::before { content: ''; width: 14px; height: 1.5px; background: var(--d-blue); }
-  .plain { font-size: 0.95rem; line-height: 1.55; color: var(--d-ink); }
-  .plain b { font-weight: 600; }
-  .needs { margin-top: 1rem; }
-  .nlabel { margin-bottom: 0.5rem; font-family: var(--d-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--d-faint); }
-  .chips { display: flex; flex-wrap: wrap; gap: 0.375rem; }
-  .chip { font-family: var(--d-mono); font-size: 0.7rem; padding: 0.25rem 0.55rem; border: 1px solid var(--d-line-strong); border-radius: 2px; color: var(--d-soft); background: #fff; cursor: help; transition: all 150ms ease; }
-  .chip:hover { border-color: var(--d-blue); color: var(--d-blue); background: var(--d-blue-wash); }
+  .windows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid var(--line);
+  }
 
-  /* Synthesis (month) */
-  .synth { padding: 1.6rem 0 0; }
-  .skicker { margin-bottom: 0.9rem; font-family: var(--d-mono); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--d-amber); }
-  .theme { border-top: 1px solid var(--d-line); padding: 1.5rem 0; }
-  .theme:first-of-type { border-top: none; padding-top: 0.4rem; }
-  .tnum { font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-faint); }
-  .theme h3 { margin: 0.4rem 0 0.65rem; font-size: 1.55rem; line-height: 1.12; letter-spacing: -0.02em; font-weight: 700; }
-  .theme h3 a { color: var(--d-ink); text-decoration: none; background-image: linear-gradient(var(--d-blue), var(--d-blue)); background-size: 0% 1.5px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 250ms ease; }
-  .theme h3 a:hover { background-size: 100% 1.5px; }
-  .theme p { margin: 0; max-width: 70ch; font-size: 0.95rem; line-height: 1.58; color: var(--d-soft); }
-  .theme p + p { margin-top: 0.65rem; }
-  .evidence { margin-top: 0.95rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0; font-family: var(--d-mono); font-size: 0.72rem; }
-  .elabel { margin-right: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--d-faint); }
-  .evidence a { margin-right: 0.45rem; padding: 0.2rem 0.6rem; border: 1px solid var(--d-line-strong); border-radius: 2px; color: var(--d-blue); text-decoration: none; transition: all 150ms ease; }
-  .evidence a:hover { border-color: var(--d-blue); background: var(--d-blue-wash); }
-  .takeaway { margin-top: 2rem; border: 1px solid var(--d-blue); background: var(--d-blue-wash); border-radius: 4px; padding: 1.35rem 1.5rem; }
-  .tlabel { margin-bottom: 0.5rem; font-family: var(--d-mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-blue-deep); }
-  .takeaway p { margin: 0; font-size: 1.2rem; line-height: 1.4; font-weight: 600; }
+  .win {
+    appearance: none;
+    border: 0;
+    border-right: 1px solid var(--line);
+    background: transparent;
+    cursor: pointer;
+    padding: 1rem 0.9rem 0.95rem;
+    text-align: left;
+  }
+
+  .win:last-child {
+    border-right: 0;
+  }
+
+  .win[aria-selected='true'] {
+    background: #ece9e1;
+  }
+
+  .wlabel {
+    display: block;
+    color: var(--accent);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .wname {
+    display: block;
+    margin-top: 0.3rem;
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .wcount {
+    margin-left: 0.25rem;
+    color: var(--muted);
+    font-size: 0.62rem;
+    font-weight: 500;
+  }
+
+  .wmode {
+    display: block;
+    margin-top: 0.35rem;
+    color: var(--muted);
+    font-size: 0.62rem;
+    line-height: 1.35;
+  }
+
+  .story-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.04fr) minmax(0, 1fr);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .story-news {
+    padding: 1.55rem 2.1rem 1.55rem 0;
+    border-right: 1px dotted var(--line-strong);
+  }
+
+  .story-plain {
+    padding: 1.55rem 0 1.55rem 2.1rem;
+  }
+
+  .story-num {
+    color: var(--accent);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  .story-source {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+    color: var(--muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+  }
+
+  .fresh {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+    background: var(--accent);
+    color: #fff;
+    padding: 0.14rem 0.38rem;
+    font-size: 0.55rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .story-head {
+    margin: 0.75rem 0 1.25rem;
+    font-family: var(--serif);
+    font-size: clamp(1.2rem, 3vw, 1.42rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 1.15;
+  }
+
+  .story-head a,
+  .theme-card h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .story-head a:hover,
+  .theme-card h2 a:hover {
+    color: var(--teal);
+  }
+
+  .read-source {
+    color: var(--teal);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+  }
+
+  .read-source:hover {
+    color: var(--accent);
+  }
+
+  .plain-label {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--teal);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  .plain-label::before {
+    content: '';
+    width: 17px;
+    height: 1px;
+    background: var(--teal);
+  }
+
+  .plain-copy {
+    margin: 0.75rem 0 0;
+    color: var(--ink);
+    font-size: 0.98rem;
+    line-height: 1.52;
+  }
+
+  .plain-copy strong {
+    font-weight: 800;
+  }
+
+  .needs {
+    margin-top: 1.15rem;
+  }
+
+  .needs-label {
+    margin-bottom: 0.5rem;
+    color: var(--muted);
+    font-size: 0.62rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .chip {
+    border: 1px solid var(--line-strong);
+    background: var(--chip-bg);
+    color: var(--soft);
+    padding: 0.27rem 0.55rem;
+    font-size: 0.68rem;
+    line-height: 1;
+    cursor: help;
+  }
+
+  .chip:hover {
+    border-color: var(--teal);
+    color: var(--teal);
+  }
+
+  .synth {
+    padding-top: 1.5rem;
+  }
+
+  .skicker {
+    margin-bottom: 1rem;
+    color: var(--accent);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .theme-card {
+    border-top: 1px solid var(--line);
+    padding: 1.4rem 0;
+  }
+
+  .theme-card:first-of-type {
+    border-top: 0;
+    padding-top: 0.25rem;
+  }
+
+  .tnum {
+    color: var(--muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+  }
+
+  .theme-card h2 {
+    margin: 0.45rem 0 0.7rem;
+    font-family: var(--serif);
+    font-size: clamp(1.45rem, 4vw, 2rem);
+    line-height: 1.08;
+    letter-spacing: -0.04em;
+  }
+
+  .theme-card p {
+    margin: 0;
+    color: var(--soft);
+    font-size: 0.98rem;
+    line-height: 1.58;
+  }
+
+  .theme-card p + p {
+    margin-top: 0.7rem;
+  }
+
+  .evidence {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 1rem;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+  }
+
+  .elabel {
+    margin-right: 0.25rem;
+    color: var(--muted);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .evidence a {
+    border: 1px solid var(--line-strong);
+    color: var(--teal);
+    padding: 0.2rem 0.5rem;
+    text-decoration: none;
+  }
+
+  .evidence a:hover {
+    border-color: var(--teal);
+  }
+
+  .takeaway {
+    margin-top: 1.25rem;
+    border: 1px solid var(--teal);
+    background: #e8eee9;
+    padding: 1.15rem 1.25rem;
+  }
+
+  .tlabel {
+    margin-bottom: 0.5rem;
+    color: var(--teal);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .takeaway p {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
 
   @media (max-width: 760px) {
-    .story { grid-template-columns: 1fr; }
-    .col-news { border-right: none; border-bottom: 1px dotted var(--d-line-strong); padding: 1.4rem 0 1.1rem; }
-    .col-plain { padding: 1.1rem 0 1.5rem; }
-  }
-  @media (max-width: 560px) {
-    .windows { grid-template-columns: 1fr; }
-    .win { border-right: none; border-bottom: 1px solid var(--d-line); }
-    .win[aria-selected='true']::after { display: none; }
-    .win[aria-selected='true'] { border-left: 3px solid var(--d-blue); }
+    .decoder-page {
+      padding-inline: 1rem;
+    }
+
+    .dateline {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .windows {
+      grid-template-columns: 1fr;
+    }
+
+    .win {
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .story-card {
+      grid-template-columns: 1fr;
+    }
+
+    .story-news {
+      border-right: 0;
+      border-bottom: 1px dotted var(--line-strong);
+      padding: 1.4rem 0 1.15rem;
+    }
+
+    .story-plain {
+      padding: 1.15rem 0 1.5rem;
+    }
   }
 </style>
 
-<script define:vars={{ initialData: newsData }}>
-  // ─────────────────────────────────────────────────────────────────────────
-  // CONNECT THE LIVE AGENT HERE (optional).
-  // Leave empty  → Refresh re-fetches the latest committed run (/martech-news.json),
-  //                which the daily GitHub Action keeps up to date.
-  // Set a URL    → Refresh calls your deployed agent API and re-runs it live.
-  //                e.g. "https://sauravtripathy-martech-news-agent.hf.space/refresh"
-  const REFRESH_ENDPOINT = '';
-  // ─────────────────────────────────────────────────────────────────────────
+<script>
+  const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-win]'));
+  const panels = Array.from(document.querySelectorAll<HTMLElement>('[data-panel]'));
 
-  let data = initialData;
-  const $ = (s) => document.querySelector(s);
-  const esc = (v) => String(v ?? '');
+  function activate(id: string): void {
+    tabs.forEach((tab) => {
+      tab.setAttribute('aria-selected', String(tab.dataset.win === id));
+    });
 
-  const ARROW =
-    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
-
-  function chip(id) {
-    const c = (data.concepts || {})[id];
-    const name = c ? c.name : id;
-    const gloss = c ? c.gloss.replace(/"/g, '&quot;') : '';
-    return `<span class="chip" title="${gloss}">${name}</span>`;
+    panels.forEach((panel) => {
+      panel.hidden = panel.dataset.panel !== id;
+    });
   }
 
-  function storyCard(s) {
-    return `<article class="story">
-      <div class="col-news">
-        <div class="snum">${esc(s.num)}</div>
-        <div class="ssrc"><span>${esc(s.src)}</span>${s.fresh ? '<span class="fresh">FRESH</span>' : ''}</div>
-        <h3 class="shead"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.head)}</a></h3>
-        <a class="sread" href="${esc(s.url)}" target="_blank" rel="noopener">Read source ${ARROW}</a>
-      </div>
-      <div class="col-plain">
-        <div class="plabel">In plain English</div>
-        <div class="plain">${esc(s.plain)}</div>
-        <div class="needs">
-          <div class="nlabel">To follow this, you need:</div>
-          <div class="chips">${(s.chips || []).map(chip).join('')}</div>
-        </div>
-      </div>
-    </article>`;
-  }
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const id = tab.dataset.win;
+      if (id) activate(id);
+    });
 
-  function themeCard(t) {
-    const body = (t.body || []).map((p) => `<p>${p}</p>`).join('');
-    const ev = (t.ev || []).map((e) => `<a href="${esc(e[1])}" target="_blank" rel="noopener">${esc(e[0])}</a>`).join('');
-    return `<div class="theme">
-      <div class="tnum">${esc(t.num)}</div>
-      <h3><a href="${esc(t.url)}" target="_blank" rel="noopener">${t.head}</a></h3>
-      ${body}
-      <div class="evidence"><span class="elabel">Articles</span>${ev}</div>
-    </div>`;
-  }
+    tab.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return;
+      event.preventDefault();
 
-  function renderPanel(win) {
-    const panel = $(`#panel-${win}`);
-    if (!panel) return;
-    const w = (data.windows || {})[win] || {};
-    if (win === 'month') {
-      const themes = (w.themes || []).map(themeCard).join('');
-      panel.innerHTML = `<div class="synth">
-        ${themes}
-        <div class="takeaway"><div class="tlabel">The one line to carry in</div><p>${w.takeaway || ''}</p></div>
-      </div>`;
-    } else {
-      panel.innerHTML = (w.stories || []).map(storyCard).join('');
-    }
-  }
+      const index = tabs.indexOf(tab);
+      const nextIndex = event.key === 'ArrowRight'
+        ? (index + 1) % tabs.length
+        : (index - 1 + tabs.length) % tabs.length;
 
-  function renderAll() {
-    ['day', 'week', 'month'].forEach(renderPanel);
-    const g = new Date(data.generatedAt || Date.now());
-    const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    const mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    const ed = $('#edition');
-    if (ed) ed.textContent = `${wd[g.getUTCDay()]} ${String(g.getUTCDate()).padStart(2, '0')} ${mo[g.getUTCMonth()]} ${g.getUTCFullYear()}`;
-    const sc = $('#scanned'); if (sc && data.sourcesScanned != null) sc.textContent = data.sourcesScanned;
-    const su = $('#surfaced'); if (su && data.surfaced != null) su.textContent = data.surfaced;
-  }
+      const nextTab = tabs[nextIndex];
+      if (!nextTab) return;
 
-  function activate(id) {
-    document.querySelectorAll('.win').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.win === id)));
-    document.querySelectorAll('.panel').forEach((p) => { p.hidden = p.id !== `panel-${id}`; });
-  }
+      nextTab.focus();
 
-  const tabs = Array.from(document.querySelectorAll('.win'));
-  tabs.forEach((t) => {
-    t.addEventListener('click', () => activate(t.dataset.win));
-    t.addEventListener('keydown', (e) => {
-      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
-      e.preventDefault();
-      const i = tabs.indexOf(t);
-      const n = e.key === 'ArrowRight' ? (i + 1) % tabs.length : (i - 1 + tabs.length) % tabs.length;
-      tabs[n].focus();
-      activate(tabs[n].dataset.win);
+      const id = nextTab.dataset.win;
+      if (id) activate(id);
     });
   });
 
-  const btn = $('#refresh');
-  btn?.addEventListener('click', async () => {
-    btn.disabled = true;
-    btn.classList.add('spin');
-    try {
-      const url = REFRESH_ENDPOINT || `/martech-news.json?t=${Date.now()}`;
-      const res = await fetch(url, { method: REFRESH_ENDPOINT ? 'POST' : 'GET' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const fresh = await res.json();
-      if (fresh && fresh.windows) {
-        data = fresh;
-        renderAll();
-      }
-    } catch (err) {
-      console.error('Refresh failed:', err);
-      btn.querySelector('.rtext').textContent = 'Retry';
-    } finally {
-      btn.disabled = false;
-      btn.classList.remove('spin');
-    }
+  document.querySelector<HTMLButtonElement>('#refresh')?.addEventListener('click', () => {
+    const url = new URL(window.location.href);
+    url.searchParams.set('t', String(Date.now()));
+    window.location.href = url.toString();
   });
-
-  renderAll();
 </script>
