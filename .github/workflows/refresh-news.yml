@@ -1,0 +1,40 @@
+name: Refresh MarTech AI news
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:        # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r agent/requirements.txt
+
+      - name: Run the agent
+        working-directory: agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python agent.py
+
+      - name: Commit updated brief
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/martech-news.json; then
+            git add public/martech-news.json
+            git commit -m "chore: refresh MarTech AI brief ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
