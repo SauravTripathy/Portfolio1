@@ -85,7 +85,7 @@ const windows = [
     id: 'month',
     name: 'Past month',
     count: `${monthThemes.length} themes`,
-    mode: '',
+    mode: 'Themes underneath the headlines',
   },
 ] as const;
 
@@ -220,7 +220,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
 
                     {(story.chips ?? []).length > 0 && (
                       <div class="needs">
-                        <div class="needs-label">To follow this, you need:</div>
+                        <div class="needs-label">To follow this article, you need to know:</div>
                         <div class="chips">
                           {(story.chips ?? []).map((id) => {
                             const concept = getConcept(id);
