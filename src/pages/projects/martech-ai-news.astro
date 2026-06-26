@@ -37,9 +37,9 @@ const concepts: Record<string, { name: string; gloss: string }> = {
 };
 
 const windows = [
-  { id: 'day', name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
-  { id: 'week', name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
-  { id: 'month', name: 'Past month', count: '3 themes', mode: 'The themes underneath the headlines' },
+  { id: 'day', label: "", name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
+  { id: 'week', label: "",name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
+  { id: 'month', label: "",name: 'Past month', count: '3 themes', mode: 'The themes underneath the headlines' },
 ];
 
 const gates: Record<string, string> = {
@@ -204,7 +204,7 @@ const takeaway =
       <!-- Masthead -->
       <header class="border-b-2 border-[#06142f] pb-6">
         <h1 class="dh1">AI in MarTech, the <em>Decoder’s Brief</em></h1>
-        <p class="thesis">
+        <p class="thesis whitespace-nowrap">
           MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.
         </p>
         <p class="dateline">
