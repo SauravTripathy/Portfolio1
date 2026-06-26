@@ -1,198 +1,32 @@
 ---
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 
-const title = "AI in MarTech, the Decoder's Brief";
-const description =
-  'A daily-style brief that reads recent MarTech AI news, says what it means in plain English, and tags the concepts you need to follow along.';
+const title = "AI in MarTech AI, the Decoder's Brief";
+const description = 'MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.';
 
-type Story = {
-  num: string;
-  src: string;
-  fresh: boolean;
-  head: string;
-  url: string;
-  plain: string;
-  chips: string[];
-};
-type Theme = {
-  num: string;
-  head: string;
-  url: string;
-  body: string[];
-  ev: [string, string][];
-};
-type TraceRow = { k: string; t: string; rejected?: boolean };
-
-const concepts: Record<string, { name: string; gloss: string }> = {
-  cdp: { name: 'CDP', gloss: 'Customer Data Platform — the unified store of who your customers are.' },
-  perso: { name: 'Personalization (1:1)', gloss: 'Tailoring the message to the individual, not the segment.' },
-  genai: { name: 'Generative AI', gloss: 'Models that produce content — copy, images, replies — from a prompt.' },
-  agentic: { name: 'Agentic AI', gloss: "Systems that don't just generate, they decide and act toward a goal." },
-  decis: { name: 'Agentic decisioning', gloss: 'An agent choosing what to say, when, how often and on which channel — per person.' },
-  bandit: { name: 'Bandits / RL', gloss: 'The maths that lets a system learn which choice wins by trying and measuring.' },
-  cep: { name: 'CEP', gloss: 'Customer Engagement Platform — where this messaging actually runs.' },
-  geo: { name: 'GEO', gloss: 'Generative Engine Optimization — being visible inside AI answers.' },
-  govern: { name: 'Governance', gloss: 'The controls that make automated decisions safe, explainable and legible.' },
-};
+// Read the agent's output at build time. The same file is served at /martech-news.json
+// so the in-page Refresh button can re-fetch (or re-run) it client-side.
+let newsData: any;
+try {
+  const p = fileURLToPath(new URL('../../../public/martech-news.json', import.meta.url));
+  newsData = JSON.parse(readFileSync(p, 'utf8'));
+} catch {
+  newsData = { generatedAt: new Date().toISOString(), sourcesScanned: 0, surfaced: 0, concepts: {}, windows: { day: { stories: [] }, week: { stories: [] }, month: { themes: [], takeaway: '' } } };
+}
 
 const windows = [
-  { id: 'day', label: "", name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
-  { id: 'week', label: "",name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
-  { id: 'month', label: "",name: 'Past month', count: '3 themes', mode: 'The themes underneath the headlines' },
+  { id: 'day', label: 'Window 01', name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
+  { id: 'week', label: 'Window 02', name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
+  { id: 'month', label: 'Window 03', name: 'Past month', count: '5 themes', mode: 'The themes underneath the headlines' },
 ];
 
-const gates: Record<string, string> = {
-  day: 'Readability gate: <b>passed</b> · avg grade 8.4',
-  week: 'Readability gate: <b>passed</b> · avg grade 8.1',
-  month: 'Synthesis mode · <b>3 themes</b> from ~40 items',
-};
-
-const traces: Record<string, TraceRow[]> = {
-  day: [
-    { k: 'Scanned', t: '9 sources, ~40 items from the Cannes Lions press wave. Festival weeks inflate volume, so the bar to surface was raised.' },
-    { k: 'Surfaced', t: '5 — chosen for whether they change how marketing AI is bought, built or governed, not for recency alone.' },
-    { k: 'Rejected', rejected: true, t: '<s>~15 Cannes partnership announcements</s> (logo deals, no product change) · <s>3 award round-ups</s> · <s>2 vendor superlatives with no detail</s>.' },
-    { k: 'Re-search', t: 'Not triggered — the day cleared the sufficiency threshold on its own.' },
-    { k: 'Critic', t: 'First decode of the Zeta–Palantir item scored grade 12 (too dense). Rewritten to grade 8 before publishing.' },
-  ],
-  week: [
-    { k: 'Scanned', t: '~70 items across the week’s vendor releases and round-ups.' },
-    { k: 'Surfaced', t: '5 — weighted toward moves that signal where the category is heading, not one-off feature bumps.' },
-    { k: 'Rejected', rejected: true, t: '<s>minor version updates</s> · <s>single-customer case studies</s> · <s>event registrations</s>.' },
-    { k: 'Pattern', t: 'Two clusters kept recurring: agents that act for the user, and tools to be seen inside AI answers (GEO).' },
-    { k: 'Critic', t: 'All five decodes passed on first or second pass; no item exceeded grade 9.' },
-  ],
-  month: [
-    { k: 'Input', t: '~40 surfaced items from the past 30 days, clustered by what they’re really about.' },
-    { k: 'Method', t: 'Grouped by underlying shift, then pressure-tested: does each theme change a decision, or just describe activity?' },
-    { k: 'Dropped', rejected: true, t: '<s>“AI is transformative” think-pieces</s> with no specific claim were excluded from the synthesis.' },
-    { k: 'Output', t: '3 themes a reader can carry into a meeting — plus one takeaway that frames the whole landscape.' },
-  ],
-};
-
-const stories: Record<string, Story[]> = {
-  day: [
-    {
-      num: '01', src: 'MoEngage', fresh: true,
-      head: 'MoEngage acquires Aampe to bring 1:1 agentic decisioning to B2C teams',
-      url: 'https://www.moengage.com/blog/moengage-acquires-aampe/',
-      plain: 'MoEngage bought a company whose whole idea is <b>one AI agent per customer</b> — not one model per segment. Each agent decides what to message a single person, when, how often and where, and keeps learning from what worked. The pitch: personalization stops hitting the “not enough humans to build all the journeys” ceiling.',
-      chips: ['decis', 'perso', 'bandit', 'cep'],
-    },
-    {
-      num: '02', src: 'Salesforce · via Agile Brand', fresh: true,
-      head: 'Salesforce pushes agentic commerce at Cannes: a Shopper Agent from discovery to checkout',
-      url: 'https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/',
-      plain: 'Salesforce wants brands to put an AI “Shopper Agent” on their own sites that walks a buyer all the way from browsing to paying. The number doing the talking: traffic referred by AI reportedly converts far better than social. The shift is from <b>omnichannel</b> (be everywhere a human clicks) to <b>agentic commerce</b> (sell to the customer’s AI).',
-      chips: ['agentic', 'genai'],
-    },
-    {
-      num: '03', src: 'Forrester + 4As · via Agile Brand', fresh: true,
-      head: 'Forrester: nine in ten US agencies use generative AI, half now use agentic AI',
-      url: 'https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/',
-      plain: 'New Cannes research says adoption is near-total — but flags a trap: teams are mostly using AI to cut cost, not to make better work. That’s the <b>efficiency-vs-effectiveness</b> tension, and it’s the thing a strategy team has to actively manage, because the tools won’t do it for you.',
-      chips: ['genai', 'agentic'],
-    },
-    {
-      num: '04', src: 'Zeta Global × Palantir · via MarTech', fresh: false,
-      head: 'Zeta rebuilds its Data Cloud on Palantir Foundry to power governed agentic marketing',
-      url: 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/',
-      plain: 'Zeta is moving its customer-data engine onto Palantir’s platform so its AI can reach more enterprise data <b>while keeping governance and control</b> over it. The tell for a regulated reader: the headline feature isn’t smarter targeting, it’s being able to prove the data is governed. Governance is becoming the product.',
-      chips: ['cdp', 'govern', 'agentic'],
-    },
-    {
-      num: '05', src: 'SAP Emarsys · via Agile Brand', fresh: false,
-      head: 'SAP Engagement Cloud bets real-time engagement decides who wins in 2026',
-      url: 'https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/',
-      plain: 'SAP’s argument: batch-and-blast is dead; the edge now is reacting to a customer <b>in the moment</b>. It’s the same thread as the MoEngage deal — the whole category is racing toward decisions made per-person, in real time, by software.',
-      chips: ['cep', 'perso', 'decis'],
-    },
-  ],
-  week: [
-    {
-      num: '01', src: 'Salesforce → Intercom (Fin) · via MarTech', fresh: false,
-      head: 'Salesforce’s buying spree for agentic platforms continues as Intercom becomes Fin',
-      url: 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/',
-      plain: 'The big platforms are <b>buying</b> agentic capability rather than waiting to build it. For a strategist the signal matters more than the deal: consolidation this fast means “agentic” has moved from demo to must-own.',
-      chips: ['agentic', 'cep'],
-    },
-    {
-      num: '02', src: 'Adobe × Semrush · via MarTech', fresh: false,
-      head: 'Adobe uses its Semrush acquisition to launch a GEO tool with AI agents',
-      url: 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/',
-      plain: 'Adobe shipped a tool whose agents recommend and make changes to help a brand <b>show up inside LLM answers</b>. This is GEO going mainstream — the new fight isn’t ranking on Google, it’s being the brand an AI mentions.',
-      chips: ['geo', 'agentic', 'genai'],
-    },
-    {
-      num: '03', src: 'Bloomreach · via Solutions Review', fresh: false,
-      head: 'Bloomreach’s Loomi agent turns a single prompt into a full campaign workflow',
-      url: 'https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/',
-      plain: 'Type what you want; the agent builds the whole campaign flow. Useful, and also a reminder of the commodity line: <b>generating</b> a campaign is becoming table stakes — the moat is in deciding and governing, not drafting.',
-      chips: ['genai', 'agentic', 'perso'],
-    },
-    {
-      num: '04', src: 'Asana · via Solutions Review', fresh: false,
-      head: 'Asana reframes itself as an “operating system for human-agent teams”',
-      url: 'https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/',
-      plain: 'Asana’s new suite has humans and AI agents working off the <b>same plan, same context, same governance</b>. The interesting word is governance again — vendors now lead with control, not just speed.',
-      chips: ['agentic', 'govern'],
-    },
-    {
-      num: '05', src: 'ActiveCampaign · via MarTech', fresh: false,
-      head: 'ActiveCampaign’s update teaches its AI to remember your brand identity',
-      url: 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/',
-      plain: 'The tool now holds onto voice guidelines, colours and logos across sessions so drafts stay on-brand. Small feature, real theme: <b>brand consistency</b> is the quiet bottleneck once everyone can generate content instantly.',
-      chips: ['genai', 'perso'],
-    },
-  ],
-};
-
-const themes: Theme[] = [
-  {
-    num: 'Theme 01',
-    head: 'Agentic decisioning went from buzzword to <em>balance sheet</em>',
-    url: 'https://www.moengage.com/blog/moengage-acquires-aampe/',
-    body: [
-      'A month ago “agents that act for the user” was a demo. This month it’s M&amp;A. MoEngage bought Aampe for per-user decisioning; Salesforce kept buying agentic platforms; Asana rebuilt around human-agent teams; Aircall acquired Piper for agentic sales.',
-      'The signal: the market has decided agentic decisioning is infrastructure you <b>own</b>, not a feature you wait for. The question shifts from “should we?” to “build, buy or partner — and how do we govern it?”',
-    ],
-    ev: [
-      ['MoEngage / Aampe', 'https://www.moengage.com/blog/moengage-acquires-aampe/'],
-      ['Solutions Review weekly', 'https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/'],
-    ],
-  },
-  {
-    num: 'Theme 02',
-    head: 'A new optimization target appeared: <em>being cited by the AI</em>',
-    url: 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/',
-    body: [
-      'Adobe shipped a GEO tool; Google added AI-visibility metrics; DISQO launched a way to measure ad impact inside LLM answers. Separate announcements, one shift: marketers now optimize to be the brand an AI <b>mentions</b>, not just the link a human clicks.',
-      'GEO (Generative Engine Optimization) is becoming its own discipline. If you only know SEO, this is the concept to add first — the playbook rhymes, but the surface is the model’s answer, not the results page.',
-    ],
-    ev: [
-      ['Adobe GEO · MarTech', 'https://martech.org/the-latest-ai-powered-martech-news-and-releases/'],
-      ['AI search trends · MarTech', 'https://martech.org/topic/marketing-artificial-intelligence-ai/'],
-    ],
-  },
-  {
-    num: 'Theme 03',
-    head: 'The mood turned from experimentation to <em>accountability</em>',
-    url: 'https://martech.org/the-truth-about-martech-in-2026/',
-    body: [
-      'Budgets are up (Stensul: ~79% of orgs increasing MarTech spend) but the framing changed. The State of Martech report calls this the “Darwin phase”; Gartner expects 40%+ of agentic projects cancelled by 2027; the recurring verdict is that <b>capability is no longer the constraint — enablement and governance are.</b>',
-      'This is the most important theme to grasp, because it explains the actual job. The bottleneck isn’t the model. It’s whether the org can train people, redesign workflow, and prove value safely.',
-    ],
-    ev: [
-      ['Stensul outlook · MartechEdge', 'https://martechedge.com/news/2026-will-be-a-growth-year-for-martechand-ai-is-no-longer-optional'],
-      ['Darwin phase · MarTech', 'https://martech.org/martech-2026-ai-drives-a-major-industry-reset/'],
-      ['The truth about martech · MarTech', 'https://martech.org/the-truth-about-martech-in-2026/'],
-    ],
-  },
-];
-
-const takeaway =
-  'In MarTech AI right now, the constraint isn’t capability — it’s <em>governing demand, decisioning and visibility well enough to ship.</em>';
+const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const gd = new Date(newsData.generatedAt ?? Date.now());
+const editionLabel = `${wd[gd.getUTCDay()]} ${String(gd.getUTCDate()).padStart(2, '0')} ${mo[gd.getUTCMonth()]} ${gd.getUTCFullYear()}`;
 ---
 
 <Layout title={`${title} | Saurav Tripathy`} description={description}>
@@ -204,12 +38,22 @@ const takeaway =
       <!-- Masthead -->
       <header class="border-b-2 border-[#06142f] pb-6">
         <h1 class="dh1">AI in MarTech, the <em>Decoder’s Brief</em></h1>
-        <p class="thesis whitespace-nowrap">
+        <p class="thesis">
           MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.
         </p>
-        <p class="dateline">
-          EDITION — <b>Fri 26 Jun 2026</b> &nbsp;/&nbsp; Sources scanned: <b>9</b> &nbsp;/&nbsp; Surfaced: <b>5</b>
-        </p>
+        <div class="dateline">
+          <span class="ed">
+            EDITION — <b id="edition">{editionLabel}</b> &nbsp;/&nbsp;
+            Sources scanned: <b id="scanned">{newsData.sourcesScanned}</b> &nbsp;/&nbsp;
+            Surfaced: <b id="surfaced">{newsData.surfaced}</b>
+          </span>
+          <button class="refresh" id="refresh" type="button" aria-label="Refresh the brief">
+            <svg class="ricon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 12a9 9 0 1 1-2.64-6.36" /><path d="M21 3v6h-6" />
+            </svg>
+            <span class="rtext">Refresh</span>
+          </button>
+        </div>
       </header>
 
       <!-- Window selector -->
@@ -230,82 +74,9 @@ const takeaway =
         ))}
       </div>
 
-      <!-- Panels -->
+      <!-- Panels (filled client-side from the agent's JSON) -->
       {windows.map((w, i) => (
-        <section
-          class="panel"
-          id={`panel-${w.id}`}
-          role="tabpanel"
-          aria-labelledby={`tab-${w.id}`}
-          hidden={i !== 0}
-        >
-          <!-- Agent trace -->
-          <details class="trace">
-            <summary>
-              <span class="pl">+</span>
-              <span>Why these {w.id === 'month' ? 'themes' : 'five'} — the agent’s reasoning</span>
-              <span class="gate" set:html={gates[w.id]} />
-            </summary>
-            <div class="tracebody">
-              {traces[w.id].map((r) => (
-                <div class="trow">
-                  <div class="tk">{r.k}</div>
-                  <div class={r.rejected ? 'rejected' : ''} set:html={r.t} />
-                </div>
-              ))}
-            </div>
-          </details>
-
-          {w.id !== 'month' ? (
-            <div class="feedbody">
-              {stories[w.id].map((s) => (
-                <article class="story">
-                  <div class="col-news">
-                    <div class="snum">{s.num}</div>
-                    <div class="ssrc">
-                      <span>{s.src}</span>{s.fresh && <span class="fresh">FRESH</span>}
-                    </div>
-                    <h3 class="shead"><a href={s.url} target="_blank" rel="noopener">{s.head}</a></h3>
-                    <a class="sread" href={s.url} target="_blank" rel="noopener">
-                      Read source
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-                    </a>
-                  </div>
-                  <div class="col-plain">
-                    <div class="plabel">In plain English</div>
-                    <div class="plain" set:html={s.plain} />
-                    <div class="needs">
-                      <div class="nlabel">To follow this, you need:</div>
-                      <div class="chips">
-                        {s.chips.map((id) => (
-                          <span class="chip" title={concepts[id]?.gloss}>{concepts[id]?.name ?? id}</span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          ) : (
-            <div class="synth">
-              {themes.map((t) => (
-                <div class="theme">
-                  <div class="tnum">{t.num}</div>
-                  <h3><a href={t.url} target="_blank" rel="noopener" set:html={t.head} /></h3>
-                  {t.body.map((p) => (<p set:html={p} />))}
-                  <div class="evidence">
-                    <span class="elabel">Articles</span>
-                    {t.ev.map((e) => (<a href={e[1]} target="_blank" rel="noopener">{e[0]}</a>))}
-                  </div>
-                </div>
-              ))}
-              <div class="takeaway">
-                <div class="tlabel">The one line to carry in</div>
-                <p set:html={takeaway} />
-              </div>
-            </div>
-          )}
-        </section>
+        <section class="panel" id={`panel-${w.id}`} role="tabpanel" aria-labelledby={`tab-${w.id}`} hidden={i !== 0}></section>
       ))}
 
     </section>
@@ -328,192 +99,64 @@ const takeaway =
   }
   .decoder em { font-style: italic; color: var(--d-blue); }
 
-  /* Masthead */
-  .dh1 {
-    margin: 0 0 4px;
-    font-size: clamp(2.4rem, 5.4vw, 4rem);
-    line-height: 1.02;
-    letter-spacing: -0.045em;
-    font-weight: 800;
-  }
-  .thesis {
-    margin: 0.75rem 0 0;
-    max-width: 42rem;
-    font-size: clamp(1.05rem, 2vw, 1.3rem);
-    line-height: 1.4;
-    color: var(--d-soft);
-  }
+  .dh1 { margin: 0 0 4px; font-size: clamp(2.4rem, 5.4vw, 4rem); line-height: 1.02; letter-spacing: -0.045em; font-weight: 800; }
+  .thesis { margin: 0.75rem 0 0; max-width: 42rem; font-size: clamp(1.05rem, 2vw, 1.3rem); line-height: 1.4; color: var(--d-soft); }
+
   .dateline {
     margin: 1.5rem 0 0;
-    font-family: var(--d-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.04em;
-    color: var(--d-faint);
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
   }
-  .dateline b { color: var(--d-soft); font-weight: 600; }
+  .ed { font-family: var(--d-mono); font-size: 0.72rem; letter-spacing: 0.04em; color: var(--d-faint); }
+  .ed b { color: var(--d-soft); font-weight: 600; }
+
+  .refresh {
+    display: inline-flex; align-items: center; gap: 0.45rem;
+    padding: 0.4rem 0.8rem;
+    font-family: var(--d-mono); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em;
+    color: var(--d-blue); background: #fff;
+    border: 1px solid var(--d-line-strong); border-radius: 999px;
+    cursor: pointer; transition: all 150ms ease;
+  }
+  .refresh:hover { border-color: var(--d-blue); background: var(--d-blue-wash); }
+  .refresh:disabled { opacity: 0.6; cursor: progress; }
+  .refresh .ricon { width: 13px; height: 13px; }
+  .refresh.spin .ricon { animation: rspin 0.8s linear infinite; }
+  @keyframes rspin { to { transform: rotate(360deg); } }
 
   /* Window selector */
-  .windows {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border-bottom: 1px solid var(--d-line-strong);
-  }
-  .win {
-    cursor: pointer;
-    text-align: left;
-    padding: 1.15rem 1.25rem 1rem;
-    border-right: 1px solid var(--d-line);
-    background: none;
-    position: relative;
-    transition: background 160ms ease;
-  }
+  .windows { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--d-line-strong); }
+  .win { cursor: pointer; text-align: left; padding: 1.15rem 1.25rem 1rem; border-right: 1px solid var(--d-line); background: none; position: relative; transition: background 160ms ease; }
   .win:last-child { border-right: none; }
   .win:hover { background: #eef3fb; }
   .win[aria-selected='true'] { background: var(--d-card); }
-  .win[aria-selected='true']::after {
-    content: '';
-    position: absolute;
-    left: 0; right: 0; bottom: -1px;
-    height: 3px;
-    background: var(--d-blue);
-  }
-  .wlabel {
-    display: block;
-    font-family: var(--d-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--d-faint);
-    font-weight: 500;
-  }
+  .win[aria-selected='true']::after { content: ''; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--d-blue); }
+  .wlabel { display: block; font-family: var(--d-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-faint); font-weight: 500; }
   .win[aria-selected='true'] .wlabel { color: var(--d-blue); }
-  .wname {
-    display: flex;
-    align-items: baseline;
-    gap: 0.55rem;
-    margin-top: 0.4rem;
-    font-size: clamp(1.25rem, 2.4vw, 1.6rem);
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1;
-  }
+  .wname { display: flex; align-items: baseline; gap: 0.55rem; margin-top: 0.4rem; font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
   .wcount { font-family: var(--d-mono); font-size: 0.72rem; color: var(--d-faint); font-weight: 500; }
   .wmode { display: block; margin-top: 0.5rem; font-size: 0.78rem; color: var(--d-soft); white-space: nowrap; }
 
-  /* Agent trace */
-  .trace { border-bottom: 1px solid var(--d-line); }
-  .trace summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    font-family: var(--d-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--d-soft);
-    font-weight: 500;
-  }
-  .trace summary::-webkit-details-marker { display: none; }
-  .trace .pl {
-    width: 16px; height: 16px;
-    border: 1px solid var(--d-line-strong);
-    border-radius: 3px;
-    display: inline-flex; align-items: center; justify-content: center;
-    font-size: 0.85rem; color: var(--d-blue);
-    transition: 200ms;
-  }
-  .trace[open] .pl { background: var(--d-blue); color: #fff; border-color: var(--d-blue); }
-  .trace .gate { margin-left: auto; text-transform: none; letter-spacing: 0; color: var(--d-faint); }
-  .trace .gate b { color: var(--d-blue); font-weight: 600; }
-  .tracebody { padding: 0.25rem 0 1.5rem; font-size: 0.85rem; color: var(--d-soft); line-height: 1.55; }
-  .trow {
-    display: grid;
-    grid-template-columns: 92px 1fr;
-    gap: 0.9rem;
-    padding: 0.55rem 0;
-    border-top: 1px dotted var(--d-line-strong);
-  }
-  .trow:first-child { border-top: none; }
-  .tk {
-    font-family: var(--d-mono);
-    font-size: 0.66rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--d-faint);
-    padding-top: 0.15rem;
-  }
-  .rejected, .rejected s { color: var(--d-faint); }
-  .rejected s { text-decoration-color: var(--d-line-strong); }
-
   /* Story card */
-  .story {
-    display: grid;
-    grid-template-columns: 1.05fr 1fr;
-    border-bottom: 1px solid var(--d-line);
-  }
+  .story { display: grid; grid-template-columns: 1.05fr 1fr; border-bottom: 1px solid var(--d-line); }
   .col-news { border-right: 1px dotted var(--d-line-strong); padding: 1.5rem 2.25rem 1.6rem 0; }
   .col-plain { padding: 1.5rem 0 1.6rem 2.25rem; }
   .snum { font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-amber); letter-spacing: 0.1em; font-weight: 600; }
-  .ssrc {
-    margin-top: 0.2rem;
-    font-family: var(--d-mono);
-    font-size: 0.7rem;
-    color: var(--d-faint);
-    letter-spacing: 0.04em;
-    display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;
-  }
-  .fresh {
-    background: var(--d-amber); color: #fff;
-    font-size: 0.56rem; padding: 0.12rem 0.4rem;
-    border-radius: 2px; letter-spacing: 0.1em; font-weight: 700;
-  }
-  .shead {
-    margin: 0.6rem 0 0.75rem;
-    font-size: 1.3rem;
-    line-height: 1.18;
-    letter-spacing: -0.02em;
-    font-weight: 700;
-  }
-  .shead a {
-    color: var(--d-ink);
-    text-decoration: none;
-    background-image: linear-gradient(var(--d-blue), var(--d-blue));
-    background-size: 0% 1.5px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 250ms ease;
-  }
+  .ssrc { margin-top: 0.2rem; font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-faint); letter-spacing: 0.04em; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+  .fresh { background: var(--d-amber); color: #fff; font-size: 0.56rem; padding: 0.12rem 0.4rem; border-radius: 2px; letter-spacing: 0.1em; font-weight: 700; }
+  .shead { margin: 0.6rem 0 0.75rem; font-size: 1.3rem; line-height: 1.18; letter-spacing: -0.02em; font-weight: 700; }
+  .shead a { color: var(--d-ink); text-decoration: none; background-image: linear-gradient(var(--d-blue), var(--d-blue)); background-size: 0% 1.5px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 250ms ease; }
   .shead a:hover { background-size: 100% 1.5px; color: var(--d-blue-deep); }
-  .sread {
-    display: inline-flex; align-items: center; gap: 0.4rem;
-    font-family: var(--d-mono); font-size: 0.7rem; font-weight: 500;
-    letter-spacing: 0.04em; color: var(--d-blue); text-decoration: none;
-  }
+  .sread { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--d-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.04em; color: var(--d-blue); text-decoration: none; }
   .sread svg { width: 11px; height: 11px; }
   .sread:hover { color: var(--d-amber); }
-
-  .plabel {
-    display: flex; align-items: center; gap: 0.45rem;
-    margin-bottom: 0.55rem;
-    font-family: var(--d-mono); font-size: 0.62rem; font-weight: 600;
-    letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-blue);
-  }
+  .plabel { display: flex; align-items: center; gap: 0.45rem; margin-bottom: 0.55rem; font-family: var(--d-mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-blue); }
   .plabel::before { content: ''; width: 14px; height: 1.5px; background: var(--d-blue); }
   .plain { font-size: 0.95rem; line-height: 1.55; color: var(--d-ink); }
   .plain b { font-weight: 600; }
   .needs { margin-top: 1rem; }
   .nlabel { margin-bottom: 0.5rem; font-family: var(--d-mono); font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--d-faint); }
   .chips { display: flex; flex-wrap: wrap; gap: 0.375rem; }
-  .chip {
-    font-family: var(--d-mono); font-size: 0.7rem;
-    padding: 0.25rem 0.55rem;
-    border: 1px solid var(--d-line-strong); border-radius: 2px;
-    color: var(--d-soft); background: #fff; cursor: help;
-    transition: all 150ms ease;
-  }
+  .chip { font-family: var(--d-mono); font-size: 0.7rem; padding: 0.25rem 0.55rem; border: 1px solid var(--d-line-strong); border-radius: 2px; color: var(--d-soft); background: #fff; cursor: help; transition: all 150ms ease; }
   .chip:hover { border-color: var(--d-blue); color: var(--d-blue); background: var(--d-blue-wash); }
 
   /* Synthesis (month) */
@@ -523,30 +166,15 @@ const takeaway =
   .theme:first-of-type { border-top: none; padding-top: 0.4rem; }
   .tnum { font-family: var(--d-mono); font-size: 0.7rem; color: var(--d-faint); }
   .theme h3 { margin: 0.4rem 0 0.65rem; font-size: 1.55rem; line-height: 1.12; letter-spacing: -0.02em; font-weight: 700; }
-  .theme h3 a {
-    color: var(--d-ink); text-decoration: none;
-    background-image: linear-gradient(var(--d-blue), var(--d-blue));
-    background-size: 0% 1.5px; background-position: 0 100%; background-repeat: no-repeat;
-    transition: background-size 250ms ease;
-  }
+  .theme h3 a { color: var(--d-ink); text-decoration: none; background-image: linear-gradient(var(--d-blue), var(--d-blue)); background-size: 0% 1.5px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 250ms ease; }
   .theme h3 a:hover { background-size: 100% 1.5px; }
   .theme p { margin: 0; max-width: 70ch; font-size: 0.95rem; line-height: 1.58; color: var(--d-soft); }
   .theme p + p { margin-top: 0.65rem; }
   .evidence { margin-top: 0.95rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0; font-family: var(--d-mono); font-size: 0.72rem; }
   .elabel { margin-right: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--d-faint); }
-  .evidence a {
-    margin-right: 0.45rem; padding: 0.2rem 0.6rem;
-    border: 1px solid var(--d-line-strong); border-radius: 2px;
-    color: var(--d-blue); text-decoration: none; transition: all 150ms ease;
-  }
+  .evidence a { margin-right: 0.45rem; padding: 0.2rem 0.6rem; border: 1px solid var(--d-line-strong); border-radius: 2px; color: var(--d-blue); text-decoration: none; transition: all 150ms ease; }
   .evidence a:hover { border-color: var(--d-blue); background: var(--d-blue-wash); }
-  .takeaway {
-    margin-top: 2rem;
-    border: 1px solid var(--d-blue);
-    background: var(--d-blue-wash);
-    border-radius: 4px;
-    padding: 1.35rem 1.5rem;
-  }
+  .takeaway { margin-top: 2rem; border: 1px solid var(--d-blue); background: var(--d-blue-wash); border-radius: 4px; padding: 1.35rem 1.5rem; }
   .tlabel { margin-bottom: 0.5rem; font-family: var(--d-mono); font-size: 0.62rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--d-blue-deep); }
   .takeaway p { margin: 0; font-size: 1.2rem; line-height: 1.4; font-weight: 600; }
 
@@ -563,26 +191,125 @@ const takeaway =
   }
 </style>
 
-<script>
-  const tabs = Array.from(document.querySelectorAll<HTMLButtonElement>('.win'));
-  const panels = Array.from(document.querySelectorAll<HTMLElement>('.panel'));
+<script define:vars={{ initialData: newsData }}>
+  // ─────────────────────────────────────────────────────────────────────────
+  // CONNECT THE LIVE AGENT HERE (optional).
+  // Leave empty  → Refresh re-fetches the latest committed run (/martech-news.json),
+  //                which the daily GitHub Action keeps up to date.
+  // Set a URL    → Refresh calls your deployed agent API and re-runs it live.
+  //                e.g. "https://sauravtripathy-martech-news-agent.hf.space/refresh"
+  const REFRESH_ENDPOINT = '';
+  // ─────────────────────────────────────────────────────────────────────────
 
-  function activate(id: string) {
-    tabs.forEach((t) => t.setAttribute('aria-selected', String(t.dataset.win === id)));
-    panels.forEach((p) => {
-      p.hidden = p.id !== `panel-${id}`;
-    });
+  let data = initialData;
+  const $ = (s) => document.querySelector(s);
+  const esc = (v) => String(v ?? '');
+
+  const ARROW =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+
+  function chip(id) {
+    const c = (data.concepts || {})[id];
+    const name = c ? c.name : id;
+    const gloss = c ? c.gloss.replace(/"/g, '&quot;') : '';
+    return `<span class="chip" title="${gloss}">${name}</span>`;
   }
 
+  function storyCard(s) {
+    return `<article class="story">
+      <div class="col-news">
+        <div class="snum">${esc(s.num)}</div>
+        <div class="ssrc"><span>${esc(s.src)}</span>${s.fresh ? '<span class="fresh">FRESH</span>' : ''}</div>
+        <h3 class="shead"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.head)}</a></h3>
+        <a class="sread" href="${esc(s.url)}" target="_blank" rel="noopener">Read source ${ARROW}</a>
+      </div>
+      <div class="col-plain">
+        <div class="plabel">In plain English</div>
+        <div class="plain">${esc(s.plain)}</div>
+        <div class="needs">
+          <div class="nlabel">To follow this, you need:</div>
+          <div class="chips">${(s.chips || []).map(chip).join('')}</div>
+        </div>
+      </div>
+    </article>`;
+  }
+
+  function themeCard(t) {
+    const body = (t.body || []).map((p) => `<p>${p}</p>`).join('');
+    const ev = (t.ev || []).map((e) => `<a href="${esc(e[1])}" target="_blank" rel="noopener">${esc(e[0])}</a>`).join('');
+    return `<div class="theme">
+      <div class="tnum">${esc(t.num)}</div>
+      <h3><a href="${esc(t.url)}" target="_blank" rel="noopener">${t.head}</a></h3>
+      ${body}
+      <div class="evidence"><span class="elabel">Articles</span>${ev}</div>
+    </div>`;
+  }
+
+  function renderPanel(win) {
+    const panel = $(`#panel-${win}`);
+    if (!panel) return;
+    const w = (data.windows || {})[win] || {};
+    if (win === 'month') {
+      const themes = (w.themes || []).map(themeCard).join('');
+      panel.innerHTML = `<div class="synth">
+        ${themes}
+        <div class="takeaway"><div class="tlabel">The one line to carry in</div><p>${w.takeaway || ''}</p></div>
+      </div>`;
+    } else {
+      panel.innerHTML = (w.stories || []).map(storyCard).join('');
+    }
+  }
+
+  function renderAll() {
+    ['day', 'week', 'month'].forEach(renderPanel);
+    const g = new Date(data.generatedAt || Date.now());
+    const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const ed = $('#edition');
+    if (ed) ed.textContent = `${wd[g.getUTCDay()]} ${String(g.getUTCDate()).padStart(2, '0')} ${mo[g.getUTCMonth()]} ${g.getUTCFullYear()}`;
+    const sc = $('#scanned'); if (sc && data.sourcesScanned != null) sc.textContent = data.sourcesScanned;
+    const su = $('#surfaced'); if (su && data.surfaced != null) su.textContent = data.surfaced;
+  }
+
+  function activate(id) {
+    document.querySelectorAll('.win').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.win === id)));
+    document.querySelectorAll('.panel').forEach((p) => { p.hidden = p.id !== `panel-${id}`; });
+  }
+
+  const tabs = Array.from(document.querySelectorAll('.win'));
   tabs.forEach((t) => {
-    t.addEventListener('click', () => activate(t.dataset.win as string));
+    t.addEventListener('click', () => activate(t.dataset.win));
     t.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
       e.preventDefault();
       const i = tabs.indexOf(t);
-      const next = e.key === 'ArrowRight' ? (i + 1) % tabs.length : (i - 1 + tabs.length) % tabs.length;
-      tabs[next].focus();
-      activate(tabs[next].dataset.win as string);
+      const n = e.key === 'ArrowRight' ? (i + 1) % tabs.length : (i - 1 + tabs.length) % tabs.length;
+      tabs[n].focus();
+      activate(tabs[n].dataset.win);
     });
   });
+
+  const btn = $('#refresh');
+  btn?.addEventListener('click', async () => {
+    btn.disabled = true;
+    btn.classList.add('spin');
+    try {
+      const url = REFRESH_ENDPOINT || `/martech-news.json?t=${Date.now()}`;
+      const res = await fetch(url, { method: REFRESH_ENDPOINT ? 'POST' : 'GET' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const fresh = await res.json();
+      if (fresh && fresh.windows) {
+        data = fresh;
+        renderAll();
+      }
+    } catch (err) {
+      console.error('Refresh failed:', err);
+      btn.querySelector('.rtext').textContent = 'Retry';
+    } finally {
+      btn.disabled = false;
+      btn.classList.remove('spin');
+    }
+  });
+
+  renderAll();
 </script>
