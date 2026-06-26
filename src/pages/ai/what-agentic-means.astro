@@ -2,18 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 
-const agenticImages = [
-  {
-    src: '/what-agentic-means-1.png',
-    alt: 'Agentic AI concept diagram one',
-    caption: 'What makes an AI system agentic',
-  },
-  {
-    src: '/what-agentic-means-2.png',
-    alt: 'Agentic AI concept diagram two',
-    caption: 'How agentic systems work in practice',
-  },
-];
+const topAgenticImage = '/what-agentic-means-1.png';
+const bottomAgenticImage = '/what-agentic-means-2.png';
 ---
 
 <Layout
@@ -33,349 +23,133 @@ const agenticImages = [
         What Agentic Means
       </h1>
 
-      <!-- Image carousel section -->
-      <section
-        class="mt-12 rounded-3xl border border-blue-100 bg-white p-4 shadow-sm sm:p-5"
-        data-agentic-carousel
-        aria-label="Agentic AI image carousel"
-      >
-        <div class="relative h-[420px] overflow-hidden rounded-2xl bg-white lg:h-[560px]">
-          <!-- Clickable image layer: opens enlarged view -->
-          <button
-            type="button"
-            class="absolute inset-0 z-0 h-full w-full cursor-zoom-in"
-            data-open-lightbox
-            aria-label="Open current image at full size"
-            title="Click image to expand"
-          >
-            {
-              agenticImages.map((image, index) => (
-                <img
-                  src={image.src}
-                  alt={image.alt}
-                  data-carousel-image
-                  data-caption={image.caption}
-                  data-index={index}
-                  class:list={[
-                    'h-full w-full object-contain p-4',
-                    index !== 0 && 'hidden',
-                  ]}
-                  loading={index === 0 ? 'eager' : 'lazy'}
-                />
-              ))
-            }
-          </button>
-
-          <!-- Default panel arrows -->
-          <button
-            type="button"
-            class="pointer-events-auto absolute left-4 top-1/2 z-30 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/95 text-4xl font-semibold leading-none text-[#06142f] shadow transition hover:bg-white"
-            data-main-prev
-            aria-label="Show previous image"
-            title="Previous image"
-          >
-            ‹
-          </button>
-
-          <button
-            type="button"
-            class="pointer-events-auto absolute right-4 top-1/2 z-30 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/95 text-4xl font-semibold leading-none text-[#06142f] shadow transition hover:bg-white"
-            data-main-next
-            aria-label="Show next image"
-            title="Next image"
-          >
-            ›
-          </button>
+      <div class="mt-12 grid gap-8">
+        <!-- Top panel: clickable image area -->
+        <div
+          class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+          data-full-image={topAgenticImage}
+          role="button"
+          tabindex="0"
+          aria-label="Open what agentic means diagram one at full size"
+          aria-expanded="false"
+          title="Click to expand image"
+        >
+          <img
+            src={topAgenticImage}
+            alt="What agentic means diagram one"
+            class="h-full w-full object-contain p-4"
+            loading="eager"
+          />
         </div>
 
-        <div class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <p class="text-sm font-medium text-slate-600" data-carousel-footnote>
-            Diagram 1 of {agenticImages.length}: {agenticImages[0].caption}
-          </p>
-
-          <div class="flex items-center gap-3" aria-label="Choose image">
-            {
-              agenticImages.map((image, index) => (
-                <button
-                  type="button"
-                  class:list={[
-                    'h-3 w-3 rounded-full transition',
-                    index === 0 ? 'bg-blue-700' : 'bg-slate-300',
-                  ]}
-                  data-carousel-dot
-                  data-index={index}
-                  aria-label={`Show diagram ${index + 1}`}
-                  title={`Diagram ${index + 1}: ${image.caption}`}
-                  aria-current={index === 0 ? 'true' : 'false'}
-                />
-              ))
-            }
-          </div>
+        <!-- Bottom panel: clickable image area -->
+        <div
+          class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+          data-full-image={bottomAgenticImage}
+          role="button"
+          tabindex="0"
+          aria-label="Open what agentic means diagram two at full size"
+          aria-expanded="false"
+          title="Click to expand image"
+        >
+          <img
+            src={bottomAgenticImage}
+            alt="What agentic means diagram two"
+            class="h-full w-full object-contain p-4"
+            loading="lazy"
+          />
         </div>
-      </section>
+      </div>
 
       <!-- Full-size image overlay -->
       <div
         id="image-lightbox"
-        class="fixed inset-0 z-50 hidden overflow-auto bg-black/90 p-4 sm:p-8"
+        class="fixed inset-0 z-50 hidden cursor-zoom-out overflow-auto bg-black/90 p-4 sm:p-8"
         aria-hidden="true"
-        role="dialog"
-        aria-modal="true"
-        aria-label="Expanded image viewer"
+        role="button"
+        tabindex="0"
+        aria-label="Close full-size image"
+        title="Click to close image"
       >
-        <button
-          type="button"
-          id="lightbox-close"
-          class="fixed right-5 top-5 z-[60] grid h-11 w-11 place-items-center rounded-full bg-white/90 text-2xl font-semibold text-[#06142f] shadow transition hover:bg-white"
-          aria-label="Close full-size image"
-          title="Close image"
-        >
-          ×
-        </button>
-
-        <button
-          type="button"
-          id="lightbox-prev"
-          class="fixed left-5 top-1/2 z-[60] grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/90 text-3xl font-semibold text-[#06142f] shadow transition hover:bg-white"
-          aria-label="Show previous full-size image"
-          title="Previous image"
-        >
-          ‹
-        </button>
-
-        <button
-          type="button"
-          id="lightbox-next"
-          class="fixed right-5 top-1/2 z-[60] grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-white/90 text-3xl font-semibold text-[#06142f] shadow transition hover:bg-white"
-          aria-label="Show next full-size image"
-          title="Next image"
-        >
-          ›
-        </button>
-
-        <div class="flex min-h-full flex-col items-center justify-center gap-4">
+        <div class="flex min-h-full items-center justify-center">
           <img
             id="lightbox-image"
-            src={agenticImages[0].src}
-            alt={agenticImages[0].alt}
-            class="max-h-[84vh] max-w-[95vw] cursor-zoom-out rounded-2xl bg-white object-contain"
-            title="Click image to close"
+            src=""
+            alt="Full-size image"
+            class="max-w-none cursor-zoom-out rounded-2xl bg-white"
           />
-
-          <p
-            id="lightbox-footnote"
-            class="max-w-4xl text-center text-sm font-medium text-white/80"
-          >
-            Diagram 1 of {agenticImages.length}: {agenticImages[0].caption}
-          </p>
         </div>
       </div>
     </section>
   </main>
+</Layout>
 
-  <script>
-    const carouselImages = Array.from(
-      document.querySelectorAll<HTMLImageElement>('[data-carousel-image]')
-    );
+<script>
+  const imageBlocks = document.querySelectorAll<HTMLElement>('[data-full-image]');
+  const lightbox = document.querySelector<HTMLElement>('#image-lightbox');
+  const lightboxImage = document.querySelector<HTMLImageElement>('#lightbox-image');
 
-    const openLightboxButton = document.querySelector<HTMLButtonElement>(
-      '[data-open-lightbox]'
-    );
+  let activeImageBlock: HTMLElement | null = null;
 
-    const mainPrevButton = document.querySelector<HTMLButtonElement>(
-      '[data-main-prev]'
-    );
+  const openLightbox = (imageBlock: HTMLElement): void => {
+    if (!lightbox || !lightboxImage) return;
 
-    const mainNextButton = document.querySelector<HTMLButtonElement>(
-      '[data-main-next]'
-    );
+    const imageUrl = imageBlock.dataset.fullImage;
+    if (!imageUrl) return;
 
-    const carouselDots = Array.from(
-      document.querySelectorAll<HTMLButtonElement>('[data-carousel-dot]')
-    );
+    const inlineImage = imageBlock.querySelector<HTMLImageElement>('img');
 
-    const carouselFootnote = document.querySelector<HTMLElement>(
-      '[data-carousel-footnote]'
-    );
+    activeImageBlock = imageBlock;
 
-    const lightbox = document.querySelector<HTMLElement>('#image-lightbox');
+    lightboxImage.src = imageUrl;
+    lightboxImage.alt = inlineImage?.alt || 'Full-size image';
 
-    const lightboxImage = document.querySelector<HTMLImageElement>(
-      '#lightbox-image'
-    );
+    lightbox.classList.remove('hidden');
+    lightbox.setAttribute('aria-hidden', 'false');
+    imageBlock.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  };
 
-    const lightboxFootnote = document.querySelector<HTMLElement>(
-      '#lightbox-footnote'
-    );
+  const closeLightbox = (): void => {
+    if (!lightbox || !lightboxImage) return;
 
-    const lightboxCloseButton = document.querySelector<HTMLButtonElement>(
-      '#lightbox-close'
-    );
+    lightbox.classList.add('hidden');
+    lightbox.setAttribute('aria-hidden', 'true');
 
-    const lightboxPrevButton = document.querySelector<HTMLButtonElement>(
-      '#lightbox-prev'
-    );
+    lightboxImage.src = '';
+    lightboxImage.alt = 'Full-size image';
 
-    const lightboxNextButton = document.querySelector<HTMLButtonElement>(
-      '#lightbox-next'
-    );
+    activeImageBlock?.setAttribute('aria-expanded', 'false');
+    activeImageBlock = null;
 
-    let activeIndex = 0;
-    const totalImages = carouselImages.length;
+    document.body.style.overflow = '';
+  };
 
-    const isLightboxOpen = (): boolean => {
-      return Boolean(lightbox && !lightbox.classList.contains('hidden'));
-    };
+  imageBlocks.forEach((imageBlock) => {
+    imageBlock.addEventListener('click', () => {
+      openLightbox(imageBlock);
+    });
 
-    const getActiveImage = (): HTMLImageElement | undefined => {
-      return carouselImages[activeIndex];
-    };
-
-    const getFootnoteText = (): string => {
-      const activeImage = getActiveImage();
-      const caption = activeImage?.dataset.caption ?? '';
-
-      return `Diagram ${activeIndex + 1} of ${totalImages}: ${caption}`;
-    };
-
-    const updateLightboxImage = (): void => {
-      const activeImage = getActiveImage();
-
-      if (!activeImage || !lightboxImage) return;
-
-      lightboxImage.src = activeImage.src;
-      lightboxImage.alt = activeImage.alt;
-
-      if (lightboxFootnote) {
-        lightboxFootnote.textContent = getFootnoteText();
-      }
-    };
-
-    const setActiveImage = (nextIndex: number): void => {
-      if (!totalImages) return;
-
-      activeIndex = (nextIndex + totalImages) % totalImages;
-
-      carouselImages.forEach((image, index) => {
-        image.classList.toggle('hidden', index !== activeIndex);
-      });
-
-      carouselDots.forEach((dot, index) => {
-        dot.classList.toggle('bg-blue-700', index === activeIndex);
-        dot.classList.toggle('bg-slate-300', index !== activeIndex);
-        dot.setAttribute(
-          'aria-current',
-          index === activeIndex ? 'true' : 'false'
-        );
-      });
-
-      if (carouselFootnote) {
-        carouselFootnote.textContent = getFootnoteText();
-      }
-
-      if (isLightboxOpen()) {
-        updateLightboxImage();
-      }
-    };
-
-    const showPreviousImage = (): void => {
-      setActiveImage(activeIndex - 1);
-    };
-
-    const showNextImage = (): void => {
-      setActiveImage(activeIndex + 1);
-    };
-
-    const openLightbox = (): void => {
-      if (!lightbox) return;
-
-      updateLightboxImage();
-
-      lightbox.classList.remove('hidden');
-      lightbox.setAttribute('aria-hidden', 'false');
-      document.body.style.overflow = 'hidden';
-    };
-
-    const closeLightbox = (): void => {
-      if (!lightbox) return;
-
-      lightbox.classList.add('hidden');
-      lightbox.setAttribute('aria-hidden', 'true');
-      document.body.style.overflow = '';
-    };
-
-    openLightboxButton?.addEventListener('click', openLightbox);
-
-    openLightboxButton?.addEventListener('keydown', (event: KeyboardEvent) => {
+    imageBlock.addEventListener('keydown', (event: KeyboardEvent) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
-        openLightbox();
+        openLightbox(imageBlock);
       }
     });
+  });
 
-    mainPrevButton?.addEventListener('click', (event: MouseEvent) => {
+  lightbox?.addEventListener('click', closeLightbox);
+
+  lightbox?.addEventListener('keydown', (event: KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
-      event.stopPropagation();
-      showPreviousImage();
-    });
-
-    mainNextButton?.addEventListener('click', (event: MouseEvent) => {
-      event.preventDefault();
-      event.stopPropagation();
-      showNextImage();
-    });
-
-    carouselDots.forEach((dot) => {
-      dot.addEventListener('click', (event: MouseEvent) => {
-        event.preventDefault();
-        event.stopPropagation();
-
-        const index = Number(dot.dataset.index);
-
-        if (Number.isNaN(index)) return;
-
-        setActiveImage(index);
-      });
-    });
-
-    lightboxCloseButton?.addEventListener('click', (event: MouseEvent) => {
-      event.stopPropagation();
       closeLightbox();
-    });
+    }
+  });
 
-    lightboxPrevButton?.addEventListener('click', (event: MouseEvent) => {
-      event.stopPropagation();
-      showPreviousImage();
-    });
-
-    lightboxNextButton?.addEventListener('click', (event: MouseEvent) => {
-      event.stopPropagation();
-      showNextImage();
-    });
-
-    lightboxImage?.addEventListener('click', (event: MouseEvent) => {
-      event.stopPropagation();
+  document.addEventListener('keydown', (event: KeyboardEvent) => {
+    if (event.key === 'Escape') {
       closeLightbox();
-    });
-
-    lightbox?.addEventListener('click', closeLightbox);
-
-    document.addEventListener('keydown', (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
-        closeLightbox();
-      }
-
-      if (!isLightboxOpen()) return;
-
-      if (event.key === 'ArrowLeft') {
-        showPreviousImage();
-      }
-
-      if (event.key === 'ArrowRight') {
-        showNextImage();
-      }
-    });
-
-    setActiveImage(0);
-  </script>
-</Layout>
+    }
+  });
+</script>
