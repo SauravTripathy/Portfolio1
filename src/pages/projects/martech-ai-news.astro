@@ -37,9 +37,9 @@ const concepts: Record<string, { name: string; gloss: string }> = {
 };
 
 const windows = [
-  { id: 'day', label: 'Window 01', name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
-  { id: 'week', label: 'Window 02', name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
-  { id: 'month', label: 'Window 03', name: 'Past month', count: '3 themes', mode: 'The themes underneath the headlines' },
+  { id: 'day', name: 'Last 24 hours', count: '5 items', mode: 'What actually dropped' },
+  { id: 'week', name: 'Past week', count: '5 items', mode: 'What held up past the news cycle' },
+  { id: 'month', name: 'Past month', count: '3 themes', mode: 'The themes underneath the headlines' },
 ];
 
 const gates: Record<string, string> = {
@@ -203,10 +203,9 @@ const takeaway =
 
       <!-- Masthead -->
       <header class="border-b-2 border-[#06142f] pb-6">
-        <h1 class="dh1">MarTech AI, the <em>Decoder’s Brief</em></h1>
+        <h1 class="dh1">AI in MarTech, the <em>Decoder’s Brief</em></h1>
         <p class="thesis">
-          The MarTech AI landscape is moving at a rapid pace. Read what’s recent and what it means in
-          plain English to get up to speed.
+          MarTech AI moves fast. Read the no-jargon guide to what’s new—and why it matters.
         </p>
         <p class="dateline">
           EDITION — <b>Fri 26 Jun 2026</b> &nbsp;/&nbsp; Sources scanned: <b>9</b> &nbsp;/&nbsp; Surfaced: <b>5</b>
@@ -289,7 +288,6 @@ const takeaway =
             </div>
           ) : (
             <div class="synth">
-              <div class="skicker">30-day synthesis · the shape underneath the feed</div>
               {themes.map((t) => (
                 <div class="theme">
                   <div class="tnum">{t.num}</div>
