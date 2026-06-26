@@ -1,0 +1,6 @@
+anthropic>=0.40
+feedparser>=6.0
+python-dateutil>=2.9
+# Only needed if you run the optional live Refresh API (server.py):
+fastapi>=0.110
+uvicorn[standard]>=0.29
