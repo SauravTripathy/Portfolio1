@@ -2,73 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 
-const solutionLandscapeImage = '/GenAI_Solution_Landscape.PNG';
-
-const solutionTradeoffs = [
-  {
-    solution: ['1. Chat interfaces'],
-    productivity:
-      'Broad individual productivity - summarizing, drafting, analysis on demand',
-    complexity:
-      'Sits outside systems of record; value depends on the user asking good questions; human still owns the task',
-  },
-  {
-    solution: ['2. API access'],
-    productivity:
-      'Turns the model into a programmable building block that can be embedded into existing systems / workflows',
-    complexity:
-      'AI strategy now needs engineering, architecture, and security alignment',
-  },
-  {
-    solution: ['3. Custom assistants'],
-    productivity:
-      'Narrows the model to a specific task or knowledge base, becoming a purpose-built support layer',
-    complexity:
-      'Ownership and lifecycle questions emerge - who maintains prompts, validates answers, updates sources',
-  },
-  {
-    solution: ['4. AI-native apps &', '5. Embedded copilots'],
-    productivity:
-      'AI appears at the point of work (Salesforce, Office, etc.), reducing friction and driving adoption',
-    complexity:
-      'Creates vendor dependency; forces buy-vs-build decisions across the tech stack',
-  },
-  {
-    solution: ['6. RAG'],
-    productivity:
-      'Delivers enterprise-specific answers and reduces hallucination by grounding in company content',
-    complexity:
-      'AI quality relies on data quality; forces governance, access control, metadata, and source-of-truth discipline',
-  },
-  {
-    solution: ['7. Workflow automation'],
-    productivity:
-      'Completes routine multi-step processes end to end, attacking handoffs and manual rework directly',
-    complexity:
-      'Requires process mapping, defined inputs/outputs, exception paths, controls, and outcome measurement',
-  },
-  {
-    solution: ['8. Agentic systems'],
-    productivity:
-      'Dynamically reasons through goals, uses tools, and adapts — unlocking complex use cases',
-    complexity:
-      'Agents take actions, not just give answers; needs permissions, orchestration, monitoring, boundaries, and accountability',
-  },
-  {
-    solution: ['9. Multi-agent systems'],
-    productivity:
-      'Distributes cross-functional work across specialized, coordinating agents',
-    complexity:
-      'More coordination risk, latency, cost, and failure modes; risk of fragile architectures',
-  },
-  {
-    solution: ['10. Autonomous &', '11. Physical AI'],
-    productivity:
-      'Chains many tasks with limited oversight; world models and robots extend AI into the physical world',
-    complexity:
-      'Higher-risk operational environments; governance muscle must be built before autonomy expands',
-  },
-];
+const solutionLandscapeImage = '/GenAI_Solution_Landscape.png';
+const productivityComplexityImage = '/productivity_complexity.png';
 ---
 
 <Layout
@@ -106,46 +41,23 @@ const solutionTradeoffs = [
           />
         </div>
 
-        <!-- Bottom panel: scrollable text/table area -->
-        <article class="scroll-box h-[560px] overflow-y-auto rounded-3xl border border-slate-200 bg-white p-8 shadow-sm sm:p-10 lg:h-[680px]">
-          <h2 class="text-2xl font-bold tracking-[-0.03em] text-[#073763] sm:text-3xl">
-            No Free Jumps: every step up the GenAI landscape trades productivity for complexity
-          </h2>
+        <!-- Bottom panel: clickable productivity/complexity image area -->
+<div
+  class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+  data-full-image={productivityComplexityImage}
+  role="button"
+  tabindex="0"
+  aria-label="Open productivity complexity image at full size"
+  title="Click to expand image"
+>
+  <img
+    src={productivityComplexityImage}
+    alt="Productivity complexity diagram"
+    class="h-full w-full object-contain p-4"
+    loading="eager"
+  />
+</div>
 
-          <p class="mt-2 text-base leading-7 text-slate-600 sm:text-lg">
-            Distinction across the solution groups is increasingly blurring and
-            enterprise solution adoption is often non-linear
-          </p>
-
-          <div class="mt-10 overflow-x-auto">
-            <table class="tradeoff-table min-w-[980px] w-full border-collapse text-middle text-xs sm:text-base">
-              <thead>
-                <tr>
-                  <th>Solution</th>
-                  <th>Productivity Unlock</th>
-                  <th>Complexity Addition</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                {
-                  solutionTradeoffs.map((row, index) => (
-                    <tr class:list={[index % 2 === 0 ? 'table-row-dark' : 'table-row-light']}>
-                      <td class="solution-cell">
-                        {row.solution.map((line) => (
-                          <span class="block">{line}</span>
-                        ))}
-                      </td>
-                      <td>{row.productivity}</td>
-                      <td>{row.complexity}</td>
-                    </tr>
-                  ))
-                }
-              </tbody>
-            </table>
-          </div>
-        </article>
-      </div>
 
       <!-- Full-size image overlay -->
       <div
@@ -171,123 +83,71 @@ const solutionTradeoffs = [
 </Layout>
 
 <script>
-  const imageBlock = document.querySelector('[data-full-image]');
-  const lightbox = document.querySelector('#image-lightbox');
-  const lightboxImage = document.querySelector('#lightbox-image');
+  const imageBlocks = document.querySelectorAll<HTMLElement>('[data-full-image]');
+  const lightbox = document.querySelector<HTMLElement>('#image-lightbox');
+  const lightboxImage = document.querySelector<HTMLImageElement>('#lightbox-image');
 
-  const openLightbox = () => {
-    if (!(imageBlock instanceof HTMLElement)) return;
-    if (!(lightbox instanceof HTMLElement)) return;
-    if (!(lightboxImage instanceof HTMLImageElement)) return;
+  let activeImageBlock: HTMLElement | null = null;
+
+  const openLightbox = (imageBlock: HTMLElement): void => {
+    if (!lightbox || !lightboxImage) return;
 
     const imageUrl = imageBlock.dataset.fullImage;
     if (!imageUrl) return;
 
+    const inlineImage = imageBlock.querySelector<HTMLImageElement>('img');
+
+    activeImageBlock = imageBlock;
     lightboxImage.src = imageUrl;
+    lightboxImage.alt = inlineImage?.alt || 'Full-size image';
+
     lightbox.classList.remove('hidden');
     lightbox.setAttribute('aria-hidden', 'false');
     imageBlock.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
   };
 
-  const closeLightbox = () => {
-    if (!(imageBlock instanceof HTMLElement)) return;
-    if (!(lightbox instanceof HTMLElement)) return;
-    if (!(lightboxImage instanceof HTMLImageElement)) return;
+  const closeLightbox = (): void => {
+    if (!lightbox || !lightboxImage) return;
 
     lightbox.classList.add('hidden');
     lightbox.setAttribute('aria-hidden', 'true');
     lightboxImage.src = '';
-    imageBlock.setAttribute('aria-expanded', 'false');
+    lightboxImage.alt = 'Full-size image';
+
+    activeImageBlock?.setAttribute('aria-expanded', 'false');
+    activeImageBlock = null;
+
     document.body.style.overflow = '';
   };
 
-  imageBlock?.addEventListener('click', openLightbox);
+  imageBlocks.forEach((imageBlock: HTMLElement) => {
+    imageBlock.setAttribute('aria-expanded', 'false');
 
-  imageBlock?.addEventListener('keydown', (event) => {
-    if (!(event instanceof KeyboardEvent)) return;
+    imageBlock.addEventListener('click', () => {
+      openLightbox(imageBlock);
+    });
 
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openLightbox();
-    }
+    imageBlock.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openLightbox(imageBlock);
+      }
+    });
   });
 
   lightbox?.addEventListener('click', closeLightbox);
 
-  lightbox?.addEventListener('keydown', (event) => {
-    if (!(event instanceof KeyboardEvent)) return;
-
+  lightbox?.addEventListener('keydown', (event: KeyboardEvent) => {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
       closeLightbox();
     }
   });
 
-  document.addEventListener('keydown', (event) => {
+  document.addEventListener('keydown', (event: KeyboardEvent) => {
     if (event.key === 'Escape') {
       closeLightbox();
     }
   });
 </script>
-
-<style>
-  .scroll-box {
-    scrollbar-width: thin;
-    scrollbar-color: #2563eb #e2e8f0;
-  }
-
-  .scroll-box::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  .scroll-box::-webkit-scrollbar-track {
-    background: #e2e8f0;
-    border-radius: 999px;
-  }
-
-  .scroll-box::-webkit-scrollbar-thumb {
-    background: #2563eb;
-    border-radius: 999px;
-  }
-
-  .tradeoff-table th {
-    background: #d9d9d9;
-    border: 2px solid #ffffff;
-    color: #000000;
-    font-weight: 800;
-    padding: 14px 12px;
-    vertical-align: top;
-  }
-
-  .tradeoff-table td {
-    border: 2px solid #ffffff;
-    color: #000000;
-    line-height: 1.25;
-    padding: 10px 12px;
-    vertical-align: top;
-  }
-
-  .tradeoff-table .solution-cell {
-    font-weight: 800;
-    width: 20%;
-  }
-
-  .tradeoff-table th:nth-child(2),
-  .tradeoff-table td:nth-child(2) {
-    width: 40%;
-  }
-
-  .tradeoff-table th:nth-child(3),
-  .tradeoff-table td:nth-child(3) {
-    width: 40%;
-  }
-
-  .table-row-dark {
-    background: #cbd6e8;
-  }
-
-  .table-row-light {
-    background: #e8ecf3;
-  }
-</style>
