@@ -51,7 +51,7 @@ const emptyNewsData: NewsData = {
   windows: {
     day: { stories: [] },
     week: { stories: [] },
-    month: { skicker: '30-day synthesis', themes: [], takeaway: '' },
+    month: { themes: [], takeaway: '' },
   },
 };
 
@@ -88,7 +88,7 @@ const windows = [
     label: 'Window 03',
     name: 'Past month',
     count: `${monthThemes.length} themes`,
-    mode: 'The themes underneath the headlines',
+    mode: '',
   },
 ] as const;
 
@@ -105,8 +105,18 @@ const escapeHtml = (value: unknown) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 
+const decodeInlineEntities = (value: unknown) =>
+  String(value ?? '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&#x27;/g, "'");
+
 const formatInline = (value: unknown) =>
-  escapeHtml(value)
+  escapeHtml(decodeInlineEntities(value))
+    .replace(/&lt;(\/?)(?:b|strong)&gt;/gi, '<$1strong>')
+    .replace(/&lt;(\/?)em&gt;/gi, '<$1em>')
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br />');
 
@@ -125,7 +135,6 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   <main class="decoder-page">
     <section class="decoder-shell" aria-labelledby="decoder-title">
       <header class="decoder-masthead">
-        <p class="eyebrow">MarTech AI briefing</p>
         <h1 id="decoder-title">AI in MarTech, the <em>Decoder’s Brief</em></h1>
         <p class="thesis">{description}</p>
 
@@ -156,7 +165,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
           >
             <span class="wlabel">{w.label}</span>
             <span class="wname">{w.name} <span class="wcount">{w.count}</span></span>
-            <span class="wmode">{w.mode}</span>
+            {w.mode && <span class="wmode">{w.mode}</span>}
           </button>
         ))}
       </div>
@@ -172,14 +181,12 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
         >
           {w.id === 'month' ? (
             <div class="synth">
-              <div class="skicker">{newsData.windows?.month?.skicker ?? '30-day synthesis'}</div>
-
               {monthThemes.map((theme) => (
                 <article class="theme-card">
                   <div class="tnum">{theme.num}</div>
                   <h2>
                     <a href={theme.url} target="_blank" rel="noopener noreferrer">
-                      {theme.head}
+                      <span set:html={formatInline(theme.head)}></span>
                     </a>
                   </h2>
 
@@ -219,7 +226,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
                     </div>
                     <h2 class="story-head">
                       <a href={story.url} target="_blank" rel="noopener noreferrer">
-                        {story.head}
+                        <span set:html={formatInline(story.head)}></span>
                       </a>
                     </h2>
                     <a class="read-source" href={story.url} target="_blank" rel="noopener noreferrer">
@@ -276,7 +283,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   }
 
   .decoder-shell {
-    max-width: 46rem;
+    max-width: 76rem;
     margin: 0 auto;
   }
 
@@ -314,12 +321,13 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
 
   .decoder-masthead h1 {
     margin: 0;
-    max-width: 12ch;
+    max-width: none;
     font-family: var(--serif);
-    font-size: clamp(2.6rem, 8vw, 4.6rem);
+    font-size: clamp(1.75rem, 4.4vw, 3.05rem);
     font-weight: 700;
-    letter-spacing: -0.06em;
-    line-height: 0.92;
+    letter-spacing: -0.055em;
+    line-height: 1;
+    white-space: nowrap;
   }
 
   .decoder-masthead em {
@@ -328,11 +336,12 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   }
 
   .thesis {
-    margin: 1rem 0 0;
-    max-width: 34rem;
+    margin: 0.75rem 0 0;
+    max-width: none;
     color: var(--soft);
-    font-size: clamp(1rem, 2vw, 1.15rem);
-    line-height: 1.5;
+    font-size: clamp(0.86rem, 1.5vw, 1rem);
+    line-height: 1.45;
+    white-space: nowrap;
   }
 
   .dateline {
@@ -672,7 +681,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     line-height: 1.25;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 640px) {
     .decoder-page {
       padding-inline: 1rem;
     }
@@ -680,6 +689,20 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     .dateline {
       align-items: flex-start;
       flex-direction: column;
+    }
+
+    .decoder-masthead h1,
+    .thesis {
+      white-space: normal;
+    }
+
+    .decoder-masthead h1 {
+      font-size: clamp(1.45rem, 7vw, 2rem);
+      letter-spacing: -0.045em;
+    }
+
+    .thesis {
+      font-size: clamp(0.72rem, 3vw, 0.88rem);
     }
 
     .windows {
