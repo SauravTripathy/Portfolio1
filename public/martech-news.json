@@ -1,94 +1,187 @@
 {
-  "generatedAt": "2026-06-26T08:00:00Z",
-  "sourcesScanned": 9,
+  "generatedAt": "2026-07-01T09:39:36.876797+00:00",
+  "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
-    "cdp": { "name": "CDP", "gloss": "Customer Data Platform — the unified store of who your customers are." },
-    "perso": { "name": "Personalization (1:1)", "gloss": "Tailoring the message to the individual, not the segment." },
-    "genai": { "name": "Generative AI", "gloss": "Models that produce content — copy, images, replies — from a prompt." },
-    "agentic": { "name": "Agentic AI", "gloss": "Systems that don't just generate, they decide and act toward a goal." },
-    "decis": { "name": "Agentic decisioning", "gloss": "An agent choosing what to say, when, how often and on which channel — per person." },
-    "bandit": { "name": "Bandits / RL", "gloss": "The maths that lets a system learn which choice wins by trying and measuring." },
-    "cep": { "name": "CEP", "gloss": "Customer Engagement Platform — where this messaging actually runs." },
-    "geo": { "name": "GEO", "gloss": "Generative Engine Optimization — being visible inside AI answers." },
-    "govern": { "name": "Governance", "gloss": "The controls that make automated decisions safe, explainable and legible." }
+    "cdp": {
+      "name": "CDP",
+      "gloss": "Customer Data Platform — the unified store of who your customers are."
+    },
+    "perso": {
+      "name": "Personalization (1:1)",
+      "gloss": "Tailoring the message to the individual, not the segment."
+    },
+    "genai": {
+      "name": "Generative AI",
+      "gloss": "Models that produce content — copy, images, replies — from a prompt."
+    },
+    "agentic": {
+      "name": "Agentic AI",
+      "gloss": "Systems that don't just generate, they decide and act toward a goal."
+    },
+    "decis": {
+      "name": "Agentic decisioning",
+      "gloss": "An agent choosing what to say, when, how often and on which channel — per person."
+    },
+    "bandit": {
+      "name": "Bandits / RL",
+      "gloss": "The maths that lets a system learn which choice wins by trying and measuring."
+    },
+    "cep": {
+      "name": "CEP",
+      "gloss": "Customer Engagement Platform — where this messaging actually runs."
+    },
+    "geo": {
+      "name": "GEO",
+      "gloss": "Generative Engine Optimization — being visible inside AI answers."
+    },
+    "govern": {
+      "name": "Governance",
+      "gloss": "The controls that make automated decisions safe, explainable and legible."
+    }
   },
   "windows": {
     "day": {
       "stories": [
         {
-          "num": "01", "src": "MoEngage", "fresh": true,
-          "head": "MoEngage acquires Aampe to bring 1:1 agentic decisioning to B2C teams",
-          "url": "https://www.moengage.com/blog/moengage-acquires-aampe/",
-          "plain": "MoEngage bought a company whose whole idea is <b>one AI agent per customer</b> — not one model per segment. Each agent decides what to message a single person, when, how often and where, and keeps learning from what worked. The pitch: personalization stops hitting the “not enough humans to build all the journeys” ceiling.",
-          "chips": ["decis", "perso", "bandit", "cep"]
+          "num": "01",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Zeta Global research: AI agents now control discovery and evaluation before shoppers reach brand sites",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-zeta-global-research-signals-the-rise-of-agentic-commerce/",
+          "plain": "Zeta Global's survey finds consumers are authorizing AI agents to shop and buy on their behalf, with 70% still preferring to complete transactions on brand-owned channels. The critical shift: <b>AI agents now own the discovery and evaluation stage</b>, meaning brands that aren't visible inside AI answers may never get considered. This redraws how marketing budgets and channel strategies should be built.",
+          "chips": [
+            "agentic",
+            "decis",
+            "geo",
+            "cep"
+          ]
         },
         {
-          "num": "02", "src": "Salesforce · via Agile Brand", "fresh": true,
-          "head": "Salesforce pushes agentic commerce at Cannes: a Shopper Agent from discovery to checkout",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/",
-          "plain": "Salesforce wants brands to put an AI “Shopper Agent” on their own sites that walks a buyer all the way from browsing to paying. The number doing the talking: traffic referred by AI reportedly converts far better than social. The shift is from <b>omnichannel</b> (be everywhere a human clicks) to <b>agentic commerce</b> (sell to the customer’s AI).",
-          "chips": ["agentic", "genai"]
+          "num": "02",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Bad conversion data is training ad bidding algorithms to optimize for the wrong customers",
+          "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
+          "plain": "When conversion data fed into automated ad platforms is inaccurate, the bidding AI learns from the wrong signals and keeps repeating the mistake at scale. This is not a reporting problem — it's a <b>model-poisoning problem</b> that compounds over time. Marketers need clean, verified conversion inputs or automated bidding actively works against them.",
+          "chips": [
+            "bandit",
+            "govern",
+            "cdp"
+          ]
         },
         {
-          "num": "03", "src": "Forrester + 4As · via Agile Brand", "fresh": true,
-          "head": "Forrester: nine in ten US agencies use generative AI, half now use agentic AI",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/",
-          "plain": "New Cannes research says adoption is near-total — but flags a trap: teams are mostly using AI to cut cost, not to make better work. That’s the <b>efficiency-vs-effectiveness</b> tension, and it’s the thing a strategy team has to actively manage, because the tools won’t do it for you.",
-          "chips": ["genai", "agentic"]
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI platforms are making creative — not audience targeting — the primary signal for ad delivery",
+          "url": "https://martech.org/ai-is-making-creative-the-new-targeting/",
+          "plain": "Google, Meta, and TikTok are automating audience selection, which shifts the marketer's real lever to <b>creative quality as a targeting signal</b>. Headlines, images, and video now determine who sees an ad more than demographic picks do. This fundamentally changes how creative teams are resourced and how campaigns are measured.",
+          "chips": [
+            "genai",
+            "perso",
+            "bandit"
+          ]
         },
         {
-          "num": "04", "src": "Zeta Global × Palantir · via MarTech", "fresh": false,
-          "head": "Zeta rebuilds its Data Cloud on Palantir Foundry to power governed agentic marketing",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Zeta is moving its customer-data engine onto Palantir’s platform so its AI can reach more enterprise data <b>while keeping governance and control</b> over it. The tell for a regulated reader: the headline feature isn’t smarter targeting, it’s being able to prove the data is governed. Governance is becoming the product.",
-          "chips": ["cdp", "govern", "agentic"]
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Zenity Labs: attackers are hijacking enterprise AI infrastructure via LiteLLM vulnerabilities",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zenity-labs-reveals-how-attackers-are-weaponizing-enterprise-ai-infrastructure/",
+          "plain": "New Zenity Labs research shows threat actors exploiting critical vulnerabilities in LiteLLM — a widely used AI gateway — to hijack enterprise AI infrastructure and run attacks against third parties. For marketing teams deploying AI pipelines in production, this is a direct <b>governance and security risk</b> that procurement and IT need to address before rollout.",
+          "chips": [
+            "govern",
+            "agentic",
+            "genai"
+          ]
         },
         {
-          "num": "05", "src": "SAP Emarsys · via Agile Brand", "fresh": false,
-          "head": "SAP Engagement Cloud bets real-time engagement decides who wins in 2026",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/",
-          "plain": "SAP’s argument: batch-and-blast is dead; the edge now is reacting to a customer <b>in the moment</b>. It’s the same thread as the MoEngage deal — the whole category is racing toward decisions made per-person, in real time, by software.",
-          "chips": ["cep", "perso", "decis"]
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Optimizely study of 2,000+ B2B marketers: AI adoption is creating more work, not more time",
+          "url": "https://agilebrandguide.com/optimizely-ai-in-marketing-the-reality-of-more-work-not-more-time/",
+          "plain": "A global survey across seven markets finds that current AI rollouts often <b>fragment workflows and increase manual intervention</b> rather than cutting effort. Brand consistency is also suffering. The findings challenge vendor promises of instant efficiency and point to a systemic integration gap that leaders need to solve before AI delivers strategic value.",
+          "chips": [
+            "genai",
+            "govern",
+            "cep"
+          ]
         }
       ]
     },
     "week": {
       "stories": [
         {
-          "num": "01", "src": "Salesforce → Intercom (Fin) · via MarTech", "fresh": false,
-          "head": "Salesforce’s buying spree for agentic platforms continues as Intercom becomes Fin",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "The big platforms are <b>buying</b> agentic capability rather than waiting to build it. For a strategist the signal matters more than the deal: consolidation this fast means “agentic” has moved from demo to must-own.",
-          "chips": ["agentic", "cep"]
+          "num": "01",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Zeta Global research: AI agents now control discovery before shoppers reach brand sites",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-1-2026/",
+          "plain": "New Zeta Global data shows <b>70% of AI-assisted shoppers still complete purchases on brand-owned channels</b>, but AI agents are already deciding which brands get considered — before any brand touchpoint. This shifts the battle for customers to the discovery layer, meaning brands that don't show up inside AI answers may never get a chance to convert.",
+          "chips": [
+            "agentic",
+            "decis",
+            "geo",
+            "cep"
+          ]
         },
         {
-          "num": "02", "src": "Adobe × Semrush · via MarTech", "fresh": false,
-          "head": "Adobe uses its Semrush acquisition to launch a GEO tool with AI agents",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Adobe shipped a tool whose agents recommend and make changes to help a brand <b>show up inside LLM answers</b>. This is GEO going mainstream — the new fight isn’t ranking on Google, it’s being the brand an AI mentions.",
-          "chips": ["geo", "agentic", "genai"]
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Databricks CustomerLake is restructuring how CDPs work at the data layer",
+          "url": "https://agilebrandguide.com/cmswire-why-databricks-customerlake-just-rewired-the-cdp-space/",
+          "plain": "Databricks' CustomerLake moves the unified customer profile into the data lakehouse itself, bypassing traditional CDP vendors. This matters because <b>whoever owns the data layer increasingly owns the intelligence layer</b> — and agentic systems need a single, live source of customer truth to make real-time decisions. A structural shift, not a feature update.",
+          "chips": [
+            "cdp",
+            "agentic",
+            "decis",
+            "govern"
+          ]
         },
         {
-          "num": "03", "src": "Bloomreach · via Solutions Review", "fresh": false,
-          "head": "Bloomreach’s Loomi agent turns a single prompt into a full campaign workflow",
-          "url": "https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/",
-          "plain": "Type what you want; the agent builds the whole campaign flow. Useful, and also a reminder of the commodity line: <b>generating</b> a campaign is becoming table stakes — the moat is in deciding and governing, not drafting.",
-          "chips": ["genai", "agentic", "perso"]
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Agentic AI is breaking martech pricing models — one afternoon of tool-calling can consume a monthly subscription",
+          "url": "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/",
+          "plain": "When AI agents call multiple tools repeatedly to complete a task, <b>per-seat SaaS pricing collapses as a model</b> and data architecture becomes the cost driver. The article argues the fix is keeping data closer to where agents act, not limiting tool use. Directly changes how buyers should evaluate and budget for agentic platforms.",
+          "chips": [
+            "agentic",
+            "cdp",
+            "decis",
+            "govern"
+          ]
         },
         {
-          "num": "04", "src": "Asana · via Solutions Review", "fresh": false,
-          "head": "Asana reframes itself as an “operating system for human-agent teams”",
-          "url": "https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/",
-          "plain": "Asana’s new suite has humans and AI agents working off the <b>same plan, same context, same governance</b>. The interesting word is governance again — vendors now lead with control, not just speed.",
-          "chips": ["agentic", "govern"]
+          "num": "04",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Bad conversion data is actively training ad bidding algorithms to optimize for the wrong customers",
+          "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
+          "plain": "In automated ad platforms, <b>inaccurate conversion signals don't just distort reports — they become the training signal</b> for bidding AI, compounding errors over time. The piece explains why data quality is now a governance and budget risk, not just a measurement hygiene issue, in any AI-driven paid media program.",
+          "chips": [
+            "bandit",
+            "govern",
+            "cdp",
+            "decis"
+          ]
         },
         {
-          "num": "05", "src": "ActiveCampaign · via MarTech", "fresh": false,
-          "head": "ActiveCampaign’s update teaches its AI to remember your brand identity",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "The tool now holds onto voice guidelines, colours and logos across sessions so drafts stay on-brand. Small feature, real theme: <b>brand consistency</b> is the quiet bottleneck once everyone can generate content instantly.",
-          "chips": ["genai", "perso"]
+          "num": "05",
+          "src": "Optimizely · via Agile Brand",
+          "fresh": true,
+          "head": "Optimizely survey of 2,000+ B2B marketers finds AI is creating more work, not less, due to fragmented integration",
+          "url": "https://agilebrandguide.com/optimizely-ai-in-marketing-the-reality-of-more-work-not-more-time/",
+          "plain": "A large-scale global study finds that current AI adoption often <b>increases manual intervention and fragments workflows</b> rather than freeing up time. For buyers evaluating AI tools, this is a red flag about point-solution sprawl and underscores why governance and integration strategy must come before tool selection.",
+          "chips": [
+            "genai",
+            "govern",
+            "cep",
+            "agentic"
+          ]
         }
       ]
     },
@@ -97,72 +190,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Agentic decisioning went from buzzword to <em>balance sheet</em>",
-          "url": "https://www.moengage.com/blog/moengage-acquires-aampe/",
+          "head": "<em>Agentic AI</em> is rewiring the economics of the entire martech stack",
+          "url": "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/",
           "body": [
-            "A month ago “agents that act for the user” was a demo. This month it’s M&amp;A. MoEngage bought Aampe for per-user decisioning; Salesforce kept buying agentic platforms; Asana rebuilt around human-agent teams; Aircall acquired Piper for agentic sales.",
-            "The signal: the market has decided agentic decisioning is infrastructure you <b>own</b>, not a feature you wait for. The question shifts from “should we?” to “build, buy or partner — and how do we govern it?”"
+            "AI agents are no longer a feature bolted onto existing tools — they are beginning to replace the connective tissue between systems, forcing a rethink of what a martech stack even is. Zeta Global research confirms buyers are moving toward <b>agentic commerce</b>, where AI acts on their behalf before a human ever touches a decision.",
+            "This shift is also destabilising the <b>best-of-breed model</b>: when agents orchestrate workflows across dozens of point solutions, the integration overhead becomes unmanageable and vendors with unified platforms gain a structural edge. Marketing operations roles are next in line for redefinition — or elimination."
           ],
           "ev": [
-            ["MoEngage / Aampe", "https://www.moengage.com/blog/moengage-acquires-aampe/"],
-            ["Solutions Review weekly", "https://solutionsreview.com/crm/2026/06/05/top-martech-news-from-the-week-of-june-5th/"]
+            [
+              "MarTech · Agentic economics",
+              "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/"
+            ],
+            [
+              "MarTech Series · Zeta agentic commerce",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-zeta-global-research-signals-the-rise-of-agentic-commerce/"
+            ],
+            [
+              "MarTech · MOps under AI",
+              "https://martech.org/when-ai-runs-the-workflows-what-happens-to-mops/"
+            ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "A new optimization target appeared: <em>being cited by the AI</em>",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "head": "Garbage in, <em>wasted budget</em> out — data quality becomes the AI bottleneck",
+          "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
           "body": [
-            "Adobe shipped a GEO tool; Google added AI-visibility metrics; DISQO launched a way to measure ad impact inside LLM answers. Separate announcements, one shift: marketers now optimize to be the brand an AI <b>mentions</b>, not just the link a human clicks.",
-            "GEO (Generative Engine Optimization) is becoming its own discipline. If you only know SEO, this is the concept to add first — the playbook rhymes, but the surface is the model’s answer, not the results page."
+            "Every AI optimisation loop amplifies whatever data it trains on, which means <b>bad CRM records, mis-labelled audiences, and stale signals</b> now destroy ad budgets faster than they did in the rules-based era. The Databricks CustomerLake launch is a direct response: moving customer data into a governed lakehouse so AI models touch clean, unified profiles rather than fragmented warehouse exports.",
+            "Synthetic data is emerging as a partial remedy — letting teams simulate customer behaviour to fill gaps — but it introduces its own validity risks. The underlying decision is the same: <b>data infrastructure is now an AI readiness question</b>, not just a compliance or IT one."
           ],
           "ev": [
-            ["Adobe GEO · MarTech", "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"],
-            ["AI search trends · MarTech", "https://martech.org/topic/marketing-artificial-intelligence-ai/"]
+            [
+              "MarTech · Bad data &amp; ad waste",
+              "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/"
+            ],
+            [
+              "Agile Brand · Databricks CustomerLake",
+              "https://agilebrandguide.com/cmswire-why-databricks-customerlake-just-rewired-the-cdp-space/"
+            ],
+            [
+              "MarTech · Synthetic data",
+              "https://martech.org/where-synthetic-data-fits-into-customer-research/"
+            ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The mood turned from experimentation to <em>accountability</em>",
-          "url": "https://martech.org/the-truth-about-martech-in-2026/",
+          "head": "<em>Creative becomes targeting</em> — personalization shifts from audience to asset",
+          "url": "https://martech.org/ai-is-making-creative-the-new-targeting/",
           "body": [
-            "Budgets are up (Stensul: ~79% of orgs increasing MarTech spend) but the framing changed. The State of Martech report calls this the “Darwin phase”; Gartner expects 40%+ of agentic projects cancelled by 2027; the recurring verdict is that <b>capability is no longer the constraint — enablement and governance are.</b>",
-            "This is the most important theme to grasp, because it explains the actual job. The bottleneck isn’t the model. It’s whether the org can train people, redesign workflow, and prove value safely."
+            "As cookie-based audience segments erode, AI is enabling a different lever: generating <b>thousands of creative variants</b> tuned to context, channel, and moment so that the ad itself does the targeting work audiences once did. Flodesk Studio and the Runware / Gemini Omni Flash API launch both illustrate how generative image and copy tools are becoming native to campaign workflows rather than separate production steps.",
+            "Digital Asset Management is the infrastructure consequence — <b>DAM systems must now version, tag, and serve AI-generated assets at scale</b>, making them a strategic layer rather than a storage utility. The risk is volume without strategy: more content created faster does not automatically mean more relevant content."
           ],
           "ev": [
-            ["Stensul outlook · MartechEdge", "https://martechedge.com/news/2026-will-be-a-growth-year-for-martechand-ai-is-no-longer-optional"],
-            ["Darwin phase · MarTech", "https://martech.org/martech-2026-ai-drives-a-major-industry-reset/"],
-            ["The truth about martech · MarTech", "https://martech.org/the-truth-about-martech-in-2026/"]
+            [
+              "MarTech · Creative as targeting",
+              "https://martech.org/ai-is-making-creative-the-new-targeting/"
+            ],
+            [
+              "MarTech · DAM importance",
+              "https://martech.org/why-ai-is-making-dam-more-important-than-ever/"
+            ],
+            [
+              "MarTech Series · Flodesk Studio",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/flodesk-launches-studio-a-new-approach-to-creative-ai/"
+            ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The customer is becoming an <em>agent</em>: omnichannel gives way to agentic commerce",
-          "url": "https://martech.org/how-ai-agents-will-reshape-every-part-of-marketing-in-2026/",
+          "head": "AI delivers <em>more work, not more time</em> — the productivity paradox bites marketers",
+          "url": "https://agilebrandguide.com/optimizely-ai-in-marketing-the-reality-of-more-work-not-more-time/",
           "body": [
-            "Salesforce put a Shopper Agent on brand storefronts; analysts now talk about a meaningful share of interactions happening <b>agent-to-agent</b>, where a shopper’s AI assistant negotiates with a brand’s AI. Retail is reframing from omnichannel (be everywhere a human clicks) to agentic commerce (sell to the customer’s software).",
-            "For a strategist the uncomfortable question is what your brand still owns when discovery, comparison and checkout are handled by an agent. That’s a positioning problem, not a tooling one."
+            "Optimizely research and multiple practitioner voices this month converge on an uncomfortable finding: <b>AI tools are expanding the scope of what teams are asked to do</b> rather than shrinking their hours. Faster content drafts create pressure to publish more; faster analysis surfaces more decisions that need human judgment.",
+            "The strategic response emerging from leaders like LiveRamp's Daniella Harkins is deliberate <b>AI portfolio management</b> — auditing which use cases genuinely return time versus which just generate noise. Cutting through hype requires accepting that most AI initiatives will fail to move the needle before finding the ones that do."
           ],
           "ev": [
-            ["AI agents reshape marketing · MarTech", "https://martech.org/how-ai-agents-will-reshape-every-part-of-marketing-in-2026/"],
-            ["Salesforce agentic commerce · Agile Brand", "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/"]
+            [
+              "Agile Brand · More work not time",
+              "https://agilebrandguide.com/optimizely-ai-in-marketing-the-reality-of-more-work-not-more-time/"
+            ],
+            [
+              "Agile Brand · LiveRamp AI hype",
+              "https://agilebrandguide.com/liveramps-daniella-harkins-on-distinguishing-ai-hype-and-real-innovation/"
+            ],
+            [
+              "MarTech · Push back on AI",
+              "https://martech.org/why-marketers-need-to-push-back-against-ai/"
+            ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI started <em>eating</em> SaaS: teams replace tools with built alternatives",
-          "url": "https://martech.org/topic/marketing-artificial-intelligence-ai/",
+          "head": "Search &amp; discovery are <em>breaking the ranking contract</em> with brands",
+          "url": "https://martech.org/why-your-top-ranking-no-longer-means-youre-winning/",
           "body": [
-            "A counter-narrative gained ground: rather than AI features bolted onto SaaS, marketers are <b>replacing</b> point tools with AI-built alternatives, driving churn and shifting where value sits. “Vibe coding” can stand up a replacement fast — though security, integration and maintenance risk can erase the savings.",
-            "The lesson for buyers: the moat is no longer feature count, it’s the data, workflows and governance a tool is wired into. Easy to rebuild a feature; hard to rebuild the context around it."
+            "AI-generated answers in search are absorbing clicks that used to flow to #1 organic results, <b>decoupling visibility from traffic</b> in a way that invalidates years of SEO investment logic. Brands ranking at the top are discovering that impressions climb while sessions and conversions stall — a measurement crisis as much as a channel one.",
+            "The implication for strategy is that <b>owned content must now be optimised for AI citation and summarisation</b>, not just keyword match, and that email and direct channels regain importance as traffic from search becomes less reliable. This reshapes budget allocation decisions across the entire acquisition funnel."
           ],
           "ev": [
-            ["AI vs SaaS · MarTech", "https://martech.org/topic/marketing-artificial-intelligence-ai/"],
-            ["Darwin phase · MarTech", "https://martech.org/martech-2026-ai-drives-a-major-industry-reset/"]
+            [
+              "MarTech · Rankings no longer winning",
+              "https://martech.org/why-your-top-ranking-no-longer-means-youre-winning/"
+            ],
+            [
+              "MarTech · AI email improvement",
+              "https://martech.org/ai-made-email-marketing-easier-it-needs-us-to-make-it-better/"
+            ],
+            [
+              "Agile Brand · Direct mail &amp; agentic",
+              "https://agilebrandguide.com/martech-3-direct-mail-lessons-for-evaluating-agentic-commerce/"
+            ]
           ]
         }
       ],
-      "takeaway": "In MarTech AI right now, the constraint isn’t capability — it’s <em>governing demand, decisioning and visibility well enough to ship.</em>"
+      "takeaway": "Across every layer of the stack — data, creative, search, workflow, and measurement — <em>AI is simultaneously creating new leverage and exposing the organisational debt that will decide who captures it</em>."
     }
   }
 }
