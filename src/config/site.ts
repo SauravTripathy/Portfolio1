@@ -20,34 +20,36 @@ export type SiteConfig = {
 	socialLinks: SiteLink[];
 };
 
-const defaultSiteUrl = 'https://maria-lake.vercel.app';
+const defaultSiteUrl = 'https://www.saurav-tripathy.com';
 const envSiteUrl = process.env.SITE_URL ?? process.env.PUBLIC_SITE_URL;
 const normalizedSiteUrl = (envSiteUrl || defaultSiteUrl).replace(/\/+$/, '');
 
 export const siteConfig: SiteConfig = {
-	name: 'Home',
+	name: 'Saurav Tripathy',
 	title: 'Saurav Tripathy Portfolio',
 	description:
-		'TBD',
+		'AI strategy & product portfolio of Saurav Tripathy — hands-on AI projects (a MarTech vendor-evaluation agent, a daily AI news decoder) and plain-English writing on AI in the enterprise.',
 	// Set SITE_URL or PUBLIC_SITE_URL to keep canonicals, robots.txt, and the sitemap aligned in each environment.
 	siteUrl: normalizedSiteUrl,
 	email: 'sauravtripathy@yahoo.com',
 	locale: 'en-US',
-	authorName: 'Saurav',
+	authorName: 'Saurav Tripathy',
 	authorRole: 'AI Strategy & Product Builder',
 	keywords: [
-		'Astro UI UX portfolio theme',
-		'UI UX designer portfolio template',
-		'Astro portfolio template',
-		'product designer portfolio theme',
-		'case study portfolio theme',
+		'Saurav Tripathy',
+		'AI strategy',
+		'MarTech AI',
+		'AI product management',
+		'vendor evaluation agent',
+		'agentic AI',
+		'LangGraph',
 	],
 	ogImage: '/og-image.svg',
 	navLinks: [
-		{ href: '/About', label: 'About' },
-		{ href: '/AI', label: 'AI' },
-		{ href: '/MarTech', label: 'MarTech' },
-		{ href: '/Projects', label: 'Projects' },
+		{ href: '/about', label: 'About' },
+		{ href: '/ai', label: 'AI Understanding' },
+		{ href: '/ai-in-enterprise', label: 'AI in Enterprise' },
+		{ href: '/projects', label: 'AI Projects' },
 	],
 	extraPages: [],
 		legalLinks: [
@@ -56,7 +58,6 @@ export const siteConfig: SiteConfig = {
 		{ href: '/terms', label: 'Terms' },
 	],
 	socialLinks: [
-		{ href: 'https://www.linkedin.com/', label: 'LinkedIn' },
-		{ href: 'https://dribbble.com/', label: 'Dribbble' },
+		{ href: 'https://github.com/SauravTripathy', label: 'GitHub' },
 	],
 };

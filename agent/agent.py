@@ -18,6 +18,15 @@ Run:
 
 Optional env:
     DECODER_MODEL   (default: claude-sonnet-4-6)
+
+Reliability notes (why this file is defensive):
+  * Every LLM reply is parsed with retries, a truncation check, and a
+    balanced-brace JSON extractor — a single malformed reply must not kill
+    the daily cron.
+  * Feeds are fetched ONCE per run with a real User-Agent, and each feed's
+    entry count is logged so a dead feed is visible in the Actions log.
+  * The agent refuses to publish an EMPTY brief (protects the live page),
+    and emits ::error:: annotations so failures are readable in GitHub.
 """
 
 from __future__ import annotations
@@ -25,6 +34,8 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -38,6 +49,19 @@ from sources import FEEDS, AI_KEYWORDS, CONCEPTS
 MODEL = os.environ.get("DECODER_MODEL", "claude-sonnet-4-6")
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "public" / "martech-news.json"
 
+# Some publishers 403 the default feedparser UA; look like a normal browser.
+FEED_USER_AGENT = (
+    "Mozilla/5.0 (compatible; MarTechDecoder/1.1; "
+    "+https://www.saurav-tripathy.com/projects/martech-ai-news)"
+)
+
+MAX_LLM_ATTEMPTS = 3   # per judge call
+RETRY_BASE_SECONDS = 5
+
+
+def _log(msg: str) -> None:
+    print(msg, flush=True)
+
 
 # ── 1. SCAN ──────────────────────────────────────────────────────────────────
 
@@ -48,7 +72,7 @@ def _parse_date(entry) -> datetime | None:
             try:
                 dt = dtparse.parse(val)
                 return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
-            except (ValueError, TypeError):
+            except (ValueError, TypeError, OverflowError):
                 continue
     return None
 
@@ -58,15 +82,32 @@ def _is_ai_relevant(text: str) -> bool:
     return any(kw in t for kw in AI_KEYWORDS)
 
 
-def scan(days: int) -> list[dict]:
-    """Return AI-relevant candidate articles published within `days` days."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+def fetch_candidates(max_days: int = 30) -> list[dict]:
+    """Fetch ALL feeds once and return AI-relevant items from the last
+    `max_days` days, newest first. Each item carries `_age_days` (float,
+    internal only — candidates are never written to the output JSON)."""
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=max_days)
     seen: set[str] = set()
     items: list[dict] = []
 
     for feed in FEEDS:
-        parsed = feedparser.parse(feed["url"])
-        for e in parsed.entries:
+        try:
+            parsed = feedparser.parse(feed["url"], agent=FEED_USER_AGENT)
+        except Exception as exc:  # network hiccup on one feed must not kill the run
+            _log(f"  [feed] {feed['source']}: fetch failed — {exc}")
+            continue
+
+        entries = getattr(parsed, "entries", []) or []
+        if not entries:
+            reason = getattr(parsed, "bozo_exception", None) or getattr(
+                parsed, "status", "no entries"
+            )
+            _log(f"  [feed] {feed['source']}: 0 entries ({reason})")
+            continue
+
+        kept = 0
+        for e in entries:
             published = _parse_date(e)
             if published is None or published < cutoff:
                 continue
@@ -81,16 +122,24 @@ def scan(days: int) -> list[dict]:
             if key in seen:
                 continue
             seen.add(key)
+            kept += 1
             items.append({
                 "title": title,
                 "url": link,
                 "source": feed["source"],
                 "published": published.isoformat(),
                 "summary": summary,
+                "_age_days": (now - published).total_seconds() / 86400.0,
             })
+        _log(f"  [feed] {feed['source']}: {len(entries)} entries, {kept} kept")
 
-    items.sort(key=lambda x: x["published"], reverse=True)
+    items.sort(key=lambda x: x["_age_days"])  # newest first
     return items
+
+
+def scan(days: int) -> list[dict]:
+    """Back-compat helper: AI-relevant candidates from the last `days` days."""
+    return fetch_candidates(days)
 
 
 # ── 2. JUDGE ─────────────────────────────────────────────────────────────────
@@ -100,20 +149,102 @@ def _client() -> anthropic.Anthropic:
     return anthropic.Anthropic()
 
 
-def _ask_json(system: str, user: str, max_tokens: int = 3000):
-    """Call the model and parse a JSON-only reply (tolerates code fences)."""
-    msg = _client().messages.create(
-        model=MODEL,
-        max_tokens=max_tokens,
-        system=system,
-        messages=[{"role": "user", "content": user}],
+def _extract_json(text: str):
+    """Parse a JSON object out of a model reply, tolerating code fences and
+    stray prose. Raises ValueError with a helpful snippet if it can't."""
+    t = text.strip()
+    t = re.sub(r"^```(?:json)?\s*", "", t, flags=re.MULTILINE)
+    t = re.sub(r"\s*```\s*$", "", t, flags=re.MULTILINE).strip()
+    try:
+        return json.loads(t)
+    except json.JSONDecodeError:
+        pass
+
+    start = t.find("{")
+    if start == -1:
+        raise ValueError(f"no JSON object in model reply: {t[:160]!r}…")
+
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(t)):
+        ch = t[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+        elif ch == '"':
+            in_str = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return json.loads(t[start : i + 1])
+    raise ValueError(
+        f"unbalanced JSON in model reply (likely truncated): …{t[-160:]!r}"
     )
-    text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
-    text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
-    return json.loads(text)
+
+
+def _ask_json(system: str, user: str, max_tokens: int = 3000):
+    """Call the model and return parsed JSON. Retries on malformed/truncated
+    replies and transient API errors; fails fast on bad credentials."""
+    last_err: Exception | None = None
+
+    for attempt in range(1, MAX_LLM_ATTEMPTS + 1):
+        try:
+            msg = _client().messages.create(
+                model=MODEL,
+                max_tokens=max_tokens,
+                system=system,
+                messages=[
+                    {"role": "user", "content": user},
+                    # Prefill: the reply can only continue this JSON object,
+                    # which eliminates prose preambles and code fences.
+                    {"role": "assistant", "content": "{"},
+                ],
+            )
+            if getattr(msg, "stop_reason", None) == "max_tokens":
+                raise ValueError(f"reply truncated at max_tokens={max_tokens}")
+            text = "{" + "".join(
+                b.text for b in msg.content if getattr(b, "type", "") == "text"
+            )
+            return _extract_json(text)
+
+        except anthropic.AuthenticationError as exc:
+            raise RuntimeError(
+                "Anthropic rejected the API key (401). Set/rotate the "
+                "ANTHROPIC_API_KEY repo secret: Settings → Secrets and "
+                f"variables → Actions. ({exc})"
+            ) from exc
+        except (anthropic.AnthropicError, ValueError, json.JSONDecodeError) as exc:
+            last_err = exc
+
+        if attempt < MAX_LLM_ATTEMPTS:
+            wait = RETRY_BASE_SECONDS * attempt
+            _log(f"  [judge] attempt {attempt} failed ({last_err}); retrying in {wait}s…")
+            time.sleep(wait)
+            max_tokens = int(max_tokens * 1.5)  # headroom against truncation
+            user += (
+                "\n\nREMINDER: reply with ONE valid, complete JSON object only — "
+                "no prose, no code fences, no trailing commas."
+            )
+
+    raise RuntimeError(
+        f"model returned no valid JSON after {MAX_LLM_ATTEMPTS} attempts: {last_err}"
+    )
 
 
 _CONCEPT_LINES = "\n".join(f'  - {cid}: {c["name"]} — {c["gloss"]}' for cid, c in CONCEPTS.items())
+
+
+def _as_str_list(value) -> list[str]:
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return [str(v) for v in value if isinstance(v, (str, int, float))]
+    return []
 
 
 def judge_stories(candidates: list[dict], window: str, k: int = 5) -> list[dict]:
@@ -154,10 +285,16 @@ Candidates:
 {listing}
 """
     out = _ask_json(system, user, max_tokens=3500)
-    stories = out.get("stories", [])[:k]
+    if isinstance(out, list):  # tolerate a bare top-level array
+        out = {"stories": out}
+    stories = [s for s in out.get("stories", []) if isinstance(s, dict)][:k]
     for i, s in enumerate(stories):
         s["num"] = f"{i+1:02d}"
-        s["chips"] = [c for c in s.get("chips", []) if c in CONCEPTS][:4]
+        s["src"] = str(s.get("src", ""))
+        s["head"] = str(s.get("head", ""))
+        s["url"] = str(s.get("url", ""))
+        s["plain"] = str(s.get("plain", ""))
+        s["chips"] = [c for c in _as_str_list(s.get("chips")) if c in CONCEPTS][:4]
         s["fresh"] = bool(s.get("fresh"))
     return stories
 
@@ -194,40 +331,80 @@ Return JSON: {{ "skicker": "...", "themes": [ ... {k} ... ], "takeaway": "..." }
 Items:
 {listing}
 """
-    out = _ask_json(system, user, max_tokens=4000)
-    themes = out.get("themes", [])[:k]
+    out = _ask_json(system, user, max_tokens=5000)
+    if isinstance(out, list):
+        out = {"themes": out}
+    themes = [t for t in out.get("themes", []) if isinstance(t, dict)][:k]
     for i, t in enumerate(themes):
         t["num"] = f"Theme {i+1:02d}"
+        t["head"] = str(t.get("head", ""))
+        t["url"] = str(t.get("url", ""))
+        t["body"] = _as_str_list(t.get("body"))[:2]
+        t["ev"] = [
+            [str(pair[0]), str(pair[1])]
+            for pair in (t.get("ev") or [])
+            if isinstance(pair, (list, tuple)) and len(pair) >= 2
+        ][:3]
     return {
-        "skicker": out.get("skicker", "30-day synthesis · the shape underneath the feed"),
+        "skicker": str(out.get("skicker") or "30-day synthesis · the shape underneath the feed"),
         "themes": themes,
-        "takeaway": out.get("takeaway", ""),
+        "takeaway": str(out.get("takeaway", "")),
     }
 
 
 # ── BUILD ────────────────────────────────────────────────────────────────────
 
 def build() -> dict:
-    day = scan(1)
-    week = scan(7)
-    month = scan(30)
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        raise RuntimeError(
+            "ANTHROPIC_API_KEY is not set. Locally: export ANTHROPIC_API_KEY=sk-ant-… ; "
+            "on GitHub: repo → Settings → Secrets and variables → Actions → "
+            "New repository secret → ANTHROPIC_API_KEY."
+        )
 
-    data = {
+    _log(f"[scan] fetching {len(FEEDS)} feeds…")
+    month = fetch_candidates(30)
+    week = [c for c in month if c["_age_days"] <= 7]
+    day = [c for c in month if c["_age_days"] <= 1]
+    _log(f"[scan] candidates — 24h: {len(day)} · 7d: {len(week)} · 30d: {len(month)}")
+
+    if not month:
+        raise RuntimeError(
+            "scan produced ZERO candidates across all feeds — refusing to publish "
+            "an empty brief. Check the [feed] lines above: a feed URL may have "
+            "moved, or the runner may be blocked."
+        )
+
+    _log("[judge] ranking 24h window…")
+    day_stories = judge_stories(day, "day", 5)
+    _log("[judge] ranking 7d window…")
+    week_stories = judge_stories(week, "week", 5)
+    _log("[judge] synthesising 30d themes…")
+    month_block = synthesize_themes(month, 5)
+
+    return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "sourcesScanned": len(FEEDS),
         "surfaced": 5,
         "concepts": CONCEPTS,
         "windows": {
-            "day":   {"stories": judge_stories(day, "day", 5)},
-            "week":  {"stories": judge_stories(week, "week", 5)},
-            "month": synthesize_themes(month, 5),
+            "day":   {"stories": day_stories},
+            "week":  {"stories": week_stories},
+            "month": month_block,
         },
     }
-    return data
 
 
 def main() -> None:
-    data = build()
+    try:
+        data = build()
+    except Exception as exc:
+        msg = str(exc) or exc.__class__.__name__
+        if os.environ.get("GITHUB_ACTIONS"):
+            print(f"::error title=MarTech decoder::{msg}")
+        print(f"[agent] FAILED — {msg}", file=sys.stderr)
+        sys.exit(1)
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     d = data["windows"]["day"]["stories"]
