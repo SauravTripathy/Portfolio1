@@ -1,0 +1,158 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from './SiteHeader.astro';
+
+interface ImagePanel {
+  src: string;
+  alt: string;
+  ariaLabel: string;
+}
+
+interface DownloadCta {
+  href: string;
+  label: string;
+  ariaLabel?: string;
+}
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  description: string;
+  images: ImagePanel[];
+  downloadCta?: DownloadCta;
+}
+
+const { eyebrow, title, description, images, downloadCta } = Astro.props;
+---
+
+<Layout title={`${title} | Saurav Tripathy`} description={description} showFooterCta={false}>
+  <SiteHeader />
+  <main class="min-h-screen bg-[#f8fbff] px-6 py-16 text-[#06142f]">
+    <section class="mx-auto max-w-7xl">
+      <p class="text-sm font-semibold uppercase tracking-[0.28em] text-blue-700">
+        {eyebrow}
+      </p>
+
+      <div class="mt-5 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+        <h1 class="text-3xl font-semibold tracking-[-0.04em] sm:text-5xl">
+          {title}
+        </h1>
+
+        {downloadCta && (
+          <a
+            href={downloadCta.href}
+            download
+            aria-label={downloadCta.ariaLabel ?? downloadCta.label}
+            class="inline-flex w-fit items-center justify-center rounded-full bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-800 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            {downloadCta.label}
+          </a>
+        )}
+      </div>
+
+      <div class="mt-12 grid gap-8">
+        {images.map((image, index) => (
+          <div
+            class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+            data-full-image={image.src}
+            role="button"
+            tabindex="0"
+            aria-label={image.ariaLabel}
+            aria-expanded="false"
+            title="Click to expand image"
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              class="h-full w-full object-contain p-4"
+              loading={index === 0 ? 'eager' : 'lazy'}
+            />
+          </div>
+        ))}
+      </div>
+
+      <div
+        id="image-lightbox"
+        class="fixed inset-0 z-50 hidden cursor-zoom-out overflow-auto bg-black/90 p-4 sm:p-8"
+        aria-hidden="true"
+        role="button"
+        tabindex="0"
+        aria-label="Close full-size image"
+        title="Click to close image"
+      >
+        <div class="flex min-h-full items-center justify-center">
+          <img
+            id="lightbox-image"
+            src=""
+            alt="Full-size image"
+            class="max-w-none cursor-zoom-out rounded-2xl bg-white"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script>
+  const imageBlocks = document.querySelectorAll<HTMLElement>('[data-full-image]');
+  const lightbox = document.querySelector<HTMLElement>('#image-lightbox');
+  const lightboxImage = document.querySelector<HTMLImageElement>('#lightbox-image');
+  let activeImageBlock: HTMLElement | null = null;
+
+  const openLightbox = (imageBlock: HTMLElement): void => {
+    if (!lightbox || !lightboxImage) return;
+
+    const imageUrl = imageBlock.dataset.fullImage;
+    if (!imageUrl) return;
+
+    const inlineImage = imageBlock.querySelector<HTMLImageElement>('img');
+
+    activeImageBlock = imageBlock;
+    lightboxImage.src = imageUrl;
+    lightboxImage.alt = inlineImage?.alt || 'Full-size image';
+    lightbox.classList.remove('hidden');
+    lightbox.setAttribute('aria-hidden', 'false');
+    imageBlock.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = (): void => {
+    if (!lightbox || !lightboxImage) return;
+
+    lightbox.classList.add('hidden');
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxImage.src = '';
+    lightboxImage.alt = 'Full-size image';
+    activeImageBlock?.setAttribute('aria-expanded', 'false');
+    activeImageBlock = null;
+    document.body.style.overflow = '';
+  };
+
+  imageBlocks.forEach((imageBlock) => {
+    imageBlock.addEventListener('click', () => {
+      openLightbox(imageBlock);
+    });
+
+    imageBlock.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openLightbox(imageBlock);
+      }
+    });
+  });
+
+  lightbox?.addEventListener('click', closeLightbox);
+
+  lightbox?.addEventListener('keydown', (event: KeyboardEvent) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener('keydown', (event: KeyboardEvent) => {
+    if (event.key === 'Escape') {
+      closeLightbox();
+    }
+  });
+</script>

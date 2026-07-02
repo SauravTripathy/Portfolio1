@@ -1,8 +1,23 @@
 ---
-import PlaceholderPage from '../../components/PlaceholderPage.astro';
+import ImageLightboxPage from '../../components/ImageLightboxPage.astro';
+
+const workflowEvaluationImages = [
+  {
+    src: '/workflow-evaluation-1.png',
+    alt: 'Workflow evaluation framework overview',
+    ariaLabel: 'Open workflow evaluation diagram one at full size',
+  },
+  {
+    src: '/workflow-evaluation-2.png',
+    alt: 'Workflow evaluation scoring and prioritization detail',
+    ariaLabel: 'Open workflow evaluation diagram two at full size',
+  },
+];
 ---
 
-<PlaceholderPage
+<ImageLightboxPage
   eyebrow="AI in Enterprise"
   title="Workflow Evaluation"
+  description="A practical framework for evaluating enterprise workflows for AI transformation readiness."
+  images={workflowEvaluationImages}
 />

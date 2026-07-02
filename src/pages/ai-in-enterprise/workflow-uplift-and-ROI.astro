@@ -1,8 +1,28 @@
 ---
-import PlaceholderPage from '../../components/PlaceholderPage.astro';
+import ImageLightboxPage from '../../components/ImageLightboxPage.astro';
+
+const workflowUpliftImages = [
+  {
+    src: '/workflow-uplift-roi-1.png',
+    alt: 'Workflow uplift and ROI overview',
+    ariaLabel: 'Open workflow uplift and ROI diagram one at full size',
+  },
+  {
+    src: '/workflow-uplift-roi-2.png',
+    alt: 'Workflow uplift and ROI model detail',
+    ariaLabel: 'Open workflow uplift and ROI diagram two at full size',
+  },
+];
 ---
 
-<PlaceholderPage
+<ImageLightboxPage
   eyebrow="AI in Enterprise"
   title="Workflow Uplift & ROI"
+  description="A practical view of workflow uplift, cost savings, and ROI from AI transformation."
+  images={workflowUpliftImages}
+  downloadCta={{
+    href: '/workflow-uplift-roi.xlsx',
+    label: 'Download ROI Excel',
+    ariaLabel: 'Download ROI Excel calculator',
+  }}
 />

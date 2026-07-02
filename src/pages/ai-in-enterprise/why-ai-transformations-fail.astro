@@ -1,8 +1,18 @@
 ---
-import PlaceholderPage from '../../components/PlaceholderPage.astro';
+import ImageLightboxPage from '../../components/ImageLightboxPage.astro';
+
+const aiTransformationImages = [
+  {
+    src: '/why-ai-transformations-fail-1.png',
+    alt: 'Why AI transformations fail overview',
+    ariaLabel: 'Open why AI transformations fail diagram at full size',
+  },
+];
 ---
 
-<PlaceholderPage
+<ImageLightboxPage
   eyebrow="AI in Enterprise"
   title="Why AI Transformations Fail"
+  description="A practical view of why AI transformation programs fail and where enterprise execution breaks down."
+  images={aiTransformationImages}
 />
