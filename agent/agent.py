@@ -55,7 +55,7 @@ FEED_USER_AGENT = (
     "+https://www.saurav-tripathy.com/projects/martech-ai-news)"
 )
 
-MAX_LLM_ATTEMPTS = 3   # per judge call
+MAX_LLM_ATTEMPTS = 3  # per judge call
 RETRY_BASE_SECONDS = 5
 
 
@@ -64,6 +64,7 @@ def _log(msg: str) -> None:
 
 
 # ── 1. SCAN ──────────────────────────────────────────────────────────────────
+
 
 def _parse_date(entry) -> datetime | None:
     for key in ("published", "updated", "created"):
@@ -123,14 +124,16 @@ def fetch_candidates(max_days: int = 30) -> list[dict]:
                 continue
             seen.add(key)
             kept += 1
-            items.append({
-                "title": title,
-                "url": link,
-                "source": feed["source"],
-                "published": published.isoformat(),
-                "summary": summary,
-                "_age_days": (now - published).total_seconds() / 86400.0,
-            })
+            items.append(
+                {
+                    "title": title,
+                    "url": link,
+                    "source": feed["source"],
+                    "published": published.isoformat(),
+                    "summary": summary,
+                    "_age_days": (now - published).total_seconds() / 86400.0,
+                }
+            )
         _log(f"  [feed] {feed['source']}: {len(entries)} entries, {kept} kept")
 
     items.sort(key=lambda x: x["_age_days"])  # newest first
@@ -143,6 +146,7 @@ def scan(days: int) -> list[dict]:
 
 
 # ── 2. JUDGE ─────────────────────────────────────────────────────────────────
+
 
 def _client() -> anthropic.Anthropic:
     # Reads ANTHROPIC_API_KEY from the environment automatically.
@@ -188,28 +192,42 @@ def _extract_json(text: str):
 
 
 def _ask_json(system: str, user: str, max_tokens: int = 3000):
-    """Call the model and return parsed JSON. Retries on malformed/truncated
-    replies and transient API errors; fails fast on bad credentials."""
+    """Call the model and return parsed JSON.
+
+    Claude Sonnet 4.6 does not support assistant-message prefill, so the
+    messages list must end with a user message.
+    """
     last_err: Exception | None = None
+
+    strict_system = (
+        system + "\n\nOutput rules: return exactly one complete valid JSON object. "
+        "Do not include prose, Markdown, code fences, or commentary. "
+        "The first non-whitespace character must be `{` and the last must be `}`."
+    )
 
     for attempt in range(1, MAX_LLM_ATTEMPTS + 1):
         try:
+            strict_user = (
+                user + "\n\nREMINDER: reply with ONE valid, complete JSON object only. "
+                "No prose, no code fences, no trailing commas."
+            )
+
             msg = _client().messages.create(
                 model=MODEL,
                 max_tokens=max_tokens,
-                system=system,
+                system=strict_system,
                 messages=[
-                    {"role": "user", "content": user},
-                    # Prefill: the reply can only continue this JSON object,
-                    # which eliminates prose preambles and code fences.
-                    {"role": "assistant", "content": "{"},
+                    {"role": "user", "content": strict_user},
                 ],
             )
+
             if getattr(msg, "stop_reason", None) == "max_tokens":
                 raise ValueError(f"reply truncated at max_tokens={max_tokens}")
-            text = "{" + "".join(
+
+            text = "".join(
                 b.text for b in msg.content if getattr(b, "type", "") == "text"
             )
+
             return _extract_json(text)
 
         except anthropic.AuthenticationError as exc:
@@ -218,25 +236,35 @@ def _ask_json(system: str, user: str, max_tokens: int = 3000):
                 "ANTHROPIC_API_KEY repo secret: Settings → Secrets and "
                 f"variables → Actions. ({exc})"
             ) from exc
+
+        except anthropic.BadRequestError as exc:
+            raise RuntimeError(
+                f"Anthropic rejected the request for model {MODEL}: {exc}"
+            ) from exc
+
         except (anthropic.AnthropicError, ValueError, json.JSONDecodeError) as exc:
             last_err = exc
 
-        if attempt < MAX_LLM_ATTEMPTS:
-            wait = RETRY_BASE_SECONDS * attempt
-            _log(f"  [judge] attempt {attempt} failed ({last_err}); retrying in {wait}s…")
-            time.sleep(wait)
-            max_tokens = int(max_tokens * 1.5)  # headroom against truncation
-            user += (
-                "\n\nREMINDER: reply with ONE valid, complete JSON object only — "
-                "no prose, no code fences, no trailing commas."
-            )
+            if attempt < MAX_LLM_ATTEMPTS:
+                wait = RETRY_BASE_SECONDS * attempt
+                _log(
+                    f" [judge] attempt {attempt} failed ({last_err}); retrying in {wait}s…"
+                )
+                time.sleep(wait)
+                max_tokens = int(max_tokens * 1.5)
+                user += (
+                    "\n\nREMINDER: reply with ONE valid, complete JSON object only — "
+                    "no prose, no code fences, no trailing commas."
+                )
 
     raise RuntimeError(
         f"model returned no valid JSON after {MAX_LLM_ATTEMPTS} attempts: {last_err}"
     )
 
 
-_CONCEPT_LINES = "\n".join(f'  - {cid}: {c["name"]} — {c["gloss"]}' for cid, c in CONCEPTS.items())
+_CONCEPT_LINES = "\n".join(
+    f"  - {cid}: {c['name']} — {c['gloss']}" for cid, c in CONCEPTS.items()
+)
 
 
 def _as_str_list(value) -> list[str]:
@@ -254,7 +282,7 @@ def judge_stories(candidates: list[dict], window: str, k: int = 5) -> list[dict]
 
     pool = candidates[:40]
     listing = "\n".join(
-        f'[{i}] {c["source"]} | {c["published"][:10]} | {c["title"]}\n     {c["summary"]}\n     URL: {c["url"]}'
+        f"[{i}] {c['source']} | {c['published'][:10]} | {c['title']}\n     {c['summary']}\n     URL: {c['url']}"
         for i, c in enumerate(pool)
     )
     horizon = "the last 24 hours" if window == "day" else "the past 7 days"
@@ -289,7 +317,7 @@ Candidates:
         out = {"stories": out}
     stories = [s for s in out.get("stories", []) if isinstance(s, dict)][:k]
     for i, s in enumerate(stories):
-        s["num"] = f"{i+1:02d}"
+        s["num"] = f"{i + 1:02d}"
         s["src"] = str(s.get("src", ""))
         s["head"] = str(s.get("head", ""))
         s["url"] = str(s.get("url", ""))
@@ -302,11 +330,15 @@ Candidates:
 def synthesize_themes(candidates: list[dict], k: int = 5) -> dict:
     """Cluster the month's candidates into the top k themes."""
     if not candidates:
-        return {"skicker": "30-day synthesis · the shape underneath the feed", "themes": [], "takeaway": ""}
+        return {
+            "skicker": "30-day synthesis · the shape underneath the feed",
+            "themes": [],
+            "takeaway": "",
+        }
 
     pool = candidates[:60]
     listing = "\n".join(
-        f'- {c["source"]} | {c["published"][:10]} | {c["title"]} | {c["url"]}'
+        f"- {c['source']} | {c['published'][:10]} | {c['title']} | {c['url']}"
         for c in pool
     )
     system = (
@@ -336,7 +368,7 @@ Items:
         out = {"themes": out}
     themes = [t for t in out.get("themes", []) if isinstance(t, dict)][:k]
     for i, t in enumerate(themes):
-        t["num"] = f"Theme {i+1:02d}"
+        t["num"] = f"Theme {i + 1:02d}"
         t["head"] = str(t.get("head", ""))
         t["url"] = str(t.get("url", ""))
         t["body"] = _as_str_list(t.get("body"))[:2]
@@ -346,13 +378,16 @@ Items:
             if isinstance(pair, (list, tuple)) and len(pair) >= 2
         ][:3]
     return {
-        "skicker": str(out.get("skicker") or "30-day synthesis · the shape underneath the feed"),
+        "skicker": str(
+            out.get("skicker") or "30-day synthesis · the shape underneath the feed"
+        ),
         "themes": themes,
         "takeaway": str(out.get("takeaway", "")),
     }
 
 
 # ── BUILD ────────────────────────────────────────────────────────────────────
+
 
 def build() -> dict:
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -388,8 +423,8 @@ def build() -> dict:
         "surfaced": 5,
         "concepts": CONCEPTS,
         "windows": {
-            "day":   {"stories": day_stories},
-            "week":  {"stories": week_stories},
+            "day": {"stories": day_stories},
+            "week": {"stories": week_stories},
             "month": month_block,
         },
     }
@@ -406,11 +441,15 @@ def main() -> None:
         sys.exit(1)
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUTPUT_PATH.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     d = data["windows"]["day"]["stories"]
     m = data["windows"]["month"]["themes"]
     print(f"Wrote {OUTPUT_PATH}")
-    print(f"  day: {len(d)} stories · week: {len(data['windows']['week']['stories'])} · month: {len(m)} themes")
+    print(
+        f"  day: {len(d)} stories · week: {len(data['windows']['week']['stories'])} · month: {len(m)} themes"
+    )
 
 
 if __name__ == "__main__":
