@@ -93,6 +93,7 @@ const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const mo = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const gd = new Date(newsData.generatedAt ?? Date.now());
 const editionLabel = `${wd[gd.getUTCDay()]} ${String(gd.getUTCDate()).padStart(2, '0')} ${mo[gd.getUTCMonth()]} ${gd.getUTCFullYear()}`;
+const editionTimeLabel = `${editionLabel} · ${String(gd.getUTCHours()).padStart(2, '0')}:${String(gd.getUTCMinutes()).padStart(2, '0')} UTC`;
 
 const escapeHtml = (value: unknown) =>
   String(value ?? '')
@@ -135,9 +136,15 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
         <h1 id="decoder-title">AI in MarTech, the <em>Decoder’s Brief</em></h1>
         <p class="thesis">{description}</p>
 
-        <div class="dateline">
-          <span>EDITION — <b>{editionLabel}</b></span>
-        </div>
+         <div class="edition-row">
+          <p class="edition-copy">EDITION — {editionTimeLabel}</p>
+
+          <button id="refresh-news-button" class="run-button" type="button">
+            RUN
+          </button>
+
+          <span id="refresh-news-status" class="refresh-status" aria-live="polite"></span>
+        </div> 
       </header>
 
       <div class="windows" role="tablist" aria-label="Time window">
@@ -631,6 +638,61 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
       padding: 1.15rem 0 1.5rem;
     }
   }
+  <style>
+  .edition-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin: 1.25rem 0 1.5rem;
+  }
+
+  .edition-copy {
+    margin: 0;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    opacity: 0.78;
+  }
+
+  .run-button {
+    border: 1px solid rgba(17, 24, 39, 0.16);
+    border-radius: 999px;
+    background: #facc15;
+    color: #111827;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(250, 204, 21, 0.22);
+    transition:
+      transform 160ms ease,
+      box-shadow 160ms ease,
+      background 160ms ease,
+      opacity 160ms ease;
+  }
+
+  .run-button:hover {
+    background: #eab308;
+    transform: translateY(-1px);
+    box-shadow: 0 14px 30px rgba(250, 204, 21, 0.28);
+  }
+
+  .run-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+    transform: none;
+  }
+
+  .refresh-status {
+    font-size: 0.82rem;
+    opacity: 0.72;
+  }
+
+  .refresh-status a {
+    text-decoration: underline;
+  }
 </style>
 
 <script>
@@ -670,5 +732,56 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
       const id = nextTab.dataset.win;
       if (id) activate(id);
     });
+  });
+</script>
+
+<script is:inline>
+  const runButton = document.getElementById('refresh-news-button');
+  const refreshStatus = document.getElementById('refresh-news-status');
+
+  runButton?.addEventListener('click', async () => {
+    const refreshKey = window.prompt('Enter refresh key');
+
+    if (!refreshKey) {
+      return;
+    }
+
+    const originalText = runButton.textContent;
+
+    runButton.disabled = true;
+    runButton.textContent = 'RUNNING';
+    refreshStatus.textContent = 'Starting refresh…';
+
+    try {
+      const response = await fetch('/api/refresh-martech-news', {
+        method: 'POST',
+        headers: {
+          'x-refresh-key': refreshKey,
+        },
+        cache: 'no-store',
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(data.error || `Refresh failed with status ${response.status}`);
+      }
+
+      runButton.textContent = 'QUEUED';
+
+      if (data.runUrl) {
+        refreshStatus.innerHTML = `Refresh queued. <a href="${data.runUrl}" target="_blank" rel="noreferrer">View run →</a>`;
+      } else {
+        refreshStatus.textContent = 'Refresh queued. The page will update after the Action and deploy finish.';
+      }
+
+      window.setTimeout(() => {
+        window.location.reload();
+      }, 150000);
+    } catch (error) {
+      refreshStatus.textContent = error instanceof Error ? error.message : 'Refresh failed.';
+      runButton.disabled = false;
+      runButton.textContent = originalText || 'RUN';
+    }
   });
 </script>
