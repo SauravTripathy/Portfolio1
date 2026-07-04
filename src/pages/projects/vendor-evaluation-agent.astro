@@ -66,27 +66,29 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
         AI research tool evaluating MarTech vendors against a pre-determined scorecard.
           </p>
 
-      <!-- Overview -->
-      <div class="mt-6 flex flex-col gap-10">
-        <div>
-          <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
-            Agentic Design
-          </h2>
-          <p class="mt-3 text-slate-600">Researcher-Judge Workflow</p>
-        </div>
+          <!-- Overview -->
+        <div class="mt-8 grid gap-10 md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.6fr)]">
 
-        <div>
-          <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
-            Tech Stack
-          </h2>
-          <p class="mt-6 text-slate-600 md:whitespace-nowrap">
-            {stack.join(' · ')}
-          </p>
+          <div>
+            <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
+              Agentic Design
+            </h2>
+
+            <p class="mt-6 text-slate-600">Researcher-Judge Workflow</p>
+          </div>
+
+          <div>
+            <h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700">
+              Tech Stack
+            </h2>
+
+            <p class="mt-6 text-slate-600">{stack.join(' · ')}</p>
+          </div>
+
         </div>
-      </div>
 
       <!-- Action Buttons -->
-      <div class="mt-8 flex flex-wrap gap-4">
+      <div class="mt-12 flex flex-wrap gap-4">
         <a
           href={excelHref}
           download="MarTech_Vendor_Scorecard_Single.xlsx"
@@ -106,7 +108,7 @@ const stack = ['Python', 'LangGraph', 'Anthropic API (researcher)', 'OpenAI API 
       </div>
 
       <!-- How it works -->
-      <div class="mt-16">
+      <div class="mt-12">
         <h2 class="text-2xl font-semibold tracking-[-0.03em]">How it works</h2>
 
         <div class="mt-10 grid gap-6 md:grid-cols-3">

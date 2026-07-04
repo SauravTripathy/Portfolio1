@@ -136,7 +136,12 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
         <h1 id="decoder-title">AI in MarTech, the <em>Decoder’s Brief</em></h1>
         <p class="thesis">{description}</p>
 
-         <div class="edition-row">
+      </header>
+
+      <div class="windows-meta" aria-label="Edition controls">
+        <div class="windows-meta-spacer" aria-hidden="true"></div>
+
+        <div class="edition-row edition-row--week">
           <p class="edition-copy">EDITION — {editionTimeLabel}</p>
 
           <button id="refresh-news-button" class="run-button" type="button">
@@ -144,8 +149,10 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
           </button>
 
           <span id="refresh-news-status" class="refresh-status" aria-live="polite"></span>
-        </div> 
-      </header>
+        </div>
+
+        <div class="windows-meta-spacer" aria-hidden="true"></div>
+      </div>
 
       <div class="windows" role="tablist" aria-label="Time window">
         {windows.map((w, i) => (
@@ -276,7 +283,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
 
   .decoder-masthead {
     padding-bottom: 1.25rem;
-    border-bottom: 1px solid var(--line-strong);
+
   }
 
   .dateline,
@@ -340,6 +347,7 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   .windows {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
   }
 
@@ -693,6 +701,47 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
   .refresh-status a {
     text-decoration: underline;
   }
+  .windows-meta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.edition-row--week {
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0.75rem 0.9rem 0.35rem;
+}
+
+.edition-copy {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.refresh-status {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+}
+
+@media (max-width: 720px) {
+  .windows-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .edition-row--week {
+    grid-column: 1;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 </style>
 
 <script>
