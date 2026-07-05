@@ -599,6 +599,13 @@ const getConcept = (id: string) => newsData.concepts?.[id] ?? { name: id, gloss:
     border-color: var(--teal);
   }
 
+  @media (max-width: 960px) {
+    .decoder-masthead h1,
+    .thesis {
+      white-space: normal;
+    }
+  }
+
   @media (max-width: 640px) {
     .decoder-page {
       padding-inline: 1rem;
