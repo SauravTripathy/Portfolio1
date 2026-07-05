@@ -27,7 +27,7 @@ const { eyebrow, title, description, images, downloadCta } = Astro.props;
 
 <Layout title={`${title} | Saurav Tripathy`} description={description} showFooterCta={false}>
   <SiteHeader />
-  <main class="min-h-screen bg-[#f8fbff] px-6 py-16 text-[#06142f]">
+  <main class="min-h-screen bg-[#f8fbff] px-4 py-10 text-[#06142f] sm:px-6 sm:py-16">
     <section class="mx-auto max-w-7xl">
       <p class="text-sm font-semibold uppercase tracking-[0.28em] text-blue-700">
         {eyebrow}
@@ -53,7 +53,7 @@ const { eyebrow, title, description, images, downloadCta } = Astro.props;
       <div class="mt-12 grid gap-8">
         {images.map((image, index) => (
           <div
-            class="h-[420px] cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
+            class="cursor-zoom-in overflow-hidden rounded-3xl border border-blue-100 bg-white shadow-sm transition hover:shadow-md lg:h-[560px]"
             data-full-image={image.src}
             role="button"
             tabindex="0"
@@ -64,7 +64,7 @@ const { eyebrow, title, description, images, downloadCta } = Astro.props;
             <img
               src={image.src}
               alt={image.alt}
-              class="h-full w-full object-contain p-4"
+              class="h-auto w-full p-3 sm:p-4 lg:h-full lg:object-contain"
               loading={index === 0 ? 'eager' : 'lazy'}
             />
           </div>
