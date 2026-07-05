@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T08:22:08.266874+00:00",
+  "generatedAt": "2026-07-05T14:56:35.965488+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,11 +47,66 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Expert Mode: The Human Glitch in the AI Loyalty Machine",
-          "url": "https://agilebrandguide.com/expert-mode-the-human-glitch-in-the-ai-loyalty-machine-with-phaedons-jaclyn-wands/",
-          "plain": "Phaedon's Jaclyn Wands argues that the rush to bolt <b>AI-powered personalization</b> onto loyalty programs is outpacing the human judgment needed to make it trustworthy. The piece warns that without proper guardrails, automated loyalty decisions can erode customer trust rather than build it — a practical <b>governance</b> caution for teams currently mid-implementation.",
+          "head": "AI model is becoming a commodity; data and decisioning layers are the new battleground",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-5-2026/",
+          "plain": "A synthesis of this week's martech moves argues that <b>the AI model itself no longer differentiates vendors</b> — what matters now is the infrastructure, data, and decisioning stack underneath it. CMOs face both urgency and a trap: buying more AI tools without fixing the data layer won't help. This framing reshapes how marketing AI should be evaluated and purchased.",
+          "chips": [
+            "decis",
+            "cdp",
+            "govern",
+            "agentic"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "From Personalization to Agentic Transformation: what the shift actually means for marketing leaders",
+          "url": "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/",
+          "plain": "Two decades of 1:1 personalization — name greetings, behavioral triggers, segmentation models — is now being overtaken by <b>agentic systems that decide and act autonomously</b> rather than follow rules. The piece explains the practical and organisational gap marketers must cross, making it a useful orientation for anyone trying to understand why 'next-best-action' is different from classic personalisation.",
           "chips": [
             "perso",
+            "agentic",
+            "decis",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Audyence and Demandbase integrate to cut B2B campaign launch time by up to 43x",
+          "url": "https://agilebrandguide.com/audyence-and-demandbase-launch-first-native-integration-for-b2b-lead-generation/",
+          "plain": "Demandbase audience segments now sync directly into Audyence's cost-per-lead marketplace, <b>eliminating manual data export steps</b> and compressing campaign setup from days to minutes. While framed as a partnership, there is a real product change — native data flow — that affects how B2B teams buy and activate leads, making it substantive rather than a logo deal.",
+          "chips": [
+            "cdp",
+            "perso",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Governance and explainability emerge as the real competitive differentiators in marketing AI stacks",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-5-2026/",
+          "plain": "Buried in the broader market analysis is a pointed warning: as AI decisioning becomes automated and widespread, <b>governance and explainability controls</b> are moving from compliance checkbox to buying criterion. Organisations that can't audit or explain automated decisions will face regulatory and brand risk, reshaping vendor selection criteria for marketing technology buyers.",
+          "chips": [
+            "govern",
+            "agentic",
+            "decis"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Data platform investment without decisioning strategy is the CMO trap of 2026",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-5-2026/",
+          "plain": "The July 5 market analysis identifies a specific strategic pitfall: CMOs are still funding <b>CDP and data infrastructure</b> as if collecting and unifying data is the end goal, when the actual value now sits in the decisioning and activation layer above it. Understanding this gap is critical for anyone approving martech budgets or building AI roadmaps.",
+          "chips": [
+            "cdp",
+            "decis",
             "agentic",
             "govern"
           ]
@@ -66,35 +121,47 @@
           "fresh": false,
           "head": "Agentic AI is rewriting martech economics and infrastructure",
           "url": "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/",
-          "plain": "A single afternoon of an AI agent calling tools can blow through a monthly SaaS budget. The article argues the fix is not fewer tools but <b>moving data closer to where agents reason</b> — reshaping which CDPs and CEPs survive the agentic era. This has direct implications for how marketing infrastructure is bought and architected.",
+          "plain": "A single afternoon of agentic tool-calling can blow through a $20 monthly subscription. The piece explains that <b>the real fix is rearchitecting where your data lives</b>, not cutting tool usage — a structural insight that directly changes how marketing stacks are bought and built. Essential reading for anyone budgeting or designing AI-powered workflows.",
           "chips": [
             "agentic",
             "cdp",
-            "cep",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
           "fresh": false,
-          "head": "HubSpot's Warmly acquisition points to the next generation of CRM",
+          "head": "HubSpot's Warmly deal points to the next generation of CRM",
           "url": "https://martech.org/hubspots-warmly-deal-points-to-the-next-generation-of-crm/",
-          "plain": "HubSpot bought Warmly, a buyer-intent signal platform, signalling that <b>CRMs are evolving from passive databases into agentic systems that detect intent and act on it</b>. This deal shows how major platforms are restructuring themselves around decisioning rather than record-keeping — a shift that affects every vendor selection conversation.",
+          "plain": "HubSpot's acquisition of Warmly signals that <b>CRM platforms are evolving from passive databases into agentic systems</b> that detect buying intent and act on it automatically. This reshapes how marketing and sales teams evaluate and buy CRM software — the category is no longer just storage, it's decisioning.",
           "chips": [
             "agentic",
             "decis",
             "cdp",
-            "perso"
+            "cep"
           ]
         },
         {
           "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI visibility depends on who writes about your brand",
+          "url": "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/",
+          "plain": "Strong search rankings no longer guarantee that AI assistants will surface your brand. This piece shows that <b>third-party citations and authoritative coverage</b> — not SEO alone — drive presence inside AI-generated answers. Marketers need a new measurement framework built around generative engine visibility, not just click-through rates.",
+          "chips": [
+            "geo",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
           "src": "MarTech · AI",
           "fresh": false,
           "head": "Bad data is teaching AI to waste your ad budget",
           "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
-          "plain": "Inaccurate conversion signals don't just distort reports — they <b>train bidding algorithms to optimize for the wrong customers</b>, compounding losses at scale. The piece is a practical governance warning: what goes into automated ad systems determines what they learn, making data quality a budget issue, not just an analytics one.",
+          "plain": "Inaccurate conversion data in automated ad platforms doesn't just corrupt reports — it <b>trains bidding algorithms to optimize for the wrong customers</b>. The article makes the case that data quality is now a governance priority, not just an analytics one, because errors compound inside reinforcement-learning bidding systems.",
           "chips": [
             "bandit",
             "govern",
@@ -102,25 +169,12 @@
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI visibility depends on who writes about your brand",
-          "url": "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/",
-          "plain": "Strong search rankings no longer guarantee presence inside AI-generated answers. The article explains that <b>third-party citation patterns — not SEO rank — drive generative engine visibility</b>, and offers a measurement framework. Marketers who ignore this risk being invisible to AI intermediaries before a customer ever reaches their site.",
-          "chips": [
-            "geo",
-            "agentic",
-            "govern"
-          ]
-        },
-        {
           "num": "05",
           "src": "MarTech",
           "fresh": false,
-          "head": "Stop adopting AI and start solving problems: the governance case",
+          "head": "Stop adopting AI and start solving problems",
           "url": "https://martech.org/stop-adopting-ai-and-start-solving-problems/",
-          "plain": "Without clear processes, training, and guardrails, <b>AI adoption creates more work, weakens trust, and raises brand risk</b> rather than delivering ROI. The piece makes a concrete governance argument — tool selection should follow problem definition, not precede it — which directly shapes how marketing teams should evaluate and deploy AI systems.",
+          "plain": "Without clear processes, training, and guardrails, AI rollouts create more work and raise brand risk rather than cut costs. The article argues that <b>governance and problem definition must come before tool deployment</b> — a practical corrective for organizations chasing AI adoption metrics instead of business outcomes.",
           "chips": [
             "govern",
             "genai",
@@ -134,11 +188,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Agentic AI</em> Rewrites the Martech Stack",
+          "head": "<em>Agentic AI</em> Is Rewriting the Martech Stack",
           "url": "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/",
           "body": [
-            "AI agents are no longer a feature bolted onto existing platforms — they are becoming the <b>primary infrastructure layer</b> through which marketing work gets done. The economics shift dramatically: orchestration, routing, and decision logic replace point-solution sprawl, and vendors who cannot expose clean APIs to agents become invisible.",
-            "HubSpot's acquisition of Warmly signals that the next CRM is less a database and more a <b>live action layer</b> that dispatches agents on behalf of sales and marketing. Brands that treat agentic AI as a departmental tool rather than a structural redesign will find themselves re-platforming under pressure within 18 months."
+            "The conversation has shifted from <b>using AI as a feature</b> to deploying AI agents that autonomously orchestrate campaigns, qualify leads, and make real-time decisions. This is not an upgrade to existing tools — it is a structural change to how martech is bought, built, and priced.",
+            "Agentic infrastructure demands new thinking about <b>data pipelines, identity resolution, and vendor contracts</b>. Marketers who treat this as another software rollout will find their stack misaligned within 18 months; those who redesign around agent-friendly architectures will hold the economic advantage."
           ],
           "ev": [
             [
@@ -146,45 +200,68 @@
               "https://martech.org/agentic-ai-is-rewriting-martech-economics-and-infrastructure/"
             ],
             [
-              "MarTech · Next-gen CRM",
-              "https://martech.org/hubspots-warmly-deal-points-to-the-next-generation-of-crm/"
+              "Agile Brand · Agentic transformation",
+              "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/"
             ],
             [
-              "Agile Brand · Coordination problem",
-              "https://agilebrandguide.com/from-ai-output-to-business-outcome-solving-marketings-new-coordination-problem/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 02",
-          "head": "Trust, Identity &amp; <em>Orchestration as Moat</em>",
-          "url": "https://agilebrandguide.com/ai-is-table-stakes-trust-identity-and-orchestration-are-the-moat-martech-futurist-july-3-2026/",
-          "body": [
-            "As AI capability commoditises, the competitive advantage shifts to <b>who controls identity resolution and agent access</b>. If an AI agent cannot reliably reach your brand's data or verify a customer's identity, every downstream personalisation fails — making legibility the new SEO.",
-            "Brands must now design their data and consent architecture so that AI intermediaries — whether their own or a customer's — can authenticate and act without friction. <b>Orchestration pipelines and identity graphs</b> are therefore moat-building investments, not IT housekeeping."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Identity legibility",
-              "https://agilebrandguide.com/identity-legibility-assumes-the-agent-can-reach-you/"
-            ],
-            [
-              "Agile Brand · AI as intermediary",
-              "https://agilebrandguide.com/ai-is-the-intermediary-your-customer-talks-to-first-martech-futurist-july-2-2026/"
-            ],
-            [
-              "Agile Brand · Trust &amp; orchestration moat",
+              "Agile Brand · Futurist July 3",
               "https://agilebrandguide.com/ai-is-table-stakes-trust-identity-and-orchestration-are-the-moat-martech-futurist-july-3-2026/"
             ]
           ]
         },
         {
+          "num": "Theme 02",
+          "head": "AI as the <em>First Customer Touchpoint</em>",
+          "url": "https://agilebrandguide.com/ai-is-the-intermediary-your-customer-talks-to-first-martech-futurist-july-2-2026/",
+          "body": [
+            "Consumers are increasingly reaching brands <b>through AI intermediaries</b> — chatbots, search summaries, and recommendation agents — before any human or branded interface is encountered. This makes the AI layer the de-facto top of the funnel, and brand visibility inside that layer is now a core acquisition problem.",
+            "Research confirms that <b>AI visibility depends heavily on third-party editorial coverage</b> of a brand, not just owned channels. Marketers must treat earned media and structured data as direct inputs to AI discoverability, rethinking budgets that historically favored paid search."
+          ],
+          "ev": [
+            [
+              "Agile Brand · AI intermediary",
+              "https://agilebrandguide.com/ai-is-the-intermediary-your-customer-talks-to-first-martech-futurist-july-2-2026/"
+            ],
+            [
+              "MarTech · AI visibility",
+              "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/"
+            ],
+            [
+              "Agile Brand · Identity legibility",
+              "https://agilebrandguide.com/identity-legibility-assumes-the-agent-can-reach-you/"
+            ]
+          ]
+        },
+        {
           "num": "Theme 03",
-          "head": "<em>Creative Becomes Targeting</em>: The Signal Collapse",
+          "head": "The <em>Data Quality</em> Accountability Moment",
+          "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
+          "body": [
+            "AI amplifies whatever data it is trained on, meaning <b>dirty CRM records, stale segments, and mismatched identifiers now burn budget at machine speed</b>. The cost of bad data is no longer a back-office concern — it is a direct line item on the media plan.",
+            "Solving this requires more than data-hygiene tools; it demands <b>organizational accountability for data ownership</b> and tighter integration between ad platforms, identity graphs, and first-party sources. The HubSpot-Warmly deal and the Audyence-Demandbase integration both signal that vendors are racing to close these gaps at the platform level."
+          ],
+          "ev": [
+            [
+              "MarTech · Bad data &amp; ad waste",
+              "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/"
+            ],
+            [
+              "MarTech · HubSpot-Warmly CRM",
+              "https://martech.org/hubspots-warmly-deal-points-to-the-next-generation-of-crm/"
+            ],
+            [
+              "MarTech Series · Audyence-Demandbase",
+              "https://martechseries.com/sales-marketing/audyence-and-demandbase-launch-first-native-integration-for-b2b-lead-generation/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "<em>Creative as Targeting</em>: AI Collapses the Old Funnel Logic",
           "url": "https://martech.org/ai-is-making-creative-the-new-targeting/",
           "body": [
-            "Meta's broad-targeting experiments and AI-driven optimisation signals reveal a structural shift: <b>audience segmentation is dissolving into creative variation</b>. When the algorithm decides who sees what, the creative asset itself becomes the targeting parameter — a fundamentally different briefing process for marketing teams.",
-            "This collapse of the targeting-creative divide means bad creative is now bad media spend, not just bad aesthetics. <b>Data quality feeding those AI optimisers</b> is equally critical — corrupted signals actively misdirect budget, turning a data hygiene issue into a P&amp;L issue."
+            "With Meta's broad-targeting signals and AI-driven optimization, <b>the creative asset itself now does the audience selection work</b> that demographic targeting used to do. This inverts the traditional media-planning hierarchy: creative strategy is now upstream of audience strategy.",
+            "Platforms accelerating <b>AI-generated video, 3D assets, and dynamic content</b> — from Neural4D to PixPix to HitPaw — are commoditizing production, which raises the stakes for creative judgment and brand voice. The scarce resource is no longer the ability to make content; it is the ability to make content that trains the algorithm correctly."
           ],
           "ev": [
             [
@@ -192,22 +269,22 @@
               "https://martech.org/ai-is-making-creative-the-new-targeting/"
             ],
             [
-              "MarTech · Meta optimisation signals",
+              "MarTech · Meta broad targeting",
               "https://martech.org/what-metas-broad-targeting-teaches-us-about-optimization-signals/"
             ],
             [
-              "MarTech · Bad data wastes ad budget",
-              "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/"
+              "MarTech Series · Neural4D AI agent",
+              "https://martechseries.com/video/neural4d-launches-ai-3d-agent-a-unified-panel-for-3d-image-and-video-generation/"
             ]
           ]
         },
         {
-          "num": "Theme 04",
-          "head": "The <em>Human Pushback</em> Imperative",
+          "num": "Theme 05",
+          "head": "Human Judgment as the <em>Essential Override Layer</em>",
           "url": "https://martech.org/why-marketers-need-to-push-back-against-ai/",
           "body": [
-            "A consistent counter-current in this month's coverage argues that <b>marketers must actively resist AI defaults</b> rather than accept outputs uncritically. From loyalty programmes that lose emotional resonance when fully automated, to email cadences that feel generated rather than genuine, AI output without human editorial judgment degrades brand trust over time.",
-            "The practical implication is that <b>human oversight is a strategic input</b>, not a cost to be eliminated. Organisations are beginning to define explicit 'AI-off' moments in the customer journey — touchpoints where human intervention is the differentiator, not the bottleneck."
+            "A counter-current is running through every AI-enthusiasm story: <b>marketers who accept AI outputs uncritically are shipping mediocre work at scale</b>. Multiple analysts and practitioners argue that pushing back, editing ruthlessly, and injecting brand-specific context is now the core marketer skill.",
+            "The loyalty and CX space surfaces this most sharply — AI can optimize for predicted behavior but <b>misses the emotional friction points that determine real retention</b>. The human role is not to prompt the AI but to audit it, override it where it is wrong, and set the constraints it cannot derive from data alone."
           ],
           "ev": [
             [
@@ -215,40 +292,17 @@
               "https://martech.org/why-marketers-need-to-push-back-against-ai/"
             ],
             [
-              "Agile Brand · Human glitch in loyalty",
-              "https://agilebrandguide.com/expert-mode-the-human-glitch-in-the-ai-loyalty-machine-with-phaedons-jaclyn-wands/"
-            ],
-            [
-              "MarTech · Email needs humans",
-              "https://martech.org/ai-made-email-marketing-easier-it-needs-us-to-make-it-better/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 05",
-          "head": "<em>AI Visibility</em>: Brand as Training Signal",
-          "url": "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/",
-          "body": [
-            "Search and discovery are being reintermediated by AI answer engines, and <b>visibility in those outputs depends on third-party authority signals</b> — who writes about your brand, on what domains, and with what context. Traditional SEO assumptions about owned-page optimisation are becoming secondary to earned editorial coverage.",
-            "This reframes PR, analyst relations, and creator partnerships as <b>direct revenue-influencing channels</b>, not soft metrics. The wave of AI-native creator platform funding (Storika's seed round being one example) reflects investor conviction that intermediated brand narrative is the new media buy."
-          ],
-          "ev": [
-            [
-              "MarTech · AI visibility &amp; brand coverage",
-              "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/"
-            ],
-            [
-              "MarTech · Stop adopting AI, solve problems",
+              "MarTech · Stop adopting AI",
               "https://martech.org/stop-adopting-ai-and-start-solving-problems/"
             ],
             [
-              "MarTech Series · Storika creator platform",
-              "https://martechseries.com/social/influencer-marketing/storika-closes-seed-round-to-scale-ai-native-creator-marketing-platform/"
+              "Agile Brand · Human glitch in loyalty AI",
+              "https://agilebrandguide.com/expert-mode-the-human-glitch-in-the-ai-loyalty-machine-with-phaedons-jaclyn-wands/"
             ]
           ]
         }
       ],
-      "takeaway": "The month's signal is unified: AI capability is now table stakes, and <em>the real competition has moved to orchestration architecture, human editorial judgment, and who controls the identity and narrative layers that AI agents depend on</em>."
+      "takeaway": "The defining shift of this moment is that <em>AI has moved from tool to infrastructure</em> — and every strategic decision in martech now sits downstream of how well a brand controls its data, its agent-layer presence, and its human override capacity."
     }
   }
 }
