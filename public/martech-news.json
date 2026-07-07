@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T08:47:51.650116+00:00",
+  "generatedAt": "2026-07-07T16:00:30.540751+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,103 +47,35 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Previsible's 2026 State of AI Discovery Report: Google Still Dominates, ChatGPT Leads Standalone LLMs",
-          "url": "https://martechseries.com/content/previsibles-2026-state-of-ai-discovery-report-finds-google-remains-the-center-of-ai-discovery-with-chatgpt-leading-standalone-llms/",
-          "plain": "The largest running benchmark on AI-driven search — 6.77 million sessions over 19 months — shows <b>Google still controls most AI discovery</b>, while ChatGPT leads among standalone LLMs. Marketers debating where to invest in GEO now have hard data, not guesswork, to guide content and visibility strategy inside AI answer engines.",
+          "head": "Smarsh Research: 55% of Enterprises Deploy AI but Only 26% Have Governance Keeping Pace",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-smarsh-research-finds-enterprises-are-deploying-ai-faster-than-they-can-govern-it/",
+          "plain": "A large-scale 2026 study finds that most enterprises are racing to deploy AI while <b>governance frameworks lag far behind</b> — only 26% say controls are keeping pace. This matters for anyone buying or building marketing AI because the compliance and security risks from ungoverned deployments are growing fast and will likely drive new regulatory and procurement requirements.",
           "chips": [
-            "geo"
+            "govern",
+            "agentic"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "How to Build a Hermes Agent-Style Workflow That Cuts Data Waste",
-          "url": "https://martech.org/building-a-hermes-agent-style-workflow-in-practice/",
-          "plain": "A practical how-to showing that most AI agent workflows flood the model with unnecessary data, and that a simple context-trimming shift fixes it. This matters because <b>over-stuffed prompts raise cost and degrade decision quality</b> — the fix directly improves how agentic marketing tools perform in production.",
+          "fresh": true,
+          "head": "HubSpot May 2026 Updates: Breeze AI Becomes an Active Workflow Participant, Not Just a Prompt Tool",
+          "url": "https://martech.org/hubspots-may-2026-updates-breeze-gets-serious-automation-gets-smarter-and-your-data-gets-cleaner/",
+          "plain": "HubSpot's May release pushes its Breeze AI from a passive assistant into an <b>agentic participant</b> that acts inside workflows — plus smarter automation and data-cleaning tools. For marketers evaluating CRM-adjacent platforms, this signals a real shift in how a major CEP vendor is embedding AI into everyday operations, changing what you should compare when buying.",
           "chips": [
             "agentic",
+            "cep",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Blotato's Analytics Let AI Agents Learn From Their Own Social Post Performance",
-          "url": "https://martechseries.com/analytics/blotato-launches-analytics-that-let-ai-agents-learn-from-their-own-social-posts/",
-          "plain": "Blotato now feeds live post-performance data back to AI agents like Claude via API and MCP servers, so the agent can <b>adjust future publishing decisions based on what actually worked</b>. This closes the loop between content generation and outcome measurement — a building block for self-improving agentic content systems.",
-          "chips": [
-            "agentic",
-            "genai",
-            "bandit"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Treasure AI Named Leader in 2026 IDC MarketScape for AI-Enabled CDPs — Both B2B and B2C",
-          "url": "https://agilebrandguide.com/treasure-ai-recognized-as-a-leader-for-both-b2c-and-b2b-users-in-the-2026-idc-marketscape-for-worldwide-ai-enabled-customer-data-platforms/",
-          "plain": "IDC's formal ranking places Treasure AI at the top of the <b>AI-enabled CDP category for both consumer and enterprise buyers</b> — a rare dual-market standing. For anyone evaluating CDP purchases in 2026, an IDC MarketScape leader designation is a direct buying signal that shapes shortlists and procurement decisions.",
-          "chips": [
-            "cdp",
-            "agentic",
-            "perso"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The Hidden Cost of a Fragmented Martech Stack: Complexity Slows Revenue Operations",
-          "url": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
-          "plain": "An analysis arguing that <b>best-of-breed tool sprawl creates a structural complexity wall</b> that quietly throttles revenue ops — especially as AI layers multiply across disconnected platforms. Relevant to anyone deciding between consolidating onto a platform suite versus adding more point solutions to an existing stack.",
-          "chips": [
-            "cep",
-            "govern",
-            "cdp"
-          ]
-        }
-      ]
-    },
-    "week": {
-      "stories": [
-        {
-          "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "HubSpot's Warmly acquisition signals CRM evolving into agentic buying-intent systems",
-          "url": "https://martech.org/hubspots-warmly-deal-points-to-the-next-generation-of-crm/",
-          "plain": "HubSpot buying Warmly shows that CRM platforms are moving beyond storing customer records to <b>identifying buying intent and taking autonomous action</b>. This matters because it redefines what marketers should expect from their CRM budget — and raises the bar for every competing platform to add agentic capability or risk obsolescence.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cdp",
-            "cep"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Bad conversion data trains AI bidding algorithms to optimize for the wrong customers",
-          "url": "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/",
-          "plain": "When conversion tracking is inaccurate, <b>automated bidding systems learn the wrong lesson</b> and systematically misallocate budget. This piece explains a structural risk most teams ignore: garbage-in doesn't just skew dashboards, it corrupts the reinforcement loop that drives spend decisions, making data quality a governance priority, not just a reporting one.",
-          "chips": [
-            "bandit",
-            "govern",
-            "decis",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI visibility depends on third-party writers, not your own rankings",
-          "url": "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/",
-          "plain": "Strong SEO rankings no longer guarantee that AI answer engines surface your brand. <b>Who writes about you — and what they say — now drives citations</b> inside LLM responses. Marketers need a new measurement framework for GEO, separate from traditional search analytics, to know if they even exist inside AI-generated answers.",
+          "head": "How AI Discovery Is Changing the Metrics Marketers Should Track",
+          "url": "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/",
+          "plain": "As AI-powered search engines surface answers directly, <b>traffic-based metrics lose meaning</b> and marketers need new ways to prove performance. The piece explains what to measure instead — shifting the conversation from page visits to brand presence inside AI answers. Essential reading for anyone building or funding a content or SEO strategy right now.",
           "chips": [
             "geo",
             "govern"
@@ -152,26 +84,97 @@
         {
           "num": "04",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Previsible's 19-month study: Google still dominates AI discovery, ChatGPT leads standalone LLMs",
-          "url": "https://martechseries.com/content/previsibles-2026-state-of-ai-discovery-report-finds-google-remains-the-center-of-ai-discovery-with-chatgpt-leading-standalone-llms/",
-          "plain": "Analysing <b>6.77 million AI-driven search sessions across 19 months</b>, this benchmark is the longest-running GEO dataset published. It finds Google's AI mode still sends more traffic than standalone LLMs, but ChatGPT leads that standalone tier. Marketers allocating GEO budget need this split to prioritise where to optimise first.",
+          "fresh": true,
+          "head": "Scrunch Platform Demo: How Brands Get Cited by ChatGPT, Perplexity, and Claude",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-scrunch-with-devin-stevens/",
+          "plain": "A hands-on walkthrough of Scrunch, a platform built specifically for <b>generative engine optimization</b>, shows marketers how to track and improve brand visibility inside AI answer engines like ChatGPT and Perplexity. As AI search displaces traditional SEO, tools like this represent a new category of martech spend that buyers need to understand.",
           "chips": [
-            "geo"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Stensul Releases Governed Creation Platform with Figma, Salesforce MC Next, and AI Personalization Controls",
+          "url": "https://martechseries.com/content/stensul-announces-major-governed-creation-release-for-the-ai-era-marketing-stack/",
+          "plain": "Stensul's major update adds integrations with Figma, WRITER, and Salesforce Marketing Cloud Next while embedding <b>governance controls directly into AI-era content creation</b>. This means enterprise teams can let AI generate campaign content without bypassing approval workflows — a practical solution to the brand-safety and compliance gap that holds many companies back from scaling AI content.",
+          "chips": [
+            "govern",
+            "genai",
+            "perso",
+            "cep"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Smarsh Research: 55% of Enterprises Deploy AI but Only 26% Say Governance Keeps Pace",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-smarsh-research-finds-enterprises-are-deploying-ai-faster-than-they-can-govern-it/",
+          "plain": "A new study of enterprise AI adoption finds a stark gap: <b>more than half of companies are running AI in production</b>, but fewer than one in three say their governance frameworks are keeping up. That mismatch creates real compliance and security exposure — directly relevant to anyone buying or building marketing AI right now.",
+          "chips": [
+            "govern",
+            "agentic"
+          ]
+        },
+        {
+          "num": "02",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Expert analysis: the shift from rules-based personalization to agentic marketing transformation",
-          "url": "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/",
-          "plain": "A practitioner breakdown of why two decades of segmentation and journey automation are <b>structural prerequisites for agentic AI, not replacements for it</b>. Explains clearly what changes when an agent decides channel, timing, and message per person in real time — and what governance gaps that creates for teams used to human-approved campaign rules.",
+          "fresh": true,
+          "head": "Salesforce Agentforce Commerce Hits GA; Amazon's Creative Agent Now Produces 80% of an Ad",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-6-2026/",
+          "plain": "Two platform milestones in one day: <b>Salesforce Agentforce Commerce reaches general availability</b>, putting agentic shopping automation in front of enterprise buyers, while Amazon says its Creative Agent now generates 80% of ad creative autonomously. Both moves signal agentic AI shifting from pilot to mainstream in commerce and advertising.",
           "chips": [
             "agentic",
-            "perso",
             "decis",
-            "govern"
+            "genai",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "How AI Discovery Is Changing Every Metric Marketers Measure",
+          "url": "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/",
+          "plain": "As consumers find brands through ChatGPT and Perplexity rather than Google, <b>traffic-based metrics are losing meaning</b>. The article walks through what to measure instead — citation share, AI answer presence, and downstream conversion — giving practitioners a practical framework for adapting performance reporting in the generative-engine era.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Stensul Releases Governed Creation Platform with Figma, Salesforce Marketing Cloud Next, and AI Personalization Controls",
+          "url": "https://martechseries.com/content/stensul-announces-major-governed-creation-release-for-the-ai-era-marketing-stack/",
+          "plain": "Stensul's update threads AI content creation directly into approval workflows — connecting Figma design, WRITER copy generation, and Salesforce Marketing Cloud Next in one governed pipeline. <b>The key shift: AI-generated content can't go live without built-in compliance checkpoints</b>, addressing the control gap that has made brand and legal teams wary of generative tools.",
+          "chips": [
+            "govern",
+            "genai",
+            "perso",
+            "cep"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "HubSpot May 2026 Updates: Breeze AI Becomes an Active Workflow Participant, Not Just a Prompt Tool",
+          "url": "https://martech.org/hubspots-may-2026-updates-breeze-gets-serious-automation-gets-smarter-and-your-data-gets-cleaner/",
+          "plain": "HubSpot's May release moves its Breeze AI layer from reactive assistant to <b>proactive workflow agent</b> — taking actions across CRM, email, and data-cleansing tasks without a user prompt at each step. For teams evaluating all-in-one platforms, this update changes what HubSpot can own end-to-end versus what still needs a specialist tool.",
+          "chips": [
+            "agentic",
+            "cep",
+            "cdp",
+            "genai"
           ]
         }
       ]
@@ -181,113 +184,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Agentic AI is <em>replacing workflows, not just augmenting</em> them",
-          "url": "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/",
+          "head": "AI Search Is Rewriting <em>Brand Visibility Rules</em>",
+          "url": "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/",
           "body": [
-            "The conversation has shifted from AI as a feature inside tools to AI as the <b>orchestrating layer</b> that runs multi-step processes autonomously — scheduling, qualifying leads after hours, and even letting social agents learn from their own posts. HubSpot's acquisition of Warmly and the Hermes agent-style workflow guides signal that CRM and campaign execution are being re-architected around agents.",
-            "For strategists this is a decision-forcing event: <b>buying point solutions is no longer enough</b> if those tools can't expose APIs for agents to act on. The orgs that design agent-ready stacks now will own a compounding advantage as autonomous execution matures over the next 12–18 months."
+            "When AI assistants answer queries directly, the click-through metrics marketers have relied on for two decades stop working. <b>Share of voice in AI-generated answers</b> is now a distinct metric from search ranking, and it is determined largely by what third-party sources write about a brand — not by the brand's own content.",
+            "Platforms like Scrunch are emerging specifically to measure AI visibility, signalling that an entirely new category of MarTech is forming. <b>Marketers who delay building an AI-search strategy</b> are effectively ceding discovery to competitors who publish more credible, citation-worthy content."
           ],
           "ev": [
             [
-              "Agile Brand · Agentic Transformation",
-              "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/"
+              "MarTech · AI visibility &amp; third-party writing",
+              "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/"
             ],
             [
-              "MarTech · HubSpot Warmly CRM",
-              "https://martech.org/hubspots-warmly-deal-points-to-the-next-generation-of-crm/"
+              "Agile Brand · Scrunch AI visibility platform",
+              "https://agilebrandguide.com/one-amazing-thing-about-scrunch-with-devin-stevens/"
             ],
             [
-              "MarTech · Hermes Agent Workflow",
-              "https://martech.org/building-a-hermes-agent-style-workflow-in-practice/"
+              "MarTech · how AI discovery changes measurement",
+              "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "Stack <em>fragmentation is now a measurable tax</em> on revenue",
-          "url": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
+          "head": "<em>AI Governance Gap</em> Threatening Enterprise Adoption",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-smarsh-research-finds-enterprises-are-deploying-ai-faster-than-they-can-govern-it/",
           "body": [
-            "Multiple pieces this month converge on the same finding: <b>disconnected tools don't just create inefficiency — they actively degrade AI output</b> because models trained on siloed, dirty data make systematically worse decisions. Bad data is literally wasting ad budgets by teaching bidding algorithms the wrong patterns.",
-            "The strategic implication is consolidation pressure. Vendors like Treasure AI and ArangoDB are being rewarded by analysts precisely because they offer unified data layers. <b>Marketers who treat stack rationalisation as a cost exercise rather than an AI-readiness exercise are leaving performance on the table.</b>"
+            "Smarsh research and Heimdal analysis both confirm the same uncomfortable finding: <b>enterprises are shipping AI capabilities faster than they can build the controls to manage them</b>. The deployment speed is commercially motivated, but the governance deficit creates regulatory, reputational, and data-security exposure that leadership is only beginning to quantify.",
+            "Stensul's new Governed Creation™ release is a direct product response to this gap, introducing structured guardrails for AI-generated marketing content. <b>The decision now facing CMOs</b> is whether to slow adoption to match governance maturity or invest urgently in oversight tooling — because doing neither is no longer a defensible position."
           ],
           "ev": [
             [
-              "MarTech · Hidden Cost of Fragmentation",
-              "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/"
+              "MarTech Series · Smarsh governance research",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-smarsh-research-finds-enterprises-are-deploying-ai-faster-than-they-can-govern-it/"
             ],
             [
-              "MarTech · Bad Data Wasting Ad Budget",
-              "https://martech.org/bad-data-is-teaching-ai-to-waste-your-ad-budget/"
+              "MarTech Series · Stensul Governed Creation",
+              "https://martechseries.com/content/stensul-announces-major-governed-creation-release-for-the-ai-era-marketing-stack/"
             ],
             [
-              "Agile Brand · Treasure AI CDP Leader",
-              "https://agilebrandguide.com/treasure-ai-recognized-as-a-leader-for-both-b2c-and-b2b-users-in-the-2026-idc-marketscape-for-worldwide-ai-enabled-customer-data-platforms/"
+              "Agile Brand · Heimdal AI risk management",
+              "https://agilebrandguide.com/heimdal-ai-risk-management-in-2026-bridging-the-enterprise-control-divide/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI <em>discovery &amp; visibility replace</em> traditional SEO logic",
-          "url": "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/",
+          "head": "Agentic Workflows Move from <em>Pilot to Production</em>",
+          "url": "https://martech.org/3-ai-agents-to-improve-marketing-workflows/",
           "body": [
-            "Previsible's 2026 State of AI Discovery Report confirms that Google still dominates how people find brands via AI, but <b>ChatGPT is the leading standalone LLM surface</b> — meaning brand visibility now depends on what third-party content LLMs are trained on, not just your own pages. Who writes about your brand matters more than your own keyword strategy.",
-            "This flips the classic owned-vs-earned calculus: <b>earned media and authoritative third-party mentions become direct inputs into AI ranking systems</b>. Marketers need to treat PR, analyst relations, and review ecosystems as AI-visibility infrastructure, not just brand-building extras."
+            "Multiple items this month — from HubSpot's Breeze expansion to Hermes Agent-style workflow guides to Agile Brand's agentic transformation expert session — signal that AI agents are graduating from experimentation into mainstream marketing operations. <b>The shift is architectural</b>: agents don't just automate tasks, they orchestrate sequences of decisions across tools, fundamentally changing how teams structure their work.",
+            "Workato's 99% Gartner peer-recommendation score and HubSpot's May update bundle reflect <b>customer demand for reliable, production-grade orchestration</b>, not just flashy demos. Teams that have mapped their workflows to agent handoffs are reporting measurable efficiency gains, making this a competitive wedge rather than a future aspiration."
           ],
           "ev": [
             [
-              "MarTech · AI Visibility &amp; Brand Coverage",
-              "https://martech.org/ai-visibility-depends-on-who-writes-about-your-brand/"
+              "MarTech · 3 AI agents for marketing workflows",
+              "https://martech.org/3-ai-agents-to-improve-marketing-workflows/"
             ],
             [
-              "MarTech Series · 2026 AI Discovery Report",
-              "https://martechseries.com/content/previsibles-2026-state-of-ai-discovery-report-finds-google-remains-the-center-of-ai-discovery-with-chatgpt-leading-standalone-llms/"
+              "MarTech · HubSpot Breeze &amp; automation updates",
+              "https://martech.org/hubspots-may-2026-updates-breeze-gets-serious-automation-gets-smarter-and-your-data-gets-cleaner/"
+            ],
+            [
+              "Agile Brand · From personalization to agentic transformation",
+              "https://agilebrandguide.com/expert-mode-from-personalization-to-agentic-transformation/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Loyalty &amp; personalisation hit a <em>human-trust ceiling</em>",
-          "url": "https://agilebrandguide.com/expert-mode-the-human-glitch-in-the-ai-loyalty-machine-with-phaedons-jaclyn-wands/",
+          "head": "Fragmented Stacks Face a <em>Consolidation Reckoning</em>",
+          "url": "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/",
           "body": [
-            "Kwik Trip's Eagle Eye rollout and Phaedon's Jaclyn Wands interview both surface the same tension: AI can now personalise loyalty offers at scale, but <b>customers sense when the relationship feels mechanical</b> and disengage. The \"human glitch\" in the AI loyalty machine is that optimising for conversion metrics alone erodes the emotional contract that makes loyalty programmes work.",
-            "The decision this forces is about <b>where to keep humans in the loop</b> — not as a cost overhead but as a signal of brand intention. Programmes that blend AI efficiency with deliberate human-feeling moments (surprise, empathy, recovery) are outperforming pure-automation approaches in early data."
+            "Martech's hidden cost is no longer theoretical: siloed point solutions create data inconsistency, duplicated spend, and integration debt that compounds as AI layers are added on top. <b>The fragmented stack amplifies AI errors</b> because bad data in one tool propagates through every connected agent or model downstream.",
+            "The Audyence–Demandbase native integration and Treasure AI's CDP leadership recognition both illustrate the counter-trend: <b>buyers are rewarding platforms that reduce integration surface area</b> rather than adding new connectors. The strategic decision is whether to consolidate proactively or wait for a data-quality crisis to force the issue."
           ],
           "ev": [
             [
-              "Agile Brand · Human Glitch in AI Loyalty",
-              "https://agilebrandguide.com/expert-mode-the-human-glitch-in-the-ai-loyalty-machine-with-phaedons-jaclyn-wands/"
+              "MarTech · hidden cost of fragmented stack",
+              "https://martech.org/the-hidden-cost-of-your-fragmented-martech-stack/"
             ],
             [
-              "MarTech Series · Kwik Trip Eagle Eye",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kwik-trip-partners-with-eagle-eye-to-bring-ai-personalized-loyalty-campaigns-to-shoppers/"
+              "Agile Brand · Treasure AI CDP leadership",
+              "https://agilebrandguide.com/treasure-ai-recognized-as-a-leader-for-both-b2c-and-b2b-users-in-the-2026-idc-marketscape-for-worldwide-ai-enabled-customer-data-platforms/"
+            ],
+            [
+              "Agile Brand · Audyence &amp; Demandbase native integration",
+              "https://agilebrandguide.com/audyence-and-demandbase-launch-first-native-integration-for-b2b-lead-generation/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>AI risk &amp; identity governance</em> become the new moat",
-          "url": "https://agilebrandguide.com/ai-is-table-stakes-trust-identity-and-orchestration-are-the-moat-martech-futurist-july-3-2026/",
+          "head": "Predictive Creative Intelligence <em>Before Campaigns Launch</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zappi-launches-amplify-ai-bringing-predictive-ad-testing-to-high-volume-digital-campaigns/",
           "body": [
-            "As AI becomes table stakes, the differentiation layer is shifting to <b>trust infrastructure</b>: who controls identity, who audits agent actions, and who is liable when a model leaks data or makes a bad autonomous decision. WyberAI's pre-deployment data-leak testing and Heimdal's enterprise AI risk management report both reflect growing commercial demand for governance tooling that sits above individual AI features.",
-            "For marketing leaders this means <b>risk management is no longer the legal team's problem alone</b> — it determines which AI vendors can be trusted with customer data and which agentic workflows can be approved for production. Orgs building internal AI governance frameworks now will face fewer regulatory and reputational shocks as scrutiny intensifies."
+            "Zappi's Amplify AI, xpln.ai's Ideal Attention Time, and Guideline's Verified Ad Intelligence all launched within the same news cycle, pointing to a convergent bet: <b>AI can reliably predict creative performance before a single impression is served</b>. This collapses the traditional test-and-learn loop from weeks into hours and shifts budget decisions upstream.",
+            "The implication for marketing teams is structural — creative, media planning, and analytics roles that used to operate sequentially now need to work in parallel against a shared predictive signal. <b>Organisations that adopt pre-flight intelligence</b> gain a compounding advantage because every campaign generates training data that sharpens the next prediction."
           ],
           "ev": [
             [
-              "Agile Brand · Trust &amp; Orchestration as Moat",
-              "https://agilebrandguide.com/ai-is-table-stakes-trust-identity-and-orchestration-are-the-moat-martech-futurist-july-3-2026/"
+              "MarTech Series · Zappi Amplify AI predictive testing",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zappi-launches-amplify-ai-bringing-predictive-ad-testing-to-high-volume-digital-campaigns/"
             ],
             [
-              "Agile Brand · Heimdal AI Risk Management",
-              "https://agilebrandguide.com/heimdal-ai-risk-management-in-2026-bridging-the-enterprise-control-divide/"
+              "MarTech Series · xpln.ai Ideal Attention Time",
+              "https://martechseries.com/sales-marketing/programmatic-buying/xpln-ai-launches-ideal-attention-time-giving-advertisers-a-new-way-to-align-creative-media-before-a-campaign-is-live/"
             ],
             [
-              "MarTech Series · WyberAI Data Leak Testing",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wyberai-debuts-ai-app-builder-that-tests-every-app-for-data-leaks-before-deployment/"
+              "MarTech Series · Guideline Verified Ad Intelligence",
+              "https://martechseries.com/sales-marketing/programmatic-buying/guideline-launches-verified-ad-intelligence-across-ai-platforms/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the real shift is that <em>AI capability is now assumed and the competition has moved to data integrity, agent governance, and trust architecture</em> — the unglamorous infrastructure that determines whether AI investments compound or collapse."
+      "takeaway": "Across every layer of the stack this month, the common pressure is the same: <em>AI is forcing marketers to make foundational architectural decisions — about governance, measurement, data unity, and workflow design — that can no longer be deferred without ceding competitive ground</em>."
     }
   }
 }
