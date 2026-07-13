@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T14:39:55.882402+00:00",
+  "generatedAt": "2026-07-13T08:30:24.657026+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,60 +45,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Why Your Marketing Funnel Is Lying and What to Do About It",
-          "url": "https://agilebrandguide.com/expert-mode-why-your-marketing-funnel-is-lying-and-what-to-do-about-it/",
-          "plain": "This opinion piece argues the classic linear marketing funnel no longer reflects how customers actually move toward a purchase. It challenges marketers to rethink dashboards and campaign structures built on that model. Relevant to AI-era marketing because <b>non-linear customer journeys</b> are a core reason teams are adopting <b>agentic decisioning</b> and CDPs to replace funnel-stage logic.",
+          "head": "Acxiom & EMARKETER Report: Fragmented Identity Data Is Blocking Enterprise Growth",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-acxiom-and-emarketer-report-highlights-need-for-stronger-identity-infrastructure-as-fragmented-data-limits-growth/",
+          "plain": "A joint Acxiom/EMARKETER study finds that <b>fragmented customer identity data</b> is the top barrier stopping brands from using AI effectively across the enterprise. It argues identity resolution must be treated as a company-wide asset, not a marketing tool — a direct signal for how CDPs and data governance get prioritized and funded.",
           "chips": [
             "cdp",
-            "decis",
-            "agentic",
+            "govern",
             "perso"
           ]
         },
         {
           "num": "02",
-          "src": "N/A",
-          "fresh": false,
-          "head": "No additional candidate articles provided",
-          "url": "",
-          "plain": "Only one candidate article was supplied for this ranking session. No further articles could be evaluated or ranked. Please provide additional candidates to complete the top-five list with substantive, independently verified stories that affect how marketing AI is bought, built, or governed.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "AI-Driven Customer Intent Modeling Is Replacing Demographic Targeting in MarTech",
+          "url": "https://martechseries.com/mts-insights/staff-writers/martech-and-the-future-of-ai-driven-customer-intent-modeling/",
+          "plain": "This analysis argues that <b>predicting what a customer will do next</b> is now more valuable than knowing who they are. It maps how real-time behavioral signals, machine learning, and AI intent engines are replacing broad demographic segments — reshaping how marketing platforms are built and bought.",
           "chips": [
-            "govern"
+            "decis",
+            "perso",
+            "bandit",
+            "cdp"
           ]
         },
         {
           "num": "03",
-          "src": "N/A",
-          "fresh": false,
-          "head": "No additional candidate articles provided",
-          "url": "",
-          "plain": "Only one candidate article was supplied for this ranking session. No further articles could be evaluated or ranked. Please provide additional candidates to complete the top-five list with substantive, independently verified stories that affect how marketing AI is bought, built, or governed.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Syncro Builds 35 Self-Serve Outbound Campaigns and $400K Pipeline Using ZoomInfo",
+          "url": "https://martechseries.com/sales-marketing/syncro-launches-more-outbound-campaigns-than-the-prior-two-years-with-self-service-audience-building-on-zoominfo/",
+          "plain": "IT software firm Syncro shifted from inbound-only to <b>35 self-serve audience-targeted campaigns</b> in just months, generating $400K in pipeline. The case matters because it shows how AI-assisted audience building in a GTM platform lets small teams run scaled outbound without a data science department.",
           "chips": [
-            "govern"
+            "cdp",
+            "perso",
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "N/A",
-          "fresh": false,
-          "head": "No additional candidate articles provided",
-          "url": "",
-          "plain": "Only one candidate article was supplied for this ranking session. No further articles could be evaluated or ranked. Please provide additional candidates to complete the top-five list with substantive, independently verified stories that affect how marketing AI is bought, built, or governed.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Snappy Roughly Doubles Qualified Opportunity Rate Using Buying-Signal Timing on ZoomInfo",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/snappy-roughly-doubled-its-book-rate-for-qualified-opportunities-by-selling-on-buying-signals-with-zoominfo/",
+          "plain": "Corporate gifting platform Snappy replaced guesswork prospecting with <b>signal-timed outreach</b>, roughly doubling the rate at which early conversations become qualified opportunities and landing a multi-year Fortune 500 deal. It illustrates how agentic decisioning on intent signals changes conversion math for sales teams.",
           "chips": [
-            "govern"
+            "decis",
+            "agentic",
+            "bandit"
           ]
         },
         {
           "num": "05",
-          "src": "N/A",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "No additional candidate articles provided",
-          "url": "",
-          "plain": "Only one candidate article was supplied for this ranking session. No further articles could be evaluated or ranked. Please provide additional candidates to complete the top-five list with substantive, independently verified stories that affect how marketing AI is bought, built, or governed.",
+          "head": "Expert Mode: Why the Linear Marketing Funnel Is a Misleading Model for AI-Era Decisions",
+          "url": "https://agilebrandguide.com/expert-mode-why-your-marketing-funnel-is-lying-and-what-to-do-about-it/",
+          "plain": "A practitioner essay argues the classic awareness-to-conversion funnel produces <b>dashboard metrics that obscure real buying behavior</b>, and that AI-era tools demand non-linear engagement models. Relevant for anyone deciding how to structure measurement and governance around AI-driven customer journeys.",
           "chips": [
-            "govern"
+            "govern",
+            "decis",
+            "cep"
           ]
         }
       ]
@@ -109,48 +117,36 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Context — not the model — now decides what your AI marketing stack costs and whether it works",
-          "url": "https://agilebrandguide.com/context-now-decides-what-your-ai-enabled-stack-costs-and-whether-it-works-martech-futurist-july-9-2026/",
-          "plain": "Research now shows the AI model itself is a commodity; what separates ROI from waste is the <b>data and real-time signals wrapped around it</b> — including a machine-readable brand layer that AI systems read when recommending. This reframes every buying decision in the martech stack away from model selection toward data infrastructure and context management.",
+          "head": "Gartner: Customers 3x more likely to resolve issues via ChatGPT than company chatbots; AI marketing ROI lags spend",
+          "url": "https://agilebrandguide.com/ai-investments-chase-easy-money-but-end-customers-want-more-martech-futurist-july-10-2026/",
+          "plain": "Gartner research finds customers are <b>three times more likely to use third-party AI tools like ChatGPT</b> than a brand's own chatbot — and the function spending most on AI is showing the least return. This directly challenges how most martech budgets are allocated and raises urgent questions about where AI investment actually delivers value.",
           "chips": [
-            "cdp",
             "agentic",
-            "geo",
-            "govern"
+            "cep",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Gartner: customers 3× more likely to resolve issues via ChatGPT than a brand's own chatbot — AI investments chasing wrong returns",
-          "url": "https://agilebrandguide.com/ai-investments-chase-easy-money-but-end-customers-want-more-martech-futurist-july-10-2026/",
-          "plain": "Gartner data reveals the <b>function spending most on AI is showing the least return</b>, and customers are bypassing brand-owned chatbots in favour of third-party AI tools. This is a direct challenge to current CX AI investment strategies and signals that deployment architecture — not budget size — determines outcomes.",
+          "head": "Demand-Genius research: AI cites brands in only 16% of B2B responses, zero citations in awareness stage",
+          "url": "https://agilebrandguide.com/beyond-mentions-how-ai-conversational-context-shapes-brand-recommendations/",
+          "plain": "New research shows that <b>AI systems skip brand citations almost entirely during early B2B buyer journeys</b>, with a 0% citation rate at awareness and consideration stages. Marketers relying on AI mention-tracking are measuring the wrong thing — conversational context and authority signals matter far more than raw mentions for being recommended.",
           "chips": [
-            "cep",
-            "agentic",
-            "govern"
+            "geo",
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Only 16% of AI responses cite a brand — and citation rate hits zero in early B2B buyer stages",
-          "url": "https://agilebrandguide.com/beyond-mentions-how-ai-conversational-context-shapes-brand-recommendations/",
-          "plain": "Demand-Genius research shows <b>AI visibility metrics based on brand mentions are misleading</b>: citations collapse to zero during awareness and consideration in B2B journeys. Marketers need to rethink how they measure and optimise presence inside AI-generated answers, making GEO strategy urgent rather than optional.",
-          "chips": [
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Pega's Tara DeZao: Agentic AI shifts marketing from discrete tools to autonomous end-to-end orchestration",
+          "head": "Pega's Tara DeZao on agentic AI as end-to-end marketing orchestration, not just content generation",
           "url": "https://agilebrandguide.com/expert-mode-beyond-the-prompt-agentic-ai-and-the-new-era-of-marketing-orchestration/",
-          "plain": "This practitioner interview with Pega's head of product marketing explains how <b>agentic AI moves beyond content generation to managing full marketing workflows autonomously</b> — understanding intent, sequencing tasks, and giving strategic feedback. It's a concrete guide to what agentic decisioning looks like in a real enterprise stack.",
+          "plain": "Pega's marketing AI lead explains the shift from using AI to generate assets to deploying it as an <b>autonomous orchestration layer</b> that manages workflows, understands intent, and gives strategic feedback. This reframes how buyers should evaluate and procure marketing AI — moving from tool-by-task to system-level capability.",
           "chips": [
             "agentic",
             "decis",
@@ -159,16 +155,31 @@
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech Series",
+          "num": "04",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Omneky launches public API and MCP server so any AI agent or platform can call its ad-creative engine",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/",
-          "plain": "Omneky has opened its autonomous creative-generation engine via a <b>Model Context Protocol server</b>, letting developers, commerce platforms, and AI agents request on-brand ad creative programmatically. This is a structural change in how ad creative is built and bought — moving production into the agent layer rather than a human-operated UI.",
+          "head": "AI adoption hits 90% in CX but organisations split on governance, architecture, and proving ROI",
+          "url": "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/",
+          "plain": "A new survey finds CX AI adoption is nearly universal, yet organisations are <b>diverging sharply on how to govern it, which architecture to use, and how to build customer trust</b>. For buyers and builders, this signals that governance and architecture choices — not adoption itself — are now the competitive differentiator.",
           "chips": [
-            "genai",
+            "govern",
+            "cep",
             "agentic",
-            "decis"
+            "perso"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "The CMS is becoming the AI operating system for brands: what to look for now",
+          "url": "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/",
+          "plain": "Choosing a content management system now means choosing the platform through which <b>AI agents discover, personalise, and govern your brand content</b>. The article lays out practical criteria for evaluating a CMS as an AI-ready foundation — directly affecting how marketing infrastructure is bought and built going forward.",
+          "chips": [
+            "agentic",
+            "perso",
+            "geo",
+            "govern"
           ]
         }
       ]
@@ -178,89 +189,66 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Agentic AI</em> Replaces the Prompt Era",
+          "head": "Agentic AI <em>Orchestrates the Funnel</em> End-to-End",
           "url": "https://agilebrandguide.com/expert-mode-beyond-the-prompt-agentic-ai-and-the-new-era-of-marketing-orchestration/",
           "body": [
-            "Marketing AI is moving from single-shot prompts to <b>autonomous agents that orchestrate multi-step workflows</b> without human hand-holding at each stage. Platforms like Pega are framing this as a fundamental shift in how campaigns are planned, executed, and optimised — the marketer's job becomes setting goals and guardrails, not writing instructions.",
-            "The commercial proof is arriving fast: Omneky's public API &amp; MCP server lets any downstream tool or agent trigger ad creative generation autonomously, and Cresta now uses AI agents to train human agents in real time. <b>The architecture of the stack is changing</b> — from tools you operate to agents you supervise."
+            "The conversation has moved well past chatbots: AI agents are now being wired into buying-signal detection, outbound campaign sequencing, and real-time contact-center coaching. Tools like ZoomInfo's buying-signals engine and Cresta's training simulator show that the agent layer is no longer a prototype — it is live production infrastructure.",
+            "<b>The strategic shift</b> is from AI as a content shortcut to AI as an autonomous workflow runner. Marketers who treat agents as mere prompt interfaces will miss the real leverage: letting agents decide <em>when</em> to act, not just <em>what</em> to say."
           ],
           "ev": [
             [
-              "Agile Brand · Agentic orchestration with Pega",
+              "Agile Brand · Agentic AI &amp; Orchestration",
               "https://agilebrandguide.com/expert-mode-beyond-the-prompt-agentic-ai-and-the-new-era-of-marketing-orchestration/"
-            ],
-            [
-              "MarTech Series · Omneky autonomous creative API",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/"
             ],
             [
               "MarTech · 3 AI agents for workflows",
               "https://martech.org/3-ai-agents-to-improve-marketing-workflows/"
+            ],
+            [
+              "Agile Brand · Cresta Training Simulator",
+              "https://agilebrandguide.com/cresta-launches-training-simulator-using-ai-agents-to-provide-dynamic-training-to-human-agents/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Search Rewrites <em>Brand Visibility</em> Rules",
-          "url": "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/",
+          "head": "<em>AI Search &amp; Discovery</em> Rewrites Measurement",
+          "url": "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/",
           "body": [
-            "When AI assistants answer queries directly, <b>the page-rank logic that powered a decade of SEO collapses</b>. Brands are no longer competing for clicks — they are competing to be cited or recommended inside a conversational response, which means trust signals and authoritative context matter more than keyword density.",
-            "Research on how AI conversational context shapes brand recommendations shows that <b>the framing of a question can exclude a brand entirely</b>, even if it ranks well in traditional search. Marketers need to rethink measurement: impressions, clicks, and rankings miss the new visibility layer entirely."
+            "When AI models answer queries directly, the classic click-funnel metrics — impressions, CTR, sessions — lose their meaning. Brand visibility now depends on whether an LLM's conversational context surfaces you favorably, not whether a keyword ranks on page one. Trust signals and authoritative content are becoming the new SEO currency.",
+            "<b>Marketers need new KPIs</b>: share-of-model-response, citation frequency, and sentiment within AI-generated recommendations. The Agile Brand piece on conversational context and the MarTech trust-visibility article both confirm that <b>optimising for AI discovery is a distinct discipline</b> from traditional search optimisation."
           ],
           "ev": [
             [
-              "MarTech · Trust as visibility signal in AI search",
+              "MarTech · AI discovery &amp; measurement",
+              "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/"
+            ],
+            [
+              "MarTech · Trust as visibility signal",
               "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/"
             ],
             [
-              "Agile Brand · AI context shapes brand recommendations",
+              "Agile Brand · Conversational context &amp; brand recs",
               "https://agilebrandguide.com/beyond-mentions-how-ai-conversational-context-shapes-brand-recommendations/"
-            ],
-            [
-              "MarTech · AI discovery changes what marketers measure",
-              "https://martech.org/how-ai-discovery-is-changing-everything-marketers-measure/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The <em>Context Cost</em> Problem in AI Stacks",
-          "url": "https://agilebrandguide.com/context-now-decides-what-your-ai-enabled-stack-costs-and-whether-it-works-martech-futurist-july-9-2026/",
+          "head": "Fragmented <em>Identity Data</em> Caps AI's Potential",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-acxiom-and-emarketer-report-highlights-need-for-stronger-identity-infrastructure-as-fragmented-data-limits-growth/",
           "body": [
-            "A quiet but consequential insight is emerging: <b>the amount of context fed to an AI model determines both the quality of output and the size of the bill</b>. Poorly scoped context windows inflate token costs and degrade results — making context management a core infrastructure decision, not just a prompt-engineering tip.",
-            "This reframes stack evaluation entirely. Choosing a CDP, a CMS, or a data platform now requires asking <b>how well it packages and compresses context</b> before handing it to a model. Teams that ignore this will face runaway inference costs and inconsistent outputs as they scale."
+            "The Acxiom &amp; EMARKETER report lands a blunt verdict: fragmented customer identity is the single biggest limiter of AI-driven growth. Without a reliable spine of unified identity, intent models misfire, personalisation degrades, and CAC climbs — a pattern echoed in the MarTech piece on rising acquisition costs.",
+            "<b>Identity infrastructure is now a prerequisite</b>, not a back-office concern. The Agile Brand Futurist note reinforces this: context — who the customer is across touchpoints — determines what the AI stack costs and whether it actually works. Investing in AI tooling before fixing identity is building on sand."
           ],
           "ev": [
             [
-              "Agile Brand · Context decides stack cost &amp; performance",
+              "MarTech Series · Acxiom &amp; EMARKETER identity report",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-acxiom-and-emarketer-report-highlights-need-for-stronger-identity-infrastructure-as-fragmented-data-limits-growth/"
+            ],
+            [
+              "Agile Brand · Context decides stack cost",
               "https://agilebrandguide.com/context-now-decides-what-your-ai-enabled-stack-costs-and-whether-it-works-martech-futurist-july-9-2026/"
-            ],
-            [
-              "MarTech · CMS as AI operating system",
-              "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/"
-            ],
-            [
-              "MarTech · Scaling vibe coding beyond prompts",
-              "https://martech.org/the-secret-to-scaling-vibe-coding-isnt-better-prompts/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "Measurement &amp; Funnels Are <em>Structurally Broken</em>",
-          "url": "https://agilebrandguide.com/expert-mode-why-your-marketing-funnel-is-lying-and-what-to-do-about-it/",
-          "body": [
-            "Multiple signals this month point to the same diagnosis: <b>the linear funnel model actively misleads budget decisions</b>. Rising customer acquisition costs without improving deal quality, and CAC climbing while conversion holds flat, suggest that optimising inside a broken model just accelerates the waste.",
-            "The problem is partly that AI-powered measurement tools are being applied to <b>the wrong GTM motions</b> — scaling volume at the top of a funnel that leaks badly in the middle. The corrective is redesigning measurement around buyer intent signals and revenue outcomes rather than funnel-stage proxies."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Marketing funnel is lying",
-              "https://agilebrandguide.com/expert-mode-why-your-marketing-funnel-is-lying-and-what-to-do-about-it/"
-            ],
-            [
-              "MarTech · AI scaling the wrong part of GTM",
-              "https://martech.org/youre-using-ai-to-scale-the-wrong-part-of-gtm/"
             ],
             [
               "MarTech · Why CAC keeps rising",
@@ -269,12 +257,35 @@
           ]
         },
         {
+          "num": "Theme 04",
+          "head": "The <em>CMS Becomes</em> the AI Operating System",
+          "url": "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/",
+          "body": [
+            "Content management platforms are absorbing capabilities once spread across a dozen point tools: personalisation, intent modeling, structured data for AI retrieval, and now agentic publishing. The CMS is becoming the connective tissue between brand content and the AI systems that surface it — a decisive architectural shift for any martech stack rebuild.",
+            "Paired with the explosion of <b>AI website builders</b> (Cursor, Lovable, Bolt.new, v0), the implication is that the production layer of digital experience is being radically compressed. <b>Teams that master this layer</b> can iterate on brand presence at a speed that was impossible twelve months ago."
+          ],
+          "ev": [
+            [
+              "MarTech · CMS as AI OS",
+              "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/"
+            ],
+            [
+              "MarTech Series · AI website builders landscape",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/the-rise-of-ai-website-builders-where-bezier-ai-fits-among-cursor-lovable-bolt-new-v0-replit-and-github-copilot/"
+            ],
+            [
+              "MarTech · Scaling vibe coding",
+              "https://martech.org/the-secret-to-scaling-vibe-coding-isnt-better-prompts/"
+            ]
+          ]
+        },
+        {
           "num": "Theme 05",
-          "head": "Who <em>Builds Marketer Judgment</em> When AI Does the Work?",
+          "head": "AI Adoption Is High, But <em>Human Skill Atrophy</em> Looms",
           "url": "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/",
           "body": [
-            "With AI adoption reported at 90% across CX teams, a talent paradox is sharpening: <b>junior marketers are being bypassed by automation before they can accumulate the pattern-recognition that makes senior judgment possible</b>. The craft knowledge embedded in doing repetitive work — writing copy, segmenting audiences, analysing reports — is no longer being transferred.",
-            "The industry has no settled answer yet. Cresta's AI-trains-human-agents model is one experiment; others are debating whether <b>structured apprenticeship programmes need to be rebuilt from scratch</b> around AI-augmented workflows. How organisations solve this will determine whether marketing expertise compounds or hollows out over the next decade."
+            "With AI adoption in CX now touching 90%, a quiet crisis is forming: if AI handles execution, junior marketers never develop the judgment that senior marketers learned by doing. The MarTech piece on training tomorrow's marketers frames this as an organisational risk that has no technical fix — it requires intentional human development programs.",
+            "<b>The investment hype cycle is also misfiring</b>: the Agile Brand Futurist note warns that AI money is chasing easy automation wins while end customers want deeper, more meaningful experiences. The gap between what AI vendors promise and what buyers actually value is widening, and <b>teams that close it will need human insight, not just better models</b>."
           ],
           "ev": [
             [
@@ -282,17 +293,17 @@
               "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/"
             ],
             [
-              "MarTech · AI adoption hits 90% in CX",
-              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
+              "Agile Brand · AI investments chase easy money",
+              "https://agilebrandguide.com/ai-investments-chase-easy-money-but-end-customers-want-more-martech-futurist-july-10-2026/"
             ],
             [
-              "Agile Brand · Cresta AI training simulator",
-              "https://agilebrandguide.com/cresta-launches-training-simulator-using-ai-agents-to-provide-dynamic-training-to-human-agents/"
+              "MarTech · AI adoption hits 90%",
+              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the common thread is that <em>the rules governing cost, visibility, measurement, and talent were all written for a pre-agentic world and need to be rewritten now</em>."
+      "takeaway": "Across every layer of the stack, the 30-day signal is the same: <em>AI capability is no longer the bottleneck — identity data quality, human judgment, and trust architecture are what separate winners from expensive experiments.</em>"
     }
   }
 }
