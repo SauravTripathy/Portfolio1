@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T07:23:25.947214+00:00",
+  "generatedAt": "2026-07-14T15:07:28.123467+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,11 +45,52 @@
       "stories": [
         {
           "num": "01",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "6sense Launches MCP Server, Exposing GTM Intelligence to Any AI Agent",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-launches-mcp-server-bringing-proprietary-gtm-intelligence-into-any-ai-agent/",
+          "plain": "6sense opens an <b>MCP (Model Context Protocol) server</b> so any AI agent — Claude, ChatGPT, Agentforce, Writer — can pull its predictive buying-stage and account-intent data at runtime. This matters because it turns a closed data silo into a callable tool, letting agentic workflows make smarter, real-time GTM decisions without custom integrations.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cdp",
+            "govern"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "OneSignal Unveils Autonomous Lifecycle Marketing Vision and Opens AI + MCP Server to All Users",
+          "url": "https://martechseries.com/sales-marketing/onesignal-unveils-autonomous-lifecycle-marketing-vision-opens-onesignal-ai-and-mcp-server-to-all-users/",
+          "plain": "OneSignal, used by over a million businesses, announces <b>Autonomous Lifecycle Marketing</b>: a self-improving platform that plans, executes, and optimises messaging campaigns without manual setup. It also opens its AI and MCP server to all users today. This signals a shift from rule-based CEPs to fully agentic engagement systems.",
+          "chips": [
+            "agentic",
+            "cep",
+            "decis",
+            "bandit"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Profound Launches FactCheck to Measure Brand Accuracy Inside AI Answer Engines",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/profound-launches-factcheck-to-measure-the-accuracy-of-ai-answers-about-your-brand/",
+          "plain": "Profound's new <b>FactCheck</b> tool lets brands identify and measure factual errors in how AI search engines describe them, then take steps to correct those errors at scale. As AI answers replace traditional search results for many queries, getting your brand represented accurately in those answers is becoming a core marketing task.",
+          "chips": [
+            "geo",
+            "govern",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
           "src": "MarTech",
           "fresh": true,
-          "head": "5 questions to ask AI vendors before you buy anything",
-          "url": "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/",
-          "plain": "A practical buying guide for marketers evaluating AI tools, covering <b>business-value proof, data policies, and implementation realities</b>. This matters because most buyers are still being sold on demos and hype; a clear evaluation checklist directly changes how AI gets procured and what governance questions get asked before contracts are signed.",
+          "head": "Run This AI Audit Before Your Next Budgeting Cycle",
+          "url": "https://martech.org/run-this-ai-audit-before-your-next-budgeting-cycle/",
+          "plain": "A practical framework for marketing teams to honestly assess <b>where AI is actually adding value</b> versus where it is just hype before committing budget. Useful for non-specialists because it moves past benchmarks and gives a step-by-step internal evaluation process that affects how AI tools get funded and governed.",
           "chips": [
             "govern",
             "genai",
@@ -57,57 +98,16 @@
           ]
         },
         {
-          "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Omneky Launches Public API and MCP Server for Autonomous Ad Creative Generation",
-          "url": "https://agilebrandguide.com/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/",
-          "plain": "Omneky has opened its AI ad-creative engine to outside developers and AI agents via a public API and <b>Model Context Protocol server</b>, meaning any platform or agentic workflow can now generate and deploy ad creatives programmatically. This shifts autonomous creative production from a walled product into open infrastructure other tools can plug into.",
-          "chips": [
-            "genai",
-            "agentic",
-            "decis"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "When AI Answers the Call: Where Autonomous AI Belongs in the Contact Center",
-          "url": "https://agilebrandguide.com/when-ai-answers-the-call-where-autonomous-ai-belongs-in-the-contact-center-with-chang-chang-webex/",
-          "plain": "Webex's Chang Chang argues that using AI purely for <b>call deflection misses the point</b> — the real measure is whether customers were actually helped. The piece reframes how contact-center AI should be governed and deployed, pushing teams to design for resolution quality rather than volume reduction, which shifts how CEPs are evaluated.",
-          "chips": [
-            "agentic",
-            "cep",
-            "govern",
-            "decis"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Docket CEO on Turning Every Site Visit into a Real Qualifying Conversation via AI",
-          "url": "https://agilebrandguide.com/one-amazing-thing-about-docket-with-arjun-pillai/",
-          "plain": "Docket's platform uses <b>agentic conversational AI</b> to qualify visitor intent, book meetings, and push results directly into a CRM in real time — replacing static forms and chat bots. It illustrates how decisioning agents are being embedded at the top of the funnel, changing how marketing pipelines are built and measured.",
-          "chips": [
-            "agentic",
-            "decis",
-            "perso",
-            "cep"
-          ]
-        },
-        {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Transactional, Triggered, and Promotional Emails: What's the Difference?",
-          "url": "https://martech.org/transactional-triggered-and-promotional-emails-whats-the-difference/",
-          "plain": "A foundational explainer distinguishing the three core email types by purpose, legal rules, and revenue impact. Useful for new MarTech readers because <b>misclassifying triggered versus promotional sends</b> creates compliance risk and deliverability problems — a practical governance issue that surfaces early when teams start automating customer engagement at scale.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "DataGroomr Adds Real-Time Cross-Object Duplicate Prevention on Salesforce AgentExchange",
+          "url": "https://martechseries.com/sales-marketing/marketing-automation/datagroomr-introduces-real-time-cross-object-duplicate-prevention-on-salesforces-agentexchange/",
+          "plain": "DataGroomr now catches duplicate records across related Salesforce objects the moment they are created, and lists on <b>Salesforce AgentExchange</b> — the new marketplace combining AppExchange, Slack, and Agentforce. Clean data at ingestion is a prerequisite for reliable agentic decisions, making this a governance story as much as a data-quality one.",
           "chips": [
-            "cep",
             "govern",
-            "decis"
+            "agentic",
+            "cdp"
           ]
         }
       ]
@@ -116,70 +116,71 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "5 questions to ask AI vendors before you buy anything",
-          "url": "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/",
-          "plain": "A practical buying guide that cuts through AI hype by telling marketers exactly what to probe before signing a contract — covering business value proof, data policies, real customer results, and implementation reality. <b>Anyone evaluating AI tools</b> right now needs this checklist to avoid costly mistakes and hold vendors accountable.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "6sense Launches MCP Server, Bringing Proprietary GTM Intelligence Into Any AI Agent",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-launches-mcp-server-bringing-proprietary-gtm-intelligence-into-any-ai-agent/",
+          "plain": "6sense has opened its <b>predictive buying-stage and account-intent data</b> to any AI agent — Claude, ChatGPT, Agentforce and others — via a Model Context Protocol server. This is a structural shift: third-party agents can now act on 6sense intelligence without custom integrations, changing how B2B go-to-market AI is built and bought.",
           "chips": [
-            "govern",
-            "genai",
-            "agentic"
+            "agentic",
+            "decis",
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI adoption hits 90% as CX deployment paths diverge",
-          "url": "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/",
-          "plain": "New research shows AI use in customer experience is nearly universal, but organizations are splitting sharply on <b>architecture choices, governance models, and how to build customer trust</b> while proving ROI. This divergence will determine which companies pull ahead — making it a key strategic signal for anyone buying or building CX AI.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "OneSignal Unveils Autonomous Lifecycle Marketing Vision and Opens AI and MCP Server to All Users",
+          "url": "https://martechseries.com/sales-marketing/onesignal-unveils-autonomous-lifecycle-marketing-vision-opens-onesignal-ai-and-mcp-server-to-all-users/",
+          "plain": "OneSignal, used by over a million businesses, is repositioning its customer engagement platform around <b>autonomous lifecycle marketing</b> — a self-improving system that plans and executes onboarding, engagement, and retention campaigns on its own. Making its AI and MCP server free to all users raises the floor for what a CEP is expected to do.",
           "chips": [
-            "govern",
             "cep",
             "agentic",
-            "decis"
+            "decis",
+            "perso"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Omneky Launches Public API and MCP Server for Autonomous Ad Creative Generation",
-          "url": "https://agilebrandguide.com/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/",
-          "plain": "Omneky opened its AI creative engine to external developers and AI agents via a public API and <b>Model Context Protocol server</b>, meaning any platform or agent can now autonomously generate and deploy ad creative. This shifts generative ad production from a closed tool into an interoperable infrastructure layer — a significant build-vs-buy moment.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Profound Launches FactCheck to Measure Brand Accuracy Across AI Answer Engines",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/profound-launches-factcheck-to-measure-the-accuracy-of-ai-answers-about-your-brand/",
+          "plain": "Profound's new FactCheck tool lets marketing teams track and correct <b>how AI search engines describe their brand</b> — identifying inaccurate claims at scale. As consumers increasingly trust AI-generated answers over search results, being represented accurately inside those answers is becoming a core marketing governance problem.",
           "chips": [
-            "genai",
-            "agentic",
-            "decis"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Context, not the model, now decides whether your AI stack pays off",
-          "url": "https://agilebrandguide.com/context-now-decides-what-your-ai-enabled-stack-costs-and-whether-it-works-martech-futurist-july-9-2026/",
-          "plain": "Emerging research argues the <b>underlying AI model is now a commodity</b> — what separates winning stacks from wasteful ones is the quality of data, real-time signals, and machine-readable brand context fed to agents. This reframes where marketers should invest: away from model access and toward data infrastructure and brand context management.",
+          "head": "Omneky Launches Public API and MCP Server for Autonomous Ad Creative Generation",
+          "url": "https://agilebrandguide.com/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/",
+          "plain": "Omneky's new public API and MCP server let any developer or AI agent call its <b>autonomous ad-creative generation engine</b> directly. This opens a new procurement path — teams can embed AI creative production into their own tools and agents rather than logging into a separate platform, reshaping how creative AI is built into stacks.",
           "chips": [
-            "cdp",
+            "genai",
             "agentic",
-            "geo",
-            "govern"
+            "decis",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
+          "src": "MarTech",
           "fresh": false,
-          "head": "The CMS is becoming the AI operating system for brands",
-          "url": "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/",
-          "plain": "A strategic analysis arguing that <b>choosing a CMS now means choosing your AI discovery, personalization, and governance foundation</b> — not just a publishing tool. As AI agents and generative search pull content, the CMS layer controls what gets surfaced and how brand assets are structured for machines, making it a core infrastructure decision.",
+          "head": "AI Adoption Hits 90% in CX but Organizations Are Divided on Architecture and Governance",
+          "url": "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/",
+          "plain": "A new report finds AI use in customer experience is near-universal, but organizations are splitting sharply on <b>how to govern it, which architecture to trust, and how to prove ROI</b>. For buyers and builders, this data exposes where the real risk now sits — not in adoption, but in the choices made after adoption.",
           "chips": [
-            "geo",
             "govern",
-            "perso",
-            "agentic"
+            "agentic",
+            "cep",
+            "cdp"
           ]
         }
       ]
@@ -189,34 +190,53 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Autonomous AI Agents</em> Move from Pilot to Pipeline",
-          "url": "https://martech.org/3-ai-agents-to-improve-marketing-workflows/",
+          "head": "MCP Servers Make <em>AI Agents Composable</em> Infrastructure",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-launches-mcp-server-bringing-proprietary-gtm-intelligence-into-any-ai-agent/",
           "body": [
-            "AI agents are no longer theoretical — they are being wired directly into marketing pipelines. Omneky's public API and MCP server let autonomous ad-creative generation run inside any platform or agent, while Webex and Hermes Agent Desktop show the same pattern arriving in contact centers and martech stacks.",
-            "The decision shift for marketers is <b>where to grant agents authority</b>, not whether to try them. Deployment paths are diverging fast: some teams give agents narrow, supervised tasks; others are handing over full workflow loops. Getting the boundary wrong in either direction is now a material business risk."
+            "Within a single month, 6sense, OneSignal, and Omneky all shipped MCP servers — a pattern that signals a structural shift, not a product cycle. <b>Proprietary data and creative engines are being wrapped as callable services</b> so any AI agent, regardless of vendor, can invoke them on demand.",
+            "The decision this forces for marketing ops leaders is architectural: do you build a stack of closed platforms, or assemble an agent mesh where best-in-class capabilities plug in as modules? MCP is quietly becoming the <b>API standard layer for agentic MarTech</b>, and vendors who delay will find their data locked out of the workflows that matter."
           ],
           "ev": [
             [
-              "Agile Brand · Omneky MCP Server",
+              "MarTech Series · 6sense MCP launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-launches-mcp-server-bringing-proprietary-gtm-intelligence-into-any-ai-agent/"
+            ],
+            [
+              "MarTech Series · OneSignal MCP + autonomous lifecycle",
+              "https://martechseries.com/sales-marketing/onesignal-unveils-autonomous-lifecycle-marketing-vision-opens-onesignal-ai-and-mcp-server-to-all-users/"
+            ],
+            [
+              "Agile Brand · Omneky MCP &amp; public API",
               "https://agilebrandguide.com/omneky-launches-public-api-and-mcp-server-bringing-autonomous-ad-creative-generation-to-any-platform-or-ai-agent/"
-            ],
-            [
-              "MarTech · 3 agents for workflows",
-              "https://martech.org/3-ai-agents-to-improve-marketing-workflows/"
-            ],
-            [
-              "Agile Brand · Webex contact center AI",
-              "https://agilebrandguide.com/when-ai-answers-the-call-where-autonomous-ai-belongs-in-the-contact-center-with-chang-chang-webex/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The CMS Becomes an <em>AI Operating System</em>",
+          "head": "<em>AI Search Visibility</em> Replaces Classic SEO as Brand Battleground",
+          "url": "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/",
+          "body": [
+            "When AI assistants answer questions about your brand, they draw on a corpus of signals that classic keyword rankings do not fully capture. <b>Trust, authority, and factual accuracy in third-party sources</b> now determine whether a brand appears — or is misrepresented — in AI-generated responses.",
+            "Profound's FactCheck launch makes brand accuracy in AI answers measurable for the first time, turning an abstract concern into a trackable metric. Marketers who treat <b>AI answer-engine optimization as a distinct discipline</b> alongside traditional SEO will have an early-mover advantage before the category crowds."
+          ],
+          "ev": [
+            [
+              "MarTech · AI search &amp; trust signals",
+              "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/"
+            ],
+            [
+              "MarTech Series · Profound FactCheck launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/profound-launches-factcheck-to-measure-the-accuracy-of-ai-answers-about-your-brand/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "The <em>CMS Evolves Into</em> an AI Brand Operating System",
           "url": "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/",
           "body": [
-            "Content management platforms are quietly being re-architected as the central intelligence layer for brand output. Rather than storing and publishing pages, they are becoming the environment where context, data, and AI models combine to generate, personalize, and distribute content at scale — a fundamental replatforming of the marketing stack.",
-            "This matters to decision-makers because <b>budget and vendor choices made around the CMS today will constrain AI capability for years</b>. Alongside this, the martech futurist piece on context costs underlines that the richness and structure of the data fed into that system now directly determines both what AI can do and what it will charge you."
+            "The content management system is no longer just a publishing tool — it is becoming the <b>central nervous system that feeds structured brand knowledge to AI agents, search engines, and personalization layers</b>. This reframes CMS selection from a UX decision to an infrastructure decision with long-term AI consequences.",
+            "Separately, mainframe-to-modern CX modernization stories underscore the same pressure: legacy content &amp; data architectures create bottlenecks the moment AI agents need to query them at speed. <b>Brands that have not rationalized their content layer will find AI-driven personalization stalling</b> at the data retrieval step."
           ],
           "ev": [
             [
@@ -224,86 +244,63 @@
               "https://martech.org/the-cms-is-becoming-the-ai-operating-system-for-brands/"
             ],
             [
-              "Agile Brand · Context &amp; stack costs",
-              "https://agilebrandguide.com/context-now-decides-what-your-ai-enabled-stack-costs-and-whether-it-works-martech-futurist-july-9-2026/"
+              "Agile Brand · mainframe-to-modern CX",
+              "https://agilebrandguide.com/expert-mode-from-mainframe-to-modern-cx-unlocking-agility-with-ai-augmented-modernization/"
             ],
             [
-              "MarTech · AI martech releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "<em>AI Search &amp; Trust</em> Rewrite Visibility Rules",
-          "url": "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/",
-          "body": [
-            "As AI-powered search surfaces answers instead of links, traditional SEO ranking factors are losing primacy. <b>Trust signals — citations, authoritative sourcing, brand credibility — are becoming the primary lever for whether a brand appears in AI-generated answers</b> at all. The funnel entry point has moved upstream of the click.",
-            "For marketers this reframes content investment: producing volume is less valuable than producing verifiable, citable, structured content that AI systems will confidently surface. The 'marketing funnel is lying' argument reinforces this — models of awareness built on search-click data are increasingly blind to how buyers actually discover and evaluate brands in an AI-mediated world."
-          ],
-          "ev": [
-            [
-              "MarTech · Trust as visibility signal",
-              "https://martech.org/why-ai-search-makes-trust-your-most-important-visibility-signal/"
-            ],
-            [
-              "Agile Brand · Why your funnel is lying",
-              "https://agilebrandguide.com/expert-mode-why-your-marketing-funnel-is-lying-and-what-to-do-about-it/"
-            ],
-            [
-              "MarTech · Wrong part of GTM",
-              "https://martech.org/youre-using-ai-to-scale-the-wrong-part-of-gtm/"
+              "MarTech · 3 AI agents for marketing workflows",
+              "https://martech.org/3-ai-agents-to-improve-marketing-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>AI Vendor Due Diligence</em> Becomes a Core Competency",
-          "url": "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/",
+          "head": "<em>AI Governance &amp; Audit</em> Pressure Arrives at Budget Time",
+          "url": "https://martech.org/run-this-ai-audit-before-your-next-budgeting-cycle/",
           "body": [
-            "With AI adoption now above 90% in CX functions, the buying question has shifted from 'should we adopt?' to 'how do we evaluate what we're buying?' A checklist of five vendor questions — covering data use, model provenance, auditability, integration depth, and pricing structure — signals that procurement rigor is catching up to the hype cycle.",
-            "<b>The risk of skipping due diligence is compounding</b>: vendor lock-in, hidden context costs, and model opacity can undermine the very efficiency gains AI promises. The same pressure is visible in 'vibe coding' culture — scaling AI-assisted development without governance frameworks creates technical and legal debt faster than teams can manage."
+            "C-suite pressure and tightening budgets are colliding with AI tool sprawl, forcing marketers to justify every platform investment with measurable outcomes. <b>Running a structured AI audit before the next budget cycle</b> is no longer optional hygiene — it is the prerequisite for securing headcount and spend approvals.",
+            "Vendor due-diligence is becoming equally formalised: MarTech's five-question framework for AI vendors and Hyperlink InfoSystem's risk-reduction guidance both reflect a market maturing from experimentation to <b>accountable, risk-managed deployment</b>. Buyers who skip this step face both wasted spend and regulatory exposure."
           ],
           "ev": [
             [
-              "MarTech · 5 vendor questions",
+              "MarTech · AI audit before budgeting",
+              "https://martech.org/run-this-ai-audit-before-your-next-budgeting-cycle/"
+            ],
+            [
+              "MarTech · 5 questions for AI vendors",
               "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/"
             ],
             [
-              "MarTech · AI adoption 90%",
-              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
-            ],
-            [
-              "MarTech · Vibe coding governance",
-              "https://martech.org/the-secret-to-scaling-vibe-coding-isnt-better-prompts/"
+              "MarTech Series · C-suite pressure on digital strategy",
+              "https://martechseries.com/sales-marketing/c-suite-pressure-puts-digital-marketing-strategy-at-risk/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI Is Creating a <em>Marketing Talent &amp; Skills Gap</em>",
+          "head": "AI Raises the <em>Talent &amp; Skills Gap</em> to a Strategic Risk",
           "url": "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/",
           "body": [
-            "If AI executes the repetitive, judgment-building tasks that used to train junior marketers, the industry faces a structural pipeline problem: <b>who develops the contextual instincts needed to supervise, correct, and direct AI systems?</b> This is not a soft HR concern — it directly affects output quality, brand safety, and the long-term ability to use AI strategically.",
-            "The wave of senior leadership appointments seen at Qualtrics and Klaviyo this month reflects organizations trying to buy their way into AI-era capability at the top, but that does not solve the mid-level vacuum. Teams that invest deliberately in human skill development alongside AI tooling will have a durable competitive edge over those that treat AI purely as a headcount substitute."
+            "As AI absorbs routine campaign execution, the junior roles that historically trained the next generation of marketers are disappearing — creating a <b>pipeline problem that will surface as a leadership shortage in three to five years</b>. The question of who builds institutional knowledge is no longer theoretical.",
+            "The same dynamic is visible in AI CX adoption data: 90% adoption rates mask a widening gap between organizations that are <b>thoughtfully upskilling teams versus those automating blindly</b>. Leaders who treat workforce development as a lagging indicator will find themselves without the human judgment needed to govern the AI systems they have deployed."
           ],
           "ev": [
             [
-              "MarTech · Who trains tomorrow's marketers",
+              "MarTech · who trains tomorrow's marketers",
               "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/"
             ],
             [
-              "Agile Brand · Qualtrics AI-era leaders",
-              "https://agilebrandguide.com/qualtrics-names-five-senior-leaders-across-sales-marketing-and-product-to-drive-ai-era-experience-management/"
+              "MarTech · AI adoption hits 90% in CX",
+              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
             ],
             [
-              "MarTech · Wrong part of GTM",
-              "https://martech.org/youre-using-ai-to-scale-the-wrong-part-of-gtm/"
+              "MarTech · scaling vibe coding beyond prompts",
+              "https://martech.org/the-secret-to-scaling-vibe-coding-isnt-better-prompts/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack, the month's news converges on a single pressure: <em>AI is forcing marketers to make irreversible architectural, talent, and trust decisions faster than most governance frameworks can keep up</em>."
+      "takeaway": "Across every layer of the stack — infrastructure, content, search, governance, and talent — <em>the shift from AI as a tool to AI as the operating environment</em> is the single decision that will separate durable marketing organisations from those optimising yesterday's playbook."
     }
   }
 }
