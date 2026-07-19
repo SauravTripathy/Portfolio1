@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T14:34:12.562246+00:00",
+  "generatedAt": "2026-07-19T07:38:18.337847+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,25 +45,24 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Salesforce's slow Agentforce adoption exposes enterprise agentic AI readiness gap",
-          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
-          "plain": "Salesforce's own struggles to get customers onto Agentforce reveal a wider truth: <b>agentic AI stalls when underlying data quality is poor</b>. The piece shows that buying the platform is the easy part — fixing the messy customer data and processes that agents depend on is the real blocker most enterprises haven't solved yet.",
+          "head": "Agent Visibility Is Model-Dependent: Brand Scores Vary by AI Model Used",
+          "url": "https://agilebrandguide.com/agent-visibility-is-model-dependent/",
+          "plain": "A new framework argues that <b>brand visibility in agentic commerce</b> is not a fixed score — it shifts depending on which AI model an agent uses and when. This matters because marketers optimizing for one model may be invisible to another, making <b>model-aware GEO strategy</b> essential for brands competing in AI-driven discovery.",
           "chips": [
             "agentic",
-            "cdp",
-            "govern",
-            "decis"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
-          "fresh": true,
+          "fresh": false,
           "head": "156 AI & Technology Statistics Marketers Should Know in 2026",
           "url": "https://agilebrandguide.com/ai-technology-statistics/",
-          "plain": "A fully sourced compilation of 156 statistics covering <b>AI adoption rates, agentic AI growth, ROI benchmarks, and governance trends</b> for 2026. Useful as a reference document when making the case internally for AI investment or when assessing how your organisation compares to industry norms.",
+          "plain": "A fully sourced roundup of 156 statistics covering <b>AI adoption, agentic AI, ROI, governance, and workforce impact</b> in 2026. Useful as a benchmark reference for teams making the case internally for AI investment or building governance frameworks — though it is a compiled digest rather than original research.",
           "chips": [
             "agentic",
             "govern",
@@ -73,14 +72,42 @@
         {
           "num": "03",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Tec-Do launches Navos 2.0 multi-agent marketing system at WAIC",
+          "fresh": false,
+          "head": "Tec-Do Launches Navos 2.0 Multi-Agent Marketing System at WAIC",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-18-2026/",
-          "plain": "Navos 2.0 is a <b>multi-agent system that plans and executes marketing tasks across office productivity tools</b> — a sign that agentic marketing software is moving beyond chatbots into systems that chain decisions and actions end-to-end. Its debut at WAIC signals growing non-US competition in the marketing AI space.",
+          "plain": "Tec-Do unveiled Navos 2.0 at the World AI Conference — a <b>multi-agent marketing system</b> that plans and executes campaigns across office productivity tools. This signals a shift toward agentic platforms that automate end-to-end marketing workflows rather than just generating content, which changes how martech stacks are evaluated and bought.",
           "chips": [
             "agentic",
             "decis",
+            "cep",
             "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Brand Visibility Framework Highlights Trust and Data Resolvability for AI Agents",
+          "url": "https://agilebrandguide.com/agent-visibility-is-model-dependent/",
+          "plain": "The same framework introduces the concept of a brand's <b>data surface</b> — the information an AI agent can resolve, compare, and trust about a brand. Marketers must now think about structured, trustworthy data availability as a prerequisite for being chosen by autonomous agents, not just by human searchers.",
+          "chips": [
+            "agentic",
+            "geo",
+            "cdp",
+            "govern"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "2026 Martech Stats: Governance and Workforce Data Now Central to AI Planning",
+          "url": "https://agilebrandguide.com/ai-technology-statistics/",
+          "plain": "Within the 156-statistic digest, the <b>governance and workforce sections</b> stand out as newly prominent categories alongside traditional adoption metrics. This reflects growing pressure on marketing teams to justify AI decisions to regulators and leadership, making these figures directly useful for budget and policy conversations.",
+          "chips": [
+            "govern",
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -93,67 +120,64 @@
           "fresh": false,
           "head": "Salesforce's Agentforce struggles expose marketing's agentic AI readiness gap",
           "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
-          "plain": "Salesforce's slower-than-expected <b>Agentforce adoption</b> is a signal, not just a company story: enterprises lack the clean data and operational foundations that agentic AI requires. This matters for anyone buying or building AI marketing systems because it reframes the blocker from technology to <b>data quality and org readiness</b>.",
+          "plain": "Slow adoption of Salesforce Agentforce reveals that <b>poor data quality and lack of operational readiness</b> — not the AI itself — are the real blockers for enterprise agentic marketing. This matters because it reframes the buying conversation: tools aren't the bottleneck, internal foundations are, and that changes where budget and effort should go first.",
           "chips": [
             "agentic",
-            "cdp",
             "govern",
+            "cdp",
             "decis"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "Why AI-ready data infrastructure is so hard to build — and how to start",
-          "url": "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/",
-          "plain": "Most companies stall because they try to fix all their data before touching AI. This piece argues for <b>starting with one high-value problem</b> to prove the model and build momentum. Practical framing for marketers deciding where to invest in data pipelines first, directly affecting how AI projects get scoped and funded.",
+          "head": "91% of marketers claim an AI search strategy but most are far behind on execution",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-research-from-scribewise-and-scrunch-finds-91-of-marketers-claim-an-ai-search-strategy-but-most-are-only-scratching-the-surface/",
+          "plain": "A survey of 600+ marketing and PR professionals finds a stark gap between <b>confidence in AI visibility strategy and actual execution</b>, with 62% feeling already behind competitors. This is a concrete data point on how quickly GEO has become a strategic priority — and how unprepared most teams still are to act on it.",
           "chips": [
-            "cdp",
-            "govern",
+            "geo",
             "agentic",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "91% of marketers claim an AI search strategy but most are flying blind, survey finds",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-research-from-scribewise-and-scrunch-finds-91-of-marketers-claim-an-ai-search-strategy-but-most-are-only-scratching-the-surface/",
-          "plain": "A 600-person survey reveals a stark gap: nearly all marketers say they have a <b>generative engine optimization strategy</b>, yet 62% admit they are already behind competitors. The data shows confidence is decoupled from execution, making this a useful benchmark for teams assessing their own AI visibility investments.",
-          "chips": [
-            "geo",
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
           "src": "MarTech",
           "fresh": false,
           "head": "5 questions to ask AI vendors before you buy anything",
           "url": "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/",
-          "plain": "A buyer's checklist covering business-value proof, <b>data ownership and privacy policies</b>, real customer evidence, and implementation costs. Directly useful for anyone evaluating MarTech-AI purchases — helps cut through vendor hype with concrete due-diligence questions before contracts are signed.",
+          "plain": "A practical buying guide that cuts through AI hype by focusing on <b>business value proof, data policies, and implementation realities</b> before signing a contract. Directly useful for anyone in a procurement or evaluation role, and reflects a maturing market where buyers are becoming more demanding and vendors must demonstrate real outcomes.",
           "chips": [
             "govern",
-            "agentic",
             "genai",
-            "cdp"
+            "agentic"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Looking beyond agentic AI hype: why enterprise-wide ROI remains elusive",
+          "url": "https://agilebrandguide.com/looking-beyond-the-hype-of-agentic-ai-how-businesses-can-generate-real-roi-from-their-ai-investments/",
+          "plain": "An honest assessment finding that <b>most agentic AI deployments are siloed by function or business unit</b> with no known examples of enterprise-wide success. This signals that the technology is still in a constrained early phase, which directly affects how buyers should set expectations and structure pilots to avoid wasted investment.",
+          "chips": [
+            "agentic",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Agentic AI hype vs. reality: why enterprise-wide ROI remains elusive",
-          "url": "https://agilebrandguide.com/looking-beyond-the-hype-of-agentic-ai-how-businesses-can-generate-real-roi-from-their-ai-investments/",
-          "plain": "Despite excitement since early 2024, <b>no publicly known example of enterprise-wide agentic AI deployment exists</b> — every implementation stays within a single function or business unit. The piece diagnoses why and offers a framework for generating tangible ROI, relevant to anyone governing or sponsoring AI rollouts.",
+          "fresh": true,
+          "head": "Agent visibility scores are model-dependent, not just data-dependent",
+          "url": "https://agilebrandguide.com/agent-visibility-is-model-dependent/",
+          "plain": "Argues that brand visibility frameworks for agentic commerce treat the AI agent as a fixed variable when it is actually constantly changing. <b>A brand's discoverability score shifts with every model update</b>, meaning point-in-time audits can mislead strategy. This is a fundamental challenge for anyone building a GEO or agentic brand presence program.",
           "chips": [
+            "geo",
             "agentic",
-            "govern",
-            "decis",
-            "cep"
+            "govern"
           ]
         }
       ]
@@ -163,19 +187,19 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Agentic AI's <em>Reality Gap</em>",
+          "head": "Agentic AI's <em>real-world friction</em> is exposing the gap between hype and ROI",
           "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
           "body": [
-            "The promise of autonomous AI agents doing marketing work is colliding with messy organizational reality. Salesforce's public stumbles are the clearest signal yet that deploying agentic AI at enterprise scale surfaces problems — data silos, unclear accountability, brittle integrations — that no vendor roadmap anticipated.",
-            "<b>The decision that changes</b>: buying an agentic AI platform is no longer primarily a technology choice; it is a process-redesign commitment. Teams that skip the process work will spend the next year debugging autonomous failures rather than harvesting autonomous wins."
+            "Salesforce's public struggles with agentic AI are not an isolated vendor story — they reflect a systemic mismatch between how autonomous agents are sold and how they actually behave inside marketing workflows. <b>Agents fail unpredictably, and the failure modes are often invisible to the teams deploying them.</b>",
+            "Analysts and practitioners are now pushing past the launch-day demos to ask harder ROI questions. The advice converging across sources is to start with tightly scoped, measurable tasks rather than broad automation promises — because diffuse deployments produce diffuse accountability &amp; diffuse results."
           ],
           "ev": [
             [
-              "MarTech · Salesforce agentic woes",
+              "MarTech · Salesforce agentic problems",
               "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/"
             ],
             [
-              "Agile Brand · Beyond agentic hype &amp; ROI",
+              "Agile Brand · Beyond agentic hype &amp; real ROI",
               "https://agilebrandguide.com/looking-beyond-the-hype-of-agentic-ai-how-businesses-can-generate-real-roi-from-their-ai-investments/"
             ],
             [
@@ -186,11 +210,11 @@
         },
         {
           "num": "Theme 02",
-          "head": "<em>Content Parity</em> Kills the Moat",
+          "head": "<em>Content as commodity</em>: differentiation has moved upstream",
           "url": "https://martech.org/your-content-isnt-your-competitive-advantage-anymore/",
           "body": [
-            "When every brand can produce polished copy, images, and video with a single prompt or one uploaded photo, content quality stops being a differentiator. The Scribewise research finding that 91% of marketers claim an AI search strategy — yet most are barely started — reinforces that <b>volume and format are now table stakes, not edges</b>.",
-            "The implication for budget holders is stark: shifting spend toward distribution, audience data, and human creative direction will matter more than incremental content production tools. The question is no longer 'can we make enough content?' but 'what makes ours worth choosing?'"
+            "When any brand can generate polished copy, images, and video at near-zero cost, <b>the content artifact itself stops being the moat</b>. The new competitive surface is the proprietary data, lived customer relationships, and editorial judgment that sit behind the content — things AI tools cannot replicate from a prompt.",
+            "This shifts strategy decisions: budget and talent should flow toward first-party data collection, distinctive brand voice governance, and human CX moments rather than toward volume production. The marketers who treat AI as a production shortcut without investing in those upstream assets are building on sand."
           ],
           "ev": [
             [
@@ -198,22 +222,45 @@
               "https://martech.org/your-content-isnt-your-competitive-advantage-anymore/"
             ],
             [
-              "MarTech Series · 91% claim AI search strategy",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-research-from-scribewise-and-scrunch-finds-91-of-marketers-claim-an-ai-search-strategy-but-most-are-only-scratching-the-surface/"
+              "Agile Brand · Human edge in automated CX",
+              "https://agilebrandguide.com/expert-mode-what-your-competitors-cant-buy-rachel-orston-on-the-human-edge-in-an-automated-cx/"
             ],
             [
-              "MarTech Series · PixPix one-image e-commerce workflow",
-              "https://martechseries.com/content/pixpix-introduces-one-image-workflow-for-complete-e-commerce-visual-content/"
+              "MarTech · SaaS can't compete on software alone",
+              "https://martech.org/saas-can-no-longer-compete-on-software-alone/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The <em>Data Infrastructure</em> Bottleneck",
+          "head": "AI search strategy is <em>widely claimed, rarely real</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-research-from-scribewise-and-scrunch-finds-91-of-marketers-claim-an-ai-search-strategy-but-most-are-only-scratching-the-surface/",
+          "body": [
+            "New research finds 91% of marketers say they have an AI search strategy, yet most are doing little more than sprinkling keywords into existing content. <b>Agent visibility is also model-dependent</b> — a brand that surfaces well in one LLM's answers may be invisible in another's, a dynamic most teams have not yet mapped.",
+            "The practical decision this forces: treat AI search as a distinct channel requiring its own content architecture, structured data, and citation-building strategy — not a bolt-on to legacy SEO. Teams that conflate the two will underperform in an environment where AI-mediated discovery is already the default for millions of queries."
+          ],
+          "ev": [
+            [
+              "MarTech Series · 91% claim AI search strategy",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/new-research-from-scribewise-and-scrunch-finds-91-of-marketers-claim-an-ai-search-strategy-but-most-are-only-scratching-the-surface/"
+            ],
+            [
+              "Agile Brand · Agent visibility is model-dependent",
+              "https://agilebrandguide.com/agent-visibility-is-model-dependent/"
+            ],
+            [
+              "MarTech · Look past AI to see where martech is going",
+              "https://martech.org/look-past-ai-to-see-where-martech-is-going/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "<em>Data infrastructure debt</em> is the real blocker to AI-powered marketing",
           "url": "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/",
           "body": [
-            "AI adoption has hit 90% at the tool level, but the underlying data infrastructure most stacks run on was never designed for machine learning pipelines. Fragmented 'Frankenstacks' — layers of point solutions stitched together over years — are the structural reason AI investments underdeliver, and vendors like Creatio are now explicitly targeting that complexity as their market.",
-            "<b>For planners</b>: the ROI ceiling on any AI initiative is set by data readiness, not model capability. Auditing data quality, labeling pipelines, and integration architecture before the next AI purchase is no longer optional hygiene — it is the primary lever."
+            "Across the month, a consistent sub-theme emerged: <b>AI ambitions routinely collide with fragmented, poorly governed data stacks</b>. The 'enterprise Frankenstack' — dozens of loosely connected point solutions — means that even well-funded teams cannot feed AI tools clean, timely, unified data.",
+            "Vendors like Creatio are explicitly positioning against this complexity, and the analyst conversation around paid media ROI points to the same root cause — underinvestment in measurement &amp; data infrastructure, not in media spend itself. Until data debt is addressed, AI layers on top produce unreliable outputs and erode trust in the entire stack."
           ],
           "ev": [
             [
@@ -221,63 +268,40 @@
               "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/"
             ],
             [
-              "MarTech · Creatio vs. enterprise Frankenstack",
+              "MarTech · Creatio vs enterprise Frankenstack",
               "https://martech.org/creatio-takes-aim-at-the-enterprise-frankenstack/"
             ],
             [
-              "MarTech · AI adoption paths diverge",
-              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "Measurement &amp; the <em>Spend-Performance Confusion</em>",
-          "url": "https://martech.org/dont-confuse-ad-spend-with-marketing-performance/",
-          "body": [
-            "Two separate pieces this month converged on the same uncomfortable finding: marketers know which activities improve paid media ROI but systematically underinvest in them, and they routinely conflate rising ad spend with rising marketing performance. <b>AI has accelerated the problem</b> by making it easier to pour budget into automated bidding without interrogating whether the underlying signal is sound.",
-            "The corrective is a measurement-first posture — defining what 'performance' means before allocating budget, not after. That means investing in incrementality testing, media mix modeling, and creative analytics even when they slow down the deployment of shiny new AI features."
-          ],
-          "ev": [
-            [
-              "MarTech · Don't confuse ad spend with performance",
-              "https://martech.org/dont-confuse-ad-spend-with-marketing-performance/"
-            ],
-            [
-              "MarTech · Underinvestment in paid media ROI drivers",
+              "MarTech · Paid media ROI &amp; underinvestment",
               "https://martech.org/marketers-know-what-improves-paid-media-roi-but-underinvest-in-it/"
-            ],
-            [
-              "Agile Brand · AI &amp; technology statistics 2026",
-              "https://agilebrandguide.com/ai-technology-statistics/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "The <em>Human-Skill Deficit</em> Accelerating Under AI",
+          "head": "The <em>talent &amp; skill vacuum</em> AI adoption is quietly creating",
           "url": "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/",
           "body": [
-            "If AI handles execution — drafting, segmenting, optimizing — junior marketers never develop the judgment those tasks used to build. The field is beginning to reckon with a skills pipeline problem: <b>who trains the next generation of strategists when the apprenticeship work has been automated away?</b> The generational divide in AI adoption compounds this, as adoption patterns differ sharply by age cohort and experience level.",
-            "This is a strategic workforce risk, not just an HR footnote. Brands that treat AI purely as a headcount reduction tool are quietly eroding the institutional knowledge needed to supervise, correct, and improve the AI itself — creating a dependency that grows more fragile over time."
+            "With AI absorbing the repetitive execution tasks that used to train junior marketers, organizations face a structural problem: <b>the apprenticeship pathway into senior judgment is eroding faster than new training models are being built</b>. By the time teams realize the skill gap, the experienced practitioners who could close it will have moved on.",
+            "This is not a distant HR problem — it surfaces now in AI vendor evaluation, where teams lack the domain expertise to interrogate model outputs or ask the right due-diligence questions before signing contracts. <b>Investing in structured human skill development alongside AI adoption</b> is becoming a strategic necessity, not an optional culture initiative."
           ],
           "ev": [
             [
-              "MarTech · Who trains tomorrow's marketers?",
+              "MarTech · Who trains tomorrow's marketers",
               "https://martech.org/who-trains-tomorrows-marketers-if-ai-does-the-work/"
             ],
             [
-              "Agile Brand · Generational divide in AI adoption",
-              "https://agilebrandguide.com/shift-navigating-the-generational-divide-in-ai-adoption-strategic-imperatives-for-enterprise-cx-and-marketing/"
+              "MarTech · 5 questions to ask AI vendors",
+              "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/"
             ],
             [
-              "Agile Brand · Human edge in automated CX",
-              "https://agilebrandguide.com/expert-mode-what-your-competitors-cant-buy-rachel-orston-on-the-human-edge-in-an-automated-cx/"
+              "MarTech · AI adoption hits 90% as CX paths diverge",
+              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the pattern is the same: <em>AI is exposing the weaknesses that were always there</em> — in data infrastructure, measurement discipline, content strategy, and human skill development — and the marketers who thrive will be those who use the AI moment to fix the foundations, not paper over them."
+      "takeaway": "The month's news converges on a single uncomfortable truth: <em>AI adoption is outpacing the data quality, strategic clarity, and human expertise needed to make it work</em> — and the gap is widening fastest where the hype is loudest."
     }
   }
 }
