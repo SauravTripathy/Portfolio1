@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:45:01.916092+00:00",
+  "generatedAt": "2026-07-21T15:20:33.902219+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,67 +45,66 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Agentic marketing decisions demand permanent accountability records, not just model capability",
-          "url": "https://agilebrandguide.com/agents-move-quickly-but-your-accountability-is-permanent-martech-futurist-july-18-2026/",
-          "plain": "Marketing agents are now executing budget, targeting, and messaging decisions before humans review them. This piece argues the real ceiling on automation is not model capability but <b>organizational accountability infrastructure</b> — audit trails and hard boundaries around what agents can touch. A practical governance frame every MarTech buyer and builder needs right now.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Stop buying AI and start buying capabilities",
+          "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
+          "plain": "A four-part framework strips the \"AI-powered\" label from vendor pitches and forces buyers to ask what a product actually does. This matters because <b>martech procurement decisions</b> are increasingly made on buzzwords alone; a structured evaluation method helps teams compare real capabilities rather than marketing claims.",
           "chips": [
-            "agentic",
             "govern",
-            "decis"
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Generative AI enables continuously self-updating audience segments beyond dynamic segmentation",
-          "url": "https://martechseries.com/mts-insights/guest-authors/beyond-dynamic-segmentation-what-generative-audiences-make-possible-for-marketers/",
-          "plain": "Traditional and even dynamic segments are built and refreshed on human schedules. <b>Generative audiences</b> use AI to rebuild segment membership in real time as behavior changes. This shifts how CDPs are used and how personalization is triggered, making audience definition a continuous AI task rather than a periodic human one.",
+          "head": "What CMOs should be doing about AI right now",
+          "url": "https://martech.org/what-cmos-should-be-doing-about-ai-right-now/",
+          "plain": "Practical guidance for marketing leaders on building <b>AI literacy across teams</b>, restructuring workflows, and governing AI-driven change before it outpaces the organisation. Relevant to anyone helping a marketing department decide where and how to adopt AI tools responsibly.",
+          "chips": [
+            "govern",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Your best practices may already be outdated",
+          "url": "https://martech.org/your-best-practices-may-already-be-outdated/",
+          "plain": "AI is quietly invalidating long-held marketing assumptions — from audience segmentation to content cadence. The piece challenges practitioners to audit inherited playbooks against <b>AI-reshaped buyer behaviour</b>, making it a useful prompt for teams still running pre-2024 strategies.",
           "chips": [
             "genai",
-            "cdp",
             "perso",
             "decis"
           ]
         },
         {
-          "num": "03",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "Traffic drops may be AI click theft, not content failure — here is how to tell",
-          "url": "https://martech.org/before-you-refresh-that-page-run-this-test/",
-          "plain": "When organic traffic falls, most teams assume a ranking problem and start rewriting content. This guide separates four distinct causes — ranking loss, <b>AI-answer click diversion</b>, intent shift, and declining demand — and prescribes a different fix for each. Directly relevant to any team managing search visibility in a world of AI-generated answers.",
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Microsoft and Mistral expand partnership for enterprise AI in regulated industries",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+          "plain": "Microsoft commits compute to Mistral's European expansion and will offer Mistral models — including <b>fully disconnected deployment options</b> — across its AI platform. For regulated-industry marketers, this opens a path to frontier generative AI without sending data to US clouds, directly affecting how AI is bought and governed.",
           "chips": [
-            "geo",
+            "genai",
             "govern"
           ]
         },
         {
-          "num": "04",
+          "num": "05",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Malachyte brings cold-start personalization to e-commerce search and product carousels",
-          "url": "https://agilebrandguide.com/one-amazing-thing-about-malachyte-with-sidd-motwani-and-di-lynholm/",
-          "plain": "Most personalization engines fail for new or anonymous visitors because there is no history to learn from. Malachyte claims to solve the <b>cold-start problem</b> for e-commerce by continuously adapting search results and product carousels even without prior user data, which is a meaningful architectural distinction for merchandising teams evaluating personalization platforms.",
+          "head": "OpenAI captures 24.6% of AI citations; CTM adds OpenAI Ads attribution",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-21-2026/",
+          "plain": "A 5W study finds <b>OpenAI answers now account for nearly a quarter of all AI-generated citations</b>, raising the stakes for generative engine optimisation. The parallel news that CallTrackingMetrics has added OpenAI Ads attribution signals that measuring AI-driven traffic is becoming a standard martech requirement.",
           "chips": [
-            "perso",
-            "bandit",
-            "cep"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "Unlocking enterprise AI requires unified workflows, not isolated assistants",
-          "url": "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/",
-          "plain": "Standalone AI copilots sitting outside core workflows create extra steps and hidden costs. This piece makes the case that <b>workflow-integrated AI</b> — where models act inside the tools teams already use — is where real operational value is unlocked. Relevant to anyone evaluating how to build or buy enterprise AI that actually changes daily work.",
-          "chips": [
-            "agentic",
-            "govern",
-            "cep"
+            "geo",
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -115,68 +114,67 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Salesforce's Agentforce struggles reveal enterprise agentic AI readiness gap",
-          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
-          "plain": "Slow uptake of Salesforce Agentforce is being traced back to <b>poor data quality and weak operational readiness</b>, not model capability. This matters because it reframes agentic AI as an infrastructure problem first — meaning buyers and builders must fix their data foundations before any agent can act reliably at scale.",
+          "fresh": true,
+          "head": "Stop buying AI and start buying capabilities",
+          "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
+          "plain": "The article argues that <b>\"AI-powered\" is a meaningless label</b> that obscures what a product actually does, and offers a four-part framework for evaluating vendor claims on concrete capabilities instead. This directly changes how marketing teams should approach procurement decisions — a practical tool for buyers navigating an oversaturated market.",
           "chips": [
-            "agentic",
-            "cdp",
             "govern",
-            "decis"
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Marketing agents are executing decisions before humans review them — accountability must catch up",
+          "head": "Agents move quickly, but your accountability is permanent",
           "url": "https://agilebrandguide.com/agents-move-quickly-but-your-accountability-is-permanent-martech-futurist-july-18-2026/",
-          "plain": "Agentic systems are now autonomously spending budgets, selecting targets, and sending messages. The author argues <b>the limiting factor is no longer model capability but audit trails and hard guardrails</b> — making governance the decisive purchase criterion for any marketing team deploying agents in 2026.",
+          "plain": "Marketing agents are now <b>executing decisions on budgets, targeting, and messaging before any human reviews them</b>. The piece argues that the real ceiling on agentic AI adoption is not model capability but the organization's ability to log actions and set hard boundaries — a governance argument every marketing leader needs to hear.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Generative audiences replace static segments with continuously updated, AI-built cohorts",
-          "url": "https://martechseries.com/mts-insights/guest-authors/beyond-dynamic-segmentation-what-generative-audiences-make-possible-for-marketers/",
-          "plain": "The piece explains how <b>generative AI can rebuild audience segments in real time</b> rather than on a fixed schedule, eliminating the lag that makes traditional segmentation stale. For anyone buying or building a CDP or CEP, this signals a shift in what 'audience management' will mean going forward.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Salesforce's Agentforce stumbles reveal marketing's agentic AI readiness gap",
+          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
+          "plain": "Slow adoption of Salesforce Agentforce is being traced to <b>poor data quality and operational unreadiness</b>, not feature gaps. This is a concrete, high-profile example showing why enterprises can't just buy agentic AI — they have to fix the data and process foundations first, which reshapes how AI is built and governed.",
           "chips": [
-            "genai",
+            "agentic",
             "cdp",
-            "perso",
-            "decis"
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Brand visibility in AI answers is model-dependent — scoring frameworks need rethinking",
+          "fresh": true,
+          "head": "Agent visibility scores are model-dependent, not fixed metrics",
           "url": "https://agilebrandguide.com/agent-visibility-is-model-dependent/",
-          "plain": "A brand's visibility inside AI-generated answers changes depending on which model answers the query — meaning <b>GEO scores measured against one model can be misleading</b>. Marketers optimizing for agentic commerce need to test across multiple models and treat visibility as a moving target, not a fixed metric.",
+          "plain": "A brand's ability to be found and recommended by AI agents <b>varies significantly depending on which model the agent runs</b> and when. This challenges the assumption that GEO scores are stable, meaning marketers must test visibility across multiple models continuously — a structural change to how brand discoverability is measured.",
           "chips": [
             "geo",
-            "agentic"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
           "fresh": false,
-          "head": "Creatio launches unified platform to replace disconnected enterprise martech stacks",
-          "url": "https://martech.org/creatio-takes-aim-at-the-enterprise-frankenstack/",
-          "plain": "Creatio is combining CRM, AI agents, and workflow automation into one environment aimed at replacing the patchwork of point solutions that plague enterprise marketing teams. This is a direct play on <b>stack consolidation</b>, a trend reshaping how martech is bought and governed — and a signal of where platform competition is heading.",
+          "head": "Why AI-ready data infrastructure is so hard to build",
+          "url": "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/",
+          "plain": "Many companies stall trying to perfect all their data before deploying AI, but research suggests <b>starting with one high-value problem works better</b>. The article reframes data infrastructure as an iterative AI prerequisite rather than a one-time project — practical guidance that shapes how marketing AI gets built and prioritized.",
           "chips": [
+            "cdp",
+            "genai",
             "agentic",
-            "cep",
-            "govern",
-            "cdp"
+            "govern"
           ]
         }
       ]
@@ -186,11 +184,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Agentic AI's <em>accountability gap</em> is the real deployment risk",
+          "head": "Agentic AI is <em>outpacing accountability</em>",
           "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
           "body": [
-            "AI agents are moving faster than the governance structures meant to control them. Salesforce's public struggles with its agentic layer are a bellwether: when autonomous systems make decisions at scale, <b>the brand — not the model — owns the consequences</b>.",
-            "Analysts and practitioners are converging on the same warning: agent visibility varies by the underlying model, and most marketing teams have no audit trail for what an agent decided or why. The practical upshot is that deployment speed must be matched by accountability architecture, not assumed away."
+            "AI agents are being deployed faster than the governance frameworks needed to manage them. Salesforce's public stumbles signal that even mature enterprise platforms are struggling to make agentic systems predictable and auditable at scale.",
+            "The warning is clear: <b>speed of deployment is not the same as readiness</b>. Marketers who move agents into production workflows without accountability structures — who approves an action, who owns an error — are taking on liability that no vendor will absorb for them."
           ],
           "ev": [
             [
@@ -209,34 +207,34 @@
         },
         {
           "num": "Theme 02",
-          "head": "Stack <em>consolidation over expansion</em> defines the new buying logic",
-          "url": "https://martech.org/creatio-takes-aim-at-the-enterprise-frankenstack/",
+          "head": "Buy <em>capabilities, not AI</em> labels",
+          "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
           "body": [
-            "The era of adding point solutions is giving way to deliberate consolidation. Creatio's attack on the enterprise 'Frankenstack,' Tegus cutting conversation-intelligence spend 50% by folding tools into ZoomInfo, and the broader push for <b>unified workflows</b> all signal that sprawl is now a liability, not a feature.",
-            "For decision-makers, this reframes the buy vs. build question: the priority is reducing integration debt so AI can actually operate across clean, connected data — not layering another vendor on a fragmented foundation."
+            "Vendors are slapping 'AI' on every feature, making it nearly impossible for buyers to compare real value. The emerging discipline is to evaluate what a tool actually <b>enables a team to do</b> — specific, measurable capabilities — rather than the model or marketing claim behind it.",
+            "This reframe changes the procurement conversation entirely. CMOs are being urged to retire best-practice playbooks that were written before generative AI existed and to challenge every existing contract on outcome metrics, not feature checklists."
           ],
           "ev": [
             [
-              "MarTech · Creatio vs. Frankenstack",
-              "https://martech.org/creatio-takes-aim-at-the-enterprise-frankenstack/"
+              "MarTech · stop buying AI",
+              "https://martech.org/stop-buying-ai-and-start-buying-capabilities/"
             ],
             [
-              "MarTech · unified workflows",
-              "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/"
+              "MarTech · best practices outdated",
+              "https://martech.org/your-best-practices-may-already-be-outdated/"
             ],
             [
-              "MarTech Series · Tegus 50% cost cut",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/tegus-cuts-conversation-intelligence-spend-50-by-consolidating-its-tech-stack-with-zoominfo/"
+              "MarTech · what CMOs should do now",
+              "https://martech.org/what-cmos-should-be-doing-about-ai-right-now/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI-ready <em>data infrastructure</em> is still the unsolved prerequisite",
+          "head": "The <em>data infrastructure gap</em> blocks enterprise AI",
           "url": "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/",
           "body": [
-            "AI adoption has hit 90% in CX contexts, yet outcomes diverge sharply — and the divergence traces almost entirely to data readiness, not model quality. <b>Fragmented, siloed, or ungovernanced data makes even the best AI layer unreliable</b>, turning investment into noise.",
-            "The month's coverage makes clear that infrastructure is the unglamorous constraint no amount of new tooling bypasses. Teams that have invested in clean pipelines, unified identifiers, and governed data environments are pulling ahead; everyone else is re-learning the same lesson at higher cost."
+            "AI adoption in marketing keeps stalling not because the models are inadequate but because the <b>underlying data is fragmented, siloed, or ungoverned</b>. Building AI-ready infrastructure requires unified workflows and clean data pipelines — work most enterprises haven't finished.",
+            "Vendors are responding: Creatio is targeting the 'Frankenstack' of disconnected tools, and Microsoft-Mistral is pitching controllable frontier AI for regulated industries. But integration debt is real, and no platform acquisition resolves it overnight."
           ],
           "ev": [
             [
@@ -244,63 +242,63 @@
               "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/"
             ],
             [
-              "MarTech · AI adoption paths diverge",
-              "https://martech.org/ai-adoption-hits-90-as-cx-deployment-paths-diverge/"
+              "MarTech · unified workflows",
+              "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/"
             ],
             [
-              "MarTech · AI challenge beyond adoption",
-              "https://martech.org/marketings-ai-challenge-goes-beyond-adoption/"
+              "MarTech · Creatio vs Frankenstack",
+              "https://martech.org/creatio-takes-aim-at-the-enterprise-frankenstack/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Generative audiences &amp; <em>agentic commerce</em> redraw targeting logic",
-          "url": "https://martechseries.com/mts-insights/guest-authors/beyond-dynamic-segmentation-what-generative-audiences-make-possible-for-marketers/",
+          "head": "<em>Agentic commerce</em> redraws the buyer journey",
+          "url": "https://agilebrandguide.com/expert-mode-beyond-the-search-box-the-new-era-of-agentic-commerce/",
           "body": [
-            "Segmentation is shifting from rule-based buckets to generative, intent-derived audiences that can be synthesised on demand — a fundamental change in how marketers define who they are talking to and when. Simultaneously, AI agents are beginning to <b>perform commerce acts autonomously</b>, bypassing traditional search and discovery paths entirely.",
-            "Together these developments mean the funnel is no longer a human-navigated sequence. Marketers must now optimise for agent-mediated journeys where the 'customer' making the first touchpoint decision may itself be software."
+            "AI agents are beginning to shop, research, and negotiate on behalf of consumers, bypassing traditional search and discovery channels. This means <b>brand visibility is becoming model-dependent</b> — if an agent's underlying model doesn't surface your product, you simply don't exist in that purchase path.",
+            "B2B buying is equally affected. TrustRadius data shows a widening disconnect between how vendors market and how buyers actually evaluate; trust signals and peer validation now matter more than ever when the first 'reader' of your content may be an AI agent filtering options."
           ],
           "ev": [
-            [
-              "MarTech Series · generative audiences",
-              "https://martechseries.com/mts-insights/guest-authors/beyond-dynamic-segmentation-what-generative-audiences-make-possible-for-marketers/"
-            ],
             [
               "Agile Brand · agentic commerce era",
               "https://agilebrandguide.com/expert-mode-beyond-the-search-box-the-new-era-of-agentic-commerce/"
             ],
             [
-              "Agile Brand · AI &amp; tech stats 2026",
-              "https://agilebrandguide.com/ai-technology-statistics/"
+              "Agile Brand · agent visibility model-dependent",
+              "https://agilebrandguide.com/agent-visibility-is-model-dependent/"
+            ],
+            [
+              "Agile Brand · B2B buying disconnect",
+              "https://agilebrandguide.com/trustradius-bridging-the-b2b-buying-disconnect-ai-trust-and-go-to-market-strategies-for-2026/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Content &amp; <em>measurement rigour</em> replace volume as competitive edges",
-          "url": "https://martech.org/your-content-isnt-your-competitive-advantage-anymore/",
+          "head": "AI democratises <em>audience intelligence &amp; measurement</em>",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/nexxen-and-acxiom-deepen-partnership-expanding-omnichannel-audience-intelligence-offering/",
           "body": [
-            "When AI can generate content at commodity cost, <b>volume is no longer a moat</b> — and the same logic is forcing rigor onto measurement. The month surfaced repeated calls to run proper incrementality tests for CTV and paid media rather than relying on last-click proxies, and to pressure-test vendor claims before signing.",
-            "The strategic shift is from producing more to proving more: teams that instrument real causal measurement and tie spend to verified outcomes will differentiate, while those chasing AI-generated content scale without attribution infrastructure will find themselves with impressive dashboards and unclear ROI."
+            "Capabilities that once required enterprise data teams — omnichannel audience modelling, CTV incrementality testing, intent-based targeting — are being packaged into accessible, often affordable tools. The Nexxen-Acxiom expansion and sub-$10 AI CRMs for small businesses are two ends of the same trend: <b>precision marketing is no longer gated by budget alone</b>.",
+            "Yet access doesn't guarantee use. Marketers self-report knowing what improves paid media ROI but consistently underinvest in measurement infrastructure. The gap is now a strategic choice, not a capability constraint, and that shifts the blame — and the opportunity — squarely onto marketing leadership."
           ],
           "ev": [
             [
-              "MarTech · content no longer competitive advantage",
-              "https://martech.org/your-content-isnt-your-competitive-advantage-anymore/"
+              "MarTech Series · Nexxen-Acxiom omnichannel",
+              "https://martechseries.com/sales-marketing/programmatic-buying/nexxen-and-acxiom-deepen-partnership-expanding-omnichannel-audience-intelligence-offering/"
+            ],
+            [
+              "MarTech · paid media ROI underinvestment",
+              "https://martech.org/marketers-know-what-improves-paid-media-roi-but-underinvest-in-it/"
             ],
             [
               "MarTech · CTV incrementality testing",
               "https://martech.org/how-to-run-a-ctv-incrementality-test-and-why-most-fail/"
-            ],
-            [
-              "MarTech · 5 questions before buying AI",
-              "https://martech.org/5-questions-to-ask-ai-vendors-before-you-buy-anything/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of MarTech this month, the decisive advantage belongs to teams that <em>govern before they scale</em> — treating data integrity, accountability architecture, and causal measurement as prerequisites rather than afterthoughts to AI ambition."
+      "takeaway": "Across every layer of the stack, the decisive question has shifted from 'do you have AI?' to <em>whether your governance, data, and measurement foundations can actually support it</em>."
     }
   }
 }
