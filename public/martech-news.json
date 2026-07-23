@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:20:20.703600+00:00",
+  "generatedAt": "2026-07-23T07:46:56.356909+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,37 +45,36 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "HCLTech study: 90% of enterprises use GenAI/Agentic AI but only 18% see significant revenue impact",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-22-2026/",
-          "plain": "A global survey of 500 enterprise decision-makers shows AI adoption is nearly universal, yet <b>revenue impact remains rare</b> — only 18% call it significant. This gap between deployment and payoff is exactly the question buyers and budget-holders need answered before committing to new AI tools or platforms.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Your newest competitors aren't other brands — GEO and AI authority explained",
+          "url": "https://martech.org/your-newest-competitors-arent-other-brands/",
+          "plain": "AI systems are shaping buyer opinions <b>before people even visit a brand's website</b>, making visibility inside AI-generated answers a new competitive battleground. This piece explains how marketers must build authority across the sources AI trusts — a fundamental shift in how brand discovery and consideration work.",
           "chips": [
-            "agentic",
-            "genai",
-            "govern"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Bloomreach · via MarTech Series",
           "fresh": true,
-          "head": "Shoppable's universal checkout plugin launches in ChatGPT, enabling multi-retailer cart-building for 900M users",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/",
-          "plain": "Shoppable becomes the first commerce infrastructure provider inside the ChatGPT Plugin Directory, letting shoppers discover products and build carts from multiple retailers without leaving ChatGPT. This is a concrete example of <b>agentic AI becoming a purchase channel</b>, with real implications for how brands distribute and optimise their commerce presence.",
+          "head": "Bloomreach survey: 80% of shoppers say AI shopping experiences met or exceeded expectations",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/from-novelty-to-necessity-new-bloomreach-consumer-survey-finds-shoppers-now-prefer-ai-tools-to-shop/",
+          "plain": "A 4,000-person US/UK consumer survey finds <b>AI shopping tools have crossed from novelty to necessity</b>, with most respondents saying AI experiences already meet their expectations. This shifts the conversation for MarTech buyers: personalization AI is no longer a nice-to-have experiment — customers are actively choosing brands that offer it.",
           "chips": [
-            "agentic",
-            "geo",
-            "decis"
+            "perso",
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": true,
-          "head": "CDP 'silver layer' explained: why data unification — not just activation — determines ROI",
+          "fresh": false,
+          "head": "The missing layer behind customer data ROI: why CDPs struggle to unify fragmented data",
           "url": "https://martech.org/the-missing-layer-behind-customer-data-roi/",
-          "plain": "The article identifies a common failure mode in CDP deployments: platforms activate data well but <b>struggle to unify fragmented inputs</b> first. The 'silver layer' concept — a semantic, harmonised data tier sitting between raw ingestion and activation — is a practical framework for anyone evaluating or implementing a CDP.",
+          "plain": "Many CDPs are good at activating data but fail at the harder job of <b>unifying messy, fragmented customer records</b> — a gap called the 'silver layer.' This matters because poor unification means personalization and decisioning built on top of the CDP will act on bad data, undermining the entire stack.",
           "chips": [
             "cdp",
             "perso",
@@ -84,28 +83,27 @@
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "SeoSamba's ActionEko turns CRM signals into next-best actions via embedded agentic AI",
-          "url": "https://martechseries.com/sales-marketing/crm/seosamba-introduces-actioneko-an-agentic-business-worker-that-turns-customer-signals-into-next-best-actions/",
-          "plain": "ActionEko is an embedded AI agent that reads fragmented customer interactions across sales, marketing, and commerce, then <b>autonomously recommends and coordinates next-best actions</b> across teams. It shows how agentic decisioning is moving from concept to packaged CRM product, raising governance questions about who reviews AI-generated recommendations.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Is your website invisible to AI search? What brands need to fix now",
+          "url": "https://martech.org/is-your-website-invisible-to-ai-search/",
+          "plain": "AI crawlers read web content differently from traditional search bots, and many brand sites that look polished to humans are effectively <b>invisible to AI-powered search engines</b>. The article gives actionable fixes — directly relevant to any marketer whose budget includes organic discovery or content strategy.",
           "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "govern"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "RocketReach · via MarTech Series",
           "fresh": true,
-          "head": "Many brand websites are invisible to AI crawlers — practical fixes explained",
-          "url": "https://martech.org/is-your-website-invisible-to-ai-search/",
-          "plain": "AI-powered search engines crawl and interpret web content differently from traditional bots; sites that look fine to humans may be <b>structurally unreadable to AI answer engines</b>. The piece gives actionable guidance on markup, content structure, and crawlability — essential reading for anyone responsible for brand discoverability in AI-generated answers.",
+          "head": "RocketReach MCP Server gives AI assistants real-time access to 700M+ verified contacts",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rocketreach-launches-rocketreach-mcp-giving-ai-assistants-direct-access-to-700m-verified-contacts/",
+          "plain": "RocketReach is connecting its contact intelligence database directly to AI assistants like ChatGPT and Claude via the <b>Model Context Protocol (MCP)</b>, letting sales and marketing agents prospect in real time without leaving their AI workflow. This is an early example of how data vendors are rewiring themselves for an agentic AI stack.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "cdp",
+            "decis"
           ]
         }
       ]
@@ -114,66 +112,71 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "HCLTech study: 90% say AI transforms workflows, but only 18% see significant revenue impact",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-22-2026/",
-          "plain": "A global survey of 500 enterprise decision-makers finds <b>AI adoption is near-universal but revenue impact is rare</b>. Only 18% report meaningful returns, suggesting most organizations are running AI experiments rather than production systems. This gap between workflow transformation and commercial results is the central buying and governance question every marketing AI team now faces.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Salesforce's Agentforce adoption woes reveal marketing's agentic AI readiness gap",
+          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
+          "plain": "Slow uptake of Salesforce Agentforce shows that <b>poor data quality and operational unreadiness</b> are the real blockers to enterprise agentic AI — not the technology itself. This matters to buyers and builders alike: no amount of AI capability rescues a dirty, siloed data foundation, making this a governance and CDP story as much as an AI one.",
           "chips": [
             "agentic",
-            "genai",
-            "govern"
+            "cdp",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "Stop buying AI and start buying capabilities: a four-part vendor evaluation framework",
           "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
-          "plain": "The piece argues that <b>'AI-powered' is a marketing label, not a capability description</b>, and gives buyers a four-part framework to decode what a martech product actually does. Directly relevant to procurement decisions, it helps non-specialists cut through vendor superlatives and compare tools on concrete functional grounds rather than AI buzzwords.",
+          "plain": "The article argues that <b>'AI-powered' is a marketing label, not a specification</b>, and gives buyers a four-part framework to decode what a product actually does before signing a contract. For anyone new to MarTech procurement, this is a practical cheat-sheet for cutting through vendor noise and asking the right questions.",
           "chips": [
             "govern",
+            "agentic",
             "genai",
-            "agentic"
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "Bloomreach · via MarTech Series",
           "fresh": true,
-          "head": "Agents move quickly, but your accountability is permanent: governance limits on agentic marketing",
-          "url": "https://agilebrandguide.com/agents-move-quickly-but-your-accountability-is-permanent-martech-futurist-july-18-2026/",
-          "plain": "Marketing agents are now executing budget, targeting, and messaging decisions before any human reviews them. This analysis argues that <b>the ceiling on automation is no longer model capability — it is the organization's audit trail and action boundaries</b>. A clear-eyed read on why governance infrastructure must be built before, not after, agentic deployment.",
+          "head": "Bloomreach survey: 80% of shoppers say AI shopping experiences have met or exceeded expectations",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/from-novelty-to-necessity-new-bloomreach-consumer-survey-finds-shoppers-now-prefer-ai-tools-to-shop/",
+          "plain": "A 4,000-person U.S./U.K. survey finds <b>consumers now prefer AI-driven shopping tools</b> over traditional search and browsing, and adoption has flipped from novelty to routine in under a year. This shifts the business case for personalization investment from 'nice to have' to a competitive necessity that directly affects purchase behavior.",
           "chips": [
-            "agentic",
-            "decis",
-            "govern"
+            "perso",
+            "genai",
+            "cep",
+            "decis"
           ]
         },
         {
           "num": "04",
           "src": "MarTech",
-          "fresh": true,
-          "head": "The missing layer behind customer data ROI: why CDPs struggle to unify fragmented data",
-          "url": "https://martech.org/the-missing-layer-behind-customer-data-roi/",
-          "plain": "Many CDPs activate data well but fail at the upstream step of unifying it. The article identifies a <b>'silver layer' of data harmonization</b> as the deciding factor in whether a CDP delivers on its promise. Relevant to anyone evaluating or re-assessing their customer data stack, especially as personalization and agentic use cases demand cleaner inputs.",
+          "fresh": false,
+          "head": "Is your website invisible to AI search? What brands must do about AI crawlers",
+          "url": "https://martech.org/is-your-website-invisible-to-ai-search/",
+          "plain": "Many brand sites that look fine in a browser appear as empty pages to <b>AI crawlers powering generative search answers</b>. The piece explains the technical gaps — missing structured data, JavaScript rendering issues — and what to fix. For marketers, being invisible to AI answers means losing buyers before they ever visit your site.",
           "chips": [
-            "cdp",
-            "perso",
+            "geo",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
-          "fresh": true,
-          "head": "Your newest competitors aren't other brands — AI shapes buyer opinions before they reach your site",
-          "url": "https://martech.org/your-newest-competitors-arent-other-brands/",
-          "plain": "AI answer engines now form purchase opinions before a buyer visits any brand website, making <b>visibility inside AI-generated responses a new competitive battleground</b>. The piece explains how to build authority across the sources AI systems trust, framing GEO not as an SEO add-on but as a fundamental shift in how brands must be discovered.",
+          "fresh": false,
+          "head": "The missing layer behind customer data ROI: why CDPs struggle with fragmented data unification",
+          "url": "https://martech.org/the-missing-layer-behind-customer-data-roi/",
+          "plain": "CDPs are good at activating data but frequently fail at the harder job of <b>unifying fragmented customer records</b> before activation. The article identifies a 'silver layer' of data preparation that determines whether a CDP actually pays off — a foundational concept for anyone evaluating or implementing a customer data stack.",
           "chips": [
-            "geo",
-            "genai"
+            "cdp",
+            "govern",
+            "perso",
+            "decis"
           ]
         }
       ]
@@ -183,121 +186,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Answers Are Your <em>New Search Competitors</em>",
-          "url": "https://martech.org/your-newest-competitors-arent-other-brands/",
+          "head": "AI Agents Need <em>Live Data Pipelines</em> to Act",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guideline-launches-its-ad-intelligence-mcp-server-to-power-ai-agents-with-its-leading-global-advertising-data/",
           "body": [
-            "The traditional SERP battlefield has shifted: brands now compete against AI-generated answer summaries that never send a click. Multiple new audit tools launched this month — GEO scorecards, AI-visibility frameworks, SEO &amp; AI audit suites — signal that <b>measuring your presence inside AI responses</b> is becoming a basic marketing hygiene task, not an experimental project.",
-            "The strategic decision this forces is real: optimize content for human readers on your site, or restructure it so AI engines cite and surface it in zero-click answers. <b>Both goals require different architectures</b>, and most teams have not yet chosen, let alone acted."
+            "A cluster of launches this month — RocketReach MCP giving agents access to 700M+ contacts, Guideline's Ad Intelligence MCP Server, and the broader Model Context Protocol wave — signals that <b>AI agents are only as useful as the real-time data they can reach</b>. The bottleneck is no longer the model; it is the structured, permissioned feed connecting the model to live business data.",
+            "For marketing and revenue teams, this means the next procurement decision isn't 'which AI tool?' but 'which data connectors does it support?' <b>MCP-compatible data sources are becoming the new integration standard</b>, and vendors without them risk being bypassed entirely by agentic workflows."
           ],
           "ev": [
             [
-              "MarTech · Is your website invisible to AI search?",
-              "https://martech.org/is-your-website-invisible-to-ai-search/"
+              "MarTech Series · RocketReach MCP launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rocketreach-launches-rocketreach-mcp-giving-ai-assistants-direct-access-to-700m-verified-contacts/"
             ],
             [
-              "MarTech Series · OMNI 360 AI Visibility Framework",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omni-channel-solutions-launches-omni-360-an-ai-visibility-framework-that-helps-brands-measure-and-improve-ai-discovery/"
+              "MarTech Series · Guideline Ad Intelligence MCP",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guideline-launches-its-ad-intelligence-mcp-server-to-power-ai-agents-with-its-leading-global-advertising-data/"
             ],
             [
-              "MarTech Series · Grow Predictably GEO Audit Tool",
-              "https://martechseries.com/sales-marketing/grow-predictably-launches-free-geo-audit-tool-to-score-ai-search-visibility/"
+              "MarTech · AI-ready data infrastructure",
+              "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic AI</em> Hits the Accountability Wall",
-          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
+          "head": "The <em>Experimentation-to-Transformation Gap</em> Is Widening",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/building-the-ai-native-enterprise-west-monroe-research-reveals-growing-divide-between-ai-experimentation-and-enterprise-transformation/",
           "body": [
-            "Autonomous AI agents that act on customer signals without human review are now shipping inside mainstream martech — yet Salesforce's publicized stumbles and a wave of commentary this month exposed a hard truth: <b>agents move faster than the governance structures around them</b>. The gap between what agents can do and what teams can audit is widening.",
-            "The practical implication is that buying an agentic platform is not the same as having an agentic capability. Marketers are being pushed to <b>define accountability frameworks before deployment</b>, not after — a reversal of the 'ship fast, fix later' instinct that drove earlier AI adoption waves."
+            "West Monroe research and multiple MarTech editorials converge on the same uncomfortable finding: <b>most enterprises are running dozens of AI pilots but transforming nothing</b>. The divide between teams that have integrated AI into core workflows and those still experimenting is growing faster than the tools are improving.",
+            "The practical implication is that <b>buying more AI licenses does not close the gap</b> — MarTech's 'stop buying AI, start buying capabilities' framing makes this explicit. CMOs and CIOs need a capability-acquisition strategy, not a vendor-collection strategy, or the investment stays stuck in proof-of-concept forever."
           ],
           "ev": [
             [
-              "MarTech · Salesforce's woes underline agentic AI problems",
-              "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/"
+              "MarTech Series · West Monroe research",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/building-the-ai-native-enterprise-west-monroe-research-reveals-growing-divide-between-ai-experimentation-and-enterprise-transformation/"
             ],
             [
-              "Agile Brand · Agents move quickly, accountability is permanent",
-              "https://agilebrandguide.com/agents-move-quickly-but-your-accountability-is-permanent-martech-futurist-july-18-2026/"
-            ],
-            [
-              "MarTech · Stop buying AI, start buying capabilities",
+              "MarTech · Stop buying AI",
               "https://martech.org/stop-buying-ai-and-start-buying-capabilities/"
+            ],
+            [
+              "MarTech · What CMOs should do now",
+              "https://martech.org/what-cmos-should-be-doing-about-ai-right-now/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The <em>Data Infrastructure Gap</em> Is Blocking AI ROI",
-          "url": "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/",
+          "head": "AI Search Is <em>Rewriting Competitive Sets</em>",
+          "url": "https://martech.org/your-newest-competitors-arent-other-brands/",
           "body": [
-            "Across enterprise and SMB coverage this month, one friction point keeps surfacing: AI tools are ready, but <b>the customer data underneath them is not</b>. Siloed systems, inconsistent identifiers, and missing activation layers mean most organizations are paying for AI capabilities they cannot fully run. The 'missing layer behind customer data ROI' framing captures a widespread operational reality.",
-            "Unified workflows and AI-ready infrastructure are emerging as the true prerequisites — not model selection or vendor choice. <b>The competitive gap is increasingly a data-architecture gap</b>, and teams that resolve it first will realize compounding returns while others are still debating platform features."
+            "Two MarTech pieces this month reframe brand competition in the AI era: your newest rivals are AI-generated answers and recommendation surfaces, not other brands in your category. <b>If your content isn't structured for AI retrieval, you are invisible to a growing share of purchase-intent queries</b> — the 'is your website invisible to AI search?' piece quantifies exactly that risk.",
+            "This forces an immediate strategic question about content architecture and structured data. <b>Brands optimised for legacy SEO may rank well on Google and be entirely absent from AI-mediated discovery</b>, which is already where Bloomreach's consumer survey shows shoppers prefer to start. The window to act before habits calcify is short."
           ],
           "ev": [
             [
-              "MarTech · Why AI-ready data infrastructure is so hard",
-              "https://martech.org/why-ai-ready-data-infrastructure-is-so-hard-to-build/"
+              "MarTech · Your newest competitors",
+              "https://martech.org/your-newest-competitors-arent-other-brands/"
             ],
             [
-              "MarTech · The missing layer behind customer data ROI",
-              "https://martech.org/the-missing-layer-behind-customer-data-roi/"
+              "MarTech · Invisible to AI search",
+              "https://martech.org/is-your-website-invisible-to-ai-search/"
             ],
             [
-              "MarTech · Unlocking enterprise AI through unified workflows",
-              "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/"
+              "MarTech Series · Shoppers prefer AI tools",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/from-novelty-to-necessity-new-bloomreach-consumer-survey-finds-shoppers-now-prefer-ai-tools-to-shop/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Commerce Is <em>Collapsing the Funnel</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/",
+          "head": "<em>Agentic AI in Production</em> Is Messier Than Promised",
+          "url": "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/",
           "body": [
-            "Shoppable's checkout plugin landing inside ChatGPT is a concrete signal that <b>the discovery-to-purchase journey is compressing into AI interfaces</b>. When a conversation can end in a completed transaction, every upstream marketing decision — copy, product data, pricing — must now be optimized for an AI intermediary, not just a browser.",
-            "This is not a distant scenario: it is live infrastructure this month. Brands that have not mapped <b>how their product catalog and checkout flow appear inside AI assistants</b> are already operating with a blind spot in their conversion funnel."
+            "Salesforce's publicised struggles with its agentic AI rollout became a case study the industry couldn't ignore. The MarTech analysis makes clear that <b>orchestrating autonomous agents inside real enterprise environments — with fragmented data, legacy permissions, and compliance constraints — is dramatically harder than demo conditions suggest</b>. redSling's launch of a 'sovereign' agentic platform signals that data-sovereignty and governance are now table-stakes requirements, not afterthoughts.",
+            "The unified-workflows piece reinforces the same lesson: <b>agents fail at the seams between systems, not within them</b>. Enterprises that haven't unified their underlying workflow layer before deploying agents will get agents that hallucinate at handoff points — a risk that erodes trust faster than any headline."
           ],
           "ev": [
             [
-              "MarTech Series · Shoppable checkout in ChatGPT",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/"
+              "MarTech · Salesforce agentic problems",
+              "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/"
             ],
             [
-              "MarTech · Your newest competitors aren't other brands",
-              "https://martech.org/your-newest-competitors-arent-other-brands/"
+              "MarTech · Unified workflows",
+              "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/"
             ],
             [
-              "Agile Brand · Onfire CEO on AI investments driving revenue",
-              "https://agilebrandguide.com/onfire-ceo-tal-peretz-on-vertical-ai-for-go-to-market-teams-the-agile-brand-podcast/"
+              "MarTech Series · redSling Zenith sovereign platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/redsling-unveils-zenith-a-sovereign-agentic-ai-assisted-development-platform-for-the-enterprise/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>AI-Generated Deception</em> as a Business Risk",
-          "url": "https://martechseries.com/video/red-points-launches-deepfake-protection-to-detect-and-take-down-ai-generated-videos-impersonating-public-figures/",
+          "head": "Human Judgment as the <em>Irreducible Differentiator</em>",
+          "url": "https://agilebrandguide.com/merge-ceo-stephanie-trunzo-on-keeping-essential-human-elements-during-your-ai-transformation/",
           "body": [
-            "Three distinct threat vectors crystallized in the same 30-day window: deepfake videos impersonating executives and public figures, AI-crafted phishing emails that bypass legacy filters, and AI-generated resumes flooding hiring pipelines. <b>Each attack surface is a direct byproduct of widely available generative AI</b>, and none was a primary concern for marketing or HR teams two years ago.",
-            "The business decision this creates is whether to treat AI-deception defense as a security budget line or a brand &amp; trust budget line — because the reputational damage of a convincing deepfake or a spoofed email campaign lands squarely on marketing. <b>Proactive detection is becoming a brand-protection function</b>, not just an IT one."
+            "Across practitioner commentary this month — MERGE CEO Stephanie Trunzo on human elements in transformation, the 'invisible customer experience' framing, and the value-migration piece — a counter-narrative to full automation is forming. <b>The highest-value marketing work is now defined by what AI cannot yet reliably do: contextual judgment, ethical framing, and relationship trust</b>. Marketers who cede those tasks lose their clearest point of differentiation.",
+            "This isn't a soft argument against automation; it is a resource-allocation signal. <b>As AI handles information retrieval and content assembly, human time should concentrate on insight synthesis and strategic decisions</b> — exactly the shift the Agile Brand's 'information to insight' piece argues is the core value migration marketers must master right now."
           ],
           "ev": [
             [
-              "MarTech Series · Red Points deepfake protection",
-              "https://martechseries.com/video/red-points-launches-deepfake-protection-to-detect-and-take-down-ai-generated-videos-impersonating-public-figures/"
+              "Agile Brand · MERGE CEO on human elements",
+              "https://agilebrandguide.com/merge-ceo-stephanie-trunzo-on-keeping-essential-human-elements-during-your-ai-transformation/"
             ],
             [
-              "MarTech Series · StrongestLayer AI-era email attacks",
-              "https://martechseries.com/content/email-mktg/strongestlayer-reaches-9-3m-in-total-seed-funding-to-stop-the-ai-era-email-attacks-legacy-defenses-cannot-see/"
+              "Agile Brand · Information to insight migration",
+              "https://agilebrandguide.com/from-information-to-insight-the-ai-fueled-value-migration-marketers-must-master-2/"
             ],
             [
-              "Agile Brand · Cadient AI-generated resume hiring crisis",
-              "https://agilebrandguide.com/cadient-report-reveals-rise-of-ai-generated-resumes-has-precipitated-new-hiring-verification-crisis/"
+              "Agile Brand · Best CX is invisible",
+              "https://agilebrandguide.com/why-the-best-customer-experience-may-be-the-one-they-dont-remember/"
             ]
           ]
         }
       ],
-      "takeaway": "The month's signal is that AI has moved from a tool marketers choose to adopt into <em>an infrastructure layer that is reshaping discovery, commerce, trust, and accountability whether marketers are ready or not</em>."
+      "takeaway": "The month's news collectively shows that <em>the real AI transformation barrier is no longer the model — it is the data plumbing, workflow integration, and human judgment layer that determines whether any of it compounds into durable competitive advantage</em>."
     }
   }
 }
