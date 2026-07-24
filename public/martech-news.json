@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T07:44:32.203279+00:00",
+  "generatedAt": "2026-07-24T15:12:16.635378+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,66 +45,70 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Zenity Labs Uncovers 'AgentForger' — A ChatGPT Workspace Agent Vulnerability That Let Attackers Hijack Employee Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/one-click-one-attacker-controlled-agentic-insider-zenity-labs-uncovers-agentforger-a-chatgpt-vulnerability/",
-          "plain": "A single phishing link could exploit OpenAI's ChatGPT Workspace Agents to create an <b>attacker-controlled AI agent</b> running with a real employee's permissions and safety controls disabled. OpenAI has now patched it, but the disclosure shows that <b>agentic AI governance gaps</b> are a live enterprise security risk — not a theoretical one — affecting any org using Workspace Agents.",
+          "head": "The real risk in agentic commerce: marketers lose pricing power and customer data to AI agents",
+          "url": "https://martech.org/the-real-risk-in-agentic-commerce/",
+          "plain": "As <b>AI agents increasingly handle product discovery and purchase decisions</b>, brands risk handing pricing control and customer relationships to platforms they don't own. The article argues that marketers must own the underlying data layer or face being commoditized. This is a structural warning about how agentic AI reshapes who controls the buyer-seller relationship.",
           "chips": [
             "agentic",
+            "decis",
+            "cdp",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech · via MarTech",
-          "fresh": false,
-          "head": "Semrush Study: Only 15% of ChatGPT Categories Have a Consistent Brand Leader",
-          "url": "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/",
-          "plain": "Semrush data shows <b>AI-answer brand visibility is highly unstable</b> — in 85% of product/service categories, no single brand consistently appears as the top recommendation in ChatGPT responses. This makes GEO strategy urgent for marketers: being visible in AI answers is not yet a locked-in advantage, so the window to establish presence is open but unpredictable.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "AI time savings are being consumed by fixing output, managing tools, and building governance",
+          "url": "https://martech.org/ai-adoption-is-outpacing-marketings-ability-to-manage-it/",
+          "plain": "A new report finds that <b>AI adoption is outpacing marketing teams' ability to manage it</b>: time freed by AI gets spent on correcting bad output, juggling fragmented tools, and building the oversight structures needed to keep it safe. This reframes the ROI conversation and signals that governance investment is now a prerequisite, not an afterthought.",
           "chips": [
-            "geo",
-            "genai"
+            "genai",
+            "govern",
+            "agentic"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Dstillery and Canvas Worldwide Deploy DS-1 Agentic AI for Live In-Flight Campaign Optimization",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dstillery-and-canvas-worldwide-partner-to-bring-ds-1-agentic-optimization-to-live-campaigns/",
-          "plain": "Dstillery's DS-1 agent now handles <b>real-time in-flight campaign optimization</b> on live media buys with Canvas Worldwide — moving agentic AI beyond planning and audience discovery into active budget and bid decisions. This is a meaningful shift in how media is bought: the agent acts autonomously during a running campaign, not just before launch.",
+          "head": "HubSpot June 2026 update: agents get broader system access, Revenue Hub links sales data",
+          "url": "https://martech.org/hubspots-june-2026-updates-agents-get-more-access-revenue-hub-starts-connecting-the-dots/",
+          "plain": "HubSpot's latest release gives its <b>AI agents deeper access to CRM data and workflows</b>, while Revenue Hub begins stitching together pipeline and customer signals into actionable views. For buyers evaluating CEPs, this update signals HubSpot is moving from co-pilot features toward autonomous agent execution inside its core platform.",
           "chips": [
             "agentic",
-            "decis",
-            "bandit"
+            "cep",
+            "cdp",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · via MarTech",
-          "fresh": false,
-          "head": "HubSpot Expands Breeze AI with Tools to Build, Govern, and Manage AI Agents",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "HubSpot's Breeze AI update adds <b>agent-building, governance controls, and management tooling</b> directly inside its platform — signaling that enterprise buyers now expect oversight features as standard, not add-ons. For marketers evaluating CEPs, this raises the baseline: a platform without agent governance is increasingly uncompetitive.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Agencies now need to measure client visibility inside ChatGPT — here's what data exists",
+          "url": "https://martech.org/your-client-just-asked-if-they-show-up-in-chatgpt-now-what/",
+          "plain": "Brand visibility inside AI-generated answers is now a top client request, yet most agencies lack the tools or metrics to answer it. This practical guide covers <b>what can actually be measured today for generative engine visibility</b>, making it essential reading for anyone managing SEO or paid search budgets in a world where AI answers replace search results.",
           "chips": [
-            "agentic",
-            "govern",
-            "cep",
-            "genai"
+            "geo",
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · via MarTech",
-          "fresh": false,
-          "head": "Consumer Distrust of AI Is Driven More by Data Practices Than the Technology Itself",
-          "url": "https://martech.org/consumer-distrust-of-ai-isnt-about-the-ai/",
-          "plain": "New research finds consumers' biggest concern with AI in marketing is <b>how brands collect and use personal data</b>, not the AI models themselves. For teams building personalization and agentic programs, this reframes the trust problem: improving data transparency and consent practices matters more than explaining the algorithm — and has direct implications for CDP governance strategy.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The 7 layers of an AI-ready marketing operating system",
+          "url": "https://martech.org/the-7-layers-of-an-ai-ready-marketing-operating-system/",
+          "plain": "This framework maps the full stack a marketing team needs — from data unification to orchestration to decisioning — to make AI compound in value across campaigns. It's a practical architecture guide that helps buyers and builders understand <b>how each layer (CDP, CEP, agentic decisioning) must connect</b> for AI to improve rather than just automate.",
           "chips": [
-            "govern",
             "cdp",
-            "perso"
+            "cep",
+            "agentic",
+            "decis"
           ]
         }
       ]
@@ -113,65 +117,69 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Zenity Labs Uncovers 'AgentForger' — ChatGPT Workspace Agent Hijack Vulnerability",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/one-click-one-attacker-controlled-agentic-insider-zenity-labs-uncovers-agentforger-a-chatgpt-vulnerability/",
-          "plain": "A single phishing link could silently spin up an attacker-controlled AI agent inside ChatGPT Workspace Agents, inheriting a real employee's permissions and bypassing approvals. OpenAI has now patched it, but the flaw shows that <b>agentic AI creates a new class of insider threat</b> that traditional security controls weren't designed to catch — a governance wake-up call for any team deploying agents.",
+          "head": "The real risk in agentic commerce: marketers lose pricing power and customer relationships to AI agents",
+          "url": "https://martech.org/the-real-risk-in-agentic-commerce/",
+          "plain": "As <b>AI agents take over product discovery and purchasing</b>, brands that don't own their underlying customer data risk losing both pricing leverage and direct relationships. This reframes the agentic AI threat from a content problem to a fundamental commercial and data-ownership problem every marketer needs to understand now.",
           "chips": [
             "agentic",
+            "decis",
+            "cdp",
             "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "ChatGPT Has No Clear Brand Leader in Most Categories, Semrush Data Shows",
-          "url": "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/",
-          "plain": "Semrush analysis finds only 15% of ChatGPT product categories have a consistent brand mentioned. That means <b>AI visibility is highly unstable</b> — brands dominating Google search can be nearly invisible inside AI answers. For marketers, this data point reframes GEO from a nice-to-have into an urgent priority, since the AI answer layer is where buyer consideration increasingly starts.",
+          "fresh": true,
+          "head": "Time saved by AI is being consumed by managing its output, fragmented tools, and governance gaps",
+          "url": "https://martech.org/ai-adoption-is-outpacing-marketings-ability-to-manage-it/",
+          "plain": "Research shows that <b>AI efficiency gains are largely offset</b> by the effort needed to fix outputs, wrangle disconnected tools, and build oversight processes. This is critical for anyone evaluating AI purchases: the hidden cost is operational burden, not just licensing, and governance readiness matters as much as capability.",
           "chips": [
-            "geo"
+            "govern",
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Dstillery and Canvas Worldwide Deploy DS-1 Agentic AI for Live In-Flight Campaign Optimization",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dstillery-and-canvas-worldwide-partner-to-bring-ds-1-agentic-optimization-to-live-campaigns/",
-          "plain": "Dstillery's DS-1 agent now makes real-time optimization decisions on active media buys — moving beyond deal and audience discovery into <b>autonomous in-flight budget and targeting adjustments</b>. This is a meaningful step: agentic AI is no longer just pre-campaign setup but actively managing media spend mid-flight, raising questions about human oversight and accountability in paid media.",
+          "head": "Shoppable's Universal Checkout Plugin launches inside ChatGPT, enabling multi-retailer cart-building for 900M users",
+          "url": "https://agilebrandguide.com/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/",
+          "plain": "Shoppable becomes the <b>first commerce infrastructure provider in the ChatGPT Plugin Directory</b>, letting users discover products and build carts across multiple retailers inside the AI interface. This is a concrete proof point of agentic commerce arriving at scale and raises immediate questions about brand visibility in AI-driven buying journeys.",
           "chips": [
             "agentic",
+            "geo",
             "decis",
-            "bandit",
-            "govern"
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "Stop Buying 'AI' — A Four-Part Framework for Evaluating Vendor Capabilities",
-          "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
-          "plain": "The piece argues that the label 'AI-powered' is now meaningless in vendor pitches and offers a structured four-part framework to cut through it. For marketers evaluating martech purchases, <b>asking what specific capability a product delivers</b> — rather than what model it uses — leads to better decisions and smarter contract terms. Practically useful for anyone in procurement or stack evaluation.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "HubSpot June 2026: agents get broader data access, Revenue Hub connects sales and marketing dots",
+          "url": "https://martech.org/hubspots-june-2026-updates-agents-get-more-access-revenue-hub-starts-connecting-the-dots/",
+          "plain": "HubSpot's latest release expands <b>AI agent permissions across CRM data</b> and links revenue signals to marketing actions. For buyers, this means a major CEP is now natively agentic rather than assistant-level — raising the bar for what competing platforms must offer and shifting governance questions inside the platform itself.",
           "chips": [
-            "govern",
             "agentic",
-            "genai"
+            "cep",
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Shoppable's Universal Checkout Plugin Goes Live Inside ChatGPT for 900M Weekly Users",
-          "url": "https://agilebrandguide.com/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/",
-          "plain": "Shoppable is the first commerce infrastructure provider to put multi-retailer product discovery and cart-building directly inside ChatGPT via the Plugin Directory. With <b>900 million weekly ChatGPT users now able to buy without leaving the AI interface</b>, this signals that the AI answer layer is becoming a direct commerce channel — shifting where brands need to be present and discoverable.",
+          "head": "Semrush: Only 15% of ChatGPT categories have a consistent brand leader, making AI visibility hard to sustain",
+          "url": "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/",
+          "plain": "New data shows <b>brand rankings inside ChatGPT answers shift constantly</b>, with no dominant player in 85% of product categories. This quantifies why generative engine optimization is an urgent, ongoing discipline rather than a one-time fix — and gives marketers concrete evidence to bring to leadership when requesting GEO budget.",
           "chips": [
             "geo",
-            "agentic",
-            "perso"
+            "genai"
           ]
         }
       ]
@@ -181,121 +189,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Breaking Into Production</em> — and Breaking Security",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/one-click-one-attacker-controlled-agentic-insider-zenity-labs-uncovers-agentforger-a-chatgpt-vulnerability/",
+          "head": "AI Agents Are <em>Reshaping Revenue Operations</em>",
+          "url": "https://martech.org/hubspots-june-2026-updates-agents-get-more-access-revenue-hub-starts-connecting-the-dots/",
           "body": [
-            "Agentic AI is no longer a demo: Dstillery is running autonomous optimization on live ad campaigns, DevRev agents share organizational memory across systems, and Monk agents are making real phone calls to collect debt. The shift from assistant to autonomous actor is happening faster than most teams anticipated.",
-            "That speed is opening dangerous gaps. Zenity Labs' <b>AgentForger</b> disclosure shows that a single click can hand an attacker full control of an AI agent operating inside your stack. The same autonomy that makes agents powerful — tool access, memory, the ability to act — makes them a novel insider-threat surface that traditional security models were not built to handle."
+            "AI agents are no longer demo-ware — platforms like HubSpot are giving them direct access to CRM data, pipeline signals, and revenue workflows. Pervaziv's Salesforce integration similarly connects customer context to software delivery, collapsing the gap between sales intelligence and execution.",
+            "The strategic shift is that <b>buying AI features is less important than buying coordinated capabilities</b> that span the full revenue cycle. CMOs who treat agent access as an IT upgrade rather than an operating-model change will find themselves outpaced by competitors who have rewired their stacks around autonomous workflows."
           ],
           "ev": [
             [
-              "MarTech Series · AgentForger vuln",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/one-click-one-attacker-controlled-agentic-insider-zenity-labs-uncovers-agentforger-a-chatgpt-vulnerability/"
+              "MarTech · HubSpot June Updates",
+              "https://martech.org/hubspots-june-2026-updates-agents-get-more-access-revenue-hub-starts-connecting-the-dots/"
             ],
             [
-              "MarTech Series · Dstillery agentic optimization",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dstillery-and-canvas-worldwide-partner-to-bring-ds-1-agentic-optimization-to-live-campaigns/"
+              "MarTech · Stop Buying AI",
+              "https://martech.org/stop-buying-ai-and-start-buying-capabilities/"
             ],
             [
-              "MarTech · Salesforce agentic problems",
-              "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/"
+              "MarTech Series · Pervaziv + Salesforce",
+              "https://martechseries.com/sales-marketing/crm/pervaziv-ai-expands-cortex-enterprise-ai-with-salesforce-crm-connecting-customer-context-to-secure-software-delivery/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Search</em> Is Rewriting the Brand Visibility Game",
-          "url": "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/",
+          "head": "<em>Agentic Commerce</em> Creates New Brand Risk",
+          "url": "https://martech.org/the-real-risk-in-agentic-commerce/",
           "body": [
-            "ChatGPT and its rivals are becoming the first stop for product discovery, yet Martech.org's analysis finds <b>no clear brand leader in most categories</b> inside these interfaces. That is an enormous opportunity — and an enormous threat — because the ranking logic of AI search bears little resemblance to Google SEO.",
-            "Simultaneously, Shoppable's checkout plugin landing inside ChatGPT signals that the purchase funnel is collapsing into the AI interface itself. Brands that are not actively optimizing for AI-answer inclusion risk becoming, as one headline put it, <b>invisible to AI search</b> — losing ground to competitors that may not even be other brands."
+            "When AI agents make purchasing decisions on behalf of consumers — choosing vendors, comparing options, completing checkouts — brands lose the direct persuasion moments they have built their entire MarTech stacks around. Shoppable's ChatGPT checkout plugin is an early signal that the transaction layer is migrating into LLM interfaces.",
+            "The deeper risk is <b>brand invisibility in AI-mediated choice</b>: MarTech's own research shows ChatGPT currently has no clear brand leader in most product categories, meaning the race to become an AI-recommended brand is wide open but closing fast. Marketers need to rethink what 'winning a consideration set' even means when the consideration set is generated by a model."
           ],
           "ev": [
             [
-              "MarTech · ChatGPT brand leaders",
+              "MarTech · Agentic Commerce Risk",
+              "https://martech.org/the-real-risk-in-agentic-commerce/"
+            ],
+            [
+              "MarTech · ChatGPT Brand Leaders",
               "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/"
             ],
             [
-              "MarTech · website invisible to AI search",
-              "https://martech.org/is-your-website-invisible-to-ai-search/"
-            ],
-            [
-              "Agile Brand · Shoppable in ChatGPT",
+              "Agile Brand · Shoppable ChatGPT Checkout",
               "https://agilebrandguide.com/shoppables-universal-checkout-plugin-is-now-available-in-chatgpt/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Voice AI Gets <em>Organizational Memory</em> and Moves Upstream",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/devrev-launches-voice-ai-with-shared-organizational-memory-across-agents/",
+          "head": "AI Productivity Gains Are <em>Eaten by Oversight Debt</em>",
+          "url": "https://martech.org/ai-adoption-is-outpacing-marketings-ability-to-manage-it/",
           "body": [
-            "Two launches in a single day — DevRev's shared-memory voice agents and Monk's AI phone collections — mark a qualitative leap: voice AI is no longer a single-session chatbot but a persistent, context-aware system that knows prior interactions across teams and touchpoints. RingCentral's deep partnership with OpenAI adds enterprise-grade infrastructure beneath this wave.",
-            "The business implication is that <b>phone and voice channels</b>, long treated as legacy cost centers, are being rebuilt as AI-native engagement layers. Decisions about telephony, CRM, and customer-service tooling are now inseparable from AI strategy — and the window to architect that integration deliberately is closing."
+            "A counterintuitive pattern is emerging: the time marketers save generating AI content is being consumed managing, reviewing, and correcting AI output. Adoption is accelerating faster than teams can build the quality-control processes needed to keep that output brand-safe and accurate.",
+            "<b>The net productivity gain is smaller than the headlines suggest</b>, and for under-resourced teams it can turn negative. The practical implication is that an AI-ready marketing operating system — with governance, measurement, and human checkpoints baked in — is now a prerequisite, not a nice-to-have."
           ],
           "ev": [
             [
-              "MarTech Series · DevRev voice memory",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/devrev-launches-voice-ai-with-shared-organizational-memory-across-agents/"
+              "MarTech · Time Saved on Managing Output",
+              "https://martech.org/ai-adoption-is-outpacing-marketings-ability-to-manage-it/"
             ],
             [
-              "MarTech Series · Monk voice collections",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/monk-launches-voice-collections-bringing-ai-phone-calls-and-callbacks-to-accounts-receivable/"
+              "MarTech · 7 Layers AI-Ready OS",
+              "https://martech.org/the-7-layers-of-an-ai-ready-marketing-operating-system/"
             ],
             [
-              "MarTech Series · RingCentral &amp; OpenAI",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ringcentral-and-openai-collaborate-to-accelerate-ai-native-innovation-across-ringcentral/"
+              "MarTech · Best Practices Already Outdated",
+              "https://martech.org/your-best-practices-may-already-be-outdated/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Consumer <em>Trust Deficit</em> Is the Ceiling on AI ROI",
-          "url": "https://martech.org/consumer-distrust-of-ai-isnt-about-the-ai/",
+          "head": "LLM Visibility Is the <em>New SEO Battleground</em>",
+          "url": "https://martech.org/your-client-just-asked-if-they-show-up-in-chatgpt-now-what/",
           "body": [
-            "Martech.org's research makes a counterintuitive argument: consumer distrust of AI is <b>not primarily about the technology</b> — it is about pre-existing distrust of the brands deploying it. Forrester's Gina Bhawalkar echoes this, warning that chasing AI speed at the expense of transparency is a compounding trust tax that quietly erodes long-term customer relationships.",
-            "This reframes the ROI calculation for AI martech. Capabilities that feel fast and efficient internally may register as intrusive or impersonal externally, especially when personalization crosses into surveillance-adjacent territory. <b>Earning AI credibility</b> requires the same brand fundamentals — consistency, honesty, relevance — that earned trust before AI existed."
+            "Clients are now asking agencies point-blank whether their brand appears in ChatGPT responses — a question that didn't exist 18 months ago. This signals a structural shift in how discoverability is defined, moving from search-engine rankings toward inclusion in AI-generated answers and recommendations.",
+            "Brands competing for LLM mindshare face a different playbook: <b>authoritative, well-structured, frequently cited content matters more than keyword density</b>. The MarTech finding that no brand dominates in most ChatGPT categories is both a warning and an opportunity for any brand willing to invest in AI-native content strategy now."
           ],
           "ev": [
             [
-              "MarTech · consumer distrust of AI",
-              "https://martech.org/consumer-distrust-of-ai-isnt-about-the-ai/"
+              "MarTech · Client ChatGPT Visibility",
+              "https://martech.org/your-client-just-asked-if-they-show-up-in-chatgpt-now-what/"
             ],
             [
-              "Agile Brand · Forrester on AI speed vs trust",
-              "https://agilebrandguide.com/expert-mode-resisting-the-siren-song-of-ai-speed-for-enduring-customer-trust-with-gina-bhawalkar-forrester/"
+              "MarTech · No Clear Brand Leader",
+              "https://martech.org/chatgpt-has-no-clear-brand-leader-in-most-categories/"
             ],
             [
-              "MarTech · what CMOs should do about AI",
-              "https://martech.org/what-cmos-should-be-doing-about-ai-right-now/"
+              "MarTech · Newest Competitors Aren't Brands",
+              "https://martech.org/your-newest-competitors-arent-other-brands/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Buy <em>Capabilities, Not Tools</em> — the Procurement Frame Is Changing",
-          "url": "https://martech.org/stop-buying-ai-and-start-buying-capabilities/",
+          "head": "Trust Deficit Is <em>Slowing AI Adoption</em> at the Consumer Level",
+          "url": "https://martech.org/consumer-distrust-of-ai-isnt-about-the-ai/",
           "body": [
-            "A cluster of strategic pieces this month converges on one uncomfortable message: most martech buyers are still purchasing AI products when they should be purchasing <b>outcomes and workflow capabilities</b>. The distinction matters because point-solution AI purchases routinely fail to survive integration with legacy enterprise data and process silos — exactly what the Salesforce agentic stumble illustrates.",
-            "The corrective lens is 'unified workflows first.' Acceldata's European expansion around cross-lake data infrastructure, Paper's $34 million raise for agentic-era design, and Bluehost's small-business agentic platform all reflect vendors betting that <b>horizontal capability layers</b> — not vertical AI features — will win the next procurement cycle. Buyers who internalize this distinction will avoid shelfware; those who don't will repeat the last decade's martech regret."
+            "Consumer wariness of AI-driven marketing is not primarily about the technology itself — it is about distrust of the brands and institutions deploying it. When consumers don't trust a company, AI-powered personalization amplifies that distrust rather than resolving it, making brand credibility a prerequisite for AI effectiveness.",
+            "<b>Transparency, human oversight signals, and brand integrity</b> are now table stakes before AI features add value to the customer relationship. Craft Creative's human-led AI video model and Constant Contact's positioning as an 'AI partner for small business' both reflect vendors reading this signal and leading with human accountability rather than algorithmic automation."
           ],
           "ev": [
             [
-              "MarTech · stop buying AI",
-              "https://martech.org/stop-buying-ai-and-start-buying-capabilities/"
+              "MarTech · Consumer Distrust of AI",
+              "https://martech.org/consumer-distrust-of-ai-isnt-about-the-ai/"
             ],
             [
-              "MarTech · unlocking AI through unified workflows",
-              "https://martech.org/unlocking-enterprise-ai-through-unified-workflows/"
+              "MarTech Series · Human-Led AI Video",
+              "https://martechseries.com/video/craft-creative-launches-a-human-led-approach-to-ai-video-production/"
             ],
             [
-              "MarTech · Salesforce agentic woes",
-              "https://martech.org/salesforces-woes-underline-marketings-agentic-ai-problems/"
+              "Agile Brand · Constant Contact AI Partner",
+              "https://agilebrandguide.com/constant-contact-launches-great-needs-great-defining-the-company-as-the-ai-partner-for-small-business-growth/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major signal this month points toward the same inflection: <em>the question is no longer whether to adopt AI but whether your trust, security, and data foundations can carry the weight of agents that now act, speak, and spend autonomously on your behalf</em>."
+      "takeaway": "Across every layer of the stack, the 30-day signal is the same: <em>AI is shifting power away from brands that broadcast and toward brands that are trusted, structured, and already embedded in the workflows where decisions get made</em>."
     }
   }
 }
