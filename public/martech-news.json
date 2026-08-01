@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:34:15.559184+00:00",
+  "generatedAt": "2026-08-01T07:40:04.051162+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,9 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "IAB Tech Lab ships AAMP 2.3 with human approval thresholds on AI ad spend",
+          "head": "IAB Tech Lab ships AAMP 2.3 with human approval thresholds on ad spend",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-july-31-2026/",
-          "plain": "IAB Tech Lab released AAMP 2.3, adding <b>human approval thresholds on automated ad spend</b> — meaning AI agents can only commit budget up to a set limit before a person must sign off. This is a concrete governance standard that will directly shape how agentic ad-buying tools are built and audited across the industry.",
+          "plain": "IAB Tech Lab released AAMP 2.3, a spec that requires <b>human approval gates</b> before AI agents can commit ad budgets above set thresholds. This is a concrete governance standard for agentic ad buying — the kind of rule that shapes how platforms are built and how buyers must configure automated systems going forward.",
           "chips": [
             "agentic",
             "govern",
@@ -60,9 +60,9 @@
           "num": "02",
           "src": "MarTech",
           "fresh": true,
-          "head": "AI speeds marketing production, but measurement still stuck on clicks",
+          "head": "AI speeds marketing production, but measurement still lags behind",
           "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
-          "plain": "Most marketing teams are using AI to produce content faster, but they still track clicks rather than business outcomes. This gap means companies cannot prove ROI on their AI investments, which is a real barrier to larger budgets and smarter deployment. <b>Measurement maturity is now the bottleneck</b>, not AI capability.",
+          "plain": "Teams are using AI to produce content faster, but most still track clicks rather than business outcomes. This means <b>AI's real ROI is invisible to budget holders</b>, creating a structural gap between what AI can do and what marketers can prove — a problem that will drive demand for better attribution and measurement tooling.",
           "chips": [
             "genai",
             "govern"
@@ -72,25 +72,25 @@
           "num": "03",
           "src": "MarTech",
           "fresh": true,
-          "head": "AI-simulated buyer audiences miss personality signals, limiting accuracy",
-          "url": "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/",
-          "plain": "Synthetic audiences built by AI can replicate demographics and behaviour, but they consistently leave out personality traits — the psychological signals that drive purchase decisions. Without those signals, <b>AI-generated buyer simulations may mislead campaign and product decisions</b>. This raises important questions about what data CDPs and research tools need to collect.",
+          "head": "AI-generated web content is widening digital accessibility gaps",
+          "url": "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/",
+          "plain": "Generative AI is producing more of the web, but it consistently reproduces <b>accessibility failures</b> — missing alt text, poor contrast, broken screen-reader flows. Marketers who own digital experience now face legal and reputational risk if they ship AI-generated content without accessibility checks baked into their governance workflows.",
           "chips": [
             "genai",
-            "cdp",
-            "perso"
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "MarTech",
           "fresh": true,
-          "head": "AI-generated web content is widening accessibility gaps",
-          "url": "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/",
-          "plain": "As generative AI writes and assembles more of the web, it is reproducing existing accessibility failures at scale — missing alt text, poor contrast, broken screen-reader paths. The piece argues marketing teams are best placed to fix this at the source. <b>Accessibility governance needs to be built into AI content workflows</b>, not bolted on after.",
+          "head": "AI buyer simulations fall short without personality data",
+          "url": "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/",
+          "plain": "Synthetic audiences built from behavioural signals alone produce skewed predictions because they omit personality traits that drive purchase decisions. The article argues that <b>richer psychographic inputs</b> are the next frontier for AI-powered audience modelling — which has direct implications for how CDPs and personalization engines should be fed.",
           "chips": [
-            "genai",
-            "govern"
+            "cdp",
+            "perso",
+            "genai"
           ]
         },
         {
@@ -99,12 +99,11 @@
           "fresh": true,
           "head": "Blotato API lets AI agents read and reply to Instagram DMs and comments",
           "url": "https://martechseries.com/social/social-media-platforms/blotato-social-media-api-now-reads-and-answers-instagram-dms/",
-          "plain": "Blotato has added inbound messaging endpoints so a single API key lets an <b>AI agent both publish content and autonomously respond to Instagram comments and direct messages</b>. This is infrastructure that enables fully agentic social engagement loops, raising immediate questions about disclosure, brand voice control, and platform policy compliance.",
+          "plain": "Blotato added inbound messaging endpoints so a single API key lets an <b>AI agent both publish posts and respond to DMs and comments</b> autonomously. This closes the loop on social engagement automation, making it easier to deploy agentic systems that manage real customer conversations at scale without human handoffs.",
           "chips": [
             "agentic",
-            "genai",
-            "govern",
-            "cep"
+            "cep",
+            "genai"
           ]
         }
       ]
@@ -115,64 +114,65 @@
           "num": "01",
           "src": "MarTech",
           "fresh": false,
-          "head": "IAB Tech Lab ships AAMP 2.3 to put AI agents into production advertising",
+          "head": "IAB Tech Lab ships AAMP 2.3 with human approval thresholds for AI ad agents",
           "url": "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/",
-          "plain": "IAB Tech Lab's AAMP 2.3 standard adds <b>human approval thresholds on ad spend</b>, privacy controls, and integrations so AI agents can autonomously buy and manage advertising within agreed guardrails. This is the first industry-wide specification that defines how agentic ad buying is governed, making it directly relevant to anyone purchasing or building ad-tech.",
+          "plain": "IAB Tech Lab's updated Autonomous Advertising Marketplace Protocol adds <b>governance rails</b> — including human-approval spending thresholds, privacy controls, and platform integrations — so AI agents can buy and manage ads in production without going rogue. This is a standards-level move that affects every ad-tech vendor and media buyer building agentic systems.",
           "chips": [
             "agentic",
             "govern",
-            "decis",
-            "cep"
+            "decis"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "AI speeds marketing production, but measurement still lags business outcomes",
-          "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
-          "plain": "Most marketing teams have adopted AI to produce content faster, but they still track clicks rather than revenue, so they can't prove whether the investment pays off. The piece argues that <b>measurement frameworks must catch up</b> before AI budgets can be justified or optimised — a foundational issue for anyone buying or governing marketing AI.",
+          "fresh": false,
+          "head": "How to measure marketing when AI owns the discovery layer",
+          "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
+          "plain": "When AI answers replace search results, <b>clicks and impressions stop reflecting real demand</b>. This piece lays out how to rebuild analytics — tracking brand mentions in AI responses, engagement signals, and buyer intent — so marketers can prove value in a world where the funnel starts inside a chatbot.",
           "chips": [
-            "genai",
-            "govern"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": false,
-          "head": "How to measure marketing when AI owns discovery",
-          "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
-          "plain": "As AI answer engines replace search as the top of the funnel, standard analytics miss brand demand that never generates a click. The article offers a practical framework for capturing <b>intent signals inside AI-generated answers</b>, reshaping how marketers should think about attribution and channel investment going forward.",
+          "head": "Yelp plugs its reviews and local business data directly into ChatGPT",
+          "url": "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/",
+          "plain": "Yelp's review corpus and business listings are now a live data source inside ChatGPT, giving OpenAI richer local context and giving Yelp <b>prime placement inside AI-generated answers</b>. For local and multi-location brands, this reshapes where reputation management and lead generation actually happen.",
           "chips": [
             "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "AI can simulate buyers, but personality data is the missing ingredient",
-          "url": "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/",
-          "plain": "<b>Synthetic audiences</b> built from behavioural signals alone produce skewed simulations because personality traits drive purchase decisions in ways behaviour doesn't capture. The piece matters to anyone using AI-generated personas for campaign testing or personalisation — it flags a structural accuracy gap that affects how much you can trust synthetic research outputs.",
-          "chips": [
             "genai",
-            "perso",
             "cdp"
           ]
         },
         {
-          "num": "05",
+          "num": "04",
           "src": "Agile Brand · via MarTech",
           "fresh": false,
-          "head": "Stop buying AI — start buying specific capabilities",
+          "head": "Stop buying 'AI' — buy specific capabilities instead",
           "url": "https://agilebrandguide.com/martech-stop-buying-ai-and-start-buying-capabilities/",
-          "plain": "Greg Kihlström argues that <b>'AI-powered' as a vendor label is meaningless</b> because it describes nothing about what a tool actually does. The piece gives buyers a practical lens — ask what capability you are purchasing, not whether it uses AI — directly changing how procurement conversations should be structured in any martech evaluation.",
+          "plain": "Greg Kihlström argues that the label 'AI-powered' now means nothing in vendor pitches — <b>buyers should demand capability-level specifics</b> (what decision does it make? what data does it use?) before signing. Practical procurement guidance that changes how marketing leaders evaluate and compare tools.",
           "chips": [
             "govern",
             "agentic",
             "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI buyer simulations miss personality — limiting synthetic audience accuracy",
+          "url": "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/",
+          "plain": "Synthetic audiences built from behavioral and demographic signals consistently mis-predict decisions because they omit <b>personality traits</b>. The article explains which psychological dimensions matter most and what data teams need to add to make AI-simulated buyers genuinely useful for campaign planning and personalization.",
+          "chips": [
+            "perso",
+            "genai",
+            "cdp"
           ]
         }
       ]
@@ -182,34 +182,34 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are Taking Over <em>Marketing Execution</em>",
+          "head": "AI Agents Are <em>Rewriting the Job</em> of Marketer",
           "url": "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/",
           "body": [
-            "Across the month, the clearest signal is that AI is moving from assistant to autonomous executor. IAB Tech Lab published standards for AI agents operating inside real ad ecosystems, and platforms from Unanet to Blotato are embedding agents directly into CRM, ERP, and social workflows — automating tasks that previously required a human in the loop.",
-            "The implication for marketers is a <b>role shift</b>: the new core skill is directing, briefing, and auditing agents rather than doing the underlying work. Those who treat this as a tooling upgrade rather than a workflow redesign will find themselves managing outputs they don't fully understand."
+            "The dominant shift this month is not AI <b>assisting</b> marketers — it is AI <b>executing</b> tasks end-to-end, from answering Instagram DMs to managing Google Business Profiles to running ERP workflows. The marketer's role is migrating from doer to director, which requires a completely different skill set than most teams currently have.",
+            "IAB Tech Lab's move to standardise AI agents for real advertising, and the proliferation of autonomous agent platforms (Unanet's Champ, Blotato's DM responder), signals that infrastructure is catching up to the vision. <b>Organisations that don't define governance for agent behaviour now will find themselves correcting it at scale later.</b>"
           ],
           "ev": [
-            [
-              "MarTech · IAB Tech Lab agents",
-              "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"
-            ],
             [
               "MarTech · Directing AI agents",
               "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/"
             ],
             [
-              "MarTech Series · Unanet Champ Agents",
+              "MarTech · IAB Tech Lab &amp; ad agents",
+              "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"
+            ],
+            [
+              "MarTech Series · Unanet Champ agents",
               "https://martechseries.com/sales-marketing/crm/unanet-expands-champ-agents-powered-by-wyatt-across-its-erp-and-crm-portfolio/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Measurement Breaks</em> as AI Owns Discovery",
+          "head": "<em>Measurement Breaks</em> When AI Owns Discovery",
           "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
           "body": [
-            "When AI intermediaries — ChatGPT, Gemini, AI Overviews — answer queries before a user ever hits a website, traditional attribution collapses. Martech.org's analysis of this problem landed alongside Prime Day data showing 9% more clicks but 45% less consumer spending, a disconnect that signals existing measurement frameworks are no longer reliable proxies for business outcomes.",
-            "The gap between <b>production velocity and measurement fidelity</b> is widening fast. GrayHair's direct-mail attribution launch and the XR/AdImpact cross-channel measurement partnership are early attempts to patch the hole, but the industry has not yet converged on new standards for an AI-mediated discovery world."
+            "As AI intermediaries (ChatGPT, Yelp-in-ChatGPT, search generative experiences) become the first point of contact between brands and buyers, traditional attribution models collapse. <b>Clicks and sessions no longer represent the full customer journey</b> — a finding underscored by Prime Day data showing 9 % more clicks but 45 % less consumer spending, a gap that standard dashboards cannot explain.",
+            "The measurement crisis is compounding: production speed has accelerated thanks to AI, but the ability to prove what worked has not kept pace. <b>Until teams invest in new measurement frameworks</b> — cross-channel, AI-aware, and outcome-focused — faster content creation simply generates more unaccountable spend."
           ],
           "ev": [
             [
@@ -217,7 +217,7 @@
               "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/"
             ],
             [
-              "MarTech · Production vs measurement lag",
+              "MarTech · Production speed vs. measurement lag",
               "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
             ],
             [
@@ -228,34 +228,11 @@
         },
         {
           "num": "Theme 03",
-          "head": "Buying <em>Capabilities, Not AI</em> Labels",
-          "url": "https://agilebrandguide.com/martech-stop-buying-ai-and-start-buying-capabilities/",
-          "body": [
-            "A sharp counter-narrative emerged this month: stop procuring tools because they carry an AI badge and start asking what measurable capability they add. The Agile Brand synthesis of the MarTech piece, Salesforce's warning about an AI investment paradox amid a talent &amp; data crisis, and the Freehand $75M raise all frame the same tension — spend is accelerating while the organisational infrastructure to extract value is not keeping pace.",
-            "<b>The discipline needed is capability mapping</b>, not feature shopping. Marketers who can articulate the specific job-to-be-done before evaluating a platform will avoid the trap of accumulating AI licenses that duplicate each other and overwhelm already stretched teams."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Stop buying AI",
-              "https://agilebrandguide.com/martech-stop-buying-ai-and-start-buying-capabilities/"
-            ],
-            [
-              "Agile Brand · Salesforce AI paradox",
-              "https://agilebrandguide.com/salesforce-field-services-ai-paradox-maximizing-investment-amidst-a-growing-talent-and-data-crisis/"
-            ],
-            [
-              "Agile Brand · Freehand $75M raise",
-              "https://agilebrandguide.com/freehand-raises-75m-to-scale-ai-teams-managing-supply-chain-spend-for-fortune-500-companies/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "Trust &amp; <em>Human Nuance</em> as the Last Moat",
+          "head": "The Race to Build <em>AI-Proof Differentiation</em>",
           "url": "https://martech.org/how-to-build-an-advantage-ai-cant-copy/",
           "body": [
-            "Two pieces this month converged on the same strategic conclusion from different angles: AI buyer simulations miss personality, and the only durable competitive advantage is one AI cannot replicate. Martech.org's piece on building an AI-proof edge and its companion on buyer-simulation limits both argue that <b>authentic human insight, relationships, and brand trust</b> are now differentiators precisely because they are hard to automate.",
-            "This is reinforced by the accessibility warning — AI-generated digital experiences are systematically excluding users with disabilities — and by the push to make trust a competitive differentiator in AI adoption. The brands that will win are those investing in the human signal layer underneath the automation, not just the automation itself."
+            "Multiple pieces this month converge on a single anxiety: if AI can replicate content, simulate buyers, and automate campaigns, <b>what is left that competitors cannot instantly clone?</b> The answer emerging is proprietary data, genuine brand personality, and human relationships — the exact assets that AI buyer-simulation tools admittedly miss.",
+            "Trust is being positioned as the new moat. Articles on making trust a competitive differentiator, closing the gap between brand promise and sales reality, and stopping the reflex to 'buy AI' rather than buy capabilities all point to the same strategic conclusion: <b>durable advantage lives in what AI cannot synthesise — context, credibility, and community.</b>"
           ],
           "ev": [
             [
@@ -263,40 +240,63 @@
               "https://martech.org/how-to-build-an-advantage-ai-cant-copy/"
             ],
             [
-              "MarTech · AI misses personality",
-              "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/"
-            ],
-            [
               "MarTech · Trust as differentiator",
               "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/"
+            ],
+            [
+              "MarTech · AI misses personality",
+              "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "AI Tooling Expands Reach While <em>Creating Accessibility Debt</em>",
+          "url": "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/",
+          "body": [
+            "AI-generated digital experiences are being deployed faster than accessibility standards can follow. Auto-generated layouts, dynamic content, and AI-written copy routinely fail screen readers, contrast requirements, and keyboard navigation — meaning <b>speed gains for the majority create exclusion for millions of users</b> with disabilities.",
+            "This is not just an ethical issue; it is a legal and reputational liability that is growing in proportion to how much of the web AI now builds. <b>Organisations need to add accessibility audits to every AI content pipeline</b>, not treat them as a post-launch checklist item."
+          ],
+          "ev": [
+            [
+              "MarTech · AI &amp; accessibility gap",
+              "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/"
+            ],
+            [
+              "MarTech · 4 questions before AI in event workflow",
+              "https://martech.org/4-questions-to-ask-before-adding-ai-to-an-event-workflow/"
+            ],
+            [
+              "Agile Brand · Stop buying AI, buy capabilities",
+              "https://agilebrandguide.com/martech-stop-buying-ai-and-start-buying-capabilities/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI Reaches Into <em>Local &amp; Creator Channels</em>",
-          "url": "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/",
+          "head": "Creator &amp; Local Channels Become <em>Scalable Programmatic Inventory</em>",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/agentio-turns-youtube-creator-advertising-into-a-scalable-growth-engine-for-suris-u-s-expansion/",
           "body": [
-            "The automation frontier expanded beyond brand and performance marketing this month into two previously fragmented channels: local discovery and creator advertising. Yelp plugging reviews and local leads directly into ChatGPT changes how small businesses surface in AI search, while Agentio's model for scaling YouTube creator advertising into a programmatic-style growth engine signals that influencer spend is being brought inside the same automated buying infrastructure as display.",
-            "MyAds.Guru's AI-powered Google Business Profile platform points in the same direction — <b>local marketing, long reliant on manual effort, is now being industrialised</b>. Marketers managing multi-location or creator-led strategies need to revisit how these channels will be discovered, priced, and attributed inside AI-mediated environments."
+            "Two previously 'high-touch' channels — YouTube creator sponsorships and Google Business Profiles — are being systematically automated and made buyable at scale. Agentio's platform turns individual creator deals into a programmatic growth engine, while MyAds.Guru applies AI management to local business listings. <b>The boundary between performance media and relationship-based media is dissolving.</b>",
+            "Simultaneously, email is reasserting itself as a high-ROI channel (with budget shift data to back it), and Yelp's integration into ChatGPT is turning local reviews into AI-served leads. <b>The common thread is that trusted, intent-rich inventory is being re-packaged for algorithmic buying</b> — which raises fresh questions about brand safety and authentic voice at scale."
           ],
           "ev": [
             [
-              "MarTech · Yelp in ChatGPT",
-              "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/"
-            ],
-            [
-              "MarTech Series · Agentio creator ads",
+              "MarTech Series · Agentio &amp; YouTube creators",
               "https://martechseries.com/sales-marketing/programmatic-buying/agentio-turns-youtube-creator-advertising-into-a-scalable-growth-engine-for-suris-u-s-expansion/"
             ],
             [
-              "MarTech Series · MyAds.Guru local AI",
-              "https://martechseries.com/sales-marketing/programmatic-buying/myads-guru-launches-ai-powered-google-business-profile-management-platform/"
+              "MarTech · Yelp reviews in ChatGPT",
+              "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/"
+            ],
+            [
+              "MarTech Series · Email ROI budget shifts",
+              "https://martechseries.com/content/email-mktg/email-marketing-roi-data-signals-budget-shifts-for-2026/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — agents, measurement, procurement, brand strategy, and channel reach — the month's news confirms that <em>AI is no longer a feature to add but an operating environment to navigate</em>, and the marketers who treat it that way will outrun those still evaluating individual tools."
+      "takeaway": "Across every story this month, the underlying pressure is the same: AI is accelerating execution faster than organisations can build the measurement, governance, and human-centred strategy needed to direct it — meaning <em>the teams that invest in those foundations now will compound an advantage that pure tooling adoption cannot buy</em>."
     }
   }
 }
