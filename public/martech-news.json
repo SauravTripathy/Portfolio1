@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:43:12.456958+00:00",
+  "generatedAt": "2026-08-02T07:43:18.383569+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,23 +47,9 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Adobe CMO Rachel Thornton: AI agents are the new customers brands must sell to",
-          "url": "https://agilebrandguide.com/adobe-cmo-enterprise-rachel-thornton-on-agents-as-customers/",
-          "plain": "Adobe's enterprise CMO argues that <b>AI agents shopping on behalf of humans</b> are becoming a primary audience marketers must consider. Because agents don't respond to emotion or narrative, the entire creative-and-messaging playbook may need rethinking. This reframes how brands build content, optimize for discovery, and measure persuasion.",
-          "chips": [
-            "agentic",
-            "geo",
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "ADA acquires Algonomy to build a fully agentic retail decisioning platform",
+          "head": "ADA acquires Algonomy to build fully agentic retail decisioning platform",
           "url": "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/",
-          "plain": "ADA bought Algonomy, a specialist in <b>agentic decisioning for retail</b>, expanding its reach to 34 markets across APAC, US, MENA, and Europe. The deal directly connects customer data to automated, real-time action — closing the gap between insight and execution. It signals consolidation around full-stack agentic platforms in retail.",
+          "plain": "ADA has completed its purchase of Algonomy, a specialist in <b>agentic decisioning for retail</b>, expanding its platform across 34 markets in APAC, US, MENA, and Europe. This is a meaningful consolidation: it plugs real-time AI decisioning directly into ADA's data layer, shortening the path from customer insight to automated, channel-level action — a model other platforms will now have to match.",
           "chips": [
             "agentic",
             "decis",
@@ -72,12 +58,26 @@
           ]
         },
         {
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Adobe CMO Rachel Thornton: AI agents are becoming your brand's new evaluators",
+          "url": "https://agilebrandguide.com/adobe-cmo-enterprise-rachel-thornton-on-agents-as-customers/",
+          "plain": "Adobe's enterprise CMO argues that <b>AI shopping agents acting on behalf of humans</b> now evaluate brands differently than people do — they ignore emotional storytelling and respond only to structured, machine-readable signals. This reframes the entire brand and content investment question for marketers, making <b>GEO and agentic visibility</b> a board-level concern rather than an SEO footnote.",
+          "chips": [
+            "agentic",
+            "geo",
+            "govern",
+            "genai"
+          ]
+        },
+        {
           "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Attentive report: 1,050-shopper survey shows personalization is now a baseline expectation in 2026",
+          "head": "Attentive report: 1,050 shoppers say personalization is now a baseline expectation, not a perk",
           "url": "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/",
-          "plain": "Attentive's survey of shoppers in the US, UK, and Australia finds that <b>personalized experiences are no longer a differentiator but a minimum requirement</b> driving loyalty and sales. Marketers who treat personalization as optional risk losing relevance. The data gives budget justification for investing in 1:1 messaging infrastructure.",
+          "plain": "Attentive's survey across the US, UK, and Australia finds that <b>shoppers now treat personalized experiences as a minimum requirement</b>, directly linking them to engagement, loyalty, and purchase decisions. For marketing buyers, this data shifts personalization spend from 'nice to have' to justifiable infrastructure, putting pressure on platforms that cannot deliver true 1:1 messaging at scale.",
           "chips": [
             "perso",
             "cep",
@@ -88,12 +88,12 @@
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Furniture.com on defeating choice paralysis with AI-guided selling",
+          "head": "Furniture.com case study: AI-guided discovery replaces the overwhelming 'endless aisle'",
           "url": "https://agilebrandguide.com/expert-mode-beyond-the-endless-aisle-with-dan-bennett-and-alexandra-seaman-from-furniture-com/",
-          "plain": "Furniture.com leaders explain how <b>endless product catalogues create friction rather than value</b> for high-consideration purchases. They describe using AI to narrow choices intelligently and guide buyers to decisions. It's a practical case study for retailers rethinking how personalization and agentic recommendations can reduce abandonment.",
+          "plain": "Furniture.com's team explains how <b>choice paralysis in high-consideration purchases</b> is now being solved by AI-driven guided selling rather than expanding product catalogues. It's a practical example of agentic decisioning reducing friction at the point of purchase, showing how retailers can deploy AI not just to recommend but to actively narrow and guide decisions.",
           "chips": [
-            "perso",
             "agentic",
+            "perso",
             "decis"
           ]
         },
@@ -101,13 +101,13 @@
           "num": "05",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "MarTech news roundup: StackAdapt links ad exposure to $4T in card data; holiday buying starts early",
+          "head": "StackAdapt links ad exposure to $4T in card transaction data for closed-loop measurement",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-1-2026/",
-          "plain": "Two notable signals from July 30–31: StackAdapt is tying ad measurement to <b>$4 trillion in card transaction data</b>, raising the bar for attribution; and Attentive data shows 83% of consumers plan holiday purchases before Black Friday. Both findings affect how marketing AI is trained, targeted, and evaluated.",
+          "plain": "StackAdapt has connected ad impression data to <b>$4 trillion in card transaction records</b> to enable true revenue-level attribution. This matters for MarTech buyers because it changes how programmatic ad ROI is proven — moving measurement from proxy metrics like clicks to actual purchase outcomes, which raises the bar for <b>campaign governance and data privacy</b> standards.",
           "chips": [
-            "cdp",
             "govern",
-            "perso"
+            "cdp",
+            "bandit"
           ]
         }
       ]
@@ -118,9 +118,9 @@
           "num": "01",
           "src": "MarTech",
           "fresh": false,
-          "head": "IAB Tech Lab ships AAMP 2.3 to put AI agents into production advertising",
+          "head": "IAB Tech Lab ships AAMP 2.3 with governance and privacy controls for AI agents in advertising",
           "url": "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/",
-          "plain": "IAB Tech Lab's Agentic Advertising Management Protocol 2.3 adds <b>human approval thresholds on ad spend</b>, privacy controls, and integrations so brands can move AI agents from pilots into live campaigns. This is a governance standard that will shape how every ad-tech vendor builds and sells agentic buying tools — a rare industry-wide rule change.",
+          "plain": "IAB Tech Lab's updated Autonomous Advertising Management Protocol adds <b>human approval thresholds on ad spend</b>, privacy guardrails, and integrations so AI agents can operate inside real ad ecosystems. This is the first industry-wide standard that spells out how AI agents are allowed to buy and place ads — a rules change every martech vendor will have to comply with.",
           "chips": [
             "agentic",
             "govern",
@@ -130,10 +130,10 @@
         {
           "num": "02",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "ADA acquires Algonomy to close the gap from data to fully agentic retail decisioning",
+          "fresh": false,
+          "head": "ADA acquires Algonomy to build a fully agentic decisioning platform across 34 markets",
           "url": "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/",
-          "plain": "ADA bought Algonomy, a specialist in <b>agentic decisioning for retail</b>, expanding its reach to 34 markets across APAC, the US, MENA, and Europe. The deal matters because it combines a customer-data layer with real-time AI decisioning in one stack — exactly the architecture enterprise retailers are shopping for right now.",
+          "plain": "ADA bought Algonomy, a specialist in <b>agentic decisioning for retail</b>, folding its AI-driven next-best-action engine into ADA's data platform. The deal expands the combined company's footprint to 34 markets across APAC, US, MENA, and Europe. It signals that standalone decisioning vendors are being absorbed into larger platforms, reshaping the competitive landscape buyers must navigate.",
           "chips": [
             "agentic",
             "decis",
@@ -143,11 +143,11 @@
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Adobe CMO Enterprise: AI agents are becoming brand evaluators and buyers",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Adobe CMO warns: AI agents shopping on behalf of consumers don't respond to brand storytelling",
           "url": "https://agilebrandguide.com/adobe-cmo-enterprise-rachel-thornton-on-agents-as-customers/",
-          "plain": "Adobe's enterprise CMO Rachel Thornton argues that <b>AI agents shopping on behalf of humans</b> don't respond to brand storytelling or emotion — forcing marketers to rethink how they structure product data and digital presence. This reframes GEO from an SEO tactic into a fundamental marketing architecture question.",
+          "plain": "Adobe's enterprise CMO Rachel Thornton argues that <b>AI agents acting as buyers</b> evaluate products on structured data and signals, not emotional narratives or creative ads. Marketers who optimise only for human attention will lose deals to competitors whose product information is agent-readable. This reframes both content strategy and GEO as procurement-level concerns.",
           "chips": [
             "agentic",
             "geo",
@@ -158,13 +158,12 @@
           "num": "04",
           "src": "MarTech",
           "fresh": false,
-          "head": "How to measure marketing when AI owns the top of the funnel",
+          "head": "How to measure marketing when AI owns discovery",
           "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
-          "plain": "As AI answers replace search results, standard click-and-session analytics miss most early-stage brand demand. The piece lays out <b>updated measurement frameworks</b> that capture brand mentions inside AI engines, dark-funnel intent signals, and share-of-voice in generative results — directly changing how marketing teams justify budgets.",
+          "plain": "As AI answers replace traditional search at the top of the funnel, standard click and session metrics miss most brand exposure. The article lays out how to track <b>brand demand signals and AI-driven intent</b> before a user ever lands on your site. Practical for anyone rethinking attribution models or pitching analytics budget in 2026.",
           "chips": [
             "geo",
-            "govern",
-            "genai"
+            "govern"
           ]
         },
         {
@@ -173,10 +172,10 @@
           "fresh": false,
           "head": "Yelp integrates reviews and local business data directly into ChatGPT",
           "url": "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/",
-          "plain": "Yelp's review corpus and business listings are now surfaced inside ChatGPT responses, giving Yelp <b>prime placement in AI-generated local recommendations</b>. For local and multi-location marketers this is a concrete example of how third-party data deals — not just your own SEO — will determine visibility inside AI answers.",
+          "plain": "Yelp has struck a deal giving ChatGPT access to its full review database and local business listings, earning prime placement and backlinks in return. For local and multi-location brands this is a concrete example of <b>third-party review content shaping AI-generated answers</b> — making reputation management and GEO strategy urgent rather than optional.",
           "chips": [
             "geo",
-            "genai"
+            "perso"
           ]
         }
       ]
@@ -186,11 +185,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents as <em>Autonomous Buyers &amp; Sellers</em>",
+          "head": "AI Agents as <em>Autonomous Customers &amp; Colleagues</em>",
           "url": "https://agilebrandguide.com/adobe-cmo-enterprise-rachel-thornton-on-agents-as-customers/",
           "body": [
-            "The most disorienting shift of the past 30 days is not AI writing copy — it is AI <b>acting as the customer</b>. Adobe's CMO Rachel Thornton frames this directly: agents are beginning to browse, evaluate, and transact on behalf of humans, which means marketers must now optimize experiences for non-human decision-makers alongside human ones.",
-            "The IAB Tech Lab has begun standardizing how AI agents participate in real ad ecosystems, and ADA's acquisition of Algonomy is explicitly aimed at building a <b>fully agentic commerce loop</b>. The strategic decision this forces: do you architect your funnel for people, for bots, or for both — and how do you know which is arriving?"
+            "The most disorienting shift in the past 30 days is the reframing of AI agents from <b>tools that assist humans</b> to actors that buy, sell, and decide on their own. Adobe's CMO Rachel Thornton articulated it plainly: agents are becoming customers, which means marketing funnels must be rebuilt to address machine decision-makers, not just people.",
+            "IAB Tech Lab is already writing the plumbing — standards to let agents interact with real ad infrastructure — while platform moves like ADA acquiring Algonomy and Unanet rolling out Champ agents across its ERP show that <b>agentic experience</b> is crossing from concept into production. Marketers who delay rethinking their audience definition will find their messaging routed around entirely."
           ],
           "ev": [
             [
@@ -198,26 +197,26 @@
               "https://agilebrandguide.com/adobe-cmo-enterprise-rachel-thornton-on-agents-as-customers/"
             ],
             [
-              "IAB Tech Lab · agents in advertising",
+              "MarTech · IAB Tech Lab agent-ready ads",
               "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"
             ],
             [
-              "ADA · Algonomy acquisition",
+              "ADA acquires Algonomy · agentic platform",
               "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Measurement Collapse</em> in an AI-Mediated Funnel",
+          "head": "<em>Measurement Breaks</em> When AI Owns Discovery",
           "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
           "body": [
-            "When AI intermediaries — ChatGPT, AI Overviews, agentic browsers — own the discovery moment, <b>click-based and last-touch attribution breaks completely</b>. MarTech's analysis shows production speed rising fast while measurement practice stagnates; the Prime Day anomaly (9% more clicks, 45% less spending) is a vivid symptom of metrics that no longer map to outcomes.",
-            "GrayHair's direct-mail attribution tool and XR/AdImpact's cross-channel political measurement both signal the same underlying anxiety: <b>marketers are scrambling for new signal</b> wherever they can find it. The decision that changes: you can no longer default to ROI models built before AI owned the top of the funnel."
+            "AI is accelerating content production dramatically, but the analytics frameworks built around click paths and keyword rankings simply do not translate to a world where ChatGPT or an AI overview intercepts the buyer first. <b>Attribution gaps are widening</b> faster than vendors are closing them, and Prime Day data — 9% more clicks yet 45% less spending — is a stark signal that volume metrics now actively mislead.",
+            "The practical decision forced on marketers is whether to keep optimising for measurable proxies or invest in <b>new signal layers</b> such as AI-citation tracking, dark-social listening, and direct-mail attribution bridges like GrayHair's. Doing nothing means flying blind precisely when budgets need defending."
           ],
           "ev": [
             [
-              "MarTech · measuring when AI owns discovery",
+              "MarTech · measurement when AI owns discovery",
               "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/"
             ],
             [
@@ -225,82 +224,82 @@
               "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
             ],
             [
-              "MarTech Series · Prime Day click/spend gap",
+              "MarTech Series · Prime Day clicks vs. spend gap",
               "https://martechseries.com/sales-marketing/prime-day-data-surprise-9-more-clicks-45-less-consumer-spending-what-changed/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Personalization's <em>Intentionality Gap</em>",
-          "url": "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/",
+          "head": "Trust &amp; <em>Durable Differentiation</em> in a Commoditised AI Stack",
+          "url": "https://martech.org/how-to-build-an-advantage-ai-cant-copy/",
           "body": [
-            "Consumers in 2026 do not just want personalization — they want to feel that the brand <b>meant it</b>. Attentive's research frames \"intentional personalization\" as the new bar: AI-generated relevance that feels accidental or surveillance-like actively destroys trust, while deliberate, consent-forward personalization builds it as a competitive moat.",
-            "MarTech's piece on building advantages AI can't copy and the trust-as-differentiator article reinforce the same point: <b>the personalization arms race commoditizes the technology layer</b>, leaving brand judgment and data ethics as the remaining differentiators. The decision this changes: personalization strategy must now include an explicit intentionality &amp; consent design, not just a segmentation model."
+            "When every competitor can spin up the same AI-generated content and simulated-buyer personas, the strategic question becomes: <b>what can AI not replicate?</b> The answer surfacing across multiple pieces this month is proprietary data, authentic relationships, and earned institutional trust — assets that compound over time rather than being licensable.",
+            "This is not a soft argument: Yelp's integration with ChatGPT shows that <b>review credibility and local reputation</b> become currency inside AI interfaces, and the recurring trust-as-differentiator framing from MarTech underscores that transparency in AI use is now a positioning choice, not a compliance footnote."
           ],
           "ev": [
             [
-              "Attentive · intentional personalization",
-              "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/"
+              "MarTech · advantage AI can't copy",
+              "https://martech.org/how-to-build-an-advantage-ai-cant-copy/"
             ],
             [
               "MarTech · trust as competitive differentiator",
               "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/"
             ],
             [
-              "MarTech · advantage AI can't copy",
-              "https://martech.org/how-to-build-an-advantage-ai-cant-copy/"
+              "MarTech · Yelp reviews inside ChatGPT",
+              "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Agentic <em>Workflow Integration</em> Hits the Enterprise Stack",
-          "url": "https://martechseries.com/sales-marketing/crm/unanet-expands-champ-agents-powered-by-wyatt-across-its-erp-and-crm-portfolio/",
+          "head": "<em>Intentional Personalisation</em> Replaces Spray-and-Pray",
+          "url": "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/",
           "body": [
-            "Agents are no longer pilots — they are being embedded directly into ERP, CRM, and operational platforms at scale. Unanet's expansion of Champ Agents across its full portfolio and KaiNexus pushing AI into operational-excellence workflows show that <b>the agentic layer is moving from marketing point tools into core business systems</b>.",
-            "MarTech's guide on directing AI agents and the Salesforce field-service AI paradox both highlight the organizational friction: companies are deploying agents faster than they are building <b>governance, role clarity, or change-management muscle</b>. The decision this forces: who in the org owns agent orchestration, and what human checkpoints remain non-negotiable?"
+            "Shoppers in 2026 are not impressed by personalisation; they <b>expect precision and resent mistakes</b>. Attentive's research and Vereigen Media's SaaS demand-gen report both point to the same inflection: broad-reach tactics are losing ROI, while surgically targeted, consent-rich engagement is outperforming. Email ROI data is already shifting budgets in this direction.",
+            "The implication for MarTech stacks is consolidation pressure — teams are asking whether they need fewer, deeper tools rather than wider coverage. <b>Intentionality becomes an operational discipline</b>, not just a creative one, requiring clean data pipelines, clear segmentation logic, and governance over when AI personalises versus when a human decides."
           ],
           "ev": [
             [
-              "Unanet · Champ Agents across ERP &amp; CRM",
-              "https://martechseries.com/sales-marketing/crm/unanet-expands-champ-agents-powered-by-wyatt-across-its-erp-and-crm-portfolio/"
+              "Attentive · intentional personalisation report",
+              "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/"
             ],
             [
-              "MarTech · directing AI agents",
-              "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/"
+              "Vereigen Media · SaaS demand gen re-architecture",
+              "https://agilebrandguide.com/vereigen-media-precision-and-profit-re-architecting-saas-demand-generation-for-2026/"
             ],
             [
-              "Salesforce · field service AI paradox",
-              "https://agilebrandguide.com/salesforce-field-services-ai-paradox-maximizing-investment-amidst-a-growing-talent-and-data-crisis/"
+              "MarTech Series · email ROI signals budget shifts",
+              "https://martechseries.com/content/email-mktg/email-marketing-roi-data-signals-budget-shifts-for-2026/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI's <em>Accessibility &amp; Simulation Blind Spots</em>",
+          "head": "AI's <em>Accessibility &amp; Personality Blind Spots</em>",
           "url": "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/",
           "body": [
-            "Two under-discussed failure modes surfaced this month. First, AI-generated digital experiences are <b>systematically worsening accessibility</b>: AudioEye's research shows that as AI writes more front-end code and UX copy, it reproduces training-data biases that exclude users with disabilities — a legal &amp; reputational risk most martech buyers are not pricing in.",
-            "Second, AI buyer-persona simulations <b>miss personality and emotional texture</b>, meaning teams using synthetic audiences to test creative or messaging are optimizing against an incomplete model of real humans. Together, these gaps argue for mandatory human-in-the-loop audits even when AI output looks statistically strong."
+            "Two under-discussed failure modes are emerging as AI takes over more of the production stack. First, <b>AI-generated interfaces are actively degrading accessibility</b> for users with disabilities — a legal and reputational risk that most teams are not yet auditing. Second, AI buyer simulations miss personality nuance, meaning personas built on them will systematically misread emotionally driven purchase decisions.",
+            "Together these gaps suggest that <b>human editorial oversight is not a bottleneck to automate away</b> — it is the quality-control layer that keeps AI output from eroding brand equity and excluding users. Organisations that treat AI as a pure efficiency play, without investing in review workflows, are accumulating hidden technical and ethical debt."
           ],
           "ev": [
             [
-              "MarTech · AI &amp; accessibility gap",
+              "MarTech · AI making digital experience less accessible",
               "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/"
             ],
             [
-              "MarTech · AI misses personality in buyer simulation",
+              "MarTech · AI simulates buyers but misses personality",
               "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/"
             ],
             [
-              "MarTech · 4 questions before AI in event workflow",
+              "MarTech · 4 questions before adding AI to event workflow",
               "https://martech.org/4-questions-to-ask-before-adding-ai-to-an-event-workflow/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the common forcing function is the same: <em>AI is replacing human intermediaries faster than marketers can rebuild the measurement, governance, and trust frameworks those intermediaries once provided</em>."
+      "takeaway": "The month's news resolves into a single strategic tension: AI is rapidly reshaping every layer of the marketing stack, yet <em>the human responsibilities it cannot replace — measurement rigour, trust-building, accessibility, and editorial judgment — are exactly where most teams are under-investing</em>."
     }
   }
 }
