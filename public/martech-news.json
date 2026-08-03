@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T14:45:31.172026+00:00",
+  "generatedAt": "2026-08-03T08:45:30.371460+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,27 +45,66 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Why chasing AI ROI without clean data sets marketers up to fail",
-          "url": "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/",
-          "plain": "Marketing leaders are rushing to deploy <b>generative AI tools</b> to satisfy board pressure, but getting poor results because their underlying data is fragmented or dirty. The piece argues that <b>data infrastructure — not the AI model itself</b> — is the real competitive asset, and that skipping that foundation turns AI investment into expensive theatre.",
+          "head": "Milvus 3.0 goes lake-native, reshaping how production AI apps retrieve vector data",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zilliz-announces-milvus-3-0-making-the-worlds-most-adopted-open-source-vector-database-lake-native/",
+          "plain": "Zilliz's Milvus 3.0 lets developers build and serve <b>production-grade vector indexes directly over data-lake storage</b>, removing the need to copy data into a separate vector store. This changes how AI applications — including personalization and agentic systems — are architected and priced, making the open-source option more competitive with managed cloud alternatives.",
           "chips": [
+            "agentic",
             "genai",
-            "cdp",
-            "govern"
+            "cdp"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "81 sourced market-research statistics shaping AI and marketing in 2026",
-          "url": "https://agilebrandguide.com/81-market-research-statistics-for-2026/",
-          "plain": "A compiled reference of 81 data points drawn from 20 studies, covering <b>AI adoption, consumer behaviour, advertising spend, and buyer trends</b>. Useful as a benchmarking tool for marketing teams building business cases or governance frameworks around AI investment decisions in 2026.",
+          "fresh": false,
+          "head": "Why enterprise AI ROI disappoints — and why first-party data is the real asset",
+          "url": "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/",
+          "plain": "A practitioner-level essay argues that most enterprise AI deployments underdeliver because leaders chase tools before fixing their data foundations. The core claim: <b>proprietary customer data — not the AI model — is the durable competitive advantage</b>. Relevant for anyone justifying AI budgets or designing a CDP-first strategy.",
           "chips": [
+            "cdp",
             "genai",
             "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "ZoomInfo GTM Studio audience creation grows 7x as teams consolidate go-to-market stacks",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/audience-creation-in-zoominfos-gtm-studio-grows-7x-as-go-to-market-teams-consolidate-their-tech-stack/",
+          "plain": "ZoomInfo reports a sevenfold quarter-on-quarter jump in audiences built inside GTM Studio, with five times more new users. The figures signal that <b>B2B teams are consolidating audience-building and campaign launch into one platform</b>, squeezing out point-solution vendors — a meaningful shift in how marketing AI is bought.",
+          "chips": [
+            "cdp",
+            "perso",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "iPullRank formalizes enterprise AI Search partnership with Profound, targeting GEO at scale",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ipullrank-named-a-profound-agency-partner-formalizing-enterprise-ai-search-collaboration/",
+          "plain": "Agency iPullRank becomes a formal Profound partner, using Profound's citation and visibility data to help enterprise brands <b>track and improve their appearance inside AI-generated search answers</b>. This is a concrete example of GEO becoming a billable agency service, signalling a new budget line in enterprise marketing plans.",
+          "chips": [
+            "geo",
+            "govern"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "SalesCloser deploys autonomous AI voice agents for applicant screening at a top-5 social platform",
+          "url": "https://martechseries.com/social/social-media-platforms/salescloser-secures-a-top-five-global-social-media-platform-as-enterprise-customer-deploying-ai-powered-voice-qualification-at-scale/",
+          "plain": "SalesCloser's <b>autonomous AI agents now conduct voice-based applicant qualification</b> at enterprise scale for a major social platform, integrating directly into existing workflow systems. This is a live, production agentic deployment — not a pilot — showing how decisioning agents are moving into high-volume HR and sales pipelines.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep"
           ]
         }
       ]
@@ -76,64 +115,67 @@
           "num": "01",
           "src": "MarTech",
           "fresh": false,
-          "head": "IAB Tech Lab ships AAMP 2.3 with governance and privacy controls for AI agents in advertising",
+          "head": "IAB Tech Lab ships AAMP 2.3: governance and privacy controls to move AI ad agents into production",
           "url": "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/",
-          "plain": "The IAB Tech Lab released version 2.3 of its Autonomous Advertising Marketplace Protocol, adding <b>human approval thresholds on ad spend</b>, privacy guardrails, and integrations needed to move AI agents from pilots into live ad buying. This is an industry standards body setting the rules for how agentic AI operates in paid media — a direct influence on how the whole sector is governed.",
+          "plain": "IAB Tech Lab's AAMP 2.3 standard adds <b>human approval thresholds on ad spend</b> and privacy controls specifically designed for AI agents running live campaigns. This is an industry-body specification, not a vendor product — it sets the rules that buyers and sellers must follow, directly shaping how agentic ad buying gets built and governed across the market.",
           "chips": [
             "agentic",
             "govern",
-            "decis"
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "ADA acquires Algonomy to close the gap from data insight to fully agentic retail experience",
+          "head": "ADA acquires Algonomy to close gap from data insight to fully agentic retail experience",
           "url": "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/",
-          "plain": "ADA bought Algonomy, a specialist in <b>agentic decisioning for retail</b>, expanding its platform across 34 markets in APAC, US, MENA, and Europe. The deal matters because it combines a data and AI experience layer with real-time decisioning tech — showing how MarTech consolidation is being driven by demand for end-to-end agentic stacks.",
+          "plain": "ADA has completed its purchase of Algonomy, a specialist in <b>agentic decisioning for retail</b>. The combined platform covers 34 markets across APAC, US, MENA, and Europe. It matters because it shows consolidation of the data-to-decision stack: one platform to collect customer data, decide what to do, and act — removing the need for separate point tools.",
           "chips": [
             "agentic",
             "decis",
             "cdp",
-            "cep"
+            "perso"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": false,
-          "head": "How to measure marketing when AI owns discovery — updating analytics for the AI funnel",
-          "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
-          "plain": "As AI assistants increasingly answer queries instead of sending users to search results, the traditional top-of-funnel click metric breaks down. This piece offers a practical framework for capturing <b>brand demand and buyer intent when AI owns discovery</b>, directly reshaping how marketing teams justify spend and choose tools.",
+          "head": "AI speeds marketing production but teams still measure clicks, not business outcomes",
+          "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
+          "plain": "A broad look at how AI is accelerating content and campaign production while <b>measurement practices haven't kept up</b> — most teams still track clicks rather than revenue or lifetime value. This gap makes it hard to justify AI investment to leadership and risks optimizing for the wrong thing, which is a critical issue for anyone buying or governing marketing AI.",
           "chips": [
-            "geo",
-            "govern"
+            "genai",
+            "govern",
+            "agentic"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Expert Mode: The AI ROI Trap — why enterprise data quality beats rushing to deploy GenAI",
-          "url": "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/",
-          "plain": "A candid analysis arguing that most enterprise AI deployments underdeliver because leaders chase <b>FOMO-driven GenAI rollouts without fixing underlying data quality first</b>. It reframes the build-vs-buy decision around data infrastructure, which is highly relevant to anyone evaluating CDP or AI platform investments.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "How to measure marketing when AI owns discovery — updating analytics for GEO",
+          "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
+          "plain": "As AI answers replace traditional search results at the top of the funnel, standard click-based analytics become blind spots. The piece explains how to track <b>brand visibility inside AI-generated responses</b> and capture buyer intent before a user ever reaches your site — directly relevant to anyone building or buying measurement tools in a GEO-first world.",
           "chips": [
-            "genai",
-            "cdp",
-            "govern"
+            "geo",
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Yelp feeds reviews and local business data directly into ChatGPT",
-          "url": "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/",
-          "plain": "Yelp struck a deal giving ChatGPT access to its reviews and local business listings, earning Yelp prominent placement and referral links inside AI answers. This is a concrete example of <b>Generative Engine Optimization in action</b> — third-party review data now shapes whether a local business appears in AI-generated recommendations.",
+          "head": "Attentive 2026 report: personalized experiences are now a baseline shopper expectation, not a differentiator",
+          "url": "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/",
+          "plain": "A survey of 1,050 shoppers across the US, UK, and Australia finds that <b>personalization has shifted from a nice-to-have to a purchase driver</b> — consumers expect it and punish brands that miss. The data sets a concrete benchmark for what 1:1 messaging needs to deliver in 2026, influencing how CEPs and AI decisioning tools are evaluated and purchased.",
           "chips": [
-            "geo",
-            "genai"
+            "perso",
+            "cep",
+            "decis"
           ]
         }
       ]
@@ -143,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Taking the Wheel</em> in Marketing Workflows",
+          "head": "AI Agents Are <em>Rewriting the Job Description</em> of Marketing",
           "url": "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/",
           "body": [
-            "The dominant story of the month is not AI as a writing assistant but AI as an <b>autonomous actor</b>: agents that manage CRM portfolios, answer Instagram DMs, handle Google Business Profiles, and execute advertising buys without human hand-holding. ADA's acquisition of Algonomy and IAB Tech Lab's work on agent-ready ad infrastructure signal that the industry is laying real plumbing, not just running pilots.",
-            "The strategic shift this creates is that <b>marketers' primary job is becoming direction-setting and oversight</b> rather than execution. Teams that haven't defined the guardrails, goals, and escalation paths for agents will find those agents optimising for the wrong things at machine speed — making the governance question urgent, not theoretical."
+            "The dominant signal this month is that AI is no longer a tool marketers <b>use</b> — it is increasingly an actor marketers <b>direct</b>. From Unanet embedding Champ agents across its entire ERP &amp; CRM portfolio to ADA acquiring Algonomy to build a fully agentic growth platform, the architectural bet is clear: autonomous agents handling qualification, personalisation, and demand generation end-to-end.",
+            "This shifts the required skill from content production to <b>agent orchestration</b> — knowing how to set goals, guard-rails, and success criteria for systems that act on your behalf. Marketers who treat this as a new UI will be outrun by those who redesign workflows around delegation rather than automation."
           ],
           "ev": [
             [
-              "MarTech · Directing agents",
+              "MarTech · Why directing AI agents",
               "https://martech.org/why-directing-ai-agents-is-the-next-step-in-marketing-work/"
-            ],
-            [
-              "MarTech · IAB Tech Lab agents",
-              "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"
             ],
             [
               "Agile Brand · ADA acquires Algonomy",
               "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/"
+            ],
+            [
+              "MarTech Series · Unanet Champ agents",
+              "https://martechseries.com/sales-marketing/crm/unanet-expands-champ-agents-powered-by-wyatt-across-its-erp-and-crm-portfolio/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>Measurement Gap</em> Is Widening as AI Owns Discovery",
-          "url": "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/",
+          "head": "<em>Measurement Gaps</em> Are the Real AI Liability",
+          "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
           "body": [
-            "AI is accelerating content and campaign production, but the metrics infrastructure hasn't kept up. When ChatGPT surfaces a Yelp review or an AI overview replaces a search results page, the click that would have anchored attribution simply doesn't happen. <b>Traditional last-click and even multi-touch models become structurally blind</b> to a growing share of demand.",
-            "Prime Day data from this cycle — 9% more clicks paired with 45% less consumer spending — is a concrete illustration of the same problem: <b>engagement signals and revenue signals are decoupling</b>. Marketers who keep optimising for click-based proxies will misallocate budget precisely because their measurement model was built for a world that no longer exists."
+            "AI is accelerating content output and audience targeting, but the month's coverage converges on a painful mismatch: <b>measurement frameworks have not kept pace</b>. When AI owns discovery — as explored in how to measure marketing when AI owns discovery — standard last-click and even multi-touch attribution models become structurally blind to the journeys that actually convert.",
+            "The Agile Brand piece on the <b>AI ROI trap</b> frames this sharply: proprietary first-party data is the only durable signal left, because it is the one asset AI intermediaries cannot absorb and redistribute. Teams that invest now in data infrastructure rather than just model access will have something to measure with when everyone else is flying blind."
           ],
           "ev": [
             [
-              "MarTech · AI owns discovery",
-              "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/"
-            ],
-            [
-              "MarTech · Measurement lags production",
+              "MarTech · AI speeds production, measurement lags",
               "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
             ],
             [
-              "MarTech Series · Prime Day data",
-              "https://martechseries.com/sales-marketing/prime-day-data-surprise-9-more-clicks-45-less-consumer-spending-what-changed/"
+              "MarTech · How to measure when AI owns discovery",
+              "https://martech.org/how-to-measure-marketing-when-ai-owns-discovery/"
+            ],
+            [
+              "Agile Brand · The AI ROI Trap",
+              "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Proprietary Data Is the <em>Real Moat</em>, Not the AI Model",
-          "url": "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/",
+          "head": "The <em>Stack Consolidation</em> Wave Is Accelerating",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/audience-creation-in-zoominfos-gtm-studio-grows-7x-as-go-to-market-teams-consolidate-their-tech-stack/",
           "body": [
-            "Multiple threads this month converge on one idea: because foundation models are commoditising rapidly, <b>the durable competitive advantage lives in data that only you own</b> — first-party behavioural signals, proprietary customer histories, and institutional knowledge that no competitor can license. The \"AI ROI trap\" framing captures the risk of over-investing in model access while under-investing in the data layer that makes models useful.",
-            "This reframes the build-vs-buy debate. The question is no longer which AI vendor to choose but <b>what unique data assets to accumulate and protect</b>. Brands that treat their customer data as a balance-sheet asset — rather than a compliance liability — are the ones most likely to build advantages AI can't copy."
+            "ZoomInfo's GTM Studio reporting a <b>7× growth in audience creation</b> as teams consolidate their stack is not a product win story — it is a structural signal. Go-to-market teams are collapsing point solutions into unified platforms that can share a single data model, and vendors that sit at the centre of that model are capturing outsized usage.",
+            "This consolidation pressure also explains the ADA–Algonomy acquisition and the SalesCloser enterprise win: buyers want fewer contracts, tighter data loops, and <b>one place where AI context accumulates</b>. For marketers evaluating vendors, the question is no longer feature parity but which platform will become the data gravity well for their stack."
           ],
           "ev": [
             [
-              "Agile Brand · AI ROI trap",
-              "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/"
+              "MarTech Series · ZoomInfo GTM Studio 7×",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/audience-creation-in-zoominfos-gtm-studio-grows-7x-as-go-to-market-teams-consolidate-their-tech-stack/"
             ],
             [
-              "MarTech · Build an advantage AI can't copy",
-              "https://martech.org/how-to-build-an-advantage-ai-cant-copy/"
+              "Agile Brand · ADA acquires Algonomy",
+              "https://agilebrandguide.com/ada-acquires-algonomy-strengthening-its-intelligent-growth-platform-for-a-fully-agentic-experience/"
             ],
             [
-              "MarTech · Trust as differentiator",
-              "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/"
+              "Agile Brand · Re-architecting SaaS Demand Gen",
+              "https://agilebrandguide.com/vereigen-media-precision-and-profit-re-architecting-saas-demand-generation-for-2026/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Personalisation Hits a <em>Precision vs. Personality</em> Ceiling",
-          "url": "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/",
+          "head": "AI Discovery Channels Demand <em>New Trust Signals</em>",
+          "url": "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/",
           "body": [
-            "AI-driven personalisation is becoming table stakes — Attentive's 2026 shopper research and SaaS demand-gen playbooks both assume hyper-targeted messaging as a baseline. But a quiet counter-signal is emerging: <b>AI buyer simulations fail to capture personality</b>, and AI-generated experiences are quietly eroding accessibility for users with disabilities, raising both ethical and legal exposure.",
-            "The practical decision this creates is that <b>\"intentional\" personalisation — knowing when not to automate</b> — is now a differentiator. Brands that apply AI to scale relevance but keep human nuance in emotionally or contextually sensitive moments will outperform those that automate everything and wonder why engagement plateaus or brand trust erodes."
+            "Yelp piping reviews into ChatGPT and IAB Tech Lab releasing standards to make AI agents ready for real advertising are two sides of the same structural shift: <b>AI systems are becoming primary discovery surfaces</b>, and the inputs those systems trust — reviews, structured data, authoritative citations — are now marketing real estate. iPullRank formalising an enterprise AI search partnership signals that agencies are already building practices around this.",
+            "Simultaneously, the accessibility piece from AudioEye highlights a risk: AI-generated digital experiences can quietly exclude users, creating both <b>legal exposure and brand trust damage</b>. Marketers need a trust strategy that spans optimising for AI discovery on the outside and auditing AI-built experiences on the inside."
           ],
           "ev": [
             [
-              "MarTech · AI misses personality",
-              "https://martech.org/ai-can-simulate-buyers-but-it-misses-personality/"
+              "MarTech · Trust as competitive differentiator",
+              "https://martech.org/how-to-make-trust-your-competitive-differentiator-in-ai/"
             ],
             [
-              "Agile Brand · Intentional personalisation",
-              "https://agilebrandguide.com/attentive-the-imperative-of-intentional-personalization-meeting-2026-shopper-expectations/"
+              "MarTech · Yelp brings reviews to ChatGPT",
+              "https://martech.org/yelp-brings-reviews-and-local-leads-to-chatgpt/"
             ],
             [
-              "MarTech · AI &amp; accessibility",
-              "https://martech.org/ai-is-building-your-digital-experience-its-also-making-it-less-accessible/"
+              "MarTech · IAB Tech Lab AI agents for advertising",
+              "https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Creator &amp; Channel Economics Are Being <em>Structurally Repriced</em>",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/agentio-turns-youtube-creator-advertising-into-a-scalable-growth-engine-for-suris-u-s-expansion/",
+          "head": "First-Party Data Infrastructure Becomes the <em>Uncopiable Moat</em>",
+          "url": "https://martech.org/how-to-build-an-advantage-ai-cant-copy/",
           "body": [
-            "Two channel stories this month point to the same structural shift: email ROI data is triggering budget reallocation toward direct channels, while platforms like Agentio are making YouTube creator advertising <b>programmatically scalable for the first time</b>. Both moves reflect brands pulling spend toward channels they can measure and control as AI-mediated discovery makes paid search and social less predictable.",
-            "The direct-mail attribution problem being solved by GrayHair fits the same pattern — <b>omnichannel attribution is being retrofitted onto channels that predate digital tracking</b>. Taken together, these moves suggest a broader repricing of channel value: channels with clear, owned measurement are becoming premium; channels where AI intermediaries capture the value are being discounted."
+            "Two separate MarTech pieces this month make essentially the same argument from different angles: the only sustainable competitive advantage in an AI-saturated market is <b>data no competitor can replicate</b>. Milvus 3.0 going lake-native and SecuPi hardening database activity monitoring before AI amplifies risk are both infrastructure bets — the market is pricing in a future where vector search over proprietary data is a core marketing capability, not a data-science experiment.",
+            "The practical implication is a <b>portfolio reallocation decision</b>: budget that previously went to renting audience access through third-party platforms should increasingly flow toward owning the pipelines, storage, and governance layers that make first-party data actionable at AI speed. Teams that make this shift now will have a compounding asset; those that do not will find themselves paying rent forever."
           ],
           "ev": [
             [
-              "MarTech Series · Creator advertising scalable",
-              "https://martechseries.com/sales-marketing/programmatic-buying/agentio-turns-youtube-creator-advertising-into-a-scalable-growth-engine-for-suris-u-s-expansion/"
+              "MarTech · How to build an advantage AI can't copy",
+              "https://martech.org/how-to-build-an-advantage-ai-cant-copy/"
             ],
             [
-              "MarTech Series · Email ROI &amp; budget shifts",
-              "https://martechseries.com/content/email-mktg/email-marketing-roi-data-signals-budget-shifts-for-2026/"
+              "Agile Brand · The AI ROI Trap &amp; data goldmine",
+              "https://agilebrandguide.com/expert-mode-the-ai-roi-trap-and-why-your-data-is-the-real-goldmine/"
             ],
             [
-              "MarTech Series · Direct mail attribution",
-              "https://martechseries.com/content/email-mktg/grayhair-solves-direct-mail-attribution-problem-for-omnichannel-marketers/"
+              "MarTech Series · Milvus 3.0 lake-native",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zilliz-announces-milvus-3-0-making-the-worlds-most-adopted-open-source-vector-database-lake-native/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every thread this month, the real decision is the same: <em>who — or what — controls the customer relationship, and do you have the data and measurement infrastructure to know if that's working</em>."
+      "takeaway": "Across every story this month, the underlying bet is the same: <em>teams that own their data infrastructure and learn to direct AI agents will compound advantages that pure model-renters cannot replicate</em>."
     }
   }
 }
