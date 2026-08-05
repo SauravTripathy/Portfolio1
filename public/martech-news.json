@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:42:11.048555+00:00",
+  "generatedAt": "2026-08-05T07:59:43.298189+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,79 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "OpenAI ad experiment launches brand-specific AI agents after the click",
+          "head": "OpenAI ad experiment launches business-specific AI agents after the click",
           "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
-          "plain": "OpenAI is testing ads in ChatGPT that, when clicked, spin up a <b>brand-specific AI agent</b> to answer questions, recommend products, and capture leads — inside the conversation. This rewrites the post-click funnel: instead of landing pages, brands get an always-on agent. It changes how ad budgets are spent and how leads are qualified.",
+          "plain": "OpenAI is testing ads in ChatGPT that, instead of sending users to a website, spin up a brand-specific AI agent to answer questions, recommend products, and capture leads. This rewrites the post-click funnel entirely — <b>the ad becomes a conversation, not a landing page</b> — which forces marketers to rethink budgets, attribution, and what a conversion even means.",
+          "chips": [
+            "agentic",
+            "genai",
+            "decis",
+            "geo"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "BigID launches Agentic Access Control and Intent-Based Activity Monitoring for AI agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bigid-defines-the-missing-governance-layer-for-autonomous-ai-agents/",
+          "plain": "BigID introduced two new capabilities that create a <b>policy and monitoring layer specifically for autonomous AI agents</b> — controlling what data agents can access and checking their live behavior against stated intent rather than static permissions. As agentic systems move into production marketing stacks, this kind of guardrail is becoming a buying requirement, not a nice-to-have.",
+          "chips": [
+            "agentic",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "EZ Texting adds MCP servers so AI assistants like ChatGPT and Claude can run SMS campaigns",
+          "url": "https://martechseries.com/sales-marketing/messaging/ez-texting-launches-ai-assistants-for-sms-marketing-send-texts-run-campaigns-using-chatgpt-claude-or-any-famous-ai-tool/",
+          "plain": "EZ Texting's new <b>Model Context Protocol servers let external AI tools directly control SMS campaign creation and sending</b> on behalf of a business. MCP is quickly becoming the plumbing that connects general-purpose AI assistants to marketing execution systems, making this a signal of how the CEP category is evolving its integration model.",
+          "chips": [
+            "agentic",
+            "cep",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "PulsePoint launches Hatch, an agentic AI platform built natively for healthcare marketing",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/pulsepoint-launches-hatch-the-first-agentic-ai-platform-built-for-healthcare-marketing/",
+          "plain": "Hatch is a ground-up rebuild of PulsePoint's platform around agentic AI, wired into proprietary health data so marketers can <b>direct agents to plan, buy, and optimize campaigns through conversation</b>. Healthcare is a highly regulated vertical where governance and targeting constraints are strict, making this a meaningful test case for agentic decisioning in compliance-heavy markets.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cdp",
+            "govern"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "New industry guide tackles Generative Engine Optimization as AI-mediated search displaces traditional results",
+          "url": "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/",
+          "plain": "A new practitioner guide consolidates advice from marketing, content, and technology leaders on <b>how brands stay visible and accurate inside AI-generated answers</b> as tools like ChatGPT and Gemini replace the classic search results page. GEO is rapidly moving from experimental to essential, and a structured reference signals the discipline is maturing into a budget line.",
+          "chips": [
+            "geo",
+            "genai",
+            "govern"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "OpenAI ad experiment could change what happens after the click",
+          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
+          "plain": "OpenAI is testing ads inside ChatGPT that launch a <b>business-specific AI agent</b> — one that answers questions, recommends products, and captures leads without sending the user to a separate website. If this scales, it rewrites how ad spend is allocated and what a \"conversion\" even means, threatening traditional click-based MarTech stacks.",
           "chips": [
             "agentic",
             "decis",
@@ -61,36 +131,34 @@
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Stensul launches Dynamic Content Assembly to govern AI-scale email personalization",
-          "url": "https://martechseries.com/content/stensul-launches-dynamic-content-assembly-to-turn-ai-scale-personalization-into-campaigns-cleared-to-go-live/",
-          "plain": "Stensul's new suite wires together AI content generation, audience logic, and compliance review so large marketing teams can ship <b>personalized email campaigns at scale without added production risk</b>. It directly tackles the governance gap that stops many enterprises from actually deploying AI-created content — making it relevant to buyers of both CEPs and creative tooling.",
+          "head": "BigID Defines the Missing Governance Layer for Autonomous AI Agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bigid-defines-the-missing-governance-layer-for-autonomous-ai-agents/",
+          "plain": "BigID launched <b>Agentic Access Control and Intent-Based Activity Monitoring</b> — tools that watch what autonomous agents actually do, compare it against stated intent, and block policy violations in real time. As agentic AI moves into production marketing systems, this kind of dynamic guardrail becomes a procurement requirement, not an optional add-on.",
           "chips": [
-            "perso",
-            "genai",
-            "govern",
-            "cep"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Sentra launches Shadow AI DLP to block sensitive data leaking into ChatGPT and other GenAI tools",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sentra-extends-ai-data-readiness-platform-with-shadow-ai-dlp-to-stop-sensitive-data-loss-into-ai-applications/",
-          "plain": "Sentra's new capability detects when employees feed sensitive customer or business data into external AI apps like ChatGPT, Claude, or Copilot, and stops the transfer. As <b>AI data-loss prevention</b> becomes a compliance requirement, this shapes how marketing and IT teams govern which tools staff can use and what data they can share.",
+          "head": "EZ Texting Launches MCP Servers So AI Assistants Can Run SMS Campaigns Directly",
+          "url": "https://martechseries.com/sales-marketing/messaging/ez-texting-launches-ai-assistants-for-sms-marketing-send-texts-run-campaigns-using-chatgpt-claude-or-any-famous-ai-tool/",
+          "plain": "EZ Texting now exposes its SMS platform via <b>Model Context Protocol (MCP) servers</b>, letting ChatGPT, Claude, or any MCP-compatible agent send texts and run campaigns without a human touching the dashboard. This is a live example of the agentic-CEP integration pattern that will define how marketing execution platforms are built and bought going forward.",
           "chips": [
-            "govern",
-            "genai",
-            "cdp"
+            "agentic",
+            "cep",
+            "genai"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Onclusive launches GEO Analytics in the US to measure brand visibility inside AI search",
-          "url": "https://martechseries.com/analytics/onclusive-launches-geo-analytics-in-the-us-to-help-brands-understand-their-visibility-in-ai-search/",
-          "plain": "Onclusive now tracks how AI search engines — ChatGPT, Perplexity, Gemini — represent and cite brands, giving PR and marketing teams a <b>measurable GEO scorecard</b>. As more buyer journeys start inside AI answers rather than Google, this kind of analytics becomes a new must-have for brand and content strategy planning.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "New Agile Brand Guide Tackles Generative Engine Optimization (GEO)",
+          "url": "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/",
+          "plain": "A new practitioner guide consolidates GEO strategy from marketing, content, and tech leaders, covering how to stay visible and accurate as <b>AI-mediated search replaces traditional results pages</b>. It matters because brand discoverability is now decided inside model outputs, not just by crawlers, making GEO a core budget line rather than an SEO edge case.",
           "chips": [
             "geo",
             "genai",
@@ -99,87 +167,16 @@
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "EU AI Act Article 50 transparency rules now enforceable — plus Meta's WhatsApp/Instagram agent push",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-3-2026/",
-          "plain": "Three forces hit at once: <b>EU AI Act Article 50 transparency obligations became live law</b>, Meta announced AI business agents inside WhatsApp and Instagram, and top CMOs flagged AI saturation eroding brand differentiation. The governance shift is immediate and legal — any marketer deploying AI-generated content in the EU must now disclose it.",
-          "chips": [
-            "govern",
-            "agentic",
-            "genai",
-            "cep"
-          ]
-        }
-      ]
-    },
-    "week": {
-      "stories": [
-        {
-          "num": "01",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "OpenAI ad experiment launches business-specific AI agents after the click",
-          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
-          "plain": "OpenAI is testing ads in ChatGPT that, when clicked, spin up a <b>brand-specific AI agent</b> to answer questions, recommend products, and capture leads — right inside the chat. This rewrites the post-click funnel and forces marketers to rethink ad buying, landing pages, and how conversions are measured.",
+          "head": "PulsePoint Launches Hatch, an Agentic AI Platform Built for Healthcare Marketing",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/pulsepoint-launches-hatch-the-first-agentic-ai-platform-built-for-healthcare-marketing/",
+          "plain": "PulsePoint's Hatch lets healthcare marketers, planners, and traders query a <b>proprietary health data foundation through a conversational agentic interface</b>, covering every stage from planning to execution. It signals that agentic decisioning is now being packaged for regulated verticals — a model other compliance-heavy industries will follow, raising new governance questions.",
           "chips": [
             "agentic",
             "decis",
-            "genai",
-            "cep"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Stensul launches Dynamic Content Assembly to govern AI-scale email personalization",
-          "url": "https://martechseries.com/content/stensul-launches-dynamic-content-assembly-to-turn-ai-scale-personalization-into-campaigns-cleared-to-go-live/",
-          "plain": "Stensul's new suite wires together AI content creation, audience logic, and compliance review so large marketing teams can ship <b>personalized email campaigns at scale without multiplying risk</b>. It directly addresses the gap between 'AI can write it' and 'legal will approve it', which is the real bottleneck in enterprise email production.",
-          "chips": [
-            "perso",
-            "genai",
-            "govern",
-            "cep"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Onclusive launches GEO Analytics in the US to track brand visibility inside AI search",
-          "url": "https://martechseries.com/analytics/onclusive-launches-geo-analytics-in-the-us-to-help-brands-understand-their-visibility-in-ai-search/",
-          "plain": "Onclusive now lets PR and marketing teams measure how AI search engines like ChatGPT and Perplexity represent their brand in generated answers. <b>GEO Analytics fills a measurement blind spot</b> that traditional web analytics ignores entirely, making it a must-know tool as AI-mediated discovery replaces keyword search.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Sentra adds Shadow AI DLP to block sensitive data leaking into ChatGPT and other GenAI tools",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sentra-extends-ai-data-readiness-platform-with-shadow-ai-dlp-to-stop-sensitive-data-loss-into-ai-applications/",
-          "plain": "Sentra's new capability discovers which AI apps employees are actually using and prevents customer or proprietary data from being pasted into tools like ChatGPT or Copilot. As <b>unsanctioned GenAI use becomes a real compliance exposure</b> for marketing teams, data-loss prevention at the AI layer is moving from IT concern to boardroom priority.",
-          "chips": [
-            "govern",
-            "genai",
-            "cdp"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "EU AI Act Article 50 transparency rules now enforceable; Meta launches AI agents in WhatsApp and Instagram",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-3-2026/",
-          "plain": "Two major forces landed at once: the <b>EU AI Act's disclosure obligations</b> for AI-generated content became legally enforceable, and Meta rolled out AI business agents inside WhatsApp and Instagram. Together they set new legal floors for disclosure and open a huge new conversational commerce channel that marketers must now plan for.",
-          "chips": [
-            "govern",
-            "agentic",
-            "genai",
-            "cep"
+            "cdp",
+            "govern"
           ]
         }
       ]
@@ -189,11 +186,34 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>AI-native ad stack</em> rewires what happens after the click",
+          "head": "Agentic AI Moves from <em>Experiment to Infrastructure</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bigid-defines-the-missing-governance-layer-for-autonomous-ai-agents/",
+          "body": [
+            "Autonomous AI agents are no longer pilots — they are being embedded into payroll (isolved Guardian), healthcare marketing (PulsePoint Hatch), ERP and CRM (Unanet Champ), and enterprise contact centers (8x8). The shift signals that agentic AI is becoming a standard layer in operational stacks, not a feature add-on.",
+            "<b>Governance is the new bottleneck.</b> BigID's back-to-back announcements on agent governance and AI sovereignty show that security and data-access controls are racing to catch up with deployment speed. Teams adopting agents without a governance framework are quietly accumulating risk that will be expensive to unwind."
+          ],
+          "ev": [
+            [
+              "MarTech Series · BigID governance layer",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bigid-defines-the-missing-governance-layer-for-autonomous-ai-agents/"
+            ],
+            [
+              "Agile Brand · isolved Guardian agent",
+              "https://agilebrandguide.com/isolved-debuts-the-guardian-companys-first-ai-agent-designed-to-own-payroll-outcomes/"
+            ],
+            [
+              "MarTech Series · PulsePoint Hatch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/pulsepoint-launches-hatch-the-first-agentic-ai-platform-built-for-healthcare-marketing/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 02",
+          "head": "The Ad Click Is <em>No Longer the Destination</em>",
           "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
           "body": [
-            "OpenAI's ad experiment and Pattern's extension of reach into ChatGPT Ads signal that the funnel itself is being restructured: AI is becoming both the discovery surface <b>and</b> the conversion environment, collapsing the gap between awareness and action. Brands that plan around a click-to-landing-page model will find the model quietly obsolete.",
-            "For marketers this is a build-or-buy inflection point. Platforms like Pattern are already offering <b>AI-native advertising</b> as a managed channel, meaning budget decisions made today determine whether a brand even appears inside AI-mediated purchase journeys tomorrow. The window to experiment before this becomes table stakes is narrow."
+            "OpenAI's ad experiment and Pattern's extension of ad reach into ChatGPT surfaces a structural change: AI-native advertising collapses the gap between discovery and decision, making the post-click journey — or the absence of one — a new strategic variable. Brands optimised for landing-page conversion may be optimising for a funnel that is shrinking.",
+            "<b>Generative Engine Optimisation (GEO)</b> is the parallel discipline emerging on the organic side. Agile Brand Guide's dedicated GEO guide signals that showing up in AI-generated answers is now a distinct practice from SEO, requiring different content architecture and authority signals — a decision marketers can no longer defer."
           ],
           "ev": [
             [
@@ -201,109 +221,86 @@
               "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
             ],
             [
-              "Agile Brand · Pattern ChatGPT Ads",
+              "Agile Brand · Pattern ChatGPT ads",
               "https://agilebrandguide.com/pattern-brings-ai-native-advertising-to-global-brands-extending-cross-platform-reach-to-chatgpt-ads/"
             ],
             [
-              "MarTech · Autonomous AI shoppers",
-              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 02",
-          "head": "<em>GEO replaces SEO</em> as the brand-visibility battleground",
-          "url": "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/",
-          "body": [
-            "Generative Engine Optimization — getting a brand cited inside AI-generated answers rather than ranked on a results page — is moving from experiment to discipline. Onclusive's GEO Analytics launch and the Agile Brand Guide's dedicated GEO report both mark the moment the market decided this needs <b>its own measurement framework</b>, separate from traditional SEO metrics.",
-            "The strategic implication is blunt: share of voice now has a third dimension. A brand can dominate paid search, own organic rankings, <b>and still be invisible</b> inside the AI answers its buyers are reading. Teams need GEO audits and content strategies tuned to how large language models cite sources, not just how crawlers index pages."
-          ],
-          "ev": [
-            [
-              "Agile Brand · GEO Guide",
+              "Agile Brand · GEO guide",
               "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/"
-            ],
-            [
-              "MarTech Series · Onclusive GEO Analytics",
-              "https://martechseries.com/analytics/onclusive-launches-geo-analytics-in-the-us-to-help-brands-understand-their-visibility-in-ai-search/"
-            ],
-            [
-              "MarTech · Autonomous AI shoppers",
-              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Agentic AI enters <em>enterprise workflows at scale</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/momentive-software-brings-ai-agents-to-associations-and-nonprofits-with-launch-of-momentiveiq-agentic-workers/",
+          "head": "AI Speeds Production but <em>Measurement Stays Broken</em>",
+          "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
           "body": [
-            "In a single week, agentic AI workers shipped across payroll (isolved Guardian), ERP &amp; CRM (Unanet Champ), association management (MomentiveIQ), and analytics (Newton Research). This is no longer a frontier conversation — <b>autonomous agents are being bolted into the operational core</b> of mid-market and enterprise software, not just experimented with in sandboxes.",
-            "The decision that now faces marketing &amp; ops leaders is governance, not adoption. Creatio's 255%-of-prior-year bookings growth shows enterprises are committing budget fast, but Sentra's Shadow AI DLP launch in the same week signals that <b>ungoverned agent proliferation is already leaking sensitive data</b>. Buying an agent and governing an agent are two very different projects."
+            "Across multiple analyses this month, a consistent pattern emerges: AI tools are compressing content creation, campaign setup, and prospecting workflows dramatically — yet the metrics infrastructure to prove ROI on that speed has not kept pace. <b>Acceleration without attribution</b> creates a budget-justification problem that will surface at the next planning cycle.",
+            "The measurement gap also distorts team decisions. When it is easy to produce more but hard to measure what works, organisations default to volume — which risks brand dilution and audience fatigue. The holiday-season AI divide report reinforces that brands treating AI as a production shortcut, rather than a strategic tool, are building on an unstable foundation."
           ],
           "ev": [
             [
-              "Agile Brand · isolved Guardian",
-              "https://agilebrandguide.com/isolved-debuts-the-guardian-companys-first-ai-agent-designed-to-own-payroll-outcomes/"
+              "MarTech · measurement lags",
+              "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
             ],
             [
-              "MarTech Series · Creatio bookings 255%",
-              "https://martechseries.com/sales-marketing/crm/creatios-quarterly-bookings-reach-255-of-prior-year-results-as-enterprises-adopt-ai-at-scale/"
+              "MarTech · holiday AI divide",
+              "https://martech.org/four-holiday-reports-reveal-one-big-divide-over-ai/"
             ],
             [
-              "MarTech Series · Sentra Shadow AI DLP",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sentra-extends-ai-data-readiness-platform-with-shadow-ai-dlp-to-stop-sensitive-data-loss-into-ai-applications/"
+              "MarTech · reshaping marketing teams",
+              "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI <em>speeds production but breaks measurement</em>",
-          "url": "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/",
+          "head": "CRM &amp; Data Platforms Assert <em>Their Irreplaceable Core</em>",
+          "url": "https://martech.org/ai-can-knock-on-the-door-your-crm-marketing-platform-is-still-the-house/",
           "body": [
-            "Multiple pieces this month converge on the same uncomfortable gap: AI tools are compressing content and campaign production timelines dramatically, but the metrics infrastructure to evaluate what those campaigns actually do has not kept pace. <b>Faster output without better measurement</b> just means brands can scale mediocrity more efficiently.",
-            "Stensul's Dynamic Content Assembly — which takes AI-generated personalization and routes it through approval guardrails before it goes live — points at the emerging solution pattern: <b>governance layers inserted between AI generation and campaign activation</b>. The measurement lag also makes the CRM platform more, not less, important as the authoritative record of what works."
+            "Optimove's argument — that AI is a door-knocker while the CRM platform remains the house — captures a vendor counter-narrative gathering momentum. Matillion's new CEO hire signals similar intent: positioning data integration infrastructure as the connective tissue that makes AI outputs trustworthy and actionable rather than impressive but isolated.",
+            "<b>ZoomInfo case studies</b> showing 320% revenue growth and 900% CTR lifts are being used to argue that AI-enriched data pipelines, not standalone AI tools, are the durable competitive advantage. The strategic decision for buyers is whether to treat AI as a layer on top of their existing data stack or rebuild around AI-native architectures."
           ],
           "ev": [
             [
-              "MarTech · Production speed vs measurement",
-              "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
-            ],
-            [
-              "MarTech Series · Stensul Dynamic Content Assembly",
-              "https://martechseries.com/content/stensul-launches-dynamic-content-assembly-to-turn-ai-scale-personalization-into-campaigns-cleared-to-go-live/"
-            ],
-            [
               "MarTech · CRM is still the house",
               "https://martech.org/ai-can-knock-on-the-door-your-crm-marketing-platform-is-still-the-house/"
+            ],
+            [
+              "MarTech Series · Matillion CEO hire",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/matillion-names-data-integration-pioneer-girish-pancha-as-ceo-to-lead-the-ai-data-automation-revolution/"
+            ],
+            [
+              "MarTech Series · ZoomInfo revenue growth",
+              "https://martechseries.com/social/influencer-marketing/paul-cuffaro-llc-grew-revenue-320-after-rebuilding-its-prospecting-with-zoominfo/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Customers reject <em>self-serving AI experiences</em> — trust is the new differentiator",
+          "head": "Customers Reject <em>Self-Serving AI</em> — Trust Becomes a Differentiator",
           "url": "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/",
           "body": [
-            "The holiday-season research roundup and the customer-experience piece land the same finding from different angles: consumers do not object to AI per se, they object to AI that <b>optimises for the brand's convenience at their expense</b> — scripted deflection bots, personalisation that feels surveillance-y, recommendations that are obviously inventory-driven. The divide is sharpening as AI touchpoints multiply.",
-            "For teams rebuilding customer journeys around AI, this is the strategic override: <b>every agent, chatbot, and recommendation engine needs a clear customer-value rationale</b>, not just an efficiency rationale. The brands winning holiday spend this cycle, according to the data, are those where AI visibly helps the shopper rather than just helping the funnel. That is a design and editorial decision before it is a technology decision."
+            "The clearest consumer signal this month is not AI fatigue — it is AI distrust when the tool visibly serves the brand over the buyer. MarTech's analysis of customer sentiment, combined with Vericast's conditional-loyalty research in retail banking, shows that audiences are developing rapid heuristics for detecting when AI is being used to extract value rather than deliver it.",
+            "<b>The implication for strategy is concrete:</b> AI deployments that are transparent, reduce friction, and produce outcomes the customer actually wanted will build durable loyalty, while those optimised purely for conversion metrics risk accelerating churn. Designing for recipient experience — not just sender efficiency — is the emerging line between winning and losing AI implementations."
           ],
           "ev": [
             [
-              "MarTech · Customers hate self-serving AI",
+              "MarTech · customers hate self-serving AI",
               "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
             ],
             [
-              "MarTech · Holiday reports AI divide",
-              "https://martech.org/four-holiday-reports-reveal-one-big-divide-over-ai/"
+              "Agile Brand · Vericast conditional loyalty",
+              "https://agilebrandguide.com/vericast-conditional-loyalty-navigating-instant-expectations-in-retail-banking/"
             ],
             [
-              "MarTech · AI reshaping marketing teams",
-              "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
+              "MarTech · optimizing for autonomous AI shoppers",
+              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the real shift is that <em>AI is moving from a production accelerant to the primary surface where brands are discovered, evaluated, and converted</em> — and most marketing measurement, governance, and customer-experience frameworks were not built for that world."
+      "takeaway": "Every major move this month — agentic deployment, AI-native advertising, data platform consolidation — is converging on a single forcing function: <em>the brands that define clear governance, measurement, and recipient-value standards now will control the AI-era stack; those that optimise only for production speed will find themselves locked out of durable growth.</em>"
     }
   }
 }
