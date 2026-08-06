@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:34:09.212868+00:00",
+  "generatedAt": "2026-08-06T07:58:55.553654+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,22 +47,23 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "PubMatic Launches Governance Architecture for Agentic Advertising on AgenticOS",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pubmatic-launches-governance-architecture-for-agentic-advertising-on-agenticos/",
-          "plain": "PubMatic has built a <b>customizable guardrail architecture</b> into its AgenticOS platform, giving advertisers a verifiable audit trail from campaign planning through activation and measurement. This is significant because it directly tackles the trust and accountability gap that has slowed agentic ad buying — buyers can now set enforceable rules on what AI agents can decide autonomously.",
+          "head": "Klaviyo Acquires Agency AI Team, Names Elias Torres Chief Product Officer",
+          "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
+          "plain": "Klaviyo is buying the team and technology behind Agency, an AI-native customer success startup, and making its co-founder CPO. This is a <b>platform-level bet on agentic AI inside a major B2C CRM</b> — it directly changes how Klaviyo's 150,000+ customers will buy and use automated decisioning, making it one of the most consequential MarTech acquisitions of the year.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "cep",
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "HG Insights Launches Industry's First GEO-powered Software Review Platform for B2B Technology Vendors",
+          "fresh": false,
+          "head": "HG Insights Launches First GEO-Powered Software Review Platform for B2B Vendors",
           "url": "https://agilebrandguide.com/hg-insights-launches-industrys-first-geo-powered-software-review-platform-for-b2b-technology-vendors/",
-          "plain": "HG Insights is embedding <b>GEO monitoring and optimization tools</b> directly into TrustRadius product pages, letting B2B vendors track and influence how AI-powered search engines describe their software to buyers. This changes how martech vendors must think about visibility — review profiles now need to be engineered for AI answers, not just human readers.",
+          "plain": "HG Insights added <b>GEO monitoring and optimization tools to TrustRadius</b>, letting B2B tech vendors track and influence what AI answer engines say about their products. As buyers increasingly rely on AI-generated summaries instead of traditional search, this is the first major review-platform move to make GEO a built-in, measurable capability.",
           "chips": [
             "geo",
             "govern"
@@ -72,39 +73,39 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Telnyx Launches Email API, Completing Its Multi-Channel Platform for Real-Time Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/telnyx-launches-email-api-completing-its-multi-channel-platform-for-real-time-agents/",
-          "plain": "Telnyx now offers email alongside SMS, voice, and WhatsApp through one REST API, making it a <b>single-provider infrastructure layer for agentic applications</b> that need to act across every major channel. For builders of autonomous marketing agents, consolidating channels under one API simplifies the decisioning logic and reduces integration risk.",
+          "head": "Sapiom Raises $35M Series A to Cut Infrastructure Costs for Scaling AI Agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sapiom-raises-35-million-series-a-to-power-the-next-trillion-ai-agents/",
+          "plain": "Sapiom, backed by Dragonfly and Accel, is building the execution layer that makes shipping and running large numbers of AI agents cheaper. <b>Reducing the cost of agentic infrastructure</b> lowers the barrier for marketing teams to deploy autonomous workflows at scale, which directly shapes how — and how fast — enterprises buy into agentic AI.",
           "chips": [
             "agentic",
-            "cep",
-            "decis"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Cloudinary Becomes the First Visual Media Platform Built for Agent-Native Development",
-          "url": "https://martechseries.com/video/cloudinary-becomes-the-first-visual-media-platform-built-for-agent-native-development/",
-          "plain": "Cloudinary has launched an Agent Experience layer — APIs and guardrails designed so AI agents can autonomously select, transform, and deliver images and video without human intervention. This matters because <b>visual asset management is the missing piece</b> in most agentic content pipelines; embedding governance at the media layer keeps brand guardrails intact.",
-          "chips": [
-            "agentic",
-            "genai",
+            "decis",
             "govern"
           ]
         },
         {
-          "num": "05",
-          "src": "Agile Brand · via Agile Brand Guide",
-          "fresh": true,
-          "head": "IAB Sets AI Visibility Measurement Standards; PulsePoint, Rokt and Simpli.fi Ship Agentic Marketing Platforms",
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "IAB Sets AI Visibility Measurement Standards; Rokt, PulsePoint Ship Agentic Platforms",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-5-2026/",
-          "plain": "The IAB established <b>industry-wide standards for measuring AI visibility</b> — essentially defining how marketers prove their content is being surfaced inside AI-generated answers. Simultaneously, three ad-tech players shipped agentic marketing platforms in a single day, signaling that autonomous campaign execution is moving from pilot to production across the industry.",
+          "plain": "The IAB published standards for measuring how visible brands are inside AI-generated results, while Rokt, PulsePoint, and Simpli.fi each launched agentic marketing platforms on the same day. <b>Standardized AI visibility metrics from the IAB</b> give buyers and sellers a shared language, which is a foundational governance step for the whole industry.",
           "chips": [
             "geo",
             "govern",
             "agentic",
+            "cep"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "HubSpot Adds Ex-Google AI Agent Lead Jerry Dischler to Board of Directors",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/hubspot-announces-jerry-dischler-joins-board-of-directors/",
+          "plain": "HubSpot appointed Jerry Dischler — who spent nearly 20 years at Google and most recently led AI agent development for customer service and sales — to its board. <b>Board-level AI agent expertise at HubSpot</b> signals a strategic governance shift and hints at where the platform's product roadmap is heading for its millions of SMB users.",
+          "chips": [
+            "agentic",
+            "govern",
             "cep"
           ]
         }
@@ -115,10 +116,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
-          "head": "OpenAI ad experiment launches business-specific AI agents that answer questions and capture leads",
+          "fresh": false,
+          "head": "OpenAI ad experiment launches business-specific AI agents after the click",
           "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
-          "plain": "OpenAI is testing ads inside ChatGPT that spin up a brand-specific AI agent to handle questions, recommend products, and collect leads — all without leaving the chat. This <b>rewires the post-click funnel</b> and could force marketers to rethink budgets, attribution, and how they build <b>agentic customer touchpoints</b> inside third-party AI surfaces.",
+          "plain": "OpenAI is testing ads inside ChatGPT that spawn a <b>business-specific AI agent</b> — one that answers questions, recommends products, and captures leads. If this scales, it rewrites how ad budgets are spent and how brands must think about <b>post-click customer engagement</b>, moving the action from a landing page into an AI conversation.",
           "chips": [
             "agentic",
             "decis",
@@ -130,54 +131,53 @@
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "PubMatic launches governance architecture for agentic advertising on AgenticOS",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pubmatic-launches-governance-architecture-for-agentic-advertising-on-agenticos/",
-          "plain": "PubMatic has shipped a customisable guardrail system for agentic ad buying that gives advertisers a <b>verifiable audit trail</b> from planning through activation to measurement. This is an early production-grade answer to the question of who is accountable when AI agents spend media budgets — a governance gap that has been slowing enterprise adoption of <b>agentic advertising</b>.",
+          "head": "Klaviyo acquires Agency AI team and names Elias Torres Chief Product Officer",
+          "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
+          "plain": "Klaviyo is buying the team and technology behind Agency, an AI-native customer-success firm, and installing its CEO as CPO. This is a <b>direct build-out of agentic CRM capabilities</b> inside one of the largest B2C marketing platforms, signaling that autonomous customer engagement is now a core product bet, not a feature add.",
           "chips": [
             "agentic",
-            "govern",
+            "cep",
             "decis",
-            "cep"
+            "perso"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech · AI",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Optimizing your B2B brand for autonomous AI shoppers",
-          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
-          "plain": "When B2B buyers hand product research to AI agents, traditional SEO stops working. This piece explains how <b>AI agents evaluate and cite vendors</b> differently from human searchers and gives practical steps for ensuring your brand is selected when no human is clicking links — a shift that changes how B2B content and data are structured.",
+          "head": "HG Insights launches first GEO-powered software review platform for B2B vendors",
+          "url": "https://agilebrandguide.com/hg-insights-launches-industrys-first-geo-powered-software-review-platform-for-b2b-technology-vendors/",
+          "plain": "HG Insights embedded <b>GEO monitoring and optimization tools</b> directly into TrustRadius product pages, letting B2B tech vendors track and influence what AI systems say about them to buyers. It is the first review platform to treat AI-answer visibility as a measurable, manageable channel — a meaningful shift in how B2B brands are bought.",
           "chips": [
             "geo",
-            "agentic",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "HG Insights launches GEO-powered software review platform for B2B technology vendors",
-          "url": "https://agilebrandguide.com/hg-insights-launches-industrys-first-geo-powered-software-review-platform-for-b2b-technology-vendors/",
-          "plain": "HG Insights has embedded GEO monitoring and optimization services directly into TrustRadius product pages, letting B2B vendors track and influence <b>what AI answers say about their software</b>. This is the first review-platform product that treats generative engine visibility as a measurable, manageable channel — changing how <b>vendor discovery</b> is bought and managed.",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "How to optimize your B2B brand for autonomous AI shopping agents",
+          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
+          "plain": "When <b>AI agents do product research on behalf of buyers</b>, traditional SEO stops working. This piece explains what signals AI agents actually use to shortlist vendors and how B2B marketers must restructure content and data to get cited — a practical playbook for a buying model that is already arriving.",
           "chips": [
             "geo",
-            "genai",
+            "agentic",
             "govern"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand · via Agile Brand Guide",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "IAB sets AI visibility measurement standards; PulsePoint, Rokt, and Simpli.fi ship agentic marketing platforms",
+          "head": "IAB sets AI visibility measurement standards; agentic marketing platforms ship",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-5-2026/",
-          "plain": "The IAB published measurement standards for AI-driven ad visibility on August 3, while three ad-tech platforms shipped production agentic marketing tools on August 4. <b>Standardised measurement</b> and simultaneous platform launches on the same week signal that <b>agentic advertising infrastructure</b> is crossing from experiment to industry norm, affecting how campaigns are bought and audited.",
+          "plain": "The IAB formalized <b>standards for measuring brand visibility inside AI-generated answers</b> on August 3, while PulsePoint, Rokt, and Simpli.fi all shipped agentic marketing platforms on August 4. Standards plus simultaneous platform launches signal that <b>agentic ad delivery is entering a governed, commercial phase</b> — changing both buying and compliance decisions.",
           "chips": [
+            "geo",
             "agentic",
             "govern",
-            "decis",
-            "cep"
+            "decis"
           ]
         }
       ]
@@ -187,121 +187,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Infrastructure</em> Land Grab",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pubmatic-launches-governance-architecture-for-agentic-advertising-on-agenticos/",
+          "head": "AI Agents Are <em>Rewriting the Buying Journey</em>",
+          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
           "body": [
-            "Across the month, vendors raced to declare their platforms <b>\"agent-native\"</b> — Cloudinary for visual media, Telnyx for multi-channel comms, PubMatic with a full governance architecture for agentic advertising, and UJET preparing an Agentic Experience Optimization launch. This is not incremental feature work; it signals that the underlying plumbing of MarTech is being re-engineered around autonomous software agents as first-class users.",
-            "The governance angle is the decisive new wrinkle: PubMatic's AgenticOS ships with oversight controls baked in from day one, suggesting the industry has learned from earlier AI rollouts that <b>guardrails must be structural, not bolted on later</b>. For decision-makers, the question is no longer whether to support agents but which infrastructure standards will become default — and who sets the rules."
+            "Autonomous AI agents are now acting as proxies for human buyers — researching vendors, filtering options, and initiating purchases without a human ever visiting a brand's site. Platforms like HG Insights are already building <b>GEO-powered discovery layers</b> so that B2B brands can be found by these agents rather than only by people.",
+            "This shifts the marketing battleground from human persuasion to <b>machine-readable credibility</b>: structured data, authoritative signals, and context-rich content that an AI shopper can evaluate at speed. The brands optimizing for this now will have a structural advantage before the majority even recognize the channel exists."
           ],
           "ev": [
             [
-              "PubMatic · AgenticOS governance",
-              "https://martechseries.com/sales-marketing/programmatic-buying/pubmatic-launches-governance-architecture-for-agentic-advertising-on-agenticos/"
+              "MarTech · AI · Autonomous AI shoppers",
+              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
             ],
             [
-              "Cloudinary · agent-native platform",
-              "https://martechseries.com/video/cloudinary-becomes-the-first-visual-media-platform-built-for-agent-native-development/"
+              "Agile Brand · HG Insights GEO platform",
+              "https://agilebrandguide.com/hg-insights-launches-industrys-first-geo-powered-software-review-platform-for-b2b-technology-vendors/"
             ],
             [
-              "Telnyx · multi-channel agent API",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/telnyx-launches-email-api-completing-its-multi-channel-platform-for-real-time-agents/"
+              "MarTech · OpenAI ad experiment",
+              "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>GEO Replaces SEO</em> as the Visibility Battleground",
-          "url": "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/",
-          "body": [
-            "Generative Engine Optimization emerged this month as a named, investable discipline — not just a thought-leadership buzzword. HG Insights launched the industry's first GEO-powered software review platform for B2B vendors, the Agile Brand Guide published a dedicated GEO playbook, and MarTech's F.A.C.T.S. model reframed \"search everywhere optimization\" around how AI answer engines, not blue-link indexes, surface brands.",
-            "The operational implication is significant: <b>winning in AI-generated answers requires structured, authoritative, machine-readable content</b> rather than keyword density. Companies that delay rearchitecting their content for generative retrieval are effectively ceding share-of-answer to faster movers — a gap that compounds as AI assistants replace traditional search sessions."
-          ],
-          "ev": [
-            [
-              "Agile Brand · GEO playbook",
-              "https://agilebrandguide.com/new-agile-brand-guide-tackles-generative-engine-optimization-geo-the-discipline-reshaping-how-brands-show-up-in-ai-answers/"
-            ],
-            [
-              "HG Insights · GEO review platform",
-              "https://agilebrandguide.com/hg-insights-launches-industrys-first-geo-powered-software-review-platform-for-b2b-technology-vendors/"
-            ],
-            [
-              "MarTech · F.A.C.T.S. model",
-              "https://martech.org/why-the-f-a-c-t-s-model-is-the-key-to-search-everywhere-optimization/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "AI Is <em>Reshaping Marketing Teams</em> — Measurement Hasn't Caught Up",
+          "head": "<em>AI Reshaping Teams</em> — Not Just Tools",
           "url": "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/",
           "body": [
-            "Multiple pieces this month converged on an uncomfortable truth: AI is accelerating production and restructuring roles faster than organizations can measure the results. MarTech reported that <b>AI speeds marketing production but measurement lags</b>, while a separate analysis showed AI can simulate buyers but misses personality — meaning outputs look good before the metrics prove they work.",
-            "The team-structure angle is equally disruptive: the argument that <b>the future belongs to marketers who make others smarter</b> reframes individual contribution toward orchestration and prompt engineering rather than execution. Leaders who treat AI adoption as a tooling upgrade — rather than a talent &amp; measurement redesign — will find productivity gains evaporate when attribution and quality control fall behind."
+            "The conversation has moved past \"AI does tasks faster\" to \"AI changes who does what and why.\" Marketing teams are restructuring roles, with AI absorbing execution work and forcing humans to become <b>context-setters, editors, and cross-functional translators</b> rather than producers. The article framing marketers as people who \"make others smarter\" captures exactly this shift.",
+            "Measurement has not kept pace: production speed has soared but <b>attribution and impact tracking still lag</b>, meaning teams are moving faster without knowing where they're going. Organizations that close this gap — building feedback loops between AI output and business outcomes — will outperform those that treat AI as a pure cost-cutting device."
           ],
           "ev": [
             [
-              "MarTech · teams reshaped from inside",
+              "MarTech · AI reshaping teams",
               "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
             ],
             [
-              "MarTech · production up, measurement lags",
+              "MarTech · AI speeds production but measurement lags",
               "https://martech.org/ai-speeds-marketing-production-but-measurement-lags/"
             ],
             [
-              "MarTech · future marketers make others smarter",
+              "MarTech · Marketers who make others smarter",
               "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
             ]
           ]
         },
         {
-          "num": "Theme 04",
-          "head": "Autonomous <em>AI Buyers &amp; Shoppers</em> Force B2B Brand Rethink",
-          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
+          "num": "Theme 03",
+          "head": "The <em>Data-Quality Debt</em> Is Coming Due",
+          "url": "https://martechseries.com/sales-marketing/crm/pmg360-launches-audienceiq-an-audience-intelligence-platform-built-to-close-the-gap-between-crm-data-the-real-market/",
           "body": [
-            "A cluster of items this month pointed to a structural shift in B2B purchasing: AI agents are beginning to conduct discovery, shortlisting, and even vendor evaluation <b>without a human in the loop at every step</b>. MarTech's piece on optimizing for autonomous AI shoppers, combined with the OpenAI ad experiment that changes what happens after the click, signals that the buyer journey is being partially automated on the demand side — not just the supply side.",
-            "This forces a fundamental brand question: if an AI agent is the first &amp; sometimes only evaluator, <b>brand signals must be machine-legible</b> — structured data, consistent citations, verifiable authority — not just emotionally resonant copy. The holiday-season divide identified in four reports underscores that brands unprepared for AI-mediated buying will see conversion drop even as ad spend holds steady."
+            "Multiple launches this month share a single underlying diagnosis: <b>CRM and first-party data is stale, duplicated, or incomplete</b>, and AI systems amplify those flaws rather than hiding them. PMG360's AudienceIQ explicitly targets the gap between what CRM says and what the real market looks like; Nutshell is offering free duplicate-record cleanup; ZeroBounce is addressing bounced B2B email at scale.",
+            "For AI to deliver on its promise of personalization &amp; precision, the inputs must be trustworthy. Teams that invest in <b>ongoing data hygiene as infrastructure</b> — not a one-off project — will find AI compounding their advantage, while those who skip it will find AI compounding their errors."
           ],
           "ev": [
             [
-              "MarTech · autonomous AI shoppers",
-              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
+              "MarTech Series · PMG360 AudienceIQ launch",
+              "https://martechseries.com/sales-marketing/crm/pmg360-launches-audienceiq-an-audience-intelligence-platform-built-to-close-the-gap-between-crm-data-the-real-market/"
             ],
             [
-              "MarTech · OpenAI ad experiment",
-              "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
+              "MarTech Series · Nutshell CRM duplicate records",
+              "https://martechseries.com/sales-marketing/crm/clean-up-duplicate-records-in-your-crm-at-no-extra-cost-with-nutshell-crm/"
             ],
             [
-              "MarTech · holiday AI divide",
-              "https://martech.org/four-holiday-reports-reveal-one-big-divide-over-ai/"
+              "MarTech Series · ZeroBounce B2B email deliverability",
+              "https://martechseries.com/content/email-mktg/pipeline-killer-orange-marketing-and-zerobounce-reveal-why-b2b-emails-are-missing-the-inbox-and-how-to-fix-it/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "CRM Platforms as the <em>AI Orchestration Core</em>",
+          "url": "https://martech.org/ai-can-knock-on-the-door-your-crm-marketing-platform-is-still-the-house/",
+          "body": [
+            "Even as standalone AI tools proliferate, the dominant signal this month is that <b>CRM platforms are positioning themselves as the system of record that orchestrates AI</b> — not a legacy layer to be bypassed. Klaviyo acquired agency talent specifically to deepen its AI capabilities; Optimove argued that AI is an entry point, not a replacement, for CRM; HubSpot added Google ads leadership to its board.",
+            "This matters for buyers: the decision is no longer \"which AI tool\" but <b>\"which platform will unify my AI actions with my customer data and journey logic.\"</b> Vendors that can credibly answer that question will consolidate budget away from point solutions over the next 12–18 months."
+          ],
+          "ev": [
+            [
+              "MarTech · CRM is still the house (Optimove)",
+              "https://martech.org/ai-can-knock-on-the-door-your-crm-marketing-platform-is-still-the-house/"
+            ],
+            [
+              "MarTech Series · Klaviyo AI acquisition",
+              "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/"
+            ],
+            [
+              "MarTech Series · HubSpot board addition",
+              "https://martechseries.com/sales-marketing/programmatic-buying/hubspot-announces-jerry-dischler-joins-board-of-directors/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Customers Demand <em>AI That Serves Them</em>, Not the Brand",
+          "head": "Consumer Trust Hangs on <em>AI That Serves Them</em>",
           "url": "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/",
           "body": [
-            "The consumer backlash narrative around AI got more precise this month: customers don't reject AI outright — they reject AI deployed <b>to extract value rather than deliver it</b>. MarTech's piece \"Customers don't hate AI. They hate self-serving AI.\" and Vericast's research on conditional loyalty in retail banking both show that trust collapses the moment an AI interaction feels optimized for the company's outcomes over the customer's.",
-            "The CRM angle reinforces this: Optimove's argument that <b>AI can knock on the door but the CRM platform is still the house</b> is a reminder that personalization credibility depends on longitudinal relationship data, not just inference-time cleverness. Brands that lead with customer utility — transparent, genuinely helpful AI touchpoints — are the ones building the durable loyalty that survives the next model upgrade."
+            "Research and commentary converge on a sharp finding: consumers do not object to AI in marketing experiences — they object to AI that <b>optimizes for the brand at the customer's expense</b>. The holiday-report divide, Vericast's conditional-loyalty data, and the \"self-serving AI\" piece all point to the same fault line: speed and personalization impress, but any whiff of manipulation destroys trust faster than it was built.",
+            "The practical implication is that <b>AI governance and tone-of-voice decisions are now customer-experience decisions</b>, not just legal ones. Brands that embed genuine utility — answering questions, reducing friction, providing value — into their AI touchpoints will convert trust into loyalty; those chasing efficiency metrics alone will accelerate churn."
           ],
           "ev": [
             [
-              "MarTech · self-serving AI backlash",
+              "MarTech · Customers hate self-serving AI",
               "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
             ],
             [
-              "Vericast · conditional loyalty banking",
-              "https://agilebrandguide.com/vericast-conditional-loyalty-navigating-instant-expectations-in-retail-banking/"
+              "MarTech · AI holiday reports &amp; the big divide",
+              "https://martech.org/four-holiday-reports-reveal-one-big-divide-over-ai/"
             ],
             [
-              "MarTech · CRM is still the house",
-              "https://martech.org/ai-can-knock-on-the-door-your-crm-marketing-platform-is-still-the-house/"
+              "Agile Brand · Vericast conditional loyalty",
+              "https://agilebrandguide.com/vericast-conditional-loyalty-navigating-instant-expectations-in-retail-banking/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — from agentic infrastructure to GEO to autonomous buyers — converges on a single pivot: <em>the entire MarTech stack is being re-engineered for a world where AI agents, not humans, are often the first audience, the first evaluator, and the first point of contact</em>, and brands that don't redesign their content, measurement, and customer experience accordingly will find themselves invisible or irrelevant before the next budget cycle."
+      "takeaway": "Across every layer of the stack this month, the defining pressure is the same: <em>AI amplifies whatever foundations marketers have already built — good data, trustworthy CRM, genuine customer value — making the quality of those foundations the only sustainable competitive moat.</em>"
     }
   }
 }
