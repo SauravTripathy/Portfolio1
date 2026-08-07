@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T06:38:29.938590+00:00",
+  "generatedAt": "2026-08-07T14:29:47.141958+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,14 +45,13 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres Chief Product Officer",
-          "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
-          "plain": "Klaviyo is buying Agency, an AI-native customer success firm, and putting its co-founder in charge of product. This is a significant <b>strategic acquisition</b> that shapes how one of the biggest B2C CRM platforms will build and sell AI features going forward — directly affecting how marketers buy and use autonomous engagement tools.",
+          "head": "Time magazine serves ads directly to AI crawlers in bid to shape AI-generated answers",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "plain": "Time is experimenting with <b>ads targeted solely at AI crawlers</b>, not human readers. This is a concrete early test of a new ad-buying category: paying to influence what generative AI systems say about brands. If it scales, it changes how media is valued and how marketing budgets are allocated — a structural shift worth watching now.",
           "chips": [
-            "cep",
-            "agentic",
+            "geo",
             "genai",
             "govern"
           ]
@@ -60,51 +59,56 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "Time magazine serves ads directly to AI crawlers, testing AI-only ad strategy",
-          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
-          "plain": "Time is placing ads inside its pages specifically for AI crawlers — not human readers. If this works, it rewrites how brands spend to stay visible inside <b>AI-generated answers</b>. It is one of the first real-world tests of a paid GEO strategy, making it essential reading for anyone thinking about future media buying.",
+          "fresh": false,
+          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres chief product officer",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "Klaviyo is buying Agency, an AI startup, and putting its founder in charge of product. This is a significant platform acquisition: it signals Klaviyo is building deeper <b>agentic and generative AI capabilities</b> into its customer engagement stack, which could change how mid-market brands automate and personalize communications at scale.",
           "chips": [
-            "geo",
-            "genai"
+            "genai",
+            "agentic",
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach launches multi-agent 'Ask Me Anything' shopping search powered by Loomi",
-          "url": "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/",
-          "plain": "Bloomreach is turning the standard e-commerce search bar into a <b>multi-agent conversational interface</b> that handles keyword search, product questions, and customer service in one place. This is a concrete example of agentic AI reshaping how personalization is delivered on retail sites — and how platforms are being rebuilt around agent architectures.",
+          "head": "PubMatic ships AgenticOS guardrails, KIBO unifies commerce agents, Optimove finds 72% of US consumers use AI to shop",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-7-2026/",
+          "plain": "Three meaningful product moves in one digest: PubMatic adding <b>governance guardrails to its agentic ad OS</b>, KIBO unifying commerce-side agents, and Optimove data showing nearly three-quarters of US shoppers now use AI in buying decisions. Each story independently shifts how AI is bought, built, or governed in marketing.",
           "chips": [
             "agentic",
-            "perso",
+            "govern",
             "decis",
             "cep"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Coca-Cola FEMSA CDO on building one version of data truth across 15 countries and selling governance to the board",
-          "url": "https://agilebrandguide.com/from-ai4-coca-cola-femsas-jose-martinez-on-balancing-continuous-improvement-and-cx-consistency/",
-          "plain": "Coca-Cola FEMSA's Global CDO explains how a major multinational unified messy data across 15 markets and made the case for <b>data governance at board level</b>. This is a rare, senior practitioner account of the organisational and political work behind AI readiness — directly relevant to anyone building or buying marketing AI infrastructure.",
+          "head": "Personalization still falls short of customer expectations despite brand recognition advances",
+          "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
+          "plain": "A MarTech analysis finds most brands can identify customers but fail to act on <b>contextual signals in the moment</b>. The gap between recognition and true 1:1 personalization remains wide. This matters because it defines what marketers need to buy or build next — and why agentic decisioning tools are gaining traction.",
           "chips": [
+            "perso",
+            "decis",
             "cdp",
-            "govern"
+            "cep"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Agencies shift from content production to expertise as AI commoditises routine creative work",
-          "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
-          "plain": "New research shows agencies are restructuring their business model because <b>AI is making routine content creation nearly worthless</b>. They are pivoting to strategy, judgment, and expertise. This matters for marketers deciding what to keep in-house, what to buy from agencies, and where AI tools replace versus augment human work.",
+          "head": "Coca-Cola FEMSA CDO on selling data governance to the board across 15 countries",
+          "url": "https://agilebrandguide.com/from-ai4-coca-cola-femsas-jose-martinez-on-balancing-continuous-improvement-and-cx-consistency/",
+          "plain": "Coca-Cola FEMSA's global CDO explains how to build <b>one trusted data layer across 15 markets</b> and persuade executives to fund governance. This is a practical, senior-level account of making customer data usable at enterprise scale — directly relevant to anyone buying or building AI-driven marketing infrastructure.",
           "chips": [
-            "genai",
-            "govern"
+            "cdp",
+            "govern",
+            "perso"
           ]
         }
       ]
@@ -113,52 +117,52 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Klaviyo acquires AI startup Agency, names co-founder Elias Torres as Chief Product Officer",
-          "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
-          "plain": "Klaviyo is buying Agency, an AI-native customer-success company, and putting its CEO in charge of product. This is a direct signal that <b>B2C CRM platforms are racing to embed agentic AI</b> at the core — not bolt it on — changing what buyers should expect from marketing automation vendors and how those platforms get built.",
+          "head": "OpenAI ad experiment launches business-specific AI agents after the click",
+          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
+          "plain": "OpenAI is testing ads inside ChatGPT that, when clicked, open a <b>brand-specific AI agent</b> to answer questions, recommend products, and capture leads. This rewrites the post-click funnel: instead of a landing page, buyers talk to an agent. Marketers who miss this shift risk losing both ad spend and audience attention to competitors who don't.",
           "chips": [
             "agentic",
-            "cep",
+            "decis",
             "genai",
-            "govern"
+            "geo"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
           "fresh": false,
-          "head": "Time magazine serves ads directly to AI crawlers, testing a new GEO ad format",
+          "head": "Time Magazine serves ads directly to AI crawlers, pioneering AI-only ad formats",
           "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
-          "plain": "Time is experimenting with ads formatted specifically for AI crawlers rather than human readers — a strategy that could let brands <b>buy their way into AI-generated answers</b>. If it scales, it rewrites the rules of paid media and search budgeting, making generative engine optimization a commercial channel, not just an organic tactic.",
+          "plain": "Time is placing ads inside its content specifically targeting <b>AI crawlers</b>, so that sponsored messages end up inside AI-generated answers rather than traditional pages. This is the first mainstream media test of paid placement inside the AI answer layer, making it a landmark moment for <b>Generative Engine Optimization</b> and brand visibility strategy.",
           "chips": [
             "geo",
             "genai",
-            "agentic"
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": false,
-          "head": "OpenAI ad experiment launches brand-specific AI agents that answer questions and capture leads after the click",
-          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
-          "plain": "OpenAI is testing ads that, when clicked, spin up a <b>dedicated AI agent for that advertiser</b> — answering product questions, recommending items, and collecting leads inside ChatGPT. This collapses the funnel into a single conversational session and forces marketers to think about agentic post-click experiences, not just creative.",
+          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres chief product officer",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "Klaviyo is buying AI startup Agency and installing its founder as <b>chief product officer</b>, signalling a major push beyond email into agentic marketing automation. This acquisition reshapes how a leading customer engagement platform is built and governed, with direct implications for how mid-market brands buy and deploy AI-driven messaging tools.",
           "chips": [
+            "cep",
             "agentic",
-            "decis",
             "genai",
-            "perso"
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach launches multi-agent 'Ask Me Anything' search powered by its Loomi agentic personalization platform",
+          "head": "Bloomreach launches multi-agent 'Ask Me Anything' shopping capability powered by Loomi",
           "url": "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/",
-          "plain": "Bloomreach has turned the standard e-commerce search bar into an <b>agentic, conversational entry point</b> that handles keyword search, natural-language shopping questions, and customer service in one place. It shows how personalization platforms are moving from recommendation engines to multi-agent orchestration — a significant shift in how commerce AI is built and bought.",
+          "plain": "Bloomreach turned its site-search bar into a <b>multi-agent conversational interface</b> that handles keyword search, natural-language product questions, and customer service in one place. Retailers using Bloomreach can now offer a unified AI shopping assistant without integrating separate tools, raising the bar for what a <b>personalization platform</b> must deliver out of the box.",
           "chips": [
             "agentic",
             "perso",
@@ -168,16 +172,16 @@
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Optimizing your B2B brand for autonomous AI shoppers: when agents do the buying research",
-          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
-          "plain": "As B2B buyers delegate vendor research to AI agents, <b>traditional SEO stops working</b> and brand citation inside AI answers becomes the new battleground. This piece gives marketers a practical framework for ensuring their brand surfaces in agent-driven research — directly relevant to anyone planning content or brand strategy for 2026 budgets.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "PubMatic ships AgenticOS guardrails; KIBO AI unifies commerce agents; Optimove finds 72% of US consumers use AI to shop",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-7-2026/",
+          "plain": "Three significant signals in one digest: PubMatic adds <b>governance guardrails to its agentic ad-buying layer</b>, KIBO unifies separate commerce agents into one platform, and Optimove research shows nearly three-quarters of US consumers already use AI in their shopping journey. Together they show governance and agent consolidation becoming urgent buying criteria in MarTech.",
           "chips": [
-            "geo",
             "agentic",
-            "genai",
-            "govern"
+            "govern",
+            "decis",
+            "cep"
           ]
         }
       ]
@@ -187,20 +191,43 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Eating the Funnel</em>",
-          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
+          "head": "AI <em>reshapes marketing teams</em> from the inside out",
+          "url": "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/",
           "body": [
-            "Autonomous AI agents are now acting as buyers, researchers, and decision-makers — not just assistants. Bloomreach's multi-agent search bar, OpenAI's post-click ad experiment, and B2B guidance on optimizing for \"autonomous AI shoppers\" all point to the same shift: <b>the funnel is being traversed by software, not humans</b>.",
-            "This forces a fundamental rethink of who — or what — you are marketing to. Brands that optimize only for human attention are structurally invisible to AI-mediated purchase journeys. The new imperative is making your brand legible to agents as well as people."
+            "The dominant story of the past 30 days is not AI as a tool bolted onto existing workflows but AI as a force that <b>restructures roles, headcounts, and org charts</b>. Vendors like Awestruck AI are embedding directly inside companies to build internal capability, while touchpoint.systems sells the explicit promise of scaling marketing output without adding staff.",
+            "The implication for decision-makers is stark: the question is no longer which AI software to license but <b>how to redesign the team around AI-native operating models</b>. iQor's public disclosure of its AI-enabled operating model signals that this restructuring is mature enough to become a competitive differator worth publicising."
           ],
           "ev": [
             [
-              "MarTech · AI · autonomous B2B buyers",
-              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
+              "MarTech · AI · teams reshaping",
+              "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
             ],
             [
-              "MarTech · OpenAI post-click ads",
-              "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
+              "MarTech Series · Awestruck AI embeds in companies",
+              "https://martechseries.com/sales-marketing/programmatic-buying/awestruck-launches-awestruck-ai-a-new-division-that-embeds-inside-companies-to-build-real-ai-capability/"
+            ],
+            [
+              "MarTech Series · scale without headcount",
+              "https://martechseries.com/sales-marketing/touchpoint-systems-adds-ai-and-rpa-workflows-as-australian-businesses-seek-to-scale-marketing-without-adding-headcount/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 02",
+          "head": "<em>Personalization's persistent gap</em> between promise and reality",
+          "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
+          "body": [
+            "Despite years of investment in AI-driven personalization, a new round of data confirms customers still feel let down — and a separate study underscores that <b>customers do not object to AI per se, but to AI that feels self-serving rather than helpful</b>. The gap is no longer technical; it is strategic and ethical.",
+            "Bloomreach's launch of a multi-agent conversational search bar and Coca-Cola FEMSA's public discussion of balancing improvement with CX consistency both point toward the emerging answer: <b>personalization must be ambient and genuinely useful rather than algorithmically aggressive</b>. Brands that conflate data richness with customer centricity will keep under-delivering."
+          ],
+          "ev": [
+            [
+              "MarTech · personalization gap",
+              "https://martech.org/personalization-still-falls-short-of-customer-expectations/"
+            ],
+            [
+              "MarTech · customers hate self-serving AI",
+              "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
             ],
             [
               "Agile Brand · Bloomreach multi-agent search",
@@ -209,99 +236,76 @@
           ]
         },
         {
-          "num": "Theme 02",
-          "head": "<em>AI-Only Advertising</em> Opens a New Channel",
-          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "num": "Theme 03",
+          "head": "Search &amp; discovery pivot to <em>AI-native visibility</em>",
+          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
           "body": [
-            "<i>Time</i> magazine's AI-only ad format and Brandtech Jellyfish's \"Share of Model\" optimisation tool both signal that a distinct AI-native ad channel is crystallising. <b>Reaching consumers through AI interfaces — rather than through traditional placements — is becoming a real media buy</b>, not a thought experiment.",
-            "The playbook is still being written, but the directional decision is already live: marketers must now decide how much budget to allocate to AI-mediated impressions versus conventional display, search, and social. Brands that wait for the channel to mature risk ceding early-mover authority in AI environments."
+            "OpenAI's advertising experiment and Rank Prompt's V7 launch both signal the same seismic shift: <b>the battleground for brand visibility is moving from keyword-ranked pages to AI-generated answers</b>. Time magazine's AI-only ad format reinforces that media owners are already building inventory for an audience that never leaves the AI interface.",
+            "Marketers accustomed to optimising for search-engine results pages must now learn a different discipline — <b>prompt-layer optimisation and answer-engine presence</b>. The decision is urgent because early movers in AI-native visibility will establish authority signals before the ranking logic is fully understood or commoditised."
           ],
           "ev": [
+            [
+              "MarTech · OpenAI ad experiment",
+              "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
+            ],
+            [
+              "MarTech Series · Rank Prompt AI visibility",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/v7-launch-solidifies-rank-prompts-position-as-one-of-the-leading-ai-visibility-tools/"
+            ],
             [
               "MarTech · Time AI-only ads",
               "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
-            ],
-            [
-              "MarTech Series · Jellyfish Share of Model",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandtechs-jellyfish-launches-ai-ads-optimisation-in-share-of-model/"
-            ],
-            [
-              "MarTech · search everywhere optimization",
-              "https://martech.org/why-the-f-a-c-t-s-model-is-the-key-to-search-everywhere-optimization/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "AI Is <em>Restructuring Marketing Teams</em> Internally",
-          "url": "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/",
-          "body": [
-            "AI is not simply automating tasks — it is <b>redrawing org charts</b>. Reports on how agencies are evolving, how marketing teams are being reshaped from the inside, and why the future belongs to marketers who make colleagues smarter all converge on a single point: the unit of value is shifting from individual execution to AI-amplified judgment.",
-            "Klaviyo's acquisition of an agency team &amp; its technology is a concrete example: capability is now bought as human-plus-model bundles. Leaders who treat AI as a tool for the same old headcount structure will fall behind those who redesign roles around AI leverage."
-          ],
-          "ev": [
-            [
-              "MarTech · AI reshaping teams",
-              "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
-            ],
-            [
-              "MarTech · marketers who make others smarter",
-              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
-            ],
-            [
-              "MarTech Series · Klaviyo acquires agency tech",
-              "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Governing AI Cost &amp; <em>Trust Infrastructure</em>",
-          "url": "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/",
+          "head": "Agencies &amp; brands racing to <em>prove AI ROI</em>",
+          "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
           "body": [
-            "Three distinct infrastructure launches this month — CloudZero's financial control plane for AI, DXC &amp; Primary's AI-native Zero Trust platform, and Kyndryl's agentic modernization services — reveal that enterprises are moving past \"will AI work?\" to \"<b>how do we control what it costs and whether it can be trusted?</b>\" Cost observability and security are becoming table-stakes layers beneath every AI deployment.",
-            "For marketing technologists this is a strategic decision point: budget for governance tooling now or face runaway inference costs and security exposure later. The vendors who win the next cycle will be those who bundle capability with accountability, not just performance metrics."
+            "Agencies are publicly grappling with how to evolve their value proposition when AI commoditises execution, while CloudZero's launch of a dedicated AI financial control plane shows that <b>measuring and governing the cost of AI workloads is now a standalone market category</b>. Attribution models are simultaneously being challenged, with analysts urging teams to stop chasing the perfect model and focus on directional signals instead.",
+            "The through-line is a maturing demand for <b>accountability — not just capability</b>. Buyers want to know what AI investment actually produces, and the tools to answer that question (financial control planes, revised attribution frameworks, ROI dashboards) are arriving just as budgets for AI come up for renewal."
           ],
           "ev": [
             [
-              "Agile Brand · CloudZero financial control plane",
+              "MarTech · agency AI evolution",
+              "https://martech.org/how-agencies-are-evolving-to-overcome-ai/"
+            ],
+            [
+              "Agile Brand · CloudZero AI ROI control plane",
               "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/"
             ],
             [
-              "MarTech Series · DXC Zero Trust AI platform",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxc-and-primary-launch-ai-native-zero-trust-platform-for-enterprise-ai/"
-            ],
-            [
-              "MarTech Series · Kyndryl agentic services",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kyndryl-introduces-new-agentic-modernization-services-as-software-scaled-through-kyndryl-bridge/"
+              "MarTech · stop chasing attribution",
+              "https://martech.org/stop-looking-for-the-perfect-attribution-model/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Customers Reward <em>AI That Serves Them</em>, Not You",
-          "url": "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/",
+          "head": "Platform consolidation &amp; <em>AI context as infrastructure</em>",
+          "url": "https://martech.org/how-to-give-ai-the-context-it-needs/",
           "body": [
-            "YouGov brand-leadership data and Coca-Cola FEMSA's CX consistency story both reinforce what MarTech stated plainly: <b>customers do not reject AI — they reject AI deployed for the brand's convenience at the expense of their own</b>. The distinction is deciding whether AI is used to cut costs internally or to genuinely improve the experience on the customer's terms.",
-            "Observe.AI's recognition in conversational IVR &amp; the guidance on giving AI the right context both point toward the same operational requirement: AI interactions need human-grade empathy signals and accurate situational awareness to feel helpful rather than evasive. Brands that get this right build loyalty; those that don't accelerate churn."
+            "Adobe folding 70-plus tools into a single ChatGPT plugin, OneBill launching a billing-agnostic CPQ, and the Lumina–TNQTech acquisition all reflect the same pressure: <b>fragmented point solutions are collapsing into fewer, deeper platforms</b>. The integration layer is becoming as strategically important as any individual feature.",
+            "Underneath this consolidation sits a foundational challenge that MarTech's coverage surfaced explicitly this month: <b>AI is only as useful as the context it receives</b>. Organisations that invest in clean, well-governed data and rich contextual pipelines will extract compounding returns from consolidated platforms, while those that do not will find even the best tools underperform."
           ],
           "ev": [
             [
-              "MarTech · customers hate self-serving AI",
-              "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
-            ],
-            [
-              "Agile Brand · YouGov AI brand leadership",
-              "https://agilebrandguide.com/yougov-ai-brand-leadership-and-momentum-strategic-insights-for-enterprise-cx-and-marketing/"
-            ],
-            [
               "MarTech · how to give AI context",
               "https://martech.org/how-to-give-ai-the-context-it-needs/"
+            ],
+            [
+              "Agile Brand · Adobe single ChatGPT plugin",
+              "https://agilebrandguide.com/adobe-consolidates-its-chatgpt-presence-into-a-single-plugin-with-70-creative-and-productivity-tools/"
+            ],
+            [
+              "MarTech Series · OneBill AI-first CPQ",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/onebill-software-launches-cpq360-ai-an-ai-first-cpq-built-to-work-with-any-billing-stack/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer — ad formats, org structures, infrastructure, and CX — <em>AI is forcing marketers to make explicit choices they used to defer</em>: who you're targeting (humans or agents), how you govern cost and trust, and whether your AI deployment serves customers or merely your own margins."
+      "takeaway": "Across every corner of the feed, the common signal is that <em>AI has moved from experiment to operating infrastructure</em> — and the organisations winning are those redesigning teams, measurement, visibility strategies, and data pipelines around that reality rather than layering AI onto legacy approaches."
     }
   }
 }
