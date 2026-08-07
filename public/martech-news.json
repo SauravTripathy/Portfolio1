@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T15:37:53.077238+00:00",
+  "generatedAt": "2026-08-07T06:38:29.938590+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,23 +47,35 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Klaviyo Acquires Agency AI Team, Names Elias Torres as Chief Product Officer",
+          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres Chief Product Officer",
           "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
-          "plain": "Klaviyo is buying the team and technology behind Agency, an AI-native customer success company, and installing its co-founder as CPO. This is a direct talent-and-tech bet on <b>autonomous B2C CRM</b> — moving Klaviyo from email/SMS automation toward AI agents that manage customer relationships without manual intervention. Watch for ripple effects on how competing platforms respond.",
+          "plain": "Klaviyo is buying Agency, an AI-native customer success firm, and putting its co-founder in charge of product. This is a significant <b>strategic acquisition</b> that shapes how one of the biggest B2C CRM platforms will build and sell AI features going forward — directly affecting how marketers buy and use autonomous engagement tools.",
           "chips": [
-            "agentic",
             "cep",
-            "perso",
+            "agentic",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "02",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Time magazine serves ads directly to AI crawlers, testing AI-only ad strategy",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "plain": "Time is placing ads inside its pages specifically for AI crawlers — not human readers. If this works, it rewrites how brands spend to stay visible inside <b>AI-generated answers</b>. It is one of the first real-world tests of a paid GEO strategy, making it essential reading for anyone thinking about future media buying.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach Launches Multi-Agent 'Ask Me Anything' Agentic Search Powered by Loomi",
+          "head": "Bloomreach launches multi-agent 'Ask Me Anything' shopping search powered by Loomi",
           "url": "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/",
-          "plain": "Bloomreach's new capability turns a standard search bar into a <b>multi-agent conversational interface</b> handling keyword search, shopping questions, and customer service in one place. Built on its Loomi agentic personalization platform, this collapses several shopper touchpoints into one AI-driven entry point — a real architecture shift for how retailers deploy on-site personalization.",
+          "plain": "Bloomreach is turning the standard e-commerce search bar into a <b>multi-agent conversational interface</b> that handles keyword search, product questions, and customer service in one place. This is a concrete example of agentic AI reshaping how personalization is delivered on retail sites — and how platforms are being rebuilt around agent architectures.",
           "chips": [
             "agentic",
             "perso",
@@ -72,39 +84,27 @@
           ]
         },
         {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Adobe Unifies 70+ Creative Tools Into a Single ChatGPT Plugin",
-          "url": "https://agilebrandguide.com/adobe-consolidates-its-chatgpt-presence-into-a-single-plugin-with-70-creative-and-productivity-tools/",
-          "plain": "Adobe has replaced scattered ChatGPT integrations with one unified plugin giving users access to more than 70 creative and productivity tools inside OpenAI's interface. This matters because it makes <b>generative content production</b> inside a conversational AI far more practical for marketing teams, and signals how major creative platforms are repositioning around AI-native workflows.",
-          "chips": [
-            "genai",
-            "geo"
-          ]
-        },
-        {
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Answer Engine Optimization Moves Mainstream as HubSpot CMO Signals Brand Discovery Shift",
-          "url": "https://agilebrandguide.com/expert-mode-the-end-of-the-ten-blue-links-and-the-dawn-of-answer-engine-optimization/",
-          "plain": "HubSpot's CMO tells the Agile Brand podcast that the era of ten blue links is ending and <b>generative engine optimization</b> is now a board-level concern. The piece synthesizes how brands must rethink discoverability when AI answers replace search result pages — a strategic framing that helps newcomers understand why SEO budgets and tactics are being rewritten.",
+          "head": "Coca-Cola FEMSA CDO on building one version of data truth across 15 countries and selling governance to the board",
+          "url": "https://agilebrandguide.com/from-ai4-coca-cola-femsas-jose-martinez-on-balancing-continuous-improvement-and-cx-consistency/",
+          "plain": "Coca-Cola FEMSA's Global CDO explains how a major multinational unified messy data across 15 markets and made the case for <b>data governance at board level</b>. This is a rare, senior practitioner account of the organisational and political work behind AI readiness — directly relevant to anyone building or buying marketing AI infrastructure.",
           "chips": [
-            "geo",
-            "genai"
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "CloudZero Launches Financial Control Plane to Connect AI Spend to Business Outcomes",
-          "url": "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/",
-          "plain": "With enterprise AI budgets topping $2.6 trillion, CloudZero is releasing a shared system that lets finance, IT, and engineering teams trace every AI dollar to the result it produced. This addresses a growing governance gap: most companies can't yet prove <b>AI ROI at the campaign or model level</b>, making this kind of financial observability increasingly essential for procurement decisions.",
+          "head": "Agencies shift from content production to expertise as AI commoditises routine creative work",
+          "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
+          "plain": "New research shows agencies are restructuring their business model because <b>AI is making routine content creation nearly worthless</b>. They are pivoting to strategy, judgment, and expertise. This matters for marketers deciding what to keep in-house, what to buy from agencies, and where AI tools replace versus augment human work.",
           "chips": [
-            "govern",
-            "agentic"
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -113,25 +113,52 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Klaviyo Acquires Agency AI Team, Names Elias Torres Chief Product Officer",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Klaviyo acquires AI startup Agency, names co-founder Elias Torres as Chief Product Officer",
           "url": "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/",
-          "plain": "Klaviyo is buying the team and tech behind Agency, an AI-native customer success startup, and putting its CEO Elias Torres in charge of product. This matters because it signals that <b>B2C CRM is moving fast toward autonomous, agentic operation</b> — and that Klaviyo is betting its product roadmap on it, not just bolting AI on top.",
+          "plain": "Klaviyo is buying Agency, an AI-native customer-success company, and putting its CEO in charge of product. This is a direct signal that <b>B2C CRM platforms are racing to embed agentic AI</b> at the core — not bolt it on — changing what buyers should expect from marketing automation vendors and how those platforms get built.",
           "chips": [
             "agentic",
-            "decis",
             "cep",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "02",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Time magazine serves ads directly to AI crawlers, testing a new GEO ad format",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "plain": "Time is experimenting with ads formatted specifically for AI crawlers rather than human readers — a strategy that could let brands <b>buy their way into AI-generated answers</b>. If it scales, it rewrites the rules of paid media and search budgeting, making generative engine optimization a commercial channel, not just an organic tactic.",
+          "chips": [
+            "geo",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "OpenAI ad experiment launches brand-specific AI agents that answer questions and capture leads after the click",
+          "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
+          "plain": "OpenAI is testing ads that, when clicked, spin up a <b>dedicated AI agent for that advertiser</b> — answering product questions, recommending items, and collecting leads inside ChatGPT. This collapses the funnel into a single conversational session and forces marketers to think about agentic post-click experiences, not just creative.",
+          "chips": [
+            "agentic",
+            "decis",
+            "genai",
+            "perso"
+          ]
+        },
+        {
+          "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach Launches Multi-Agent 'Ask Me Anything' Shopping Capability Powered by Loomi",
+          "head": "Bloomreach launches multi-agent 'Ask Me Anything' search powered by its Loomi agentic personalization platform",
           "url": "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/",
-          "plain": "Bloomreach has turned the standard search bar into a <b>multi-agent conversational entry point</b> where shoppers can ask free-form questions, get product recommendations, and resolve service issues in one place. This shows how agentic personalization is reshaping the on-site experience — and raising the bar for what a commerce CEP must now do.",
+          "plain": "Bloomreach has turned the standard e-commerce search bar into an <b>agentic, conversational entry point</b> that handles keyword search, natural-language shopping questions, and customer service in one place. It shows how personalization platforms are moving from recommendation engines to multi-agent orchestration — a significant shift in how commerce AI is built and bought.",
           "chips": [
             "agentic",
             "perso",
@@ -140,41 +167,17 @@
           ]
         },
         {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "HubSpot CMO: The Ten Blue Links Are Gone — Brands Must Optimise for AI Answer Engines",
-          "url": "https://agilebrandguide.com/expert-mode-the-end-of-the-ten-blue-links-and-the-dawn-of-answer-engine-optimization/",
-          "plain": "HubSpot's CMO Kipp Bodnar explains how <b>AI search is replacing traditional results pages</b>, forcing marketers to rethink discovery from the ground up. The piece lays out a practical framing of Generative Engine Optimization — why your brand must now appear inside AI-generated answers, not just rank in a list of links.",
+          "num": "05",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Optimizing your B2B brand for autonomous AI shoppers: when agents do the buying research",
+          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
+          "plain": "As B2B buyers delegate vendor research to AI agents, <b>traditional SEO stops working</b> and brand citation inside AI answers becomes the new battleground. This piece gives marketers a practical framework for ensuring their brand surfaces in agent-driven research — directly relevant to anyone planning content or brand strategy for 2026 budgets.",
           "chips": [
             "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Jellyfish Expands Share of Model™ With AI Ads Optimisation Across PMax, ChatGPT, TikTok and More",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandtechs-jellyfish-launches-ai-ads-optimisation-in-share-of-model/",
-          "plain": "Jellyfish now runs an always-on AI strategy assistant that optimises paid media simultaneously across Google PMax, ChatGPT, TikTok, DV360, YouTube and Reddit. This is a concrete example of <b>cross-channel agentic decisioning in paid media</b> — automating budget and creative choices that humans previously made manually, across very different auction environments.",
-          "chips": [
             "agentic",
-            "decis",
-            "bandit",
-            "genai"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "CloudZero Launches Financial Control Plane to Connect AI Spending to Business Outcomes",
-          "url": "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/",
-          "plain": "As enterprise AI budgets hit $2.6 trillion, CloudZero gives finance, IT and engineering a shared dashboard that links every AI dollar to a measurable business result. This matters for MarTech buyers because <b>proving ROI on AI spend</b> is now a governance requirement — and tooling to do it is finally catching up.",
-          "chips": [
-            "govern",
-            "agentic"
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -184,113 +187,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The Rise of <em>Agentic Infrastructure</em> as the New Enterprise Stack",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kyndryl-introduces-new-agentic-modernization-services-as-software-scaled-through-kyndryl-bridge/",
+          "head": "AI Agents Are <em>Eating the Funnel</em>",
+          "url": "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/",
           "body": [
-            "Vendors are no longer selling AI features — they are selling <b>agentic layers</b> that sit above legacy systems and orchestrate work autonomously. Kyndryl's agentic modernization services, Newton Research's agentic analytics, and Bloomreach's multi-agent shopping assistant all share the same architecture: a coordinating agent that calls specialist sub-agents rather than a human clicking through a workflow.",
-            "This is a stack decision, not a tool decision. Once a business adopts an agentic platform as its coordination layer, it becomes much harder to switch vendors — making these announcements <b>land-grab moments</b> disguised as product launches. Decision-makers evaluating any of these platforms should treat interoperability and exit costs as first-order criteria."
+            "Autonomous AI agents are now acting as buyers, researchers, and decision-makers — not just assistants. Bloomreach's multi-agent search bar, OpenAI's post-click ad experiment, and B2B guidance on optimizing for \"autonomous AI shoppers\" all point to the same shift: <b>the funnel is being traversed by software, not humans</b>.",
+            "This forces a fundamental rethink of who — or what — you are marketing to. Brands that optimize only for human attention are structurally invisible to AI-mediated purchase journeys. The new imperative is making your brand legible to agents as well as people."
           ],
           "ev": [
             [
-              "Kyndryl · Agentic Modernization",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kyndryl-introduces-new-agentic-modernization-services-as-software-scaled-through-kyndryl-bridge/"
+              "MarTech · AI · autonomous B2B buyers",
+              "https://martech.org/optimizing-your-b2b-brand-for-autonomous-ai-shoppers/"
             ],
             [
-              "Bloomreach · Multi-Agent Search",
+              "MarTech · OpenAI post-click ads",
+              "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/"
+            ],
+            [
+              "Agile Brand · Bloomreach multi-agent search",
               "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/"
-            ],
-            [
-              "Newton Research · Agentic Analytics",
-              "https://agilebrandguide.com/newton-research-launches-unlimited-analytics-powered-by-agentic-ai/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Answer Engine Optimization</em> Replaces SEO as the Visibility Game",
-          "url": "https://agilebrandguide.com/expert-mode-the-end-of-the-ten-blue-links-and-the-dawn-of-answer-engine-optimization/",
+          "head": "<em>AI-Only Advertising</em> Opens a New Channel",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
           "body": [
-            "The ten blue links that structured a decade of search marketing are eroding fast. As AI answer engines synthesize responses directly, <b>brand visibility now depends on being cited inside a model's answer</b>, not on ranking in a results page — a shift that invalidates most existing SEO playbooks. Jellyfish's 'Share of Model' ad optimization product is the first explicit commercial bet that share-of-AI-answer is the new share-of-search.",
-            "This forces an immediate strategic question: is your content structured, authoritative, and frequently cited in ways that <b>training data and retrieval pipelines favor</b>? Marketers who treat this as a future concern are already falling behind brands actively engineering for answer-engine prominence."
+            "<i>Time</i> magazine's AI-only ad format and Brandtech Jellyfish's \"Share of Model\" optimisation tool both signal that a distinct AI-native ad channel is crystallising. <b>Reaching consumers through AI interfaces — rather than through traditional placements — is becoming a real media buy</b>, not a thought experiment.",
+            "The playbook is still being written, but the directional decision is already live: marketers must now decide how much budget to allocate to AI-mediated impressions versus conventional display, search, and social. Brands that wait for the channel to mature risk ceding early-mover authority in AI environments."
           ],
           "ev": [
             [
-              "Agile Brand · End of Ten Blue Links",
-              "https://agilebrandguide.com/expert-mode-the-end-of-the-ten-blue-links-and-the-dawn-of-answer-engine-optimization/"
+              "MarTech · Time AI-only ads",
+              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
             ],
             [
-              "Jellyfish · Share of Model Ads",
+              "MarTech Series · Jellyfish Share of Model",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandtechs-jellyfish-launches-ai-ads-optimisation-in-share-of-model/"
+            ],
+            [
+              "MarTech · search everywhere optimization",
+              "https://martech.org/why-the-f-a-c-t-s-model-is-the-key-to-search-everywhere-optimization/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Spend Gets a <em>Financial Control Plane</em>",
-          "url": "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/",
+          "head": "AI Is <em>Restructuring Marketing Teams</em> Internally",
+          "url": "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/",
           "body": [
-            "A new category is crystallizing around <b>governing and attributing AI costs</b> in real time. CloudZero's 'financial control plane for AI' and Zilliz's cost-aware vector database benchmarking signal that the early adopter phase — where teams spend freely to experiment — is giving way to a CFO-level demand for ROI accountability. The same pressure is visible in Alteryx's in-place analytics on Snowflake, which pitches governed access as a cost-reduction play.",
-            "For MarTech leaders, this shift means AI budget will increasingly flow through finance-approved guardrails rather than marketing discretionary spend. <b>Vendors who can surface clear unit economics</b> (cost per insight, cost per automated action) will win procurement conversations that pure capability stories will lose."
+            "AI is not simply automating tasks — it is <b>redrawing org charts</b>. Reports on how agencies are evolving, how marketing teams are being reshaped from the inside, and why the future belongs to marketers who make colleagues smarter all converge on a single point: the unit of value is shifting from individual execution to AI-amplified judgment.",
+            "Klaviyo's acquisition of an agency team &amp; its technology is a concrete example: capability is now bought as human-plus-model bundles. Leaders who treat AI as a tool for the same old headcount structure will fall behind those who redesign roles around AI leverage."
           ],
           "ev": [
             [
-              "CloudZero · AI Financial Control Plane",
-              "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/"
+              "MarTech · AI reshaping teams",
+              "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
             ],
             [
-              "Zilliz · Cost-Aware Benchmarking",
-              "https://martechseries.com/analytics/data-management-platforms/zilliz-adds-cost-aware-benchmarking-to-vdbbench-the-open-source-vector-database-benchmark/"
+              "MarTech · marketers who make others smarter",
+              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
             ],
             [
-              "Alteryx · Governed In-Place Analytics",
-              "https://agilebrandguide.com/alteryx-one-launches-on-snowflake-marketplace-with-governed-in-place-analytics-for-business-teams/"
+              "MarTech Series · Klaviyo acquires agency tech",
+              "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI-Native <em>Security &amp; Trust</em> Becomes a Product Category",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxc-and-primary-launch-ai-native-zero-trust-platform-for-enterprise-ai/",
+          "head": "Governing AI Cost &amp; <em>Trust Infrastructure</em>",
+          "url": "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/",
           "body": [
-            "DXC and Primary's AI-native Zero Trust platform marks a meaningful moment: security architecture is being rebuilt <b>from the ground up for AI workloads</b>, not retrofitted from perimeter-era thinking. Traditional zero-trust assumed human users and static apps; AI agents call APIs, ingest live data, and act autonomously — threat surfaces that legacy models were never designed to handle.",
-            "Enterprises deploying AI in customer-facing or data-sensitive contexts now face a hard choice: accept the risk of running AI on infrastructure designed for a pre-agent world, or invest in rebuilding security posture. <b>Vendors who bundle trust architecture into their AI platforms</b> will have a durable differentiator as regulators sharpen their focus on autonomous system accountability."
+            "Three distinct infrastructure launches this month — CloudZero's financial control plane for AI, DXC &amp; Primary's AI-native Zero Trust platform, and Kyndryl's agentic modernization services — reveal that enterprises are moving past \"will AI work?\" to \"<b>how do we control what it costs and whether it can be trusted?</b>\" Cost observability and security are becoming table-stakes layers beneath every AI deployment.",
+            "For marketing technologists this is a strategic decision point: budget for governance tooling now or face runaway inference costs and security exposure later. The vendors who win the next cycle will be those who bundle capability with accountability, not just performance metrics."
           ],
           "ev": [
             [
-              "DXC &amp; Primary · Zero Trust for AI",
+              "Agile Brand · CloudZero financial control plane",
+              "https://agilebrandguide.com/cloudzero-the-ai-roi-company-launches-the-financial-control-plane-for-ai/"
+            ],
+            [
+              "MarTech Series · DXC Zero Trust AI platform",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxc-and-primary-launch-ai-native-zero-trust-platform-for-enterprise-ai/"
             ],
             [
-              "Kyndryl · Agentic Modernization",
+              "MarTech Series · Kyndryl agentic services",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kyndryl-introduces-new-agentic-modernization-services-as-software-scaled-through-kyndryl-bridge/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Platform <em>Consolidation Pressure</em> Squeezes the MarTech Middle",
-          "url": "https://agilebrandguide.com/adobe-consolidates-its-chatgpt-presence-into-a-single-plugin-with-70-creative-and-productivity-tools/",
+          "head": "Customers Reward <em>AI That Serves Them</em>, Not You",
+          "url": "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/",
           "body": [
-            "Adobe collapsing 70+ tools into a single ChatGPT plugin, Klaviyo acquiring an agency team to deepen AI capabilities, and Bloomreach extending its platform into conversational commerce all reflect the same force: <b>large platforms are absorbing point solutions</b> rather than leaving room for specialized vendors alongside them. The 'best of breed vs. suite' debate is being settled in the suite's favor, at least at the AI layer.",
-            "For buyers, the implication is that <b>standalone MarTech tools face an accelerating obsolescence threat</b> as suite vendors bundle equivalent functionality into existing contracts. Vendors in the middle of the market — too big to be acquired cheaply, too small to build a full platform — are in the most precarious position and worth watching for distress signals or pivot announcements."
+            "YouGov brand-leadership data and Coca-Cola FEMSA's CX consistency story both reinforce what MarTech stated plainly: <b>customers do not reject AI — they reject AI deployed for the brand's convenience at the expense of their own</b>. The distinction is deciding whether AI is used to cut costs internally or to genuinely improve the experience on the customer's terms.",
+            "Observe.AI's recognition in conversational IVR &amp; the guidance on giving AI the right context both point toward the same operational requirement: AI interactions need human-grade empathy signals and accurate situational awareness to feel helpful rather than evasive. Brands that get this right build loyalty; those that don't accelerate churn."
           ],
           "ev": [
             [
-              "Adobe · ChatGPT Plugin Consolidation",
-              "https://agilebrandguide.com/adobe-consolidates-its-chatgpt-presence-into-a-single-plugin-with-70-creative-and-productivity-tools/"
+              "MarTech · customers hate self-serving AI",
+              "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
             ],
             [
-              "Klaviyo · AI Acquisition",
-              "https://martechseries.com/sales-marketing/crm/klaviyo-strengthens-ai-capabilities-with-strategic-acquisition-of-agency-team-and-technology/"
+              "Agile Brand · YouGov AI brand leadership",
+              "https://agilebrandguide.com/yougov-ai-brand-leadership-and-momentum-strategic-insights-for-enterprise-cx-and-marketing/"
             ],
             [
-              "Bloomreach · Multi-Agent Search",
-              "https://agilebrandguide.com/bloomreach-launches-multi-agent-ask-me-anything-capability-powered-by-loomi-transforming-the-search-bar-into-a-single-entry-point-for-shoppers/"
+              "MarTech · how to give AI context",
+              "https://martech.org/how-to-give-ai-the-context-it-needs/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every category this month, the decisive shift is the same: <em>AI is moving from a feature layer to the foundational operating model</em>, making infrastructure choices, visibility strategies, cost governance, security architecture, and platform consolidation all urgent board-level decisions rather than IT experiments."
+      "takeaway": "Across every layer — ad formats, org structures, infrastructure, and CX — <em>AI is forcing marketers to make explicit choices they used to defer</em>: who you're targeting (humans or agents), how you govern cost and trust, and whether your AI deployment serves customers or merely your own margins."
     }
   }
 }
