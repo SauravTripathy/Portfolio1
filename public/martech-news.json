@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T06:01:37.713255+00:00",
+  "generatedAt": "2026-08-08T14:03:17.392817+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,37 +45,49 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Personalization still falls short of customer expectations",
-          "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
-          "plain": "Most brands can recognize a returning customer but still fail to act on their current context — what they need right now, not just who they are historically. This matters because <b>context-aware personalization</b> is the gap separating basic segmentation from true 1:1 experiences, and it explains why investment in AI-driven personalization keeps growing while customer satisfaction stays flat.",
+          "head": "Nielsen acquires DoubleVerify for $2.15 billion; Cloudflare ships AEO visibility dashboard",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-8-2026/",
+          "plain": "Two significant market moves in one digest: Nielsen's $2.15 billion grab of DoubleVerify reshapes who controls <b>ad measurement and verification</b>, while Cloudflare launching an <b>AEO visibility dashboard</b> gives marketers a new way to track how their content appears inside AI-generated answers — a fast-growing governance and discovery priority.",
           "chips": [
-            "perso",
-            "cdp",
-            "decis"
+            "govern",
+            "geo"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Rank Prompt V7 turns AI visibility scores into automated brand-fix actions",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/v7-launch-solidifies-rank-prompts-position-as-one-of-the-leading-ai-visibility-tools/",
-          "plain": "Rank Prompt's new V7 release connects its AI-answer tracking data to Claude Code so it can automatically implement changes that improve how a brand appears in AI-generated search results. This is a meaningful step beyond passive monitoring — it makes <b>GEO optimization agentic</b>, letting the tool act on visibility gaps rather than just report them.",
+          "head": "Stale product feeds make brands invisible to agentic AI commerce engines",
+          "url": "https://agilebrandguide.com/a-stale-feed-is-an-invisible-product/",
+          "plain": "The BVAC framework flags <b>data freshness and latency</b> as the silent killer of brand visibility in agentic commerce. If your price or availability data is out of sync across surfaces, AI agents will skip your product entirely — not because your attributes are missing, but because they're <b>untrustworthy in real time</b>. Practical and urgent for any brand selling through AI-mediated channels.",
           "chips": [
-            "geo",
             "agentic",
+            "geo",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "The marketing skills AI is making more valuable: judgment, strategy, direction",
+          "head": "AI is reshaping the customer journey into a fluid, non-linear experience, forcing org-chart rethinks",
+          "url": "https://agilebrandguide.com/expert-mode-your-org-chart-is-not-the-customer-journey-with-todd-parsons-criteo/",
+          "plain": "Criteo's Todd Parsons argues that <b>siloed org structures become a strategic liability</b> when AI makes customer journeys conversational and non-linear. The piece explains why marketing teams structured around internal functions — not customer moments — will misallocate budget and miss signals that AI-driven decisioning surfaces. Relevant to anyone restructuring marketing ops around AI.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "The marketing skills AI is making more valuable: judgment, strategy, and directing AI systems",
           "url": "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/",
-          "plain": "As AI handles more execution tasks, the skills that rise in value are the ones machines still can't replicate — strategic judgment, creative direction, and knowing when to override the algorithm. For marketers entering the field, this reframes the question from <b>'what will AI replace?'</b> to 'what do I need to develop to stay relevant?'",
+          "plain": "As <b>AI absorbs execution tasks</b>, demand rises for marketers who can provide strategic direction, creative judgment, and governance oversight. The article maps which human skills appreciate in value as generative and agentic tools proliferate — useful framing for teams deciding how to hire, train, or restructure around AI-augmented workflows.",
           "chips": [
             "genai",
             "agentic",
@@ -83,29 +95,15 @@
           ]
         },
         {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Stale product data makes brands invisible to AI commerce agents",
-          "url": "https://agilebrandguide.com/a-stale-feed-is-an-invisible-product/",
-          "plain": "When price or availability data is outdated or inconsistent across surfaces, <b>agentic shopping tools skip your product entirely</b> — not because it's wrong but because it's untrustworthy. The BVAC framework labels this 'Latency and Data Freshness,' and this piece argues it's the silent killer for otherwise well-optimized brands competing in AI-mediated commerce.",
-          "chips": [
-            "geo",
-            "agentic",
-            "cdp"
-          ]
-        },
-        {
           "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "OneBill launches CPQ360.ai to govern both human and AI-agent quoting under shared pricing rules",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/onebill-software-launches-cpq360-ai-an-ai-first-cpq-built-to-work-with-any-billing-stack/",
-          "plain": "CPQ360.ai enforces the same margin guardrails and approval logic whether a quote is built by a sales rep or an AI agent, then passes clean terms directly to billing. This matters because <b>agentic sales workflows need governance rails</b> to stay compliant and profitable — this product is an early concrete example of that infrastructure being sold commercially.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "AI4 2026 conference draws 12,000 attendees from 100 countries, marking 50% year-on-year growth",
+          "url": "https://agilebrandguide.com/ai4-2026-sets-new-records-with-50-attendance-growth-as-more-than-12000-global-ai-leaders-from-100-countries-gather-in-las-vegas-to-explore-the-future-of-artificial-intelligence/",
+          "plain": "The AI4 conference hitting 12,000 attendees with 50% growth signals <b>surging enterprise investment and interest in applied AI</b> — including marketing applications. While partly an event round-up, the scale reflects genuine market momentum that affects buying cycles, vendor positioning, and where MarTech budgets are heading in 2026.",
           "chips": [
-            "agentic",
-            "govern",
-            "decis"
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -116,9 +114,9 @@
           "num": "01",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "OpenAI ad experiment launches business-specific AI agents after the click",
+          "head": "OpenAI ad experiment launches brand-specific AI agents after the click",
           "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
-          "plain": "OpenAI is testing ads inside ChatGPT that don't just link out — they spin up a brand-specific AI agent that answers questions, recommends products, and captures leads. This <b>fundamentally rewires the post-click experience</b>, threatening traditional landing pages and forcing marketers to rethink how budgets, creative, and conversion funnels are built.",
+          "plain": "ChatGPT is testing ads that don't just link to a landing page — they spin up a <b>brand-specific AI agent</b> that answers questions, recommends products, and captures leads inside the chat. If this scales, it rewrites how ad budgets are allocated and how brands must prepare their product and customer data for agentic interactions.",
           "chips": [
             "agentic",
             "decis",
@@ -129,10 +127,10 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Time magazine serves AI-only ads directly to AI crawlers",
+          "fresh": true,
+          "head": "Time magazine serves ads directly to AI crawlers in GEO-first strategy",
           "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
-          "plain": "Time is placing ads specifically aimed at AI crawlers rather than human readers, betting that <b>buying visibility inside AI-generated answers</b> is the next paid-media frontier. If it scales, this creates a new buying category that sits between SEO, programmatic, and GEO — and it changes how brand budgets are allocated.",
+          "plain": "Time is placing ads <b>targeted at AI crawlers rather than human readers</b>, betting that influencing what AI models ingest will shape the recommendations those models give. It is one of the first major publishers to treat AI-generated answers as a distinct media channel, signalling a new buying category marketers will need to plan for.",
           "chips": [
             "geo",
             "genai",
@@ -142,42 +140,43 @@
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres as chief product officer",
+          "fresh": true,
+          "head": "Klaviyo acquires AI startup Agency, appoints founder as Chief Product Officer",
           "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Klaviyo is buying AI startup Agency and installing its founder as CPO, a move that signals the platform is pushing hard into <b>agentic marketing automation</b>. For brands already on Klaviyo, this likely means faster rollout of autonomous campaign and decisioning features — and raises the stakes for competing CEPs.",
+          "plain": "Klaviyo is acquiring the AI startup Agency and bringing its founder Elias Torres in as CPO. Torres co-founded Drift, so this is a significant product leadership bet. The move signals Klaviyo's push to embed <b>agentic and decisioning capabilities</b> deeper into its email and SMS platform, directly affecting how mid-market brands will buy and build on it.",
           "chips": [
             "agentic",
-            "cep",
             "decis",
-            "genai"
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Coca-Cola FEMSA CDO on selling data governance to the board across 15 countries",
-          "url": "https://agilebrandguide.com/from-ai4-coca-cola-femsas-jose-martinez-on-balancing-continuous-improvement-and-cx-consistency/",
-          "plain": "Coca-Cola FEMSA's Global CDO explains how he built <b>one trustworthy data layer across 15 markets</b> and persuaded executives to fund governance. It's a rare, concrete case study on making the political and technical case for data governance inside a massive, multi-country enterprise — directly relevant to anyone buying or deploying marketing AI at scale.",
+          "fresh": true,
+          "head": "Stale product feeds make brands invisible to AI commerce agents",
+          "url": "https://agilebrandguide.com/a-stale-feed-is-an-invisible-product/",
+          "plain": "A new BVAC framework analysis explains how <b>outdated price or availability data</b> causes AI shopping agents to skip a product entirely, even when all other attributes are correct. As agentic commerce grows, feed latency becomes a direct revenue problem — not just an ops nuisance — changing what data teams must prioritise.",
           "chips": [
-            "govern",
+            "agentic",
+            "geo",
             "cdp",
-            "perso"
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Personalization still falls short of customer expectations despite recognition advances",
+          "fresh": true,
+          "head": "Personalization still falls short because brands recognize customers but miss context",
           "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
-          "plain": "New research shows most brands can identify a customer but still fail to act on <b>real-time context</b> — what that person needs right now. The gap between recognition and contextual relevance is widening as customer expectations rise, making this a key diagnostic for teams evaluating whether their CDP and CEP investments are actually delivering.",
+          "plain": "New research finds most brands can identify a returning customer but <b>cannot read their current intent or situation</b>, leaving personalization stuck at the segment level. The gap matters now because AI raises customer expectations further while also providing the tools — CDP integration and real-time signals — to finally close it.",
           "chips": [
             "perso",
             "cdp",
-            "cep",
-            "decis"
+            "decis",
+            "cep"
           ]
         }
       ]
@@ -187,57 +186,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI is <em>restructuring marketing teams</em> from within",
+          "head": "AI is <em>restructuring marketing teams</em> from the inside out",
           "url": "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/",
           "body": [
-            "AI is no longer a tool layered onto existing org charts — it is actively changing which roles exist, which skills get rewarded, and how decisions get made inside marketing departments. Vendors like Awestruck AI are now embedding directly inside companies to build capability, signalling that the transformation is structural, not cosmetic.",
-            "The skills gaining value are not technical but <b>strategic and relational</b>: making others smarter, synthesising insight, and orchestrating AI outputs toward human judgment. Marketers who treat AI as a productivity shortcut rather than a capability shift risk being organised around rather than leading the change."
+            "AI is no longer just a tool plugged into existing workflows — it is actively changing <b>who does what inside marketing organizations</b>. Roles are collapsing, new specialisms are emerging, and the org chart itself is becoming a liability when it doesn't mirror how customers actually move.",
+            "Vendors like Awestruck AI are embedding directly inside companies to build capability rather than sell software, signaling that the gap between <b>AI adoption and AI competence</b> is now a professional-services opportunity. The underlying shift is from headcount-as-capacity to skill-as-leverage."
           ],
           "ev": [
             [
-              "MarTech · AI is reshaping marketing teams",
+              "MarTech · AI is reshaping teams",
               "https://martech.org/ai-is-reshaping-marketing-teams-from-the-inside/"
             ],
             [
-              "MarTech · Skills AI is making more valuable",
+              "MarTech · skills AI makes more valuable",
               "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ],
             [
-              "MarTech · Future belongs to marketers who make others smarter",
-              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
+              "MarTech Series · Awestruck embeds AI capability",
+              "https://martechseries.com/sales-marketing/programmatic-buying/awestruck-launches-awestruck-ai-a-new-division-that-embeds-inside-companies-to-build-real-ai-capability/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Personalization gap</em> widens despite more AI",
+          "head": "Personalization promises keep <em>falling short of reality</em>",
           "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
           "body": [
-            "Even as AI investment in personalization grows, customers consistently report that brand experiences still feel generic and self-serving. The disconnect is not a data problem — it is a design problem: systems are optimised for conversion metrics rather than genuine customer value.",
-            "<b>Customers don't hate AI — they hate AI that serves the brand at their expense.</b> The implication is that more automation without a customer-first intent layer will widen the trust gap further, turning personalization spend into a source of churn rather than loyalty."
+            "Despite years of investment, personalization still fails to meet customer expectations — and the data this month makes that gap impossible to ignore. <b>Customers don't reject AI-driven experiences; they reject experiences that feel designed to extract value rather than deliver it.</b>",
+            "The org-chart problem compounds this: when marketing is siloed by function rather than organized around the customer journey, personalization signals get lost between teams. Fixing the experience requires fixing the <b>internal handoffs</b> before touching the technology."
           ],
           "ev": [
             [
-              "MarTech · Personalization still falls short",
+              "MarTech · personalization still falls short",
               "https://martech.org/personalization-still-falls-short-of-customer-expectations/"
             ],
             [
-              "MarTech · Customers don't hate AI, they hate self-serving AI",
+              "MarTech · customers hate self-serving AI",
               "https://martech.org/customers-dont-hate-ai-they-hate-self-serving-ai/"
             ],
             [
-              "Agile Brand · Coca-Cola FEMSA on CX consistency",
-              "https://agilebrandguide.com/from-ai4-coca-cola-femsas-jose-martinez-on-balancing-continuous-improvement-and-cx-consistency/"
+              "Agile Brand · org chart is not the customer journey",
+              "https://agilebrandguide.com/expert-mode-your-org-chart-is-not-the-customer-journey-with-todd-parsons-criteo/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI enters <em>the ad auction</em> — OpenAI &amp; new ad surfaces",
+          "head": "AI-native <em>ad formats and discovery</em> are rewriting the funnel",
           "url": "https://martech.org/openai-ad-experiment-could-change-what-happens-after-the-click/",
           "body": [
-            "OpenAI's advertising experiment and Time's AI-only ad formats signal that the next battleground for media spend is inside AI interfaces themselves, not just alongside traditional content. This changes the unit of value from an impression to a <b>post-click AI-mediated experience</b>, fundamentally altering how brands measure reach and intent.",
-            "Simultaneously, tools like Rank Prompt's V7 launch show a new category forming around <b>AI visibility optimisation</b> — the equivalent of SEO for large language model outputs. Marketers who ignore this surface now risk being invisible in the channels where discovery is increasingly happening."
+            "OpenAI's ad experiment and Time's AI-only ad units signal that <b>the post-click experience is being rebuilt from scratch</b> inside AI environments. The funnel no longer ends at a landing page; it may now resolve entirely within a conversational or generative interface.",
+            "Simultaneously, tools like Rank Prompt's V7 are emerging to help brands stay visible inside AI-generated answers, creating a new discipline — <b>AI visibility optimization</b> — that sits alongside but is distinct from traditional SEO. Marketers who ignore this channel risk becoming invisible at the moment of decision."
           ],
           "ev": [
             [
@@ -249,59 +248,59 @@
               "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
             ],
             [
-              "MarTech Series · V7 AI visibility tool",
+              "MarTech Series · Rank Prompt V7 AI visibility",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/v7-launch-solidifies-rank-prompts-position-as-one-of-the-leading-ai-visibility-tools/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Agencies under pressure to <em>reinvent their value</em>",
+          "head": "Agencies must <em>evolve or be disintermediated</em> by AI",
           "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
           "body": [
-            "As AI automates the executional work that once justified agency retainers — copy, creative variants, reporting — agencies face an existential question about where their margin now lives. The ones surviving are repositioning around strategic orchestration, brand judgment, and the institutional knowledge that models cannot replicate from a brief.",
-            "The same pressure is visible in market research: <b>the bottleneck was never data collection but synthesis and activation</b>. Agencies and research firms that rebuild around insight translation rather than production will retain relevance; those that don't are being disintermediated by their own clients' AI subscriptions."
+            "The agency model is under direct pressure as AI automates the production and media-buying tasks that once justified retainers. <b>The agencies surviving this moment are repositioning around judgment, synthesis, and making clients smarter</b> — not around execution volume.",
+            "This connects to a broader skills revaluation: the marketers and firms with futures are those who can <b>orchestrate AI outputs into coherent strategy</b> rather than compete with AI on speed or scale. The commodity layer is collapsing; the strategic layer is becoming more valuable, not less."
           ],
           "ev": [
             [
-              "MarTech · How agencies are evolving to overcome AI",
+              "MarTech · how agencies are evolving",
               "https://martech.org/how-agencies-are-evolving-to-overcome-ai/"
             ],
             [
-              "MarTech · Biggest bottleneck in market research",
-              "https://martech.org/the-biggest-bottleneck-in-market-research-isnt-the-research/"
+              "MarTech · future belongs to marketers who make others smarter",
+              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
             ],
             [
-              "MarTech Series · Awestruck AI embeds inside companies",
-              "https://martechseries.com/sales-marketing/programmatic-buying/awestruck-launches-awestruck-ai-a-new-division-that-embeds-inside-companies-to-build-real-ai-capability/"
+              "MarTech · skills AI makes more valuable",
+              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Scaling without headcount via <em>AI workflow automation</em>",
-          "url": "https://martechseries.com/sales-marketing/touchpoint-systems-adds-ai-and-rpa-workflows-as-australian-businesses-seek-to-scale-marketing-without-adding-headcount/",
+          "head": "Measurement orthodoxy is <em>breaking down under AI pressure</em>",
+          "url": "https://martech.org/stop-looking-for-the-perfect-attribution-model/",
           "body": [
-            "A cluster of product launches this month — touchpoint.systems adding AI &amp; RPA workflows, OneBill's AI-first CPQ, and iQor's AI-enabled operating model — all point to the same underlying pressure: businesses want to grow marketing output without growing headcount. <b>The constraint is no longer talent availability but operational design.</b>",
-            "This shift reframes the martech buying decision: the question is no longer 'which tool does this task?' but 'which stack lets us run more complex operations with a flat team?' Attribution and measurement frameworks are also being questioned in this context, as perfect models give way to <b>fast, directional signals</b> that keep leaner teams moving."
+            "The call to stop chasing the perfect attribution model is not a concession — it is a recognition that <b>AI-mediated journeys are too non-linear for any single model to capture</b>. The bottleneck in market research is no longer data collection; it is the speed at which humans can synthesize and act on signals.",
+            "As AI tools compress research cycles, the <b>real competitive advantage shifts to decision-making frameworks</b>, not measurement frameworks. Organizations that let perfect attribution be the enemy of good enough action will fall behind those that move on directional confidence."
           ],
           "ev": [
             [
-              "MarTech Series · Touchpoint AI &amp; RPA workflows",
-              "https://martechseries.com/sales-marketing/touchpoint-systems-adds-ai-and-rpa-workflows-as-australian-businesses-seek-to-scale-marketing-without-adding-headcount/"
-            ],
-            [
-              "MarTech Series · iQor AI-enabled operating model",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iqor-reveals-ai-enabled-operating-model-behind-industry-leading-client-performance/"
-            ],
-            [
-              "MarTech · Stop looking for the perfect attribution model",
+              "MarTech · stop looking for perfect attribution",
               "https://martech.org/stop-looking-for-the-perfect-attribution-model/"
+            ],
+            [
+              "MarTech · biggest bottleneck in market research",
+              "https://martech.org/the-biggest-bottleneck-in-market-research-isnt-the-research/"
+            ],
+            [
+              "MarTech · latest AI-powered martech releases",
+              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the common thread is that <em>AI is forcing a renegotiation of where human judgment adds value</em> — in org design, agency models, ad surfaces, and operational architecture alike."
+      "takeaway": "Every theme this month points to the same underlying truth: <em>AI is not a channel or a feature but a structural force redesigning how marketing organizations think, act, and prove value</em> — and the decisions that matter most now are organizational and philosophical, not technological."
     }
   }
 }
