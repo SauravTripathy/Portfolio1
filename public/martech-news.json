@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T14:34:53.304569+00:00",
+  "generatedAt": "2026-08-11T06:10:17.998014+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,11 +49,11 @@
           "fresh": true,
           "head": "OpenAI adds product carousels and AppsFlyer attribution to compete for ad dollars",
           "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "plain": "ChatGPT is adding <b>shoppable product carousels and performance attribution via AppsFlyer</b>, moving it from an experimental ad channel to a measurable one. This matters because it signals OpenAI wants a slice of performance marketing budgets, forcing marketers to rethink where they allocate spend and how GEO fits their channel mix.",
+          "plain": "ChatGPT now shows <b>product carousels and performance attribution</b> via AppsFlyer, moving it from an experimental ad channel to one performance marketers can measure and optimize. This shifts real budget decisions — it means brands must think about visibility inside AI answers as a paid channel, not just an organic one.",
           "chips": [
             "geo",
             "genai",
-            "decis"
+            "govern"
           ]
         },
         {
@@ -62,48 +62,48 @@
           "fresh": true,
           "head": "How to manage AI prompt governance and costs at scale",
           "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
-          "plain": "A practical guide to building <b>centralized prompt libraries and token-budget controls</b> so AI content generation stays on-brand and on-budget. As teams scale GenAI output, ungoverned prompts create brand risk and runaway API costs — this framework shows how to set the guardrails before they become urgent problems.",
+          "plain": "As teams scale <b>AI content generation</b>, uncontrolled prompt sprawl burns budget and breaks brand consistency. This guide outlines centralized frameworks for managing prompts and token costs — practical governance that any marketing ops leader buying or overseeing generative tools needs to understand before costs spiral.",
           "chips": [
-            "govern",
-            "genai"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "03",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "NICE CTO Kevin Lee on moving AI pilots into production",
+          "url": "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/",
+          "plain": "The hidden danger in enterprise AI adoption isn't a failed pilot — it's a <b>pilot that succeeds but stalls before production</b>. NICE's CTO explains the organizational and technical blockers that trap AI in proof-of-concept limbo, directly relevant to anyone buying or building customer engagement AI and wondering why ROI hasn't arrived.",
+          "chips": [
+            "agentic",
+            "cep",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
           "src": "Viral Nation · via MarTech Series",
           "fresh": true,
-          "head": "Viral Nation launches AI Discovery, a social-first GEO service to shape brand signals in AI answers",
+          "head": "Viral Nation launches AI Discovery, a social-first GEO service for brand visibility in AI answers",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viral-nation-launches-ai-discovery-a-social-first-geo-offering-to-connect-consumers-with-brands-via-ai-driven-discovery/",
-          "plain": "Viral Nation's new <b>Generative Engine Optimization offering</b> helps brands influence how AI systems like ChatGPT and Perplexity surface and describe them, using social signals and authority-building rather than traditional SEO. This is an early commercial product in the fast-emerging GEO category, relevant to any marketer worried about visibility in AI-generated answers.",
+          "plain": "Viral Nation's new <b>Generative Engine Optimization</b> offering helps brands shape the signals AI systems use to surface and recommend them — pulling in social authority and trust data. It's one of the first agency-productized GEO services, signaling that GEO budget lines are entering mainstream media plans.",
           "chips": [
             "geo",
             "genai"
           ]
         },
         {
-          "num": "04",
+          "num": "05",
           "src": "MarTech",
           "fresh": true,
-          "head": "5 AI blind spots that cost conversions — what generates copy vs. what changes behavior",
+          "head": "5 AI blind spots that cost marketers conversions",
           "url": "https://martech.org/5-ai-blind-spots-that-cost-you-conversions/",
-          "plain": "The piece argues that <b>most marketers misuse AI by optimizing for output volume rather than behavioral impact</b>, identifying five specific gaps between generating competent copy and actually moving customers to act. Useful for teams measuring GenAI ROI and wondering why conversion rates haven't budged despite faster content production.",
+          "plain": "Generating competent AI copy is now table stakes; <b>understanding what actually changes behavior</b> is not. This piece identifies five systematic gaps where marketers over-rely on generative output and miss conversion — useful for anyone evaluating whether their AI-assisted campaigns are working or just producing volume.",
           "chips": [
             "genai",
             "perso",
-            "decis"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Echovane · via Agile Brand",
-          "fresh": true,
-          "head": "Echovane raises $1M to deliver end-to-end AI-agent market research for Fortune 500 brands",
-          "url": "https://agilebrandguide.com/echovane-raises-funding-to-make-complex-market-research-a-done-for-you-ai-native-service/",
-          "plain": "Echovane, backed by alumni from Amazon and Stripe, uses <b>AI agents to run full market research studies autonomously</b> — design, fieldwork, and synthesis — for clients like P&G and Kantar. It signals that agentic AI is moving into research budgets, potentially disrupting traditional insights vendors and changing how marketers gather audience intelligence.",
-          "chips": [
-            "agentic",
-            "genai",
-            "cdp"
+            "govern"
           ]
         }
       ]
@@ -113,10 +113,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "OpenAI adds product carousels and AppsFlyer attribution to compete for ad dollars",
           "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "plain": "ChatGPT now shows <b>shoppable product carousels</b> and connects to AppsFlyer for performance attribution — two features that let marketers measure ROI inside an AI answer engine. This moves OpenAI from an experimental ad channel to a serious competitor for performance budgets, and forces brands to think about <b>GEO alongside paid search</b>.",
+          "plain": "ChatGPT is adding <b>shoppable product carousels and third-party attribution tracking</b> via AppsFlyer, giving performance marketers the measurement hooks they need to justify real budget. This is a structural shift: the world's biggest AI assistant is now building the plumbing to become a paid media channel, which directly changes how brands plan search and discovery spend.",
           "chips": [
             "geo",
             "genai",
@@ -126,11 +126,12 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "How to manage AI prompt governance and costs at scale",
-          "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
-          "plain": "As teams scale AI content generation, runaway token costs and off-brand outputs are real risks. This guide lays out <b>centralized prompt governance frameworks</b> — version control, spending caps, and brand guardrails — that keep AI content production safe and affordable. Directly relevant to anyone buying or building martech stacks with generative AI.",
+          "fresh": false,
+          "head": "Time magazine serves ads exclusively to AI crawlers, testing a new GEO ad format",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "plain": "Time is experimenting with <b>ads targeted at AI crawlers rather than human readers</b>, attempting to embed brand signals into the training and retrieval data that shapes AI-generated answers. If it works, it creates an entirely new media buying category — paying to influence what generative engines say about you, not just what humans see.",
           "chips": [
+            "geo",
             "genai",
             "govern"
           ]
@@ -138,39 +139,40 @@
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": true,
-          "head": "Time magazine serves ads directly to AI crawlers in a novel GEO strategy",
-          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
-          "plain": "Time is experimenting with <b>ads targeted at AI crawlers</b> rather than human readers — a tactic designed to plant brand signals inside the training and retrieval pipelines that power AI-generated answers. If it works, it creates an entirely new media-buying category that bypasses traditional display and search entirely.",
+          "fresh": false,
+          "head": "How to manage AI prompt governance and costs at scale",
+          "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
+          "plain": "As teams scale AI content generation, <b>uncontrolled prompts create both brand risk and runaway token costs</b>. This practical guide covers building centralized prompt libraries, token budgets, and approval workflows — exactly the operational layer most marketing orgs skip when moving from pilot to production, and the gap that causes real-world failures.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "04",
-          "src": "Viral Nation · via MarTech Series",
-          "fresh": true,
-          "head": "Viral Nation launches AI Discovery, a social-first Generative Engine Optimization service",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viral-nation-launches-ai-discovery-a-social-first-geo-offering-to-connect-consumers-with-brands-via-ai-driven-discovery/",
-          "plain": "Viral Nation is selling a managed service that shapes the social signals and authority cues AI systems use when deciding which brands to surface in answers. This is one of the first agency offerings to package <b>GEO as a productized retainer</b>, signaling that generative engine visibility is moving from experiment to budget line item.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Klaviyo acquires AI startup Agency, appoints founder Elias Torres as Chief Product Officer",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "Klaviyo is buying Agency, an <b>agentic AI startup</b>, and installing its founder as CPO — a signal that one of the largest email and SMS platforms is betting its product roadmap on autonomous decisioning, not just generative copy. This acquisition changes what Klaviyo can offer brands who want AI to act on customer data, not just analyze it.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "cep",
+            "decis",
+            "perso"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
           "fresh": false,
-          "head": "Klaviyo acquires AI startup Agency, names founder Elias Torres chief product officer",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Klaviyo bought the AI startup Agency and brought its founder in as CPO — a move that signals the <b>CEP market is consolidating around agentic capabilities</b>. For marketers evaluating email and SMS platforms, this acquisition suggests Klaviyo is building toward autonomous campaign execution rather than just assisted drafting.",
+          "head": "Personalization still falls short of customer expectations despite widespread recognition",
+          "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
+          "plain": "New research finds most brands can <b>identify a customer but still fail to understand their context</b> — delivering recognition without relevance. The gap points to a data infrastructure problem: CDPs capture identity but not intent signals, and that limits what any personalization or AI layer above them can actually do for conversion.",
           "chips": [
-            "cep",
-            "agentic",
-            "genai"
+            "perso",
+            "cdp",
+            "decis"
           ]
         }
       ]
@@ -180,121 +182,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "OpenAI &amp; <em>AI-Native Ad Platforms</em> Enter the Arena",
-          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
+          "head": "AI Moves from <em>Pilot to Production</em>: The Real Cost of Staying Cautious",
+          "url": "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/",
           "body": [
-            "OpenAI's move to build advertising technology signals that the companies controlling large language models now want a direct cut of the $600B+ global ad market. This is not a product update — it redraws the competitive map, putting AI labs in direct competition with Google, Meta, and the programmatic stack.",
-            "Simultaneously, Viral Nation's GEO offering and Time's AI-only ad formats show that <b>generative-engine optimization</b> is becoming a real budget line. Brands that still plan only for search and social are already missing the channel where the next generation of consumer discovery is being built."
+            "The dominant operational story of the month is enterprises discovering that <b>saying \"no\" to AI deployment is itself an expensive decision</b>. NiCE's CTO and Island's Shawn Surber both frame caution not as safety but as competitive self-harm, arguing that the cost of delayed production rollouts now exceeds the risk of imperfect launches.",
+            "The practical question has shifted from \"should we use AI?\" to \"how do we govern prompts, control costs, &amp; scale what already works?\" MarTech's prompt-governance guide crystallises this: organisations need policies, not just pilots, before the bill arrives."
           ],
           "ev": [
             [
-              "MarTech · OpenAI ad tech",
-              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
+              "Agile Brand · NiCE CTO on pilot-to-production",
+              "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/"
             ],
             [
-              "MarTech · AI-only ads frontier",
-              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
+              "Agile Brand · Why 'No' Became the Expensive Answer",
+              "https://agilebrandguide.com/expert-mode-from-ai4-why-no-became-the-expensive-answer-with-shawn-surber-from-island/"
             ],
             [
-              "MarTech Series · Viral Nation GEO",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viral-nation-launches-ai-discovery-a-social-first-geo-offering-to-connect-consumers-with-brands-via-ai-driven-discovery/"
+              "MarTech · Managing AI prompt governance &amp; costs",
+              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>Human-Judgment Premium</em> Rises",
-          "url": "https://agilebrandguide.com/from-ai4-big-spaceships-ceo-taryn-crouthers-on-prioritizing-human-judgment-while-moving-fast/",
+          "head": "<em>Generative Engine Optimisation</em> Replaces Search as the Discovery Battleground",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viral-nation-launches-ai-discovery-a-social-first-geo-offering-to-connect-consumers-with-brands-via-ai-driven-discovery/",
           "body": [
-            "At AI4 2026 — which drew 12,000 leaders from 100 countries, a 50% attendance jump — the loudest practitioner voice was not about automation speed but about <b>when to override the model</b>. Big Spaceship's CEO Taryn Crouthers framed human judgment as a deliberate organizational capability, not a fallback.",
-            "MarTech's own reporting on AI blind spots and the skills AI makes more valuable echoes the same shift: strategic empathy, contextual reasoning, and cross-functional translation are <b>appreciating assets</b> precisely because they are hard to automate. The decision for teams is no longer 'adopt AI' but 'which judgments do we keep human, and why.'"
+            "Viral Nation's launch of a dedicated GEO (Generative Engine Optimisation) product signals that <b>AI-driven discovery has become a distinct channel</b> requiring its own strategy, separate from traditional SEO. Brands can no longer assume that ranking in search translates to visibility inside AI-generated answers or social AI feeds.",
+            "Simultaneously, OpenAI's move to add advertising technology puts the world's most widely used AI interface in direct competition with Google &amp; Meta for brand spend. Marketers who treat GEO as a future concern will find themselves structurally absent from the conversations their customers are already having with AI."
           ],
           "ev": [
             [
-              "Agile Brand · Big Spaceship CEO",
-              "https://agilebrandguide.com/from-ai4-big-spaceships-ceo-taryn-crouthers-on-prioritizing-human-judgment-while-moving-fast/"
+              "MarTech Series · Viral Nation AI Discovery / GEO launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viral-nation-launches-ai-discovery-a-social-first-geo-offering-to-connect-consumers-with-brands-via-ai-driven-discovery/"
             ],
             [
-              "MarTech · AI blind spots",
-              "https://martech.org/5-ai-blind-spots-that-cost-you-conversions/"
+              "MarTech · OpenAI adds technology to compete for ad dollars",
+              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
             ],
             [
-              "MarTech · skills AI values more",
-              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
+              "MarTech · Time's AI-only ads as marketing's next frontier",
+              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>Prompt Governance &amp; Cost Control</em> Become Infrastructure",
-          "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
+          "head": "Personalisation's <em>Persistent Execution Gap</em>",
+          "url": "https://martech.org/personalization-still-falls-short-of-customer-expectations/",
           "body": [
-            "As AI usage scales inside marketing orgs, runaway inference costs and inconsistent outputs are surfacing as real operational risks. MarTech's governance guide marks a turning point: <b>AI prompts are now assets that need version control, ownership, and audit trails</b> — just like code or brand guidelines.",
-            "This theme connects directly to platform-level observability investment (groundcover's Gartner recognition) and to the broader pattern of enterprises realizing that <b>ungoverned AI spend compounds quietly</b> until it shows up as a budget crisis or a compliance problem. Governance frameworks built now will be competitive moats in 18 months."
+            "Despite years of investment, personalisation still falls measurably short of customer expectations — a finding that landed this month with renewed urgency as AI tooling makes the gap harder to excuse. The problem is less about technology and more about <b>organisational silos that break the customer journey</b>: Criteo's Todd Parsons put it bluntly — your org chart is not the customer journey.",
+            "MarTech's audit of AI blind spots reinforces the same point: automation applied inside broken processes doesn't fix them, it accelerates the wrong outcomes. The strategic implication is that data unification &amp; cross-functional ownership must precede, not follow, AI-powered personalisation."
           ],
           "ev": [
             [
-              "MarTech · prompt governance",
-              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
+              "MarTech · Personalisation still falls short",
+              "https://martech.org/personalization-still-falls-short-of-customer-expectations/"
             ],
             [
-              "MarTech Series · observability platform",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/groundcover-named-an-honorable-mention-in-the-2026-gartner-magic-quadrant-for-observability-platforms/"
+              "Agile Brand · Org chart is not the customer journey",
+              "https://agilebrandguide.com/expert-mode-your-org-chart-is-not-the-customer-journey-with-todd-parsons-criteo/"
             ],
             [
-              "MarTech · latest AI martech releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech · 5 AI blind spots that cost conversions",
+              "https://martech.org/5-ai-blind-spots-that-cost-you-conversions/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>Identity &amp; Addressability</em> Get an AI Upgrade",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/mobilefuse-taps-adstras-identity-data-to-deliver-better-addressability-for-buyers/",
+          "head": "Human Judgment as <em>Competitive Differentiator</em> in an AI-Saturated Market",
+          "url": "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/",
           "body": [
-            "MobileFuse's partnership with Adstra and PubMatic's new CRO hire — explicitly tied to AI transforming digital advertising — reflect a convergent bet: <b>identity resolution and audience addressability are the foundational layer</b> that makes AI-driven targeting valuable rather than speculative. Without clean identity data, generative ad tools optimise noise.",
-            "For decision-makers this means the identity stack is no longer a back-end plumbing question — it is the primary determinant of whether AI personalization investments deliver ROI. <b>First-party data quality</b> and interoperability with independent identity graphs are now C-suite concerns, not just data-engineering ones."
+            "A consistent counter-signal to full automation ran through the month: the marketers &amp; agencies pulling ahead are those who <b>amplify human judgment rather than replace it</b>. Big Spaceship's CEO Taryn Crouthers described a deliberate practice of moving fast while keeping human decision-making in the loop — framing speed and oversight as complementary, not opposed.",
+            "MarTech's skills report and agency-evolution piece both converge on the same conclusion: the skills AI is making <em>more</em> valuable are synthesis, context-setting, &amp; the ability to make colleagues smarter with AI outputs. Agencies that survive are repositioning around these higher-order capabilities, not raw content volume."
           ],
           "ev": [
             [
-              "MarTech Series · MobileFuse &amp; Adstra",
-              "https://martechseries.com/sales-marketing/programmatic-buying/mobilefuse-taps-adstras-identity-data-to-deliver-better-addressability-for-buyers/"
+              "MarTech · Future belongs to marketers who make others smarter",
+              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
             ],
             [
-              "MarTech Series · PubMatic CRO hire",
-              "https://martechseries.com/sales-marketing/programmatic-buying/pubmatic-appoints-megan-ramm-as-global-chief-revenue-officer-to-accelerate-growth-as-ai-transforms-digital-advertising/"
+              "Agile Brand · Big Spaceship CEO on human judgment",
+              "https://agilebrandguide.com/from-ai4-big-spaceships-ceo-taryn-crouthers-on-prioritizing-human-judgment-while-moving-fast/"
             ],
             [
-              "MarTech · personalization gap",
-              "https://martech.org/personalization-still-falls-short-of-customer-expectations/"
+              "MarTech · Marketing skills AI is making more valuable",
+              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Agencies &amp; <em>Org Design Must Catch Up</em> with AI",
-          "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
+          "head": "<em>Identity &amp; Addressability</em> Infrastructure Gets a Quiet Rebuild",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/mobilefuse-taps-adstras-identity-data-to-deliver-better-addressability-for-buyers/",
           "body": [
-            "Two distinct but reinforcing pieces — MarTech on agency evolution and Criteo's Todd Parsons on org charts misaligned with customer journeys — land the same verdict: <b>current organizational structures were designed for a pre-AI world</b> and actively slow down AI adoption. The bottleneck is not technology; it is reporting lines and incentive design.",
-            "The framing from 'The future belongs to marketers who make others smarter' adds a talent corollary: the most valuable marketing role is now the <b>AI-enabled multiplier</b> who raises the capability of every adjacent team. Agencies and in-house teams that reorganize around this model will out-execute those still structured around channel ownership."
+            "Below the headline AI noise, a structural rebuild of identity &amp; audience addressability is underway. MobileFuse's integration of Adstra identity data and accessiBe's conversational AI widget embedded in an accessibility layer both reflect the same pressure: <b>first-party &amp; consented identity signals are becoming the connective tissue</b> of the entire ad-tech stack.",
+            "Observability platforms earning Gartner recognition (groundcover) and Shopify-native product-discovery automation (HermesSync) signal that the infrastructure layer is maturing fast — meaning marketers who have not yet audited their identity &amp; data pipelines will find it progressively harder to plug into the new plumbing without expensive retrofits."
           ],
           "ev": [
             [
-              "MarTech · agency evolution",
-              "https://martech.org/how-agencies-are-evolving-to-overcome-ai/"
+              "MarTech Series · MobileFuse taps Adstra identity data",
+              "https://martechseries.com/sales-marketing/programmatic-buying/mobilefuse-taps-adstras-identity-data-to-deliver-better-addressability-for-buyers/"
             ],
             [
-              "Agile Brand · Criteo org chart",
-              "https://agilebrandguide.com/expert-mode-your-org-chart-is-not-the-customer-journey-with-todd-parsons-criteo/"
+              "MarTech Series · accessiBe conversational AI widget",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/accessibe-introduces-the-most-advanced-conversational-ai-assistant-built-into-an-accessibility-widget/"
             ],
             [
-              "MarTech · marketers who multiply",
-              "https://martech.org/the-future-belongs-to-marketers-who-make-others-smarter/"
+              "MarTech Series · groundcover Gartner Observability mention",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/groundcover-named-an-honorable-mention-in-the-2026-gartner-magic-quadrant-for-observability-platforms/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the real stakes are not which AI tools to adopt but <em>who controls the identity data, governance infrastructure, and human judgment calls that make AI outputs trustworthy and commercially defensible</em>."
+      "takeaway": "Across every layer of the stack, the defining shift is that <em>AI has moved from an experiment to a structural operating assumption</em> — and the marketers, agencies, &amp; platforms that will lead are those investing now in governance, identity infrastructure, &amp; the human skills that give AI outputs their competitive edge."
     }
   }
 }
