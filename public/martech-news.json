@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:34:36.848293+00:00",
+  "generatedAt": "2026-08-12T06:49:04.023825+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,19 +49,20 @@
           "fresh": true,
           "head": "A 7-step guide to running ads on ChatGPT",
           "url": "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/",
-          "plain": "Early campaign data reveals how <b>ChatGPT ads</b> differ from Google or Meta — covering CPCs, targeting options, and measurement. This matters because marketers now have a live, practical guide to buying inside the dominant AI answer engine, which changes how paid media budgets are allocated and measured.",
+          "plain": "Early data on <b>ChatGPT Ads</b> — CPCs, targeting, and measurement — gives marketers their first real look at how to buy placements inside an AI answer engine. This is a structural shift in paid media buying: budgets now need to follow users into AI-generated results, not just search and social feeds.",
           "chips": [
             "geo",
-            "genai"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "IAB Tech Lab releases updated Privacy Standards Portfolio for public comment",
-          "url": "https://martechseries.com/analytics/data-management-platforms/privacy-and-regulations/iab-tech-lab-announces-privacy-standards-portfolio-updates-to-strengthen-privacy-compliance-across-the-digital-advertising-ecosystem-for-public-comment/",
-          "plain": "IAB Tech Lab updated its <b>Global Privacy Protocol</b> and released Data Deletion Request Framework v2.0, open for comment until September 11. These standards set the interoperability rules that every CDP and ad platform must follow to stay compliant as US state privacy laws multiply — directly affecting how consent and deletion signals flow across the ecosystem.",
+          "src": "IAB Tech Lab · via MarTech",
+          "fresh": false,
+          "head": "IAB Tech Lab releases updated privacy standards portfolio for public comment",
+          "url": "https://martech.org/iab-tech-lab-releases-new-privacy-standards/",
+          "plain": "IAB Tech Lab updated its <b>Global Privacy Protocol and Data Deletion Request Framework</b> to keep pace with expanding US state privacy laws. Open for comment until September 11, these standards will shape how adtech vendors signal consent and handle deletion requests across the entire digital advertising stack — directly affecting AI-driven targeting systems.",
           "chips": [
             "govern",
             "cdp"
@@ -71,36 +72,38 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Wix launches Symphony, a standalone multi-agent system for SMBs",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wix-launches-symphony-by-wix-a-new-standalone-multi-agent-system-built-for-smbs/",
-          "plain": "Wix released Symphony, a <b>multi-agent AI platform</b> that learns a small business's workflows and deploys a coordinated team of specialized agents to automate tasks and surface growth opportunities. It signals that agentic AI is moving from enterprise pilots to mainstream SMB tools, reshaping how small marketers build and run campaigns.",
+          "head": "Fluency pitches agentic ad OS with governance rails for $3B+ in AI-managed spend",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/fluency-gives-advertisers-the-orchestration-and-governance-infrastructure-they-need-to-trust-ai-with-millions-in-ad-spend/",
+          "plain": "Fluency positions its platform as an <b>agentic advertising operating system</b> with built-in governance controls, letting agencies hand AI responsibility for campaign execution across search, social, and programmatic. At $3B in managed spend, the story illustrates the emerging demand for explainable, auditable AI decisions before marketers scale further.",
           "chips": [
             "agentic",
+            "govern",
             "decis"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Contentful's Palmata tool measures and corrects AI brand reputation in generative answers",
-          "url": "https://agilebrandguide.com/one-amazing-thing-about-palmata-with-taylor-wagner/",
-          "plain": "Palmata monitors what AI engines actually say about a brand and flags inaccuracies, going beyond simple mention-tracking. This is an early product demo of <b>AI answer accuracy management</b> — a new GEO discipline where marketers must not only appear in AI results but ensure those results are factually correct.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "How AI, publishers, and social media are rewriting product discovery",
+          "url": "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/",
+          "plain": "A strategic overview of how <b>product discovery is fragmenting</b> across AI answer engines, social platforms, creators, and publisher content. Brands can no longer rely on a single discovery channel; the article maps how purchase-intent touchpoints are shifting and what marketers must do to stay visible and influential across each.",
           "chips": [
             "geo",
             "genai",
-            "govern"
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "NiCE CTO on why AI pilots stall and how to govern agents proportionately",
-          "url": "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/",
-          "plain": "NiCE CTO Kevin Lee explains the <b>organizational and technical reasons AI pilots fail to reach production</b>, arguing for proportionate agent governance and knowing when a simple deterministic model beats a costly frontier LLM. Practical advice for anyone trying to move MarTech AI from demo to live deployment at scale.",
+          "head": "Wix launches Symphony, a multi-agent AI system built for SMBs",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wix-launches-symphony-by-wix-a-new-standalone-multi-agent-system-built-for-smbs/",
+          "plain": "Wix is bringing <b>coordinated multi-agent AI</b> to small businesses, letting specialized agents learn how each business operates and automate workflows and growth opportunities. This matters because agentic platforms are no longer enterprise-only — SMBs now have access to systems that decide and act autonomously, raising new governance questions at scale.",
           "chips": [
             "agentic",
+            "decis",
             "govern"
           ]
         }
@@ -112,9 +115,9 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "OpenAI adds product carousels and AppsFlyer attribution to compete for ad dollars",
+          "head": "OpenAI adds product carousels and AppsFlyer attribution to ChatGPT ads",
           "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "plain": "OpenAI has bolted <b>product carousels and performance attribution</b> onto ChatGPT ads, giving performance marketers the measurement plumbing they need to treat it as a real media buy rather than an experiment. This shifts ChatGPT from a curiosity to a channel that competes directly with Google and Meta for budget.",
+          "plain": "OpenAI has added <b>product carousels and AppsFlyer attribution</b> to ChatGPT's ad product, giving performance marketers the measurement hooks they need to justify real budgets. This moves ChatGPT from an experimental ad surface to a credible channel, reshaping where brands must now show up and how they prove ROI.",
           "chips": [
             "geo",
             "genai",
@@ -124,50 +127,51 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "IAB Tech Lab releases updated privacy standards including GPP and Data Deletion Request Framework v2.0",
-          "url": "https://martech.org/iab-tech-lab-releases-new-privacy-standards/",
-          "plain": "IAB Tech Lab has opened for public comment updates to the <b>Global Privacy Protocol and a new Data Deletion Request Framework</b> aimed at keeping ad tech compliant with a patchwork of state privacy laws. Marketers and platform builders have until September 11 to weigh in on rules that will shape how consent signals travel across the entire stack.",
-          "chips": [
-            "govern",
-            "cdp"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "A 7-step guide to running ads on ChatGPT: CPCs, targeting, and early performance data",
-          "url": "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/",
-          "plain": "The first hands-on breakdown of <b>how ChatGPT ad campaigns actually behave</b> — covering cost-per-click benchmarks, targeting options, and measurement gaps. Essential reading for anyone deciding whether to allocate budget to AI-native placements now or wait for the format to mature.",
+          "fresh": false,
+          "head": "Time magazine serves ads directly to AI crawlers in a GEO-first ad strategy",
+          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
+          "plain": "Time is placing ads inside content written specifically for <b>AI crawler consumption</b>, not human readers. If this works, it signals a new media-buying category where brands pay to be cited inside AI-generated answers — a structural shift in how advertising budgets and content strategy will be planned.",
           "chips": [
             "geo",
             "genai"
           ]
         },
         {
-          "num": "04",
+          "num": "03",
           "src": "MarTech",
-          "fresh": true,
-          "head": "How to manage AI prompt governance and costs at scale",
-          "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
-          "plain": "Scaling generative content without cost blowouts or off-brand output requires <b>centralized prompt libraries and token-budget controls</b>. This practical framework covers who owns prompts, how to audit them, and how to tie spending to business outcomes — increasingly critical as AI content production moves from pilots to production.",
+          "fresh": false,
+          "head": "IAB Tech Lab releases updated Global Privacy Protocol and Data Deletion Request Framework",
+          "url": "https://martech.org/iab-tech-lab-releases-new-privacy-standards/",
+          "plain": "IAB Tech Lab has published updates to its <b>Global Privacy Protocol (GPP) and Data Deletion Request Framework v2.0</b>, open for public comment until September 11. These standards set the interoperability rules that CDPs and ad tech stacks must follow to comply with a patchwork of state privacy laws — making them directly relevant to anyone buying or building martech.",
           "chips": [
-            "genai",
-            "govern"
+            "govern",
+            "cdp"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Fluency positions agentic ad OS with orchestration and governance for AI-run campaigns at scale",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/fluency-gives-advertisers-the-orchestration-and-governance-infrastructure-they-need-to-trust-ai-with-millions-in-ad-spend/",
+          "plain": "Fluency, already handling $3 billion in ad spend, is framing itself as an <b>agentic advertising operating system</b> with built-in governance rails. The pitch — that agencies need control structures before they can trust AI with large budgets — reflects a growing buyer demand for auditability alongside automation in programmatic channels.",
+          "chips": [
+            "agentic",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "NiCE CTO Kevin Lee on why AI pilots stall before production and how to govern agents proportionately",
-          "url": "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/",
-          "plain": "NiCE's CTO explains the specific organizational and technical reasons <b>most AI pilots never reach production</b>, argues for proportionate rather than blanket governance, and makes the case for cheaper deterministic models over frontier LLMs for many marketing tasks. Practical framing for anyone trying to move past proof-of-concept.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "A 7-step guide to running ads on ChatGPT: CPCs, targeting, and measurement revealed",
+          "url": "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/",
+          "plain": "The first practical field guide to <b>ChatGPT ad campaigns</b> draws on early data covering cost-per-click, audience targeting options, and measurement gaps. For marketers deciding whether to shift budget to AI-answer surfaces, this is the clearest benchmark available and directly informs channel-planning decisions.",
           "chips": [
-            "agentic",
-            "govern",
-            "genai"
+            "geo",
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -177,121 +181,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Conversational AI Becomes an <em>Ad Inventory</em> Channel",
-          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
+          "head": "AI Enters the <em>Ad Auction</em>: ChatGPT &amp; OpenAI as Media Channels",
+          "url": "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/",
           "body": [
-            "OpenAI is actively building ad-technology infrastructure, and early pilots like AdRoll's ChatGPT Ads program show that brands can now buy placements inside AI-generated answers. <b>The search-and-discovery funnel is being restructured</b> around conversational interfaces rather than keyword-ranked pages, which means paid and organic strategies must both adapt.",
-            "Practical guides to running ads on ChatGPT are already circulating, signalling that this is no longer experimental — it is an emerging media buy. Marketers who ignore conversational ad inventory risk ceding early-mover positioning in a channel that could rival traditional search advertising within two to three budget cycles."
+            "OpenAI is no longer just an AI vendor — it is becoming a <b>paid media destination</b>. Within the same 30-day window, OpenAI announced technology to compete for ad dollars, AdRoll joined a ChatGPT Ads pilot, and Time magazine tested AI-only ad placements, signalling that conversational AI surfaces are graduating from novelty to budget line-item.",
+            "This forces a decision that did not exist six months ago: whether to treat AI-native channels as an extension of search, a new form of native advertising, or something else entirely. Marketers who wait for the channel to mature will cede first-mover data advantages to rivals already running <b>structured experiments</b> inside these environments."
           ],
           "ev": [
             [
-              "MarTech · OpenAI ad tech move",
+              "MarTech · OpenAI ad tech",
               "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
             ],
             [
-              "MarTech · 7-step ChatGPT ads guide",
-              "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/"
+              "MarTech · AdRoll ChatGPT pilot",
+              "https://martechseries.com/sales-marketing/programmatic-buying/adroll-expands-multichannel-advertising-capabilities-through-chatgpt-ads-pilot/"
             ],
             [
-              "MarTech Series · AdRoll ChatGPT pilot",
-              "https://martechseries.com/sales-marketing/programmatic-buying/adroll-expands-multichannel-advertising-capabilities-through-chatgpt-ads-pilot/"
+              "MarTech · Time AI-only ads",
+              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI <em>Rewrites Product Discovery</em> &amp; the Role of Publishers",
-          "url": "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/",
+          "head": "<em>Governance &amp; Trust</em> as the New AI Infrastructure Layer",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/fluency-gives-advertisers-the-orchestration-and-governance-infrastructure-they-need-to-trust-ai-with-millions-in-ad-spend/",
           "body": [
-            "AI recommendation layers, social commerce, and publisher-curated feeds are collapsing into a single moment of intent. <b>The traditional funnel — awareness to consideration to purchase — is being compressed</b> because AI surfaces specific products in the same breath as answering a question, bypassing brand-owned discovery touchpoints entirely.",
-            "For marketers, this means that being findable inside AI-indexed publisher content and social signals is as strategically important as paid search bids. Brands need structured data, rich product content, and media partnerships calibrated for algorithmic recommendation, not just human readers."
+            "As AI absorbs larger budget decisions — Fluency explicitly frames its pitch around trusting AI with <b>millions in ad spend</b> — the industry is building a parallel layer of orchestration, oversight, and cost controls. IAB Tech Lab's updated privacy standards portfolio and MarTech's guide to prompt governance costs reflect the same pressure: autonomous AI systems need auditable guardrails before executives will sign off at scale.",
+            "The practical shift is that <b>governance is becoming a product feature</b>, not a compliance afterthought. Vendors who surface spending rationale, prompt logs, and policy controls inside their interfaces will win procurement conversations that pure-performance tools will lose."
           ],
           "ev": [
             [
-              "MarTech · AI &amp; product discovery",
-              "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
+              "MarTech · AI prompt governance",
+              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
             ],
             [
-              "MarTech · AI-only ads frontier",
-              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
+              "IAB Tech Lab · privacy standards",
+              "https://martech.org/iab-tech-lab-releases-new-privacy-standards/"
             ],
             [
-              "Agile Brand · daily news Aug 11",
-              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-11-2026/"
+              "Fluency · orchestration infra",
+              "https://martechseries.com/sales-marketing/programmatic-buying/fluency-gives-advertisers-the-orchestration-and-governance-infrastructure-they-need-to-trust-ai-with-millions-in-ad-spend/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "From Pilot to <em>Production-Scale AI</em>: The Governance Gap",
-          "url": "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/",
+          "head": "The Race to <em>Own Enterprise AI</em>: Build, Compound, Integrate",
+          "url": "https://martechseries.com/analytics/data-management-platforms/oumi-launches-compounding-ai-factory-enabling-every-enterprise-to-build-own-and-compound-its-intelligence/",
           "body": [
-            "Multiple voices this month — NiCE's CTO, agency leaders at Ai4, and practitioners debating AI blind spots — converge on one problem: <b>most organisations are still running AI as a series of disconnected pilots</b> rather than governed production systems. Prompt sprawl, uncontrolled costs, and inconsistent outputs are the visible symptoms.",
-            "The fix requires treating AI like any enterprise software: version-controlled prompts, cost dashboards, clear ownership, and human-judgment checkpoints baked into workflows. Wix's Symphony multi-agent launch for SMBs shows that even lighter-weight operators now need structured orchestration rather than ad-hoc tool use."
+            "Three signals converged this month: Oumi launched a <b>\"compounding AI factory\"</b> so enterprises can own and iterate their own intelligence; Boomi topped the ISG integration rankings; and the Ai4 conference sessions all circled the same CDO question of how to turn data estates into AI performance. The message is that renting AI from a SaaS vendor is no longer the only — or most defensible — option.",
+            "Enterprises that build proprietary models on their own data create a <b>compounding moat</b>: every customer interaction improves the next prediction. This is fundamentally different from the 2024-era playbook of layering an AI feature onto an existing platform, and it is reshaping what the modern marketing data stack is supposed to do."
           ],
           "ev": [
             [
-              "MarTech · prompt governance &amp; costs",
-              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
+              "Oumi · compounding AI factory",
+              "https://martechseries.com/analytics/data-management-platforms/oumi-launches-compounding-ai-factory-enabling-every-enterprise-to-build-own-and-compound-its-intelligence/"
             ],
             [
-              "Agile Brand · NiCE CTO on pilot to production",
-              "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/"
+              "Agile Brand · CDO petabytes playbook",
+              "https://agilebrandguide.com/expert-mode-at-ai4-turning-petabytes-into-performance-a-cdos-playbook-for-enterprise-ai/"
             ],
             [
-              "MarTech Series · Wix Symphony multi-agent",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wix-launches-symphony-by-wix-a-new-standalone-multi-agent-system-built-for-smbs/"
+              "Agile Brand · speed vs agility Dataiku",
+              "https://agilebrandguide.com/from-ai4-dataiku-cmo-mark-abramowitz-on-speed-versus-agility-in-ai-adoption/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Privacy Standards Under <em>Urgent Regulatory Refresh</em>",
-          "url": "https://martech.org/iab-tech-lab-releases-new-privacy-standards/",
+          "head": "<em>AI-Native Discovery</em> Is Rewriting the Purchase Funnel",
+          "url": "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/",
           "body": [
-            "IAB Tech Lab dropped a sweeping privacy-standards portfolio update for public comment, touching consent signalling, data clean rooms, and cross-channel compliance. <b>These updates are not incremental</b> — they reflect how AI-driven targeting has outpaced the consent frameworks that advertisers, publishers, and ad-tech vendors currently rely on.",
-            "Marketers need to track this public-comment window closely because the final standards will re-define what constitutes compliant audience activation. Organisations that wait for ratification before auditing their data flows will face expensive retroactive remediation — those that engage now can shape the rules to fit their stack."
+            "Product discovery — the moment a consumer first considers a brand — is migrating from search-engine results pages to AI-generated recommendations, social feeds, and publisher content simultaneously. MarTech's analysis of how AI, publishers, and social media are rewriting discovery, combined with 74 fresh consumer behaviour statistics, points to a funnel where <b>the awareness stage is now largely algorithmic</b> and invisible to traditional attribution models.",
+            "Intentsify's QuantumDemand launch adds a B2B dimension: even complex buying-group decisions are now being activated through AI-scored intent signals rather than human SDR outreach. The common thread is that <b>reach and relevance are being delegated to AI</b> at every funnel stage, compressing the window in which brand and creative choices actually matter."
           ],
           "ev": [
             [
-              "MarTech · IAB Tech Lab privacy standards",
-              "https://martech.org/iab-tech-lab-releases-new-privacy-standards/"
+              "MarTech · AI rewrites discovery",
+              "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
             ],
             [
-              "MarTech Series · IAB Tech Lab announcement",
-              "https://martechseries.com/analytics/data-management-platforms/privacy-and-regulations/iab-tech-lab-announces-privacy-standards-portfolio-updates-to-strengthen-privacy-compliance-across-the-digital-advertising-ecosystem-for-public-comment/"
+              "Intentsify · QuantumDemand buying groups",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/intentsify-unveils-quantumdemand-ai-powered-buying-group-activation-at-scale/"
             ],
             [
-              "Agile Brand · Aug 10 news roundup",
-              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-10-2026/"
+              "Agile Brand · consumer behavior stats",
+              "https://agilebrandguide.com/74-consumer-behavior-statistics-for-2026/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Human Judgment as a <em>Competitive Marketing Skill</em>",
+          "head": "From <em>Pilot to Production</em>: The Skills &amp; Agency Reckoning",
           "url": "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/",
           "body": [
-            "Counterintuitively, as AI automates execution, the skills rising in value are distinctly human: strategic framing, ethical reasoning, creative direction, and the ability to say no to fast but wrong decisions. <b>Big Spaceship's CEO and Ai4 speakers explicitly argued that human judgment is the scarce resource</b>, not compute or content volume.",
-            "Agencies are restructuring around this insight — moving from production-hour billing toward advisory and oversight roles where senior marketers set the guardrails that AI operates inside. This reframes AI not as a headcount replacement but as leverage that amplifies the judgment of skilled practitioners, making those practitioners more — not less — essential to hire and retain."
+            "A cluster of practitioner-focused pieces this month share one underlying message: the easy phase of experimenting with AI is over, and the hard phase of <b>operationalising it at scale</b> has begun. NiCE's CTO described moving from pilot to production as the central challenge of 2026; agencies are actively restructuring to stay relevant; and MarTech catalogued which human skills — judgment, synthesis, creative direction — AI is actually amplifying rather than replacing.",
+            "The implication for marketing leaders is that <b>talent strategy and technology strategy can no longer be planned separately</b>. Organisations that only bought tools without reskilling their teams are now finding that AI blind spots — unexamined assumptions baked into models — are costing them conversions, as a separate MarTech piece documented this month."
           ],
           "ev": [
             [
-              "MarTech · skills AI makes more valuable",
+              "MarTech · skills AI makes valuable",
               "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ],
             [
-              "Agile Brand · Big Spaceship CEO on human judgment",
-              "https://agilebrandguide.com/from-ai4-big-spaceships-ceo-taryn-crouthers-on-prioritizing-human-judgment-while-moving-fast/"
+              "Agile Brand · pilot to production NiCE",
+              "https://agilebrandguide.com/nice-cto-kevin-lee-on-moving-from-ai-pilot-to-production/"
             ],
             [
-              "MarTech · how agencies are evolving",
+              "MarTech · agencies evolving",
               "https://martech.org/how-agencies-are-evolving-to-overcome-ai/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month — ad inventory, discovery, governance, privacy, and talent — <em>AI is forcing marketers to make irreversible structural choices</em>, not just tactical experiments, and the window to move deliberately rather than reactively is closing fast."
+      "takeaway": "Every major move this month — new ad channels, governance layers, owned AI factories, AI-rewritten funnels, and a talent reckoning — converges on a single inflection point: <em>AI is no longer a feature marketers evaluate but the operating environment they must now design for</em>."
     }
   }
 }
