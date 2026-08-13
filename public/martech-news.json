@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:52:04.849893+00:00",
+  "generatedAt": "2026-08-13T14:36:30.083148+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,62 +45,65 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Only 24% of companies have a company-wide AI policy as agent adoption races ahead, Liferay study finds",
-          "url": "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/",
-          "plain": "A Liferay survey of enterprises finds <b>54% are already running AI agents</b> but only 24% have a company-wide usage policy and just 25% measure AI impact with clear KPIs. That gap between deployment speed and strategic oversight is exactly the risk that gets marketing AI projects defunded or regulated — making this a must-read for anyone buying or approving AI tools.",
+          "head": "Convertr Govern launches to address EU AI Act contact-data compliance",
+          "url": "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/",
+          "plain": "With EU AI Act transparency rules live as of August 2, 2026, Convertr has shipped a dedicated governance layer for lead and contact data — covering account-level policy, controlled exceptions, and on-demand audit evidence. <b>Any team buying or building marketing AI in the EU now faces real compliance deadlines</b>, making tools like this a procurement consideration, not a nice-to-have.",
           "chips": [
-            "agentic",
-            "govern"
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Programmatic video AI decisions lack transparency, putting pressure on platforms to explain outcomes",
-          "url": "https://martech.org/programmatic-video-needs-more-visibility-into-ai-driven-decisions/",
-          "plain": "AI is quietly making bid, placement, and targeting calls inside programmatic video that buyers can't easily audit. The piece argues platforms must <b>explain AI-driven outcomes</b> or risk losing marketer trust and budget. This directly affects how adtech is evaluated and governed, shifting the buying conversation from performance claims to explainability.",
+          "head": "Liferay study: 54% of firms run AI agents but only 25% measure impact or hold a company-wide policy",
+          "url": "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/",
+          "plain": "A survey of enterprises finds that <b>adoption of AI agents has raced far ahead of governance and measurement</b>: more than half are running agents, yet three-quarters lack a company-wide usage policy and similarly few track KPIs. The gap signals significant risk exposure and shapes the conversation around what responsible agentic AI deployment actually requires.",
           "chips": [
-            "govern",
-            "decis"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "Ahrefs launches Letaido, an agent-powered marketing workspace for multi-step autonomous workflows",
-          "url": "https://martechseries.com/content/ahrefs-launches-new-agent-powered-workspace-to-help-marketing-teams-and-agencies-improve-collaboration-on-ai-generated-work-across-the-entire-marketing-stack/",
-          "plain": "Ahrefs has shipped Letaido, a workspace where marketing teams can plan and run <b>multi-step agentic tasks</b> — automating recurring workflows, building dashboards, and monitoring competitors — all natively connected to Ahrefs search data. It moves the category beyond AI chat assistants toward systems that actually act, which changes what teams expect from MarTech tools.",
+          "fresh": true,
+          "head": "IBM and OpenAI form joint enterprise practice embedding GPT-5.6 into consulting delivery",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/",
+          "plain": "IBM is launching a dedicated OpenAI Practice — thousands of consultants trained to convert legacy enterprise workflows using frontier models including GPT-5.6. This is a <b>go-to-market structural change</b>, not a logo deal: it affects how large organisations buy, scope, and govern AI transformation projects across marketing and core operations alike.",
           "chips": [
+            "genai",
             "agentic",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "directree launches GEO Monitor to track brand visibility inside AI engine answers weekly",
-          "url": "https://agilebrandguide.com/directree-launches-geo-monitor-weekly-ai-visibility-tracking-for-software-vendors/",
-          "plain": "GEO Monitor submits buyer-intent questions to five AI engines every week and reports which brands and sources appear in the answers — with no brand prompting. This is one of the first <b>commercial tools for tracking generative engine visibility</b>, making GEO measurable for software vendors and shifting SEO budgets toward AI-answer optimization.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Ryan Doser publishes 45-point AI search audit system built from six months of real GEO data",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ryan-doser-ships-an-ai-seo-system-built-from-six-months-of-ai-search-data/",
+          "plain": "A practitioner has released a structured audit framework — drawn from live data across three sites — designed to run inside Claude, ChatGPT, and Cursor. <b>It operationalises GEO as a repeatable process</b> rather than guesswork, giving marketers a concrete method to improve visibility inside AI-generated answers rather than traditional ranked-link results.",
           "chips": [
-            "geo"
+            "geo",
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "Deloitte becomes first global system integrator to deliver a Salesforce Forward Deployed Engineering engagement for AI-driven lead automation",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/deloitte-becomes-first-global-system-integrator-to-deliver-a-salesforce-forward-deployed-engineering-engagement/",
-          "plain": "Deloitte has staffed and completed the first GSI-led Salesforce Forward Deployed Engineering engagement, embedding engineers directly with a client to build <b>AI-driven lead automation</b>. This signals a new delivery model where big integrators co-build agentic CRM features on-site — changing how enterprises buy and implement marketing AI at scale.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Front survey: ops teams spend 3 hours coordinating for every 1 hour solving customer problems",
+          "url": "https://agilebrandguide.com/fronts-kevin-yang-on-maximizing-both-speed-and-coordination/",
+          "plain": "Data from 700+ operations leaders shows a severe <b>coordination tax</b> eating into customer-facing productivity. Front's AI director argues that agentic tools need to cut internal friction, not just automate outputs. The finding matters for anyone evaluating whether a customer engagement platform or AI agent actually frees up human time or simply moves the bottleneck.",
           "chips": [
             "agentic",
-            "decis",
-            "govern"
+            "cep",
+            "decis"
           ]
         }
       ]
@@ -109,64 +112,63 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "OpenAI adds product carousels and AppsFlyer attribution to compete for ad dollars",
-          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "plain": "ChatGPT is adding <b>product carousels and performance attribution</b> via AppsFlyer, giving performance marketers the measurement hooks they need to shift real budgets into the platform. This moves OpenAI from an experimental ad channel to a measurable one — directly challenging Google and Meta for search-intent ad spend.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Convertr Govern launches contact-data compliance tool ahead of EU AI Act transparency deadline",
+          "url": "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/",
+          "plain": "The EU AI Act's first transparency rules kicked in on August 2, 2026, and Convertr responded with a product — not a promise. <b>Convertr Govern</b> gives marketing ops teams account-level data policies, controlled exceptions, and audit-ready evidence trails for lead and contact data. This is exactly the kind of <b>compliance tooling</b> buyers will demand from any vendor touching EU customer records.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "Time magazine serves ads directly to AI crawlers in a novel GEO strategy",
-          "url": "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/",
-          "plain": "Time is placing ads inside pages targeted specifically at <b>AI crawlers rather than human readers</b>, aiming to embed brand messages into AI-generated answers. This is the first documented editorial brand using crawler-targeted advertising as a GEO tactic — a potential template for any publisher or brand wanting visibility inside AI responses.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Liferay study: 54% of companies run AI agents but only 25% measure their impact",
+          "head": "Liferay study: 54% of companies run AI agents but only 25% measure their impact or have a company-wide policy",
           "url": "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/",
-          "plain": "A large enterprise survey finds that <b>adoption of AI agents is racing ahead of governance and measurement</b>: most companies have no company-wide AI policy and no clear KPIs for agents. For anyone buying or approving agentic marketing tools, this data makes the governance gap concrete and hard to ignore.",
+          "plain": "A survey of enterprises finds that adoption of <b>AI agents</b> has raced far ahead of governance: more than half are running agents in production, but three-quarters have no consistent KPIs and no company-wide usage policy. That gap is a business risk and a buying signal — vendors offering measurement and policy frameworks have a clear opening.",
           "chips": [
             "agentic",
             "govern"
           ]
         },
         {
-          "num": "04",
+          "num": "03",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "directree launches GEO Monitor for weekly AI visibility tracking across five AI engines",
+          "head": "directree launches GEO Monitor: weekly AI-visibility tracking across five AI engines for software vendors",
           "url": "https://agilebrandguide.com/directree-launches-geo-monitor-weekly-ai-visibility-tracking-for-software-vendors/",
-          "plain": "GEO Monitor submits <b>buyer-intent questions to ChatGPT, Perplexity and three other AI engines weekly</b>, then reports which brands and sources appear. It gives software vendors the first recurring, automated audit of their generative engine presence — making GEO measurable rather than anecdotal.",
+          "plain": "GEO Monitor sends <b>buyer-intent questions to ChatGPT, Perplexity and three other AI engines every week</b>, then reports which brands appeared, which competitors showed up, and which sources were cited. It is the first recurring measurement product purpose-built for generative engine visibility, turning GEO from a theory into something marketers can track and optimize.",
           "chips": [
             "geo",
-            "govern"
+            "agentic"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Ryan Doser releases 45-point AI SEO audit system built from six months of real AI-search data",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ryan-doser-ships-an-ai-seo-system-built-from-six-months-of-ai-search-data/",
+          "plain": "Rather than theory, this is an <b>empirical GEO audit</b> derived from tracking three live sites across AI answer engines for six months. The 45-point checklist runs inside Claude, ChatGPT and Cursor as plain files, making it immediately usable. It concretely shows marketers what it takes to get cited — not just ranked — inside AI-generated answers.",
+          "chips": [
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Programmatic video AI decisions lack transparency, putting pressure on platforms to explain outcomes",
-          "url": "https://martech.org/programmatic-video-needs-more-visibility-into-ai-driven-decisions/",
-          "plain": "As AI automates more bidding and placement decisions in programmatic video, buyers increasingly <b>cannot see why their ads ran where they did</b>. The piece argues platforms must build explainability into their systems — a governance issue that affects every marketer relying on automated ad buying.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "IBM and OpenAI strike joint go-to-market deal to embed GPT-5.6 into enterprise consulting workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/",
+          "plain": "Unlike a logo deal, this partnership has product substance: IBM is standing up a dedicated OpenAI Practice with trained forward-deployed units and embedding <b>GPT-5.6 directly into IBM Consulting's AI delivery platform</b>. For enterprise buyers, it signals that large-scale AI modernization now has a supported, contracted path — reshaping how AI is bought and implemented at scale.",
           "chips": [
-            "govern",
-            "decis",
-            "agentic"
+            "genai",
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -176,121 +178,113 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>AI Agents Everywhere</em>, Accountability Nowhere",
-          "url": "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/",
+          "head": "The <em>OpenAI Alliance Economy</em> Consolidates Enterprise AI",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/",
           "body": [
-            "A Liferay study found that <b>54% of companies are already running AI agents</b>, yet fewer than one in four measure what those agents actually produce. Platforms like Brightspot, Suralink, and Ahrefs all shipped agentic workflow features this month, accelerating adoption further without pausing for measurement frameworks.",
-            "The governance gap is now the defining risk: businesses are committing budget &amp; operational trust to autonomous systems before they have baselines for success. <b>Leaders who establish measurable outcomes first</b> will be able to justify — and safely scale — agent investments; everyone else is running experiments they cannot audit."
+            "Within a single news cycle, both IBM and DataArt announced formal OpenAI partnerships, signalling that the AI infrastructure layer is rapidly consolidating around a small number of preferred-partner tiers. For enterprises, this means the <b>vendor shortlist is shrinking fast</b>: being an OpenAI Select or strategic partner is becoming a credibility signal as important as a cloud certification.",
+            "The practical decision shift is real: buyers evaluating AI platforms now need to ask not just about model quality but about <b>which partnership tier their vendor occupies</b> and what security &amp; compliance obligations that tier carries. IBM's emphasis on 'secure deployment across core operations' shows the conversation has moved from pilots to production-grade contracts."
           ],
           "ev": [
             [
-              "Liferay Study · agent adoption vs. measurement gap",
-              "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/"
+              "MarTech Series · IBM-OpenAI partnership",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/"
             ],
             [
-              "Brightspot · agentic content workflows launch",
-              "https://martechseries.com/content/brightspot-launches-esca-automations-bringing-agentic-workflows-to-content-operations/"
-            ],
-            [
-              "Ahrefs · agent-powered collaboration workspace",
-              "https://martechseries.com/content/ahrefs-launches-new-agent-powered-workspace-to-help-marketing-teams-and-agencies-improve-collaboration-on-ai-generated-work-across-the-entire-marketing-stack/"
+              "MarTech Series · DataArt OpenAI Select",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dataart-named-an-openai-select-partner/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Rewrites the <em>Advertising Marketplace</em>",
-          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
+          "head": "<em>AI Agents Running Blind</em>: Adoption Without Accountability",
+          "url": "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/",
           "body": [
-            "OpenAI moved to capture ad revenue this month, while Time magazine debuted <b>AI-only ad placements</b> and a step-by-step guide appeared for running campaigns directly inside ChatGPT. These are not experiments — they signal a structural shift in where media budgets will flow as AI interfaces become primary discovery surfaces.",
-            "Programmatic buyers are simultaneously demanding <b>more visibility into AI-driven bidding decisions</b>, exposing tension between automation speed &amp; advertiser control. Brands that learn to optimise for AI-curated environments now will hold an early-mover advantage as traditional search and social ad inventory loses share to conversational AI surfaces."
+            "A Liferay study found that <b>54% of companies are already running AI agents, yet only 25% measure their impact</b> — a gap that should alarm any marketing or operations leader. Lovelace's new advisory board and Liferay's own governance report both respond to the same alarm: autonomous agents are being deployed faster than the frameworks to evaluate them.",
+            "The strategic implication is that measurement &amp; governance are now <b>the scarcest capability</b>, not the AI itself. Marketers who build outcome dashboards for their agents before scaling them will have a durable advantage over those chasing the next tool launch."
           ],
           "ev": [
             [
-              "MarTech · OpenAI enters ad technology",
-              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
+              "Agile Brand · Liferay 54% study",
+              "https://agilebrandguide.com/new-liferay-study-finds-54-of-companies-are-running-ai-agents-yet-only-25-measure-their-impact/"
             ],
             [
-              "MarTech · Time's AI-only ad frontier",
-              "https://martech.org/times-ai-only-ads-may-be-marketings-next-frontier/"
+              "Agile Brand · Liferay governance report",
+              "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/"
             ],
             [
-              "MarTech · programmatic AI visibility gap",
-              "https://martech.org/programmatic-video-needs-more-visibility-into-ai-driven-decisions/"
+              "Agile Brand · Lovelace advisory board",
+              "https://agilebrandguide.com/lovelace-establishes-strategic-advisory-board-to-guide-growth-in-mission-critical-ai/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Product Discovery Is Being <em>Rewired by AI</em>",
-          "url": "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/",
+          "head": "SEO Is Dead; <em>GEO &amp; AI Search Visibility</em> Is the New Game",
+          "url": "https://agilebrandguide.com/directree-launches-geo-monitor-weekly-ai-visibility-tracking-for-software-vendors/",
           "body": [
-            "AI assistants, publisher recommendation engines, &amp; social media algorithms are converging into a single new discovery layer that sits <b>above traditional search</b>. This month's analysis shows consumers increasingly finding &amp; evaluating products through AI-curated feeds rather than keyword queries, compressing the funnel in ways Google-era SEO cannot address.",
-            "Tools like directree's GEO Monitor — which tracks brand visibility inside AI answers weekly — show that <b>marketers are scrambling to measure presence in this new layer</b>. The strategic implication is clear: share of AI answer is becoming as important a metric as share of search, and the playbook for earning it is still being written."
+            "Two product launches this month — directree's GEO Monitor and Ryan Doser's AI SEO system built on six months of AI-search data — mark a structural break from traditional search optimisation. <b>Generative Engine Optimisation (GEO)</b> tracks whether a brand appears in AI-generated answers, not just ranked blue links, and vendors are now selling weekly monitoring for it.",
+            "RankingCoach's BeyondSEO plugin for WordPress further shows the tooling is reaching mainstream CMS users, not just technical SEOs. Marketers need to decide now whether their <b>content strategy is optimised for human keyword intent or for the retrieval patterns of large language models</b> — because those are increasingly different targets."
           ],
           "ev": [
             [
-              "MarTech · AI rewriting product discovery",
-              "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
-            ],
-            [
-              "Agile Brand · directree GEO Monitor launch",
+              "Agile Brand · directree GEO Monitor",
               "https://agilebrandguide.com/directree-launches-geo-monitor-weekly-ai-visibility-tracking-for-software-vendors/"
             ],
             [
-              "MarTech · ChatGPT ads guide",
-              "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/"
+              "MarTech Series · Ryan Doser AI SEO system",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ryan-doser-ships-an-ai-seo-system-built-from-six-months-of-ai-search-data/"
+            ],
+            [
+              "MarTech Series · rankingCoach BeyondSEO",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rankingcoach-launches-beyondseo-ai-marketing-plugin-for-wordpress/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>Governance &amp; Privacy</em> as Competitive Infrastructure",
-          "url": "https://martech.org/iab-tech-lab-releases-new-privacy-standards/",
+          "head": "<em>Compliance as Infrastructure</em>: Data &amp; Consent Under Pressure",
+          "url": "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/",
           "body": [
-            "IAB Tech Lab released new privacy standards this month at the same moment AI prompt governance emerged as a cost &amp; compliance issue for marketing teams. Separately, TransFi launched an AI compliance platform for cross-border payments, signalling that <b>regulatory infrastructure is now a product category</b> — not just a legal obligation.",
-            "For marketing decision-makers, the practical shift is that <b>governance is moving from legal department to tech stack</b>. Teams that embed privacy &amp; prompt controls into their workflows early will avoid costly retrofits as regulation tightens; those who treat it as overhead will face both liability &amp; operational drag."
+            "Convertr's new Govern product for contact-data compliance, TransFi's JARVIS compliance intelligence platform for cross-border payments, and Singapore's consumer survey showing 84% worry about age-gated content all point to the same force: <b>regulators and consumers are tightening the compliance perimeter simultaneously</b>. What used to be a legal afterthought is now a product category.",
+            "For MarTech buyers, the decision shift is that <b>data pipelines now need built-in compliance layers</b>, not bolt-on audits. Zimetrics achieving AWS AdTech competency reinforces this — cloud-certified data &amp; AI infrastructure is increasingly the floor, not a differentiator, for any organisation handling personal or cross-border data."
           ],
           "ev": [
             [
-              "MarTech · IAB Tech Lab privacy standards",
-              "https://martech.org/iab-tech-lab-releases-new-privacy-standards/"
+              "MarTech Series · Convertr Govern",
+              "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/"
             ],
             [
-              "MarTech · AI prompt governance &amp; costs",
-              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
-            ],
-            [
-              "Agile Brand · TransFi JARVIS compliance platform",
+              "Agile Brand · TransFi JARVIS compliance",
               "https://agilebrandguide.com/transfi-launches-jarvis-an-ai-powered-compliance-intelligence-platform-for-cross-border-payments/"
+            ],
+            [
+              "MarTech Series · Singapore age-gating survey",
+              "https://martechseries.com/content/84-of-singapore-consumers-say-age-gated-content-can-harm-minors-putting-pressure-on-platforms-to-strengthen-age-assurance/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Agencies &amp; Teams Face an <em>AI Skills Reckoning</em>",
-          "url": "https://martech.org/how-agencies-are-evolving-to-overcome-ai/",
+          "head": "Creative Budget Wars &amp; the <em>Mission-Driven Brand</em> Counter-Move",
+          "url": "https://agilebrandguide.com/expert-mode-why-your-mission-is-your-most-profitable-asset/",
           "body": [
-            "Two complementary pieces this month — one on which marketing skills AI amplifies, another on how agencies are restructuring to survive AI — point to the same truth: <b>AI is not eliminating roles so much as ruthlessly sorting talent</b>. Strategy, creative judgment, &amp; cross-functional coordination are rising in value; execution tasks are collapsing in price.",
-            "The organisational dimension shows up in Front's Kevin Yang arguing for <b>speed without sacrificing coordination</b>, and in research showing that budget conflicts over creative still kill campaigns before they launch. Teams that combine AI fluency with sharp human judgment on priorities &amp; stakeholder alignment will outrun those that automate execution alone."
+            "XR research found that <b>budget fights over creative frequently kill ad campaigns before launch</b>, while a separate Agile Brand discussion argued that mission clarity is a brand's most profitable asset. These two data points are related: when creative investment is contested internally, brands with a sharp, well-articulated mission have an easier time defending spend and maintaining consistency.",
+            "The operational lesson is that <b>mission alignment is not soft strategy — it is a cost-reduction mechanism</b>. Teams that agree on brand purpose resolve creative disputes faster, waste fewer campaign cycles, and give AI tools clearer guardrails for generating on-brand content at scale."
           ],
           "ev": [
             [
-              "MarTech · skills AI makes more valuable",
-              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
+              "Agile Brand · mission as profitable asset",
+              "https://agilebrandguide.com/expert-mode-why-your-mission-is-your-most-profitable-asset/"
             ],
             [
-              "MarTech · how agencies are evolving",
-              "https://martech.org/how-agencies-are-evolving-to-overcome-ai/"
-            ],
-            [
-              "Agile Brand · speed &amp; coordination balance",
-              "https://agilebrandguide.com/fronts-kevin-yang-on-maximizing-both-speed-and-coordination/"
+              "Agile Brand · creative budget research XR",
+              "https://agilebrandguide.com/budget-fights-over-creative-often-kill-ad-campaign-launches-says-new-research-from-xr-2/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every corner of the feed this month, the central tension is the same: <em>AI capability is outrunning the measurement, governance, and human-coordination systems needed to turn it into durable competitive advantage</em>."
+      "takeaway": "Across every corner of MarTech this month, the real contest is not which AI tool to adopt but <em>whether organisations can build the governance, measurement, and compliance infrastructure fast enough to make that adoption safe and accountable</em>."
     }
   }
 }
