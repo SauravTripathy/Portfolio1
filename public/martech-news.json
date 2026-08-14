@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T06:49:00.602951+00:00",
+  "generatedAt": "2026-08-14T14:29:38.165754+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,26 +45,25 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "AI debt hidden in faster marketing: every new capability creates governance and integration work",
-          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
-          "plain": "Just as technical debt accumulates when developers cut corners, <b>AI debt</b> builds when marketing teams ship AI-powered capabilities without plans to govern, integrate, or measure them. This piece names the hidden cost of speed-first AI adoption and gives marketers a framework for recognising — and paying down — that debt before it compounds.",
+          "head": "OtterlyAI launches Agent Analytics to make AI crawler traffic and search ROI measurable",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/otterlyai-launches-agent-analytics-making-ai-agent-traffic-visible-and-ai-search-roi-measurable/",
+          "plain": "OtterlyAI now reads server logs to show marketers every AI agent and crawler visiting their site, then links that crawl activity to visibility inside AI-generated answers. This is an early but concrete step toward <b>measuring ROI from AI search</b> — a gap that has frustrated teams investing in GEO with no way to prove results.",
           "chips": [
-            "govern",
-            "genai",
+            "geo",
             "agentic"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Competitive intelligence tools become first martech category largely replaced by AI assistants",
-          "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
-          "plain": "ChatGPT, Claude, and Gemini are displacing standalone <b>competitive intelligence (CI) tools</b> — making them the first identifiable martech category to be hollowed out by general-purpose AI. The article warns that the real danger is stale battlecards, not the software swap itself, pointing to a broader pattern of AI disrupting the martech stack.",
+          "head": "Somantra launches Brand Engagement Score to measure how deeply AI search engines discuss a brand",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/somantra-launches-brand-engagement-score-for-aeo-and-geo-an-ai-search-metric-that-measures-chatgpt-google-ai-overviews-claude-and-perplexity-engagement-with-a-brand/",
+          "plain": "Somantra introduces a metric that scores not just whether ChatGPT, Claude, or Google AI Overviews mention a brand, but <b>how substantively they elaborate on its differentiators</b> across a multi-turn buyer conversation — benchmarked against competitors in the same answer. It gives marketers a new standard for measuring GEO quality, not just presence.",
           "chips": [
-            "genai",
+            "geo",
             "govern"
           ]
         },
@@ -72,24 +71,25 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Convertr Govern launches to address EU AI Act contact-data compliance requirements",
-          "url": "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/",
-          "plain": "With EU AI Act transparency rules live from August 2, 2026, Convertr has shipped <b>Convertr Govern</b> — a product that applies account-level data policies, controlled exceptions, and on-demand audit evidence to lead and contact data. It directly answers the new regulatory requirement for explainability in AI-assisted marketing operations.",
+          "head": "InMobi Advertising launches conversational AI agent for media buyers inside its self-serve Buyer Hub",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/inmobi-advertising-launches-a-conversational-ai-agent-for-media-buyers/",
+          "plain": "InMobi's new conversational agent lets agency media buyers discover premium ad inventory and negotiate deals via natural language inside a self-serve platform. It signals that <b>agentic interfaces are replacing traditional programmatic dashboards</b>, changing how ad buying workflows are built and who needs to operate them.",
           "chips": [
-            "govern",
-            "cdp"
+            "agentic",
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "IBM and OpenAI form joint go-to-market partnership embedding GPT-5.6 into enterprise operations",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/",
-          "plain": "IBM is launching a dedicated OpenAI Practice, training thousands of consultants to embed <b>GPT-5.6 and other frontier models</b> into IBM Consulting's delivery platform. This reshapes how large enterprises buy and deploy AI across core operations — shifting the procurement conversation from point tools to integrated consulting-plus-model bundles.",
+          "head": "The data trust crisis: customer data is decaying and breaking personalization ROI",
+          "url": "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/",
+          "plain": "MarTech warns that <b>data decay is silently undermining personalization and measurement</b>, making AI-driven decisions less reliable over time. The piece frames this as a structural governance problem, not a tooling one — relevant to any team using a CDP or running 1:1 campaigns that depend on clean, current customer data.",
           "chips": [
-            "genai",
-            "agentic",
+            "cdp",
+            "perso",
             "govern"
           ]
         },
@@ -97,13 +97,13 @@
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Ryan Doser releases 45-point AI search audit system built on six months of real GEO data",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ryan-doser-ships-an-ai-seo-system-built-from-six-months-of-ai-search-data/",
-          "plain": "A practitioner-built <b>45-point audit framework</b> for generative engine optimisation draws on six months of actual AI search behaviour across three sites. Packaged as plain files that run inside Claude, ChatGPT, and Cursor, it gives marketers a concrete, agent-compatible toolkit for being cited inside AI-generated answers rather than traditional search rankings.",
+          "head": "Iyuno details CLOE, a multi-agent AI architecture built to maintain consistency across long-form content at scale",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iyuno-details-the-architecture-behind-cloe-a-multi-agent-ai-system-for-consistent-content-workflows/",
+          "plain": "Iyuno explains how CLOE uses multiple coordinated AI agents to preserve continuity across scenes, episodes, and languages — solving a known failure mode where <b>generative AI loses coherence in long-form content</b>. The architecture detail matters for teams evaluating agentic content pipelines and the governance controls needed to manage them.",
           "chips": [
-            "geo",
             "agentic",
-            "genai"
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -116,61 +116,59 @@
           "fresh": false,
           "head": "OpenAI adds product carousels and AppsFlyer attribution to compete for ad dollars",
           "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "plain": "OpenAI is bolting on <b>shoppable product carousels and performance attribution</b> via AppsFlyer inside ChatGPT, moving the platform from an experimental ad channel to a measurable one. This matters because it signals that AI answer engines are becoming real paid-media destinations, forcing marketers to rethink both budget allocation and measurement strategy.",
+          "plain": "ChatGPT now shows <b>shoppable product carousels</b> and ties clicks to AppsFlyer attribution — moving it from an experimental ad surface to a measurable performance channel. This changes how marketing budgets get allocated and how brands must think about <b>visibility inside AI answers</b>, not just search engines.",
           "chips": [
             "geo",
-            "genai",
-            "decis"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "AI debt: every faster marketing capability creates hidden governance and integration work",
-          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
-          "plain": "Just as software teams accumulate technical debt, marketing teams are building up <b>AI debt</b> — the unglamorous work of governing, integrating, and measuring each new AI capability. The article argues this hidden cost is growing faster than most organisations realise, and that ignoring it eventually slows the speed gains AI promised in the first place.",
+          "head": "Liferay report: Only 24% of companies have a company-wide AI usage policy as agentic adoption accelerates",
+          "url": "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/",
+          "plain": "A 2026 study finds most companies are deploying AI agents faster than they are writing rules to govern them — only 24% have a <b>company-wide AI policy</b> and just 25% consistently measure AI's impact with KPIs. That gap is where regulatory and brand risk accumulates, making this a priority governance story for any marketing leader.",
           "chips": [
-            "govern",
-            "genai",
-            "agentic"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": false,
-          "head": "Competitive intelligence tools become first martech category effectively replaced by AI",
+          "head": "The AI debt hidden in faster marketing: every new capability creates governance, integration and maintenance work",
+          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
+          "plain": "Moving fast with AI creates a growing backlog of ungoverned prompts, unmeasured outputs, and unintegrated tools — what the author calls <b>AI debt</b>. The piece gives marketing ops leaders a practical frame for auditing hidden costs before they compound, which directly affects how AI tools get bought and maintained.",
+          "chips": [
+            "govern",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Competitive intelligence tools are the first martech category being replaced by general-purpose AI",
           "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
-          "plain": "Marketers are dropping dedicated <b>competitive intelligence (CI) platforms</b> in favour of ChatGPT, Claude, and Gemini for battlecard research. The piece argues this is the clearest case yet of a whole martech category being displaced — a preview of how AI will redraw the martech map for buyers and vendors alike.",
+          "plain": "ChatGPT, Claude, and Gemini are displacing dedicated CI platforms for battlecard creation and competitor research. The article argues <b>stale, unverified battlecards</b> may be a bigger risk than the tool switch itself — a concrete signal of how <b>the martech stack is being restructured</b> by general-purpose AI models.",
           "chips": [
             "genai",
             "govern"
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "Convertr Govern launches to meet EU AI Act contact-data compliance requirements",
-          "url": "https://martechseries.com/content/convertr-govern-addresses-contact-data-compliance-challenge/",
-          "plain": "With EU AI Act transparency rules live from August 2, 2026, Convertr has shipped a dedicated product that puts <b>account-level data policies, controlled exceptions, and audit evidence</b> directly into lead management workflows. It is an early concrete example of vendors building compliance tooling specifically in response to the new regulation.",
-          "chips": [
-            "govern",
-            "cdp"
-          ]
-        },
-        {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Liferay report: only 24% of companies have a company-wide AI usage policy as agent adoption accelerates",
-          "url": "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/",
-          "plain": "A survey of organisations deploying AI agents finds that <b>three-quarters lack a company-wide AI policy</b> and an equally large share have no consistent KPIs for AI impact. The data makes the governance gap concrete and quantified, which is exactly the kind of evidence procurement and compliance teams need when evaluating agentic tools.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Somantra launches Brand Engagement Score to measure how substantively AI search engines elaborate on a brand",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/somantra-launches-brand-engagement-score-for-aeo-and-geo-an-ai-search-metric-that-measures-chatgpt-google-ai-overviews-claude-and-perplexity-engagement-with-a-brand/",
+          "plain": "Somantra introduces a metric that scores how deeply ChatGPT, Google AI Overviews, Claude, and Perplexity discuss a brand's differentiators across multi-turn conversations — and benchmarks that against competitors named in the same answer. It gives marketers a <b>measurable KPI for GEO</b>, moving AI search visibility from guesswork to trackable performance.",
           "chips": [
-            "agentic",
-            "govern",
-            "decis"
+            "geo",
+            "govern"
           ]
         }
       ]
@@ -180,80 +178,34 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI is <em>replacing, not augmenting</em>, whole MarTech categories",
+          "head": "AI Agents Are <em>Replacing Whole Tool Categories</em>",
           "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
           "body": [
-            "The conversation has moved from AI as a feature inside tools to AI as the tool itself. MarTech.org's identification of the first category outright replaced signals that this is no longer a theoretical risk — the substitution cycle has begun, and buying decisions must now account for category-level obsolescence.",
-            "For marketers, this reframes the vendor evaluation question: instead of asking which platform has the best AI features, teams must ask which entire product categories they are still paying for that AI now performs natively. <b>Budget reallocation, not just tech adoption, is the strategic move.</b>"
+            "The question has shifted from 'how does AI assist a tool?' to 'which tools does AI make redundant?' MarTech's report on the first replaced martech category signals that consolidation is no longer hypothetical — <b>entire software segments are being absorbed into agent workflows</b>. Launches like Peerfold's agent-first LMS and InMobi's conversational media-buying agent show the pattern repeating across CRM, email, and ad ops.",
+            "For decision-makers, this means the evaluation criteria for any new vendor purchase must now include 'could an agent handle this within 18 months?' <b>Buying a point solution without asking that question is a planning error</b>, not just a missed opportunity. The stack is being re-layered from the bottom up, not incrementally upgraded."
           ],
           "ev": [
             [
-              "MarTech · First category replaced",
+              "MarTech · First replaced category",
               "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
             ],
             [
-              "MarTech · AI blind spots &amp; conversions",
-              "https://martech.org/5-ai-blind-spots-that-cost-you-conversions/"
+              "MarTech Series · Peerfold agent-first LMS",
+              "https://martechseries.com/sales-marketing/crm/impulse-creative-launches-peerfold-an-agent-first-crm-native-learning-management-system/"
             ],
             [
-              "MarTech · AI-powered releases roundup",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech Series · InMobi conversational agent",
+              "https://martechseries.com/sales-marketing/programmatic-buying/inmobi-advertising-launches-a-conversational-ai-agent-for-media-buyers/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>AI debt</em> hidden inside faster marketing",
-          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
-          "body": [
-            "Speed gains from AI-generated content and automated campaigns are creating a quieter liability: <b>AI debt</b> — the accumulated cost of undocumented prompts, ungoverned outputs, and processes that no human fully understands. This mirrors the concept of technical debt but moves faster and touches brand reputation directly.",
-            "Managing this requires intentional prompt governance frameworks and cost visibility into LLM usage, not just guardrails on outputs. The companies that will win are those treating AI operations with the same discipline they apply to data infrastructure — before the debt compounds into a brand or compliance crisis."
-          ],
-          "ev": [
-            [
-              "MarTech · AI debt in faster marketing",
-              "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
-            ],
-            [
-              "MarTech · Prompt governance &amp; costs",
-              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
-            ],
-            [
-              "Agile Brand · Liferay on governance &amp; outcomes",
-              "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "OpenAI enters <em>advertising &amp; enterprise</em> as a platform",
-          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
-          "body": [
-            "OpenAI is no longer just an AI provider — it is positioning itself as a media and enterprise platform. Adding ad-targeting technology, launching ChatGPT as an ad channel, and formalising Select Partner programs with firms like DataArt all signal a deliberate move to capture revenue that currently flows to Google, Meta, and legacy MarTech vendors.",
-            "<b>IBM's partnership with OpenAI for secure enterprise deployment</b> reinforces that the model is now: own the foundation layer, then sell up-stack services. Marketers and IT leaders who treat OpenAI as just another API vendor are underestimating the competitive surface it is building against existing stacks."
-          ],
-          "ev": [
-            [
-              "MarTech · OpenAI ad technology",
-              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
-            ],
-            [
-              "MarTech · Running ads on ChatGPT",
-              "https://martech.org/a-7-step-guide-to-running-ads-on-chatgpt/"
-            ],
-            [
-              "MarTech Series · IBM &amp; OpenAI enterprise partnership",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "AI rewrites <em>product discovery &amp; SEO</em> from the ground up",
+          "head": "AI Search Is <em>Rewriting Discoverability</em> Rules",
           "url": "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/",
           "body": [
-            "AI-driven answer engines, publisher integrations, and social discovery are fragmenting the traditional search funnel. Consumers increasingly find products through AI summaries and LLM-generated recommendations rather than ranked blue links, making classic SEO metrics unreliable proxies for actual visibility.",
-            "Practitioners are responding by building AI-native SEO systems grounded in months of AI search behaviour data, and by launching plugins — like rankingCoach's BeyondSEO — that optimise for answer-engine placement rather than keyword rank. <b>The discipline is being rebuilt from scratch</b>, and teams that wait for consensus best practices will cede ground to early experimenters."
+            "ChatGPT, Google AI Overviews, Claude, and Perplexity are now primary surfaces where consumers first encounter products and brands — yet most marketing analytics still measure clicks to a website. <b>Somantra's Brand Engagement Score and OtterlyAI's Agent Analytics both launched this month specifically to fill that measurement void</b>, signalling that the tooling is finally catching up to the behaviour shift.",
+            "This creates a new optimisation discipline — Answer Engine Optimisation (AEO) and Generative Engine Optimisation (GEO) — sitting alongside, and increasingly above, traditional SEO. <b>Brands that don't understand how AI models represent them will be invisible</b> in the conversations that drive purchase intent, even if their search rankings look healthy."
           ],
           "ev": [
             [
@@ -261,22 +213,45 @@
               "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
             ],
             [
-              "MarTech Series · AI SEO system from 6 months data",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ryan-doser-ships-an-ai-seo-system-built-from-six-months-of-ai-search-data/"
+              "MarTech Series · Somantra Brand Engagement Score",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/somantra-launches-brand-engagement-score-for-aeo-and-geo-an-ai-search-metric-that-measures-chatgpt-google-ai-overviews-claude-and-perplexity-engagement-with-a-brand/"
             ],
             [
-              "MarTech Series · BeyondSEO AI plugin",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rankingcoach-launches-beyondseo-ai-marketing-plugin-for-wordpress/"
+              "MarTech Series · OtterlyAI Agent Analytics",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/otterlyai-launches-agent-analytics-making-ai-agent-traffic-visible-and-ai-search-roi-measurable/"
             ]
           ]
         },
         {
-          "num": "Theme 05",
-          "head": "Human skills &amp; <em>brand mission</em> become the scarce advantage",
+          "num": "Theme 03",
+          "head": "The <em>Data Trust Crisis</em> Is Quietly Poisoning Decisions",
+          "url": "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/",
+          "body": [
+            "AI amplifies the output of whatever data you feed it — which makes degraded, stale, or siloed customer data a <b>strategic liability rather than a housekeeping problem</b>. MarTech's data trust crisis piece argues that AI-accelerated pipelines are outpacing the governance needed to validate inputs, meaning bad signals produce confident-sounding but wrong outputs at scale.",
+            "The 'AI debt' framing from a companion piece tightens the argument: <b>every shortcut taken to ship faster accumulates a hidden cost</b> in model drift, hallucinated personalisation, and eroded customer trust. The verification-can't-be-delegated piece reinforces that human sign-off on AI outputs is not optional — it is the new quality-control layer."
+          ],
+          "ev": [
+            [
+              "MarTech · Data trust crisis",
+              "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/"
+            ],
+            [
+              "MarTech · AI debt in faster marketing",
+              "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
+            ],
+            [
+              "Agile Brand · Verification can't be delegated",
+              "https://agilebrandguide.com/verification-cant-be-delegated-martech-futurist-august-12-2026/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "Human Judgment Is Becoming a <em>Scarcer, Pricier Skill</em>",
           "url": "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/",
           "body": [
-            "As AI automates execution, the skills that command a premium are shifting to judgment, strategic framing, and brand authenticity — things models can approximate but not own. Research and commentary this month consistently point to marketers who pair deep domain expertise with AI tools outperforming those who delegate thinking to the model entirely.",
-            "<b>Brand mission is emerging as a measurable revenue driver</b>, not a soft aspiration, because it provides the differentiated signal that AI-generated content cannot replicate at scale. The implication for hiring, training, and budget allocation is direct: invest in the human layer that gives AI outputs their distinctive edge."
+            "Counterintuitively, the more AI automates execution, the more valuable distinctly human skills become. <b>Critical thinking, creative direction, ethical judgment, and strategic framing</b> are the competencies MarTech identifies as appreciating in value — precisely because AI cannot reliably supply them. The Agile Brand piece on human judgment in AI-powered creative underlines that 'efficiency mandate' thinking undersells what senior marketers actually contribute.",
+            "This has direct workforce and budgeting implications: <b>teams that upskill toward these meta-skills will outperform teams that simply hand off tasks to AI</b>. The CMO planning challenge piece frames 2027 strategy as primarily a human-capability question, not a technology-spend question — the budget line for AI tools is almost secondary to who is stewarding them."
           ],
           "ev": [
             [
@@ -284,17 +259,40 @@
               "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ],
             [
-              "Agile Brand · Mission as profitable asset",
-              "https://agilebrandguide.com/expert-mode-why-your-mission-is-your-most-profitable-asset/"
+              "Agile Brand · Human judgment in AI creative",
+              "https://agilebrandguide.com/expert-mode-from-ai4-beyond-the-efficiency-mandate-human-judgment-in-the-ai-powered-creative-process/"
             ],
             [
-              "MarTech · Small actions, big returns",
-              "https://martech.org/5-brands-whose-small-actions-drove-big-returns/"
+              "MarTech · 2027 CMO planning challenge",
+              "https://martech.org/the-2027-cmo-planning-challenge-is-bigger-than-the-budget/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "Governance &amp; Measurement Are the <em>New Competitive Moat</em>",
+          "url": "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/",
+          "body": [
+            "As AI agent adoption accelerates, the organisations pulling ahead are those that have built <b>prompt governance frameworks, cost controls, and outcome measurement</b> before they scaled — not after. Liferay's governance report and MarTech's prompt-governance guide both argue that ungoverned AI deployment creates compliance risk and uncontrollable cost curves that negate the efficiency gains.",
+            "OpenAI's move into advertising technology and the launch of compliance-intelligence platforms like TransFi's JARVIS signal that <b>governance is becoming a product category in its own right</b>, not just an internal policy. Teams that treat measurement and oversight as an afterthought will face the double penalty of inflated spend and eroded trust — while competitors who got ahead of it turn governance into a differentiator."
+          ],
+          "ev": [
+            [
+              "Agile Brand · Liferay on AI governance",
+              "https://agilebrandguide.com/liferay-accelerated-ai-agent-adoption-demands-robust-governance-and-measurable-outcomes/"
+            ],
+            [
+              "MarTech · Prompt governance &amp; costs",
+              "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
+            ],
+            [
+              "MarTech · OpenAI competing for ad dollars",
+              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the underlying shift is the same: <em>AI is moving from a layer on top of marketing to the substrate beneath it</em>, forcing teams to rethink categories, skills, governance, and even what counts as a competitive advantage before the defaults are set for them."
+      "takeaway": "Across every layer of the stack this month, the common pressure is the same: <em>AI is moving faster than the measurement, governance, and human-judgment infrastructure needed to make it safe to trust at scale</em>."
     }
   }
 }
