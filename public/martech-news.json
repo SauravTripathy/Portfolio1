@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:57:52.442718+00:00",
+  "generatedAt": "2026-08-18T05:51:04.183302+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -46,63 +46,67 @@
         {
           "num": "01",
           "src": "MarTech Series",
-          "fresh": true,
-          "head": "Similarweb launches AI Ads intelligence covering ChatGPT, Google AI Overviews, and AI Mode",
+          "fresh": false,
+          "head": "Similarweb Launches AI Ads Intelligence Covering ChatGPT, Google AI Overviews, and AI Mode",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode/",
-          "plain": "Similarweb's new dataset gives advertisers their first look at <b>competitive ad placement inside AI-generated answers</b> — ChatGPT, Google AI Overviews, and AI Mode. Until now, nobody could see who was buying those slots or how rivals were positioned. This directly changes how media buyers plan and measure spend in a world where AI surfaces are replacing traditional search results pages.",
+          "plain": "Similarweb now tracks which ads appear inside ChatGPT and Google's AI surfaces, giving marketers their first real window into <b>AI ad placement competition</b>. This matters because billions in spend is shifting into these environments and, until now, advertisers had zero visibility into what rivals were doing there — a blind spot that affects every media plan.",
           "chips": [
             "geo",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Uniphore launches Marketing AI with Digital Twins and Small Language Models, framing it as the post-CDP era",
+          "src": "MarTech Series · via Agile Brand",
+          "fresh": false,
+          "head": "Uniphore Launches Marketing AI With Digital Twins and Custom Small Language Models, Positioning as CDP Successor",
           "url": "https://martechseries.com/sales-marketing/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
-          "plain": "Uniphore says its Marketing AI replaces the CDP model with <b>per-customer Digital Twins and custom Small Language Models</b> that simulate outcomes before any budget is spent. If the claim holds up, this reshapes how enterprise marketers think about customer data infrastructure — moving from storing data to predicting and acting on it automatically.",
+          "plain": "Uniphore is pitching a system that builds a <b>digital twin of every customer</b> using small language models, letting brands simulate campaign outcomes before spending a dollar. If it works as described, this repositions the CDP from a data store to a prediction engine — a structural shift in how marketing stacks get bought and built.",
           "chips": [
             "cdp",
             "perso",
-            "agentic",
+            "genai",
             "decis"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech · via MarTech.org",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "AI is moving into media budget allocation — deciding where to spend, not just what to say",
-          "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/",
-          "plain": "This analysis argues that <b>AI-driven budget allocation</b> is the next major shift in marketing AI — moving beyond content generation into real-time decisions about which channels and placements get money. For buyers and builders, this signals a new procurement category: systems that act on spend data, not just creative data.",
+          "head": "Acoustic Launches Agentic AI Marketing Teammate That Acts on Live Customer Behavior",
+          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
+          "plain": "Acoustic's new AI doesn't wait for a marketer to ask — it watches real-time behavior, spots revenue opportunities, and <b>recommends the next campaign move before customer intent fades</b>. This is a practical example of agentic decisioning shipped inside an existing CEP, which changes how marketing automation tools are evaluated and governed.",
           "chips": [
             "agentic",
             "decis",
-            "bandit"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Clutch AI platform now serves 30 million credit union members, replacing multi-tool stacks with a single agentic layer",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/30-million-credit-union-members-are-now-served-by-ai-on-the-clutch-platform/",
-          "plain": "Clutch has reached 30 million members across credit unions by deploying <b>AI agents that see the full member relationship and complete tasks end-to-end</b> rather than routing to staff. This is a concrete, scaled example of agentic CEP adoption in a regulated vertical — relevant to anyone watching how financial-services marketing AI gets bought and governed.",
-          "chips": [
-            "agentic",
             "cep",
             "govern"
           ]
         },
         {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "NiCE CTO Kevin Lee on why enterprise AI pilots stall — and how to escape the million-dollar trap",
-          "url": "https://agilebrandguide.com/expert-mode-from-ai4-escaping-the-million-dollar-ai-pilot-trap-with-nice-cto-kevin-lee/",
-          "plain": "Kevin Lee explains why impressive AI pilots rarely scale into production value — the gap between a good demo and real ROI is measured in months to years. For marketers buying or approving AI platforms, this is a practical governance and procurement lesson: <b>how a pilot is structured determines whether it ever becomes a real deployment</b>.",
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Omneky Adds ChatGPT as a Self-Service Ad Channel Alongside Meta, Google, and TikTok",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/omneky-launches-self-service-chatgpt-advertising/",
+          "plain": "Omneky lets brands buy and optimize ads inside ChatGPT from the same dashboard they use for Meta and Google. This is the first self-serve bridge between <b>conversational AI environments and mainstream programmatic buying</b>, signalling that ChatGPT is now a real paid-media channel that belongs in budget planning — not just an organic visibility concern.",
           "chips": [
+            "geo",
+            "genai",
+            "decis"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI Is Moving Into Media Budget Allocation — Deciding Where to Spend, Not Just What to Say",
+          "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/",
+          "plain": "A MarTech analysis argues the next wave of marketing AI is not about content generation but about <b>autonomous budget allocation</b> — AI choosing which channels and moments deserve spend based on live performance signals. This reframes AI governance conversations: it is no longer just about copy safety but about financial decisions made without human sign-off.",
+          "chips": [
+            "decis",
+            "bandit",
             "govern",
             "agentic"
           ]
@@ -114,64 +118,64 @@
         {
           "num": "01",
           "src": "MarTech Series",
-          "fresh": true,
-          "head": "Similarweb launches AI Ads intelligence dataset covering ChatGPT and Google AI placements",
+          "fresh": false,
+          "head": "Similarweb Launches AI Ads Intelligence for ChatGPT, Google AI Overviews, and AI Mode",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode/",
-          "plain": "Advertisers have been flying blind on which ads appear inside AI-generated answers. Similarweb's new dataset gives brands and their rivals <b>competitive visibility into ad placements inside ChatGPT and Google AI Overviews</b> for the first time. This changes how media buyers plan, monitor, and benchmark spend in AI-answer environments — a fast-growing channel with zero prior transparency.",
+          "plain": "Advertisers have had zero visibility into who is running ads inside AI-generated answers — until now. Similarweb's new dataset maps <b>AI ad placements across ChatGPT, Google AI Overviews, and AI Mode</b>, letting brands benchmark competitors and plan spend in channels that are rapidly capturing search intent. This directly changes how media budgets are allocated.",
           "chips": [
             "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Uniphore launches Marketing AI with customer digital twins and small language models, moving past the CDP",
-          "url": "https://martechseries.com/sales-marketing/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
-          "plain": "Uniphore is betting that <b>customer digital twins and purpose-built small language models</b> can replace the CDP as the central layer of enterprise marketing. The platform simulates outcomes before budgets are committed and predicts next-best actions per customer. If the architecture gains traction it repositions how martech stacks are built and bought.",
-          "chips": [
-            "cdp",
-            "perso",
-            "agentic",
+            "govern",
             "decis"
           ]
         },
         {
+          "num": "02",
+          "src": "MarTech Series · via Agile Brand",
+          "fresh": false,
+          "head": "Uniphore Launches Marketing AI Built on Digital Twins and Small Language Models, Moving Beyond the CDP",
+          "url": "https://martechseries.com/sales-marketing/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
+          "plain": "Uniphore is replacing the traditional CDP model with <b>per-customer Digital Twins and custom Small Language Models</b> that simulate outcomes before a marketer spends a dollar. If the approach works at scale, it redefines what a customer data layer is — shifting from data storage to predictive simulation, which changes how platforms are bought and evaluated.",
+          "chips": [
+            "cdp",
+            "perso",
+            "agentic",
+            "govern"
+          ]
+        },
+        {
           "num": "03",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "AI is moving into media budget allocation and spend decisioning",
-          "url": "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/",
-          "plain": "The next frontier for marketing AI isn't generating content — it's <b>autonomously deciding where to put budget</b>. This piece maps how AI is shifting from a creative assistant into a media-buying decision-maker, which has major implications for how agencies, platforms, and CMOs govern automated spend and measure its outcomes.",
+          "head": "Acoustic Launches Agentic Marketing AI That Acts on Live Customer Behavior Without Being Asked",
+          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
+          "plain": "Acoustic AI monitors real-time behavioral signals, <b>proactively surfaces revenue opportunities, and recommends or builds campaigns</b> before customer intent disappears — without a marketer prompting it. This is a shift from AI-as-assistant to AI-as-initiator inside a CEP, raising both efficiency and governance questions about how much autonomy a system should have.",
           "chips": [
             "agentic",
             "decis",
-            "bandit",
+            "cep",
             "govern"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Treasure AI CPO explains why CDPs must evolve into activation platforms",
-          "url": "https://agilebrandguide.com/treasure-ai-chief-product-and-growth-officer-rafael-flores-on-evolving-cdps-to-activation-platforms/",
-          "plain": "Rafael Flores explains why Treasure AI rebranded from a data infrastructure company into an activation platform — arguing that <b>storing customer data is no longer enough; the CDP must trigger action</b>. This reflects a wider industry shift in how CDP vendors are repositioning, which matters for anyone buying or integrating customer data technology.",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Omneky Adds ChatGPT as a Self-Service Ad Channel Alongside Meta, Google, and TikTok",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/omneky-launches-self-service-chatgpt-advertising/",
+          "plain": "ChatGPT is now a buyable paid media channel inside Omneky's autonomous ad platform, sitting alongside Meta and Google. This is a concrete signal that <b>AI-answer environments are becoming standard media inventory</b>, not experimental placements. Marketers who ignore GEO and AI-channel planning risk being outbid in the channel where high-intent queries increasingly land.",
           "chips": [
-            "cdp",
-            "agentic",
-            "decis",
-            "cep"
+            "geo",
+            "genai",
+            "decis"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
-          "fresh": true,
-          "head": "The AI debt hidden in faster marketing: governance costs that accumulate with every new capability",
+          "fresh": false,
+          "head": "AI Debt: Every AI Capability Added to Marketing Creates Hidden Governance and Integration Work",
           "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
-          "plain": "Speed gains from AI come with a hidden bill: every new automated capability creates <b>governance, integration, and measurement work</b> that compounds over time. This piece names the problem as 'AI debt' and gives marketing leaders a framework for recognising when automation is outrunning the controls needed to keep it safe and accountable.",
+          "plain": "Moving faster with AI quietly accumulates <b>ungoverned models, unmeasured outputs, and brittle integrations</b> — a form of technical debt specific to AI. The piece argues that teams underestimate ongoing governance costs when they greenlight new AI tools, which matters because it changes the true cost calculus for every AI purchase and deployment decision.",
           "chips": [
             "govern",
             "genai",
@@ -185,121 +189,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents <em>Replacing Whole Tool Categories</em>",
-          "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
+          "head": "AI Agents Replace <em>Point-Tool Logic</em> in the MarTech Stack",
+          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
           "body": [
-            "For the first time, analysts are naming a <b>full martech category</b> that AI has made redundant rather than merely augmented. BlazeHive's SEO agent claiming 500+ Google top-3 results without a human writer is the clearest live example: the product is the agent, not the platform underneath it.",
-            "This shifts the buying decision entirely. Marketers no longer evaluate features inside a category; they evaluate whether the category itself still needs to exist. <b>The question moves from 'which vendor?' to 'do we still buy this type of software at all?'</b>"
+            "Three separate launches this month — Acoustic AI, Uniphore Marketing AI, and CI&amp;T's Agentic Enterprise Reinvention — all describe the same architectural shift: a persistent AI agent that reads live signals and acts, replacing the old model of a marketer configuring a tool and waiting for a report. <b>The agent is positioned as a teammate, not a feature.</b> That framing matters because it changes procurement, governance, and org-design conversations overnight.",
+            "The simultaneous collapse of the CDP as the default data layer (Treasure AI, Uniphore both explicitly say 'beyond the CDP') signals that standalone data-storage products are being absorbed into activation platforms. <b>Marketers who bought a CDP as their AI strategy now have a gap</b> — and vendors are racing to fill it with end-to-end agentic stacks."
           ],
           "ev": [
             [
-              "MarTech · First category replaced",
-              "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
+              "Acoustic · agentic teammate launch",
+              "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/"
             ],
             [
-              "MarTech Series · BlazeHive SEO agent",
-              "https://martechseries.com/content/blazehives-ai-seo-agent-outranks-human-writers-on-500-google-top-3-results-in-5-months-on-autopilot/"
+              "Uniphore · beyond the CDP",
+              "https://agilebrandguide.com/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/"
             ],
             [
-              "CI&T · Agentic enterprise offering",
+              "CI&T · agentic enterprise",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cit-launches-business-builders-and-debuts-its-new-agentic-enterprise-reinvention-offering/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The CDP Era Ends: <em>Data Activation Replaces Storage</em>",
-          "url": "https://martechseries.com/sales-marketing/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
+          "head": "AI Ad Surfaces <em>Rewrite Discovery</em> — and Budget Allocation",
+          "url": "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/",
           "body": [
-            "Two independent signals this month — Uniphore's 'beyond the CDP' launch and Treasure AI's pivot from data platform to activation engine — point to the same structural change: <b>collecting and unifying customer data is no longer the hard part; acting on it in real time is</b>. The CDP as a stand-alone category is being absorbed into execution layers.",
-            "For teams still mid-implementation of a CDP, this is a planning crisis. Budgets committed to data consolidation may be funding yesterday's architecture. <b>The new frame is activation platform, not data warehouse</b>, and vendors are already racing to own that label."
+            "OpenAI entering the ad-tech market, Omneky launching self-serve ChatGPT advertising, and Similarweb exposing placement data across ChatGPT, Google AI Overviews, and AI Mode all point to a new media layer forming at speed. <b>Product discovery is now happening inside AI answers</b>, not just search results or social feeds — and most marketing budgets have not yet been rewritten to reflect that reality.",
+            "MarTech's piece on 'deciding where to spend' frames this as the next AI opportunity: the hard problem is no longer generating creative but <b>knowing which AI surface is converting and at what cost</b>. Similarweb's 'black box' unlock is significant precisely because visibility into these placements has been near-zero, making allocation guesswork."
           ],
           "ev": [
             [
-              "MarTech Series · Uniphore beyond CDP",
-              "https://martechseries.com/sales-marketing/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/"
+              "OpenAI · ad tech entry",
+              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
             ],
             [
-              "Agile Brand · Treasure AI activation",
-              "https://agilebrandguide.com/treasure-ai-chief-product-and-growth-officer-rafael-flores-on-evolving-cdps-to-activation-platforms/"
+              "Similarweb · AI ad placement data",
+              "https://martechseries.com/sales-marketing/programmatic-buying/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode/"
             ],
             [
-              "MarTech · Data trust crisis",
-              "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/"
+              "MarTech · deciding where to spend",
+              "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>AI Ad Placements</em> Becoming Unmeasurable — Until Now",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode/",
+          "head": "Creative <em>Selection Over Production</em> Is the New Bottleneck",
+          "url": "https://agilebrandguide.com/luma-and-dumbstruck-partner-on-creative-intelligence-betting-the-real-ai-bottleneck-is-selection-not-production/",
           "body": [
-            "Similarweb's move to surface ad-placement data inside ChatGPT, Google AI Overviews, and AI Mode signals that <b>a measurability gap has opened fast</b>. OpenAI simultaneously announced it is building advertising technology to compete directly for ad budgets. Marketers are spending in environments they cannot yet audit.",
-            "The immediate decision consequence: <b>media mix models built on legacy channel data are already wrong</b>. Brands need to add AI-surface visibility as a reporting requirement now, not after the next planning cycle. Product-discovery itself is being rewritten by these same AI surfaces, compounding the attribution problem."
+            "Luma and Dumbstruck's 'Creative Intelligence' partnership makes the argument plainly: AI has made generating assets cheap, so the constraint has moved upstream to <b>which asset to pick, test, and scale</b>. The Expert Mode discussion on human judgment in AI-powered creative echoes this — experienced marketers are increasingly valuable as selectors and evaluators, not as producers.",
+            "LinkedIn's reported indifference to AI-generated 'slop' and the Billo episode on synthetic faces in ads show that <b>audiences and platforms are already adapting to a world of abundant AI content</b> — and that standing out now requires curatorial taste, not just faster tooling. The skill shift MarTech identified (judgment, strategy, taste becoming more valuable) is a direct consequence."
           ],
           "ev": [
             [
-              "MarTech Series · Similarweb AI ad black box",
-              "https://martechseries.com/sales-marketing/programmatic-buying/similarweb-unlocks-the-black-box-of-ai-ad-placements-across-chatgpt-google-ai-overviews-and-ai-mode/"
+              "Luma &amp; Dumbstruck · creative intelligence",
+              "https://agilebrandguide.com/luma-and-dumbstruck-partner-on-creative-intelligence-betting-the-real-ai-bottleneck-is-selection-not-production/"
             ],
             [
-              "MarTech · OpenAI ad tech",
-              "https://martech.org/openai-adds-technology-to-compete-for-ad-dollars/"
+              "Agile Brand · human judgment in AI creative",
+              "https://agilebrandguide.com/expert-mode-from-ai4-beyond-the-efficiency-mandate-human-judgment-in-the-ai-powered-creative-process/"
             ],
             [
-              "MarTech · AI rewrites product discovery",
-              "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
+              "MarTech · skills AI makes more valuable",
+              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Million-Dollar Pilot Trap</em> &amp; AI Debt",
-          "url": "https://agilebrandguide.com/expert-mode-from-ai4-escaping-the-million-dollar-ai-pilot-trap-with-nice-cto-kevin-lee/",
+          "head": "The <em>AI Debt &amp; Data Trust</em> Reckoning Arrives",
+          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
           "body": [
-            "Two distinct but related warnings surfaced this month: the 'million-dollar pilot trap' — where AI projects burn budget without scaling — and 'AI debt,' the hidden technical &amp; process liabilities that accumulate when teams ship AI features faster than governance. <b>Both describe the same root cause: speed without structure.</b>",
-            "The practical implication for CMOs planning 2027 budgets is that <b>AI investment decisions can no longer be separated from governance and prompt-cost management decisions</b>. The MarTech piece on prompt governance and the warning about buyers rejecting multi-year overhauls both reinforce that incremental, auditable deployments beat big-bang transformations."
+            "Two MarTech pieces published days apart — 'The AI debt hidden in faster marketing' and 'The data trust crisis: why your customer data is getting worse' — describe a compounding liability. Teams shipping AI-powered campaigns faster are simultaneously <b>accumulating brittle pipelines, undocumented prompts, and degrading data inputs</b>. The speed gain is real; so is the fragility accruing underneath it.",
+            "Prompt governance, highlighted in a separate how-to piece, is emerging as a new operational discipline alongside data quality. <b>The 2027 CMO planning piece makes the stakes concrete</b>: leaders who ignore these hidden debts now will face a planning cycle where their AI outputs are unreliable at the moment they need them most — when budgets tighten and scrutiny rises."
           ],
           "ev": [
-            [
-              "Agile Brand · Pilot trap NiCE CTO",
-              "https://agilebrandguide.com/expert-mode-from-ai4-escaping-the-million-dollar-ai-pilot-trap-with-nice-cto-kevin-lee/"
-            ],
             [
               "MarTech · AI debt in faster marketing",
               "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
             ],
             [
-              "MarTech · Prompt governance &amp; costs",
+              "MarTech · data trust crisis",
+              "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/"
+            ],
+            [
+              "MarTech · prompt governance &amp; costs",
               "https://martech.org/how-to-manage-ai-prompt-governance-and-costs/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Human Judgment Becomes the <em>Scarce Marketing Skill</em>",
-          "url": "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/",
+          "head": "AI <em>Replaces First MarTech Category</em> — Pilots Must Now Ship or Die",
+          "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
           "body": [
-            "As AI automates execution, the skills that rise in value are the ones machines cannot replicate: strategic judgment, creative direction, ethical reasoning, and the ability to decide <b>where AI should and should not operate</b>. Multiple pieces this month — from the AI blind-spots article to the 'human judgment in creative' session from Ai4 — converge on this point.",
-            "<b>For hiring and team design, this is an immediate signal.</b> The marketer who can prompt, evaluate, and course-correct AI output is more valuable than one who can simply produce it. The 2027 CMO planning challenge, as one piece frames it, is less about budget and more about assembling judgment at scale alongside automated execution."
+            "MarTech's declaration that a full martech category has been replaced by AI is a milestone moment — it moves the conversation from 'AI will disrupt software' to <b>'AI has already eliminated a product class'</b>. BlazeHive's claim of outranking human writers across 500+ Google top-3 positions on autopilot is the SEO-specific proof point: an agent has operationally substituted for a human workflow at scale.",
+            "The NiCE CTO's 'million-dollar AI pilot trap' framing and the MarTech piece on why buyers hate multi-year overhauls both warn that <b>the window for safe, slow experimentation is closing</b>. Vendors and buyers alike are being forced toward faster commitment cycles — pilot-to-production in months, not years — or risk being stranded on legacy stacks while competitors automate entire functions."
           ],
           "ev": [
             [
-              "MarTech · Skills AI makes more valuable",
-              "https://martech.org/here-are-the-marketing-skills-ai-is-making-more-valuable/"
+              "MarTech · first category replaced by AI",
+              "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
             ],
             [
-              "Agile Brand · Human judgment in creative",
-              "https://agilebrandguide.com/expert-mode-from-ai4-beyond-the-efficiency-mandate-human-judgment-in-the-ai-powered-creative-process/"
+              "BlazeHive · AI SEO agent at scale",
+              "https://martechseries.com/content/blazehives-ai-seo-agent-outranks-human-writers-on-500-google-top-3-results-in-5-months-on-autopilot/"
             ],
             [
-              "MarTech · 5 AI blind spots",
-              "https://martech.org/5-ai-blind-spots-that-cost-you-conversions/"
+              "Agile Brand · escaping the pilot trap",
+              "https://agilebrandguide.com/expert-mode-from-ai4-escaping-the-million-dollar-ai-pilot-trap-with-nice-cto-kevin-lee/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, <em>AI is forcing binary decisions — not optimisations — about which tools, skills, and data architectures still belong in the plan</em>, and teams that treat these as incremental upgrades will find themselves holding expensive technical debt by 2027."
+      "takeaway": "Across every layer of the stack this month, the pattern is the same: <em>AI has moved from augmenting marketing tasks to replacing entire categories, surfaces, and roles</em> — and the organisations that treat that as a future risk rather than a present budget decision are already behind."
     }
   }
 }
