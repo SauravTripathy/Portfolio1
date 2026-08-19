@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T14:03:01.559770+00:00",
+  "generatedAt": "2026-08-19T05:51:57.900755+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,64 +45,66 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · via IAB",
+          "src": "MarTech",
           "fresh": true,
-          "head": "IAB releases AI Transparency & Disclosure Framework Version 2 for advertising",
-          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "The IAB has updated its industry-wide rules for labeling AI-generated or AI-altered ad content. The new framework draws the disclosure line around anything that changes consumer perception of <b>authenticity, identity, or reality</b>. For anyone buying, building, or approving AI-powered ads, this sets a concrete compliance standard that will shape contracts and creative briefs.",
-          "chips": [
-            "genai",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand Guide",
-          "fresh": true,
-          "head": "26% of ChatGPT responses already carry sponsored ads; AI search monetization accelerates",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-18-2026/",
-          "plain": "Similarweb data shows <b>26% of ChatGPT Free and Go responses now include a sponsored ad</b>, nearly 30% of Google AI Mode queries show ads, and 40%+ of Google searches trigger an AI Overview. This is the clearest measurement yet of how fast the AI answer surface is being commercialized — directly changing where marketers must place budget.",
+          "head": "AI visibility index shows which brands are disappearing from AI answers",
+          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "plain": "An index tracking brand presence inside AI-generated answers finds that <b>strong Google rankings no longer guarantee visibility in AI responses</b>. Some well-ranked brands barely surface in AI answers at all. This matters because search budgets and SEO strategies built for traditional engines may be leaving brands invisible where buyers increasingly look first.",
           "chips": [
             "geo",
             "govern"
           ]
         },
         {
+          "num": "02",
+          "src": "MarTech · via MarTech Series",
+          "fresh": false,
+          "head": "IAB releases updated AI Transparency and Disclosure Framework Version 2 for advertising",
+          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
+          "plain": "The IAB has updated its framework defining <b>when and how advertisers must label AI-generated content</b> in ads, drawing the line around anything that distorts consumer perception of authenticity or identity. Version 2 gives the industry clearer, enforceable guidance — directly shaping how AI-produced creative can legally and ethically run at scale.",
+          "chips": [
+            "govern",
+            "genai"
+          ]
+        },
+        {
           "num": "03",
-          "src": "Agile Brand Guide",
-          "fresh": true,
-          "head": "Acoustic launches agentic marketing AI that acts on live customer behavior",
-          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
-          "plain": "Acoustic's new AI layer sits inside its CEP and <b>proactively spots revenue opportunities, recommends the next campaign move, and builds campaigns autonomously</b> before customer intent fades. It shifts the platform from a message-execution tool to one that decides what to do next — a meaningful step toward agentic decisioning in mainstream marketing software.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "How to stop overpaying for AI complexity: match the tool to the task",
+          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
+          "plain": "A practical framework explains that <b>rule-based, predictive, generative, and agentic AI carry very different costs and risks</b>, and urges marketers to start with the lightest approach that works. This directly informs buying decisions, helping teams avoid vendor pressure to adopt expensive agentic systems when simpler automation would do the job.",
           "chips": [
             "agentic",
-            "decis",
-            "cep",
-            "cdp"
+            "genai",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "AI visibility index reveals brands dominant on Google but invisible in AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "A new index maps the gap between traditional search authority and <b>AI answer recall</b>, showing many high-ranking brands barely surface when ChatGPT or Gemini answer related questions. For marketers, it quantifies a real business risk and introduces a new metric category — AI share of voice — that belongs in every measurement dashboard.",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Seismic completes merger with Highspot to create unified go-to-market AI platform",
+          "url": "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/",
+          "plain": "Seismic and Highspot have formally merged, combining <b>AI agents, content governance, and sales enablement</b> for 2,500 customers and 3.5 million users. This consolidation reshapes the sales and marketing enablement vendor landscape, reducing buyer choice but potentially raising the bar for integrated AI-driven content and performance tools.",
           "chips": [
-            "geo"
+            "agentic",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "How to stop overpaying for AI complexity: match system type to actual task",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "A practical framework argues that <b>rule-based, predictive, generative, and agentic systems carry very different cost and risk profiles</b>, and that teams routinely over-engineer solutions. The guidance — start with the lightest approach that gets the job done — directly shapes how AI tools should be scoped, budgeted, and governed inside marketing organizations.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Eikona uses reinforcement learning to replace A/B testing with real-time content adaptation",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-eikona-with-nir-weingarten/",
+          "plain": "Eikona replaces traditional A/B testing with <b>reinforcement learning that adapts content continuously to individual user behavior</b>. Rather than picking a winner and stopping, the system keeps learning and personalizing. This is a concrete example of bandit-style optimization moving from research into everyday marketing practice.",
           "chips": [
-            "genai",
-            "agentic",
-            "govern"
+            "bandit",
+            "perso",
+            "genai"
           ]
         }
       ]
@@ -111,35 +113,35 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "IAB releases AI Transparency and Disclosure Framework Version 2 for advertisers",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/iab-updates-industry-framework-for-consistent-ai-transparency-disclosure-in-advertising/",
-          "plain": "The IAB updated its industry-wide framework that tells advertisers <b>when and how to label AI-generated content in ads</b>. Version 2 draws the disclosure line around changes to perceived authenticity and identity. This is a governance milestone: brands and agencies now have a clearer shared standard to follow — or face criticism for ignoring.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI visibility index shows which brands are disappearing from AI answers",
+          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "plain": "An index comparing traditional search rankings to AI-answer appearances finds a significant gap: some brands dominate Google but are nearly invisible in AI-generated responses. This matters because <b>generative engine visibility</b> is becoming a separate race from SEO, and marketers who ignore it risk losing discovery to competitors who optimise specifically for AI answers.",
           "chips": [
-            "govern",
+            "geo",
             "genai"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "AI visibility index reveals brands losing ground in AI-generated answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "Research shows some brands rank well on Google but barely appear in AI-generated answers, while others flip the pattern. <b>Traditional SEO authority and AI recall are diverging</b>, meaning marketers can no longer assume search visibility equals AI visibility. This changes how brands should think about content strategy and where to invest.",
+          "fresh": false,
+          "head": "IAB updates standard for disclosing AI in ads",
+          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
+          "plain": "The IAB's updated AI Transparency and Disclosure Framework v2 sets practical rules for when and how advertisers must label AI-generated or AI-altered ad content, drawing the line at anything that changes perceptions of authenticity or identity. This is the clearest industry-wide <b>AI disclosure standard</b> yet, and it will directly shape how brands govern AI creative going forward.",
           "chips": [
-            "geo",
-            "govern"
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Acoustic launches agentic marketing AI that acts on live customer behavior",
+          "fresh": false,
+          "head": "Acoustic launches agentic marketing teammate built on live customer behaviour",
           "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
-          "plain": "Acoustic's new AI layer <b>proactively spots revenue opportunities and recommends next-best actions</b> based on real-time customer signals, not batch data. It positions itself as a teammate that helps marketers move before customer intent fades. This is a concrete example of agentic decisioning arriving inside an established CEP, changing what the platform actually does.",
+          "plain": "Acoustic AI watches real-time customer behaviour, surfaces revenue opportunities and recommends the next campaign move before intent fades. It is a concrete example of <b>agentic decisioning inside a CEP</b>, shifting AI from content helper to autonomous campaign initiator — a step-change in how marketing platforms are being sold and evaluated.",
           "chips": [
             "agentic",
             "decis",
@@ -149,28 +151,29 @@
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Similarweb data: 26% of ChatGPT responses now carry sponsored ads",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-18-2026/",
-          "plain": "Similarweb's August 17 report finds that <b>over a quarter of ChatGPT Free and Go responses already include a sponsored ad</b>, and nearly 30% of Google AI Mode queries show ads too. This is the first hard measurement of ad penetration inside generative AI surfaces — a signal that changes media buying calculus for every performance marketer.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "How to stop overpaying for AI complexity",
+          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
+          "plain": "A practical framework argues that rule-based, predictive, generative, and agentic AI carry very different cost and risk profiles and that buyers should start with the <b>lightest system that can do the job</b> rather than defaulting to the most sophisticated. This directly shapes how marketing AI should be bought and budgeted, not just hyped.",
           "chips": [
-            "geo",
             "genai",
+            "agentic",
             "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "How to stop overpaying for AI complexity: match the tool to the task",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "A practical framework explains that rule-based, predictive, generative, and agentic AI carry <b>very different cost and risk profiles</b> and urges marketers to start with the lightest approach that solves the problem. This directly shapes how marketing AI is bought and budgeted — relevant to anyone evaluating a stack upgrade or vendor pitch right now.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Uniphore launches Marketing AI with digital twins and small language models to move beyond the CDP",
+          "url": "https://agilebrandguide.com/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
+          "plain": "Uniphore's new platform uses <b>per-customer digital twins and custom small language models</b> to simulate outcomes before spending and predict next-best actions, positioning itself explicitly as a replacement for traditional CDPs. If it delivers, this signals a structural shift in how customer data infrastructure is built and sold.",
           "chips": [
+            "cdp",
+            "perso",
             "agentic",
-            "genai",
-            "govern"
+            "decis"
           ]
         }
       ]
@@ -180,11 +183,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI <em>Brand Visibility</em> Is the New SEO Battle",
+          "head": "AI Is <em>Erasing Brand Visibility</em> at the Discovery Layer",
           "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
           "body": [
-            "As AI-powered search and discovery tools become the default way buyers find products, brands that fail to appear in AI-generated answers are effectively invisible — regardless of their traditional search rankings. An emerging category of <b>AI visibility indexes</b> is now tracking which brands are winning or losing this new form of presence, forcing marketers to rethink what \"discoverability\" even means.",
-            "The shift is structural, not tactical. Product discovery is being rewritten by AI assistants, publisher integrations, &amp; social recommendations simultaneously, meaning there is no single lever to pull. CMOs heading into 2027 planning face a landscape where <b>share of AI voice</b> may matter more than share of search impression."
+            "AI-powered search and recommendation engines are quietly rewriting which brands get found — and which vanish. An emerging AI Visibility Index now tracks how brands rank inside LLM outputs, not just on traditional SERPs, revealing that many established names are simply absent from AI-generated answers.",
+            "This is a <b>structural shift in product discovery</b>: publishers, social platforms, and AI assistants are all competing to be the new top-of-funnel. Brands that haven't optimised for how AI models cite and surface them are losing ground they may not even know they've lost."
           ],
           "ev": [
             [
@@ -192,68 +195,68 @@
               "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
             ],
             [
-              "MarTech · product discovery rewrite",
+              "MarTech · Product discovery rewritten",
               "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
             ],
             [
-              "MarTech · 2027 CMO planning",
-              "https://martech.org/the-2027-cmo-planning-challenge-is-bigger-than-the-budget/"
+              "MarTech · First martech category replaced",
+              "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "Agentic Marketing <em>Replaces Point Tools</em>",
-          "url": "https://martech.org/heres-the-first-martech-category-replaced-by-ai/",
+          "head": "The <em>Hidden Debt</em> Inside AI-Accelerated Marketing",
+          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
           "body": [
-            "The first full martech category is being replaced — not augmented — by AI agents that execute tasks end-to-end. Launches like Acoustic AI (built on live customer behavior), Uniphore's Marketing AI, and Whistic's four-agent vendor-assessment orchestrator all signal that <b>autonomous, coordinated AI teammates</b> are moving from pilot to production across the stack.",
-            "This collapses the old model of buying many single-purpose SaaS tools. Platforms are repositioning themselves as <b>agentic operating layers</b>, and the strategic question for marketing ops teams is no longer \"which tool does this job\" but \"which agent network do we trust to run this workflow\" — a fundamentally different procurement &amp; governance challenge."
+            "Speed has a price. As AI tools let teams ship content and campaigns faster, they are also compounding <b>content debt and technical debt</b> at scale — poor-quality, inconsistent, or ungoverned assets that will cost far more to untangle later. Analysts now put the liability of unmanaged content debt at $4.63 trillion globally.",
+            "The same dynamic applies inside AI implementations themselves: rushed deployments create model drift, data-quality gaps, and governance holes that quietly accumulate. <b>Leaders who treat AI as a pure productivity lever</b> without auditing downstream debt are essentially borrowing against future agility."
           ],
           "ev": [
             [
-              "MarTech · first category replaced",
-              "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
+              "MarTech · AI debt in faster marketing",
+              "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
             ],
             [
-              "Agile Brand · Acoustic AI launch",
-              "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/"
+              "Agile Brand · $4.63T content debt",
+              "https://agilebrandguide.com/storyblok-content-debt-the-4-63-trillion-liability-amplified-by-ai/"
             ],
             [
-              "MarTech Series · Whistic agent orchestrator",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/whistic-launches-automation-orchestrator-handing-vendor-assessments-to-a-coordinated-team-of-four-ai-agents/"
+              "MarTech · Stop overpaying for AI complexity",
+              "https://martech.org/how-to-stop-overpaying-for-ai-complexity/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The <em>AI Debt &amp; Cost</em> Reckoning Arrives",
-          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
+          "head": "Agentic AI Moves from <em>Pilot to Infrastructure</em>",
+          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
           "body": [
-            "Speed-first AI adoption is accumulating a hidden liability: rushed deployments create <b>AI debt</b> — brittle workflows, unaudited model outputs, &amp; data quality gaps — that compounds as fast as technical debt did in the early cloud era. Simultaneously, analysts are flagging that most enterprises are dramatically overpaying for AI complexity they don't need, with bloated model choices and redundant vendor contracts.",
-            "The corrective pressure is producing a new discipline: <b>AI spend governance</b>. The practical advice emerging is to map where AI actually changes a decision or revenue outcome before buying, and to treat the three common adoption barriers — data readiness, talent, &amp; change management — as preconditions, not afterthoughts. ROI scrutiny is intensifying fast."
+            "Multiple vendors this month shipped <b>multi-agent orchestration layers</b> — coordinated teams of AI agents handling vendor assessments, DataOps pipelines, and real-time customer engagement — signalling that agentic AI is leaving the experimental phase and becoming standard enterprise plumbing. Acoustic, Whistic, Arise, and Uniphore all launched production-grade agentic capabilities in the same window.",
+            "The decision that changes is whether to treat AI as a point tool or as a <b>persistent, autonomous teammate</b> embedded in workflows. Organisations that delay agentic architecture decisions now will face integration costs later as these layers harden into de-facto standards."
           ],
           "ev": [
             [
-              "MarTech · AI debt hidden in faster marketing",
-              "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
+              "Agile Brand · Acoustic agentic teammate",
+              "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/"
             ],
             [
-              "MarTech · stop overpaying for AI complexity",
-              "https://martech.org/how-to-stop-overpaying-for-ai-complexity/"
+              "MarTech Series · Whistic four-agent orchestration",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/whistic-launches-automation-orchestrator-handing-vendor-assessments-to-a-coordinated-team-of-four-ai-agents/"
             ],
             [
-              "MarTech · next AI opportunity is spend decisions",
-              "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/"
+              "Agile Brand · Uniphore beyond the CDP",
+              "https://agilebrandguide.com/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Mandatory <em>AI Transparency</em> Enters Advertising",
+          "head": "AI Disclosure Becomes a <em>Regulatory Baseline</em>",
           "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
           "body": [
-            "The IAB's updated industry framework for AI transparency &amp; disclosure in advertising marks a turning point: what was a voluntary best-practice is hardening into an expected industry standard. <b>AI-generated creative, targeting logic, &amp; synthetic personas</b> will all require clear labeling, reshaping how agencies, brands, &amp; ad tech vendors document their production pipelines.",
-            "For marketing teams, this is a compliance layer that doesn't yet have clean tooling. Operationalizing disclosure means tracking AI involvement at the asset level — something most current DAM &amp; workflow systems aren't built to do. Early movers who build <b>AI provenance logging</b> into their creative ops now will avoid a scramble when regulation catches up to the standard."
+            "The IAB's updated transparency &amp; disclosure framework sets a new industry baseline for labelling AI-generated or AI-assisted advertising creative. This is no longer a voluntary best practice — it is converging toward a compliance expectation that media buyers, publishers, and brands will all be held to.",
+            "<b>The strategic implication is immediate</b>: marketing operations teams need disclosure tagging built into creative workflows now, not retrofitted after regulation lands. Brands caught without auditable AI provenance in their ad supply chain will face both reputational and legal exposure."
           ],
           "ev": [
             [
@@ -265,18 +268,18 @@
               "https://martechseries.com/sales-marketing/programmatic-buying/iab-updates-industry-framework-for-consistent-ai-transparency-disclosure-in-advertising/"
             ],
             [
-              "MarTech · overcoming AI adoption barriers",
+              "MarTech · AI adoption barriers",
               "https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "GTM Stack <em>Consolidation Accelerates</em>",
+          "head": "Go-to-Market Consolidation Around <em>AI-Native Revenue Platforms</em>",
           "url": "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/",
           "body": [
-            "The Seismic–Highspot merger — two of the largest sales-enablement platforms combining into one — is the clearest signal yet that <b>go-to-market stack consolidation</b> is entering a new phase. Buyers exhausted by multi-year software overhauls &amp; integration debt are rewarding vendors who collapse adjacent capabilities into a single platform with unified data models.",
-            "CDPs are simultaneously evolving into activation platforms (Treasure AI), and data operations are being abstracted into AI-native layers (Arise Halo), suggesting the entire middle layer of the martech stack is being restructured. The strategic implication: <b>fewer, deeper vendor relationships</b> will define the next architecture cycle, and switching costs will rise sharply once consolidation bets are placed."
+            "The Seismic–Highspot merger is the clearest signal yet that the sales enablement &amp; GTM intelligence categories are collapsing into fewer, larger, AI-native platforms. Paired with ZoomInfo's reported 600% lift in qualified deals for a client, the message is that <b>data-enriched, AI-orchestrated revenue platforms are pulling decisively ahead</b> of best-of-breed point solutions.",
+            "For CMOs and RevOps leaders, this consolidation changes the vendor evaluation frame: the question is no longer which tool covers a specific capability, but <b>which platform owns the full GTM data loop</b> — intent signals, content delivery, and performance analytics — in one governed environment."
           ],
           "ev": [
             [
@@ -284,17 +287,17 @@
               "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/"
             ],
             [
-              "Agile Brand · CDP to activation platform",
-              "https://agilebrandguide.com/treasure-ai-chief-product-and-growth-officer-rafael-flores-on-evolving-cdps-to-activation-platforms/"
+              "MarTech Series · ZoomInfo 600% lift",
+              "https://martechseries.com/sales-marketing/crm/ak-operations-lifts-client-qualified-deals-600-in-six-months-with-zoominfo/"
             ],
             [
-              "MarTech · buyers hate multi-year overhauls",
-              "https://martech.org/why-buyers-hate-your-multi-year-software-overhaul/"
+              "MarTech · Next AI opportunity in spend decisions",
+              "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — from agentic tool replacement to IAB disclosure rules to stack mergers — confirms that <em>the AI transition in marketing has shifted from experimentation to structural renegotiation of budgets, vendors, and accountability</em>."
+      "takeaway": "Across every theme this month, <em>AI is shifting from optional accelerant to load-bearing infrastructure</em> — meaning the decisions marketers delay today on visibility, debt, agents, disclosure, and platform consolidation will be structurally harder to reverse by 2027."
     }
   }
 }
