@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T05:51:57.900755+00:00",
+  "generatedAt": "2026-08-19T14:03:15.698734+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,66 +45,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "AI visibility index shows which brands are disappearing from AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "An index tracking brand presence inside AI-generated answers finds that <b>strong Google rankings no longer guarantee visibility in AI responses</b>. Some well-ranked brands barely surface in AI answers at all. This matters because search budgets and SEO strategies built for traditional engines may be leaving brands invisible where buyers increasingly look first.",
+          "head": "Seismic closes Highspot merger; Pipedrive ships MCP to Claude",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-19-2026/",
+          "plain": "Two major MarTech moves landed on August 18: Seismic and Highspot, the two dominant <b>sales-enablement platforms</b>, completed their merger — shrinking a competitive category overnight. Separately, Pipedrive connected its CRM to Claude via the Model Context Protocol, letting an AI agent query and act on live pipeline data. Both moves reshape how AI is bought and integrated.",
           "chips": [
-            "geo",
+            "agentic",
+            "cep",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech · via MarTech Series",
-          "fresh": false,
-          "head": "IAB releases updated AI Transparency and Disclosure Framework Version 2 for advertising",
-          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "The IAB has updated its framework defining <b>when and how advertisers must label AI-generated content</b> in ads, drawing the line around anything that distorts consumer perception of authenticity or identity. Version 2 gives the industry clearer, enforceable guidance — directly shaping how AI-produced creative can legally and ethically run at scale.",
-          "chips": [
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "How to stop overpaying for AI complexity: match the tool to the task",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "A practical framework explains that <b>rule-based, predictive, generative, and agentic AI carry very different costs and risks</b>, and urges marketers to start with the lightest approach that works. This directly informs buying decisions, helping teams avoid vendor pressure to adopt expensive agentic systems when simpler automation would do the job.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Dun & Bradstreet deploys Snowflake Cortex Agents on its Marketplace data listings",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dun-bradstreet-powers-the-agentic-shift-by-deploying-snowflake-cortex-agents-on-its-marketplace-data-listings/",
+          "plain": "D&B is letting buyers query its business-intelligence data through <b>conversational AI agents</b> directly inside Snowflake Marketplace — no export, no separate tool. This is one of the first moves by a major data provider to make structured B2B data natively agentic, changing how marketers discover and activate third-party intelligence at scale.",
           "chips": [
             "agentic",
-            "genai",
-            "govern",
+            "cdp",
             "decis"
           ]
         },
         {
-          "num": "04",
+          "num": "03",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "Seismic completes merger with Highspot to create unified go-to-market AI platform",
-          "url": "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/",
-          "plain": "Seismic and Highspot have formally merged, combining <b>AI agents, content governance, and sales enablement</b> for 2,500 customers and 3.5 million users. This consolidation reshapes the sales and marketing enablement vendor landscape, reducing buyer choice but potentially raising the bar for integrated AI-driven content and performance tools.",
+          "fresh": true,
+          "head": "UiPath launches Maestro Flow for developer-first orchestration of coding agents",
+          "url": "https://martechseries.com/sales-marketing/marketing-automation/uipath-introduces-uipath-maestro-flow-delivering-developer-first-orchestration-for-coding-agents/",
+          "plain": "UiPath's new Maestro Flow lets developers wire any coding agent into end-to-end business processes with built-in <b>enterprise governance guardrails</b> — without rewriting existing automation. For MarTech builders, it lowers the barrier to shipping durable, auditable agentic workflows across marketing operations and customer engagement systems.",
           "chips": [
             "agentic",
             "govern",
-            "genai"
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Storyblok report: 'content debt' is a $4.63 trillion liability, worsened by AI",
+          "url": "https://agilebrandguide.com/storyblok-content-debt-the-4-63-trillion-liability-amplified-by-ai/",
+          "plain": "A Storyblok/FT Longitude study puts the annual cost of outdated, redundant, and ungoverned content at <b>$4.63 trillion globally</b> — more than Japan's GDP. Generative AI is accelerating content volume without fixing the underlying debt, making content governance a boardroom-level risk for any brand using AI to scale output.",
+          "chips": [
+            "genai",
+            "govern",
+            "geo"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Eikona uses reinforcement learning to replace A/B testing with real-time content adaptation",
-          "url": "https://agilebrandguide.com/one-amazing-thing-about-eikona-with-nir-weingarten/",
-          "plain": "Eikona replaces traditional A/B testing with <b>reinforcement learning that adapts content continuously to individual user behavior</b>. Rather than picking a winner and stopping, the system keeps learning and personalizing. This is a concrete example of bandit-style optimization moving from research into everyday marketing practice.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Alteryx One: Google Edition brings governed in-place analytics to BigQuery Marketplace",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/alteryx-launches-alteryx-one-google-edition-on-google-cloud-marketplace/",
+          "plain": "Alteryx's new Google Edition lets teams run analytics directly inside BigQuery without moving data, pairing <b>in-place processing with governance controls</b>. For marketing data teams, this matters because it reduces data-copy risk and keeps AI-ready analytics within a governed cloud environment — relevant as CDPs and cloud data warehouses increasingly converge.",
           "chips": [
-            "bandit",
-            "perso",
-            "genai"
+            "cdp",
+            "govern",
+            "agentic"
           ]
         }
       ]
@@ -113,67 +114,66 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI visibility index shows which brands are disappearing from AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "An index comparing traditional search rankings to AI-answer appearances finds a significant gap: some brands dominate Google but are nearly invisible in AI-generated responses. This matters because <b>generative engine visibility</b> is becoming a separate race from SEO, and marketers who ignore it risk losing discovery to competitors who optimise specifically for AI answers.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "26% of ChatGPT responses carry sponsored ads; 40%+ of Google searches trigger AI Overviews",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-18-2026/",
+          "plain": "Similarweb data shows <b>sponsored ads now appear in over a quarter of ChatGPT Free/Go responses</b>, and nearly 30% of Google AI Mode queries show ads. With 40%+ of Google searches triggering AI Overviews, the paid-media landscape is fundamentally shifting into AI-generated answer surfaces — changing where and how marketing budgets must flow.",
           "chips": [
             "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "IAB updates standard for disclosing AI in ads",
-          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "The IAB's updated AI Transparency and Disclosure Framework v2 sets practical rules for when and how advertisers must label AI-generated or AI-altered ad content, drawing the line at anything that changes perceptions of authenticity or identity. This is the clearest industry-wide <b>AI disclosure standard</b> yet, and it will directly shape how brands govern AI creative going forward.",
-          "chips": [
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Acoustic launches agentic marketing teammate built on live customer behaviour",
-          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
-          "plain": "Acoustic AI watches real-time customer behaviour, surfaces revenue opportunities and recommends the next campaign move before intent fades. It is a concrete example of <b>agentic decisioning inside a CEP</b>, shifting AI from content helper to autonomous campaign initiator — a step-change in how marketing platforms are being sold and evaluated.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "perso"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "How to stop overpaying for AI complexity",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "A practical framework argues that rule-based, predictive, generative, and agentic AI carry very different cost and risk profiles and that buyers should start with the <b>lightest system that can do the job</b> rather than defaulting to the most sophisticated. This directly shapes how marketing AI should be bought and budgeted, not just hyped.",
-          "chips": [
             "genai",
-            "agentic",
             "govern"
           ]
         },
         {
-          "num": "05",
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Seismic closes Highspot merger; Pipedrive ships MCP to Claude",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-19-2026/",
+          "plain": "Two significant MarTech moves landed on August 18: <b>Seismic and Highspot — the two dominant sales-enablement platforms — merged</b>, consolidating a major category. Separately, Pipedrive connected its CRM to Claude via MCP, letting an AI agent act directly inside a sales pipeline. Both deals reshape how AI is bought and integrated in go-to-market stacks.",
+          "chips": [
+            "agentic",
+            "cep",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Dun & Bradstreet deploys Snowflake Cortex Agents on its Marketplace data listings",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dun-bradstreet-powers-the-agentic-shift-by-deploying-snowflake-cortex-agents-on-its-marketplace-data-listings/",
+          "plain": "D&B is embedding <b>conversational AI agents directly onto its B2B data listings in Snowflake Marketplace</b>, so buyers can query and activate business intelligence without writing SQL or exporting files. This is an early signal that major data providers will compete on agent-readiness, changing how B2B data is evaluated and purchased.",
+          "chips": [
+            "agentic",
+            "cdp",
+            "decis"
+          ]
+        },
+        {
+          "num": "04",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Uniphore launches Marketing AI with digital twins and small language models to move beyond the CDP",
-          "url": "https://agilebrandguide.com/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/",
-          "plain": "Uniphore's new platform uses <b>per-customer digital twins and custom small language models</b> to simulate outcomes before spending and predict next-best actions, positioning itself explicitly as a replacement for traditional CDPs. If it delivers, this signals a structural shift in how customer data infrastructure is built and sold.",
+          "head": "Eikona uses reinforcement learning to replace A/B testing with behavior-driven content adaptation",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-eikona-with-nir-weingarten/",
+          "plain": "Eikona replaces static A/B tests with <b>reinforcement learning that adapts content in real time based on individual user behavior</b>. Rather than picking a winner for a segment, the system continuously learns what each visitor responds to. This matters because it represents a practical shift from segment-level to true 1:1 optimization without manual experiment design.",
           "chips": [
-            "cdp",
+            "bandit",
             "perso",
-            "agentic",
             "decis"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "UiPath launches Maestro Flow for developer-first orchestration of coding agents with built-in governance",
+          "url": "https://martechseries.com/sales-marketing/marketing-automation/uipath-introduces-uipath-maestro-flow-delivering-developer-first-orchestration-for-coding-agents/",
+          "plain": "UiPath Maestro Flow lets developers wire any coding agent into full business processes using a visual canvas, while keeping <b>enterprise-grade governance and auditability baked in</b>. For MarTech buyers, this signals that agentic automation platforms are competing on governance controls as a core feature — not just speed — which will shape procurement criteria.",
+          "chips": [
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -183,121 +183,113 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Is <em>Erasing Brand Visibility</em> at the Discovery Layer",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "head": "The <em>Agentic Infrastructure</em> Race Is On",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dun-bradstreet-powers-the-agentic-shift-by-deploying-snowflake-cortex-agents-on-its-marketplace-data-listings/",
           "body": [
-            "AI-powered search and recommendation engines are quietly rewriting which brands get found — and which vanish. An emerging AI Visibility Index now tracks how brands rank inside LLM outputs, not just on traditional SERPs, revealing that many established names are simply absent from AI-generated answers.",
-            "This is a <b>structural shift in product discovery</b>: publishers, social platforms, and AI assistants are all competing to be the new top-of-funnel. Brands that haven't optimised for how AI models cite and surface them are losing ground they may not even know they've lost."
+            "Multiple vendors — D&amp;B on Snowflake, UiPath with Maestro Flow, Hostinger's AI Builder — launched agent-layer products in the same week, signaling that <b>agentic orchestration is no longer a research concept but a shipping category</b>. Each product bets that the next competitive moat is not the AI model itself but the infrastructure that lets agents act on real business data reliably.",
+            "For strategists, this means vendor selection decisions made today will lock in which orchestration layer your marketing stack runs on tomorrow. <b>Choosing a CRM, CDP, or analytics platform now implicitly means choosing an agent runtime</b>, so procurement teams need to evaluate agentic capability alongside traditional feature checklists."
           ],
           "ev": [
             [
-              "MarTech · AI visibility index",
-              "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
+              "MarTech Series · D&B + Snowflake Cortex Agents",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dun-bradstreet-powers-the-agentic-shift-by-deploying-snowflake-cortex-agents-on-its-marketplace-data-listings/"
             ],
             [
-              "MarTech · Product discovery rewritten",
-              "https://martech.org/how-ai-publishers-and-social-media-are-rewriting-product-discovery/"
+              "MarTech Series · UiPath Maestro Flow",
+              "https://martechseries.com/sales-marketing/marketing-automation/uipath-introduces-uipath-maestro-flow-delivering-developer-first-orchestration-for-coding-agents/"
             ],
             [
-              "MarTech · First martech category replaced",
-              "https://martech.org/heres-the-first-martech-category-replaced-by-ai/"
+              "MarTech Series · Hostinger AI Builder",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hostinger-brings-the-full-online-journey-into-the-agentic-era-with-ai-builder/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>Hidden Debt</em> Inside AI-Accelerated Marketing",
-          "url": "https://martech.org/the-ai-debt-hidden-in-faster-marketing/",
+          "head": "AI Must Now <em>Prove Tangible Value</em>, Not Just Vision",
+          "url": "https://agilebrandguide.com/expert-mode-fro-ai4-from-selling-an-ai-vision-to-proving-tangible-value/",
           "body": [
-            "Speed has a price. As AI tools let teams ship content and campaigns faster, they are also compounding <b>content debt and technical debt</b> at scale — poor-quality, inconsistent, or ungoverned assets that will cost far more to untangle later. Analysts now put the liability of unmanaged content debt at $4.63 trillion globally.",
-            "The same dynamic applies inside AI implementations themselves: rushed deployments create model drift, data-quality gaps, and governance holes that quietly accumulate. <b>Leaders who treat AI as a pure productivity lever</b> without auditing downstream debt are essentially borrowing against future agility."
+            "The AI4 expert-mode discussion captures a decisive mood shift: executives who once funded AI pilots on the promise of transformation are now demanding <b>measurable business outcomes before renewing budgets</b>. The era of selling a vision is closing; the era of auditable ROI is opening.",
+            "This puts MarTech vendors in a squeeze — they must ship proof-of-value dashboards and outcome SLAs, not just capability demos. <b>Marketers evaluating tools should now ask for customer-verified metrics, not analyst scores</b>, because the bar for 'good enough' has moved from impressive to provable."
           ],
           "ev": [
             [
-              "MarTech · AI debt in faster marketing",
-              "https://martech.org/the-ai-debt-hidden-in-faster-marketing/"
+              "Agile Brand · Selling Vision vs. Tangible Value",
+              "https://agilebrandguide.com/expert-mode-fro-ai4-from-selling-an-ai-vision-to-proving-tangible-value/"
             ],
             [
-              "Agile Brand · $4.63T content debt",
-              "https://agilebrandguide.com/storyblok-content-debt-the-4-63-trillion-liability-amplified-by-ai/"
-            ],
-            [
-              "MarTech · Stop overpaying for AI complexity",
-              "https://martech.org/how-to-stop-overpaying-for-ai-complexity/"
+              "Agile Brand · Aug 19 News Roundup",
+              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-19-2026/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Agentic AI Moves from <em>Pilot to Infrastructure</em>",
-          "url": "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/",
+          "head": "<em>Content Debt</em> Becomes AI's Hidden Tax",
+          "url": "https://agilebrandguide.com/storyblok-content-debt-the-4-63-trillion-liability-amplified-by-ai/",
           "body": [
-            "Multiple vendors this month shipped <b>multi-agent orchestration layers</b> — coordinated teams of AI agents handling vendor assessments, DataOps pipelines, and real-time customer engagement — signalling that agentic AI is leaving the experimental phase and becoming standard enterprise plumbing. Acoustic, Whistic, Arise, and Uniphore all launched production-grade agentic capabilities in the same window.",
-            "The decision that changes is whether to treat AI as a point tool or as a <b>persistent, autonomous teammate</b> embedded in workflows. Organisations that delay agentic architecture decisions now will face integration costs later as these layers harden into de-facto standards."
+            "Storyblok's research frames unstructured, inconsistent, or duplicated content as a <b>$4.63 trillion liability</b> — and warns that AI amplifies the problem rather than fixing it, because models trained on or fed bad content produce bad outputs at machine speed. This reframes content governance from a housekeeping task to a strategic risk-management priority.",
+            "<b>Organizations rushing to automate content production with AI without first auditing their content architecture are accelerating debt accumulation, not eliminating it.</b> The practical decision this forces: invest in structured content systems and taxonomy before scaling AI content generation, or face compounding cleanup costs downstream."
           ],
           "ev": [
             [
-              "Agile Brand · Acoustic agentic teammate",
-              "https://agilebrandguide.com/acoustic-launches-acoustic-ai-an-agentic-marketing-teammate-built-on-live-customer-behavior/"
+              "Agile Brand · Storyblok Content Debt Report",
+              "https://agilebrandguide.com/storyblok-content-debt-the-4-63-trillion-liability-amplified-by-ai/"
             ],
             [
-              "MarTech Series · Whistic four-agent orchestration",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/whistic-launches-automation-orchestrator-handing-vendor-assessments-to-a-coordinated-team-of-four-ai-agents/"
-            ],
-            [
-              "Agile Brand · Uniphore beyond the CDP",
-              "https://agilebrandguide.com/uniphore-launches-marketing-ai-as-marketing-moves-beyond-the-cdp/"
+              "Agile Brand · Aug 18 News Roundup",
+              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-18-2026/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Disclosure Becomes a <em>Regulatory Baseline</em>",
-          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
+          "head": "AI Creative Bottleneck Shifts to <em>Selection, Not Production</em>",
+          "url": "https://agilebrandguide.com/luma-and-dumbstruck-partner-on-creative-intelligence-betting-the-real-ai-bottleneck-is-selection-not-production/",
           "body": [
-            "The IAB's updated transparency &amp; disclosure framework sets a new industry baseline for labelling AI-generated or AI-assisted advertising creative. This is no longer a voluntary best practice — it is converging toward a compliance expectation that media buyers, publishers, and brands will all be held to.",
-            "<b>The strategic implication is immediate</b>: marketing operations teams need disclosure tagging built into creative workflows now, not retrofitted after regulation lands. Brands caught without auditable AI provenance in their ad supply chain will face both reputational and legal exposure."
+            "The Luma &amp; Dumbstruck 'Creative Intelligence' partnership, alongside DomoAI's long-form video tools, signals a maturing creative-AI market where <b>generating assets is no longer the hard part — knowing which assets will perform is</b>. The new competitive frontier is AI-assisted selection, scoring, and creative decision-making.",
+            "For marketing teams, this means the skill gap is moving from 'can we produce enough content?' to <b>'do we have the data infrastructure and judgment frameworks to pick winners at scale?'</b> Brands that invest in creative analytics and feedback loops now will compound advantages as generative volume keeps rising."
           ],
           "ev": [
             [
-              "MarTech · IAB standard update",
-              "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/"
+              "Agile Brand · Luma &amp; Dumbstruck Creative Intelligence",
+              "https://agilebrandguide.com/luma-and-dumbstruck-partner-on-creative-intelligence-betting-the-real-ai-bottleneck-is-selection-not-production/"
             ],
             [
-              "MarTech Series · IAB framework detail",
-              "https://martechseries.com/sales-marketing/programmatic-buying/iab-updates-industry-framework-for-consistent-ai-transparency-disclosure-in-advertising/"
+              "MarTech Series · DomoAI Long-Form Video",
+              "https://martechseries.com/video/domoai-launches-seedance-2-5-and-minimax-h3-in-omni-reference-for-long-form-character-storytelling-and-music-video-creation/"
             ],
             [
-              "MarTech · AI adoption barriers",
-              "https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption/"
+              "MarTech Series · Sell The Trend AI Ads Blueprint",
+              "https://martechseries.com/sales-marketing/programmatic-buying/sell-the-trend-launches-ai-ads-blueprint-to-help-ecommerce-sellers-create-campaign-ready-ads-faster/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Go-to-Market Consolidation Around <em>AI-Native Revenue Platforms</em>",
-          "url": "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/",
+          "head": "Platform <em>Cloud Lock-In</em> Deepens Through AI Bundles",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/alteryx-launches-alteryx-one-google-edition-on-google-cloud-marketplace/",
           "body": [
-            "The Seismic–Highspot merger is the clearest signal yet that the sales enablement &amp; GTM intelligence categories are collapsing into fewer, larger, AI-native platforms. Paired with ZoomInfo's reported 600% lift in qualified deals for a client, the message is that <b>data-enriched, AI-orchestrated revenue platforms are pulling decisively ahead</b> of best-of-breed point solutions.",
-            "For CMOs and RevOps leaders, this consolidation changes the vendor evaluation frame: the question is no longer which tool covers a specific capability, but <b>which platform owns the full GTM data loop</b> — intent signals, content delivery, and performance analytics — in one governed environment."
+            "Alteryx launching a Google Cloud-native edition and Scorpion deepening its Google Ads integration with Demand Gen illustrate a broader pattern: <b>AI features are being bundled directly into cloud-platform agreements</b>, making it progressively harder to switch providers without losing AI capability. Vendors and hyperscalers are co-selling AI as a reason to consolidate spend.",
+            "<b>Buyers who sign multi-year cloud agreements today are likely locking in their AI vendor landscape for the next three to five years without realizing it.</b> Procurement and MarTech leaders should treat cloud-marketplace purchases as de facto AI architecture decisions and stress-test portability assumptions before signing."
           ],
           "ev": [
             [
-              "MarTech Series · Seismic–Highspot merger",
-              "https://martechseries.com/content/seismic-completes-merger-with-highspot-to-create-a-new-leader-in-go-to-market-performance/"
+              "MarTech Series · Alteryx on Google Cloud",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/alteryx-launches-alteryx-one-google-edition-on-google-cloud-marketplace/"
             ],
             [
-              "MarTech Series · ZoomInfo 600% lift",
-              "https://martechseries.com/sales-marketing/crm/ak-operations-lifts-client-qualified-deals-600-in-six-months-with-zoominfo/"
+              "MarTech Series · Scorpion + Google Demand Gen",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scorpion-expands-google-ads-offering-with-demand-gen/"
             ],
             [
-              "MarTech · Next AI opportunity in spend decisions",
-              "https://martech.org/the-next-ai-opportunity-is-deciding-where-to-spend/"
+              "Agile Brand · a16z AI-Native Filesystem Funding",
+              "https://agilebrandguide.com/space-raises-2-4m-led-by-a16z-speedrun-to-build-the-ai-native-filesystem-for-humans-and-agents/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every theme this month, <em>AI is shifting from optional accelerant to load-bearing infrastructure</em> — meaning the decisions marketers delay today on visibility, debt, agents, disclosure, and platform consolidation will be structurally harder to reverse by 2027."
+      "takeaway": "Across every layer of the stack — infrastructure, creative, data, and cloud — <em>AI is forcing irreversible architectural commitments that marketing leaders are still treating as reversible experiments</em>."
     }
   }
 }
