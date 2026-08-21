@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:52:47.134441+00:00",
+  "generatedAt": "2026-08-21T14:03:54.049009+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,51 +47,50 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "Business websites dominate Gemini's local AI citations — but results shift dramatically by search",
-          "url": "https://martech.org/business-websites-dominate-geminis-local-ai-citations/",
-          "plain": "Nearly 60% of Gemini's local recommendations link back to <b>business websites</b>, not directories — good news for direct web presence. But the same search query can return wildly different citations, raising serious questions about <b>GEO consistency</b>. Marketers now have data suggesting where to focus optimization effort to stay visible inside AI-generated answers.",
+          "head": "HubSpot July 2026 updates: Agent Hub arrives to centralize AI agent management",
+          "url": "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/",
+          "plain": "HubSpot has shipped <b>Agent Hub</b>, a single console where users manage every AI agent across the platform. This matters because it signals that major CRMs are now treating agents as a product category that needs its own governance layer — changing how marketing teams buy and configure AI tools inside an all-in-one stack.",
           "chips": [
-            "geo",
-            "govern"
+            "agentic",
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "How to tell if your personalization is over the line",
-          "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
-          "plain": "A practical three-part test — does the customer expect it, find it relevant, and feel comfortable with it — gives marketers a <b>governance framework</b> for deciding when <b>1:1 personalization</b> crosses into creepiness. As AI makes hyper-targeting easier, this kind of ethical guardrail is increasingly important for brand trust and regulatory safety.",
+          "head": "Checkmate reveals 'mate', an AI marketing platform built on first-party shopper data after ad-tracking collapse",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ad-tracking-collapsed-the-1-shopping-app-built-an-ai-marketing-platform/",
+          "plain": "Checkmate, already used by 700+ brands, is publicly launching its AI marketing platform built entirely on <b>its own shopper data</b> — no third-party cookies needed. This is a real-world proof point that first-party data assets can become standalone ad businesses, reshaping how brands think about <b>data partnerships versus owned audience platforms</b>.",
           "chips": [
+            "cdp",
             "perso",
-            "govern",
-            "cdp"
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Iterable CMO on AI-powered real-time decisioning and building customer trust",
-          "url": "https://martechseries.com/mts-insights/interviews/martech-interview-on-ai-powered-customer-engagement-with-priya-gill-cmo-at-iterable/",
-          "plain": "Iterable's CMO Priya Gill details how brands are using <b>real-time AI decisioning</b> inside customer engagement platforms — choosing the right message, channel, and moment per individual. She also addresses the trust gap: automation gains only hold if customers believe brands are using their data responsibly. Relevant for anyone buying or building a CEP.",
+          "head": "Adobe Firefly AI Audio exits beta, shifting music licensing responsibility to the generation layer",
+          "url": "https://agilebrandguide.com/adobe-moves-fireflys-ai-audio-out-of-beta-as-music-licensing-friction-shifts-to-the-generation-layer/",
+          "plain": "Adobe's <b>rights-cleared AI audio generation</b> — music, speech, and sound effects — is now generally available inside Firefly. Brand teams no longer license finished tracks; they generate them. This fundamentally moves <b>IP compliance decisions</b> upstream to the generation tool itself, with major governance implications for creative and legal teams.",
           "chips": [
-            "cep",
-            "decis",
-            "perso",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Seismic-Highspot merger and the week's AI-powered martech releases",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "The <b>Seismic and Highspot merger</b> creates a dominant GTM enablement platform, but editors flag that disconnected customer data could blunt its value. The round-up also covers agentic add-ons across several martech categories. Important for buyers evaluating consolidation risk in the sales-enablement and AI-content stack.",
+          "head": "Influ2 launches MCP server giving AI apps access to contact-level ABM buyer signals",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/influ2-launches-mcp-for-contact-level-abm/",
+          "plain": "Influ2 has released a <b>Model Context Protocol (MCP) server</b> so external AI applications can directly query its contact-level buyer signals and launch ABM programs. MCP is rapidly becoming the standard connector between AI agents and marketing data, making this a key move in how <b>agentic systems access targeting intelligence</b> without custom integrations.",
           "chips": [
-            "genai",
             "agentic",
+            "decis",
             "cdp"
           ]
         },
@@ -99,13 +98,11 @@
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Capacity adds multi-agent support and automated QA to voice AI offerings",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/capacity-brings-automated-quality-assurance-multi-agent-support-and-knowledge-orchestration-to-voice-offerings/",
-          "plain": "Capacity's platform now lets <b>multiple AI agents hand off voice interactions</b> across departments while sharing a single knowledge layer — and it auto-checks call quality without human review. This shows how <b>agentic architectures</b> are moving from chat into voice CX, shifting what brands need to govern and what vendors they need to evaluate.",
+          "head": "Veuno launches free AI Visibility Checker showing B2B brands how they appear inside ChatGPT, Gemini, and Perplexity",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/veuno-launches-free-ai-visibility-checker-for-b2b-brands-losing-ground-in-ai-search/",
+          "plain": "Veuno's free tool lets any B2B brand audit its <b>presence inside AI answer engines</b> in under a minute. As buyers increasingly skip traditional search, understanding whether your brand surfaces in generative answers is becoming a core marketing metric. <b>GEO auditing tools</b> aimed at non-specialists accelerate mainstream adoption of this discipline.",
           "chips": [
-            "agentic",
-            "cep",
-            "govern"
+            "geo"
           ]
         }
       ]
@@ -114,11 +111,11 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
           "head": "IAB updates standard for disclosing AI in ads",
           "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "The IAB has revised its framework for when AI use in advertising must be disclosed to consumers. The new line is drawn around content that changes perceptions of <b>authenticity, identity, or what is real</b>. This matters because it sets the compliance baseline that every brand using generative AI in creative will now be measured against.",
+          "plain": "The IAB has revised its AI disclosure framework, drawing the line at changes that affect consumer perceptions of authenticity, identity, or what's real. This is a <b>governance milestone</b> — it sets a practical standard that marketing teams, legal departments, and ad platforms will need to follow when buying or deploying AI-generated creative.",
           "chips": [
             "genai",
             "govern"
@@ -127,51 +124,51 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "AI visibility index shows which brands are disappearing from AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "New index data reveals a sharp split between brands that rank well on Google and those that actually surface inside AI-generated answers. <b>Traditional SEO authority does not reliably predict AI recall</b>, meaning brands with strong search rankings can still be invisible to users asking AI assistants — a fundamental shift in how discoverability is measured.",
+          "fresh": true,
+          "head": "HubSpot July 2026 updates: Agent Hub arrives and more ways to control what you see",
+          "url": "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/",
+          "plain": "HubSpot now consolidates all AI agents into a single <b>Agent Hub</b>, making it easier for marketing ops teams to manage, monitor, and govern multiple AI agents from one place. This matters because it signals how major CEPs are packaging agentic AI — and sets expectations for how competing platforms will follow.",
           "chips": [
-            "geo",
+            "agentic",
+            "cep",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Getting your brand ready for AI agent discovery",
-          "url": "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/",
-          "plain": "Being cited in an AI answer is not enough — the piece explains what determines whether an AI agent actually <b>selects and recommends your brand</b> versus just mentioning it. Practical guidance on structured data, authority signals, and content format makes this directly actionable for marketing and SEO teams adjusting strategy now.",
+          "head": "AI visibility index shows which brands are disappearing from AI answers",
+          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "plain": "Research shows a clear split: brands that rank well on Google often go missing inside AI-generated answers. This is the clearest data yet that <b>traditional SEO authority does not transfer automatically to AI answer engines</b>, making GEO a distinct discipline marketers now need to budget and plan for separately.",
           "chips": [
-            "geo",
-            "agentic"
+            "geo"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "How to tell if your personalization is over the line",
-          "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
-          "plain": "A practical decision framework for marketers: before deploying customer data for personalization, check whether consumers <b>expect it, find it relevant, and feel comfortable</b> with it. As AI enables ever-finer targeting, this three-part test gives teams a concrete governance tool to avoid the creepiness that erodes trust and triggers regulation.",
+          "head": "How to stop overpaying for AI complexity",
+          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
+          "plain": "A practical framework showing that rule-based, predictive, generative, and agentic AI systems carry very different costs and risks — and that teams routinely buy more complexity than their use case needs. This <b>buy-smarter guide</b> directly shapes how marketing teams evaluate and justify AI procurement decisions.",
           "chips": [
-            "perso",
-            "govern",
-            "cdp"
+            "genai",
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
           "fresh": false,
-          "head": "How to stop overpaying for AI complexity",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "Rule-based, predictive, generative, and agentic AI come with very different cost and risk profiles. The article argues teams should <b>start with the lightest approach that solves the problem</b> and only escalate complexity when simpler methods fail — a buying and architecture principle that directly affects how martech stacks are evaluated and funded.",
+          "head": "How to tell if your personalization is over the line",
+          "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
+          "plain": "A decision framework that tests whether a personalized experience meets three criteria: customers expect it, find it relevant, and feel comfortable with it. As <b>AI-powered 1:1 personalization</b> scales, this kind of governance thinking is essential to avoid backlash and stay on the right side of emerging consumer-data norms.",
           "chips": [
-            "genai",
-            "agentic",
-            "govern"
+            "perso",
+            "govern",
+            "cdp"
           ]
         }
       ]
@@ -181,121 +178,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Brands Are <em>Invisible to AI</em> Unless They Rebuild for Agent Discovery",
+          "head": "The <em>AI Search Visibility</em> Crisis Rewrites B2B Discovery",
           "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
           "body": [
-            "A new AI visibility index reveals that brands optimized for search engines are quietly vanishing from AI-generated answers — Gemini, for instance, heavily favors direct business websites over aggregators. <b>Winning in AI-mediated discovery requires a fundamentally different content and citation strategy</b>, not just SEO tweaks.",
-            "Georgia-Pacific's Jason Ippen frames this as brand stewardship turned offensive: marketers must engineer structured, authoritative signals so AI agents surface them at the moment of consideration. <b>The window to act is narrow</b> — brands that delay cede ground that compounding AI training cycles make increasingly hard to recover."
+            "AI-powered answer engines like Gemini and ChatGPT are replacing the traditional search results page, and brands that haven't optimized for this layer are simply <b>not being cited</b>. Multiple new audit tools launched this month — from Veuno and OneIMS — signal that a cottage industry is forming around the same panic SEO caused in 2012, but the stakes are higher because there is no page two.",
+            "Business websites already dominate Gemini's local citations, meaning the window to act is narrow before incumbents lock in authority. For B2B marketers especially, where buying journeys increasingly start with an AI query, invisibility in these systems isn't a traffic dip — it's <b>structural exclusion from the funnel</b>."
           ],
           "ev": [
             [
-              "MarTech · AI Visibility Index",
+              "MarTech · AI visibility index",
               "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
             ],
             [
-              "MarTech · Brand Ready for Agent Discovery",
-              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
+              "MarTech Series · Veuno AI checker",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/veuno-launches-free-ai-visibility-checker-for-b2b-brands-losing-ground-in-ai-search/"
             ],
             [
-              "Agile Brand · Georgia-Pacific Brand Stewardship",
-              "https://agilebrandguide.com/expert-mode-brand-stewardship-as-an-offensive-strategy-in-the-age-of-ai-with-jason-ippen-georgia-pacific/"
+              "MarTech · Gemini local citations",
+              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>Agentic Stack Matures</em>: Multi-Agent Pipelines Enter Production",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/capacity-brings-automated-quality-assurance-multi-agent-support-and-knowledge-orchestration-to-voice-offerings/",
+          "head": "<em>Agents Operating Agents</em>: Automation Crosses a New Threshold",
+          "url": "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/",
           "body": [
-            "Multiple vendors this month shipped production-grade multi-agent capabilities — Capacity added automated QA &amp; knowledge orchestration across voice agents, Tricentis pushed agentic software development, and Salesforce's AgentExchange welcomed Agiloft's contract intelligence. <b>This signals a transition from single-purpose AI tools to coordinated agent networks</b> that hand work between specialized models.",
-            "Luma's Prince Boucher captures the strategic implication: AI must be built as a <b>core organizational capability, not a series of pilots</b>. Companies still running isolated proof-of-concepts will find it structurally difficult to bolt on the orchestration layer that multi-agent production demands."
+            "HubSpot's Agent Hub and Serval's Catalyst — an agent that <b>builds other automations</b> — mark the moment when AI stops being a tool inside a workflow and starts orchestrating the workflow itself. Influ2's MCP for contact-level ABM extends this into outbound, letting agents make targeting decisions previously reserved for senior strategists.",
+            "This is the shift that changes headcount conversations. When one agent can configure and deploy other automations, the unit economics of marketing operations change fundamentally. Teams that understand <b>how to govern agent hierarchies</b> will outpace those still debating individual AI feature adoption."
           ],
           "ev": [
             [
-              "MarTech Series · Capacity Multi-Agent Voice",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/capacity-brings-automated-quality-assurance-multi-agent-support-and-knowledge-orchestration-to-voice-offerings/"
+              "MarTech · HubSpot Agent Hub",
+              "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/"
             ],
             [
-              "MarTech Series · Agiloft on AgentExchange",
-              "https://martechseries.com/sales-marketing/crm/agiloft-announces-agiloft-for-salesforce-on-salesforce-agentexchange/"
+              "MarTech Series · Serval Catalyst",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/serval-launches-catalyst-an-ai-agent-that-automates-automation-building/"
             ],
             [
-              "Agile Brand · Luma AI as Core Capability",
-              "https://agilebrandguide.com/lumas-prince-boucher-on-building-ai-as-a-core-capability-not-just-a-pilot-project/"
+              "MarTech Series · Influ2 MCP ABM",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/influ2-launches-mcp-for-contact-level-abm/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>Data Architecture Debt</em> Is Now an AI Blocker",
-          "url": "https://martech.org/built-for-yesterday-why-your-data-architecture-cant-keep-up-with-ai/",
+          "head": "Scaling <em>AI Wins Organizationally</em>, Not Just Individually",
+          "url": "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/",
           "body": [
-            "Commentators this month drew a direct line between legacy data infrastructure and stalled AI ROI: pipelines designed for batch analytics cannot feed real-time agent workflows. <b>Intent data, buyer signals, and CX metrics need to flow instantly into go-to-market systems</b> — exactly what the Intentsify-Clay integration and Liferay Data Platform launch are trying to address.",
-            "The CustomerGauge report on the 'CX Monetization Paradox' adds a business consequence: operations are advancing but <b>organizations can't prove value because the underlying data is fragmented</b>. Fixing architecture is no longer an IT backlog item — it is a prerequisite for justifying the AI spend already on the books."
+            "The month's practitioner-focused coverage converges on a single finding: <b>isolated AI experiments don't compound</b>. The teams extracting the most value share outputs, document prompt logic, and treat AI literacy as an operational discipline rather than a personal skill. The barrier is cultural, not technical.",
+            "Articles on overcoming adoption barriers and turning scattered wins into organizational advantage both point to the same prescription: <b>systematize the learning loop</b>. This is the difference between a team that has 40 people each saving 20 minutes a day and one that has redesigned a process end-to-end."
           ],
           "ev": [
             [
-              "MarTech · Data Architecture &amp; AI",
-              "https://martech.org/built-for-yesterday-why-your-data-architecture-cant-keep-up-with-ai/"
+              "MarTech · Teams getting most from AI",
+              "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
             ],
             [
-              "MarTech Series · Intentsify &amp; Clay GTM Workflows",
-              "https://martechseries.com/analytics/data-management-platforms/intentsify-partners-with-clay-to-bring-buyer-intent-data-directly-into-gtm-workflows/"
+              "MarTech · AI · Scattered wins",
+              "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/"
             ],
             [
-              "Agile Brand · CX Monetization Paradox",
-              "https://agilebrandguide.com/customergauge-the-cx-monetization-paradox-advancing-operations-stalling-on-value-proof/"
+              "MarTech · AI · 3 barriers to adoption",
+              "https://martech.org/how-to-overcome-the-3-barriers-to-ai-adoption/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Personalization Hits a <em>Trust &amp; Disclosure Reckoning</em>",
-          "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
+          "head": "Ad Tracking Collapse Forces <em>First-Party AI Platforms</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ad-tracking-collapsed-the-1-shopping-app-built-an-ai-marketing-platform/",
           "body": [
-            "Two forces converged this month: the IAB updated its standard for disclosing AI in ads, and MarTech published explicit guidance on when personalization crosses into consumer discomfort. <b>Regulators and industry bodies are no longer waiting for consensus</b> — disclosure norms are being codified now, meaning marketers who haven't audited their AI-driven targeting face near-term compliance exposure.",
-            "The Iterable CMO interview reinforces the tension: AI-powered engagement lifts conversion metrics, but <b>trust erosion from perceived surveillance can quietly hollow out lifetime value</b>. The decision is no longer whether to personalize with AI, but how to govern it transparently enough that customers don't feel manipulated."
+            "The story of a top shopping app building its own AI marketing platform after ad tracking collapsed is a case study in what happens when third-party signals disappear: <b>companies that own the data build the platform</b>. This is no longer a privacy-compliance story — it is a competitive moat story.",
+            "Paired with new tools bridging relational databases to AI (ORM_Skyway) and the IAB updating its standard for disclosing AI in ads, the month shows the industry reconfiguring its measurement &amp; targeting stack from the ground up. Brands that delay first-party data investment are not just losing precision — they are <b>ceding the infrastructure layer</b> to those who didn't."
           ],
           "ev": [
             [
-              "MarTech · Personalization Over the Line",
-              "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/"
+              "MarTech Series · Ad tracking &amp; AI platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ad-tracking-collapsed-the-1-shopping-app-built-an-ai-marketing-platform/"
             ],
             [
-              "MarTech · IAB AI Disclosure Standard",
+              "MarTech · AI · IAB AI ad disclosure",
               "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/"
             ],
             [
-              "MarTech Series · Iterable CMO on AI Engagement",
-              "https://martechseries.com/mts-insights/interviews/martech-interview-on-ai-powered-customer-engagement-with-priya-gill-cmo-at-iterable/"
+              "MarTech Series · ORM Skyway DB bridge",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/software-tree-launches-orm_skyway-to-automate-the-bridge-from-relational-databases-to-ai/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Retail Media Measurement and <em>Inflation-Squeezed Spending</em> Force a New ROI Framework",
-          "url": "https://agilebrandguide.com/isms-paul-brenner-and-iabs-collin-colburn-on-why-the-old-rules-no-longer-apply-to-retail-media-measurement/",
+          "head": "Personalization &amp; Engagement Hit a <em>Trust &amp; Attention Wall</em>",
+          "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
           "body": [
-            "ISM's Paul Brenner and IAB's Collin Colburn argue that legacy measurement frameworks were built for a pre-retail-media, pre-AI world and are structurally unable to attribute value across today's fragmented touchpoints. <b>Marketers are being asked to defend budgets using metrics that no longer map to how consumers actually buy.</b>",
-            "The mid-year consumer spending report sharpens the urgency: inflation is producing fewer but higher-value orders, compressing the transaction volume that old attribution models relied on. <b>The practical consequence is that AI-assisted measurement — connecting intent signals to incremental sales — is moving from a competitive advantage to a survival requirement</b> for brands in retail-adjacent categories."
+            "Two converging signals: audiences are tuning out content that feels engineered for engagement metrics, and personalization is crossing lines that erode trust. The <b>engagement illusion</b> piece argues that what gets clicks is not what builds relationships, while the personalization ethics piece sets a practical line between helpful &amp; creepy.",
+            "For AI-assisted content teams, this is a calibration warning. The same tools that enable hyper-personalization at scale can produce outputs that feel <b>surveillance-grade rather than service-grade</b>. The decision is no longer just 'can we do this?' but 'at what point does doing this make our brand less trusted than a competitor who does less?'"
           ],
           "ev": [
             [
-              "Agile Brand · Retail Media Measurement Rules",
-              "https://agilebrandguide.com/isms-paul-brenner-and-iabs-collin-colburn-on-why-the-old-rules-no-longer-apply-to-retail-media-measurement/"
+              "MarTech · Personalization over the line",
+              "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/"
             ],
             [
-              "MarTech Series · 2026 Mid-Year Consumer Spending",
-              "https://martechseries.com/technology/2026-mid-year-consumer-spending-inflation-driving-fewer-purchases-higher-value-orders/"
+              "MarTech · Engagement illusion",
+              "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/"
             ],
             [
-              "MarTech · Latest AI-Powered MarTech Releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "Agile Brand · Brand stewardship AI",
+              "https://agilebrandguide.com/expert-mode-brand-stewardship-as-an-offensive-strategy-in-the-age-of-ai-with-jason-ippen-georgia-pacific/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — discovery, orchestration, data, trust, and measurement — <em>the marketers who move from AI experimentation to AI infrastructure this quarter will set defaults that are very hard for slower peers to undo</em>."
+      "takeaway": "Every major move this month — agent orchestration, AI search visibility, first-party platform building, organizational AI scaling, and trust-aware personalization — points to the same underlying shift: <em>the teams and brands that will win are those treating AI as a system to govern, not a feature to adopt</em>."
     }
   }
 }
