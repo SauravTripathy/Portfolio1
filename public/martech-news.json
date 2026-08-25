@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T05:52:45.121705+00:00",
+  "generatedAt": "2026-08-25T14:10:31.654738+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,66 +45,72 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "The terrifying math behind your new AI workforce",
-          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
-          "plain": "Autonomous marketing agents promise huge labour savings, but the article shows how <b>API fees and middleware costs</b> can balloon fast enough to wipe out those gains. This is must-read for anyone signing off on an agentic AI budget — it gives concrete numbers to stress-test vendor ROI claims before you commit.",
+          "head": "Auxia crosses 200B decisions and launches Agent Studio for agentic marketing",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
+          "plain": "Auxia has hit <b>200 billion AI-driven decisions</b> and released Agent Studio, a command center where marketers direct AI agents to plan, build, and launch campaigns across their existing stack. This is a concrete benchmark showing agentic marketing at real scale — and a new product model that could shift how marketing teams are sized and structured.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Thomson Reuters launches Thomson, its own proprietary frontier LLM",
-          "url": "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/",
-          "plain": "Thomson Reuters built and now fully owns a <b>large language model trained on its proprietary data</b> at a fraction of typical frontier-model costs. This signals a broader shift: data-rich enterprises may bypass third-party AI vendors entirely, reshaping how MarTech AI is bought, priced, and governed.",
+          "head": "3 ways marketing automation platforms are being reinvented",
+          "url": "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/",
+          "plain": "A MarTech analysis outlines three emerging models replacing the traditional lead-funnel MAP: platforms that center <b>customer context and real-time next-best action</b> rather than campaign sequences. This matters because it frames how buyers should evaluate modern CEPs and signals where budget will shift away from legacy automation tools.",
           "chips": [
-            "genai",
-            "govern",
+            "cep",
+            "agentic",
+            "decis",
             "cdp"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Martech consolidation: Is the 15,000-tool landscape coming to an end?",
-          "url": "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/",
-          "plain": "A detailed look at whether the explosion of 15,000-plus marketing tools is finally contracting as AI platforms absorb point-solution functions. Understanding <b>stack consolidation trends</b> directly affects purchasing decisions — fewer vendors, bigger contracts, and tighter platform lock-in are the likely outcomes.",
+          "head": "AI is making bad marketing data harder to ignore",
+          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
+          "plain": "AI workflows inherit every flaw in your data pipeline, and this piece explains how to find and fix gaps at the source before they corrupt automated decisions. As <b>agentic systems act on data without human review</b>, dirty inputs now cause silent, scaled mistakes — making data quality a governance priority, not just a housekeeping task.",
           "chips": [
-            "cep",
             "cdp",
-            "govern"
+            "govern",
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "MarTech: How to stop overpaying for AI complexity",
-          "url": "https://agilebrandguide.com/martech-how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "Greg Kihlström argues enterprises routinely apply <b>over-engineered AI to simple tasks</b>, wasting budget and disrupting workflows. The piece offers a practical framework for matching AI complexity to actual problem size — directly useful for anyone building or buying marketing AI right now.",
+          "head": "Talkdesk report: AI adoption in CX has outpaced organizations' ability to turn it into results",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
+          "plain": "Talkdesk surveyed organizations and found 98% have deployed AI in customer experience yet most cannot show business outcomes — pointing to an <b>orchestration gap between AI tools and working systems</b>. For buyers, this is a warning sign about over-investing in point solutions without an integration and governance strategy.",
           "chips": [
-            "govern",
             "agentic",
-            "genai"
+            "cep",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Findabl.ai launches Answer Engine Optimization services for AI search visibility",
-          "url": "https://martechseries.com/content/findabl-ai-launches-aeo-services-for-ai-search-visibility/",
-          "plain": "A new specialist agency offers businesses help getting their content surfaced inside <b>AI-powered search results</b> from ChatGPT, Gemini, Claude, and Google AI Overviews. As generative engines replace traditional SERPs for many queries, GEO is fast becoming a real budget line for marketing teams.",
+          "head": "ZeroBounce launches detection of AI-managed mailboxes in email validation",
+          "url": "https://martechseries.com/content/programmatic-email/zerobounce-can-now-detect-ai-managed-mailboxes/",
+          "plain": "ZeroBounce says it is the first email validation platform that can flag mailboxes run by <b>autonomous AI agents rather than humans</b>. As AI agents increasingly act as buyers, customer-service bots, or inbox managers, marketers need to know whether they are targeting a person or another AI — with real implications for deliverability strategy and list hygiene.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "govern",
+            "cep",
+            "cdp"
           ]
         }
       ]
@@ -113,65 +119,72 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The terrifying math behind your new AI workforce",
-          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
-          "plain": "Autonomous marketing agents promise big labour savings, but <b>API fees and middleware costs</b> can quietly erase those gains. This piece gives buyers a concrete cost model for agentic AI — making it essential reading before signing any autonomous-agent contract. It directly changes how marketing AI is bought and budgeted.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Auxia crosses 200B decisions and launches Agent Studio for marketing teams",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
+          "plain": "Auxia has now processed over <b>200 billion agentic decisioning events</b> and is releasing Agent Studio, a command center where AI agents plan, build, and launch campaigns across a team's existing stack. This matters because it signals agentic marketing has moved from theory to measurable scale, and gives buyers a concrete product to evaluate.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "IAB updates standard for disclosing AI in ads",
-          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "The IAB's revised framework sets a clear line: <b>disclose AI when it alters consumer perceptions of authenticity, identity, or reality</b>. This is a governance milestone — it gives ad buyers, platforms, and regulators a shared rulebook for AI-generated creative, directly shaping how generative AI is deployed in paid media.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "3 ways marketing automation platforms are being reinvented around customer context",
+          "url": "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/",
+          "plain": "The classic MAP's job was moving leads to sales; three emerging models now <b>center on real-time customer context and next-best-action logic</b>. This editorial maps the architectural shift buyers and builders need to understand as they evaluate or replace automation platforms in an agentic era.",
           "chips": [
-            "govern",
-            "genai"
+            "cep",
+            "agentic",
+            "decis",
+            "cdp"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "AI visibility index shows which brands are disappearing from AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "Research reveals that strong Google rankings no longer guarantee presence in AI-generated answers — <b>some dominant search brands barely surface in LLM responses</b>. For marketers, this reframes SEO investment and introduces GEO as a distinct, measurable discipline that must be tracked and funded separately.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "AI is making bad marketing data impossible to ignore",
+          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
+          "plain": "AI workflows <b>inherit every flaw in your data pipeline</b> and amplify the damage at speed. The piece shows practitioners how to audit gaps and fix them at the source before deploying AI at scale — critical reading for anyone buying or building AI-driven marketing systems.",
           "chips": [
-            "geo",
-            "genai"
+            "cdp",
+            "govern",
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · AI",
+          "src": "MarTech",
           "fresh": false,
-          "head": "HubSpot July 2026 updates: Agent Hub arrives for centralized AI-agent management",
-          "url": "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/",
-          "plain": "HubSpot has folded all its AI agents into a single <b>Agent Hub</b>, giving marketing and sales teams one place to deploy, monitor, and control autonomous workflows. This is a concrete platform shift — it changes how agentic AI is governed and purchased inside one of the most widely used marketing platforms.",
+          "head": "The terrifying math behind your new AI workforce: API and middleware costs explained",
+          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
+          "plain": "Autonomous marketing agents promise labor savings, but <b>ballooning API fees and middleware costs</b> can quickly exceed the headcount they replace. This analysis gives buyers a realistic cost model before they commit to agentic platforms — an essential governance and budgeting reference.",
           "chips": [
             "agentic",
+            "govern",
             "cep",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "How to stop overpaying for AI complexity",
-          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
-          "plain": "A practical framework ranks rule-based, predictive, generative, and agentic systems by cost and risk, arguing marketers should <b>start with the lightest approach that can do the job</b>. It gives buyers and builders a decision tree that directly reduces wasteful AI spend — highly actionable for anyone evaluating a martech stack.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "ZeroBounce becomes first email validator to detect AI-managed mailboxes",
+          "url": "https://martechseries.com/content/programmatic-email/zerobounce-can-now-detect-ai-managed-mailboxes/",
+          "plain": "ZeroBounce can now flag mailboxes <b>operated by autonomous AI agents rather than humans</b>, adding a new layer to email list hygiene. As AI agents increasingly receive and respond to marketing email, knowing whether you're talking to a bot or a person changes deliverability strategy and how engagement metrics are interpreted.",
           "chips": [
             "agentic",
-            "genai",
-            "govern"
+            "govern",
+            "cep",
+            "cdp"
           ]
         }
       ]
@@ -181,11 +194,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Search &amp; <em>Brand Visibility Crisis</em>",
+          "head": "The <em>AI Visibility Crisis</em>: Brands Disappearing from AI-Powered Discovery",
           "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
           "body": [
-            "AI-powered answer engines like Gemini are rapidly replacing traditional search results pages, and <b>brands that don't appear in AI citations effectively disappear from discovery</b>. Research shows business websites dominate Gemini's local citations, meaning brands must now optimize for AI retrieval logic, not just keywords.",
-            "A new category — Answer Engine Optimization (AEO) — is emerging alongside SEO, with specialist services launching specifically to win AI-generated placements. <b>The decision for marketers is no longer whether to invest in AI visibility, but how urgently</b> to rebalance budgets away from conventional search tactics."
+            "A new fault line is opening between brands that appear in AI-generated answers and those that simply vanish. Research into Gemini's local citations shows that <b>business websites that optimise for AI agent discovery dominate results</b>, while unprepared brands are systematically excluded from the consideration set before a human ever sees a search results page.",
+            "This is not an SEO refinement — it is a structural change in how customers discover products. Marketers who treat AI-answer optimisation as optional are effectively ceding shelf space in a channel that is growing faster than traditional search, meaning the window to act is far shorter than most planning cycles assume."
           ],
           "ev": [
             [
@@ -193,109 +206,109 @@
               "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
             ],
             [
-              "MarTech · AI · Gemini local citations",
-              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
+              "MarTech · AI · Brand discovery prep",
+              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
             ],
             [
-              "MarTech Series · AEO launch",
-              "https://martechseries.com/content/findabl-ai-launches-aeo-services-for-ai-search-visibility/"
+              "MarTech · AI · Gemini local citations",
+              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Proprietary AI Models</em> as Competitive Moats",
-          "url": "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/",
+          "head": "<em>Agentic Marketing Platforms</em> Rewrite Who Does the Work",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
           "body": [
-            "Thomson Reuters' launch of its own frontier model signals a decisive shift: <b>companies with deep, proprietary data are turning that asset into AI infrastructure</b> rather than renting generic models from hyperscalers. This is not an IT upgrade — it is a strategic repositioning of data ownership into market advantage.",
-            "Meanwhile, enterprise-scale partnerships like Google Cloud and Verizon are industrializing AI deployment at network scale. <b>The implication for any brand is that AI differentiation will increasingly come from what data you own, not which model you license.</b>"
+            "Platforms like Auxia's Agent Studio — built on 200-billion-plus automated decisions — signal a decisive shift: marketing automation is no longer about scheduling campaigns but about <b>delegating judgment to AI agents</b> that plan, test, and optimise in real time. MarTech analysts are framing this as a reinvention of the automation platform category itself, not a feature update.",
+            "The workforce economics are uncomfortable. One MarTech piece describes the math as 'terrifying' — a small team equipped with agentic tools can displace far larger headcounts. That changes hiring rationale, agency relationships, and how CMOs justify headcount, all at once."
           ],
           "ev": [
             [
-              "MarTech Series · Thomson Reuters frontier model",
-              "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/"
+              "MarTech Series · Auxia Agent Studio",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/"
             ],
             [
-              "MarTech Series · Google Cloud &amp; Verizon",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/google-cloud-announces-strategic-partnership-with-verizon-to-scale-enterprise-ai/"
+              "MarTech · Automation reinvented",
+              "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/"
             ],
             [
-              "MarTech · AI · Latest releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech · AI workforce math",
+              "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "MarTech Stack <em>Consolidation Inflection</em>",
-          "url": "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/",
+          "head": "Deployment Outpaces Readiness — the <em>Bad-Data Reckoning</em>",
+          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
           "body": [
-            "After years of explosive tool proliferation, the 15,000-plus martech landscape is showing signs of structural contraction. <b>AI is collapsing multiple-point solutions into unified platforms</b>, making redundant vendors economically untenable and forcing procurement decisions that would have been politically impossible a year ago.",
-            "The companion risk is overspending on AI complexity to replace the very bloat AI is supposed to eliminate. <b>The strategic imperative is deliberate simplification</b>: audit which tools AI can absorb, and stop paying for integrations that exist only to paper over fragmentation."
+            "Multiple sources converge on the same warning: companies are racing to deploy AI in customer experience <b>faster than their data infrastructure can support it</b>. AI systems surface data-quality flaws instantly and at scale, turning a slow-burning data-hygiene problem into a live operational failure. ZeroBounce's new capability to detect AI-managed mailboxes is a symptom of the same problem — AI is now on both sides of the data-quality battle.",
+            "The fix is not more AI tooling; it is the unglamorous work of data governance that was deferred during the last platform cycle. Teams getting the most from AI, as one study notes, share one habit: they sort the data foundation <b>before</b> deploying models, not after. That sequence is now a competitive differentiator."
           ],
           "ev": [
             [
-              "MarTech Series · Consolidation analysis",
-              "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/"
+              "MarTech · Bad data exposed",
+              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
             ],
             [
-              "MarTech · AI · Stop overpaying",
-              "https://martech.org/how-to-stop-overpaying-for-ai-complexity/"
+              "MarTech Series · Deployment gap",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/"
             ],
             [
-              "Agile Brand · Overpaying for complexity",
-              "https://agilebrandguide.com/martech-how-to-stop-overpaying-for-ai-complexity/"
+              "MarTech · High-performing AI teams",
+              "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "From <em>AI Experiments to Organisational Scale</em>",
-          "url": "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/",
+          "head": "<em>Enterprise AI Coalitions</em> Lock In the Infrastructure Layer",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations/",
           "body": [
-            "Most marketing teams have AI proof-of-concepts scattered across departments, but <b>the gap between isolated wins and compounding organisational advantage is widening</b>. Research on teams getting the most from AI shows they share a common playbook: clear ownership, documented workflows, and deliberate knowledge transfer rather than hero-driven experiments.",
-            "HubSpot's arrival of Agent Hub and the IAB's updated AI-in-ads disclosure standards both signal that <b>governance and structure are now as important as the AI technology itself</b>. Brands that treat AI adoption as a cultural &amp; operational redesign — not a tool rollout — are pulling ahead."
+            "A cluster of major partnership announcements — Bain &amp; Anthropic, Cisco &amp; NVIDIA, Docusign &amp; Google Cloud Gemini, Relativity &amp; Google Cloud — reveals a race to own the <b>enterprise AI stack below the marketing application layer</b>. Consulting firms, cloud providers, and infrastructure players are forming coalitions that will determine which AI models and security architectures become the default for large organisations.",
+            "For marketing technologists this matters because the tools they will use in 18 months are being selected now at the infrastructure level, often by IT and procurement rather than CMOs. <b>Vendor lock-in risk is rising</b>, and the cost of switching stacks after a coalition deal is signed is materially higher than before."
           ],
           "ev": [
             [
-              "MarTech · AI · Scattered wins",
-              "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/"
+              "MarTech Series · Bain &amp; Anthropic",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations/"
             ],
             [
-              "MarTech · What top teams do differently",
-              "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
+              "MarTech Series · Cisco &amp; NVIDIA",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cisco-expands-secure-ai-factory-with-nvidia-for-the-rack-scale-era/"
             ],
             [
-              "MarTech · HubSpot Agent Hub",
-              "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/"
+              "MarTech Series · Docusign &amp; Gemini",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-brings-trusted-agreement-intelligence-to-google-clouds-gemini-enterprise-for-legal/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Attention Metrics vs. <em>Real Purchase Intent</em>",
-          "url": "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/",
+          "head": "Measurement &amp; <em>Trust Standards</em> Catch Up to AI-Generated Content",
+          "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
           "body": [
-            "A cluster of measurement stories this month converges on one uncomfortable truth: <b>engagement metrics — clicks, views, dwell time — routinely mislead campaign decisions</b> because attention is not the same as conviction or intent to purchase. Incrementality testing and lower-funnel signal tracking are emerging as the correctives marketers actually need.",
-            "LoopMe's expansion of PurchaseLoop to bridge brand signals and lower-funnel performance, plus editorial pushes on running fewer but better incrementality tests, reflect a broader industry reorientation. <b>The decision at stake is how to redesign measurement frameworks before AI-generated creative floods channels with high-attention, low-conversion content.</b>"
+            "The IAB's updated standard for disclosing AI in advertising marks the moment when AI-generated content moves from a creative novelty into a <b>regulated, auditable marketing practice</b>. Simultaneously, attention-versus-conviction research and incrementality-testing guidance are forcing marketers to confront the gap between engagement metrics and actual business outcomes — a gap that AI-generated volume can widen dramatically if left unmeasured.",
+            "The combined pressure of disclosure mandates and tighter measurement discipline means marketers can no longer optimise for outputs (impressions, clicks, content pieces) and ignore outcomes. <b>Accountability architecture</b> — who approved the AI output, how it was tested, what it actually moved — is becoming as important as the creative or targeting strategy itself."
           ],
           "ev": [
             [
-              "MarTech · Engagement illusion",
-              "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/"
+              "MarTech · AI · IAB disclosure standard",
+              "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/"
             ],
             [
-              "MarTech · Incrementality tests",
+              "MarTech · Incrementality testing",
               "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/"
             ],
             [
-              "MarTech Series · LoopMe PurchaseLoop",
-              "https://martechseries.com/sales-marketing/programmatic-buying/loopme-expands-purchaseloop-to-turn-brand-campaign-signals-into-measurable-lower-funnel-performance/"
+              "MarTech · Engagement illusion",
+              "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every story this month, the underlying stakes are the same: <em>brands that redesign their data ownership, organisational structure, and measurement logic around AI will compound advantages, while those optimising yesterday's tools will become invisible.</em>"
+      "takeaway": "The month's signal is unified: <em>AI is accelerating every layer of marketing simultaneously — discovery, execution, infrastructure, and measurement — creating compounding risk for teams that move fast on any one layer while neglecting the others</em>."
     }
   }
 }
