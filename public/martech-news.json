@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:08:50.840667+00:00",
+  "generatedAt": "2026-08-25T05:52:45.121705+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,7 +49,7 @@
           "fresh": true,
           "head": "The terrifying math behind your new AI workforce",
           "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
-          "plain": "Autonomous marketing agents promise huge labour savings, but the article warns that <b>API fees and middleware costs</b> can silently balloon until they wipe out the gains. This is essential reading for anyone approving an agentic AI budget — it reframes the buy decision from capability to total cost of ownership.",
+          "plain": "Autonomous marketing agents promise huge labour savings, but the article shows how <b>API fees and middleware costs</b> can balloon fast enough to wipe out those gains. This is must-read for anyone signing off on an agentic AI budget — it gives concrete numbers to stress-test vendor ROI claims before you commit.",
           "chips": [
             "agentic",
             "govern",
@@ -62,22 +62,23 @@
           "fresh": true,
           "head": "Thomson Reuters launches Thomson, its own proprietary frontier LLM",
           "url": "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/",
-          "plain": "Thomson Reuters built and owns a large language model trained on its proprietary data at a fraction of typical frontier-model cost. This matters because it shows large content businesses can <b>vertically integrate AI rather than rent it</b>, changing how enterprise AI is bought and governed — and setting a precedent others will follow.",
+          "plain": "Thomson Reuters built and now fully owns a <b>large language model trained on its proprietary data</b> at a fraction of typical frontier-model costs. This signals a broader shift: data-rich enterprises may bypass third-party AI vendors entirely, reshaping how MarTech AI is bought, priced, and governed.",
           "chips": [
             "genai",
-            "govern"
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Martech consolidation: Is the era of 15,000+ tools coming to an end?",
+          "head": "Martech consolidation: Is the 15,000-tool landscape coming to an end?",
           "url": "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/",
-          "plain": "A substantive analysis argues that AI-driven platforms are collapsing specialised point solutions into fewer, broader tools, shrinking the famously sprawling martech landscape. For buyers, this signals a <b>shift from best-of-breed stacks to consolidated platforms</b> — directly reshaping how marketing technology is purchased and managed.",
+          "plain": "A detailed look at whether the explosion of 15,000-plus marketing tools is finally contracting as AI platforms absorb point-solution functions. Understanding <b>stack consolidation trends</b> directly affects purchasing decisions — fewer vendors, bigger contracts, and tighter platform lock-in are the likely outcomes.",
           "chips": [
-            "cdp",
             "cep",
+            "cdp",
             "govern"
           ]
         },
@@ -85,26 +86,25 @@
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Atera CMO: Attention isn't conviction — AI purchases justified on demos, not outcomes",
-          "url": "https://agilebrandguide.com/expert-mode-from-ai4-attention-isnt-conviction-with-nir-elharar-from-atera/",
-          "plain": "Atera's CMO argues that marketing leaders have been <b>buying AI on the strength of demos</b> rather than measured results, deferring accountability to reviews that never happen. The piece directly challenges how AI tools are evaluated and procured — a governance wake-up call for anyone in a buying role.",
+          "head": "MarTech: How to stop overpaying for AI complexity",
+          "url": "https://agilebrandguide.com/martech-how-to-stop-overpaying-for-ai-complexity/",
+          "plain": "Greg Kihlström argues enterprises routinely apply <b>over-engineered AI to simple tasks</b>, wasting budget and disrupting workflows. The piece offers a practical framework for matching AI complexity to actual problem size — directly useful for anyone building or buying marketing AI right now.",
           "chips": [
-            "genai",
-            "govern"
+            "govern",
+            "agentic",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Treasure AI product team: The CDP had to stop storing and start deciding",
-          "url": "https://agilebrandguide.com/treasure-ai-takeover-4-episodes-featuring-the-product-team/",
-          "plain": "Four conversations with the Treasure AI product team reveal how they are evolving a CDP from a passive data store into an <b>active decisioning layer</b> that chooses next actions per customer. This illustrates the frontier of where CDPs and agentic decisioning are merging — a significant shift in how the category is built.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Findabl.ai launches Answer Engine Optimization services for AI search visibility",
+          "url": "https://martechseries.com/content/findabl-ai-launches-aeo-services-for-ai-search-visibility/",
+          "plain": "A new specialist agency offers businesses help getting their content surfaced inside <b>AI-powered search results</b> from ChatGPT, Gemini, Claude, and Google AI Overviews. As generative engines replace traditional SERPs for many queries, GEO is fast becoming a real budget line for marketing teams.",
           "chips": [
-            "cdp",
-            "agentic",
-            "decis",
-            "perso"
+            "geo",
+            "genai"
           ]
         }
       ]
@@ -114,14 +114,14 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "The terrifying math behind your new AI workforce",
           "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
-          "plain": "Autonomous marketing agents promise big labour savings, but <b>API fees and middleware costs</b> can quietly balloon past any headcount savings. This piece breaks down the real budget math that buyers rarely see before signing — directly changing how AI is bought and what CFOs should demand in pilots.",
+          "plain": "Autonomous marketing agents promise big labour savings, but <b>API fees and middleware costs</b> can quietly erase those gains. This piece gives buyers a concrete cost model for agentic AI — making it essential reading before signing any autonomous-agent contract. It directly changes how marketing AI is bought and budgeted.",
           "chips": [
             "agentic",
-            "decis",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
@@ -130,19 +130,31 @@
           "fresh": false,
           "head": "IAB updates standard for disclosing AI in ads",
           "url": "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/",
-          "plain": "IAB's revised framework sets a clear line: disclose AI when it changes a consumer's perception of authenticity, identity, or reality. This is an <b>industry governance benchmark</b> that ad buyers, platforms, and creative teams will now have to meet — reshaping how AI-generated ad content is labelled and approved.",
+          "plain": "The IAB's revised framework sets a clear line: <b>disclose AI when it alters consumer perceptions of authenticity, identity, or reality</b>. This is a governance milestone — it gives ad buyers, platforms, and regulators a shared rulebook for AI-generated creative, directly shaping how generative AI is deployed in paid media.",
           "chips": [
-            "genai",
-            "govern"
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "HubSpot July 2026 updates: Agent Hub arrives and more ways to control what you see",
+          "head": "AI visibility index shows which brands are disappearing from AI answers",
+          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "plain": "Research reveals that strong Google rankings no longer guarantee presence in AI-generated answers — <b>some dominant search brands barely surface in LLM responses</b>. For marketers, this reframes SEO investment and introduces GEO as a distinct, measurable discipline that must be tracked and funded separately.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "HubSpot July 2026 updates: Agent Hub arrives for centralized AI-agent management",
           "url": "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/",
-          "plain": "HubSpot now consolidates every AI agent into a single <b>Agent Hub</b>, giving marketing ops teams one place to monitor, configure, and govern autonomous workflows. This is a concrete product change in a widely-used CEP that shifts how agentic AI is managed day-to-day at scale.",
+          "plain": "HubSpot has folded all its AI agents into a single <b>Agent Hub</b>, giving marketing and sales teams one place to deploy, monitor, and control autonomous workflows. This is a concrete platform shift — it changes how agentic AI is governed and purchased inside one of the most widely used marketing platforms.",
           "chips": [
             "agentic",
             "cep",
@@ -150,29 +162,16 @@
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "AI visibility index shows which brands are disappearing from AI answers",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
-          "plain": "A new index reveals that <b>high Google authority no longer predicts visibility inside AI-generated answers</b>. Brands that dominate traditional search can be nearly invisible to ChatGPT or Gemini users. This data gives marketers a concrete reason to invest in GEO and rethink their content strategies now.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Treasure AI product team: why the CDP had to stop storing and start deciding",
-          "url": "https://agilebrandguide.com/treasure-ai-takeover-4-episodes-featuring-the-product-team/",
-          "plain": "Four conversations with Treasure AI's product team trace the shift from a <b>passive data store to an agentic decisioning layer</b> inside the CDP. This is a rare look at actual roadmap thinking behind a next-generation CDP, directly relevant to anyone evaluating or building on customer data infrastructure.",
+          "head": "How to stop overpaying for AI complexity",
+          "url": "https://martech.org/how-to-stop-overpaying-for-ai-complexity/",
+          "plain": "A practical framework ranks rule-based, predictive, generative, and agentic systems by cost and risk, arguing marketers should <b>start with the lightest approach that can do the job</b>. It gives buyers and builders a decision tree that directly reduces wasteful AI spend — highly actionable for anyone evaluating a martech stack.",
           "chips": [
-            "cdp",
             "agentic",
-            "decis",
-            "perso"
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -182,20 +181,20 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>AI Visibility Race</em>: Brands Are Disappearing From AI-Generated Results",
+          "head": "AI Search &amp; <em>Brand Visibility Crisis</em>",
           "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
           "body": [
-            "A new category of competitive risk has emerged: brands that built their presence around traditional SEO are finding themselves absent from AI-generated answers and agent-driven discovery. An AI visibility index is now tracking which brands are being cited and which are effectively invisible, and the gap is widening fast.",
-            "Specialist services like Findabl.ai are already selling <b>Answer Engine Optimization (AEO)</b> as a distinct discipline, and research shows that business websites — not social profiles — dominate Gemini's local citations. Marketers who treat AI search as a future problem are already behind."
+            "AI-powered answer engines like Gemini are rapidly replacing traditional search results pages, and <b>brands that don't appear in AI citations effectively disappear from discovery</b>. Research shows business websites dominate Gemini's local citations, meaning brands must now optimize for AI retrieval logic, not just keywords.",
+            "A new category — Answer Engine Optimization (AEO) — is emerging alongside SEO, with specialist services launching specifically to win AI-generated placements. <b>The decision for marketers is no longer whether to invest in AI visibility, but how urgently</b> to rebalance budgets away from conventional search tactics."
           ],
           "ev": [
             [
-              "MarTech · AI · Brands disappearing",
+              "MarTech · AI · Visibility index",
               "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
             ],
             [
-              "MarTech · AI · Agent discovery prep",
-              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
+              "MarTech · AI · Gemini local citations",
+              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
             ],
             [
               "MarTech Series · AEO launch",
@@ -205,34 +204,34 @@
         },
         {
           "num": "Theme 02",
-          "head": "<em>Proprietary Data Moats</em>: Enterprises Build Their Own Frontier Models",
+          "head": "<em>Proprietary AI Models</em> as Competitive Moats",
           "url": "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/",
           "body": [
-            "Thomson Reuters launching its own frontier model signals a decisive strategic move: enterprises with deep, proprietary data assets are no longer content to rent generic AI — they are building models where their data <b>is</b> the competitive advantage. This is not an experiment; it is a new kind of infrastructure investment.",
-            "The pattern is reinforced by Google Cloud partnering with Verizon to scale enterprise AI &amp; by MyDataWork landing in the AWS Marketplace. The decision at stake for every large marketing org is whether their data is differentiated enough to justify a similar vertical integration, or whether they should remain platform-dependent."
+            "Thomson Reuters' launch of its own frontier model signals a decisive shift: <b>companies with deep, proprietary data are turning that asset into AI infrastructure</b> rather than renting generic models from hyperscalers. This is not an IT upgrade — it is a strategic repositioning of data ownership into market advantage.",
+            "Meanwhile, enterprise-scale partnerships like Google Cloud and Verizon are industrializing AI deployment at network scale. <b>The implication for any brand is that AI differentiation will increasingly come from what data you own, not which model you license.</b>"
           ],
           "ev": [
             [
-              "MarTech Series · Thomson Reuters model",
+              "MarTech Series · Thomson Reuters frontier model",
               "https://martechseries.com/content/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model/"
             ],
             [
-              "MarTech Series · Google-Verizon partnership",
+              "MarTech Series · Google Cloud &amp; Verizon",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/google-cloud-announces-strategic-partnership-with-verizon-to-scale-enterprise-ai/"
             ],
             [
-              "MarTech Series · MyDataWork AWS",
-              "https://martechseries.com/analytics/mydatawork-for-teams-now-available-in-aws-marketplace/"
+              "MarTech · AI · Latest releases",
+              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "MarTech <em>Consolidation Correction</em>: The 15,000-Tool Era Is Ending",
+          "head": "MarTech Stack <em>Consolidation Inflection</em>",
           "url": "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/",
           "body": [
-            "After a decade of explosive vendor proliferation, the martech landscape is contracting. AI is simultaneously collapsing point solutions — by embedding capabilities directly into platforms — and raising the bar for standalone tools to justify their budget line. The question is no longer 'which tool does this?' but 'does this still need to be a separate tool at all?'",
-            "HubSpot's Agent Hub arrival &amp; the push to stop overpaying for AI complexity are both symptoms of the same force: <b>platform incumbents are absorbing functionality</b> that once required specialist vendors. Procurement teams now have permission — and pressure — to rationalize their stacks aggressively."
+            "After years of explosive tool proliferation, the 15,000-plus martech landscape is showing signs of structural contraction. <b>AI is collapsing multiple-point solutions into unified platforms</b>, making redundant vendors economically untenable and forcing procurement decisions that would have been politically impossible a year ago.",
+            "The companion risk is overspending on AI complexity to replace the very bloat AI is supposed to eliminate. <b>The strategic imperative is deliberate simplification</b>: audit which tools AI can absorb, and stop paying for integrations that exist only to paper over fragmentation."
           ],
           "ev": [
             [
@@ -240,63 +239,63 @@
               "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/"
             ],
             [
-              "MarTech · HubSpot Agent Hub",
-              "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/"
-            ],
-            [
               "MarTech · AI · Stop overpaying",
               "https://martech.org/how-to-stop-overpaying-for-ai-complexity/"
+            ],
+            [
+              "Agile Brand · Overpaying for complexity",
+              "https://agilebrandguide.com/martech-how-to-stop-overpaying-for-ai-complexity/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>AI Workforce Math</em>: Adoption Gaps Are Now a Financial Risk",
-          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
+          "head": "From <em>AI Experiments to Organisational Scale</em>",
+          "url": "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/",
           "body": [
-            "A blunt new framing is entering the conversation: the cost differential between teams that have genuinely operationalized AI and those still running pilots is becoming measurable in headcount equivalents. 'Terrifying math' is not hyperbole — it is a CFO-level argument about capacity &amp; cost per output.",
-            "The editorial consensus across multiple outlets is that <b>scattered wins must be systematized</b> to generate organizational advantage. Teams getting the most from AI share specific behavioral patterns — tight feedback loops, post-result learning cycles — not just better tools. The barrier is change management, not technology access."
+            "Most marketing teams have AI proof-of-concepts scattered across departments, but <b>the gap between isolated wins and compounding organisational advantage is widening</b>. Research on teams getting the most from AI shows they share a common playbook: clear ownership, documented workflows, and deliberate knowledge transfer rather than hero-driven experiments.",
+            "HubSpot's arrival of Agent Hub and the IAB's updated AI-in-ads disclosure standards both signal that <b>governance and structure are now as important as the AI technology itself</b>. Brands that treat AI adoption as a cultural &amp; operational redesign — not a tool rollout — are pulling ahead."
           ],
           "ev": [
             [
-              "MarTech · AI workforce math",
-              "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/"
+              "MarTech · AI · Scattered wins",
+              "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/"
             ],
             [
-              "MarTech · AI · What top teams do differently",
+              "MarTech · What top teams do differently",
               "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
             ],
             [
-              "MarTech · AI · Scattered wins to advantage",
-              "https://martech.org/turn-scattered-ai-wins-into-an-organizational-advantage/"
+              "MarTech · HubSpot Agent Hub",
+              "https://martech.org/hubspot-july-2026-updates-agent-hub-arrives-and-more-ways-to-control-what-you-see/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Measurement Gets <em>Honest</em>: Attention, Incrementality &amp; Transparency Reform",
-          "url": "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/",
+          "head": "Attention Metrics vs. <em>Real Purchase Intent</em>",
+          "url": "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/",
           "body": [
-            "A quiet but consequential correction is underway in how marketing performance is evaluated. Attention is being explicitly distinguished from conviction, incrementality testing is being repositioned as a quality-over-quantity discipline, &amp; the IAB has updated its standard for disclosing AI in ads. Each move chips away at the vanity metrics that have defended weak campaigns for years.",
-            "LoopMe's expansion of PurchaseLoop — turning upper-funnel brand signals into <b>measurable lower-funnel outcomes</b> — is a commercial expression of the same pressure: buyers now demand proof that brand spend actually moves behavior. Marketers who haven't built honest measurement infrastructure will find budget justification increasingly difficult."
+            "A cluster of measurement stories this month converges on one uncomfortable truth: <b>engagement metrics — clicks, views, dwell time — routinely mislead campaign decisions</b> because attention is not the same as conviction or intent to purchase. Incrementality testing and lower-funnel signal tracking are emerging as the correctives marketers actually need.",
+            "LoopMe's expansion of PurchaseLoop to bridge brand signals and lower-funnel performance, plus editorial pushes on running fewer but better incrementality tests, reflect a broader industry reorientation. <b>The decision at stake is how to redesign measurement frameworks before AI-generated creative floods channels with high-attention, low-conversion content.</b>"
           ],
           "ev": [
             [
-              "MarTech · Incrementality discipline",
+              "MarTech · Engagement illusion",
+              "https://martech.org/the-engagement-illusion-what-actually-gets-attention-and-what-gets-ignored/"
+            ],
+            [
+              "MarTech · Incrementality tests",
               "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/"
             ],
             [
-              "MarTech · AI · IAB AI disclosure standard",
-              "https://martech.org/iab-updates-standard-for-disclosing-ai-in-ads/"
-            ],
-            [
-              "MarTech Series · LoopMe lower-funnel",
+              "MarTech Series · LoopMe PurchaseLoop",
               "https://martechseries.com/sales-marketing/programmatic-buying/loopme-expands-purchaseloop-to-turn-brand-campaign-signals-into-measurable-lower-funnel-performance/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, <em>the line between 'experimenting with AI' and 'being structurally disadvantaged by not having operationalized it' has quietly become the defining strategic fault line in marketing</em>."
+      "takeaway": "Across every story this month, the underlying stakes are the same: <em>brands that redesign their data ownership, organisational structure, and measurement logic around AI will compound advantages, while those optimising yesterday's tools will become invisible.</em>"
     }
   }
 }
