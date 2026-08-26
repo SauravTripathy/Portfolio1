@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T05:54:56.041280+00:00",
+  "generatedAt": "2026-08-26T14:10:00.002681+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,71 +45,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand · via Talkdesk",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Only 15% of companies combine agentic AI with cross-departmental orchestration in CX",
-          "url": "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
-          "plain": "A Talkdesk report finds 98% of firms have deployed AI in their customer journey, but only 15% have wired it together across departments to actually resolve issues end-to-end. This <b>orchestration gap</b> is the core reason AI CX investments are not paying off — a critical benchmark for anyone buying or building <b>agentic customer experience</b> systems.",
+          "head": "The AI governance test most marketers are missing",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
+          "plain": "When an AI marketing decision goes wrong, most teams don't know whether to fix the rule, the control, the implementation, or who owns the authority. This piece gives a practical diagnostic framework for locating the real failure point — directly useful for anyone building <b>AI governance</b> into their marketing stack before regulators force them to.",
           "chips": [
+            "govern",
             "agentic",
-            "decis",
-            "cep",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series · via Auxia",
-          "fresh": true,
-          "head": "Auxia hits 200B+ decisions and launches Agent Studio for marketing teams",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
-          "plain": "Auxia, an agentic marketing platform, launches Agent Studio — a workspace where AI agents plan, build, and launch campaigns across a team's existing stack, backed by over 200 billion real decisioning events. The 200B milestone gives <b>agentic decisioning</b> at scale a credible proof point, and the studio model signals how <b>marketers will interact with AI agents</b> going forward.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "98% of companies deployed AI in CX but only 15% can orchestrate it end-to-end, Talkdesk finds",
+          "url": "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
+          "plain": "Talkdesk's new report shows nearly every company has switched on AI in the customer journey, yet only 15% combine <b>agentic AI with cross-departmental orchestration</b> to actually resolve issues end-to-end. The gap between deployment and measurable results is the defining challenge for CX buyers right now.",
           "chips": [
             "agentic",
-            "decis",
-            "perso",
-            "cep"
+            "cep",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": true,
-          "head": "3 ways marketing automation platforms are being reinvented around customer context",
-          "url": "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/",
-          "plain": "MarTech maps three structural shifts replacing the old lead-funnel MAP model: platforms moving toward <b>real-time customer context</b>, agentic next-best-action, and outcome-based orchestration. Essential reading for anyone deciding which marketing automation category to buy into or build on, as the MAP category itself is being redefined.",
+          "head": "What it takes for AI to find, trust, and act on your brand",
+          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "plain": "A practical framework covering the information, architecture, measurement, and transaction layers a brand needs so that <b>AI discovery engines can surface and recommend it</b>. As generative AI increasingly mediates purchase decisions, this is a concrete guide to GEO strategy that goes well beyond SEO thinking.",
           "chips": [
-            "cep",
-            "agentic",
-            "decis",
-            "cdp"
+            "geo",
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series · via ZeroBounce",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "ZeroBounce launches first tool to detect AI-managed email inboxes",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zerobounce-can-now-detect-ai-managed-mailboxes/",
-          "plain": "ZeroBounce can now flag whether an email inbox is controlled by an autonomous AI agent rather than a human. As <b>AI agents increasingly handle business inboxes</b>, marketers sending to those addresses face new deliverability and compliance questions. This is the first validation tool to address the problem, changing how email lists are cleaned and governed.",
+          "head": "Integrate acquires CaliberMind to link demand activation with real-time buyer signals",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/martech-acquisition-integrate-and-calibermind-unite/",
+          "plain": "B2B lead management platform Integrate is buying GTM analytics and attribution vendor CaliberMind. The combined product aims to close the loop between top-of-funnel demand gen and real-time buyer-intent signals, creating <b>continuous feedback that feeds next-step campaign activation</b> — a structural shift in how B2B martech stacks are assembled.",
           "chips": [
-            "agentic",
-            "govern",
-            "cep"
+            "cdp",
+            "decis",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "Crescendo · via MarTech Series",
           "fresh": true,
-          "head": "AI workflows are exposing and amplifying bad marketing data",
-          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
-          "plain": "AI models inherit whatever is broken in your data pipeline — gaps, duplicates, stale records — and then act on them at scale. This piece shows how to audit your pipeline and fix problems at the source before they corrupt <b>AI-driven personalization and decisioning</b>. Foundational for anyone building or buying <b>AI-powered marketing infrastructure</b>.",
+          "head": "Crescendo launches AI-native CX platform consolidating CCaaS, ticketing, WFM, and QA in one system",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/crescendo-launches-the-ai-native-customer-experience-platform-one-system-that-runs-and-continuously-improves-the-entire-cx-operation/",
+          "plain": "Crescendo is collapsing categories that have been sold separately for decades — contact centre software, ticketing, workforce management, quality assurance, and knowledge bases — into one <b>self-improving agentic platform</b> deployable in 30 days. It signals consolidation pressure on best-of-breed CX vendors and changes the buying conversation for enterprise CX teams.",
           "chips": [
-            "cdp",
-            "govern",
-            "perso",
-            "decis"
+            "agentic",
+            "cep",
+            "decis",
+            "govern"
           ]
         }
       ]
@@ -118,70 +115,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "98% of firms deploy AI in CX but only 15% achieve end-to-end agentic orchestration, Talkdesk report finds",
-          "url": "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
-          "plain": "Talkdesk's new State of Agentic Automation in CX report exposes a sharp <b>orchestration gap</b>: nearly every company has switched on some AI, but only a small fraction have connected it across departments to resolve customer problems without human hand-offs. That gap tells buyers and builders exactly where <b>agentic AI investment</b> is still failing.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The AI governance test most marketers are missing",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
+          "plain": "When an AI marketing decision goes wrong, most teams don't know whether to fix the rule, the model, the process, or who owns the call. This piece gives marketers a practical diagnostic for pinpointing exactly where <b>AI governance breaks down</b> — a critical skill as automated decisioning scales across campaigns.",
+          "chips": [
+            "govern",
+            "agentic",
+            "decis"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The terrifying math behind your new AI workforce",
+          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
+          "plain": "Autonomous marketing agents can slash headcount costs, but <b>API fees and middleware charges</b> stack up fast and can blow through any savings. This analysis gives budget holders a realistic cost model before committing to an agentic stack — directly changing how marketing AI is bought and scoped.",
           "chips": [
             "agentic",
             "decis",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Companies are deploying AI in CX faster than they can make it work",
+          "url": "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
+          "plain": "Talkdesk's new report finds <b>98% of companies have deployed AI in customer experience</b>, yet only 15% combine agentic AI with cross-departmental orchestration to resolve issues end-to-end. The measurement gap — most can't prove ROI — signals a coming wave of platform consolidation and governance investment.",
+          "chips": [
+            "agentic",
             "cep",
             "govern"
           ]
         },
         {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "Auxia crosses 200B AI decisions and launches Agent Studio for coordinated marketing campaigns",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
-          "plain": "Auxia's Agent Studio lets marketers direct <b>AI agents that plan, build, and launch campaigns</b> across existing martech stacks, drawing on full business context. The 200-billion-decision milestone gives the platform real credibility. It signals a shift toward purpose-built agentic layers sitting on top of — rather than replacing — current tools.",
-          "chips": [
-            "agentic",
-            "decis",
-            "perso",
-            "cep"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The hidden cost trap: API fees and middleware can erase AI workforce savings",
-          "url": "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/",
-          "plain": "A MarTech analysis shows that <b>autonomous agent API costs and middleware fees</b> scale fast enough to wipe out the labour savings marketers expect. This is a must-read for anyone budgeting an agentic AI rollout — it reframes the ROI calculation that vendors rarely show and changes how AI is bought and governed.",
-          "chips": [
-            "agentic",
-            "govern",
-            "genai"
-          ]
-        },
-        {
           "num": "04",
           "src": "MarTech",
+          "fresh": true,
+          "head": "What it takes for AI to find, trust, and act on your brand",
+          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "plain": "A practical framework covering the information, architecture, and transaction layers a brand needs so <b>AI discovery engines can surface and recommend it</b>. As generative engines replace traditional search for buying decisions, this reframes how marketers think about visibility — directly shifting content and data strategy.",
+          "chips": [
+            "geo",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
           "fresh": false,
-          "head": "3 ways marketing automation platforms are being reinvented around customer context",
+          "head": "3 ways marketing automation platforms are being reinvented",
           "url": "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/",
-          "plain": "MarTech maps three structural shifts remaking the classic MAP: moving from lead-routing to <b>real-time customer context engines</b>, adding agentic decisioning layers, and integrating predictive next-best-action. Anyone evaluating or replacing a marketing automation platform needs this framework to understand what the category is becoming.",
+          "plain": "The classic MAP that moved leads toward sales is being replaced by three new models centered on <b>real-time customer context and next-best-action decisioning</b>. Understanding this shift matters because it changes which platforms buyers evaluate and what integrations — CDP, agentic layer — they must prioritise.",
           "chips": [
             "cep",
             "agentic",
             "decis",
             "cdp"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "ZeroBounce becomes first email platform to detect AI-managed mailboxes",
-          "url": "https://martechseries.com/content/programmatic-email/zerobounce-can-now-detect-ai-managed-mailboxes/",
-          "plain": "ZeroBounce can now flag inboxes <b>run by autonomous AI agents</b> rather than real people, a new layer beyond standard bounce and spam-trap checks. As AI agents increasingly act as buyers, researchers, and approvers, knowing whether a recipient is human or bot changes how marketers target, measure, and <b>govern their email programs</b>.",
-          "chips": [
-            "agentic",
-            "govern",
-            "genai"
           ]
         }
       ]
@@ -191,121 +186,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Deployment <em>Outpacing Readiness</em>",
-          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
+          "head": "AI agents need <em>brand-ready data</em> to act on your behalf",
+          "url": "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/",
           "body": [
-            "Companies are racing to ship AI into customer experience and content workflows before the underlying data quality, processes, or skills are in place to support it. The gap between deployment speed and operational readiness is widening, and AI is now <b>exposing dirty data and broken workflows</b> that were previously hidden by human workarounds.",
-            "The teams actually getting results share one habit: they systematically convert scattered AI experiments into documented, repeatable organizational advantages before scaling. The lesson is that <b>implementation discipline — not model choice — separates winners from noise</b>."
+            "A cluster of pieces this month converges on a single warning: <b>AI agents and answer engines now make purchasing and discovery decisions before a human ever sees a search result.</b> If your brand data is incomplete, inconsistent, or buried in formats agents can't parse, you are effectively invisible to the next generation of buyers. The Gemini citation research showed that business websites with structured, authoritative data dominated AI-generated local results — confirming that traditional SEO intuitions no longer fully apply.",
+            "Dun &amp; Bradstreet embedding its Commercial Graph inside Perplexity is a concrete signal that <b>structured commercial data is becoming the currency AI agents spend</b> when they research vendors, assess risk, and recommend suppliers. Marketers who treat this as a future problem will find themselves locked out of agentic workflows; those who act now on data completeness and trustworthiness gain a durable structural edge."
           ],
           "ev": [
             [
-              "Agile Brand · AI faster than it can work",
-              "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/"
+              "MarTech · AI · Brand &amp; agent discovery",
+              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
             ],
             [
-              "MarTech · bad data harder to ignore",
-              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
+              "MarTech · AI · Gemini local citations",
+              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
             ],
             [
-              "MarTech · what top AI teams do differently",
-              "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
+              "MarTech Series · D&amp;B + Perplexity",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dun-bradstreet-brings-the-db-commercial-graph-to-perplexity-powering-research-risk-and-growth-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The Rise of <em>Agentic Marketing Infrastructure</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/",
+          "head": "Deployment speed is <em>outrunning operational readiness</em>",
+          "url": "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/",
           "body": [
-            "A new layer of infrastructure is forming beneath the martech stack: agent orchestration platforms that coordinate AI workers alongside human ones. Auxia's Agent Studio and Tempo's Workforce Intelligence both launched this month, each positioning itself as an <b>operating system for blended human-AI teams</b> — complete with attribution logic that accounts for agentic output.",
-            "This signals a structural shift: marketing automation is no longer just about scheduling and routing; it is becoming a <b>real-time decision fabric</b> that allocates tasks across humans and autonomous agents and then measures ROI across both. Budget holders will soon need to account for agent headcount just as they account for human headcount."
+            "Multiple items this month document the same gap: <b>organizations are shipping AI-powered CX, content, and automation tools faster than they can build the processes, governance, and skills to make those tools reliable.</b> The Agile Brand piece on CX deployment speed and the MarTech governance piece both frame this as a structural risk, not a temporary growing pain. Crescendo's \"self-improving\" platform launch is emblematic — the marketing promise assumes operational maturity that most teams haven't yet reached.",
+            "Kate Dalbey's interview on adaptive martech operating models names the underlying culprit precisely: <b>rollouts stall on the operating model, not the tool.</b> The implication for decision-makers is that the next investment priority shouldn't be another platform — it should be the workflow design, team accountability structures, and measurement cadences that let existing platforms actually deliver value."
           ],
           "ev": [
             [
-              "MarTech Series · Auxia Agent Studio 200B decisions",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/auxia-crossed-200b-decisions-and-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/"
+              "Agile Brand · CX deployment vs. readiness",
+              "https://agilebrandguide.com/companies-are-deploying-ai-in-customer-experience-faster-than-they-can-make-it-work/"
             ],
             [
-              "Agile Brand · Tempo Workforce Intelligence",
-              "https://agilebrandguide.com/tempo-introduces-workforce-intelligence-the-first-attribution-solution-to-align-roi-for-human-and-agentic-productivity/"
+              "Agile Brand · Adaptive operating model",
+              "https://agilebrandguide.com/qualified-digital-chief-client-officer-kate-dalbey-on-building-an-adaptive-martech-operating-model/"
             ],
             [
-              "MarTech · automation platforms reinvented",
-              "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/"
+              "MarTech · AI governance test",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>AI-Native Brand Visibility</em> as the New SEO",
-          "url": "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/",
+          "head": "Bad data is the <em>AI amplification problem</em> nobody budgeted for",
+          "url": "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/",
           "body": [
-            "AI answer engines — Gemini, ChatGPT, Perplexity — are becoming primary discovery surfaces, and brands that have not structured their web presence for machine-readable citation are <b>quietly disappearing from search results</b>. Research shows business websites dominate Gemini's local citations, meaning owned content still matters, but the rules for what gets cited have changed fundamentally.",
-            "Marketers now need an <b>AI discoverability strategy</b> that sits alongside — or even above — traditional SEO: optimising for how agents retrieve and synthesise information, not just how crawlers index pages. The IAB's updated AI-in-ads disclosure standard adds a regulatory layer on top, making transparency about AI-generated content a compliance issue as well as a brand-trust issue."
+            "<b>AI doesn't fix dirty data — it scales the errors faster and further than any human team could.</b> The MarTech piece on bad marketing data frames this as the hidden tax on every AI initiative: models trained or prompted on incomplete, siloed, or mislabeled data produce confidently wrong outputs, and those outputs now flow into automated decisions at machine speed. The companion piece on content and data teams speaking different languages adds an organizational layer — the problem isn't just technical, it's a communication breakdown between the people who create signals and the people who interpret them.",
+            "Incrementality testing and post-campaign analysis pieces this month reinforce the same point from the measurement side: <b>the quality of decisions you can make after results come in is only as good as the data hygiene you maintained before the campaign ran.</b> Teams that invest now in data governance, shared taxonomies, and cross-functional alignment will find AI genuinely accelerative; everyone else will find it expensively misleading."
           ],
           "ev": [
             [
-              "MarTech · AI visibility index brands disappearing",
-              "https://martech.org/ai-visibility-index-shows-which-brands-are-disappearing/"
+              "MarTech · Bad data &amp; AI",
+              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
             ],
             [
-              "MarTech · Gemini local AI citations",
-              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
+              "MarTech · Content &amp; data team translation",
+              "https://martech.org/lost-in-translation-why-content-and-data-teams-cant-speak-the-same-language/"
             ],
             [
-              "MarTech · brand ready for AI agent discovery",
-              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
+              "MarTech · Better marketing after results",
+              "https://martech.org/better-marketing-starts-after-the-results-come-in/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Measurement Reckoning: <em>Incrementality Over Vanity</em>",
-          "url": "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/",
+          "head": "Marketing automation is being <em>rebuilt around agents</em>, not workflows",
+          "url": "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/",
           "body": [
-            "Attribution is under reconstruction. Multiple pieces this month converge on the same point: marketers have been measuring the wrong things, and AI is forcing the issue by making the cost of bad measurement visible at scale. The advice is consistent — <b>run fewer, better-designed incrementality tests</b> rather than a sprawl of low-confidence experiments, and treat post-campaign analysis as the starting point for the next campaign, not a post-mortem.",
-            "Adobe &amp; Azira's cross-border footfall measurement launch and Tempo's human-vs-agent ROI attribution both reflect this pressure: <b>every dollar now needs a defensible causal story</b>, not a correlation. For teams new to the field, this means investing in measurement infrastructure before layering on more AI tools."
+            "The traditional marketing automation model — rules, triggers, sequences — is being replaced by something architecturally different: <b>agentic systems that perceive context, make decisions, and execute multi-step tasks without human hand-holding at each stage.</b> Auxia's Agent Studio, Sabio &amp; Gentoro's agentic advertising ops partnership, and Crescendo's self-running CX platform all launched within this window, and they share a common design philosophy: the system optimizes continuously rather than waiting for a human to adjust a playbook.",
+            "MarTech's piece on how automation platforms are being reinvented names three specific architectural shifts driving this change, while Tempo's Workforce Intelligence signals an equally important consequence: <b>we now need attribution models that account for work performed by agents, not just humans.</b> The decision that matters for marketers is whether to extend existing MAP investments or begin migrating to platforms built natively around agentic logic — a choice with significant switching costs either way."
           ],
           "ev": [
             [
-              "MarTech · run fewer incrementality tests",
-              "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/"
+              "MarTech · Automation reinvented",
+              "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/"
             ],
             [
-              "MarTech · better marketing after results come in",
-              "https://martech.org/better-marketing-starts-after-the-results-come-in/"
+              "Agile Brand · Auxia Agent Studio",
+              "https://agilebrandguide.com/auxia-launches-agent-studio-the-operating-system-for-the-10x-marketing-team/"
             ],
             [
-              "Agile Brand · Adobe Azira footfall measurement",
-              "https://agilebrandguide.com/adobe-and-azira-launch-cross-border-footfall-measurement-for-global-advertisers/"
+              "Agile Brand · Tempo Workforce Intelligence",
+              "https://agilebrandguide.com/tempo-introduces-workforce-intelligence-the-first-attribution-solution-to-align-roi-for-human-and-agentic-productivity/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Enterprise <em>AI Partnership Consolidation</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations/",
+          "head": "Measurement is moving from <em>channel reporting to causal proof</em>",
+          "url": "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/",
           "body": [
-            "The biggest platforms are locking in deep partnerships — Bain with Anthropic, Cisco with NVIDIA, Docusign &amp; Relativity with Google Cloud Gemini — to deliver AI not as a feature but as <b>embedded enterprise infrastructure</b>. This consolidation is compressing the window in which mid-market brands can choose best-of-breed freely; dominant stacks are forming fast around a handful of foundation models.",
-            "For martech buyers, the practical implication is that <b>vendor ecosystem alignment is becoming a strategic decision</b>, not just a procurement one. Choosing a CRM or data platform increasingly means implicitly choosing a foundation model and a cloud, with downstream consequences for data portability, compliance, and future AI capability access."
+            "Several items this month signal a maturation in how marketing effectiveness is being measured: <b>the industry is moving away from last-click and multi-touch attribution toward incrementality testing and causal inference as the accepted standard of proof.</b> The pieces on running fewer but better incrementality tests and on news media's measurable contribution to media investment ROI both treat causal measurement as the baseline expectation, not an advanced technique. Adobe &amp; Azira's cross-border footfall measurement launch extends this logic into physical retail, closing the loop between digital spend and real-world behavior.",
+            "The strategic implication is a resource reallocation question: <b>fewer tests, run rigorously, beat many tests run sloppily</b> — which means measurement teams need methodological depth more than measurement tool breadth. As AI-driven campaigns become harder to decompose (because agents make real-time adjustments that no static test cell can fully capture), the pressure to establish causal baselines before campaigns launch will only intensify."
           ],
           "ev": [
             [
-              "MarTech Series · Bain &amp; Anthropic partnership",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations/"
+              "MarTech · Incrementality tests",
+              "https://martech.org/run-fewer-incrementality-tests-and-get-more-from-them/"
             ],
             [
-              "MarTech Series · Cisco NVIDIA AI Factory",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cisco-expands-secure-ai-factory-with-nvidia-for-the-rack-scale-era/"
+              "MarTech Series · News media ROI analysis",
+              "https://martechseries.com/sales-marketing/programmatic-buying/news-helps-advertisers-get-more-from-their-media-investment-new-analysis-finds/"
             ],
             [
-              "MarTech Series · Docusign Google Gemini Legal",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-brings-trusted-agreement-intelligence-to-google-clouds-gemini-enterprise-for-legal/"
+              "Agile Brand · Adobe &amp; Azira footfall",
+              "https://agilebrandguide.com/adobe-and-azira-launch-cross-border-footfall-measurement-for-global-advertisers/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the decisive question is the same: <em>whether organisations can build the operational discipline, data quality, and measurement rigour to keep pace with the AI capabilities they are already deploying</em>."
+      "takeaway": "Across every layer of the stack this month, the common thread is that <em>AI amplifies whatever foundation you give it — clean data and clear governance produce compounding advantage, while dirty data and absent operating models produce compounding failure</em>, making foundational decisions more consequential than any single platform choice."
     }
   }
 }
