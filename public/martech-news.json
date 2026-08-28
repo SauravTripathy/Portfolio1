@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T23:00:54.051305+00:00",
+  "generatedAt": "2026-08-28T17:30:31.994235+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,70 +45,72 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Salesforce and Anthropic Announce 'Claudeforce' Expanded AI Partnership",
-          "url": "https://martechseries.com/sales-marketing/crm/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/",
-          "plain": "Salesforce and Anthropic are merging Claude's reasoning engine with Salesforce's data, workflows, and governance layer in a product called Claudeforce. This is significant because it embeds a frontier LLM directly into the world's largest CRM, meaning <b>enterprise AI decisions will run inside Salesforce's governance rails</b> — reshaping how martech buyers evaluate both platforms.",
+          "head": "Anthropic partnership makes Salesforce's interface optional via Claude",
+          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
+          "plain": "A new integration called Claudeforce lets Claude AI access Salesforce data and run workflows directly, effectively making Salesforce's own UI optional. This matters because it signals that <b>AI agents may become the primary interface to enterprise software</b>, reshaping how CRM and marketing platforms are bought and used.",
           "chips": [
             "agentic",
-            "govern",
             "decis",
-            "genai"
+            "cep",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "ActiveCampaign Launches 'Wavelength' AI That Acts on 500+ Per-Account Signals",
-          "url": "https://agilebrandguide.com/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/",
-          "plain": "ActiveCampaign's new Active Intelligence: Wavelength doesn't just recommend the next best action — it executes it, drawing on <b>500+ signals unique to each customer's own account</b>. The claimed 75% higher engagement rate and autonomous execution model mark a real shift from advisory AI to agentic decisioning inside a mainstream email and CRM platform.",
+          "head": "Marketers know AI is making decisions on bad CRM data",
+          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "plain": "A report finds marketers are handing AI more decision-making authority even while acknowledging their CRM data is dirty and unreliable. <b>Bad data flowing into AI systems corrupts revenue measurement and automated decisions</b>, making data quality a governance crisis, not just a housekeeping problem.",
           "chips": [
-            "agentic",
+            "cdp",
+            "govern",
             "decis",
-            "perso",
-            "cep"
+            "agentic"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Agentic Commerce: Why Product Data and Brand Trust Decide Who Wins When AI Does the Shopping",
-          "url": "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/",
-          "plain": "Envive CEO Aniket Deosthali argues that <b>AI shopping agents are replacing human browse-and-compare behaviour</b>, so winning now means owning structured product data and earning machine trust — not just consumer trust. The piece reframes marketing strategy for a world where the buyer is an algorithm, with direct implications for how brands build and tag content.",
+          "head": "The Trade Desk launches Kokai Zuma with agentic AI and automated campaign changes",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/",
+          "plain": "The Trade Desk's Kokai Zuma release adds <b>agentic AI that can automatically adjust campaign settings</b> toward chosen outcomes, plus simplified measurement tools. This moves programmatic buying closer to autonomous operation, changing what media buyers need to do and know day-to-day.",
           "chips": [
             "agentic",
-            "geo",
             "decis",
-            "perso"
+            "bandit",
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Influencer Agency Launches 'Creator-First AEO' to Drive Brand Visibility Inside AI Answers",
-          "url": "https://martechseries.com/content/influencer-launches-creator-first-aeo-a-new-category-for-earning-brand-authority-in-the-ai-discovery-era/",
-          "plain": "Global creator agency Influencer is partnering with AI-monitoring platform Profound to define a new discipline: using creator content and signals specifically to earn <b>brand recommendations inside AI-generated answers</b>. This is the first major agency-scale operating model built around GEO, signalling a budget shift from traditional SEO and paid media toward AI-answer optimization.",
+          "head": "ActiveCampaign launches Wavelength: marketing AI trained on each business's own data",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/",
+          "plain": "ActiveCampaign's new Wavelength feature builds AI models from 500-plus signals inside each customer's own account rather than industry benchmarks, then acts on them automatically. The company claims <b>75% higher engagement rates</b>, making account-level personalized decisioning a new competitive baseline for email and marketing automation platforms.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "perso",
+            "decis",
+            "bandit",
+            "cep"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Consumer Data Profiles Are Built Without Consent or Correction Rights, Warns MarTech Analysis",
-          "url": "https://martech.org/better-data-starts-with-treating-people-like-people/",
-          "plain": "The piece traces how routine transactions — a fast-food order, a sports-venue visit — silently build <b>detailed consumer profiles that people cannot see or correct</b>. For martech practitioners, it highlights growing regulatory and reputational risk around first-party data collection practices, making governance and transparency a competitive as well as compliance issue.",
+          "head": "Martech replacement economics: why stacks are being rebuilt, not expanded",
+          "url": "https://martechseries.com/mts-insights/staff-writers/martech-replacement-economics-why-marketers-are-rebuilding-their-stacks-instead-of-simply-expanding-them/",
+          "plain": "Analysis shows marketers are now ripping out and replacing existing tools rather than layering new ones on top, driven by AI-native platforms that consolidate what once required multiple point solutions. <b>Stack replacement, not expansion, is the new buying pattern</b>, with major implications for vendors and MarTech procurement teams.",
           "chips": [
-            "cdp",
-            "govern",
-            "perso"
+            "agentic",
+            "genai",
+            "cep",
+            "govern"
           ]
         }
       ]
@@ -117,43 +119,42 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Salesforce and Anthropic Announce 'Claudeforce' Expanded AI Partnership",
-          "url": "https://martechseries.com/sales-marketing/crm/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/",
-          "plain": "Salesforce and Anthropic are bundling Claude's reasoning directly into the Salesforce platform — including its data, workflows, and governance rails. This is more than a logo deal: it means enterprise marketers can trigger <b>agentic AI actions</b> inside CRM without leaving Salesforce's <b>trust and governance layer</b>, reshaping how AI is bought and controlled at scale.",
+          "head": "Anthropic partnership makes Salesforce's interface optional via Claude",
+          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
+          "plain": "A new integration called Claudeforce puts Salesforce data and workflows directly inside Claude, meaning marketers and sales teams could run CRM tasks through an AI chat interface instead of Salesforce's own UI. This signals a wider shift where <b>AI becomes the primary interface to enterprise software</b>, reshaping how platforms are bought and used.",
           "chips": [
             "agentic",
-            "govern",
-            "decis",
-            "cep"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "ActiveCampaign Launches 'Wavelength': Account-Specific Marketing AI Built on 500+ Signals",
-          "url": "https://agilebrandguide.com/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/",
-          "plain": "ActiveCampaign's new Active Intelligence: Wavelength trains on each business's own account data — 500+ signals — rather than industry benchmarks, and <b>autonomously executes the recommended move</b>. Claimed 75% higher engagement rates. This shifts the MAP category toward <b>per-account agentic decisioning</b>, raising the bar for what smaller platforms must now offer.",
+          "head": "Marketers know AI is using bad data to make decisions",
+          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "plain": "Marketers are handing AI more decision-making authority even while knowing their CRM data is unreliable. <b>Bad data flowing into AI systems corrupts revenue measurement and automated decisions</b> downstream. This is a foundational governance problem that grows more costly the more autonomy AI is given — a critical warning for any team scaling AI-driven marketing.",
           "chips": [
+            "govern",
+            "cdp",
             "agentic",
-            "decis",
-            "perso",
-            "cep"
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Optimove Launches OptiGenie: Natural-Language Agentic AI Embedded in Its CEP",
-          "url": "https://agilebrandguide.com/optimove-introduces-the-new-optigenie-natural-language-conversational-agent-directly-inside-the-platform/",
-          "plain": "Optimove's upgraded OptiGenie is a conversational AI agent living inside the platform, giving marketers plain-English access to decisioning, insight, and creative agents — all under <b>marketer-controlled governance</b>. It signals a shift where <b>agentic orchestration plus guardrails</b> become a single in-platform experience rather than separate tools.",
+          "head": "ActiveCampaign launches Wavelength: marketing AI tuned to each business's own signals",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/",
+          "plain": "ActiveCampaign's new Wavelength layer trains on 500-plus signals from a business's own account history rather than industry benchmarks, then <b>automatically executes the next best action</b> — not just recommends it. The claimed 75% engagement lift matters because it marks a move from generic AI assist to account-specific autonomous decisioning inside a mainstream CEP.",
           "chips": [
-            "agentic",
             "decis",
-            "govern",
+            "perso",
+            "agentic",
             "cep"
           ]
         },
@@ -161,26 +162,25 @@
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Influencer Agency Launches 'Creator-First AEO' to Win Visibility Inside AI Answers",
-          "url": "https://martechseries.com/content/influencer-launches-creator-first-aeo-a-new-category-for-earning-brand-authority-in-the-ai-discovery-era/",
-          "plain": "Influencer agency Influencer and AI-monitoring platform Profound are co-launching Creator-First AEO — using creator content and signals specifically to drive <b>brand recommendations inside AI engines</b>. This formalises a new budget category: paying creators not just for reach but to shape what <b>generative AI systems say about your brand</b>.",
+          "head": "The Trade Desk launches Kokai Zuma with agentic AI and automated campaign changes",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/",
+          "plain": "Kokai Zuma adds <b>agentic AI that autonomously adjusts programmatic campaigns</b> toward outcome targets, reducing the need for manual bid and budget changes. For media buyers this shifts the platform from a tool they operate to one that operates itself — a significant change in how programmatic is bought and what skills it requires.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "agentic",
+            "decis",
+            "bandit"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Envive CEO: When AI Agents Do the Shopping, Product Data and Brand Trust Decide Who Wins",
-          "url": "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/",
-          "plain": "Envive CEO Aniket Deosthali argues that as <b>AI agents replace human shoppers</b>, winning means structured product data, machine-readable brand signals, and owning the customer relationship — not just search rank. With BCG reporting 31% of consumers already use AI to shop, this is a practical strategic primer on <b>agentic commerce readiness</b>.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "The AI governance test most marketers are missing",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
+          "plain": "This piece offers a practical diagnostic for when an AI marketing decision goes wrong — distinguishing whether the failure lives in the rule, the control layer, the implementation, or who held authority. As AI takes on more decisions, <b>knowing where accountability sits</b> is the core governance skill most marketing teams currently lack.",
           "chips": [
+            "govern",
             "agentic",
-            "geo",
-            "cdp",
             "decis"
           ]
         }
@@ -191,121 +191,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Commerce</em> Takeover: When the Shopper Is a Machine",
-          "url": "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/",
+          "head": "AI amplifies the <em>data-quality crisis</em> marketers can no longer defer",
+          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
           "body": [
-            "AI agents are no longer just assisting human shoppers — they are <b>becoming the customer</b>. Autonomous systems now run daily Amazon store operations, build links, and manage electric fleets without human triggers, collapsing the gap between marketing automation and fully autonomous commerce.",
-            "The strategic implication is stark: optimizing for human attention is no longer enough. Brands must now engineer their data, pricing signals, and product content so that <b>machine buyers surface and choose them</b> — a fundamentally different discipline from traditional CRO or SEO."
+            "Multiple signals this month confirm that <b>AI does not fix bad data — it accelerates its consequences</b>. When models are trained or prompted on flawed CRM records, stale segments, or biased inputs, the errors propagate at machine speed across every channel decision. Marketers who once tolerated messy data as a background nuisance now face it as a front-line performance risk.",
+            "The corrective framing gaining traction is ethical &amp; structural: treat data subjects as people first, not rows in a table, and build collection practices that earn reliable signal. This reframes data quality from a technical backlog item into a <b>brand &amp; governance priority</b> that belongs on the CMO's agenda, not just the data-engineering team's."
           ],
           "ev": [
             [
-              "Agile Brand · Agentic commerce explainer",
-              "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/"
+              "MarTech · Bad data decisions",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
             ],
             [
-              "MarTech Series · Atomic One autonomous Amazon agent",
-              "https://martechseries.com/sales-marketing/programmatic-buying/atomic-one-launches-autonomous-ai-agent-system-to-run-daily-amazon-store-operations/"
+              "MarTech · AI makes bad data harder to ignore",
+              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
             ],
             [
-              "MarTech · Brand readiness for AI agent discovery",
-              "https://martech.org/getting-your-brand-ready-for-ai-agent-discovery/"
+              "MarTech · Better data starts with people",
+              "https://martech.org/better-data-starts-with-treating-people-like-people/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Discoverability</em> Replaces SEO as the New Brand Surface",
-          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "head": "<em>Agentic commerce</em> rewrites who — or what — the customer actually is",
+          "url": "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/",
           "body": [
-            "A new category called Answer Engine Optimization (AEO) is crystallizing alongside evidence that <b>business websites dominate AI citation results</b> in tools like Gemini. The rules of being found are rewriting themselves: structured authority signals, not keyword density, now determine whether an AI recommends your brand.",
-            "This shifts budget and editorial decisions upstream. Content teams must now ask whether a piece will be <b>trusted and cited by an AI model</b>, not just ranked by a crawler — making the Salesforce-Anthropic &amp; similar deep integrations a template for how platform owners intend to control that citation layer."
+            "AI agents are no longer just assisting shoppers — they are <b>becoming the shopper</b>. Autonomous systems from Atomic One running Amazon store operations to discussions about what 'winning' means when the buyer is a machine signal that the entire purchase funnel is being intermediated by software acting on a human's behalf. Brands that optimise only for human eyes and human emotions risk being invisible to the layer that now makes the call.",
+            "The strategic implication is stark: <b>product data, pricing signals, and brand authority must be legible to AI agents</b>, not just attractive to human browsers. Optimising for AI findability &amp; trust — what one piece called 'what it takes for AI to find, trust, and act on your brand' — is fast becoming as fundamental as SEO was in the 2000s."
           ],
           "ev": [
             [
-              "MarTech · What it takes for AI to find your brand",
+              "Agile Brand · Agentic commerce",
+              "https://agilebrandguide.com/expert-mode-when-the-shopper-is-a-machine-aniket-deosthali-on-what-winning-means-in-agentic-commerce/"
+            ],
+            [
+              "MarTech · AI find &amp; trust brand",
               "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
             ],
             [
-              "MarTech Series · Creator-first AEO launch",
-              "https://martechseries.com/content/influencer-launches-creator-first-aeo-a-new-category-for-earning-brand-authority-in-the-ai-discovery-era/"
-            ],
-            [
-              "MarTech · Gemini local AI citations study",
-              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
+              "MarTech Series · Atomic One autonomous ops",
+              "https://martechseries.com/sales-marketing/programmatic-buying/atomic-one-launches-autonomous-ai-agent-system-to-run-daily-amazon-store-operations/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Platform Giants <em>Fuse AI Models</em> Into CRM &amp; Marketing Stacks",
-          "url": "https://martechseries.com/sales-marketing/crm/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/",
+          "head": "Martech stacks enter an era of <em>replacement, not expansion</em>",
+          "url": "https://martechseries.com/mts-insights/staff-writers/martech-replacement-economics-why-marketers-are-rebuilding-their-stacks-instead-of-simply-expanding-them/",
           "body": [
-            "The Salesforce-Anthropic 'Claudeforce' announcement is the headline signal of a broader consolidation: best-in-class foundation models are being <b>bolted directly into CRM, contact center, and automation platforms</b> rather than staying separate API calls. Five9's recognition as an agentic CCaaS leader and Optimove's conversational agent inside its platform confirm the pattern.",
-            "For buyers, this changes vendor evaluation. Choosing a CRM or MAP now implicitly means choosing an <b>AI reasoning layer</b>, making switching costs higher and model quality a first-class procurement criterion alongside integrations and price."
+            "The dominant procurement posture has shifted: teams are <b>ripping out point solutions and rebuilding around AI-native platforms</b> rather than adding tools on top of legacy infrastructure. The Anthropic-Salesforce deal is the clearest illustration — Salesforce's own interface becomes optional when a model can talk directly to underlying data, collapsing the value of the CRM UI layer entirely.",
+            "This replacement economics dynamic also explains why <b>personalisation AI is moving from industry-average to business-specific tuning</b> — ActiveCampaign's 'Wavelength' launch is a direct response to the criticism that generic AI gives every competitor the same edge. Vendors that cannot offer genuine differentiation will be rationalised out of the stack, not upgraded."
           ],
           "ev": [
             [
-              "MarTech Series · Salesforce &amp; Anthropic Claudeforce",
-              "https://martechseries.com/sales-marketing/crm/salesforce-and-anthropic-announce-claudeforce-the-1-ai-meets-the-1-ai-crm/"
+              "MarTech Series · Replacement economics",
+              "https://martechseries.com/mts-insights/staff-writers/martech-replacement-economics-why-marketers-are-rebuilding-their-stacks-instead-of-simply-expanding-them/"
             ],
             [
-              "Agile Brand · Optimove OptiGenie in-platform agent",
-              "https://agilebrandguide.com/optimove-introduces-the-new-optigenie-natural-language-conversational-agent-directly-inside-the-platform/"
+              "MarTech · Anthropic makes Salesforce interface optional",
+              "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/"
             ],
             [
-              "MarTech · Marketing automation platforms reinvented",
-              "https://martech.org/3-ways-marketing-automation-platforms-are-being-reinvented/"
+              "MarTech Series · ActiveCampaign Wavelength",
+              "https://martechseries.com/sales-marketing/programmatic-buying/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>Personalized AI</em> vs. Industry-Average Models: The Tuning Wars Begin",
-          "url": "https://agilebrandguide.com/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/",
+          "head": "AI governance moves from <em>policy document to performance variable</em>",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-making/",
           "body": [
-            "ActiveCampaign's 'Wavelength' pitch — AI tuned to <b>your business, not the industry average</b> — marks a maturation moment. Vendors are moving beyond generic generative features toward models fine-tuned on a customer's own behavioral and revenue data, promising that outputs reflect actual business context rather than statistical means.",
-            "This raises the stakes on <b>data quality as a competitive moat</b>. The teams getting the most from AI are distinguished precisely by clean, well-governed first-party data — making the parallel discussion about bad marketing data and the content-data team language barrier an urgent operational concern, not just a hygiene issue."
+            "Two pieces this month argue that most marketing teams are failing a basic AI governance test — not because they lack policies, but because those policies are <b>not wired into day-to-day campaign decisions</b>. Without embedded guardrails, AI-generated content and AI-driven targeting run ahead of the accountability structures meant to oversee them, creating brand &amp; regulatory exposure.",
+            "The workforce dimension sharpens the urgency: the 'terrifying math' framing around AI labour ratios means that <b>fewer humans are reviewing more AI outputs</b>, making automated governance checks — not human sign-off — the only scalable safety net. Teams that treat governance as a compliance checkbox rather than a system design principle are running a compounding risk."
           ],
           "ev": [
             [
-              "Agile Brand · ActiveCampaign Wavelength launch",
-              "https://agilebrandguide.com/activecampaign-launches-active-intelligence-wavelength-marketing-ai-tuned-to-your-business-not-the-industry-average/"
+              "MarTech · Governance test",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ],
             [
-              "MarTech · AI making bad data harder to ignore",
-              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
+              "MarTech · AI workforce math",
+              "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/"
             ],
             [
-              "MarTech · What high-performing AI teams do differently",
+              "MarTech · What top AI teams do differently",
               "https://martech.org/what-the-teams-getting-the-most-from-ai-do-differently/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI Governance &amp; the <em>Human-Data Trust</em> Gap Becomes a C-Suite Risk",
-          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
+          "head": "Programmatic &amp; media pipes go <em>fully AI-native</em> at the infrastructure layer",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/",
           "body": [
-            "Governance is no longer a compliance checkbox — it is a <b>strategic differentiator</b>. MarTech's analysis shows most marketers are failing a basic AI governance test, while a parallel piece argues that better data starts with treating people as people rather than data points, signaling that regulatory and reputational pressure is converging.",
-            "The 'terrifying math' of AI workforce scaling means errors propagate at machine speed, so the cost of poor governance compounds quickly. Organizations that invest now in <b>clear accountability frameworks, consent-first data practices, and explainable AI policies</b> will avoid the brand crises that are already emerging for those that don't."
+            "From The Trade Desk's Kokai Zuma release to programmatic DOOH reshaping GCC advertising and agent-native video production integrating Seedance 2.5, the <b>plumbing of paid media is being rebuilt with AI at the core</b> — not bolted on. These are not feature updates; they represent architectural shifts in how inventory is discovered, priced, and optimised in real time.",
+            "The implication for marketers is that <b>media buying expertise is shifting from human negotiation &amp; manual optimisation to prompt engineering &amp; model selection</b>. Meanwhile, AI citations in local search (Gemini) and evolving on-site search confirm the same pattern on the owned-media side: distribution channels are increasingly AI-mediated end to end, and brands must engineer for that layer explicitly."
           ],
           "ev": [
             [
-              "MarTech · AI governance test most marketers miss",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
+              "MarTech Series · Kokai Zuma launch",
+              "https://martechseries.com/sales-marketing/programmatic-buying/the-trade-desk-introduces-kokai-zuma-the-latest-release-of-kokai/"
             ],
             [
-              "MarTech · Better data starts with treating people like people",
-              "https://martech.org/better-data-starts-with-treating-people-like-people/"
+              "MarTech Series · Programmatic DOOH GCC",
+              "https://martechseries.com/tv-advertising/saudi-media-enters-fourth-stage-as-programmatic-dooh-and-ai-reshape-gcc-advertising/"
             ],
             [
-              "MarTech · Terrifying math behind AI workforce",
-              "https://martech.org/the-terrifying-math-behind-your-new-ai-workforce/"
+              "MarTech · Gemini local AI citations",
+              "https://martech.org/business-websites-dominate-geminis-local-ai-citations/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — from agentic shoppers to fused AI-CRM stacks to tuning wars — points to the same inflection: <em>the brands that treat data quality, governance, and machine-readable authority as core infrastructure today will define who AI agents recommend, buy from, and trust tomorrow</em>."
+      "takeaway": "Across every layer of the stack — data, media, commerce, governance, and workforce — <em>AI is no longer augmenting existing marketing systems but replacing the assumptions those systems were built on</em>, forcing strategists to redesign for a world where models, not people, are often the first and final decision-maker."
     }
   }
 }
