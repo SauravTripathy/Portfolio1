@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:14:13.393250+00:00",
+  "generatedAt": "2026-09-01T17:22:25.285848+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,70 +45,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Pepper Launches Agent Atlas: AI Agent That Executes Organic Growth Work, Not Just Reports It",
-          "url": "https://martechseries.com/content/pepper-launches-agent-atlas-an-ai-agent-that-runs-organic-growth-work-not-just-reporting/",
-          "plain": "Pepper's Agent Atlas is a <b>chat-first agentic layer</b> built on top of its GEO platform that doesn't just surface insights — it carries out the recommended work across AI-search rankings and analytics. This is a meaningful shift: instead of a dashboard that tells marketers what to do, the agent does it, raising real questions about oversight and control.",
+          "head": "The hidden costs distorting your AI ROI",
+          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
+          "plain": "Integration, oversight, data preparation, and displaced work can make AI productivity gains look much smaller on the balance sheet than they appear in demos. This matters for every marketing team justifying AI spend — <b>true AI ROI</b> requires accounting for the full cost stack, not just model licensing fees.",
           "chips": [
-            "agentic",
-            "geo",
             "govern",
-            "decis"
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Optimizely Introduces Virtual Teammates: Role-Specific AI Coworkers With Context and Permissions",
-          "url": "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/",
-          "plain": "Optimizely's Virtual Teammates are <b>role-scoped AI agents</b> that retain memory across sessions, proactively handle recurring tasks, and operate within defined identity and permissions boundaries. This matters because it signals how enterprise martech platforms are repackaging agentic AI with built-in governance, changing how marketing software is bought and staffed.",
+          "head": "The Data Tax You're Now Paying Per Token — with Ben Schein from Domo",
+          "url": "https://agilebrandguide.com/expert-mode-the-data-tax-youre-now-paying-per-token-with-ben-schein-from-domo/",
+          "plain": "Domo's Chief AI and Analytics Officer argues that <b>bad data quality now appears directly on your AI invoice</b> — every messy input costs real money each time a model runs. It reframes data hygiene from a back-office concern into a direct line-item budget issue for marketers buying or building AI.",
           "chips": [
-            "agentic",
+            "cdp",
             "govern",
-            "cep",
             "genai"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The Terrifying Loophole in Your Autonomous Tech Stack: Data Privacy Risks in AI Agent Pipelines",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
-          "plain": "When AI agents hand data between each other to run campaigns, proprietary customer data and privacy-sensitive signals can leak at every handoff. This piece identifies the <b>governance gap inside agentic martech stacks</b> and explains the concrete steps marketers need to close it — directly relevant to anyone buying or building autonomous campaign systems.",
-          "chips": [
-            "agentic",
-            "govern",
-            "cdp",
-            "decis"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Archive Launches Archie: AI Agent That Vets Influencer Creators, Not Just Discovers Them",
-          "url": "https://agilebrandguide.com/archive-launches-archie-the-agent-that-vets-creators-not-just-finds-them/",
-          "plain": "Archie takes a campaign brief and returns a pre-screened creator shortlist — filtering out competitor conflicts, dead accounts, and fake audiences — with its reasoning shown. This replaces hours of manual profile review. It's a practical example of <b>agentic AI compressing skilled marketing labor</b>, with explainability baked in, which matters for governance.",
-          "chips": [
-            "agentic",
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand · via MarTech Series",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "GEO Strategy: Being Cited in AI Answers Matters More Than Referral Traffic Clicks",
-          "url": "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/",
-          "plain": "Scrunch's Kevin White argues that <b>ChatGPT referral traffic understates AI-search influence</b> because most AI answers are consumed without a click. Brands need agent-ready pages optimized for citation, not just ranking. This reframes how content and SEO budgets should be allocated in a world where LLMs are the new gatekeepers to discovery.",
+          "head": "Bazaarvoice Launches AI Visibility Package to Optimize Brand Content for AI Recommendations",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bazaarvoice-introduces-ai-visibility-package-to-prime-brand-content-and-ugc-for-ai-recommendation/",
+          "plain": "Bazaarvoice is packaging UGC and brand content specifically to appear in <b>AI-driven product recommendations</b>, claiming early clients see a 40% lift in AI-referred traffic. This is a concrete commercial product built around GEO — making it one of the first scaled tools helping brands get onto the AI shelf rather than the search results page.",
           "chips": [
             "geo",
             "genai",
             "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Descope Unveils Cross-App Access to Let Enterprises Manage AI Agent Identity with Existing Providers",
+          "url": "https://martechseries.com/sales-marketing/id-mgmt/descope-unveils-cross-app-access-xaa-support-letting-enterprises-manage-ai-agent-access-with-their-existing-identity-providers/",
+          "plain": "Descope now lets companies plug <b>AI agent identity and permissions</b> into whatever identity provider they already use, via ID-JAG token support. As agentic systems gain access to customer data and campaign tools, controlling what agents are allowed to do — and proving it — becomes a core governance requirement.",
+          "chips": [
+            "agentic",
+            "govern",
+            "cdp"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Scrunch's Kevin White: Being Cited by AI, Not Just Found, Is the New Marketing Frontier",
+          "url": "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/",
+          "plain": "The head of marketing at Scrunch (now Sitecore) explains why <b>ChatGPT referral traffic metrics miss most of AI's impact</b> — the real game is getting cited inside AI answers where no click ever happens. He outlines what agent-ready pages and long-tail intent structuring look like in practice, making this a practical GEO primer.",
+          "chips": [
+            "geo",
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -117,70 +114,65 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Anthropic partnership makes Salesforce's interface optional via Claude",
-          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
-          "plain": "The Claudeforce integration lets users access Salesforce data and trigger workflows directly inside Claude, bypassing Salesforce's own UI. This is a structural shift: <b>AI becomes the interface to enterprise software</b>, not just a feature inside it. Marketers buying or building on CRM stacks need to understand this changes how those tools are accessed and governed.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Optimizely Introduces Purpose-Built AI Models for Marketing at Lower Cost",
+          "url": "https://agilebrandguide.com/optimizely-introduces-purpose-built-ai-models-for-marketing-thatdeliver-frontier-level-quality-at-a-fraction-of-the-cost/",
+          "plain": "Optimizely is shipping a family of <b>post-trained, marketing-specific AI models</b> instead of routing tasks through generic frontier LLMs. The claim is frontier-level quality at a fraction of the cost. This matters because it signals a shift in how marketing AI is bought — task-specific fine-tuned models may undercut the big-model bundling strategy that vendors like Adobe and Salesforce rely on.",
           "chips": [
-            "agentic",
             "genai",
-            "govern",
-            "cdp"
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Optimizely Introduces Virtual Teammates: Role-Specific AI Coworkers for Marketers",
-          "url": "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/",
-          "plain": "Optimizely's new <b>Virtual Teammates</b> are persistent AI agents assigned to specific marketing roles — they retain context across sessions, proactively handle recurring tasks, and operate within defined identity and permissions. This is a significant product move: agentic AI embedded in a major CEP with governance guardrails built in, changing how marketing teams are structured.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Anthropic-Salesforce Deal Makes Salesforce's Interface Optional via Claude",
+          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
+          "plain": "A Claudeforce integration puts Salesforce data and workflows directly inside Claude, meaning users may never open Salesforce again. This is a structural shift in how enterprise marketing software is accessed — <b>AI becomes the interface</b>, not the app. It reshapes buying decisions and raises real questions about which platform actually owns the customer relationship going forward.",
           "chips": [
             "agentic",
-            "cep",
-            "govern",
-            "decis"
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The terrifying loophole in your autonomous tech stack: data leaks between AI agents",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
-          "plain": "As AI agents pass data between each other to run campaigns automatically, each handoff is a potential point of <b>proprietary data leakage or privacy failure</b>. The piece explains the specific failure modes and mitigation steps. Anyone building or buying agentic marketing systems needs this — it reframes agent interoperability as a governance problem, not just a technical one.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Optimizely Virtual Teammates Give Marketers Role-Specific AI Coworkers",
+          "url": "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/",
+          "plain": "Optimizely's Virtual Teammates are persistent AI agents that retain context across sessions, take on recurring marketing tasks proactively, and operate inside defined identity and permissions. This is a concrete example of <b>agentic AI entering the marketing workflow</b> with governance guardrails baked in — directly relevant to anyone evaluating how AI changes staffing and platform investment.",
           "chips": [
             "agentic",
             "govern",
-            "cdp",
-            "decis"
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Scrunch's Kevin White: Being Cited by AI, Not Just Found, Is the New SEO Priority",
-          "url": "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/",
-          "plain": "Kevin White of Scrunch (now Sitecore) argues that <b>ChatGPT referral traffic misses the bigger picture</b>: most AI-driven discovery happens without a click. Brands need agent-ready pages optimized for citations and long-tail intent, not just keyword rankings. Practical and grounded in a practitioner's real experience — essential reading for anyone managing content or SEO strategy.",
+          "head": "The Hidden Costs Distorting Your AI ROI",
+          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
+          "plain": "Integration work, data preparation, human oversight, and displaced labor quietly eat the gains that AI productivity numbers advertise. The piece gives a practical framework for auditing <b>true AI cost versus reported ROI</b>. For anyone building a business case or approving AI spend, this is essential reading before signing a contract or scaling a deployment.",
           "chips": [
-            "geo",
-            "genai",
-            "agentic"
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "The AI governance test most marketers are missing",
-          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
-          "plain": "When an AI marketing decision goes wrong, most teams don't know whether to fix the rule, the model, the implementation, or the authority behind it. This piece offers a <b>diagnostic framework for locating governance failures</b> in automated marketing systems. As agentic decisioning expands, knowing where accountability lives is becoming a core martech competency.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Scrunch's Kevin White: Being Cited in AI Answers Matters More Than Referral Traffic",
+          "url": "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/",
+          "plain": "Kevin White (now at Sitecore via Scrunch) argues that <b>ChatGPT referral clicks undercount AI-driven influence</b> — most AI citations never generate a trackable visit. He outlines what agent-ready pages and long-tail intent structuring actually look like in practice. For marketers still thinking about GEO as an SEO add-on, this reframes it as a fundamental content architecture problem.",
           "chips": [
-            "govern",
-            "agentic",
-            "decis"
+            "geo",
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -190,117 +182,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Move from <em>Reporting to Doing</em>",
-          "url": "https://martechseries.com/content/pepper-launches-agent-atlas-an-ai-agent-that-runs-organic-growth-work-not-just-reporting/",
+          "head": "AI agents need <em>identity &amp; governance rails</em> before they scale",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
           "body": [
-            "The defining product pattern of the past 30 days is AI that <b>executes work</b>, not merely surfaces insights. Pepper's Agent Atlas runs organic growth tasks end-to-end; Optimizely ships \"Virtual Teammates\" that hold role-specific responsibility; Archive's Archie actively vets influencer creators rather than listing them. The common thread is agency: these tools make decisions and take actions inside marketing workflows.",
-            "This shift changes the hiring &amp; tooling calculus. When an agent can own a function — SEO, creator vetting, CRM updates — the question is no longer \"which software helps my team\" but \"which agent do I supervise and how do I audit it.\" The governance gap this opens is real and largely unaddressed by vendors shipping the agents themselves."
+            "As AI agents proliferate across marketing stacks, they are acquiring permissions, accessing data, and acting autonomously — yet most enterprises have no framework for controlling what those agents can do or as whom they act. Descope's Cross-App Access launch and the Anthropic–Salesforce partnership both signal that identity management for non-human actors is becoming a first-class infrastructure problem.",
+            "Martech's own coverage flags a governance test most marketers are failing: knowing which agent touched which decision and why. <b>Without audit trails and scoped permissions, autonomous stacks carry hidden liability</b> that legal and security teams have not yet priced in — making governance the unsexy blocker on every AI roadmap."
           ],
           "ev": [
             [
-              "Pepper · Agent Atlas launch",
-              "https://martechseries.com/content/pepper-launches-agent-atlas-an-ai-agent-that-runs-organic-growth-work-not-just-reporting/"
+              "MarTech · loophole in autonomous stacks",
+              "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
             ],
             [
-              "Optimizely · Virtual Teammates",
-              "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/"
+              "MarTech · AI governance test",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ],
             [
-              "Archive · Archie creator vetting",
-              "https://agilebrandguide.com/archive-launches-archie-the-agent-that-vets-creators-not-just-finds-them/"
+              "MarTech Series · Descope XAA identity",
+              "https://martechseries.com/sales-marketing/id-mgmt/descope-unveils-cross-app-access-xaa-support-letting-enterprises-manage-ai-agent-access-with-their-existing-identity-providers/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Bad Data</em> Is the AI Stack's Weakest Link",
-          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "head": "<em>AI-native visibility</em>: being cited, not just ranked",
+          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
           "body": [
-            "Multiple independent pieces this month converge on the same uncomfortable fact: <b>AI amplifies data quality problems rather than hiding them</b>. Marketers already know their data is compromised — survey findings reported by MarTech show this is not a knowledge gap but a courage-and-priority gap. Tools like BizzContacts' disposable-email checker are symptomatic of an industry scrambling to clean inputs before AI systems make expensive mistakes at scale.",
-            "The practical decision this forces is sequencing: organisations that rush to deploy AI agents on top of dirty CRM and ad-attribution data will get fast, confident wrong answers. The safer path is treating data hygiene as a <b>prerequisite infrastructure investment</b>, not a follow-on cleanup task — a reordering that has budget and roadmap implications for 2027 planning now underway."
+            "Search engine optimization is giving way to a new discipline: making your brand legible to AI recommendation engines. Bazaarvoice's AI Visibility package and Scrunch's analysis of ChatGPT referral traffic both point to the same shift — <b>the retrieval logic of LLMs is now a distribution channel</b>, and brands must structure content so AI systems will cite them, not merely index them.",
+            "The stakes are higher than a ranking change. When an AI agent acts on behalf of a consumer — comparing products, booking services — a brand that is not in the model's trusted corpus simply does not exist at the moment of decision. Marketers need content &amp; UGC strategies built around machine readability, structured authority signals, and explicit factual claims."
           ],
           "ev": [
             [
-              "MarTech · Marketers know AI uses bad data",
-              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+              "MarTech · what it takes for AI to find your brand",
+              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
             ],
             [
-              "MarTech · AI making bad data harder to ignore",
-              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
+              "Agile Brand · cited not just found",
+              "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/"
             ],
             [
-              "MarTech · Better data starts with treating people like people",
-              "https://martech.org/better-data-starts-with-treating-people-like-people/"
+              "MarTech Series · Bazaarvoice AI Visibility",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/bazaarvoice-introduces-ai-visibility-package-to-prime-brand-content-and-ugc-for-ai-recommendation/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Brands Must Optimise for <em>AI Citation</em>, Not Just Search Rank",
-          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "head": "The <em>hidden cost of AI</em>: data tax, ROI distortion, bad inputs",
+          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
           "body": [
-            "A quiet but strategically urgent conversation is crystallising around what it means for a brand to be <b>found and trusted by AI systems</b> rather than by human searchers. Scrunch's marketing head explains that ChatGPT referral traffic is only a surface signal — the deeper issue is whether an AI agent will cite, recommend, or act on your brand when a consumer delegates a purchase decision. This is a new channel with new optimisation rules.",
-            "Unlike SEO, AI citation depends on structured authority signals, consistent factual presence across authoritative sources, and clear brand positioning that models can summarise confidently. Marketers who treat this as \"SEO with a new name\" will underinvest in the structural changes — schema, third-party validation, knowledge-graph presence — that actually move the needle with large language models acting as gatekeepers."
+            "Three separate threads converged this month on a single warning: the cost of running AI in marketing is systematically underestimated. The per-token 'data tax' (Domo's Ben Schein), distorted ROI calculations that ignore inference and integration overhead, and the compounding error rate when AI operates on dirty CRM data — all point to a <b>financial reckoning that CFOs will force in 2027 budget cycles</b>.",
+            "Marketers already know their data is bad; AI is simply making that fact undeniable at speed and scale. Purpose-built, cheaper models from Optimizely and Phonely's Alma (84% cheaper than OpenAI for voice) show one escape route — right-sizing models to tasks — but the deeper fix is data hygiene investment that most teams have deferred for years."
           ],
           "ev": [
             [
-              "MarTech · What it takes for AI to find &amp; act on your brand",
-              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
+              "MarTech · hidden costs distorting AI ROI",
+              "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
             ],
             [
-              "Agile Brand · Scrunch on being cited not just found",
-              "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/"
+              "Agile Brand · data tax per token",
+              "https://agilebrandguide.com/expert-mode-the-data-tax-youre-now-paying-per-token-with-ben-schein-from-domo/"
+            ],
+            [
+              "MarTech · AI using bad data",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Governance Loophole</em> in Autonomous MarTech",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "head": "Role-specific <em>AI coworkers</em> replace generic copilots",
+          "url": "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/",
           "body": [
-            "As AI agents gain the ability to spend budget, publish content, and contact customers without human approval steps, a <b>governance vacuum</b> is opening inside marketing tech stacks. MarTech's \"terrifying loophole\" piece and the AI governance test piece both argue that most organisations have not defined who is accountable when an autonomous system makes a harmful or off-brand decision — and most vendor contracts do not fill that gap.",
-            "Consumer sentiment is moving in parallel: Delight.ai's John Kim reports that users don't want smarter AI, they want an <b>undo button</b> — a signal that reversibility and human override need to be first-class product features, not afterthoughts. For marketers evaluating agentic platforms, governance policies and audit trails should be evaluated with the same rigour as feature lists."
+            "The generic 'ask AI anything' interface is being replaced by purpose-built agents with defined roles, permissions, and domain knowledge. Optimizely's Virtual Teammates give marketers role-specific AI coworkers; Archive's Archie agent vets influencer creators rather than just surfacing them; Yodeck's agent manages digital signage end-to-end. <b>Specificity is becoming the differentiator</b> — vendors are competing on how narrowly and expertly their agent understands one job.",
+            "This shift has real procurement implications. Buyers should stop evaluating AI features and start evaluating AI roles: what decisions does this agent own, what data does it need, and what human signs off. The Optimizely purpose-built model announcement reinforces that frontier-model quality is no longer the moat — workflow fit and cost efficiency are."
           ],
           "ev": [
             [
-              "MarTech · Terrifying loophole in autonomous tech stack",
-              "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
+              "Agile Brand · Optimizely Virtual Teammates",
+              "https://agilebrandguide.com/optimizely-introduces-virtual-teammatesgiving-marketers-role-specific-ai-coworkers/"
             ],
             [
-              "MarTech · AI governance test most marketers miss",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
+              "Agile Brand · Archive Archie creator-vetting agent",
+              "https://agilebrandguide.com/archive-launches-archie-the-agent-that-vets-creators-not-just-finds-them/"
             ],
             [
-              "Agile Brand · Consumers want Undo with Delight.ai",
-              "https://agilebrandguide.com/expert-mode-consumers-dont-want-smarter-ai-they-want-undo-with-john-kim-from-delight-ai/"
+              "MarTech Series · Yodeck AI agent signage",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yodeck-launches-ai-agent-for-digital-signage-management/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Platform Consolidation into <em>All-in-One AI Stacks</em>",
-          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
+          "head": "Cross-platform <em>connected AI workflows</em> dissolve channel silos",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/innovid-expands-nivo-with-meta-ads-mcp-integration-to-bring-connected-ai-workflows-to-social-advertising/",
           "body": [
-            "Two consolidation forces are compressing the MarTech stack simultaneously. From above, foundation-model partnerships — like Anthropic making Salesforce's own UI optional — signal that <b>AI layers are absorbing application layers</b>, potentially obsoleting point solutions that sit between the model and the data. From below, all-in-one platforms like Xelta.ai bundling image, video, voice, and text creation reflect the same gravitational pull toward fewer, broader tools.",
-            "For buyers, this creates a classic build-vs-consolidate decision under time pressure: locking into a broad platform now offers simplicity but risks vendor dependency if the underlying model relationships shift. The Salesforce-Anthropic dynamic in particular suggests that <b>CRM and AI model vendors will increasingly compete on whose interface disappears first</b>, with enterprise data ownership becoming the real battleground."
+            "Advertisers are demanding that AI orchestration span channels without requiring manual re-entry or separate dashboards. Innovid's NIVO expanding into Meta Ads via MCP integration, the Anthropic–Salesforce deal making the CRM interface optional, and Trifecta's Claude partnership for enterprise workflows all illustrate <b>a platform layer emerging above individual channel tools</b> — where AI reads signals from one channel and acts in another.",
+            "For marketers, the decision this forces is architectural: do you let each vendor build its own agentic layer, or do you invest in a neutral orchestration plane that preserves data fidelity across channels? The measurement corollary, covered in MarTech's ad-attribution piece, is that incrementality testing now has to account for AI actions that blur the line between touchpoint and conversion."
           ],
           "ev": [
+            [
+              "MarTech Series · Innovid NIVO Meta MCP",
+              "https://martechseries.com/sales-marketing/programmatic-buying/innovid-expands-nivo-with-meta-ads-mcp-integration-to-bring-connected-ai-workflows-to-social-advertising/"
+            ],
             [
               "MarTech · Anthropic makes Salesforce interface optional",
               "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/"
             ],
             [
-              "MarTech Series · Xelta.ai all-in-one AI platform",
-              "https://martechseries.com/content/xelta-ai-expands-as-all-in-one-ai-platform-for-image-video-voice-and-content-creation/"
-            ],
-            [
-              "MarTech · Latest AI-powered martech releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech · what ads really did",
+              "https://martech.org/the-only-way-to-know-what-your-ads-really-did/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, <em>AI is graduating from assistant to actor</em> — and the marketers who will lead in 2027 are the ones investing now in clean data, citation authority, and governance infrastructure before the agents are fully in charge."
+      "takeaway": "Every major move this month — cheaper models, role-specific agents, AI-native SEO, governance tooling, cross-channel orchestration — is a response to the same underlying pressure: <em>AI is now making consequential marketing decisions faster than human oversight, cost controls, or data quality can keep up</em>."
     }
   }
 }
