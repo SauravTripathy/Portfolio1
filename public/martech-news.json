@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:44:12.639164+00:00",
+  "generatedAt": "2026-09-02T17:13:58.971239+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,63 +45,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Optimizely Launches Purpose-Built Post-Trained AI Models for Marketing",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/optimizely-introduces-purpose-built-ai-models-for-marketing-that-deliver-frontier-level-quality-at-a-fraction-of-the-cost/",
-          "plain": "Optimizely is releasing a family of <b>post-trained AI models built specifically for marketing tasks</b>, claiming 10x better performance than generic LLMs at a fraction of the cost. This matters because it signals a shift away from one-size-fits-all foundation models toward cheaper, task-specific models — changing how marketing AI is bought and built.",
+          "head": "OpenAI projects $100B in ad revenue by 2030 as it makes ChatGPT ads easier to buy",
+          "url": "https://martech.org/openais-audacious-claim-about-ad-revenue/",
+          "plain": "OpenAI is opening ChatGPT to paid advertising and claiming it will generate <b>$100 billion in ad revenue by 2030</b>. That would rival Google's current ad business. The piece questions whether advertisers will actually follow. For marketers, this signals a serious new channel — and a potential shift in where budgets flow away from traditional search.",
           "chips": [
+            "geo",
             "genai",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech · via MarTech",
-          "fresh": false,
-          "head": "The Hidden Costs Distorting Your AI ROI",
-          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
-          "plain": "Integration, oversight, data preparation, and displaced work can quietly shrink impressive AI productivity gains into modest financial returns. This piece matters because it gives buyers and managers a framework to honestly assess <b>what AI actually costs to operate</b>, beyond the headline efficiency numbers vendors promote.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "SEOPulse launches enterprise platform to track brand visibility inside AI answer engines",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seopulse-launches-enterprise-ai-visibility-platform-as-traditional-search-rankings-lose-50-traffic-to-answer-engines/",
+          "plain": "A new benchmark study finds <b>traditional search has lost roughly half its traffic to AI answer engines</b>, and AI models agree on top brands in fewer than 1.5% of queries. SEOPulse now offers real-user session tracking across ChatGPT, Perplexity, and Gemini. This is a concrete product built around GEO — exactly the measurement gap marketers need to close.",
           "chips": [
-            "govern",
+            "geo",
             "genai"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "The Data Tax You're Now Paying Per Token — Domo's Ben Schein on AI Spend",
-          "url": "https://agilebrandguide.com/expert-mode-the-data-tax-youre-now-paying-per-token-with-ben-schein-from-domo/",
-          "plain": "Domo's Chief AI Officer argues that <b>messy data doesn't just slow AI — it bills you for the cleanup every single inference run</b>. As token-based pricing becomes standard, poor data hygiene turns into a recurring, metered cost. Essential reading for anyone budgeting or governing a marketing AI stack.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Qlik brings governed analytics context to AI agents via AWS and Databricks Marketplace",
+          "url": "https://martechseries.com/analytics/data-management-platforms/qlik-expands-mcp-availability-across-aws-and-databricks-marketplace-bringing-trusted-business-context-to-agents/",
+          "plain": "Qlik's MCP server — which feeds <b>governed, transformation-ready data into AI agents</b> — is now available directly in AWS and Databricks marketplaces. This lowers the barrier for enterprise teams to wire trusted business context into agentic workflows without bespoke integration work, making reliable data-driven AI decisions easier to deploy at scale.",
           "chips": [
+            "agentic",
+            "govern",
             "cdp",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Meta's Muse Image — an Agentic Image Model — Now Available via fal",
-          "url": "https://martechseries.com/technology/muse-image-the-agentic-image-model-from-meta-is-now-available-on-fal/",
-          "plain": "Meta's Muse Image doesn't just generate pictures from a prompt — it <b>plans the request, calls tools, and self-corrects before rendering</b>, placing top-5 on benchmark leaderboards across text-to-image and editing tasks. Its availability via fal's API brings agentic creative capabilities to developers and enterprise marketers today.",
+          "head": "Alchemer Iris launches as AI-native platform that turns customer feedback into automated action",
+          "url": "https://martechseries.com/mts-insights/alchemer-launches-iris-an-ai-native-customer-experience-platform-built-for-action/",
+          "plain": "Alchemer Iris unifies surveys, reviews, and reputation signals into one AI layer that <b>guides next actions and routes work between systems automatically</b>. Rather than just surfacing insights, it closes the loop by pushing tasks to the right teams. This shifts feedback tools from reporting to agentic decisioning, which matters for how CX budgets get justified.",
           "chips": [
             "agentic",
-            "genai"
+            "decis",
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "KNOREX Adds Conversational AI and MCP Integration to Cross-Channel Ad Platform",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/knorex-expands-ai-driven-advertising-suite-with-the-launch-of-kai-assist-and-xpo-mcp-server-integration/",
-          "plain": "KNOREX's new KAI Assist lets marketers manage and optimize cross-channel campaigns using <b>natural language through a Model Context Protocol server</b>, removing the need for specialist UI navigation. MCP as a standard for ad-platform control is an emerging pattern that could reshape how marketing AI tools are integrated and governed.",
+          "head": "Adobe integrates 70+ creative tools into Slack via MCP, enabling in-channel content generation",
+          "url": "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/",
+          "plain": "Adobe's new Slack MCP app lets marketing teams <b>generate and edit content without leaving their collaboration workspace</b>, using campaign context already present in Slack threads. This is a concrete example of the Model Context Protocol moving from developer experiment to everyday creative workflow, with implications for how martech stacks get assembled going forward.",
           "chips": [
+            "genai",
             "agentic",
-            "decis",
-            "cep"
+            "govern"
           ]
         }
       ]
@@ -111,42 +116,40 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Anthropic partnership makes Salesforce's interface optional via Claude",
-          "url": "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/",
-          "plain": "The Claudeforce integration lets Claude access Salesforce data and trigger workflows directly, making the familiar Salesforce UI optional. This matters because it signals a broader shift where <b>AI becomes the primary interface to enterprise software</b>, changing how marketers interact with CRMs and potentially reshaping what a customer engagement platform even looks like.",
+          "fresh": true,
+          "head": "OpenAI's $100 Billion Ad Revenue Projection for ChatGPT by 2030",
+          "url": "https://martech.org/openais-audacious-claim-about-ad-revenue/",
+          "plain": "OpenAI is building out a ChatGPT ad business and projecting $100 billion in ad revenue by 2030. This matters because <b>AI answer engines replacing search</b> would fundamentally shift where marketing budgets go — and whether brands can even buy visibility inside AI-generated answers. The gap between the claim and current evidence is enormous.",
           "chips": [
-            "agentic",
-            "cep",
-            "govern",
-            "cdp"
+            "geo",
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Marketers know AI is using bad data to make decisions",
-          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
-          "plain": "A study finds marketers are handing AI more decision-making authority even while acknowledging their <b>CRM data is too dirty to trust</b>. Bad inputs corrupt revenue measurement, reporting, and every automated choice downstream. This is a foundational warning: AI capability without data quality is a liability, not an asset.",
+          "fresh": true,
+          "head": "AI Agents in Your Tech Stack Are Leaking Proprietary and Customer Data",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "plain": "When AI agents pass data between systems to run campaigns autonomously, each handoff is a potential leak of proprietary strategy or customer PII. This piece explains the specific vulnerabilities and <b>what governance controls are missing</b> in most autonomous marketing stacks — critical reading for anyone building or buying agentic tools.",
           "chips": [
-            "cdp",
+            "agentic",
             "govern",
-            "decis",
-            "agentic"
+            "cdp"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": false,
-          "head": "The terrifying loophole in your autonomous tech stack",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
-          "plain": "As AI agents pass data between tools to run campaigns autonomously, they create <b>uncontrolled pathways for proprietary and personal data to leak</b>. The piece explains specific failure modes and how to close them. Anyone building or buying agentic marketing systems needs to understand these risks before something goes wrong at scale.",
+          "fresh": true,
+          "head": "Marketers Are Giving AI More Authority While Knowing the Underlying Data Is Bad",
+          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "plain": "A study finds marketers are expanding AI decision-making power even while acknowledging their CRM data is unreliable. <b>Bad input data means AI decisions and revenue attribution are systematically wrong</b> — yet the automation keeps spreading. This is a governance and CDP quality problem that affects every downstream AI use case.",
           "chips": [
-            "agentic",
+            "cdp",
             "govern",
-            "cep",
+            "agentic",
             "decis"
           ]
         },
@@ -154,28 +157,25 @@
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Optimizely launches purpose-built, post-trained AI models for marketing work",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/optimizely-introduces-purpose-built-ai-models-for-marketing-that-deliver-frontier-level-quality-at-a-fraction-of-the-cost/",
-          "plain": "Rather than routing every task through a generic large language model, Optimizely is shipping <b>smaller models fine-tuned specifically for marketing tasks</b>, claiming 10x better results at a fraction of the cost. This changes the build-vs-buy calculus for marketing AI and pushes the industry toward task-specific models over one-size-fits-all LLMs.",
+          "head": "SEOPulse Launches Enterprise Platform to Track Brand Visibility Inside AI Answer Engines",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seopulse-launches-enterprise-ai-visibility-platform-as-traditional-search-rankings-lose-50-traffic-to-answer-engines/",
+          "plain": "A new benchmark study reports traditional search has lost 50% of traffic to AI answer engines like ChatGPT and Perplexity, and AI models agree on top brands in fewer than 1.5% of queries. SEOPulse launches real-user session tracking across these engines. <b>GEO is becoming a measurable, manageable discipline</b> — not just a theory.",
           "chips": [
-            "genai",
-            "perso",
-            "govern",
-            "cep"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "The AI governance test most marketers are missing",
-          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
-          "plain": "When an AI marketing decision goes wrong, the root cause could be the rule, the control layer, the implementation, or who holds authority over it. This piece gives marketers a <b>practical diagnostic framework</b> for figuring out which layer failed — essential knowledge as automated decisioning moves deeper into campaign execution.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Optimizely Releases Purpose-Built Marketing AI Models at a Fraction of Generic LLM Cost",
+          "url": "https://agilebrandguide.com/optimizely-introduces-purpose-built-ai-models-for-marketing-thatdeliver-frontier-level-quality-at-a-fraction-of-the-cost/",
+          "plain": "Optimizely claims its new family of post-trained, task-specific AI models matches frontier-LLM quality for marketing tasks at roughly one-tenth the cost. This shifts the <b>build-vs-buy calculus for marketing AI</b> — purpose-built small models may outperform and underprice general-purpose giants for specific content and decisioning jobs.",
           "chips": [
-            "govern",
-            "agentic",
-            "decis",
-            "cep"
+            "genai",
+            "perso",
+            "decis"
           ]
         }
       ]
@@ -185,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI's <em>dirty data problem</em> is now undeniable",
-          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "head": "Search Is Dying; <em>Answer Engines Rule</em> Now",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seopulse-launches-enterprise-ai-visibility-platform-as-traditional-search-rankings-lose-50-traffic-to-answer-engines/",
           "body": [
-            "Multiple reports this month converge on a single uncomfortable truth: <b>marketers already know their AI is running on flawed data</b>, yet most haven't fixed it. The amplification effect of AI means that errors that were once hidden in spreadsheets now propagate instantly into campaign decisions, personalization logic, and spend allocation.",
-            "The 'data tax per token' framing — every inference call costs you the quality of whatever you fed in — is pushing the conversation from data hygiene as IT housekeeping to <b>data quality as a direct line-item on the AI budget</b>. Executives who ignored CRM cleanliness before can no longer afford to."
+            "Traditional search rankings have lost roughly <b>50% of their traffic to AI answer engines</b> in the past year, forcing an entirely new discipline — AI visibility optimization — to emerge almost overnight. Brands that relied on blue-link SEO now find their content bypassed entirely unless AI systems can find, trust, and cite them.",
+            "The decision that changes is where you invest content &amp; measurement effort. Optimizing for click-through rates is secondary to being the source an LLM quotes. Platforms like SEOPulse and guidance on what it takes for AI to act on your brand signal that AIO (AI Optimization) is becoming a mandatory budget line."
           ],
           "ev": [
             [
-              "MarTech · Marketers &amp; bad data",
-              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+              "SEOPulse · AI visibility launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seopulse-launches-enterprise-ai-visibility-platform-as-traditional-search-rankings-lose-50-traffic-to-answer-engines/"
             ],
             [
-              "MarTech · AI making bad data visible",
-              "https://martech.org/ai-is-making-bad-marketing-data-harder-to-ignore/"
+              "MarTech · AI find &amp; trust your brand",
+              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
             ],
             [
-              "Agile Brand · Data tax per token",
-              "https://agilebrandguide.com/expert-mode-the-data-tax-youre-now-paying-per-token-with-ben-schein-from-domo/"
+              "OpenAI · audacious ad revenue claim",
+              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic stacks</em> expose governance gaps",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "head": "<em>Agentic AI</em> Moves Into Production Workflows",
+          "url": "https://martechseries.com/sales-marketing/marketing-automation/celigo-ora-redefines-how-enterprises-apply-ai-and-automation/",
           "body": [
-            "As autonomous agents get wired into ad buying, email dispatch, and CRM updates, a structural blind spot is emerging: <b>no one owns the approval layer between agent action and real-world consequence</b>. The MarTech piece on the 'terrifying loophole' argues that most stacks have permission controls designed for humans clicking buttons, not for software acting at machine speed.",
-            "The Salesforce–Anthropic tie-up — where Claude can now operate Salesforce workflows without the traditional UI — is a live example of the shift. <b>Governance frameworks written for SaaS dashboards simply don't translate to agent-native environments</b>, and the month's coverage suggests most marketing orgs haven't started rewriting them."
+            "The month's product launches — Celigo Ora, Omilia's self-learning agentic CX, Alchemer Iris, and Qlik's MCP expansion — share a single pattern: <b>AI is no longer advising humans, it is completing tasks end-to-end</b>. These agents pull live business context, decide on actions, and execute across systems without a human in the loop for each step.",
+            "This shifts the governance question from 'what does the AI recommend?' to 'what is the AI allowed to do?' The MarTech piece on the terrifying loophole in autonomous stacks underlines that most organizations have not yet answered that question before deployment, creating real operational and legal exposure."
           ],
           "ev": [
             [
-              "MarTech · Autonomous stack loophole",
+              "Celigo Ora · enterprise agentic automation",
+              "https://martechseries.com/sales-marketing/marketing-automation/celigo-ora-redefines-how-enterprises-apply-ai-and-automation/"
+            ],
+            [
+              "Omilia · self-learning agentic CX",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omilia-partners-with-telarus-to-bring-self-learning-agentic-cx-to-enterprise-clients-across-the-u-s-and-u-k/"
+            ],
+            [
+              "MarTech · autonomous stack loophole",
               "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
-            ],
-            [
-              "MarTech · AI governance test",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
-            ],
-            [
-              "MarTech · Anthropic makes Salesforce UI optional",
-              "https://martech.org/anthropic-partnership-makes-salesforces-interface-optional/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "The real <em>AI ROI calculus</em> is messier than vendors admit",
+          "head": "The <em>Real Cost of AI</em> Is Data, Not Compute",
           "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
           "body": [
-            "Vendor announcements this month — Optimizely's 'frontier-level quality at a fraction of the cost,' OroCommerce's speed reset, KNOREX's KAI Assist — all lead with cost reduction. But parallel editorial coverage is cataloguing the <b>hidden costs that offset those savings</b>: token fees on dirty data, governance overhead, integration debt, and the measurement gap that makes it hard to prove what AI-driven ads actually caused.",
-            "<b>The measurement problem is especially acute</b>: MarTech's piece on knowing 'what your ads really did' argues that standard attribution can't isolate AI-specific lift, meaning marketers may be crediting AI for gains that would have happened anyway — or missing genuine wins buried in noise."
+            "Multiple pieces this month converge on an uncomfortable truth: <b>AI ROI calculations are badly distorted</b> because teams are not counting data preparation, token-level data taxes, and the ongoing cost of feeding clean context to models. Domo's Ben Schein frames it as a 'data tax per token' — every prompt costs something, and most budgets ignore it.",
+            "Compounding this, a MarTech survey found that <b>marketers already know their AI is running on bad data</b> yet are proceeding anyway. The decision that changes here is the sequencing: data quality &amp; governance investment must come before — not after — AI deployment, or every ROI projection is fiction."
           ],
           "ev": [
             [
-              "MarTech · Hidden AI ROI costs",
+              "MarTech · hidden AI ROI costs",
               "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
             ],
             [
-              "MarTech · What ads really did",
-              "https://martech.org/the-only-way-to-know-what-your-ads-really-did/"
+              "Agile Brand · data tax per token",
+              "https://agilebrandguide.com/expert-mode-the-data-tax-youre-now-paying-per-token-with-ben-schein-from-domo/"
             ],
             [
-              "MarTech · AI performance shake-up",
-              "https://martech.org/the-ai-performance-shake-up-whats-really-driving-results-across-channels-now/"
+              "MarTech · AI using bad data",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Brands must be <em>AI-legible</em> to survive discovery",
-          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "head": "<em>MCP Becomes the Connective Tissue</em> of the Stack",
+          "url": "https://martechseries.com/analytics/data-management-platforms/qlik-expands-mcp-availability-across-aws-and-databricks-marketplace-bringing-trusted-business-context-to-agents/",
           "body": [
-            "SEO optimized for Google is no longer sufficient. Pieces from Scrunch's head of marketing and MarTech's editorial both argue that <b>AI agents — not humans — are increasingly the first audience for your brand content</b>, and they apply different trust signals than search crawlers do. Being 'cited, not just found' in ChatGPT and similar systems is the new distribution problem.",
-            "This reframes brand investment: structured data, authoritative sourcing, and consistent factual signals matter more than keyword density. <b>Canva's CMO framing of brand as 'infrastructure' rather than policing</b> fits here too — brand coherence becomes the machine-readable layer that lets AI agents confidently recommend or act on your behalf."
+            "The Model Context Protocol is fast becoming the default plumbing layer between AI agents and enterprise tools. Adobe plugged 70+ Creative &amp; Document tools into Slack via MCP; Qlik extended MCP across AWS &amp; Databricks so agents can pull trusted business context on demand. <b>MCP is being treated as infrastructure, not a feature.</b>",
+            "For MarTech buyers this means vendor evaluation now includes an 'MCP-ready?' checkbox alongside API availability. Teams that standardize on MCP-compatible tools early will be able to swap or stack AI agents without re-integration work — a meaningful long-term cost and agility advantage."
           ],
           "ev": [
             [
-              "MarTech · What it takes for AI to trust your brand",
-              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
+              "Adobe · 70+ tools into Slack via MCP",
+              "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/"
             ],
             [
-              "Agile Brand · Cited not just found",
-              "https://agilebrandguide.com/scrunchs-head-of-marketing-kevin-white-on-being-cited-not-just-found/"
+              "Qlik · MCP on AWS &amp; Databricks",
+              "https://martechseries.com/analytics/data-management-platforms/qlik-expands-mcp-availability-across-aws-and-databricks-marketplace-bringing-trusted-business-context-to-agents/"
             ],
             [
-              "Agile Brand · Brand as infrastructure",
-              "https://agilebrandguide.com/canva-cmo-of-b2b-meghan-gendelman-on-keeping-your-brand-strong-at-scale/"
+              "MarTech · latest AI-powered martech releases",
+              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>Purpose-built vertical AI</em> beats general models on cost",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/optimizely-introduces-purpose-built-ai-models-for-marketing-that-deliver-frontier-level-quality-at-a-fraction-of-the-cost/",
+          "head": "Measurement Is Broken and <em>Marketers Are the Problem</em>",
+          "url": "https://martech.org/marketers-are-media-measurements-biggest-problem/",
           "body": [
-            "The dominant vendor story this month is <b>specialization beating generalization on price-performance</b>. Optimizely's purpose-built marketing models, Comcast's vertical video AI for broadcasters, and KNOREX's MCP-integrated ad suite all position themselves against frontier general models by arguing that domain-specific training yields better outputs for less compute spend.",
-            "For buyers, this creates a genuine procurement decision: <b>consolidate on a powerful general model or assemble a stack of cheaper specialists?</b> The MCP (Model Context Protocol) integrations appearing across vendors — Fast Video Cataloger, KNOREX — hint at an emerging answer: specialist models connected by a common interoperability layer, rather than one model doing everything."
+            "Two sharp MarTech pieces this month make the case that <b>measurement failure is a behavior problem, not a tool problem</b>. Marketers choose metrics that validate spend rather than ones that reveal truth, and the proliferation of AI-generated signals has made it easier than ever to cherry-pick a favorable number. The only reliable signal left, per one piece, is what ads actually caused — incremental lift measured through controlled experiments.",
+            "This matters because every AI optimization loop — bidding, personalization, content — is only as good as the feedback signal it trains on. If measurement is corrupted by confirmation bias &amp; vanity metrics, AI amplifies those errors at scale rather than correcting them. Fixing governance around measurement is therefore a prerequisite for trustworthy AI marketing."
           ],
           "ev": [
             [
-              "MarTech Series · Optimizely purpose-built AI",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/optimizely-introduces-purpose-built-ai-models-for-marketing-that-deliver-frontier-level-quality-at-a-fraction-of-the-cost/"
+              "MarTech · marketers are measurement's biggest problem",
+              "https://martech.org/marketers-are-media-measurements-biggest-problem/"
             ],
             [
-              "MarTech Series · KNOREX KAI &amp; MCP",
-              "https://martechseries.com/sales-marketing/programmatic-buying/knorex-expands-ai-driven-advertising-suite-with-the-launch-of-kai-assist-and-xpo-mcp-server-integration/"
+              "MarTech · the only way to know what ads really did",
+              "https://martech.org/the-only-way-to-know-what-your-ads-really-did/"
             ],
             [
-              "MarTech Series · Comcast video AI",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/comcast-technology-solutions-unveils-next-gen-video-ai-applications-for-broadcasters-content-and-streaming-providers-and-operators/"
+              "MarTech · AI governance test marketers are missing",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the same pressure appears: <em>AI amplifies whatever quality of data, governance, and brand signal you give it</em> — meaning the foundational work marketers deferred for years has become the urgent work of right now."
+      "takeaway": "Every major move this month — agentic automation, MCP plumbing, AI answer engines, token-cost accounting — ultimately stalls unless marketers first fix the unglamorous foundation: <em>clean data, honest measurement, and governance that precedes deployment rather than chasing it</em>."
     }
   }
 }
