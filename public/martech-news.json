@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T09:56:54.776065+00:00",
+  "generatedAt": "2026-09-03T17:06:15.081202+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,37 +45,35 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "OpenAI projects $100 billion in ad revenue by 2030 as it makes ChatGPT ads easier to buy",
-          "url": "https://martech.org/openais-audacious-claim-about-ad-revenue/",
-          "plain": "OpenAI says ChatGPT could pull in $100 billion in ad revenue by 2030 and is actively making ad buying easier. If even a fraction of that shifts budgets away from Google and Meta, it <b>reshapes where marketers spend</b> and forces a rethink of <b>GEO strategy</b> — being visible inside AI-generated answers, not just search results.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "EU officially classifies ChatGPT as a Very Large Online Search Engine, reshaping GEO obligations for brands",
+          "url": "https://martechseries.com/content/ai-seo-and-geo-tools-what-brands-need-as-the-eu-officially-classifies-chatgpt-as-a-search-engine/",
+          "plain": "The European Commission has placed ChatGPT in the same regulatory category as Google and Bing, meaning <b>brands must now treat AI answer visibility as a compliance issue</b>, not just a traffic tactic. This changes how marketers budget for GEO tools and forces accountability for what AI engines say about their products across borders.",
           "chips": [
             "geo",
-            "genai",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Adobe brings 70+ creative and document tools into Slack via new MCP app",
-          "url": "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/",
-          "plain": "Adobe's new MCP-based Slack app lets marketing teams generate and edit content without leaving their collaboration workspace. By pulling in project context already captured in Slack, it makes <b>AI content generation ambient inside daily workflows</b> — a meaningful shift in how creative tools are bought and integrated, not just a logo partnership.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Treyci data: same brand recommended in 81% of one AI engine's answers, just 43% of another's",
+          "url": "https://martechseries.com/analytics/b2b-data/new-measurement-data-ai-engines-disagree-by-2x-on-which-brands-to-recommend-treyci-analysis-finds/",
+          "plain": "Analysis of 1,200-plus AI answers finds a <b>2× gap in brand recommendation rates across AI engines</b> for identical buying queries in the same month. Companies spot-checking only ChatGPT are blind to this variance. The finding forces marketers to measure GEO performance across multiple engines, not just the obvious one.",
           "chips": [
-            "genai",
-            "agentic",
-            "cep"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Agentic systems are the next frontier for content operations, says Orange Logic SVP",
-          "url": "https://martech.org/whats-next-in-content-operations-agents-what-else/",
-          "plain": "Orange Logic's Misti Vogt argues that legacy digital asset management is breaking under modern content volume and that <b>agentic AI systems</b> — ones that decide, route, and act on assets automatically — are the only credible fix. This reframes how DAM and content ops platforms will be evaluated and purchased going forward.",
+          "fresh": true,
+          "head": "Adobe acquires Rilo to add AI workflow orchestration to its enterprise marketing platform",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "Adobe is buying Rilo, whose technology automates the coordination work around marketing campaigns — briefing, approvals, handoffs. This is a <b>structural bet that agentic orchestration becomes a core part of the marketing stack</b>, not a bolt-on, and signals where enterprise MarTech investment is heading in the next buying cycle.",
           "chips": [
             "agentic",
             "genai",
@@ -84,29 +82,27 @@
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Kana's Jessica Vose: marketing's AI coordination layer risks becoming just another stack tool",
-          "url": "https://agilebrandguide.com/expert-mode-at-ai4-the-sixteenth-tool-in-a-fifteen-tool-stack-with-jessica-vose-from-kana/",
-          "plain": "A sharp Ai4 conference analysis warns that AI orchestration platforms are repeating the CDP pattern — promising to unify everything, then becoming <b>one more disconnected layer</b>. For anyone evaluating agentic decisioning vendors, this is a clear-eyed framework for spotting hype versus genuine coordination capability.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "GEO is now a weekly discipline: PR, SEO, and content teams need a shared real-time view",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
+          "plain": "AI answer rankings shift fast enough that monthly audits miss damaging changes. MarTech argues that <b>PR, SEO, and content must share a single live dashboard</b> tracking what buyers ask, which sources get cited, and what moved week-over-week. This redefines team structures and tool budgets inside marketing organizations.",
           "chips": [
-            "agentic",
-            "decis",
-            "cdp",
-            "cep"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "AI didn't shrink marketing teams — it exposed over-built org structures",
-          "url": "https://martechseries.com/mts-insights/guest-authors/ai-didnt-shrink-marketing-teams-it-exposed-the-empires/",
-          "plain": "This opinion piece argues that AI is revealing how marketing headcount was built around power rather than output, and that <b>AI-native workflows are now the forcing function</b> for restructuring teams and budgets. Relevant for anyone advising on how to govern or justify AI tooling investments inside large marketing organizations.",
+          "head": "ByteBrew closes the agentic loop: mobile app live ops now run natively inside an AI agent via MCP",
+          "url": "https://martechseries.com/mobile/bytebrew-brings-live-operations-into-app-developers-ai-workflows-closing-the-agentic-loop-from-insight-to-action/",
+          "plain": "ByteBrew's Shift AI agent can now detect friction in a mobile app, decide on a fix, and <b>ship personalized live-ops updates worldwide without leaving the chat interface</b>, using a Model Context Protocol server. This is a concrete example of agentic decisioning moving from demo to production infrastructure in mobile marketing.",
           "chips": [
-            "genai",
             "agentic",
-            "govern"
+            "decis",
+            "perso"
           ]
         }
       ]
@@ -115,66 +111,65 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The terrifying loophole in your autonomous tech stack",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
-          "plain": "AI agents passing data between tools in automated campaign stacks create <b>privacy and proprietary data leakage risks</b> that most governance frameworks haven't caught up with. As agentic systems take on more campaign decisions, this is a concrete, practical vulnerability buyers and builders need to understand and close before it becomes a compliance crisis.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "AI Engines Disagree by 2× on Which Brands to Recommend, Treyci Data Shows",
+          "url": "https://martechseries.com/analytics/b2b-data/new-measurement-data-ai-engines-disagree-by-2x-on-which-brands-to-recommend-treyci-analysis-finds/",
+          "plain": "Treyci scored 1,200+ AI answers and found the same brand appeared in 81% of one engine's answers but only 43% of another's — for identical buying questions. This is concrete proof that <b>GEO strategies must cover multiple AI engines</b>, not just ChatGPT spot-checks, fundamentally changing how brands budget and measure AI visibility.",
           "chips": [
-            "agentic",
-            "govern",
-            "decis"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "OpenAI's audacious $100 billion ad revenue claim for 2030",
-          "url": "https://martech.org/openais-audacious-claim-about-ad-revenue/",
-          "plain": "OpenAI is making <b>ChatGPT ad inventory easier to buy</b> and projecting $100 billion in ad revenue by 2030. That reshapes how marketers think about budgets and where audiences go. It also raises urgent questions about what advertising inside a generative AI answer even looks like and whether it will perform.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "EU Officially Classifies ChatGPT as a Search Engine, Triggering New GEO Obligations for Brands",
+          "url": "https://martechseries.com/content/ai-seo-and-geo-tools-what-brands-need-as-the-eu-officially-classifies-chatgpt-as-a-search-engine/",
+          "plain": "The European Commission has designated ChatGPT a Very Large Online Search Engine, placing it under the same regulatory framework as Google and Bing. This is a <b>governance milestone that forces brands to treat AI answer visibility as a regulated channel</b>, reshaping how marketing and legal teams approach GEO tooling and compliance.",
           "chips": [
-            "genai",
-            "geo"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Marketers know AI is using bad data to make decisions",
-          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
-          "plain": "A study finds marketers are handing more authority to AI systems while simultaneously knowing their <b>CRM data is too dirty to trust</b>. This matters because bad input data doesn't just skew reports — it corrupts every AI-driven decision downstream, from audience selection to budget allocation.",
+          "fresh": true,
+          "head": "Adobe Acquires Rilo to Add AI Workflow Orchestration to Enterprise Marketing Stack",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "Adobe bought Rilo, an AI workflow orchestration startup, to automate the coordination work around enterprise marketing campaigns. This signals that <b>agentic orchestration — not just content generation — is now a core buying criterion</b> for enterprise martech suites, raising the competitive bar for platforms like Salesforce and HubSpot.",
           "chips": [
-            "cdp",
+            "agentic",
+            "genai",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "The Loophole in Autonomous Tech Stacks: How AI Agents Leak Proprietary and Private Data",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "plain": "When AI agents hand data to each other to run campaigns, every handoff is a potential privacy or IP leak. The piece maps the specific failure points and <b>practical controls teams need before granting agents more autonomy</b>. Essential reading for anyone expanding agentic systems into live campaign operations.",
+          "chips": [
+            "agentic",
             "govern",
             "decis"
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The hidden costs distorting your AI ROI",
-          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
-          "plain": "Integration work, human oversight, data prep, and displaced labour costs quietly eat into the productivity gains AI promises. This piece gives buyers a framework to <b>calculate true AI ROI</b> rather than accepting vendor headline numbers — critical for anyone deciding whether and how much to invest in marketing AI tools.",
-          "chips": [
-            "govern",
-            "genai",
-            "agentic"
-          ]
-        },
-        {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Adobe brings 70+ creative and document tools into Slack via new MCP app",
-          "url": "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/",
-          "plain": "Adobe's new MCP-based Slack integration lets marketing teams <b>generate and edit content without leaving their collaboration workspace</b>, using campaign context already captured in Slack threads. It's a meaningful workflow shift — moving generative AI creation into the channel where decisions happen rather than requiring a separate tool switch.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Rapid AI Changes Mean GEO Is Now a Weekly Discipline, Not a One-Time Audit",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
+          "plain": "AI answer sets shift fast enough that a monthly GEO review is already stale. This piece argues PR, SEO, and content teams need a <b>shared weekly tracking cadence</b> — monitoring which questions buyers ask, which sources get cited, and what moved. It redefines GEO as an operational workflow, not a campaign add-on.",
           "chips": [
-            "genai",
-            "agentic",
-            "cep"
+            "geo",
+            "govern"
           ]
         }
       ]
@@ -184,121 +179,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting Content Ops</em> From the Ground Up",
-          "url": "https://martech.org/whats-next-in-content-operations-agents-what-else/",
+          "head": "GEO Is Now a <em>Weekly Operational Discipline</em>",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
           "body": [
-            "Autonomous agents are no longer a speculative add-on; they are becoming the default engine for content planning, production, and distribution. Adobe's integration of 70+ tools into Slack via MCP and purpose-built platforms like RankYak signal that the workflow itself is being redesigned around agent orchestration, not human handoffs.",
-            "The practical consequence is a shift in where marketers spend creative energy: from producing assets to <b>governing the systems that produce them</b>. Teams that treat agents as a sixteenth tool bolted onto an existing stack will fall behind those that rebuild operations around agent-native pipelines."
+            "The EU's formal classification of ChatGPT as a search engine, combined with Treyci data showing AI engines disagree by <b>2× on brand recommendations</b>, has collapsed the old quarterly SEO review cycle. Generative Engine Optimisation is no longer a campaign add-on — it is continuous infrastructure maintenance, requiring weekly audits of how AI surfaces your brand.",
+            "Getting AI to <b>find, trust, and act on your brand</b> now depends on structured data quality, authoritative sourcing, and real-time content signals — exactly the assets most marketing teams have never treated as urgent. The practical upshot: GEO ownership must be assigned, budgeted, and staffed like a live channel rather than a project."
           ],
           "ev": [
             [
-              "MarTech · Content ops &amp; agents",
-              "https://martech.org/whats-next-in-content-operations-agents-what-else/"
+              "MarTech · GEO is weekly now",
+              "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/"
             ],
             [
-              "Agile Brand · Adobe MCP in Slack",
-              "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/"
+              "MarTech Series · EU classifies ChatGPT as search engine",
+              "https://martechseries.com/content/ai-seo-and-geo-tools-what-brands-need-as-the-eu-officially-classifies-chatgpt-as-a-search-engine/"
             ],
             [
-              "MarTech · AI content system",
-              "https://martech.org/how-to-build-an-ai-content-system-that-works/"
+              "MarTech Series · AI engines disagree 2×",
+              "https://martechseries.com/analytics/b2b-data/new-measurement-data-ai-engines-disagree-by-2x-on-which-brands-to-recommend-treyci-analysis-finds/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Bad Data, Hidden Costs</em>: AI's Accountability Reckoning",
-          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
+          "head": "AI Agents Are <em>Running the Business</em>, Not Just Answering It",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-assistants-used-to-answer-questions-now-they-want-to-run-the-business/",
           "body": [
-            "A cluster of pieces this month converges on a single uncomfortable truth: AI-powered decisioning is only as trustworthy as the data feeding it, and most marketing data is not trustworthy. Surveys confirm marketers already know AI is ingesting bad data; what is new is the growing acknowledgment that the hidden infrastructure costs — compute, cleaning, governance — are quietly destroying the ROI case.",
-            "<b>The autonomous tech stack compounds the risk</b>: when agents act on flawed inputs without human review, errors propagate faster than any team can catch them. The emerging response is a formal AI governance layer — audits, data contracts, and accountability owners — that most marketing organisations have yet to build."
+            "The shift from AI as a Q&amp;A layer to AI as an autonomous operator is accelerating simultaneously across enterprise (PwC–Palantir, Tech Mahindra–AWS Agentic CoE), developer tooling (ByteBrew closing the insight-to-action loop), and content operations (agents replacing editorial workflows). <b>Multiple major platforms announced agentic infrastructure in a single week</b>, signalling this is now a mainstream architectural bet, not an experiment.",
+            "The governance risk is real and underreported: one piece flagged a <b>terrifying loophole in autonomous tech stacks</b> where agents can act outside any human approval gate. Marketers who adopt agentic tools without explicit permission structures are effectively giving AI a blank cheque against brand and budget."
           ],
           "ev": [
             [
-              "MarTech · Bad data in AI decisions",
-              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+              "MarTech Series · AI wants to run the business",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-assistants-used-to-answer-questions-now-they-want-to-run-the-business/"
             ],
             [
-              "MarTech · Hidden AI ROI costs",
-              "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
-            ],
-            [
-              "MarTech · Autonomous stack loophole",
+              "MarTech · Terrifying loophole in autonomous stacks",
               "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
+            ],
+            [
+              "MarTech · What's next in content ops — agents",
+              "https://martech.org/whats-next-in-content-operations-agents-what-else/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Measurement Is Broken and <em>Marketers Are the Problem</em>",
-          "url": "https://martech.org/marketers-are-media-measurements-biggest-problem/",
+          "head": "The <em>AI Data Quality</em> Debt Is Coming Due",
+          "url": "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/",
           "body": [
-            "Two sharp pieces this month argue that the measurement crisis in advertising is not primarily a tooling problem — it is a behaviour problem. Marketers gravitate toward metrics that confirm existing budgets rather than methods that reveal true causal impact, and that preference shapes which measurement vendors survive.",
-            "The corrective framing, backed by a separate piece on what ads 'really did,' points toward <b>incrementality testing and causal inference</b> as the only intellectually honest alternatives. This is a decision-changing insight: organisations must accept that rigorous measurement will sometimes show that campaigns did not work, and they must build cultures that act on that finding rather than suppress it."
+            "Marketers openly acknowledge that <b>AI is making decisions on bad data</b> — yet most organisations have not fixed the underlying pipelines. Hidden costs are quietly distorting AI ROI calculations, and the measurement gap is widening because marketers themselves are media measurement's biggest problem, often choosing convenient metrics over causal ones.",
+            "The compounding risk is that bad input data now travels further and faster: agentic systems act on that data autonomously, amplifying errors across channels before any human can intervene. <b>Data governance is no longer a back-office concern</b> — it is the rate-limiting factor on whether any AI marketing investment actually works."
           ],
           "ev": [
             [
-              "MarTech · Marketers &amp; measurement",
+              "MarTech · Marketers know AI uses bad data",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+            ],
+            [
+              "MarTech · Hidden costs distorting AI ROI",
+              "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
+            ],
+            [
+              "MarTech · Marketers are measurement's biggest problem",
               "https://martech.org/marketers-are-media-measurements-biggest-problem/"
-            ],
-            [
-              "MarTech · What ads really did",
-              "https://martech.org/the-only-way-to-know-what-your-ads-really-did/"
-            ],
-            [
-              "MarTech · AI governance test",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Is <em>Restructuring Marketing Org Design</em>, Not Just Headcount",
-          "url": "https://martechseries.com/mts-insights/guest-authors/ai-didnt-shrink-marketing-teams-it-exposed-the-empires/",
+          "head": "AI Governance Has a <em>Missing Test</em> Most Teams Fail",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-failing/",
           "body": [
-            "The headline-grabbing narrative that AI would slash marketing headcount is giving way to a more nuanced reality: AI has not shrunk teams so much as it has exposed bloated, siloed structures that were never efficient. Firms like MathCo publicly pivoting to an 'AI-native model' after a decade of analytics work illustrate that the transformation is architectural, not merely numerical.",
-            "The Optimizely rebrand case study adds a human-centred counterpoint — <b>AI scaled execution but every strategic input remained human</b>. The organisational implication is that leaders need to redesign around clear human-AI divisions of labour rather than waiting for headcount pressure to force the issue."
+            "Two distinct governance gaps surfaced this month: the internal gap — <b>most marketers cannot pass the AI governance test</b> covering accountability, audit trails, and model oversight — and the external gap, where AI compliance tooling (e.g., TwelveLabs' content-violation scanner) is being built precisely because brands cannot self-police at AI-generated content volume. Both gaps are growing faster than policy frameworks can close them.",
+            "Crisis brand management adds another dimension: when AI search engines index and surface negative brand narratives, <b>response time collapses from days to hours</b>. Governance frameworks must now include real-time brand-signal monitoring as a standard component, not an optional add-on."
           ],
           "ev": [
             [
-              "MarTech Series · AI exposed empires",
-              "https://martechseries.com/mts-insights/guest-authors/ai-didnt-shrink-marketing-teams-it-exposed-the-empires/"
+              "MarTech · The AI governance test marketers miss",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ],
             [
-              "MarTech Series · MathCo AI-native pivot",
-              "https://martechseries.com/analytics/mathco-announces-transformation-to-an-ai-native-model-marking-10-years-of-building-enterprise-intelligence/"
+              "MarTech Series · TwelveLabs compliance tool",
+              "https://martechseries.com/content/twelvelabs-launches-compliance-by-twelvelabs-to-find-potential-content-violations-quickly-accurately-and-easily-across-any-region/"
             ],
             [
-              "Agile Brand · Optimizely rebrand &amp; AI",
-              "https://agilebrandguide.com/optimizelys-greg-heinz-on-making-a-rebrand-behave-differently-not-just-look-different/"
+              "MarTech · How to keep a crisis from defining your brand",
+              "https://martech.org/how-to-keep-a-crisis-from-defining-your-brand-online/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Brand Must Now Be <em>Legible to AI</em>, Not Just Humans",
-          "url": "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/",
+          "head": "<em>AI-Native Creative Infrastructure</em> Consolidates Into Platforms",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kochava-unveils-creative-services-workspaces-on-stationone-featuring-leading-partners-higgsfield-luma-and-spaceback-by-rembrand/",
           "body": [
-            "As AI agents increasingly mediate discovery, recommendation, and purchase, brand strategy faces a new audience: the model itself. A MarTech piece this month spells out that brands must be structured, consistent, and machine-parseable to appear in AI-generated answers and agent workflows — criteria quite different from conventional SEO or creative differentiation.",
-            "Canva's CMO framing of <b>brand as infrastructure</b> rather than a policing function points in the same direction: brand guidelines must be operationalised at scale so that both human creators and AI tools produce on-brand output without bottlenecks. OpenAI's audacious ad-revenue projections suggest the commercial stakes of AI-mediated discovery will be enormous within the planning horizon of most marketing strategies."
+            "Rather than standalone generative tools, the market is converging on <b>integrated creative workspaces</b> — Kochava's StationOne bundling Higgsfield, Luma, and Rembrand; Adobe embedding 70+ tools into Slack via MCP; Optimizely rebranding its entire platform around AI-scaled production. The pattern is clear: creative AI is moving from point solution to bundled operating environment.",
+            "Critically, practitioners like Optimizely's Greg Heinz are drawing a hard line: <b>AI scaled the execution, but every strategic input stayed human</b>. This framing — AI as throughput engine, humans as creative &amp; strategic authority — is becoming the dominant model for how mature marketing organisations position AI internally and externally."
           ],
           "ev": [
             [
-              "MarTech · AI finding &amp; trusting your brand",
-              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
+              "MarTech Series · Kochava StationOne creative workspaces",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/kochava-unveils-creative-services-workspaces-on-stationone-featuring-leading-partners-higgsfield-luma-and-spaceback-by-rembrand/"
             ],
             [
-              "Agile Brand · Canva brand as infrastructure",
-              "https://agilebrandguide.com/canva-cmo-of-b2b-meghan-gendelman-on-keeping-your-brand-strong-at-scale/"
+              "Agile Brand · Adobe 70+ tools into Slack via MCP",
+              "https://agilebrandguide.com/adobe-brings-70-creative-and-document-tools-into-slack-with-new-mcp-app/"
             ],
             [
-              "MarTech · OpenAI ad revenue claim",
-              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
+              "Agile Brand · Optimizely rebrand — AI scaled, humans led",
+              "https://agilebrandguide.com/optimizelys-greg-heinz-on-making-a-rebrand-behave-differently-not-just-look-different/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every story this month, the common thread is that <em>AI is forcing marketers to rebuild the foundations — data quality, org structure, measurement rigour, and brand legibility — that were always necessary but easy to defer</em>."
+      "takeaway": "Every major MarTech move this month circles the same problem: <em>AI is now executing at production scale before the data, governance, and measurement foundations needed to control it are in place</em> — and closing that gap is the defining strategic task for the next 12 months."
     }
   }
 }
