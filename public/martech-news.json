@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:55:06.946242+00:00",
+  "generatedAt": "2026-09-05T09:10:28.962187+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,29 +45,28 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "MarTech · via MarTech.org",
           "fresh": true,
           "head": "10 Salesforce Winter '27 updates marketers need to know",
           "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/",
-          "plain": "Salesforce's Winter '27 release brings <b>Agentforce campaign creation</b> and reporting improvements that directly change how marketing teams build and measure campaigns. Because Salesforce sits at the centre of so many marketing stacks, these updates affect how AI is bought, configured, and used at scale — making this essential reading for any martech buyer or builder.",
+          "plain": "Salesforce's Winter '27 release brings <b>Agentforce campaign creation</b> and cleaner reporting to marketing teams. This matters because it shows how agentic AI is being baked directly into the dominant marketing cloud — changing what marketers can automate without custom builds and raising the bar for competing platforms.",
           "chips": [
             "agentic",
-            "decis",
+            "genai",
             "cep",
-            "genai"
+            "decis"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "SoundHound AI Completes Acquisition of LivePerson, Creating Omnichannel Conversational AI Platform",
+          "head": "SoundHound AI completes acquisition of LivePerson, merging voice and messaging AI",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
-          "plain": "SoundHound AI has closed its purchase of LivePerson, combining <b>voice AI with enterprise messaging</b> across WhatsApp, SMS, web chat, and phone in one platform. This reshapes the conversational AI vendor landscape — buyers evaluating customer engagement platforms now face a larger, more capable combined competitor with both voice and text channels under one roof.",
+          "plain": "SoundHound AI has closed its purchase of LivePerson, combining voice AI with LivePerson's <b>omnichannel conversational engagement</b> platform. The merger reshapes the CEP competitive landscape, giving brands a single vendor for phone, chat, and messaging AI — a structural shift that affects how buyers evaluate customer engagement stacks.",
           "chips": [
             "agentic",
             "cep",
-            "decis",
             "perso"
           ]
         },
@@ -75,9 +74,9 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Docusign Opens MCP Server to All AI Agents on September 30",
+          "head": "Docusign opens MCP Server to all AI agents on September 30",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/",
-          "plain": "Docusign is making its <b>Model Context Protocol Server generally available</b>, letting any AI agent trigger governed agreement actions — signing, approvals, and compliance checks — without human hand-holding. This matters for martech builders because it sets a template for how agentic systems can take legally binding actions inside enterprise workflows with built-in governance guardrails.",
+          "plain": "Docusign is making its <b>Model Context Protocol Server</b> globally available so any AI agent can trigger governed agreement actions via Docusign Iris. This matters because it plugs a trusted compliance layer into agentic workflows, directly addressing the governance gap that slows enterprise adoption of autonomous AI systems.",
           "chips": [
             "agentic",
             "govern",
@@ -88,26 +87,25 @@
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Gupshup Launches Self-Serve Voice AI Platform for Omnichannel Conversational Engagement",
+          "head": "Gupshup launches self-serve Voice AI Platform for omnichannel agent deployment",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls/",
-          "plain": "Gupshup now lets businesses <b>build, test, and deploy AI voice agents</b> alongside WhatsApp, RCS, and SMS from a single self-serve console. Adding phone calls to a unified messaging platform lowers the barrier for brands wanting full-channel AI coverage — and shifts the competitive bar for what a customer engagement platform must include.",
+          "plain": "Gupshup's new console lets businesses <b>build and deploy AI voice agents</b> for calls alongside WhatsApp, RCS, and SMS from one platform. Lowering the build barrier to voice AI in a self-serve model shifts who can adopt conversational AI and expands where agentic engagement competes for budget.",
           "chips": [
             "agentic",
             "cep",
-            "decis",
             "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech · via MarTech.org",
           "fresh": true,
-          "head": "Software Buyers Are Moving Faster Than Software Sellers",
+          "head": "Software buyers are moving faster than software sellers",
           "url": "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/",
-          "plain": "Research shows that <b>AI is compressing software buying cycles</b> while vendor sales processes — quotes, approvals, handoffs — have not kept up, causing friction that loses ready-to-spend buyers. For martech vendors, this is a structural warning: slow procurement UX is now a direct revenue risk as AI-informed buyers expect speed their sellers cannot match.",
+          "plain": "AI is compressing how quickly buyers research and decide on software, but <b>slow sales processes — quotes, approvals, handoffs</b> — are causing vendors to lose ready buyers. This has direct implications for how MarTech vendors must redesign their go-to-market motion to match AI-accelerated purchase behavior.",
           "chips": [
-            "agentic",
-            "govern"
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -117,27 +115,29 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "10 Salesforce Winter '27 updates marketers need to know",
           "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/",
-          "plain": "Salesforce's Winter '27 release brings <b>Agentforce-powered campaign creation</b> and cleaner reporting to marketing teams. Because Salesforce sits at the centre of many marketing stacks, these updates directly change how campaigns are built and measured — and signal how agentic AI is being baked into mainstream tooling rather than sold as an add-on.",
+          "plain": "Salesforce's Winter '27 release brings <b>Agentforce-powered campaign creation</b> and cleaner reporting tools directly into the marketing workflow. Because Salesforce sits at the centre of many martech stacks, these updates shape what AI-assisted campaign building looks like in practice for millions of marketers — making this a must-read for anyone evaluating or using the platform.",
           "chips": [
             "agentic",
             "genai",
             "cep",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Software buyers are moving faster than software sellers",
-          "url": "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/",
-          "plain": "Research shows <b>AI is compressing software buying decisions</b> while vendor sales processes — quotes, approvals, handoffs — haven't kept up. For anyone buying or selling MarTech, this matters because slow sales cycles are now losing deals to competitors whose procurement friction is lower, reshaping how AI tools get purchased.",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "The terrifying loophole in your autonomous tech stack",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "plain": "As AI agents pass data between tools to run campaigns automatically, they create real risks of <b>proprietary data leaks and privacy failures</b>. This piece identifies the specific gaps in agentic pipelines that governance frameworks haven't caught up with yet — directly relevant to anyone buying or building autonomous marketing systems.",
           "chips": [
+            "agentic",
             "govern",
-            "agentic"
+            "cdp",
+            "decis"
           ]
         },
         {
@@ -146,36 +146,37 @@
           "fresh": false,
           "head": "Rapid AI changes mean GEO is a weekly job now",
           "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
-          "plain": "As AI answer engines update constantly, <b>Generative Engine Optimization can no longer be a quarterly task</b>. The piece argues PR, SEO, and content teams need a shared weekly dashboard tracking which questions buyers ask, which sources get cited, and what shifts. This reframes GEO as an always-on operational discipline, not a campaign.",
+          "plain": "AI-generated search answers change fast enough that <b>generative engine optimization can no longer be treated as a quarterly task</b>. The article argues PR, SEO, and content teams need a shared weekly dashboard tracking which sources AI cites and what buyer questions are shifting — a structural change to how marketing teams must be organised.",
           "chips": [
             "geo",
-            "genai"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "The terrifying loophole in your autonomous tech stack",
-          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
-          "plain": "When AI agents pass data between tools to run campaigns, <b>proprietary data and personal information can leak</b> at every handoff point. The article explains concrete risks in agentic pipelines and steps marketers and tech buyers should demand before deploying autonomous systems — making it essential reading for anyone evaluating agentic AI.",
+          "head": "The hidden costs distorting your AI ROI",
+          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
+          "plain": "Integration work, data preparation, human oversight, and displaced labour can quietly <b>shrink AI productivity gains to a fraction of headline numbers</b>. This matters for every budget holder approving AI spend: it provides a framework for calculating true return and spotting where vendors' ROI claims don't hold up.",
           "chips": [
-            "agentic",
             "govern",
-            "cdp"
+            "agentic",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "The hidden costs distorting your AI ROI",
-          "url": "https://martech.org/the-hidden-costs-distorting-your-ai-roi/",
-          "plain": "Integration work, data preparation, human oversight, and displaced labour can quietly <b>erase the productivity gains</b> AI vendors promise. This piece gives buyers a framework to stress-test vendor ROI claims before signing contracts — directly relevant to anyone making or approving AI tool purchases in a marketing org.",
+          "head": "SoundHound AI completes acquisition of LivePerson, forming omnichannel conversational AI company",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
+          "plain": "SoundHound AI has closed its purchase of LivePerson, combining <b>voice AI with enterprise messaging across WhatsApp, SMS, and web chat</b>. The merger consolidates two significant customer engagement platforms into one, reshaping the vendor landscape for brands building omnichannel AI-driven customer conversations — relevant to anyone evaluating CEP vendors.",
           "chips": [
-            "govern",
-            "genai",
-            "agentic"
+            "cep",
+            "agentic",
+            "decis"
           ]
         }
       ]
@@ -188,8 +189,8 @@
           "head": "The <em>Agentic Stack</em> Becomes Infrastructure",
           "url": "https://martech.org/whats-next-in-content-operations-agents-what-else/",
           "body": [
-            "Agents are no longer experimental features bolted onto existing platforms — they are becoming the <b>connective tissue of the enterprise stack</b>. Docusign's Agreement Layer, Globant's MuleSoft AI Pod, Salesforce Winter '27 updates, and Contentful's agentic-web report all land in the same month, signaling that vendors are racing to make agent-readiness a baseline expectation rather than a premium add-on.",
-            "The practical consequence for marketers is that <b>integration work is shifting from IT to strategy</b>. If every workflow — content ops, sales outreach, contract signing — can now be handed to an agent, the decisions worth making are which handoffs to allow, which to gate, and who owns the outcome when an agent acts autonomously."
+            "Across the month, agents stopped being a feature and started being the connective tissue of the enterprise. Docusign baking agreement logic into every agent, Globant bridging MuleSoft to Salesforce's agentic layer, and Contentful mapping critical AI questions for CX leaders all point to the same shift: <b>agentic capability is now assumed infrastructure</b>, not a pilot project.",
+            "The practical consequence for a marketer is that decisions about CRM, CMS, and integration middleware are now simultaneously decisions about which agents will run your workflows. Choosing a platform without asking how its agent layer interoperates is like buying a server without asking about network ports."
           ],
           "ev": [
             [
@@ -197,22 +198,22 @@
               "https://martech.org/whats-next-in-content-operations-agents-what-else/"
             ],
             [
-              "MTS · Globant MuleSoft AI Pod",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/globant-introduces-mulesoft-ai-pod-to-break-through-integration-barriers-and-scale-enterprise-agentic-ai-with-salesforce/"
+              "Agile Brand · Contentful agentic web questions",
+              "https://agilebrandguide.com/contentful-the-agentic-web-critical-ai-questions-for-marketing-and-cx-leadership/"
             ],
             [
-              "Agile Brand · Contentful Agentic Web",
-              "https://agilebrandguide.com/contentful-the-agentic-web-critical-ai-questions-for-marketing-and-cx-leadership/"
+              "MarTech Series · Globant MuleSoft AI Pod",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/globant-introduces-mulesoft-ai-pod-to-break-through-integration-barriers-and-scale-enterprise-agentic-ai-with-salesforce/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Governance</em> Gaps Are Now Operational Risks",
+          "head": "<em>AI Governance &amp; Data Quality</em> Are Now Existential Risks",
           "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
           "body": [
-            "Three consecutive weeks of governance-focused pieces — covering autonomous-stack loopholes, bad data feeding AI decisions, hidden AI ROI costs, and the governance test most marketers are missing — form a clear editorial cluster that reflects a real practitioner anxiety: <b>AI is making consequential decisions on corrupted or unverified inputs</b>, and most organisations have no catch mechanism.",
-            "Validity's Heatwave Blocklist against synthetic domain warming and Docusign's agent-layer controls hint at a market response, but the deeper problem is cultural. <b>Marketers inherited AI tools faster than they built oversight habits</b>, and the audit infrastructure to match the speed of autonomous action simply does not yet exist at most companies."
+            "Three separate MarTech pieces this month converged on a single alarm: <b>AI systems are making consequential decisions on bad data, and most governance frameworks have not caught up</b>. Marketers openly admit their AI is fed flawed inputs, autonomous stacks contain control gaps that nobody has stress-tested, and the governance test most teams are skipping is the one that matters most.",
+            "The hidden costs distorting AI ROI are not compute bills — they are the downstream errors from unchecked data and unchecked agents. For a decision-maker, this means ROI calculations that ignore data-quality debt and governance overhead are systematically optimistic."
           ],
           "ev": [
             [
@@ -220,22 +221,22 @@
               "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
             ],
             [
-              "MarTech · AI governance test",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
-            ],
-            [
               "MarTech · Marketers know AI uses bad data",
               "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+            ],
+            [
+              "MarTech · AI governance test most miss",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "GEO &amp; Brand Visibility in <em>AI-Mediated Search</em>",
+          "head": "Search Optimization Enters the <em>GEO Weekly Cycle</em>",
           "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
           "body": [
-            "Generative Engine Optimisation is maturing from a buzzword into a weekly operational discipline. MarTech's piece declaring GEO a weekly job, the launch of AI SEO Hacker's KPI-guaranteed service, and the explainer on what it takes for AI to find and act on your brand all converge on one shift: <b>discoverability is now governed by what AI systems choose to surface</b>, not just what Google indexes.",
-            "OpenAI's audacious ad-revenue claim adds commercial pressure — if AI-native surfaces become significant ad channels, <b>brands that have not optimised for machine-readable trust signals will be invisible</b> where budgets are migrating. The cadence required is closer to social-media monitoring than to quarterly SEO audits."
+            "Generative Engine Optimization is no longer a quarterly audit — MarTech declared it a <b>weekly operational task</b> because AI search surfaces shift that fast. A companion piece maps exactly what it takes for an AI to find, trust, and act on a brand, reframing content strategy around machine readability and structured authority signals rather than keyword density.",
+            "A KPI-guaranteed SEO service launching across ten industries in the same window signals that vendors are already productizing this urgency. The decision shift: SEO budgets and headcount models built for monthly cadences are structurally misaligned with how AI search now works."
           ],
           "ev": [
             [
@@ -243,12 +244,12 @@
               "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/"
             ],
             [
-              "MarTech · What AI needs to find &amp; trust your brand",
+              "MarTech · What it takes for AI to find your brand",
               "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
             ],
             [
-              "MarTech · OpenAI ad revenue claim",
-              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
+              "MarTech Series · AI SEO Hacker KPI-guaranteed service",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-seo-hacker-launches-affordable-kpi-guaranteed-seo-and-ai-search-optimization-service-verified-across-10-industries/"
             ]
           ]
         },
@@ -257,31 +258,31 @@
           "head": "Conversational AI <em>Consolidates into Omnichannel</em>",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
           "body": [
-            "SoundHound's acquisition of LivePerson and Gupshup's self-serve voice AI platform arriving in the same week signals that the conversational AI market is entering a consolidation phase driven by <b>omnichannel ambition rather than single-channel novelty</b>. Buyers want one vendor to handle voice, chat, and messaging — not a patchwork of point solutions.",
-            "For marketing and CX leaders, this means vendor selection decisions made today will be <b>harder to reverse in 18 months</b> as platforms lock in proprietary conversation data and model fine-tuning. The Jessica Vose &amp; Kana conversation about stacking a sixteenth tool onto a fifteen-tool stack captures exactly the fatigue driving buyers toward these larger, integrated bets."
+            "SoundHound absorbing LivePerson and Gupshup launching self-serve voice AI in the same month illustrate a structural consolidation: <b>text, voice, and messaging AI are converging into unified conversational platforms</b> rather than staying in separate point solutions. The acquirer logic is clear — owning every channel means owning the customer relationship across every touchpoint.",
+            "For a marketer, this consolidation shrinks the vendor landscape quickly. Choosing a conversational AI partner now means betting on which omnichannel combinator will dominate; smaller single-channel tools face a shrinking window before they are either acquired or marginalized."
           ],
           "ev": [
             [
-              "MTS · SoundHound acquires LivePerson",
+              "MarTech Series · SoundHound acquires LivePerson",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/"
             ],
             [
-              "MTS · Gupshup voice AI platform",
+              "MarTech Series · Gupshup voice AI platform",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls/"
             ],
             [
-              "Agile Brand · Sixteenth tool in a fifteen-tool stack",
-              "https://agilebrandguide.com/expert-mode-at-ai4-the-sixteenth-tool-in-a-fifteen-tool-stack-with-jessica-vose-from-kana/"
+              "MarTech · Latest AI-powered martech releases",
+              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>Buyer Velocity</em> Outpacing Vendor Readiness",
+          "head": "<em>Buyers Outrun Sellers</em> as Stack Complexity Peaks",
           "url": "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/",
           "body": [
-            "MarTech's observation that software buyers are moving faster than software sellers is the quiet meta-trend underneath every product launch this month. Marketers are adopting, combining, and discarding tools at a pace vendors did not architect for, which is why stories about <b>hidden AI ROI costs and measurement failure keep recurring</b> — the buying motion has decoupled from the value-realisation motion.",
-            "The IFPA case study — running a global digital experience with two people by building reusable capability — and Optimizely's rebrand insight that <b>AI scaled the work but every input stayed human</b> both point to the same correction: sustainable advantage comes from strategic restraint in tooling, not maximum adoption. Teams that treat AI as leverage for fewer, better decisions will outperform those racing to cover every channel."
+            "MarTech's observation that software buyers now move faster than sellers is backed up by a telling field story: a Kana practitioner described adding a <b>sixteenth tool to a fifteen-tool stack</b> just to get expert-level capability, while IFPA runs an entire global digital experience with two people by ruthlessly building reusable components instead of adding maintenance burdens. The market is bifurcating between over-tooled teams and radically lean ones.",
+            "Salesforce's Winter '27 feature dump and Optimizely's human-guided AI rebrand both show vendors scrambling to match a buyer sophistication they did not anticipate. The strategic implication: procurement cycles built on vendor roadmap promises are obsolete — buyers need evaluation frameworks anchored to capability demonstrated today, not promised next quarter."
           ],
           "ev": [
             [
@@ -289,17 +290,17 @@
               "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/"
             ],
             [
-              "Agile Brand · IFPA two-person global DX",
-              "https://agilebrandguide.com/from-opticon-2026-ifpas-jim-rucinski-on-running-a-global-digital-experience-with-two-people/"
+              "Agile Brand · Sixteenth tool in a fifteen-tool stack",
+              "https://agilebrandguide.com/expert-mode-at-ai4-the-sixteenth-tool-in-a-fifteen-tool-stack-with-jessica-vose-from-kana/"
             ],
             [
-              "MarTech · Hidden costs distorting AI ROI",
-              "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
+              "MarTech · Salesforce Winter 27 updates",
+              "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the decisive question is not whether to adopt AI but <em>whether your governance, data quality, and strategic restraint can keep pace with the autonomous decisions AI is already making on your behalf</em>."
+      "takeaway": "Every major move this month — from agentic infrastructure bets to omnichannel consolidation to weekly GEO cadences — signals that <em>the martech stack is being re-architected around AI as the operating layer, not as a feature bolted on top</em>, and teams that still treat AI governance, data quality, and agent interoperability as future concerns are already behind."
     }
   }
 }
