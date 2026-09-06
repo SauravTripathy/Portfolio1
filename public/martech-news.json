@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:09:13.269390+00:00",
+  "generatedAt": "2026-09-06T09:32:15.148615+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,9 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "AI engines disagree 2× on brand recommendations, Treyci research finds",
+          "head": "AI engines disagree 2x on brand recommendations, study finds",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-5-2026/",
-          "plain": "Treyci's research shows AI answer engines give conflicting brand recommendations at twice the rate marketers assumed. That means <b>brand visibility inside AI answers</b> is far less stable than a single engine test would suggest — a direct challenge to how GEO strategies are planned and measured today.",
+          "plain": "Research from Treyci shows that <b>AI answer engines recommend different brands</b> for the same query roughly twice as often as they agree — a direct warning for marketers investing in GEO. Comscore also begins measuring sponsored ads inside ChatGPT, signalling that AI-answer ad inventory is becoming a trackable, buyable media channel.",
           "chips": [
             "geo",
             "govern"
@@ -59,50 +59,13 @@
           "num": "02",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Comscore begins measuring sponsored ads inside ChatGPT responses",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-5-2026/",
-          "plain": "Comscore is now tracking <b>sponsored placements within ChatGPT answers</b>, giving advertisers the first third-party measurement layer for AI-native ad formats. When an independent measurement firm enters a channel, it signals the channel is maturing into a real media buy — changing how budgets get allocated.",
-          "chips": [
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Comscore data: sponsored ads appear in 24% of hotel-related ChatGPT prompts",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-4-2026/",
-          "plain": "By May 2026, nearly one in four hotel-travel ChatGPT queries already returned a <b>sponsored result</b>. This is the first concrete adoption-rate figure for AI-native advertising, and it tells marketers that paid placement inside generative answers is moving from experiment to standard channel faster than expected.",
-          "chips": [
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Beyond A/B testing: reinforcement learning for perpetual marketing optimisation",
+          "head": "Beyond A/B testing: reinforcement learning drives perpetual marketing optimization",
           "url": "https://agilebrandguide.com/expert-mode-moving-beyond-the-limits-of-traditional-a-b-testing/",
-          "plain": "Eikona CEO Nir Weingarten argues that <b>bandit and reinforcement-learning methods</b> replace periodic A/B tests with continuous optimisation — the system learns which message wins while it runs, not after. For practitioners, this reframes testing budgets and timelines and raises new governance questions about automated decision-making.",
+          "plain": "Eikona CEO Nir Weingarten argues that <b>bandit and reinforcement-learning methods replace periodic A/B tests</b> with continuous optimization — every impression becomes a learning signal. This shifts how marketing teams budget for experimentation and who owns the testing stack, making it directly relevant to anyone buying or building AI-driven campaign tools.",
           "chips": [
             "bandit",
             "decis",
-            "govern",
             "perso"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Videowise ships UGC Answer Engine Optimisation (AEO) feature",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-5-2026/",
-          "plain": "Videowise is packaging user-generated content specifically to <b>surface in AI answer engines</b> — a product move that treats UGC as GEO fuel rather than just social proof. It signals vendors are building AEO as a distinct, purchasable capability, not just an SEO add-on.",
-          "chips": [
-            "geo",
-            "genai"
           ]
         }
       ]
@@ -111,67 +74,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": false,
-          "head": "SoundHound AI completes acquisition of LivePerson, forming omnichannel conversational AI company",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
-          "plain": "SoundHound AI has officially closed its purchase of LivePerson, combining voice AI with LivePerson's messaging and chat platform. This <b>consolidation of conversational AI channels</b> into a single vendor matters because brands now face a smaller shortlist when choosing who runs their AI-powered customer conversations across voice, web, and messaging — reshaping the CEP buying market.",
+          "head": "10 Salesforce Winter '27 updates marketers need to know",
+          "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/",
+          "plain": "Salesforce's Winter '27 release brings <b>Agentforce-powered campaign creation</b> and cleaner reporting tools directly into the marketing workflow. Because Salesforce sits at the centre of many MarTech stacks, these changes affect how teams buy, configure, and govern AI-assisted marketing at scale — making this required reading for anyone evaluating or already running the platform.",
           "chips": [
             "agentic",
+            "decis",
             "cep",
-            "decis"
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Reinforcement learning moves marketing from periodic A/B tests to perpetual optimization",
-          "url": "https://agilebrandguide.com/expert-mode-moving-beyond-the-limits-of-traditional-a-b-testing/",
-          "plain": "Eikona CEO Nir Weingarten explains how <b>reinforcement learning replaces snapshot A/B tests</b> with a system that continuously tries options and shifts budget toward winners in real time. For marketers, this is a practical primer on why the old test-and-wait cycle is being replaced by always-on optimization — changing how experimentation tools are evaluated and bought.",
+          "head": "Rapid AI changes mean GEO is a weekly job now",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
+          "plain": "AI-generated answers shift fast enough that <b>brand visibility inside tools like ChatGPT and Perplexity can change week to week</b>. The article argues PR, SEO, and content teams need a shared, ongoing measurement loop — not a quarterly audit — to track which sources get cited and why. It reframes GEO from a one-time tactic into a continuous operational discipline.",
           "chips": [
-            "bandit",
-            "perso",
-            "decis"
+            "geo",
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Docusign opens MCP Server to every AI agent, adding governed agreement layer to agentic stacks",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/",
-          "plain": "From September 30, any AI agent can call Docusign's Model Context Protocol Server to trigger, verify, or act on agreements. This is significant because <b>agentic AI systems often stall at legally binding steps</b>; Docusign is inserting itself as the governance and compliance layer that lets agents complete high-stakes actions without human sign-off on every transaction.",
+          "head": "The terrifying loophole in your autonomous tech stack",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/",
+          "plain": "When AI agents hand data between systems to run campaigns autonomously, <b>proprietary and personal data can leak at every handoff</b>. The piece maps the specific failure points and proposes governance controls marketers must build before scaling agentic stacks. It is one of the clearest explainers yet on why governance is not optional once agents start acting.",
           "chips": [
             "agentic",
             "govern",
-            "decis"
+            "cdp"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "Comscore finds sponsored ads appearing in 24% of hotel-related ChatGPT queries by May 2026",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-4-2026/",
-          "plain": "Comscore measurement shows <b>paid placements are already embedded in roughly one-quarter of travel-category ChatGPT responses</b>. This is the first hard data point on how fast AI-answer advertising is scaling, and it signals that GEO and paid AI visibility are no longer future concerns — they are active budget decisions marketers need to address now.",
+          "head": "SoundHound AI completes acquisition of LivePerson, forming omnichannel conversational AI company",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
+          "plain": "SoundHound AI has formally closed its purchase of LivePerson, combining voice AI with LivePerson's <b>text-based customer engagement platform</b> across WhatsApp, SMS, and phone. The deal reshapes the conversational AI vendor landscape, giving one company control of both voice and messaging channels — directly relevant to anyone buying or building a CEP strategy.",
           "chips": [
-            "geo",
-            "genai"
+            "cep",
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Contentful survey of 350 marketing leaders identifies five urgent AI governance gaps in enterprise marketing",
-          "url": "https://agilebrandguide.com/contentful-the-agentic-web-critical-ai-questions-for-marketing-and-cx-leadership/",
-          "plain": "A study by Atlantic Re:think and Contentful asked 350 marketing decision-makers where AI integration is breaking down. The findings surface five concrete governance gaps — covering data, accountability, and content control — that <b>enterprises must answer before scaling agentic marketing operations</b>. It is a useful benchmark for teams assessing their own readiness.",
+          "head": "Expert Mode: Moving beyond the limits of traditional A/B testing with reinforcement learning",
+          "url": "https://agilebrandguide.com/expert-mode-moving-beyond-the-limits-of-traditional-a-b-testing/",
+          "plain": "Eikona CEO Nir Weingarten explains how <b>reinforcement learning replaces periodic A/B tests with continuous, self-adjusting optimization</b> — shifting marketing from snapshot experiments to perpetual learning loops. The interview is a clear, jargon-light introduction to why bandits and RL matter for anyone trying to move beyond basic split testing in campaign or personalization decisions.",
           "chips": [
-            "agentic",
-            "govern",
-            "genai",
-            "cdp"
+            "bandit",
+            "perso",
+            "decis"
           ]
         }
       ]
@@ -181,109 +145,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Enterprise</em> Is Being Plumbed In",
+          "head": "The <em>Agentic Enterprise</em> Arrives in Production",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/",
           "body": [
-            "Docusign embedding its Agreement Layer into every AI agent, Globant wiring MuleSoft AI Pods into Salesforce, and Contentful publishing a leadership guide on the 'Agentic Web' all point to the same shift: <b>agentic AI is moving from concept to infrastructure</b>. Vendors are no longer pitching autonomous agents as standalone demos — they are building them into the connective tissue of existing enterprise stacks.",
-            "The practical decision this creates is architectural: brands must now choose whether agents will be allowed to trigger real-world actions (signing agreements, sending outreach, updating records) or remain advisory. <b>Getting that boundary wrong in either direction</b> — too restricted to be useful, or too autonomous to be safe — is the core governance question of the next planning cycle."
+            "AI agents are no longer a roadmap item — Docusign is embedding an Agreement Layer directly into every enterprise agent, Globant is shipping a MuleSoft AI Pod to connect agentic workflows across Salesforce, and Contentful is publishing governance questions for marketing leaders navigating the agentic web. <b>The shift is architectural</b>: agents need contracts, integrations, and authority frameworks, not just prompts.",
+            "For marketers, this means the stack question is no longer 'which tool?' but 'what can an agent do on my behalf, and who approved it?' Teams that delay building agentic governance frameworks will find agents either blocked by legacy integration debt or running unchecked — both expensive outcomes."
           ],
           "ev": [
             [
-              "MarTech Series · Docusign Agreement Layer",
+              "Docusign · Agreement Layer for Agents",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/"
             ],
             [
-              "MarTech Series · Globant MuleSoft AI Pod",
+              "Globant · MuleSoft AI Pod &amp; Salesforce",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/globant-introduces-mulesoft-ai-pod-to-break-through-integration-barriers-and-scale-enterprise-agentic-ai-with-salesforce/"
             ],
             [
-              "Agile Brand · Contentful Agentic Web",
+              "Contentful · Agentic Web Questions",
               "https://agilebrandguide.com/contentful-the-agentic-web-critical-ai-questions-for-marketing-and-cx-leadership/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Conversational AI</em> Consolidates Into Omnichannel Voice",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
+          "head": "<em>AI Governance Gap</em> Becomes a Business Risk",
+          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
           "body": [
-            "SoundHound AI acquiring LivePerson and Gupshup launching a self-serve Voice AI platform in the same week signals a <b>consolidation of text and voice conversational channels into unified platforms</b>. The bet is that customers expect a single brand voice whether they are typing in a chat widget or speaking on a phone call.",
-            "For marketing and CX teams this is less a technology story than a vendor-landscape story: <b>point solutions for chat, voice, and messaging are being absorbed into larger omnichannel players</b>. Teams still running separate vendors for each channel should expect pressure — commercial and technical — to consolidate sooner than their current contracts assumed."
+            "Three converging signals make this impossible to ignore: marketers openly admit AI is acting on bad data, a 'terrifying loophole' in autonomous stacks lets agents make consequential decisions without human review, and most teams are failing a basic AI governance test. <b>The liability is no longer theoretical</b> — it lives in every automated campaign and every AI-generated output touching a customer.",
+            "The practical decision this forces is a governance audit before expanding AI automation. Hidden ROI costs (compute, error correction, brand repair) routinely dwarf the efficiency gains marketers publicize, meaning the business case for ungoverned AI is often fictional once full costs are counted."
           ],
           "ev": [
             [
-              "MarTech Series · SoundHound acquires LivePerson",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/"
+              "MarTech · AI Governance Test",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
             ],
             [
-              "MarTech Series · Gupshup Voice AI",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls/"
+              "MarTech · Terrifying Loophole in Autonomous Stack",
+              "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack/"
+            ],
+            [
+              "MarTech · AI Using Bad Data",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Is <em>Breaking Traditional Testing</em> &amp; Optimization Logic",
-          "url": "https://agilebrandguide.com/expert-mode-moving-beyond-the-limits-of-traditional-a-b-testing/",
+          "head": "GEO &amp; <em>AI Search Visibility</em> Becomes Weekly Operations",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
           "body": [
-            "The Agile Brand piece on moving beyond A/B testing, paired with Optimizely's account of using AI to scale a rebrand while keeping every creative input human, surfaces a real methodological crack: <b>classic A/B testing assumes stable audiences and single variables, but AI-personalized experiences invalidate both assumptions simultaneously</b>. You cannot hold everything else equal when the system is dynamically adapting the experience for each user.",
-            "The practical implication is that <b>measurement frameworks — not just creative tools — need to be rebuilt</b> for AI-driven marketing. Multivariate, Bayesian, and continuous-learning approaches are becoming table stakes, not advanced options, for any team that has already deployed personalization at scale."
+            "Generative Engine Optimization is no longer a quarterly SEO refresh — rapid model updates mean brands must monitor and adjust their AI search presence <b>every week</b>. MarTech's analysis shows that what it takes for AI to find, trust, and cite a brand is a distinct discipline from traditional SEO, requiring structured data, authority signals, and proactive entity management. AI SEO Hacker's launch of KPI-guaranteed AI search optimization across 10 industries signals that vendor markets are already commoditizing the service.",
+            "The strategic implication: content operations teams need a standing GEO workflow, not a one-time project. OpenAI's audacious claim about future ad revenue confirms that AI-native discovery channels will carry real commercial weight — brands absent from AI results today are building a visibility debt that compounds."
           ],
           "ev": [
             [
-              "Agile Brand · Beyond A/B Testing",
-              "https://agilebrandguide.com/expert-mode-moving-beyond-the-limits-of-traditional-a-b-testing/"
+              "MarTech · GEO Is a Weekly Job",
+              "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/"
             ],
             [
-              "Agile Brand · Optimizely rebrand with AI",
-              "https://agilebrandguide.com/optimizelys-greg-heinz-on-making-a-rebrand-behave-differently-not-just-look-different/"
+              "MarTech · What It Takes for AI to Find Your Brand",
+              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
+            ],
+            [
+              "MarTech · OpenAI Ad Revenue Claim",
+              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Search Is <em>Rewriting SEO's Rules</em> — With Guarantees",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-seo-hacker-launches-affordable-kpi-guaranteed-seo-and-ai-search-optimization-service-verified-across-10-industries/",
+          "head": "Conversational AI Consolidates into <em>Omnichannel Voice &amp; Chat</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/",
           "body": [
-            "AI SEO Hacker launching a KPI-guaranteed AI Search Optimization service — verified across ten industries — is a leading indicator that <b>AI-answer-engine visibility is now a distinct, measurable discipline separate from classic blue-link SEO</b>. Vendors are confident enough in the new signals to attach performance guarantees, which is a meaningful commercial threshold.",
-            "The strategic shift for marketing teams is that <b>content must now be optimized for how AI models summarize and cite sources</b>, not just for how search crawlers rank pages. Brands that treat 'AI search' as a future consideration rather than a present budget line are likely already losing share of AI-generated answers to competitors who moved earlier."
+            "SoundHound AI's acquisition of LivePerson merges voice and digital chat capabilities into a single omnichannel conversational platform — a clear sign the industry is consolidating around unified conversation layers rather than point solutions. Gupshup's simultaneous launch of a self-serve Voice AI platform extends the same logic to smaller teams, making enterprise-grade voice engagement accessible without custom integration work.",
+            "<b>The decision this forces for marketers</b> is channel strategy: siloed chatbot and IVR budgets are increasingly inefficient when customers move fluidly between voice and text. Teams evaluating conversational tools in 2026 should demand a single conversation memory across channels, not separate platforms stitched together post-purchase."
           ],
           "ev": [
             [
-              "MarTech Series · AI SEO Hacker KPI guarantee",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-seo-hacker-launches-affordable-kpi-guaranteed-seo-and-ai-search-optimization-service-verified-across-10-industries/"
+              "MarTech Series · SoundHound Acquires LivePerson",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soundhound-ai-completes-acquisition-of-liveperson-creating-a-world-leading-omnichannel-conversational-ai-powerhouse/"
             ],
             [
-              "Agile Brand · Sept 5 News Roundup",
-              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-5-2026/"
+              "MarTech Series · Gupshup Voice AI Launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/gupshup-launches-self-serve-voice-ai-platform-extending-conversational-engagement-into-phone-calls/"
+            ],
+            [
+              "MarTech · Latest AI-Powered MarTech Releases",
+              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Small Teams Scaling via <em>Reusable AI Capability</em>",
-          "url": "https://agilebrandguide.com/from-opticon-2026-ifpas-jim-rucinski-on-running-a-global-digital-experience-with-two-people/",
+          "head": "Stack Bloat &amp; the <em>Buyer-Seller Speed Gap</em>",
+          "url": "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/",
           "body": [
-            "IFPA running a global digital experience with two people by building reusable capability rather than one-off solutions, and Jessica Vose from Kana describing AI as 'the sixteenth tool in a fifteen-tool stack', both describe the same emerging operating model: <b>lean teams are achieving outsized reach by designing for reuse and integration rather than point solutions</b>. AI is the multiplier, but intentional architecture is the prerequisite.",
-            "The lesson for marketing ops leaders is that <b>adding another AI tool rarely solves a capacity problem — redesigning the workflow to produce reusable assets does</b>. The constraint is no longer compute or software access; it is the discipline to resist building things that only work once and cannot compound."
+            "A sharp new dynamic is emerging: software buyers are adopting and abandoning tools faster than vendors can update their positioning or pricing models. The '16th tool in a 15-tool stack' framing from Kana's Jessica Vose captures the fatigue — marketing teams keep adding AI point solutions without retiring anything, creating integration debt and measurement chaos. Meanwhile, buyers who moved quickly are already demanding replacement, while vendors are still pitching the original feature set.",
+            "<b>The governance response is lean-stack discipline</b>: IFPA's example of running a global digital experience with two people by building reusable capability — rather than accumulating tools — is the counter-model. Agile Brand's analysis of moving beyond traditional A/B testing points the same direction: fewer, smarter experiments with AI replacing the need for sprawling toolsets."
           ],
           "ev": [
             [
-              "Agile Brand · IFPA two-person global DX",
-              "https://agilebrandguide.com/from-opticon-2026-ifpas-jim-rucinski-on-running-a-global-digital-experience-with-two-people/"
+              "MarTech · Buyers Moving Faster Than Sellers",
+              "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/"
             ],
             [
-              "Agile Brand · Sixteenth Tool in a Fifteen-Tool Stack",
+              "Agile Brand · 16th Tool in a 15-Tool Stack",
               "https://agilebrandguide.com/expert-mode-at-ai4-the-sixteenth-tool-in-a-fifteen-tool-stack-with-jessica-vose-from-kana/"
             ],
             [
-              "Agile Brand · Sept 3 News Roundup",
-              "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-september-3-2026/"
+              "Agile Brand · IFPA Reusable Capability Model",
+              "https://agilebrandguide.com/from-opticon-2026-ifpas-jim-rucinski-on-running-a-global-digital-experience-with-two-people/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — infrastructure, channels, measurement, search, and team design — the unifying pressure of this month is that <em>AI is forcing every prior assumption about how marketing systems are built and governed to be re-examined at once</em>."
+      "takeaway": "Across every signal this month, <em>the real work has shifted from adopting AI to governing what AI is already doing</em> — in your stack, in your search visibility, in your agents, and in your cost models."
     }
   }
 }
