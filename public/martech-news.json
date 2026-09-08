@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:51:29.289613+00:00",
+  "generatedAt": "2026-09-08T17:18:29.507599+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,66 +45,66 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "CIOs Blamed for AI Agent Failures Despite Lacking Authority to Prevent Them, 8x8 Survey Finds",
-          "url": "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/cios-carry-the-blame-for-ai-failure-often-without-the-authority-to-prevent-it-8x8-survey-finds/",
-          "plain": "A majority of tech leaders (52%) blame CIOs when an AI agent makes an error — yet CIOs rarely control the governance frameworks that would prevent those errors. This <b>accountability gap</b> between AI deployment and oversight is a direct signal that <b>AI governance structures</b> are not keeping pace with adoption, which directly affects how organisations buy and manage agentic tools.",
+          "head": "Only ~25% of organizations are scaling AI with a strategy, says Marketing AI Institute's Mike Kaput",
+          "url": "https://agilebrandguide.com/marketing-ai-institute-chief-content-officer-mike-kaput-on-what-separates-an-ai-pilot-from-an-ai-capability/",
+          "plain": "Marketing AI Institute's Mike Kaput breaks down why most companies are stuck in <b>pilot purgatory</b> — running AI demos that never turn into real capability. With only about one in four organizations scaling AI strategically, this interview gives newcomers a clear lens for why <b>governance and capability-building</b> matter more than launching yet another proof-of-concept.",
           "chips": [
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Voicing AI Launches Knowledge Mesh, a Governed Context Layer for Enterprise AI Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/voicing-ai-launches-knowledge-mesh-a-context-layer-for-enterprise-ai-agents/",
-          "plain": "Voicing AI's Knowledge Mesh resolves semantics, state, and provenance at index time rather than runtime, aiming to cut the runaway token costs that Gartner says will kill more than <b>40% of agentic AI projects by 2027</b>. It tackles a fundamental unit-economics problem that is making enterprises pause before scaling agentic deployments.",
-          "chips": [
-            "agentic",
             "govern",
+            "agentic",
             "genai"
           ]
         },
         {
-          "num": "03",
-          "src": "Agile Brand",
+          "num": "02",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Only ~25% of Organizations Are Scaling Marketing AI With a Real Strategy, Says Marketing AI Institute's Mike Kaput",
-          "url": "https://agilebrandguide.com/marketing-ai-institute-chief-content-officer-mike-kaput-on-what-separates-an-ai-pilot-from-an-ai-capability/",
-          "plain": "Mike Kaput argues that most companies are stuck running AI pilots that demo well but never become durable capabilities. With only about <b>one in four organisations scaling AI strategically</b>, this interview offers a practical diagnostic for marketing teams wondering why their AI investments stall — directly relevant to how AI is bought and operationalised.",
+          "head": "The data trust crisis: Why your customer data is getting worse",
+          "url": "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/",
+          "plain": "A MarTech Conference session explains how <b>data decay quietly destroys personalization ROI</b> — outdated, inaccurate customer records feed bad signals into AI models, producing wrong recommendations and wasted spend. The piece outlines how to build a high-trust measurement framework, which is foundational before any CDP or AI decisioning layer can work reliably.",
           "chips": [
-            "genai",
-            "agentic",
+            "cdp",
+            "perso",
             "govern"
           ]
         },
         {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Docusign Opens MCP Server to All AI Agents on September 30, Bringing Agreement Intelligence Into Agentic Workflows",
-          "url": "https://agilebrandguide.com/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/",
-          "plain": "Docusign will make its Model Context Protocol server globally available, letting Claude, ChatGPT, Gemini, Copilot, and any MCP-compatible agent call agreement and signature workflows natively. This turns contracts into a <b>callable agentic action</b>, embedding legal governance directly inside automated processes — a meaningful shift in how agentic systems handle compliance.",
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Attentive VP: Lifecycle marketing is shifting from writing rules to setting direction for agentic AI",
+          "url": "https://martechseries.com/mts-insights/interviews/martech-interview-with-jema-birkmeyer-vp-attentive/",
+          "plain": "Attentive's VP of Strategic Accounts explains how <b>agentic AI is taking over campaign decisions</b> — choosing timing, channel, and message — while marketers shift from rule-writers to goal-setters. This reframes how customer engagement platforms are bought and staffed, and signals what skills teams will need as automation deepens.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "cep",
+            "perso"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Why AI hasn't solved marketing's time problem",
+          "url": "https://martech.org/why-ai-hasnt-solved-marketings-time-problem/",
+          "plain": "Faster content production from generative AI hasn't freed up time for strategy — instead it has created <b>more content volume with no extra thinking time</b>. This piece challenges the core ROI claim made in most AI-tool sales pitches and is essential reading for anyone evaluating whether a generative AI purchase will actually change how their team works.",
+          "chips": [
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Magnite and Amnet France Complete First Agentic CTV Campaign in EMEA",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/magnite-launches-first-agentic-campaign-in-emea-with-amnet-france/",
-          "plain": "Magnite and Amnet France have published real-world results from the <b>first agentic programmatic CTV buy in EMEA</b>, showing measurable outcome improvements over traditional campaign management. This is an early proof point that agentic decisioning can change how premium media is bought at scale, relevant to anyone evaluating AI-driven media purchasing.",
+          "head": "Growing restaurant chains beat rivals on local search and AI visibility, SOCi research finds",
+          "url": "https://martech.org/why-growing-restaurant-chains-win-at-local-search-and-ai-visibility/",
+          "plain": "SOCi research shows a measurable gap: expanding chains dominate local search rankings, reviews, social signals, and <b>AI answer visibility</b> — while shrinking chains are invisible in generative engine results. This is one of the first studies to quantify <b>GEO at scale for a single vertical</b>, making it directly useful for multi-location marketers planning 2027 budgets.",
           "chips": [
-            "agentic",
-            "decis",
-            "cep"
+            "geo",
+            "genai"
           ]
         }
       ]
@@ -113,66 +113,69 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "CIOs Blamed for AI Agent Failures They Lack Authority to Prevent, 8x8 Survey Finds",
-          "url": "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/cios-carry-the-blame-for-ai-failure-often-without-the-authority-to-prevent-it-8x8-survey-finds/",
-          "plain": "A majority of tech leaders (52%) hold CIOs accountable when an <b>AI agent makes an error</b>, yet CIOs rarely control the governance infrastructure needed to prevent it. This accountability gap is a direct warning for anyone buying or deploying marketing AI: without clear ownership and controls, blame lands on the wrong person and problems go unfixed.",
-          "chips": [
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Magnite Runs First Agentic CTV Campaign in EMEA With Amnet France",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/magnite-launches-first-agentic-campaign-in-emea-with-amnet-france/",
-          "plain": "Magnite and Amnet France completed what they call the first <b>agentic programmatic CTV buy in EMEA</b>, with real outcome data attached. This matters because it moves agentic media buying from lab concept to live market execution, showing how AI systems can make and act on campaign decisions without constant human input.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech · via MarTech.org",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Salesforce Winter '27: 10 Agentforce and Marketing Updates Marketers Need to Know",
-          "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/",
-          "plain": "Salesforce's Winter '27 release brings <b>Agentforce campaign creation</b> and cleaner reporting directly into the marketing workflow. Because Salesforce is the dominant CRM and CEP layer for enterprise marketers, these updates change how teams will build, automate, and measure campaigns starting this quarter — making it essential reading for buyers and practitioners alike.",
-          "chips": [
-            "agentic",
-            "cep",
-            "genai",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "Rapid AI Changes Mean GEO Is Now a Weekly Job",
+          "head": "Rapid AI changes mean GEO is a weekly job now",
           "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
-          "plain": "AI-generated answers shift fast enough that brands can drop out of AI-cited sources week to week. The article argues that <b>GEO — Generative Engine Optimization</b> — can no longer be a quarterly content project; PR, SEO, and content teams need a shared, continuously updated view of which sources AI models actually cite.",
+          "plain": "AI-generated answers change fast enough that optimizing for them can't be a quarterly task anymore. PR, SEO, and content teams need a <b>shared weekly process</b> tracking what buyers ask, which sources AI cites, and what shifts. This reframes GEO from a one-time tactic into ongoing operational work — a new budget and workflow demand for marketing teams.",
           "chips": [
             "geo",
+            "govern",
             "genai"
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech Series",
+          "num": "02",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Voicing AI Launches Knowledge Mesh to Cut Costs Killing Agentic AI Projects",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/voicing-ai-launches-knowledge-mesh-a-context-layer-for-enterprise-ai-agents/",
-          "plain": "Citing Gartner's forecast that <b>40%+ of agentic AI projects will be cancelled by 2027</b> due to runaway token costs, Voicing AI launched a governed context layer that resolves meaning and data provenance at index time rather than at runtime. This directly addresses why enterprise agentic deployments fail economically, which is a core buying and architecture decision.",
+          "head": "The data trust crisis: Why your customer data is getting worse",
+          "url": "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse/",
+          "plain": "Personalization and ROI both depend on clean customer data, but <b>data decay is quietly undermining both</b>. This piece from MarTech Conference coverage explains how to build a high-trust measurement framework — a foundational governance issue that affects every AI model or agent trained on first-party data.",
+          "chips": [
+            "cdp",
+            "perso",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Marketing AI Institute's Mike Kaput: only ~25% of organizations are scaling AI with a strategy",
+          "url": "https://agilebrandguide.com/marketing-ai-institute-chief-content-officer-mike-kaput-on-what-separates-an-ai-pilot-from-an-ai-capability/",
+          "plain": "Mike Kaput argues that most companies are stuck running demos that never become real capabilities. <b>Only about one in four organizations has a repeatable scaling strategy</b> for marketing AI. The distinction between a pilot and a capability is the single most important question buyers and practitioners face when committing budget and headcount to AI programs.",
           "chips": [
             "agentic",
             "govern",
-            "cdp"
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Attentive VP: Agentic AI is shifting lifecycle marketing from rule-setting to direction-setting",
+          "url": "https://martechseries.com/mts-insights/interviews/martech-interview-with-jema-birkmeyer-vp-attentive/",
+          "plain": "Attentive's VP of Strategic Accounts explains how <b>agentic AI is taking over campaign decisions</b> that marketers used to encode as rules. Instead of configuring flows, teams now set goals and guardrails. This is a clear, practitioner-level description of how agentic decisioning is changing how CEPs are bought and operated.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep",
+            "perso"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "10 Salesforce Winter '27 updates marketers need to know",
+          "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know/",
+          "plain": "Salesforce's Winter '27 release brings <b>Agentforce-powered campaign creation and cleaner reporting</b> directly into the platform most enterprise marketing teams already run. When a dominant CEP bakes agentic AI into core campaign workflows, it changes what buyers expect from every competing platform and raises the baseline for the whole category.",
+          "chips": [
+            "agentic",
+            "cep",
+            "genai",
+            "decis"
           ]
         }
       ]
@@ -182,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Stack</em> Is Now Operational Infrastructure",
-          "url": "https://agilebrandguide.com/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/",
+          "head": "The <em>Data Trust Crisis</em> Undermining AI-Driven Marketing",
+          "url": "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse",
           "body": [
-            "Autonomous AI agents have moved from demos to live deployments: Magnite ran the first agentic ad campaign in EMEA, Docusign is embedding agreement logic into every agent, and Voicing AI launched a <b>Knowledge Mesh</b> as a dedicated context layer for enterprise agents. These are not experiments — they are production-grade plumbing decisions that lock in vendor relationships.",
-            "The implication for marketers is that the agent layer is becoming as foundational as the CRM or the CDP was a decade ago. <b>Choosing which agent frameworks and context layers to standardize on now</b> will constrain or enable everything built on top for years, making this month's vendor announcements strategically significant rather than merely newsworthy."
+            "Marketers are discovering that <b>AI systems are only as good as the data feeding them</b>, and right now that data is degrading. Multiple reports this month confirm that marketers already know their AI tools are ingesting bad, outdated, or incomplete customer data — yet most have not fixed the pipelines supplying it.",
+            "The downstream effect is compounded: flawed data skews AI decisions, hidden costs inflate apparent ROI, and autonomous stacks can act on corrupt inputs before any human catches the error. <b>Fixing data quality is now a prerequisite for AI credibility</b>, not an afterthought."
           ],
           "ev": [
             [
-              "MarTech Series · Magnite agentic EMEA",
-              "https://martechseries.com/sales-marketing/programmatic-buying/magnite-launches-first-agentic-campaign-in-emea-with-amnet-france/"
+              "MarTech · Data trust crisis",
+              "https://martech.org/the-data-trust-crisis-why-your-customer-data-is-getting-worse"
             ],
             [
-              "Agile Brand · Docusign agentic layer",
-              "https://agilebrandguide.com/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent/"
+              "MarTech · AI using bad data",
+              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions"
             ],
             [
-              "MarTech Series · Voicing AI Knowledge Mesh",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/voicing-ai-launches-knowledge-mesh-a-context-layer-for-enterprise-ai-agents/"
+              "MarTech · Hidden AI ROI costs",
+              "https://martech.org/the-hidden-costs-distorting-your-ai-roi"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Governance Gap</em>: Authority Without Accountability",
-          "url": "https://martech.org/the-ai-governance-test-most-marketers-are-missing/",
+          "head": "<em>Governance &amp; Autonomy</em> Gaps in the AI Stack",
+          "url": "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack",
           "body": [
-            "An 8x8 survey found that CIOs are blamed when AI fails yet <b>rarely have the authority to prevent the conditions that cause failure</b>. Parallel reporting shows marketers openly admit their AI systems are running on bad data, and a separate piece flags a loophole inside autonomous tech stacks where no human is accountable for cascading decisions. Governance is lagging dangerously behind deployment speed.",
-            "The hidden costs distorting AI ROI — unmeasured compute, shadow tooling, rework from poor outputs — compound the problem. <b>Organizations that do not assign clear decision rights and data-quality ownership before scaling agents will face reputational and financial exposure</b>, not just inefficiency. Governance is now a boardroom-level marketing risk, not an IT checkbox."
+            "Autonomous agents are being wired into marketing stacks faster than governance frameworks can catch up. A loophole identified this month shows that <b>agentic systems can execute consequential actions with no human checkpoint</b>, while a separate audit found most marketers are failing a basic AI governance test they do not even know exists.",
+            "The pattern is clear: tools like Docusign's Agreement Layer and Focal AI's agentic wealth platform signal that <b>agents will soon sign, spend, and commit on behalf of brands</b>. Without clear accountability structures, the liability lands on marketers who never reviewed the policy."
           ],
           "ev": [
             [
-              "MarTech · AI governance test",
-              "https://martech.org/the-ai-governance-test-most-marketers-are-missing/"
+              "MarTech · Autonomous stack loophole",
+              "https://martech.org/the-terrifying-loophole-in-your-autonomous-tech-stack"
             ],
             [
-              "MarTech Series · CIOs blamed for AI failure",
-              "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/cios-carry-the-blame-for-ai-failure-often-without-the-authority-to-prevent-it-8x8-survey-finds/"
+              "MarTech · Governance test",
+              "https://martech.org/the-ai-governance-test-most-marketers-are-missing"
             ],
             [
-              "MarTech · Bad data in AI decisions",
-              "https://martech.org/marketers-know-ai-is-using-bad-data-to-make-decisions/"
+              "Agile Brand · Docusign agentic layer",
+              "https://agilebrandguide.com/docusign-agreement-layer-for-the-agentic-enterprise-coming-to-every-agent"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "GEO &amp; <em>Brand Discoverability</em> Rewrites Weekly",
-          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
+          "head": "GEO Is Now a <em>Weekly Discipline</em>, Not a Campaign",
+          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now",
           "body": [
-            "Generative Engine Optimization has evolved from a quarterly SEO refresh into a <b>continuous, near-real-time discipline</b>. Because AI search models update their retrieval and ranking logic frequently, what made a brand visible last month may actively suppress it this month. A companion piece on what it takes for AI to find, trust, and act on a brand underlines that structured, credible, machine-readable signals are now the primary currency of discoverability.",
-            "OpenAI's ambitious ad revenue claims signal that AI-native surfaces will become major media channels in their own right, intensifying the stakes. <b>Marketers who treat GEO as a one-time audit rather than an ongoing editorial process will cede ground to faster-moving competitors</b> — and unlike traditional SEO penalties, losses in AI-mediated discovery may not surface in any dashboard until the damage is severe."
+            "Generative Engine Optimization has crossed a threshold: AI search surfaces change their ranking logic so frequently that <b>monthly or quarterly GEO reviews are already obsolete</b>. Brands that treat visibility in AI-generated answers as a set-and-forget task are ceding ground to competitors who treat it as an ongoing editorial process.",
+            "OpenAI's claim about ad revenue and SOCi's case study on local restaurant chains both reinforce the same point — <b>being findable inside AI-generated responses is becoming a primary acquisition channel</b>, and the rules governing it shift faster than traditional SEO ever did."
           ],
           "ev": [
             [
-              "MarTech · GEO is a weekly job",
-              "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/"
-            ],
-            [
-              "MarTech · AI find trust act on brand",
-              "https://martech.org/what-it-takes-for-ai-to-find-trust-and-act-on-your-brand/"
+              "MarTech · GEO weekly job",
+              "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now"
             ],
             [
               "MarTech · OpenAI ad revenue claim",
-              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
+              "https://martech.org/openais-audacious-claim-about-ad-revenue"
+            ],
+            [
+              "MarTech · Local search &amp; AI visibility",
+              "https://martech.org/why-growing-restaurant-chains-win-at-local-search-and-ai-visibility"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Pilot-to-Scale Chasm</em> Defines AI Maturity",
+          "head": "AI Pilots vs. <em>Scaled Capability</em>: Only 25% Cross the Line",
           "url": "https://agilebrandguide.com/marketing-ai-institute-chief-content-officer-mike-kaput-on-what-separates-an-ai-pilot-from-an-ai-capability/",
           "body": [
-            "Marketing AI Institute data shows only about <b>25% of organizations are scaling AI with a deliberate strategy</b> — the rest are stuck running disconnected pilots that never compound into capability. Salesforce's Winter '27 update cadence and the trend of software buyers moving faster than sellers both reinforce the same pattern: tooling is advancing faster than the organizational models needed to absorb it.",
-            "Content operations is a clear flashpoint — agents can now draft, schedule, and distribute at scale, but most teams lack the <b>workflow redesign and change-management muscle</b> to redirect human effort toward judgment rather than production. The gap between having AI and scaling AI is not a technology problem; it is a strategy and people problem that no additional software purchase will close."
+            "Marketing AI Institute's Mike Kaput crystallised a divide that explains much of the hype-vs-reality gap: <b>roughly 75% of organisations are still running isolated AI experiments</b> rather than building repeatable, organisation-wide capabilities. A pilot produces a demo; a capability changes how decisions get made at scale.",
+            "This structural gap is why AI hasn't solved marketing's time problem despite years of investment. <b>Speed gains stay local</b> — trapped inside one team's workflow — rather than compounding across the organisation. Closing the gap requires strategy, not more tools."
           ],
           "ev": [
             [
-              "Agile Brand · Mike Kaput on AI scaling",
+              "Agile Brand · Kaput on AI pilots",
               "https://agilebrandguide.com/marketing-ai-institute-chief-content-officer-mike-kaput-on-what-separates-an-ai-pilot-from-an-ai-capability/"
             ],
             [
-              "MarTech · Buyers moving faster than sellers",
-              "https://martech.org/software-buyers-are-moving-faster-than-software-sellers/"
+              "MarTech · AI &amp; time problem",
+              "https://martech.org/why-ai-hasnt-solved-marketings-time-problem"
             ],
             [
-              "MarTech · Content ops &amp; agents",
-              "https://martech.org/whats-next-in-content-operations-agents-what-else/"
+              "MarTech · Buyers moving faster than sellers",
+              "https://martech.org/software-buyers-are-moving-faster-than-software-sellers"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Trust &amp; <em>Independent Accountability</em> as Competitive Moats",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/a-new-independent-force-in-adtech-trusted-media-alliance-launches-at-dmexco-2026/",
+          "head": "The <em>Agentic Infrastructure</em> Layer Is Being Built Now",
+          "url": "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know",
           "body": [
-            "The Trusted Media Alliance launched at DMEXCO 2026 explicitly as an <b>independent counterweight to platform-controlled adtech</b>, and the conversation about media measurement failures signals the same anxiety from a different angle: marketers distrust the metrics produced by the systems they are being asked to fund. Brand safety, data provenance, and measurement independence are converging into a single trust agenda.",
-            "Crisis reputation management and AI-powered brand monitoring add another dimension — <b>the speed at which AI surfaces can amplify or suppress brand narratives means trust infrastructure must be proactive, not reactive</b>. Organizations that invest in verifiable, third-party-audited measurement and transparent supply chains will increasingly use that credibility as a differentiator when pitching both consumers and CFOs."
+            "Across CRM, CX, identity, and video, this month's product launches share one architectural bet: <b>the next competitive moat is infrastructure that lets AI agents act, not just advise</b>. Salesforce Winter '27, Alchemer's Iris, Focal AI, and Fimo's self-improving websites all embed agent-readiness as a core feature rather than a bolt-on.",
+            "Identity and trust are emerging as the chokepoints. Socure &amp; NextgenID's high-assurance IAL3 partnership signals that <b>agentic systems will need verified identity rails before enterprises trust them with real transactions</b>. Marketers who understand this infrastructure layer now will have procurement leverage when it becomes table stakes in 2027."
           ],
           "ev": [
             [
-              "MarTech Series · Trusted Media Alliance DMEXCO",
-              "https://martechseries.com/sales-marketing/programmatic-buying/a-new-independent-force-in-adtech-trusted-media-alliance-launches-at-dmexco-2026/"
+              "MarTech · Salesforce Winter 27",
+              "https://martech.org/10-salesforce-winter-27-updates-marketers-need-to-know"
             ],
             [
-              "MarTech · Media measurement problem",
-              "https://martech.org/marketers-are-media-measurements-biggest-problem/"
+              "Agile Brand · Alchemer Iris launch",
+              "https://agilebrandguide.com/alchemer-launches-iris-an-ai-native-customer-experience-platform-built-for-action"
             ],
             [
-              "MarTech · Crisis brand protection",
-              "https://martech.org/how-to-keep-a-crisis-from-defining-your-brand-online/"
+              "MarTech Series · Socure identity platform",
+              "https://martechseries.com/sales-marketing/id-mgmt/socure-and-nextgenid-partner-to-pair-ai-identity-intelligence-with-the-nations-only-certified-high-assurance-ial3-platform"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the central tension is the same: <em>AI capability is outrunning the governance, measurement, and organizational strategy needed to make it safe to scale</em>."
+      "takeaway": "The month's noise resolves into one structural truth: <em>AI in marketing has moved from experimentation to infrastructure, and the organisations that treat data quality, governance, and agentic readiness as strategic bets — not IT tickets — will set the terms everyone else follows by 2027</em>."
     }
   }
 }
