@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T09:51:12.583291+00:00",
+  "generatedAt": "2026-09-11T17:04:32.196030+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,22 +47,35 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Adform becomes OpenAI technology partner as ChatGPT Ads roll out across Europe",
+          "head": "ChatGPT Ads roll out in Europe with Adform as a launch platform partner",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
-          "plain": "<b>ChatGPT Ads are now live in Europe</b> through Adform, marking the first time OpenAI's ad inventory is accessible via a major programmatic buy-side platform on the continent. This changes how media buyers reach audiences inside AI-generated answers — a new channel category that sits outside traditional search and social budgets.",
+          "plain": "OpenAI is opening ChatGPT as a paid ad channel in Europe, with Adform among the first platforms wired in. This is a structural shift: <b>AI answer interfaces are becoming billable media inventory</b>, forcing European brands and their agencies to rethink budgets, measurement, and how they show up inside generative responses.",
           "chips": [
-            "agentic",
             "geo",
-            "govern"
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "02",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "FTC puts personalized pricing practices on notice — disclosure may be required",
+          "url": "https://martech.org/ftc-puts-personalized-pricing-practices-on-notice/",
+          "plain": "The FTC signaled it may require sellers to tell customers when and how their personal data shapes the price they see. This is a direct hit on <b>AI-driven dynamic pricing</b>: marketers using CDPs or ML models to set individual prices will need audit trails and disclosure plans, changing how personalization tools are built and sold.",
+          "chips": [
+            "govern",
+            "perso",
+            "cdp"
+          ]
+        },
+        {
+          "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Magnite and ITN launch agentic AI to automate local linear TV buying",
+          "head": "Magnite and ITN deploy agentic AI to automate local linear TV ad buying",
           "url": "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/",
-          "plain": "Magnite Orchestration now uses <b>agentic AI to compress a multi-week local linear TV buying process into hours</b>. This is a concrete, live example of an agent making media-placement decisions autonomously — not just recommending them — in a channel that has historically resisted automation.",
+          "plain": "A process that used to take several weeks — placing ads on local linear TV — now runs in hours through <b>Magnite's agentic orchestration layer</b>. This is a concrete, in-production example of agentic AI compressing a human workflow in a channel most automation has barely touched, signaling how fast buying infrastructure is changing.",
           "chips": [
             "agentic",
             "decis",
@@ -70,43 +83,29 @@
           ]
         },
         {
-          "num": "03",
+          "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Azoma sets out which GEO tools brands need as AI-referred retail traffic outpaces all other channels",
+          "head": "Azoma sets criteria for GEO tools as Adobe data shows AI-referred retail traffic leads all channels",
           "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/",
-          "plain": "Adobe data cited in the piece confirms <b>AI-referred traffic to retail sites is now the fastest-growing digital channel</b>. Azoma's framework for evaluating GEO tools gives marketers a practical buying guide for a category most teams have no budget line for yet — making this directly relevant to tool selection and spend decisions.",
+          "plain": "Adobe's data confirms <b>AI-referred traffic to retail sites is now outperforming every other digital channel</b>. Azoma breaks down what makes a GEO tool actually useful — a practical buying guide at the moment when brands are scrambling to stay visible inside ChatGPT, Gemini, and AI shopping agents like Amazon Rufus.",
           "chips": [
             "geo",
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech · via Rokt mParticle",
-          "fresh": false,
-          "head": "Agentic marketing decisions need data transparency — and most stacks don't provide it",
-          "url": "https://martech.org/your-marketing-agent-is-working-can-you-see-what-informs-its-recommendations/",
-          "plain": "This piece argues that <b>marketers running AI agents can't inspect what data is driving the agent's choices</b> — a governance gap that creates accountability risk. It frames transparency into agent reasoning as a procurement criterion, shifting how buyers should evaluate agentic marketing platforms.",
-          "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "cdp"
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Survey: 95% of IT leaders say they're AI-ready, but data quality and governance tell a different story",
-          "url": "https://agilebrandguide.com/unmasking-ai-readiness-hard-truths-from-it-leaders-on-commerce-data-foundations/",
-          "plain": "An Akeneo-commissioned global survey finds a wide gap between <b>self-reported AI readiness and actual data foundation quality</b>. With 87% expecting AI budget growth, the disconnect matters: teams buying AI tools on top of poor data will fail. This is a useful reality check for anyone scoping a MarTech AI rollout.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "CMOs face a build-vs-buy AI fork: generic capabilities vs. company-specific workflows",
+          "url": "https://martech.org/the-real-ai-decision-every-cmo-is-making-this-quarter/",
+          "plain": "As commodity AI features flood every vendor's roadmap, the strategic question shifts to <b>which workflows are worth owning and building internally</b>. This piece frames the procurement and architecture decision that will define marketing AI budgets this quarter — directly relevant to anyone advising on MarTech stack choices.",
           "chips": [
-            "govern",
-            "cdp",
-            "genai"
+            "genai",
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -115,24 +114,24 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Adform becomes OpenAI technology partner as ChatGPT Ads roll out across Europe",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
-          "plain": "OpenAI is now selling ads inside ChatGPT in Europe, with Adform as a certified buying platform. This is a structural shift in how digital ad budgets are placed — <b>ChatGPT becomes a paid media channel</b>, not just an organic one. Marketers and media buyers need to decide whether and how to allocate spend here.",
+          "head": "FTC puts personalized pricing practices on notice",
+          "url": "https://martech.org/ftc-puts-personalized-pricing-practices-on-notice/",
+          "plain": "The FTC isn't banning <b>personalized pricing</b> yet, but it's signaling that sellers may need to disclose when and how customer data drives the price a shopper sees. For anyone building or buying AI that adjusts prices per person, this is an early warning that <b>regulatory disclosure rules</b> could reshape how those systems must work.",
           "chips": [
-            "geo",
-            "agentic",
-            "govern"
+            "perso",
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Magnite and ITN launch agentic AI that compresses local linear TV buying from weeks to hours",
+          "head": "Magnite and ITN introduce agentic AI for local linear TV ad buying",
           "url": "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/",
-          "plain": "Local linear TV ad buying — historically a multi-week, manual process — is now being automated end-to-end by an <b>agentic AI layer inside Magnite Orchestration</b>. This matters because it extends agentic decisioning into a traditionally offline, relationship-driven channel, changing how TV inventory is bought and priced.",
+          "plain": "Magnite and ITN have wired an <b>agentic AI layer</b> into local linear TV buying, collapsing a process that used to take weeks into a matter of hours. This is a concrete live example of an agent making channel-level media decisions autonomously — a signal that <b>agentic decisioning is reaching traditional broadcast</b>, not just digital channels.",
           "chips": [
             "agentic",
             "decis",
@@ -143,38 +142,39 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Azoma sets out what GEO tools brands need as AI-referred retail traffic outpaces every other digital channel",
+          "head": "Azoma sets out which GEO tools help brands losing search traffic to AI answers",
           "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/",
-          "plain": "Adobe data cited here shows <b>AI-referred traffic to retail sites is now the fastest-growing digital channel</b>, overtaking paid and organic search. Azoma's framework tells marketers what to look for in GEO tooling — product data completeness, AI answer tracking, and agent-readiness — making this a practical buying guide for a new category.",
+          "plain": "New Adobe data confirms <b>AI-referred retail traffic is outperforming every other digital channel</b>. Azoma breaks down what to look for in GEO tools as brands scramble to stay visible inside ChatGPT, Gemini, Amazon Rufus, and Walmart Sparky. Practical criteria for evaluating a tool category that barely existed two years ago.",
           "chips": [
             "geo",
             "agentic",
-            "govern"
+            "genai"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · via MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Rokt mParticle: marketers need to inspect the data driving their AI agents' recommendations",
+          "head": "Your marketing agent is working — can you see what informs its recommendations?",
           "url": "https://martech.org/your-marketing-agent-is-working-can-you-see-what-informs-its-recommendations/",
-          "plain": "As agentic marketing systems make autonomous decisions, this piece argues that <b>explainability and data transparency are the missing governance layer</b>. If a marketer can't see why an agent recommended a specific message or offer, they can't audit, correct, or trust it — a direct challenge for anyone buying or building agentic platforms.",
+          "plain": "Rokt mParticle argues that <b>agentic marketing only holds up if marketers can inspect the data</b> behind an agent's recommendations. Without that transparency, automated decisions become a black box that's hard to audit or correct. A clear, practical case for building <b>explainability into agentic systems</b> from day one.",
           "chips": [
             "agentic",
-            "decis",
             "govern",
-            "cdp"
+            "cdp",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Frontier Airlines beats Delta on AI search visibility despite ranking last overall — six-month AiRR study",
-          "url": "https://agilebrandguide.com/theres-more-than-one-way-to-win-in-ai-search-frontier-airlines-is-in-last-place-and-beating-delta-where-it-counts/",
-          "plain": "Six months of daily ChatGPT tracking across 50,000+ scored answers reveals that <b>overall AI visibility rank and purchase-intent AI rank are different metrics</b> — a brand can lose on volume but win where buyers decide. This changes how marketers should set GEO goals and measure success in AI-answer environments.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The real AI decision every CMO is making this quarter: buy vs. own",
+          "url": "https://martech.org/the-real-ai-decision-every-cmo-is-making-this-quarter/",
+          "plain": "AI is making common marketing capabilities cheap to buy off the shelf, which pushes CMOs to decide <b>which company-specific workflows are worth building and owning</b>. This frames the central build-vs-buy tension shaping MarTech spending right now — and why the answer determines long-term competitive differentiation rather than just cost.",
           "chips": [
-            "geo",
+            "genai",
+            "agentic",
             "govern"
           ]
         }
@@ -185,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "GEO Is Now a <em>Weekly Operational Discipline</em>",
-          "url": "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/",
+          "head": "AI agents are operating <em>faster than oversight</em> can follow",
+          "url": "https://martech.org/your-marketing-agent-is-working-can-you-see-what-informs-its-recommendations/",
           "body": [
-            "As AI-generated answers displace traditional search results, brands are discovering that Generative Engine Optimisation is not a one-time SEO update but a <b>continuous, high-frequency practice</b>. Azoma's tool roundup and MarTech's analysis both confirm that the underlying ranking signals inside LLMs shift fast enough to demand weekly — not monthly — attention.",
-            "What makes this a real decision-change is the reframing of who owns it. GEO now sits uncomfortably between SEO, content, and product teams, and the Frontier Airlines case study shows that <b>niche authority can outperform raw traffic volume</b> in AI search results — meaning smaller brands have a genuine opening if they act systematically."
+            "Marketing agents are now making real decisions — bid adjustments, sequence triggers, content selection — but the data and logic powering those decisions remain largely invisible to the humans nominally in charge. The gap between what an agent does and what a marketer can audit is widening every quarter.",
+            "This isn't just a technical problem; it's a governance crisis in slow motion. <b>CMOs who can't explain why their AI recommended something can't correct it, defend it to regulators, or build org-wide trust in the system</b> — which turns speed into liability rather than advantage."
           ],
           "ev": [
             [
-              "MarTech · GEO weekly job",
-              "https://martech.org/rapid-ai-changes-mean-geo-is-a-weekly-job-now/"
+              "MarTech · AI · Agent visibility",
+              "https://martech.org/your-marketing-agent-is-working-can-you-see-what-informs-its-recommendations/"
             ],
             [
-              "MarTech Series · Azoma GEO tools",
-              "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
+              "MarTech · Real AI decision CMOs face",
+              "https://martech.org/the-real-ai-decision-every-cmo-is-making-this-quarter/"
             ],
             [
-              "Agile Brand · Frontier Airlines AI search",
-              "https://agilebrandguide.com/theres-more-than-one-way-to-win-in-ai-search-frontier-airlines-is-in-last-place-and-beating-delta-where-it-counts/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 02",
-          "head": "<em>AI ROI Accounting</em> Is Broken — and People Know It",
-          "url": "https://martech.org/a-better-way-to-answer-the-ai-roi-question/",
-          "body": [
-            "Multiple pieces this month converge on the same uncomfortable truth: the way most organisations calculate AI return on investment <b>systematically ignores hidden costs</b> — coordination overhead, data preparation, shadow labour, and tool sprawl. MarTech's ROI framework piece and the 'hidden costs' analysis together show that headline efficiency gains often evaporate once true inputs are counted.",
-            "The strategic implication is that leaders who keep approving AI spend on surface metrics are building a <b>false confidence loop</b>. A more honest accounting model — one that treats coordination tax and data-readiness work as first-class line items — is quickly becoming a competitive differentiator for CFOs &amp; CMOs who demand it."
-          ],
-          "ev": [
-            [
-              "MarTech · better AI ROI answer",
-              "https://martech.org/a-better-way-to-answer-the-ai-roi-question/"
-            ],
-            [
-              "MarTech · hidden costs distorting ROI",
-              "https://martech.org/the-hidden-costs-distorting-your-ai-roi/"
-            ],
-            [
-              "Agile Brand · hidden coordination tax",
+              "Agile Brand · Coordination tax of AI strategy",
               "https://agilebrandguide.com/expert-mode-the-hidden-coordination-tax-of-your-ai-strategy-and-how-to-avoid-paying-it/"
             ]
           ]
         },
         {
-          "num": "Theme 03",
-          "head": "Data Foundations Are the <em>Real AI Bottleneck</em>",
-          "url": "https://martech.org/built-for-yesterday-why-your-data-architecture-cant-keep-up-with-ai/",
+          "num": "Theme 02",
+          "head": "AI search is <em>rewriting discovery</em> — and measurement hasn't caught up",
+          "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/",
           "body": [
-            "Survey after survey this month reveals the same gap: AI ambition is running well ahead of the <b>data infrastructure capable of supporting it</b>. The Akeneo survey, the IT-leader readiness report, and MarTech's architecture critique all point to legacy data pipelines as the primary reason AI initiatives stall after the pilot stage.",
-            "This shifts the priority conversation away from model selection toward <b>data governance &amp; architecture investment</b>. Organisations that treat data readiness as a prerequisite — rather than a parallel workstream — are consistently the ones reaching production at scale, making this a board-level capital allocation question, not just an IT one."
+            "Generative AI answers are diverting traffic that used to flow through traditional search, forcing brands to develop entirely new optimization disciplines — Generative Engine Optimisation (GEO) — while their analytics stacks still report the old click-through metrics. Some brands, like Frontier Airlines, are outperforming bigger rivals in AI search despite conventional rankings, signaling that the competitive map has been redrawn.",
+            "<b>The strategic implication is that share-of-answer is replacing share-of-page</b>, and brands that keep optimizing only for legacy SERP signals will bleed visibility quietly before they notice it in revenue. Marketers need new measurement frameworks now, not after the traffic has already shifted."
           ],
           "ev": [
             [
-              "MarTech · data architecture can't keep up",
-              "https://martech.org/built-for-yesterday-why-your-data-architecture-cant-keep-up-with-ai/"
+              "MarTech Series · GEO tools &amp; AI answers",
+              "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
             ],
             [
-              "Agile Brand · AI readiness hard truths",
+              "Agile Brand · Frontier Airlines AI search wins",
+              "https://agilebrandguide.com/theres-more-than-one-way-to-win-in-ai-search-frontier-airlines-is-in-last-place-and-beating-delta-where-it-counts/"
+            ],
+            [
+              "MarTech · AI changing media faster than measurement",
+              "https://martech.org/ai-is-changing-media-faster-than-marketers-can-measure-it/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "Data foundations are the <em>real AI bottleneck</em>",
+          "url": "https://agilebrandguide.com/unmasking-ai-readiness-hard-truths-from-it-leaders-on-commerce-data-foundations/",
+          "body": [
+            "Survey after survey this month reveals the same hard truth: AI ambition inside organizations is dramatically outpacing the quality, completeness, and accessibility of the underlying data. IT leaders describe commerce data as fragmented, poorly governed, and nowhere near ready to power the AI use-cases their CMOs are promising to boards.",
+            "<b>The back office — inventory, product content, supplier data — turns out to be where AI either delivers or collapses</b>, yet it's the area that has received the least marketing-technology investment. Closing that gap is a precondition, not a parallel workstream, for any meaningful AI transformation."
+          ],
+          "ev": [
+            [
+              "Agile Brand · IT leaders on data foundations",
               "https://agilebrandguide.com/unmasking-ai-readiness-hard-truths-from-it-leaders-on-commerce-data-foundations/"
             ],
             [
-              "Agile Brand · Akeneo ambition vs foundation",
+              "Agile Brand · Akeneo survey — ambition outpacing foundations",
               "https://agilebrandguide.com/akeneo-survey-ai-ambition-is-outpacing-the-commerce-foundations-needed-to-deliver-it-2/"
+            ],
+            [
+              "Agile Brand · Linnworks CMO on back-office manual work",
+              "https://agilebrandguide.com/linnworks-cmo-hilary-smith-on-the-manual-work-hiding-inside-automated-operations/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "OpenAI Becomes an <em>Ad Platform Rival</em>",
-          "url": "https://martech.org/openais-audacious-claim-about-ad-revenue/",
+          "head": "Personalization meets <em>regulatory reckoning</em>",
+          "url": "https://martech.org/ftc-puts-personalized-pricing-practices-on-notice/",
           "body": [
-            "ChatGPT Ads landing in Europe via Adform, paired with OpenAI's audacious ad-revenue projections, signals that OpenAI is <b>no longer just an AI vendor but an emerging media channel</b>. For the first time, a single AI model provider is simultaneously powering creative tools, enterprise content infrastructure (Box), and a native programmatic ad network.",
-            "This consolidation forces marketers to reckon with a new power dynamic: <b>budget, data, and audience attention</b> may all flow through one platform. Brands that optimise for ChatGPT as a discovery surface while also buying ads there will gain an early-mover advantage — but they will also be deeply dependent on a single gatekeeper."
+            "The FTC's formal notice on personalized pricing signals that regulators are no longer treating AI-driven price and offer discrimination as an experimental gray area. At the same moment, OpenAI's ChatGPT ad rollout in Europe — with Adform as a platform partner — means AI-personalized commercial messages are scaling across tightly regulated markets simultaneously.",
+            "<b>Marketers are now caught between the commercial pressure to hyper-personalize and the legal pressure to prove that personalization isn't discriminatory or deceptive</b>. Trust, built slowly through transparency and consistent promises, is the only durable asset — and AI can erode it faster than any team can rebuild it."
           ],
           "ev": [
             [
-              "MarTech · OpenAI ad revenue claim",
-              "https://martech.org/openais-audacious-claim-about-ad-revenue/"
+              "MarTech · FTC personalized pricing notice",
+              "https://martech.org/ftc-puts-personalized-pricing-practices-on-notice/"
             ],
             [
-              "MarTech Series · Adform &amp; ChatGPT Ads Europe",
+              "MarTech · AI scales promises faster than trust",
+              "https://martech.org/ai-can-scale-your-promises-faster-than-you-can-build-trust/"
+            ],
+            [
+              "MarTech Series · ChatGPT Ads arrive in Europe via Adform",
               "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/"
-            ],
-            [
-              "MarTech Series · Box &amp; OpenAI enterprise",
-              "https://martechseries.com/content/box-partners-with-openai-to-reimagine-how-ai-and-content-power-enterprise-work/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Agentic AI Is <em>Rewriting the In-House Model</em>",
+          "head": "The <em>in-house model fractures</em> under AI pressure",
           "url": "https://martech.org/ai-is-putting-marketings-in-house-model-to-the-test/",
           "body": [
-            "From Nimble's single-prompt multi-channel sequences to Magnite's agentic linear-TV buying, the month's product launches share a pattern: <b>AI agents are absorbing tasks that justified entire in-house teams</b>. MarTech's analysis of the in-house model makes explicit what the product news implies — the economic case for large internal execution teams is eroding fast.",
-            "The decision that changes is not 'how many FTEs do we hire' but <b>'which human judgment is irreplaceable &amp; which execution do we hand to agents.'</b> Organisations that answer that question clearly will restructure productively; those that don't will pay the coordination tax identified in Theme 02 while also losing the talent arbitrage they used to enjoy."
+            "The in-housing wave of the last decade was built on the promise of control, speed, and cost savings — but AI is exposing its hidden fragility. When one tool or platform automates a capability that justified an entire internal team, the org chart becomes a liability rather than an asset, and the ROI case for keeping work inside collapses in ways that are hard to articulate to leadership.",
+            "<b>The deeper issue is talent and measurement</b>: AI hasn't freed up marketers' time as promised, partly because evaluating, integrating, and orchestrating AI tools now consumes the hours that execution used to. CMOs face a forced redesign of who does what — and neither pure in-house nor pure agency models fit the new shape of the work."
           ],
           "ev": [
             [
-              "MarTech · in-house model under pressure",
+              "MarTech · In-house model under AI pressure",
               "https://martech.org/ai-is-putting-marketings-in-house-model-to-the-test/"
             ],
             [
-              "MarTech Series · Nimble AI Sequences",
-              "https://martechseries.com/content/email-mktg/nimble-launches-ai-sequences-turning-one-prompt-into-a-complete-follow-up-of-emails-calls-and-human-touches/"
+              "MarTech · Why AI hasn't solved marketing's time problem",
+              "https://martech.org/why-ai-hasnt-solved-marketings-time-problem/"
             ],
             [
-              "MarTech Series · Magnite agentic TV",
-              "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/"
+              "MarTech · Better way to answer AI ROI question",
+              "https://martech.org/a-better-way-to-answer-the-ai-roi-question/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the dominant signal is the same: <em>the bottleneck has moved from AI capability to the organisational, data, and economic infrastructure required to deploy it responsibly at scale</em>."
+      "takeaway": "Across every layer of the stack this month, the central tension is the same: <em>AI is accelerating execution while simultaneously outrunning the governance, measurement, and organizational structures that would make that acceleration safe to rely on</em>."
     }
   }
 }
