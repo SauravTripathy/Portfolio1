@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T18:44:14.778076+00:00",
+  "generatedAt": "2026-09-15T10:11:59.303410+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,28 +45,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Only 14% of shoppers see consistent product data — GEO and agentic commerce explained",
-          "url": "https://agilebrandguide.com/athos-commerce-cmo-gary-lombardo-on-why-only-14-of-shoppers-see-one-consistent-brand/",
-          "plain": "Athos Commerce CMO Gary Lombardo flags that <b>86% of shoppers encounter inconsistent product data</b> across channels — a foundational problem as AI agents increasingly make purchase decisions on behalf of consumers. He explains how <b>GEO differs from SEO</b> and where brand authority fits in an agentic commerce world, making this directly relevant to anyone buying or building marketing AI.",
+          "head": "Zendesk Launches Specialized AI Agents Built for Specific Industries and Workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+          "plain": "Zendesk is moving beyond generic AI assistants with <b>industry-specific AI agents</b> that combine sector knowledge with a company's own workflows and connected systems to take real actions. This matters because it signals a shift in how customer-service AI is bought — buyers can now evaluate agents by vertical fit rather than general capability.",
           "chips": [
-            "geo",
             "agentic",
-            "perso"
+            "decis",
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Marketing's seat at the resilience table is theater if it lacks decision power, argues Fusion Risk Management",
-          "url": "https://agilebrandguide.com/expert-mode-a-seat-without-decisions-is-theater-with-richard-barnett-from-fusion-risk-management/",
-          "plain": "Richard Barnett argues that <b>marketing leaders who only react to crises — rather than shape resilience strategy</b> — are performing a role, not filling one. As AI automates more customer-facing decisions, this tension over who owns the decision layer grows sharper. Relevant to governance debates about where marketing authority starts and ends in automated systems.",
+          "head": "Copado Releases Agentia Headless: Governed AI Agent Pipelines Inside the Developer IDE",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/copado-brings-governed-agentops-directly-to-salesforce-developers-with-agentia-headless/",
+          "plain": "Copado's Agentia Headless brings <b>AI agent governance and testing directly into the developer's terminal and IDE</b>, so Salesforce builders can deploy agents without leaving their tools or skipping safety controls. This is a concrete governance-in-the-pipeline product, directly affecting how agentic AI is built and audited in enterprise marketing stacks.",
           "chips": [
-            "govern",
             "agentic",
-            "decis"
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Conversational AI Turns TV Commercial Breaks Into Real-Time One-to-One Viewer Interactions",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/conversational-ai-technology-transforms-commercial-breaks-into-real-time-one-to-one-viewer-engagement-across-broadcast-and-streaming-content/",
+          "plain": "Brand Engagement Network and Cataneo debuted technology at IBC2026 that embeds <b>AI agents inside broadcast and streaming ads</b>, letting viewers converse with brands in real time during commercial breaks. This redefines TV advertising from a one-way broadcast into a personalized, interactive channel — a significant shift in how media is bought and measured.",
+          "chips": [
+            "agentic",
+            "perso",
+            "decis",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Omneky Plugin on Grok Marketplace Lets Users Launch Ad Campaigns Inside a Chat",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omneky-plugin-now-available-on-the-grok-bot-marketplace/",
+          "plain": "Omneky's AI growth agent is now installable inside Grok, enabling users to <b>research, generate, and launch performance ad campaigns without leaving the chat interface</b>. This illustrates how generative AI assistants are becoming distribution channels for MarTech tools — changing where and how campaign software is accessed and sold.",
+          "chips": [
+            "genai",
+            "agentic",
+            "geo"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Flam Raises $40 Million Series B to Scale AI Interactive Content",
+          "url": "https://agilebrandguide.com/flam-raises-40-million-series-b-to-scale-ai-interactive-content/",
+          "plain": "Flam secured a $40 million Series B led by QED Investors to expand its <b>AI-powered interactive content platform</b>. The size of the round and the caliber of investors signals that interactive, AI-generated content experiences are attracting serious capital — relevant to anyone tracking where MarTech investment is heading.",
+          "chips": [
+            "genai",
+            "perso"
           ]
         }
       ]
@@ -76,66 +115,66 @@
         {
           "num": "01",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "ChatGPT Ads roll out in Europe with Adform as a launch partner",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
-          "plain": "OpenAI is now selling ads inside ChatGPT across Europe, with Adform as one of the first programmatic partners. This is a structural shift: <b>AI answer engines are becoming paid media channels</b>, which changes how marketing budgets are allocated and forces brands to think about visibility inside AI-generated responses, not just traditional search results.",
+          "fresh": true,
+          "head": "Copado Launches Agentia Headless: Governed AgentOps Inside the Salesforce Developer IDE",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/copado-brings-governed-agentops-directly-to-salesforce-developers-with-agentia-headless/",
+          "plain": "Copado bakes pipeline testing and <b>governance controls</b> directly into the IDE so Salesforce developers can deploy AI agents without leaving their normal tools. This matters because governance is the main reason enterprises slow-roll agentic AI rollouts — solving it at the developer layer removes a real barrier to production deployment.",
           "chips": [
-            "geo",
             "agentic",
-            "cep"
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "Magnite and ITN launch agentic AI for local linear TV ad buying",
-          "url": "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/",
-          "plain": "Magnite's Orchestration layer now uses <b>agentic AI to compress a multi-week local TV buying process into hours</b>. This is a real workflow change, not a badge deal — autonomous agents are making and placing media buys in a channel historically locked to manual negotiation, signalling how agentic decisioning will reshape traditional media procurement.",
+          "fresh": true,
+          "head": "Zendesk Launches Specialized AI Agents Built for Specific Industries and Business Workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/",
+          "plain": "Zendesk's new <b>industry-specific AI agents</b> combine sector knowledge with a company's own data, workflows, and connected systems to take autonomous action — not just answer questions. This shifts the buying conversation from generic chatbots to purpose-built agents that can actually complete tasks, raising the bar for every CX vendor in the space.",
           "chips": [
             "agentic",
             "decis",
-            "govern"
+            "cep"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "Azoma sets out which GEO tools help brands losing traffic to AI answers",
-          "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/",
-          "plain": "Adobe data cited here shows AI-referred retail traffic is now the fastest-growing digital channel, surpassing social and email. Azoma's guidance on <b>what to look for in GEO tooling</b> gives marketers a practical framework for staying visible in ChatGPT, Gemini, Rufus, and Walmart Sparky — the new front doors to commerce.",
+          "fresh": true,
+          "head": "BEN and Cataneo Turn TV Commercial Breaks Into Real-Time Conversational AI Ads",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/conversational-ai-technology-transforms-commercial-breaks-into-real-time-one-to-one-viewer-engagement-across-broadcast-and-streaming-content/",
+          "plain": "Brand Engagement Network and Cataneo unveiled technology that embeds <b>conversational AI agents inside broadcast and streaming ad breaks</b>, letting viewers talk back to commercials in real time. This rewrites how TV advertising is bought and measured, turning a passive impression into a two-way interaction that generates first-party data.",
           "chips": [
-            "geo",
             "agentic",
-            "perso"
+            "perso",
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Survey: 95% of IT leaders claim AI readiness but data quality gaps tell a different story",
-          "url": "https://agilebrandguide.com/unmasking-ai-readiness-hard-truths-from-it-leaders-on-commerce-data-foundations/",
-          "plain": "An Akeneo global survey finds almost every organization claims to be AI-ready, yet most have serious <b>data quality and governance gaps</b> underneath that confidence. This matters for MarTech buyers because weak product and customer data is the most common reason AI personalization and agentic tools underperform after deployment.",
+          "head": "Athos Commerce CMO: Only 14% of Shoppers See Consistent Product Data — and GEO Is Now the Fix",
+          "url": "https://agilebrandguide.com/athos-commerce-cmo-gary-lombardo-on-why-only-14-of-shoppers-see-one-consistent-brand/",
+          "plain": "An Athos Commerce exec explains why <b>inconsistent product data</b> breaks both traditional search and AI-answer visibility, and how <b>Generative Engine Optimization</b> differs from SEO in agentic commerce. The 14% statistic is a striking benchmark that marketers can use to justify investment in data quality and GEO strategy.",
           "chips": [
-            "govern",
-            "cdp",
-            "perso"
+            "geo",
+            "agentic",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Only 14% of shoppers see consistent brand data — and GEO is changing where brand lives",
-          "url": "https://agilebrandguide.com/athos-commerce-cmo-gary-lombardo-on-why-only-14-of-shoppers-see-one-consistent-brand/",
-          "plain": "Athos Commerce CMO Gary Lombardo explains that <b>inconsistent product data reaches 86% of shoppers</b> and why that problem is now acute: AI shopping agents pull structured data feeds directly, so brands with messy or contradictory product information will be misrepresented or skipped entirely in AI-generated recommendations — a GEO and data-quality crisis in one.",
+          "head": "Omneky Plugin on Grok Marketplace Lets Marketers Launch Ad Campaigns From Inside a Chat",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omneky-plugin-now-available-on-the-grok-bot-marketplace/",
+          "plain": "Omneky's AI growth agent is now a plugin inside Grok, letting users research, generate, and launch <b>performance ad campaigns without leaving the chat interface</b>. This is an early signal of how AI assistants are becoming media-buying surfaces — a structural shift in how ad tech is distributed and accessed.",
           "chips": [
-            "geo",
-            "cdp",
-            "agentic"
+            "genai",
+            "agentic",
+            "decis"
           ]
         }
       ]
@@ -145,121 +184,117 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "ChatGPT Ads &amp; <em>Generative Search</em> Rewrite Discovery",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
+          "head": "<em>Agentic AI</em> Moves from Demo to Governed Infrastructure",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/copado-brings-governed-agentops-directly-to-salesforce-developers-with-agentia-headless/",
           "body": [
-            "OpenAI's ad infrastructure is now live in Europe, with Adform as a named platform partner — meaning <b>paid media can appear inside ChatGPT conversations</b> for the first time at scale. This is not an experiment; it is a new channel that bypasses traditional search-engine result pages entirely.",
-            "Simultaneously, brands are discovering that organic visibility in AI-generated answers requires a different playbook than SEO. Azoma's GEO analysis and the Frontier Airlines case study both show that <b>ranking logic in generative engines rewards structured, factual content</b> over keyword density — forcing a rethink of content investment priorities."
+            "The conversation has shifted from <b>whether</b> to deploy AI agents to <b>how to govern them at scale</b>. Copado's Agentia Headless brings AgentOps controls directly into Salesforce developer workflows, while Zendesk ships purpose-built agents with built-in specialisation guardrails — signalling that the industry now treats agent governance as a prerequisite, not an afterthought.",
+            "This matters for marketing &amp; CX teams because ungoverned agents create compliance exposure and inconsistent customer experiences. The new expectation is that every autonomous AI action is auditable, role-scoped, and reversible — making <b>AgentOps literacy</b> as important as prompt engineering was two years ago."
           ],
           "ev": [
             [
-              "MarTech Series · ChatGPT Ads Europe",
-              "https://martechseries.com/sales-marketing/programmatic-buying/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/"
+              "MarTech Series · Copado Agentia Headless",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/copado-brings-governed-agentops-directly-to-salesforce-developers-with-agentia-headless/"
             ],
             [
-              "MarTech Series · GEO tools &amp; AI answers",
-              "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
+              "MarTech Series · Zendesk Specialized AI Agents",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zendesk-introduces-specialized-ai-agents-purpose-built-for-your-business/"
             ],
             [
-              "Agile Brand · Frontier Airlines AI search",
-              "https://agilebrandguide.com/theres-more-than-one-way-to-win-in-ai-search-frontier-airlines-is-in-last-place-and-beating-delta-where-it-counts/"
+              "Agile Brand · Conga AiMe",
+              "https://agilebrandguide.com/one-amazing-thing-about-congas-aime-with-elise-terrill/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic AI</em> Moves from Hype to Workflow",
-          "url": "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/",
+          "head": "AI Rewires <em>Real-Time Advertising</em> Engagement",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/conversational-ai-technology-transforms-commercial-breaks-into-real-time-one-to-one-viewer-engagement-across-broadcast-and-streaming-content/",
           "body": [
-            "Multiple vendors this month shipped tools where AI <b>acts autonomously across multi-step workflows</b> rather than just answering prompts: Magnite &amp; ITN's agentic solution handles local TV ad buys end-to-end, Nimble converts a single prompt into a full sequence of emails, calls, and human-touch tasks, and FinTurk automates advisor portfolio decisions.",
-            "The practical implication is that <b>human roles shift from execution to exception-handling</b>. Richard Barnett's 'seat without decisions is theater' framing captures the governance risk: if the agent makes the call, the human in the room needs genuine override authority or the role is ceremonial."
+            "Conversational AI is turning the passive commercial break into a <b>live, one-to-one dialogue</b> across broadcast and streaming — a structural change to how brands buy and measure attention. Beasley Media's fusion of AI with local data signals the same pressure in audio: generic programmatic is losing ground to context-aware, locally tuned inventory.",
+            "For media planners, the immediate decision is whether to treat these formats as experimental or to <b>redirect budget from impression-based buys</b> toward interaction-rate metrics. KERV.ai's Gold Star certification for streaming privacy adds a compliance dimension — interactive ad tech now carries both opportunity and data-handling obligations."
           ],
           "ev": [
             [
-              "MarTech Series · Magnite agentic TV",
-              "https://martechseries.com/tv-advertising/magnite-and-itn-expand-partnership-to-introduce-agentic-ai-solution-for-local-linear-tv/"
+              "MarTech Series · Conversational AI in Broadcasts",
+              "https://martechseries.com/sales-marketing/programmatic-buying/conversational-ai-technology-transforms-commercial-breaks-into-real-time-one-to-one-viewer-engagement-across-broadcast-and-streaming-content/"
             ],
             [
-              "MarTech Series · Nimble AI Sequences",
-              "https://martechseries.com/content/email-mktg/nimble-launches-ai-sequences-turning-one-prompt-into-a-complete-follow-up-of-emails-calls-and-human-touches/"
+              "MarTech Series · Beasley Media AI &amp; Data",
+              "https://martechseries.com/sales-marketing/programmatic-buying/beasley-media-group-combines-ai-data-and-local-expertise-to-serve-advertisers/"
             ],
             [
-              "Agile Brand · Seat without decisions",
-              "https://agilebrandguide.com/expert-mode-a-seat-without-decisions-is-theater-with-richard-barnett-from-fusion-risk-management/"
+              "Agile Brand · KERV.ai Certification",
+              "https://agilebrandguide.com/kerv-ai-achieves-the-trusted-partner-network-gold-star-certification-for-premium-streaming-content-security-and-privacy/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Ambition Outrunning <em>Data Foundations</em>",
-          "url": "https://agilebrandguide.com/akeneo-survey-ai-ambition-is-outpacing-the-commerce-foundations-needed-to-deliver-it-2/",
+          "head": "<em>Platform Consolidation</em> via Strategic Partnerships &amp; Acquisitions",
+          "url": "https://martechseries.com/content/box-partners-with-openai-to-reimagine-how-ai-and-content-power-enterprise-work/",
           "body": [
-            "Akeneo's survey and a separate IT-leader report both land the same verdict: <b>companies are deploying AI models on top of fragmented, incomplete product and commerce data</b>, which limits what those models can reliably do. The Linnworks CMO makes a related point — automation hides manual workarounds rather than eliminating them.",
-            "Box's partnership with OpenAI to connect enterprise content to AI pipelines is a direct response to this gap. <b>The bottleneck is not model capability; it is clean, governed, connected data</b> — and organisations that fix the foundation first will compound their AI returns while others iterate on noise."
+            "Box partnering with OpenAI, Brillio joining Salesforce's Forward Deployed Engineering Network, and Superhuman acquiring Fathom all point to the same dynamic: <b>point solutions are being absorbed into larger platform ecosystems</b> rather than competing independently. The goal is to reduce integration friction for enterprise buyers who cannot manage dozens of disconnected AI vendors.",
+            "For technology decision-makers, this consolidation wave means <b>vendor selection now carries ecosystem lock-in risk</b> that did not exist 18 months ago. Choosing a CRM or content platform increasingly means choosing the AI roadmap, data model, and partner network that come with it — making due diligence on platform strategy as critical as feature evaluation."
           ],
           "ev": [
             [
-              "Agile Brand · Akeneo AI foundations survey",
-              "https://agilebrandguide.com/akeneo-survey-ai-ambition-is-outpacing-the-commerce-foundations-needed-to-deliver-it-2/"
-            ],
-            [
-              "Agile Brand · IT leaders AI readiness",
-              "https://agilebrandguide.com/unmasking-ai-readiness-hard-truths-from-it-leaders-on-commerce-data-foundations/"
-            ],
-            [
-              "MarTech Series · Box &amp; OpenAI enterprise content",
+              "MarTech Series · Box &amp; OpenAI",
               "https://martechseries.com/content/box-partners-with-openai-to-reimagine-how-ai-and-content-power-enterprise-work/"
+            ],
+            [
+              "MarTech Series · Superhuman Acquires Fathom",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/superhuman-acquires-fathom-ai-notetaker/"
+            ],
+            [
+              "MarTech Series · Brillio &amp; Salesforce",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brillio-joins-salesforces-forward-deployed-engineering-partner-network/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Brand Consistency</em> Crisis at 14%",
+          "head": "The <em>Brand Consistency Crisis</em> AI Is Exposing",
           "url": "https://agilebrandguide.com/athos-commerce-cmo-gary-lombardo-on-why-only-14-of-shoppers-see-one-consistent-brand/",
           "body": [
-            "Only 14% of shoppers encounter a consistent brand experience across touchpoints — a statistic that reframes the urgency of data unification. <b>Fragmented martech stacks are not just an IT cost problem; they are a direct revenue leak</b> because inconsistency erodes trust at every interaction.",
-            "With AI now generating personalised content at scale, the inconsistency risk multiplies: <b>models trained on siloed data will produce siloed outputs</b>. Solving brand coherence therefore requires governance decisions — shared taxonomies, single sources of truth — before AI amplifies the gap rather than closing it."
+            "Only <b>14% of shoppers experience a consistent brand</b> across touchpoints — a figure that lands harder now that AI is multiplying the number of surfaces, tones, and formats a brand touches. Athos Commerce CMO Gary Lombardo frames this as a data architecture problem: without a unified commerce layer, AI personalisation amplifies inconsistency rather than curing it.",
+            "The strategic implication is that <b>deploying more AI without fixing upstream data fragmentation</b> makes the brand consistency gap worse, not better. Teams must audit whether their content, product, and customer data are genuinely unified before scaling AI-generated experiences — otherwise speed of output becomes a liability."
           ],
           "ev": [
             [
-              "Agile Brand · Gary Lombardo 14% consistency",
+              "Agile Brand · Athos Commerce CMO",
               "https://agilebrandguide.com/athos-commerce-cmo-gary-lombardo-on-why-only-14-of-shoppers-see-one-consistent-brand/"
             ],
             [
-              "Agile Brand · 63 marketing strategy stats",
+              "Agile Brand · 63 Marketing Strategy Statistics 2026",
               "https://agilebrandguide.com/63-marketing-strategy-statistics-for-2026/"
             ],
             [
-              "Agile Brand · Linnworks back-office manual work",
+              "Agile Brand · Linnworks CMO on Back-Office AI",
               "https://agilebrandguide.com/linnworks-cmo-hilary-smith-on-the-manual-work-hiding-inside-automated-operations/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Trust &amp; <em>Privacy Infrastructure</em> as Competitive Moat",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/newfold-digital-selects-digicert-to-modernize-digital-trust-infrastructure-for-six-million-customers/",
+          "head": "MCP &amp; <em>Cross-Model Interoperability</em> Becomes Table Stakes",
+          "url": "https://martechseries.com/sales-marketing/crm/greminders-launches-mcp-server-delivering-meeting-operations-and-household-data-across-claude-chatgpt-and-copilot/",
           "body": [
-            "Newfold Digital's DigiCert deal, covering six million customers, and KERV.ai's TPN Gold Star certification for streaming privacy both signal that <b>trust infrastructure is becoming a procurement requirement</b>, not a compliance checkbox. Buyers — B2B and B2C — are starting to disqualify vendors who cannot demonstrate verified data hygiene.",
-            "<b>As AI systems handle more sensitive personalisation and financial decisions</b> (see FinTurk's advisor automation), the stakes of a trust failure rise sharply. Organisations that invest in certified, auditable privacy and security frameworks now are building a moat that latecomers will find expensive to replicate."
+            "GReminders launching an MCP server that pipes meeting &amp; household data into Claude, ChatGPT, <b>and</b> Copilot simultaneously — and Omneky appearing on the Grok Bot Marketplace — signals that the Model Context Protocol is fast becoming the connective tissue of the MarTech stack. Vendors are no longer building for one AI runtime; they are building for all of them at once.",
+            "For marketing operators, this changes the evaluation criteria for any new tool: <b>does it expose an MCP endpoint, and which models does it support?</b> Teams that standardise on MCP-compatible vendors now will avoid costly re-integration cycles as the dominant AI assistants shift — making interoperability a buying criterion on par with core feature set."
           ],
           "ev": [
             [
-              "MarTech Series · Newfold &amp; DigiCert trust infra",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/newfold-digital-selects-digicert-to-modernize-digital-trust-infrastructure-for-six-million-customers/"
+              "MarTech Series · GReminders MCP Server",
+              "https://martechseries.com/sales-marketing/crm/greminders-launches-mcp-server-delivering-meeting-operations-and-household-data-across-claude-chatgpt-and-copilot/"
             ],
             [
-              "Agile Brand · KERV.ai TPN Gold Star",
-              "https://agilebrandguide.com/kerv-ai-achieves-the-trusted-partner-network-gold-star-certification-for-premium-streaming-content-security-and-privacy/"
-            ],
-            [
-              "MarTech Series · FinTurk advisor automation",
-              "https://martechseries.com/sales-marketing/crm/finturk-launches-portfoliosolver-and-vigil-to-expand-advisor-automation/"
+              "MarTech Series · Omneky on Grok Marketplace",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omneky-plugin-now-available-on-the-grok-bot-marketplace/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — new ad channels, agentic workflows, enterprise AI partnerships — is being throttled by the same bottleneck: <em>organisations cannot extract value from AI faster than they can fix the data, consistency, and trust foundations underneath it</em>."
+      "takeaway": "Every major move this month — from governed AgentOps to MCP interoperability — confirms that <em>the AI infrastructure layer is hardening into permanent enterprise plumbing</em>, and the teams that treat it as a strategic foundation rather than a feature sprint will hold the durable advantage."
     }
   }
 }
