@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T10:04:17.447704+00:00",
+  "generatedAt": "2026-09-16T17:40:27.390686+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,70 +45,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Salesforce Launches Koa, Its First CRM Reasoning Model Built on NVIDIA Nemotron",
-          "url": "https://martechseries.com/sales-marketing/crm/announcing-koa-salesforces-first-crm-reasoning-model-built-on-nvidia-nemotron/",
-          "plain": "Salesforce and NVIDIA have released Koa, a <b>CRM-native reasoning model</b> trained on 27 years of Salesforce data. Unlike generic LLMs, Koa is designed to handle complex, multi-step enterprise tasks inside CRM workflows. It also brings NVIDIA's open models into regulated-sector deployments via Missionforce. This directly changes how agentic AI gets bought and embedded in sales and marketing stacks.",
+          "head": "HubSpot rebuilds its platform around AI agents",
+          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
+          "plain": "HubSpot has restructured its entire platform so a redesigned <b>Breeze Assistant coordinates AI agents</b> rather than acting as a standalone chatbot. A self-updating CRM feeds those agents the business and customer context they need to act. This is a major shift in how a leading marketing platform is bought and used — agentic AI is now the architecture, not an add-on.",
           "chips": [
             "agentic",
             "decis",
-            "govern",
-            "genai"
+            "cdp",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Agentic AI Is Actively Running Media Buys — and Governance Is the Real Challenge Now",
-          "url": "https://martechseries.com/mts-insights/guest-authors/agentic-ai-is-no-longer-the-future-its-now-navigating-the-shift-toward-agentic-media-buying/",
-          "plain": "Autonomous systems are already executing <b>real-time bidding decisions and mid-flight budget shifts</b> with minimal human approval. This analysis argues the frontier question is no longer capability but responsible control — who sets guardrails, who is liable, and how marketers audit autonomous spend decisions. Essential framing for anyone buying or governing AI-driven media.",
+          "head": "Does anyone understand the CDP market anymore?",
+          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
+          "plain": "BlueConic CEO Melissa Murray Bailey walks through how the <b>CDP market has been reshaped by AI agents and M&A</b> over the past three years. For anyone buying or building on a customer data stack, this is essential context — the category has blurred, merged with other platforms, and the old vendor map is no longer reliable.",
           "chips": [
+            "cdp",
             "agentic",
-            "decis",
-            "govern",
-            "bandit"
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Adform Becomes OpenAI Technology Partner as ChatGPT Ads Roll Out Across Europe",
-          "url": "https://agilebrandguide.com/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
-          "plain": "OpenAI is extending its <b>ChatGPT Ads platform into Europe</b> with Adform as an official technology partner, giving Adform clients programmatic access to ad placements inside ChatGPT. This matters because it signals AI answer environments becoming formal paid media channels, reshaping how marketers think about both media buying and generative engine visibility.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The problem with AI doing exactly what you ask",
+          "url": "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/",
+          "plain": "This piece argues that <b>AI agents cause harm not by going rogue but by optimizing a poorly written objective with ruthless efficiency</b>. For marketers setting up automated decisioning, it is a practical governance warning: the risk is in the brief, not the bot. Directly relevant to anyone deploying agentic systems at scale.",
           "chips": [
-            "genai",
-            "geo",
-            "cep"
+            "agentic",
+            "decis",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Cordial Research: Holiday Shoppers Already Using AI Assistants for Product Discovery and Deal Hunting",
-          "url": "https://agilebrandguide.com/holiday-shoppers-embrace-ai-assistants-while-prioritizing-value-and-trust-cordial-research-finds/",
-          "plain": "New consumer research from Cordial shows shoppers are actively turning to <b>AI assistants for product discovery and price comparison</b> ahead of the holiday season. Brands that fail to show up in AI-generated answers — or that can't deliver trusted, personalized value — risk losing consideration entirely. Concrete evidence that GEO and personalization strategies are now business-critical.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "RWS launches Tridion agentic platform for governed enterprise content workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rws-launches-tridion-agentic-platform-bringing-governed-ai-agents-into-enterprise-content-workflows/",
+          "plain": "RWS has put its Tridion content management system into public preview as a <b>governed agentic platform</b> that lets regulated enterprises build and orchestrate AI agents across their content lifecycle. This matters because it shows how vendors are solving the governance gap that stops regulated industries from deploying agentic content tools.",
           "chips": [
-            "geo",
-            "perso",
+            "agentic",
             "genai",
-            "cep"
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Lokalise Launches Vantage: No-Code AI Workspace for Localizing Marketing Campaigns at Scale",
-          "url": "https://martechseries.com/content/lokalise-introduces-vantage-a-next-generation-no-code-workspace-for-localizing-marketing-and-long-form-content/",
-          "plain": "Lokalise's Vantage is a <b>no-code localization workspace</b> built specifically for marketing teams, embedding AI-powered translation and adaptation directly into existing campaign tools for websites, creative assets, and documents. Launching end of September, it matters because it lowers the barrier to multilingual personalization — a key bottleneck for brands running AI-driven content at global scale.",
+          "head": "Profound raises $180M at $1.8B valuation; AI shopper trust data from Bazaarvoice",
+          "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-16-2026/",
+          "plain": "Yesterday's news digest covers three signals worth tracking: <b>Profound raised $180M at a $1.8B valuation</b> (big money flowing into GEO tooling), Bazaarvoice found 65% of AI shoppers click known brands (brand visibility inside AI answers now drives purchase), and Sinch data shows holiday trust in AI is slipping — a governance and credibility warning.",
           "chips": [
-            "genai",
-            "perso",
-            "cep"
+            "geo",
+            "govern",
+            "genai"
           ]
         }
       ]
@@ -117,71 +115,68 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Salesforce Launches Koa, First CRM Reasoning Model Built on NVIDIA Nemotron",
-          "url": "https://martechseries.com/sales-marketing/crm/announcing-koa-salesforces-first-crm-reasoning-model-built-on-nvidia-nemotron/",
-          "plain": "Salesforce and NVIDIA jointly launched Koa, a <b>CRM-native reasoning model</b> trained on 27 years of Salesforce data. It handles complex, multi-step enterprise tasks inside Salesforce's agentic stack. This matters because it marks a shift from general-purpose AI bolted onto CRM to a purpose-built reasoning layer that can act — not just answer — within customer workflows.",
+          "head": "HubSpot rebuilds its platform around AI agents",
+          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
+          "plain": "HubSpot's redesigned Breeze Assistant now <b>coordinates a layer of AI agents</b> that act on customer data pulled from a continuously self-updating CRM. This is a major architectural shift — not a feature add — that will change how mid-market teams buy, configure, and govern marketing and sales software.",
           "chips": [
             "agentic",
+            "cdp",
             "decis",
-            "govern",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Agentic AI Is Already Running Real-Time Media Buying With Minimal Human Sign-Off",
-          "url": "https://martechseries.com/mts-insights/guest-authors/agentic-ai-is-no-longer-the-future-its-now-navigating-the-shift-toward-agentic-media-buying/",
-          "plain": "A practitioner analysis explains how <b>autonomous agents are now executing bids, reallocating budgets mid-campaign, and adjusting targeting</b> with little human approval at each step. This is no longer experimental — it's live. The piece focuses on what responsible deployment looks like, making it essential reading for anyone buying or governing paid media with AI.",
+          "head": "Does anyone understand the CDP market anymore?",
+          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
+          "plain": "BlueConic's CEO walks through how <b>M&A and agentic AI have reshaped the CDP category</b> in just three years, making the old vendor map obsolete. Essential reading for anyone buying or renewing a customer data platform, because the product you evaluated two years ago may now be something entirely different.",
           "chips": [
+            "cdp",
             "agentic",
-            "decis",
-            "bandit",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Adform Becomes OpenAI Tech Partner as ChatGPT Ads Expand Into Europe",
-          "url": "https://agilebrandguide.com/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
-          "plain": "OpenAI is rolling out <b>ChatGPT Ads in Europe</b> and Adform is one of its first official platform partners, meaning Adform clients can now serve ads inside ChatGPT. This is a concrete step toward AI-answer environments becoming a paid media channel — directly reshaping where marketing budgets flow and how brands stay visible in generative search.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "The problem with AI doing exactly what you ask",
+          "url": "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/",
+          "plain": "AI agents don't have to go rogue to cause harm — they can <b>pursue a poorly written objective with ruthless efficiency</b>. The piece explains why goal specification and output guardrails are now a core governance responsibility, not an afterthought, for any team deploying agentic marketing tools.",
           "chips": [
-            "geo",
-            "genai",
-            "cep"
+            "agentic",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Cordial Research: Holiday Shoppers Turn to AI Assistants for Discovery but Demand Personalized Value",
-          "url": "https://agilebrandguide.com/holiday-shoppers-embrace-ai-assistants-while-prioritizing-value-and-trust-cordial-research-finds/",
-          "plain": "New consumer research shows that shoppers are actively using <b>AI assistants for product discovery and deal-finding</b> during the holiday season, but they won't convert unless experiences feel personally relevant and trustworthy. This data is directly actionable for teams planning Q4 campaigns and deciding how much to invest in AI-driven personalization versus broad reach.",
+          "head": "Salesforce bets CRM experience can give its AI an edge",
+          "url": "https://martech.org/salesforce-bets-crm-experience-can-give-its-ai-an-edge/",
+          "plain": "Salesforce's new Koa reasoning model is trained on decades of CRM workflow data, aiming to handle <b>operational tasks behind customer interactions</b> better than general-purpose models. It signals that proprietary business-context data — not just model size — will be a key differentiator in enterprise AI buying decisions.",
           "chips": [
-            "perso",
-            "geo",
-            "genai",
-            "cep"
+            "agentic",
+            "cdp",
+            "decis",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Talkdesk Launches In-Store Commerce Orchestration to Unify Retail Customer Data",
-          "url": "https://agilebrandguide.com/talkdesk-brings-commerce-orchestration-to-the-retail-floor/",
-          "plain": "Talkdesk for Stores connects in-store, digital, and contact-center touchpoints into a single <b>unified customer view for retailers</b>. It lets associates and automated systems act on the same data in real time. For retail marketers, this closes a major gap between physical and digital engagement and enables AI-driven decisions that are actually grounded in complete customer context.",
+          "head": "Who owns your AI agents after they launch?",
+          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
+          "plain": "Agent ownership routinely falls through the gaps between marketing, IT, and legal once a system goes live. This piece lays out a framework for <b>assigning accountability for maintenance, oversight, and retirement</b> of AI agents — a governance gap that regulators and enterprise buyers are increasingly scrutinizing.",
           "chips": [
-            "cdp",
-            "cep",
-            "perso",
-            "agentic"
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -191,113 +186,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Agentic AI</em> Moves from Concept to Commerce Infrastructure",
-          "url": "https://martechseries.com/mts-insights/guest-authors/agentic-ai-is-no-longer-the-future-its-now-navigating-the-shift-toward-agentic-media-buying/",
+          "head": "The <em>Agentic Platform</em> Bet Is Now the Default Architecture",
+          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
           "body": [
-            "Agentic AI — systems that plan, decide, and act autonomously — is no longer a roadmap item. Media buying, CRM reasoning (Salesforce's Koa), and venue sales automation (MomentusMAX) all launched production-ready agentic layers this month, meaning <b>budget-allocation and pipeline decisions are increasingly being delegated to machines in real time</b>.",
-            "The decision that changes for marketers is no longer 'should we pilot AI?' but 'which workflows do we still own, and which do we hand over?' Tools like RSVPify's MCP connector show the pattern spreading even into niche verticals, compressing the timeline for every team to answer that question."
+            "HubSpot, Salesforce, RWS, and OpenText/Cohere all made major moves this month to <b>rebuild or reposition their core platforms around AI agents</b> rather than around workflows or dashboards. This is not a feature add — it is a foundational architectural shift that changes how enterprise software is bought, integrated, and governed.",
+            "The immediate decision for any martech buyer is whether to re-evaluate existing platform contracts through this new lens. <b>Vendors that cannot articulate an agentic roadmap are already falling behind</b>, and the window to lock in favorable terms before pricing reflects agentic capability is closing fast."
           ],
           "ev": [
             [
-              "MarTech Series · Agentic media buying",
-              "https://martechseries.com/mts-insights/guest-authors/agentic-ai-is-no-longer-the-future-its-now-navigating-the-shift-toward-agentic-media-buying/"
+              "MarTech · HubSpot rebuilds around AI agents",
+              "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
             ],
             [
-              "MarTech Series · Salesforce Koa CRM model",
-              "https://martechseries.com/sales-marketing/crm/announcing-koa-salesforces-first-crm-reasoning-model-built-on-nvidia-nemotron/"
+              "MarTech · Salesforce bets CRM can give AI an edge",
+              "https://martech.org/salesforce-bets-crm-experience-can-give-its-ai-an-edge/"
             ],
             [
-              "MarTech Series · MomentusMAX for venues",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/momentus-technologies-launches-momentusmax-an-ai-platform-built-for-venues-and-brings-max-for-sales-to-general-availability/"
+              "MarTech Series · RWS Tridion agentic platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rws-launches-tridion-agentic-platform-bringing-governed-ai-agents-into-enterprise-content-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Enters <em>Conversational Advertising</em> at Scale",
-          "url": "https://agilebrandguide.com/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/",
+          "head": "<em>Governance &amp; Accountability</em> Gaps Are Becoming Liability",
+          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
           "body": [
-            "OpenAI's ChatGPT Ads launching in Europe — with Adform as an early platform partner — marks a structural shift in paid media: <b>ad inventory now lives inside AI conversations, not just alongside content</b>. Holiday-shopper research from Cordial simultaneously shows consumers are already comfortable letting AI assistants influence purchases, provided trust signals are present.",
-            "For planners, this collapses the distinction between 'search,' 'social,' and 'AI assistant' channels into a single intent layer. Budgets, creative formats, and measurement frameworks built for traditional placements need rethinking before the next major shopping season."
+            "Three separate threads converged this month: who legally owns AI agents post-launch, how to measure AI against the right business goal rather than vanity metrics, and the political bias surfacing in Chinese AI models. Together they reveal that <b>most organizations have deployed AI faster than they have defined accountability structures</b> for what it does in market.",
+            "The risk is concrete: AI can scale brand promises faster than trust can be built, and an agent doing <b>exactly what it was asked</b> can still cause reputational or regulatory harm if the brief was incomplete. Leaders need ownership policies for agents as urgently as they need policies for employees."
           ],
           "ev": [
             [
-              "Agile Brand · ChatGPT Ads in Europe",
-              "https://agilebrandguide.com/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/"
+              "MarTech · Who owns your AI agents after launch?",
+              "https://martech.org/who-owns-your-ai-agents-after-they-launch/"
             ],
             [
-              "Agile Brand · Holiday shoppers &amp; AI trust",
-              "https://agilebrandguide.com/holiday-shoppers-embrace-ai-assistants-while-prioritizing-value-and-trust-cordial-research-finds/"
+              "MarTech · Companies measuring AI against wrong goal",
+              "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/"
+            ],
+            [
+              "MarTech · The problem with AI doing exactly what you ask",
+              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "CX Platforms Double Down on <em>AI-Driven Orchestration</em>",
-          "url": "https://agilebrandguide.com/talkdesk-brings-commerce-orchestration-to-the-retail-floor/",
+          "head": "AI-Native <em>Advertising Surfaces</em> Force a Media Strategy Reset",
+          "url": "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy/",
           "body": [
-            "Three separate CX moves this month — Talkdesk's commerce orchestration on the retail floor, Merlin Entertainments deploying NiCE CXone globally, and SupportNinja's MomentumLabs lab unit — all point in the same direction: <b>customer experience is being re-engineered around AI orchestration layers rather than point tools</b>. Medallia's recognition as the sole leader in customer feedback management reinforces that unified data pipelines underpin the whole stack.",
-            "The strategic implication is vendor consolidation. Brands that still run fragmented point solutions for chat, feedback, and commerce risk being outpaced by competitors whose AI orchestrator has a full-signal view of every customer touchpoint."
+            "ChatGPT Ads launched in Europe with Adform as a technology partner, and the IAB Tech Lab simultaneously proposed new rules for programmatic — both signals that the <b>digital advertising infrastructure is being redrawn around AI-mediated attention</b> rather than click-based inventory. Martech's own analysis warns that AI is changing media faster than marketers can measure it.",
+            "The strategic error to avoid is treating ChatGPT Ads as just another placement. <b>AI-native surfaces change what a conversion means</b>, how intent is inferred, and which data signals matter — making existing measurement frameworks misleading if applied without modification."
           ],
           "ev": [
             [
-              "Agile Brand · Talkdesk commerce orchestration",
-              "https://agilebrandguide.com/talkdesk-brings-commerce-orchestration-to-the-retail-floor/"
+              "MarTech · ChatGPT Ads are a tactical bet, not a platform strategy",
+              "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy/"
             ],
             [
-              "Agile Brand · Merlin &amp; NiCE CXone",
-              "https://agilebrandguide.com/merlin-entertainments-elevates-the-guest-experience-across-its-global-attractions-with-nice-cxone/"
+              "Agile Brand · Adform partners as ChatGPT Ads arrive in Europe",
+              "https://agilebrandguide.com/adform-is-one-of-openais-technology-platform-partners-as-chatgpt-ads-arrive-in-europe/"
             ],
             [
-              "MarTech Series · Medallia leader recognition",
-              "https://martechseries.com/analytics/medallia-named-the-only-leader-in-newest-customer-feedback-management-and-analytics-evaluation/"
+              "MarTech · AI is changing media faster than marketers can measure",
+              "https://martech.org/ai-is-changing-media-faster-than-marketers-can-measure-it/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Trust Gap: <em>Verification &amp; Fraud</em> as the Hidden Tax",
-          "url": "https://agilebrandguide.com/nearly-all-fraudulent-hires-gain-active-corporate-credentials-before-detection-hypr-research-finds/",
+          "head": "The <em>Data Governance</em> Layer Is the New Competitive Moat",
+          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
           "body": [
-            "Two risk stories surfaced this month that sit beneath the hype: HYPR found that nearly all fraudulent hires obtain active corporate credentials before detection, a threat amplified by AI-generated identities; ChatOn responded to a parallel consumer trust problem by shipping a dedicated fact-checking feature. <b>Trust is becoming a product feature, not just a brand value</b>.",
-            "For MarTech and AI buyers, this means procurement and security teams must be in the room when new AI tools are evaluated. The cost of a credential breach or a viral AI hallucination now rivals the cost of slow adoption — making verification infrastructure a competitive necessity, not a compliance checkbox."
+            "The CDP market's identity crisis, Entrinsik's launch of a governed path from trusted data to AI action, and the OpenText/Cohere partnership all point at the same gap: <b>AI quality is now directly gated by data governance quality</b>. Vendors are racing to own the trusted-data layer precisely because whoever controls it controls what the agents can reliably do.",
+            "For practitioners, the implication is that investing in a CDP or data platform without a governance framework attached is spending money on a foundation that will crack under agentic load. <b>Governance is no longer a compliance checkbox — it is a product capability</b> that determines whether AI outputs can be acted on safely."
           ],
           "ev": [
             [
-              "Agile Brand · HYPR fraudulent hires research",
-              "https://agilebrandguide.com/nearly-all-fraudulent-hires-gain-active-corporate-credentials-before-detection-hypr-research-finds/"
+              "MarTech · Does anyone understand the CDP market anymore?",
+              "https://martech.org/does-anyone-understand-the-cdp-market-anymore/"
             ],
             [
-              "MarTech Series · ChatOn fact-checking",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/chaton-introduces-fact-checking-feature-to-help-users-verify-news-and-ai-responses/"
+              "MarTech Series · Entrinsik governed path from data to AI action",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/entrinsik-launches-informer-apps-giving-organizations-a-governed-path-from-trusted-data-to-ai-powered-action/"
+            ],
+            [
+              "MarTech Series · OpenText &amp; Cohere combine trusted data with agentic AI",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/opentext-cohere-partner-to-combine-trusted-data-with-agentic-ai/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "No-Code AI Tools Democratise <em>Global Content at Speed</em>",
-          "url": "https://martechseries.com/content/lokalise-introduces-vantage-a-next-generation-no-code-workspace-for-localizing-marketing-and-long-form-content/",
+          "head": "<em>Consumer Trust</em> Is Outpacing AI Adoption — and Starting to Stall It",
+          "url": "https://martech.org/ai-can-scale-your-promises-faster-than-you-can-build-trust/",
           "body": [
-            "Lokalise's Vantage workspace and Conga's AiMe contract-intelligence tool both launched this month as explicitly no-code environments, letting marketers and ops teams deploy AI for localisation and document workflows <b>without engineering queues</b>. Achievers Intelligence similarly packages workforce recognition data into self-serve insight dashboards.",
-            "The pattern signals a second wave of AI adoption: the first wave required data-science resources; this wave hands capability directly to the people who understand the business problem. Teams that embrace these no-code layers now will compound advantage rapidly over those waiting for IT-led rollouts."
+            "TrustRadius data shows B2B AI use keeps rising but trust in it has stalled; holiday shopper research from Cordial finds consumers embrace AI assistants only when value and trust are both present. These are not contradictory — they show that <b>adoption is habit-forming while trust remains fragile and context-dependent</b>.",
+            "The brand-side consequence is that <b>AI-generated content and AI-mediated experiences are already exposing gaps in brand guidelines</b> that were written for human execution. Organizations that do not close those gaps before agents scale them will find eroded trust difficult to recover, particularly in regulated or high-consideration categories."
           ],
           "ev": [
             [
-              "MarTech Series · Lokalise Vantage",
-              "https://martechseries.com/content/lokalise-introduces-vantage-a-next-generation-no-code-workspace-for-localizing-marketing-and-long-form-content/"
+              "Agile Brand · TrustRadius on B2B trust in AI stalling",
+              "https://agilebrandguide.com/trustradius-katie-allison-on-how-b2b-buying-decisions-get-made-today/"
             ],
             [
-              "Agile Brand · Conga AiMe",
-              "https://agilebrandguide.com/one-amazing-thing-about-congas-aime-with-elise-terrill/"
+              "MarTech · AI can scale promises faster than you can build trust",
+              "https://martech.org/ai-can-scale-your-promises-faster-than-you-can-build-trust/"
             ],
             [
-              "Agile Brand · Achievers Intelligence",
-              "https://agilebrandguide.com/achievers-unveils-achievers-intelligence-turning-recognition-data-into-workforce-insight-and-action-2/"
+              "MarTech · AI exposes what brand guidelines leave unsaid",
+              "https://martech.org/ai-exposes-what-your-brand-guidelines-leave-unsaid/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — media buying, CX orchestration, content localisation, and identity security — <em>AI is shifting from an experiment brands run to infrastructure brands run on</em>, and the teams that treat it as such now will set the competitive baseline for everyone else."
+      "takeaway": "Across every layer of the stack — platform, data, media, measurement, and trust — <em>the shift to agentic AI is forcing decisions that can no longer be deferred without ceding competitive ground to those who make them first</em>."
     }
   }
 }
