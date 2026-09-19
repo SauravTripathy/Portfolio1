@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T17:08:24.769751+00:00",
+  "generatedAt": "2026-09-19T09:37:08.451978+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,24 +45,25 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "AI chatbots are actively steering consumers away from purchases",
-          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
-          "plain": "A new survey finds <b>81% of shoppers using AI chatbots have been talked out of a purchase</b> by the AI itself. This changes the visibility game entirely — brands can no longer rely on paid or organic reach alone if the AI layer is filtering them out at the moment of decision. Directly relevant to GEO and agentic decisioning strategy.",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Stonly Launches Business Process Agents to Automate End-to-End Customer Service",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/stonly-launches-business-process-agents-to-automate-complex-customer-service-processes/",
+          "plain": "Stonly's new <b>Business Process Agents</b> let AI follow the same knowledge bases and SOPs support teams already use — no rebuilding required. This matters because it lowers the barrier to deploying agentic automation in customer service, letting brands hand off complex multi-step processes to AI without rewriting their institutional knowledge from scratch.",
           "chips": [
-            "geo",
             "agentic",
-            "decis"
+            "decis",
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "AI search is rewriting brand visibility — earned media is becoming infrastructure",
-          "url": "https://agilebrandguide.com/ai-search-is-rewriting-brand-visibility-earned-media-is-becoming-infrastructure/",
-          "plain": "The piece argues that <b>ranking in AI-generated answers now depends on credibility signals</b> — reviews, citations, third-party coverage — not just SEO. Brands that ignore this shift risk invisibility inside AI responses. A practical framing for marketers who need to understand why GEO is a budget-level decision, not just a technical tweak.",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Fingerprint Launches Bot Directory to Map AI Crawlers and Automated Web Traffic",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fingerprint-launches-bot-directory-built-for-the-ai-era/",
+          "plain": "Fingerprint released a public, searchable <b>Bot Directory</b> cataloguing AI crawlers and bots hitting websites. As generative AI search engines index the web more aggressively, marketers and site owners need to know which bots are real and which are scrapers — this tool directly supports both <b>GEO strategy</b> and traffic-quality governance.",
           "chips": [
             "geo",
             "govern"
@@ -70,43 +71,39 @@
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Marketing automation fails without recent buyer context, new analysis warns",
-          "url": "https://martech.org/your-marketing-automation-needs-more-context/",
-          "plain": "When automation platforms miss <b>recent buyer signals — a support ticket, a browse session, a return</b> — messaging misfires and damages trust. The piece makes a clear case for connecting CDP-level context to engagement workflows in real time. Relevant to anyone buying or building marketing automation or CEP tooling in 2026.",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "accessiBe Code Agent Brings Agentic Accessibility Review Into GitHub Pull Requests",
+          "url": "https://martechseries.com/technology/accessibe-launches-code-agent-bringing-agentic-accessibility-into-developer-workflows/",
+          "plain": "accessiBe's <b>Code Agent</b> reviews accessibility compliance at the pull-request stage, before code ships. For MarTech builders, this represents a new class of <b>agentic governance</b> baked directly into developer workflows — catching compliance issues early rather than retrofitting fixes after launch, reducing legal and reputational risk.",
           "chips": [
-            "cdp",
-            "cep",
-            "perso",
-            "decis"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Stensul integrates governed AI campaign creation with Salesforce Marketing Cloud Next",
-          "url": "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/",
-          "plain": "Stensul's beta integration lets <b>AI agents create and personalize campaigns inside Salesforce Marketing Cloud Next</b>, but keeps human-defined guardrails in place before activation. This is a concrete example of governed agentic creation hitting a major enterprise platform — a signal of where the CEP market is heading on AI governance.",
+          "head": "Hybrid E-Commerce Playbook: One Platform Serving Both B2B and B2C Buyers",
+          "url": "https://agilebrandguide.com/expert-mode-the-hybrid-e-commerce-playbook-for-b2b-and-b2c/",
+          "plain": "Guy Gunter Home's rebuild with agency OX shows how a single intelligent commerce platform can serve <b>two fundamentally different buying modes</b> without fragmenting the brand. The case study is practical for teams deciding how to architect personalization and data infrastructure that handles both wholesale and retail customers from one stack.",
           "chips": [
-            "genai",
-            "agentic",
-            "govern",
+            "perso",
+            "cdp",
             "cep"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
-          "fresh": true,
-          "head": "Vibe opens connected TV ad platform to AI agents via Claude, ChatGPT and APIs",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/vibe-expands-connected-tv-platform-with-agent-access-and-six-new-integrations/",
-          "plain": "Vibe now lets advertisers <b>launch and manage streaming TV campaigns directly from AI agents</b> like Claude or ChatGPT, or via API. This is an early but real example of agentic decisioning crossing into paid media buying — the AI doesn't just recommend, it executes. Worth watching as a template for how ad platforms open to agent orchestration.",
+          "fresh": false,
+          "head": "cPanel AI Brings Generative Website and App Creation to Global Hosting Providers",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cpanel-brings-ai-to-website-and-application-hosting-globally/",
+          "plain": "cPanel's generally available <b>AI layer</b> lets hosting providers offer AI-generated website and application creation directly within their platform. For MarTech teams, this signals that <b>generative site-building</b> is moving from premium SaaS tools into commodity hosting infrastructure — reshaping how small and mid-market brands launch AI-assisted digital experiences.",
           "chips": [
-            "agentic",
-            "decis",
-            "cep"
+            "genai",
+            "geo"
           ]
         }
       ]
@@ -115,51 +112,37 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "AI is telling consumers not to buy your product",
-          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
-          "plain": "Nearly <b>81% of shoppers using AI chatbots have been talked out of a purchase</b> by the AI itself. This reframes the GEO problem: it's not just about showing up in AI answers, it's about whether the AI recommends or discourages your product. Marketers now have a new adversarial channel to understand and manage.",
+          "head": "AI Search Is Rewriting Brand Visibility — Earned Media Is Becoming Infrastructure",
+          "url": "https://agilebrandguide.com/ai-search-is-rewriting-brand-visibility-earned-media-is-becoming-infrastructure/",
+          "plain": "The piece argues that <b>generative AI answer engines</b> are now the gatekeepers of brand discovery, shifting the question from search ranking to AI credibility signals. For marketers, this reframes earned media — press, reviews, citations — as foundational infrastructure for <b>GEO strategy</b>, not just PR. Anyone buying or building visibility programs needs to understand this shift now.",
           "chips": [
             "geo",
-            "govern",
-            "decis"
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "HubSpot rebuilds its platform around AI agents",
-          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
-          "plain": "HubSpot redesigned Breeze Assistant so it <b>coordinates multiple AI agents using a self-updating CRM as shared context</b>. This is a platform-level architectural shift — not a feature add — that changes how marketing, sales, and service AI tasks are bought and run inside a single vendor ecosystem.",
+          "head": "Stensul Integrates Governed Creation With Salesforce Marketing Cloud Next for AI-Driven Campaigns",
+          "url": "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/",
+          "plain": "Stensul's beta integration lets marketers and AI agents build and personalize campaigns inside Salesforce Marketing Cloud Next while enforcing <b>brand and compliance guardrails</b> throughout creation. This matters because it shows how <b>governed agentic content creation</b> is being wired directly into major CEPs — changing how enterprise teams buy and configure marketing stacks.",
           "chips": [
+            "genai",
             "agentic",
-            "cdp",
-            "cep",
-            "decis"
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "Does anyone understand the CDP market anymore?",
-          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
-          "plain": "BlueConic's CEO explains how <b>AI agents and M&A have fundamentally reshaped the CDP category</b> over three years. For buyers, the vendor landscape is now harder to navigate; for builders, CDPs must now serve as the data backbone for agentic systems, not just segmentation tools.",
-          "chips": [
-            "cdp",
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The problem with AI doing exactly what you ask",
-          "url": "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/",
-          "plain": "AI agents can cause serious harm <b>without going rogue — just by optimizing a badly written goal</b>. This piece tackles the governance gap between what marketers intend and what agents actually pursue, making objective-setting and oversight a critical new skill for anyone deploying agentic systems.",
+          "head": "Stonly Launches Business Process Agents to Automate End-to-End Customer Service Workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/stonly-launches-business-process-agents-to-automate-complex-customer-service-processes/",
+          "plain": "Stonly's new <b>Business Process Agents</b> run complete customer service workflows autonomously, following existing SOPs and knowledge bases rather than requiring teams to rebuild processes for AI. This is a meaningful shift in how agentic AI is deployed in service operations — reusing human-designed rules rather than replacing them — with direct implications for <b>governance and accountability</b>.",
           "chips": [
             "agentic",
             "govern",
@@ -167,16 +150,28 @@
           ]
         },
         {
-          "num": "05",
-          "src": "Agile Brand",
+          "num": "04",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "AI Search Is Rewriting Brand Visibility. Earned Media Is Becoming Infrastructure.",
-          "url": "https://agilebrandguide.com/ai-search-is-rewriting-brand-visibility-earned-media-is-becoming-infrastructure/",
-          "plain": "The article argues that the competitive question has shifted from search rankings to <b>whether AI models treat your brand as credible enough to cite</b>. Earned media — press, reviews, authoritative mentions — is now structural marketing infrastructure, not a PR bonus, changing how brand budgets should be allocated.",
+          "head": "Vibe Expands Connected TV Platform With Agent Access via Claude, ChatGPT, and Open APIs",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/vibe-expands-connected-tv-platform-with-agent-access-and-six-new-integrations/",
+          "plain": "Vibe now lets advertisers launch and manage streaming TV campaigns directly through AI agents like Claude and ChatGPT, or via their own applications. This is an early real-world example of <b>agentic media buying</b> — where an AI system, not a human in a UI, controls campaign decisions and spend — a model likely to spread across <b>programmatic channels</b>.",
           "chips": [
-            "geo",
-            "govern",
-            "genai"
+            "agentic",
+            "decis",
+            "cep"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Fingerprint Launches Public Bot Directory to Map AI Crawlers and Automated Web Traffic",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fingerprint-launches-bot-directory-built-for-the-ai-era/",
+          "plain": "Fingerprint's searchable <b>Bot Directory</b> catalogs AI tools, crawlers, and bots hitting websites, giving organizations a way to distinguish human from automated traffic. As AI agents increasingly act on the web on behalf of users and brands, <b>knowing which traffic is bot-generated</b> becomes critical for analytics accuracy, ad fraud prevention, and governance of automated systems.",
+          "chips": [
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -186,121 +181,109 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Reshaping the Stack</em> — Platforms Rebuild Around Them",
-          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
+          "head": "AI Agents Are Becoming <em>Operational Infrastructure</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/stonly-launches-business-process-agents-to-automate-complex-customer-service-processes/",
           "body": [
-            "HubSpot's full platform rebuild around AI agents is not a feature release — it is a signal that the foundational architecture of MarTech is changing. Salesforce, Stonly, Vibe, and MoEngage are all shipping agent-native capabilities in the same window, suggesting a <b>broad platform-layer shift</b>, not isolated experiments.",
-            "For decision-makers, this means vendor selection criteria must now include agent governance and interoperability, not just feature checklists. The question is no longer whether your stack supports AI — it is whether it was <b>designed to be orchestrated by agents</b> at runtime."
+            "Across customer service, connected TV, and developer workflows, AI agents are no longer demos — they are being embedded directly into production systems. Stonly's Business Process Agents automate complex service flows, Vibe adds agent access to its CTV platform, and accessiBe ships a Code Agent that bakes accessibility into developer pipelines.",
+            "The decision-shift here is that <b>buying a point tool is no longer the question</b>; the question is which platforms expose agent interfaces and which lock you out. Marketers who pick closed stacks now will find themselves manually bridging workflows their competitors automate end-to-end."
           ],
           "ev": [
             [
-              "MarTech · HubSpot rebuild",
-              "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
+              "Stonly · Business Process Agents launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/stonly-launches-business-process-agents-to-automate-complex-customer-service-processes/"
             ],
             [
-              "MarTech · Salesforce CRM edge",
-              "https://martech.org/salesforce-bets-crm-experience-can-give-its-ai-an-edge/"
+              "Vibe · Agent Access &amp; CTV integrations",
+              "https://martechseries.com/sales-marketing/programmatic-buying/vibe-expands-connected-tv-platform-with-agent-access-and-six-new-integrations/"
             ],
             [
-              "Agile Brand · MoEngage agentic tour",
-              "https://agilebrandguide.com/moengage-launches-north-agentic-marketing-tour-bringing-marketers-face-to-face-with-brands-deploying-ai-agents-in-production/"
+              "accessiBe · Code Agent for developers",
+              "https://martechseries.com/technology/accessibe-launches-code-agent-bringing-agentic-accessibility-into-developer-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Search</em> Is the New Gatekeeper — and It May Recommend Against You",
-          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
+          "head": "<em>AI Search</em> Rewrites Brand Visibility Rules",
+          "url": "https://agilebrandguide.com/ai-search-is-rewriting-brand-visibility-earned-media-is-becoming-infrastructure/",
           "body": [
-            "AI-powered search and answer engines are now making purchase recommendations on behalf of consumers — and those recommendations frequently exclude or actively discourage brands that have not optimized for machine-readable signals. <b>Earned media is becoming infrastructure</b>, not a nice-to-have PR outcome, because it feeds the training and retrieval layers that shape AI answers.",
-            "Marketers built for click-through visibility are flying blind in this environment. The decision that changes here is where to allocate content &amp; PR budget: <b>authority signals that AI surfaces</b> must now sit alongside paid search in performance planning."
+            "AI-powered search engines are reshuffling which brands surface in answers, making <b>earned media — press coverage, reviews, citations — function as technical infrastructure</b> rather than a soft PR metric. Brands that historically relied on paid search dominance are discovering their presence in AI-generated responses depends on what third parties say about them, not what they bid.",
+            "This forces a strategic reallocation: content and PR investments now carry SEO-equivalent weight, and teams must treat authoritative external mentions as a pipeline asset. The window to build this corpus before AI search matures is narrow."
           ],
           "ev": [
             [
-              "MarTech · AI tells consumers not to buy",
-              "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
-            ],
-            [
-              "Agile Brand · AI search rewrites visibility",
+              "Agile Brand · AI Search &amp; Earned Media",
               "https://agilebrandguide.com/ai-search-is-rewriting-brand-visibility-earned-media-is-becoming-infrastructure/"
             ],
             [
-              "MarTech · battle for digital storefront",
-              "https://martech.org/the-ultimate-battle-for-your-digital-storefront/"
+              "MoEngage · Agentic Marketing Tour signal",
+              "https://agilebrandguide.com/moengage-launches-north-agentic-marketing-tour-bringing-marketers-face-to-face-with-brands-deploying-ai-agents-in-production/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Speed Without Structure: <em>Faster AI, Worse Outcomes</em>",
-          "url": "https://martech.org/faster-ai-can-make-slow-marketing-processes-worse/",
+          "head": "Governance Layers Enter <em>AI-Powered Creation</em>",
+          "url": "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/",
           "body": [
-            "Three separate pieces this month converge on the same warning: AI executing a flawed brief faster, with less context, and against the wrong metric amplifies existing problems rather than fixing them. <b>Process debt compounds at AI speed.</b> The articles on AI doing exactly what you ask, on measuring AI against the wrong goal, and on automation needing more context all describe the same failure mode from different angles.",
-            "The practical implication is that AI readiness audits must precede AI deployment. <b>Governance frameworks, prompt design, and success metrics</b> need to be resolved before throughput is accelerated — otherwise teams are scaling noise, not signal."
+            "Stensul's integration with Salesforce Marketing Cloud Next signals a maturing phase: <b>guardrails, brand controls, and approval workflows are being baked into AI content creation</b> rather than bolted on afterward. This is the industry acknowledging that speed without governance creates compliance and brand-consistency risk at scale.",
+            "For marketing ops leaders, the practical implication is that choosing a content creation platform now means evaluating its governance architecture, not just its generative output quality. Teams that skip this will face audit failures and brand dilution as AI-generated volume grows."
           ],
           "ev": [
             [
-              "MarTech · faster AI worse processes",
-              "https://martech.org/faster-ai-can-make-slow-marketing-processes-worse/"
+              "Stensul · Governed Creation in SFMC Next",
+              "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/"
             ],
             [
-              "MarTech · problem with AI doing what you ask",
-              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
-            ],
-            [
-              "MarTech · measuring AI wrong goal",
-              "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/"
+              "Agile Brand · MarTech &amp; CX News Sept 18",
+              "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-18-2026/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Agent Ownership &amp; <em>Governance Gaps</em> Are Becoming Liability",
-          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
+          "head": "Bot &amp; Traffic Intelligence Becomes a <em>First-Line Defense</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fingerprint-launches-bot-directory-built-for-the-ai-era/",
           "body": [
-            "Once an AI agent is live — running ad accounts, handling customer service, or triggering workflows — the question of who is accountable for its decisions becomes urgent and largely unanswered. The conversation about <b>agent ownership post-launch</b> is paired this month with IAB Tech Lab's new programmatic rules and Stensul's governed content creation inside Salesforce, signalling that the industry is starting to legislate and architect around this gap.",
-            "For marketing ops teams, this is a staffing &amp; policy question as much as a technology one. <b>Role definitions, audit trails, and override protocols</b> need to exist before agents touch live revenue systems — and most organizations have not written them yet."
+            "Fingerprint's Bot Directory — built explicitly for the AI era — reflects a sharp escalation in automated traffic complexity. As AI agents proliferate and interact with websites, the line between legitimate automation and adversarial bots dissolves, <b>making bot classification a prerequisite for accurate analytics, ad measurement, and fraud prevention</b>.",
+            "Marketers can no longer treat bot filtering as a backend IT concern. Unfiltered AI-agent traffic will corrupt conversion data, inflate media costs, and skew personalization models — meaning bot intelligence now belongs in the MarTech stack evaluation criteria alongside CDPs and attribution tools."
           ],
           "ev": [
             [
-              "MarTech · who owns your AI agents",
-              "https://martech.org/who-owns-your-ai-agents-after-they-launch/"
+              "Fingerprint · Bot Directory launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fingerprint-launches-bot-directory-built-for-the-ai-era/"
             ],
             [
-              "MarTech · IAB Tech Lab programmatic rules",
-              "https://martech.org/iab-tech-lab-proposes-new-rules-for-programmatic/"
-            ],
-            [
-              "MarTech Series · Stensul governed creation",
-              "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/"
+              "Agile Brand · MarTech &amp; CX News Sept 17",
+              "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-17-2026/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "The CDP &amp; Data Layer Is <em>Quietly Fragmenting</em> Again",
-          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
+          "head": "Retail &amp; Commerce Channels Collide Into <em>Full-Funnel Media</em>",
+          "url": "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/",
           "body": [
-            "The CDP category — already complicated — is fracturing further as AI agents demand richer, real-time context that most customer data platforms were not built to supply. The piece asking whether anyone understands the CDP market lands alongside a separate argument that <b>marketing automation needs more context</b>, pointing to the same underlying data architecture problem.",
-            "Decisions about CDP vendor selection or consolidation can no longer be deferred. The <b>context layer that feeds AI agents</b> is only as good as the data infrastructure underneath it, and teams that have postponed that investment will find agent deployments underperforming regardless of which platform they choose."
+            "DoorDash's framing of retail media as a full-funnel channel — from awareness to doorstep delivery in 30 minutes — combined with the hybrid B2B &amp; B2C e-commerce playbook signals that <b>the distinction between commerce and media is collapsing</b>. Platforms that carry transactions are becoming ad networks, and ad networks are adding purchase rails.",
+            "For brand planners, this means campaign planning must now account for conversion happening inside media environments that also control logistics and inventory data. Budgets siloed in 'retail' versus 'brand' categories will misallocate as these channels merge."
           ],
           "ev": [
             [
-              "MarTech · CDP market confusion",
-              "https://martech.org/does-anyone-understand-the-cdp-market-anymore/"
+              "DoorDash · Retail Media Full-Funnel",
+              "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/"
             ],
             [
-              "MarTech · automation needs more context",
-              "https://martech.org/your-marketing-automation-needs-more-context/"
+              "Agile Brand · Hybrid E-Commerce Playbook",
+              "https://agilebrandguide.com/expert-mode-the-hybrid-e-commerce-playbook-for-b2b-and-b2c/"
             ],
             [
-              "MarTech · latest AI martech releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "tvScientific · 2026 Holiday Playbook",
+              "https://agilebrandguide.com/tvscientific-mastering-the-2026-holiday-season-a-strategic-playbook-for-enterprise-marketers/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the pattern is the same: <em>AI amplifies whatever is already broken</em> — in processes, in data, in governance, and in brand visibility — so the most urgent decisions are structural, not technological."
+      "takeaway": "Every major move this month points to the same underlying shift: <em>AI is no longer a feature inside MarTech tools but the connective tissue reorganizing which platforms, data, and channels hold strategic leverage</em> — and teams that treat it as an add-on will cede ground to those rebuilding their stacks around it."
     }
   }
 }
