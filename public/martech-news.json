@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T16:35:22.924987+00:00",
+  "generatedAt": "2026-09-20T09:53:07.669656+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,9 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Infillion acquires Foursquare's 16 billion check-in dataset",
+          "head": "Infillion acquires Foursquare's 16B check-in dataset",
           "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-19-2026/",
-          "plain": "Infillion is buying Foursquare's massive location check-in database — 16 billion data points on where real people go. This kind of <b>first-party location data</b> is increasingly rare and valuable as cookies disappear, and it directly affects how ad targeting and <b>customer data platforms</b> are built and priced going forward.",
+          "plain": "Infillion is buying Foursquare's location database of <b>16 billion check-ins</b>, one of the richest real-world movement datasets available. For marketers, this shifts who controls <b>location-based audience data</b> used to target and personalize ads — a significant consolidation in the data supply chain that affects how CDPs and engagement platforms are fed.",
           "chips": [
             "cdp",
             "perso"
@@ -59,48 +59,24 @@
           "num": "02",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Fingerprint maps how AI crawlers access the web",
+          "head": "Taboola bids for finance-focused ad network Dianomi",
           "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-19-2026/",
-          "plain": "Fingerprint has published research tracking how AI crawlers scrape and index web content. For marketers, understanding <b>which bots see your content and how</b> is now essential to being cited inside AI-generated answers. This is a practical resource for anyone trying to improve <b>generative engine optimization</b> strategy.",
+          "plain": "Taboola is pursuing Dianomi, a native ad network specializing in financial services content. If the deal closes, it concentrates more <b>contextual ad inventory</b> under one platform, changing which tools financial marketers use to reach audiences — relevant as AI-driven content recommendation becomes standard in that sector.",
           "chips": [
-            "geo",
-            "govern"
+            "cep",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Taboola bids for finance-focused ad network Dianomi",
+          "head": "Fingerprint publishes map of AI crawler traffic hitting publisher sites",
           "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-19-2026/",
-          "plain": "Taboola is moving to acquire Dianomi, a native ad network specializing in financial services audiences. If completed, this consolidates two major content recommendation players and gives Taboola a <b>premium finance vertical</b> — shifting how brands in regulated industries buy programmatic placements and who controls those <b>customer engagement surfaces</b>.",
+          "plain": "Fingerprint has charted how AI crawlers — bots that scrape content to train or feed generative AI systems — are hitting publisher and brand sites. Understanding <b>which AI systems are consuming your content</b> is a foundational step in Generative Engine Optimization, helping marketers decide how to stay visible inside AI-generated answers.",
           "chips": [
-            "cep",
+            "geo",
             "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Guy Gunter Home builds one e-commerce platform for both B2B and B2C buyers",
-          "url": "https://agilebrandguide.com/expert-mode-the-hybrid-e-commerce-playbook-for-b2b-and-b2c/",
-          "plain": "This case study shows how a home furnishings brand rebuilt its digital store to serve wholesale trade buyers and retail consumers from a single platform. The key lesson: <b>smart personalization logic</b> can serve fundamentally different buying modes without splitting your tech stack — a useful model for brands managing <b>dual commerce channels</b>.",
-          "chips": [
-            "perso",
-            "cdp"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Toggl adds 'Time Intelligence' layer to flag margin risk and capacity strain in real time",
-          "url": "https://agilebrandguide.com/toggl-launches-time-intelligence-to-turn-tracked-hours-into-real-time-business-decisions/",
-          "plain": "Toggl's new feature moves beyond simple hour logging to surface <b>automated alerts about delivery risk and profit margin erosion</b> before projects go off track. For agency and consultancy operations teams, this is an early example of <b>agentic decisioning applied to resource management</b> — the system spots problems and flags action without waiting for a human review.",
-          "chips": [
-            "agentic",
-            "decis"
           ]
         }
       ]
@@ -113,11 +89,11 @@
           "fresh": false,
           "head": "HubSpot rebuilds its platform around AI agents",
           "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
-          "plain": "HubSpot has redesigned its entire platform so a <b>Breeze Assistant coordinates AI agents</b> across sales, marketing, and service — all fed by a self-updating CRM. This is a major architectural shift, not a feature add, signalling that agentic systems are now the core product at one of the market's largest CRM vendors.",
+          "plain": "HubSpot has redesigned its core platform so a <b>Breeze Assistant coordinates AI agents</b> across marketing, sales, and service, while a self-updating CRM feeds those agents live customer context. This is a major architectural shift — not a feature add — that signals how large CRM vendors plan to compete in the agentic era.",
           "chips": [
             "agentic",
-            "decis",
             "cdp",
+            "decis",
             "cep"
           ]
         },
@@ -127,11 +103,11 @@
           "fresh": false,
           "head": "AI is telling consumers not to buy your product",
           "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
-          "plain": "A new study finds <b>81% of shoppers using AI chatbots have abandoned a purchase</b> based on the chatbot's guidance. This flips the assumption that AI shopping assistants help brands sell more — and raises urgent questions about how brands optimise their presence inside AI-generated answers.",
+          "plain": "A new study finds <b>81% of shoppers using AI chatbots have been talked out of a purchase</b> by the AI's guidance. This reshapes both conversion strategy and GEO priorities — brands that don't influence what AI says about their products risk losing sales at the final decision moment.",
           "chips": [
             "geo",
             "genai",
-            "decis"
+            "govern"
           ]
         },
         {
@@ -140,7 +116,7 @@
           "fresh": false,
           "head": "Does anyone understand the CDP market anymore?",
           "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
-          "plain": "BlueConic's CEO explains how <b>three years of AI agent integration and M&A activity have reshaped the CDP category</b> almost beyond recognition. Buyers now face a market where classic CDPs, data warehouses, and agent orchestration platforms all claim the same territory — a buying decision that is genuinely harder than it used to be.",
+          "plain": "BlueConic's CEO explains how <b>three years of AI agent integration and M&A activity have fundamentally restructured the CDP landscape</b>. Essential reading for anyone buying or building on a CDP today — the category's boundaries, vendors, and use cases have all shifted significantly.",
           "chips": [
             "cdp",
             "agentic",
@@ -153,7 +129,7 @@
           "fresh": false,
           "head": "The problem with AI doing exactly what you ask",
           "url": "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/",
-          "plain": "AI agents cause damage not by going rogue but by <b>pursuing a poorly defined objective with high efficiency</b>. The piece sets out a practical governance framework for writing agent objectives that don't produce unintended outcomes — essential reading for anyone deploying automated decisioning in live campaigns.",
+          "plain": "AI agents don't need to go rogue to cause harm — <b>a poorly defined objective pursued with precision</b> can be just as damaging. This piece lays out why governance and goal-setting discipline matter as much as the AI model itself, a key concern for any team deploying marketing agents.",
           "chips": [
             "agentic",
             "govern",
@@ -162,14 +138,15 @@
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
           "head": "Who owns your AI agents after they launch?",
           "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
-          "plain": "Once an AI agent is live, ownership typically falls in a gap between marketing, IT, and legal. This piece proposes clear <b>accountability structures covering maintenance, oversight, and retirement</b> of agents — directly relevant as more teams deploy agentic tools without formalising who is responsible when things go wrong.",
+          "plain": "AI agent ownership routinely falls between teams once deployed, creating gaps in <b>maintenance, oversight, and retirement decisions</b>. This piece offers a practical framework for assigning accountability — directly relevant to anyone rolling out marketing automation or agentic campaigns at scale.",
           "chips": [
             "agentic",
-            "govern"
+            "govern",
+            "decis"
           ]
         }
       ]
@@ -179,38 +156,38 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Agentic AI</em> Takes the Wheel — and the Liability",
-          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
+          "head": "AI Agents Are <em>Reshaping Platform Architecture</em>",
+          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
           "body": [
-            "Every major platform — HubSpot, Salesforce, Stonly, Vibe, MoEngage — is rebuilding around <b>AI agents that act autonomously</b>, not just assist. HubSpot rebuilt its entire platform on this premise; Salesforce is betting CRM depth gives its agents an edge that pure-AI rivals lack.",
-            "But autonomy creates a governance gap nobody has answered cleanly yet. <b>Who owns the agent after it launches?</b> Decisions about approval chains, rollback rights, &amp; accountability structures are now as urgent as the technology itself — and most teams haven't made them."
+            "HubSpot's decision to rebuild its entire platform around AI agents signals that this is no longer a feature layer — it is a <b>foundational infrastructure shift</b>. Salesforce is making the same bet, arguing that deep CRM data gives its agents a structural edge over newcomers. When two of the largest MarTech platforms reorganise around agents in the same month, every downstream vendor faces a compatibility question.",
+            "The governance gap is widening just as fast as adoption. The question 'who owns your AI agents after they launch?' has no clean answer yet — legal, ops, &amp; marketing all claim partial custody. Stonly, Vibe, &amp; accessiBe launching agent-native products in the same week shows the ecosystem is already racing to occupy agent-adjacent territory before ownership norms are set."
           ],
           "ev": [
             [
-              "MarTech · Who owns AI agents",
-              "https://martech.org/who-owns-your-ai-agents-after-they-launch/"
-            ],
-            [
-              "MarTech · HubSpot rebuilds around agents",
+              "MarTech · HubSpot rebuilds for agents",
               "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
             ],
             [
               "MarTech · Salesforce CRM AI edge",
               "https://martech.org/salesforce-bets-crm-experience-can-give-its-ai-an-edge/"
+            ],
+            [
+              "MarTech · Who owns your AI agents?",
+              "https://martech.org/who-owns-your-ai-agents-after-they-launch/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Is Becoming the <em>Consumer's Agent</em>, Not Yours",
+          "head": "AI Recommends <em>Against Buying</em> You",
           "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
           "body": [
-            "AI assistants are now advising shoppers — and sometimes <b>actively recommending against a brand's product</b>. ChatGPT Ads entering the mix signals that the same models giving purchase advice will also carry paid placements, creating an obvious tension between editorial &amp; commercial signals.",
-            "This flips the classic funnel: the AI layer sits <b>between brand &amp; buyer</b>, filtering or reframing messages before a human ever sees them. Marketers who optimise only for their own channels are missing the most important new gatekeeper in the purchase journey."
+            "The most disruptive shift in this cycle is structural: <b>AI assistants are now actively steering consumers away from products</b>, not just ranking them lower. ChatGPT Ads entering the market is a tactical patch, not a fix — the article framing it as 'a tactical bet, not a platform strategy' underlines that buying placements inside an AI that may still recommend competitors is a new kind of media risk with no historical playbook.",
+            "This flips the traditional funnel assumption that more reach equals more consideration. Brands optimised for search or social algorithms now face a third gatekeeper that synthesises reviews, pricing, &amp; alternatives before the consumer even visits a page. The implication for budget allocation &amp; messaging strategy is immediate and largely unmapped."
           ],
           "ev": [
             [
-              "MarTech · AI telling consumers not to buy",
+              "MarTech · AI tells consumers not to buy",
               "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
             ],
             [
@@ -218,18 +195,18 @@
               "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy/"
             ],
             [
-              "MarTech · AI safer in live ad account",
+              "MarTech · 3 ways AI safer in ad account",
               "https://martech.org/3-ways-to-make-ai-safer-in-a-live-ad-account/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Speed Without <em>Process Reform</em> Breaks Everything Faster",
+          "head": "Speed Without <em>Process Repair</em> Backfires",
           "url": "https://martech.org/faster-ai-can-make-slow-marketing-processes-worse/",
           "body": [
-            "A sharp cluster of analysis this month converges on a single warning: <b>AI amplifies existing dysfunction</b>. Faster execution of a broken briefing process, a misaligned automation trigger, or an under-contextualised campaign doesn't fix the problem — it scales it.",
-            "The implication is that <b>process redesign must precede AI deployment</b>, not follow it. Articles on automation needing more context &amp; AI doing exactly what you ask (to bad effect) both point to the same root cause: organisations measuring AI output against speed rather than business outcomes."
+            "Two MarTech editorials this month converge on the same warning: <b>AI accelerates whatever process you feed it</b>, broken or not. 'Faster AI can make slow marketing processes worse' and 'Your marketing automation needs more context' both argue that the bottleneck was never velocity — it was the quality of inputs, briefs, &amp; decisions upstream. Bolting AI onto a dysfunctional workflow produces dysfunctional outputs at scale.",
+            "The companion piece on 'the problem with AI doing exactly what you ask' sharpens the point: precise execution of a poorly framed instruction is still a failure. Marketers who treat AI as a pure productivity tool without fixing process &amp; prompt quality will see ROI disappoint — and 'measuring AI against the wrong goal' confirms that most companies are not yet tracking the right metrics to detect this problem early."
           ],
           "ev": [
             [
@@ -248,11 +225,11 @@
         },
         {
           "num": "Theme 04",
-          "head": "Platform <em>Consolidation Wars</em> Reshape the Stack",
+          "head": "<em>CDP Market Confusion</em> Meets Measurement Crisis",
           "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
           "body": [
-            "The CDP category is fracturing beyond recognition as CRM, data warehouse, &amp; agent-orchestration layers absorb its functions. Simultaneously, Salesforce &amp; HubSpot are racing to be the <b>single AI-native operating system</b> for go-to-market teams, leaving point solutions fighting for shelf space.",
-            "Stensul's move into governed creation on Salesforce Marketing Cloud Next, Causaly's embedding in Microsoft Copilot, &amp; Vibe adding agent access to CTV all follow the same logic: <b>surface your capability inside the platform that controls workflow</b>, or become invisible. Stack decisions made today will be very hard to unwind."
+            "The CDP category is fracturing: platforms are adding AI agent orchestration, real-time decisioning, &amp; identity resolution until the label 'CDP' no longer describes a coherent product class. <b>Buyers are struggling to compare vendors because vendors are no longer building the same thing.</b> This creates real procurement risk — enterprises may purchase for one capability and find the architecture incompatible with their agent strategy six months later.",
+            "The measurement confusion compounds the problem. 'Companies are measuring AI against the wrong goal' notes that teams default to efficiency metrics when the strategic question is whether AI is changing customer outcomes. Toggl's 'Time Intelligence' launch — turning tracked hours into business decisions — hints at the broader push to connect operational data to strategic impact, but the industry lacks shared standards for doing so."
           ],
           "ev": [
             [
@@ -260,40 +237,40 @@
               "https://martech.org/does-anyone-understand-the-cdp-market-anymore/"
             ],
             [
-              "MarTech Series · Stensul on Salesforce MC Next",
-              "https://martechseries.com/content/stensul-brings-governed-creation-to-salesforce-marketing-cloud-next/"
-            ],
-            [
-              "MarTech Series · Causaly in Microsoft Copilot",
-              "https://martechseries.com/sales-marketing/customer-experience-management/causaly-is-now-available-in-microsoft-copilot/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 05",
-          "head": "Measuring AI Against the <em>Wrong Goal</em> Wastes the Investment",
-          "url": "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/",
-          "body": [
-            "A recurring signal across editorial &amp; vendor launches alike: companies are benchmarking AI on <b>activity metrics — outputs produced, hours saved, content generated</b> — rather than business outcomes like revenue influence or customer retention. Toggl's Time Intelligence launch makes the point from the opposite direction, turning time-tracking data into real decisions rather than productivity theatre.",
-            "Getting measurement right matters because it determines where AI investment flows next. Teams that <b>reframe success criteria</b> around outcomes — not volume — will compound their advantage; those optimising for the wrong signal will scale activity that doesn't move the business."
-          ],
-          "ev": [
-            [
-              "MarTech · Measuring AI against wrong goal",
+              "MarTech · Measuring AI wrong goal",
               "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/"
             ],
             [
               "Agile Brand · Toggl Time Intelligence",
               "https://agilebrandguide.com/toggl-launches-time-intelligence-to-turn-tracked-hours-into-real-time-business-decisions/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "Retail &amp; Connected TV Race to <em>Agent-Accessible Inventory</em>",
+          "url": "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/",
+          "body": [
+            "Retail media is maturing from a sponsored-listing tactic into a <b>full-funnel, real-time channel</b> — DoorDash's framing of 'awareness to doorstep in 30 minutes' illustrates how commerce and media are collapsing into one moment. Simultaneously, Vibe expanding its Connected TV platform with 'agent access' signals that CTV inventory is being wired for programmatic AI buying, not just human-planned campaigns.",
+            "Both moves point to the same underlying shift: media channels are being re-engineered so that AI agents can discover, evaluate, &amp; transact on inventory autonomously. Brands that do not expose their offers through agent-compatible interfaces — structured data, API-accessible catalogs, &amp; real-time pricing — risk being invisible to the buying layer that is quietly taking over automated spend decisions."
+          ],
+          "ev": [
+            [
+              "Agile Brand · DoorDash retail media full-funnel",
+              "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/"
             ],
             [
-              "MarTech · AI-powered martech releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech Series · Vibe CTV agent access",
+              "https://martechseries.com/sales-marketing/programmatic-buying/vibe-expands-connected-tv-platform-with-agent-access-and-six-new-integrations/"
+            ],
+            [
+              "Agile Brand · 2026 Holiday CTV playbook",
+              "https://agilebrandguide.com/tvscientific-mastering-the-2026-holiday-season-a-strategic-playbook-for-enterprise-marketers/"
             ]
           ]
         }
       ],
-      "takeaway": "The month's news collectively signals that <em>the bottleneck has shifted from AI capability to human judgment</em> — on governance, process design, measurement, &amp; platform allegiance — and the teams that sort those questions first will dictate the next cycle."
+      "takeaway": "The month's signal is unified: <em>AI is not augmenting existing MarTech workflows so much as replacing the assumptions those workflows were built on</em> — from how consumers discover products, to how platforms are architected, to which metrics matter."
     }
   }
 }
