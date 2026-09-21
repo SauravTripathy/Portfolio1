@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T16:53:39.040892+00:00",
+  "generatedAt": "2026-09-21T10:51:13.628887+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -42,74 +42,141 @@
   },
   "windows": {
     "day": {
-      "stories": []
-    },
-    "week": {
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "HubSpot rebuilds its platform around AI agents",
-          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
-          "plain": "HubSpot has redesigned its core platform so a <b>Breeze Assistant coordinates AI agents</b> across the product, fed by a self-updating CRM. This is a major architectural shift — not a feature add — that signals how mainstream marketing platforms will buy, build, and pitch AI going forward. Any marketer evaluating CRM or CEP tools needs to understand this model.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "NoimosAI Launches Customer Engagement Agent to Automate Behavior-Based Customer Marketing",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/noimosai-launches-customer-engagement-agent-to-automate-behavior-based-customer-marketing/",
+          "plain": "NoimosAI's new agent lets marketers type plain-text instructions and have the system handle <b>segmentation, content creation, and campaign optimization</b> end-to-end. This matters because it collapses a multi-tool workflow into a single agentic loop — shifting how engagement platforms are bought and operated, especially by lean teams.",
           "chips": [
             "agentic",
+            "cep",
             "decis",
-            "cdp",
-            "cep"
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI is telling consumers not to buy your product",
-          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
-          "plain": "A new survey finds <b>81% of consumers using AI shopping chatbots have abandoned a purchase</b> based on AI guidance. This flips the assumption that AI is a sales accelerator — it can actively suppress conversions. Marketers need to rethink how their products are represented inside AI systems, making GEO strategy urgent.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Zen Media Develops Three-Part Google Preferred Sources Framework for Answer Engine Optimization",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zen-media-develops-three-part-google-preferred-sources-framework-for-answer-engine-optimization-aeo/",
+          "plain": "Zen Media published a practical framework — domain eligibility, consistent publishing, citable content — for getting brands surfaced inside Google's AI answers. This is one of the first <b>structured, replicable GEO playbooks</b> from a practitioner, giving marketers a concrete starting point for AI-answer visibility strategy.",
           "chips": [
             "geo",
-            "genai",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Does anyone understand the CDP market anymore?",
-          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
-          "plain": "BlueConic's CEO explains how <b>three years of M&A and AI agent integration have scrambled the CDP category</b>. What was once a clear data-unification layer is now blurring into agentic platforms and data warehouses. Anyone buying or governing customer data infrastructure needs this map before making a vendor decision.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "AgentCloak Desktop Launches Free Tool That Replaces Private Data With Synthetic Values Before It Reaches AI Chatbots",
+          "url": "https://martechseries.com/analytics/data-management-platforms/agentcloak-launches-agentcloak-desktop-free-sovereign-ai-that-cloaks-private-data-before-it-reaches-popular-ai-chatbots/",
+          "plain": "AgentCloak's free app swaps real names, addresses, and account numbers with synthetic equivalents before they hit ChatGPT, Claude, or Gemini. As AI tool use inside marketing teams grows, <b>data-leakage governance</b> becomes a buying criterion — this product directly addresses that concern at no cost.",
           "chips": [
-            "cdp",
-            "agentic",
-            "govern"
+            "govern",
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "The problem with AI doing exactly what you ask",
-          "url": "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/",
-          "plain": "AI agents don't need to malfunction to cause harm — a <b>poorly defined objective pursued with perfect efficiency</b> can be just as damaging. This piece lays out why objective design and ongoing oversight are the real governance challenges, not rogue behavior. Essential reading for anyone deploying or approving autonomous marketing agents.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "SearchBlox Launches Agentic Search Integration for Adobe Experience Manager",
+          "url": "https://martechseries.com/content/searchblox-launches-searchai-integration-for-adobe-experience-manager/",
+          "plain": "SearchBlox connects its SearchAI engine directly to Adobe Experience Manager so it can interpret intent, reason over governed content, and guide users from question to action. This is a meaningful product change: it brings <b>agentic, intent-aware search</b> into a widely used enterprise CMS stack, affecting how AEM deployments are evaluated.",
           "chips": [
             "agentic",
             "govern",
-            "decis"
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Who owns your AI agents after they launch?",
-          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
-          "plain": "Once an AI agent goes live, responsibility for maintenance, oversight, and eventual retirement typically falls between teams with no clear owner. This article provides a practical framework for <b>assigning accountability across the agent lifecycle</b>. It directly shapes how marketing, IT, and legal must cooperate when governing automated decision-making at scale.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Mozilla Data Collective Raises $5M to Scale Equitable, Multi-Language AI Data Ecosystem",
+          "url": "https://martechseries.com/analytics/data-management-platforms/mozilla-data-collective-raises-5m-to-scale-a-more-equitable-data-ecosystem-for-ai/",
+          "plain": "Mozilla's data-sharing platform, now spanning 450+ languages, raised $5 million to grow governed, community-sourced AI training data. For marketers, this signals a maturing <b>alternative data supply chain</b> that could reduce reliance on big-tech datasets and strengthen bias and representation governance in AI models they deploy.",
+          "chips": [
+            "govern",
+            "cdp",
+            "genai"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "NoimosAI Launches Customer Engagement Agent to Automate Behavior-Based Marketing Flows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/noimosai-launches-customer-engagement-agent-to-automate-behavior-based-customer-marketing/",
+          "plain": "NoimosAI's new agent lets marketers type plain-text instructions and have the system handle segmentation, content creation, and performance tracking end-to-end. This matters because it shows how <b>agentic AI is collapsing the gap between strategy and execution</b> in customer engagement — a workflow that previously required multiple specialist tools and human handoffs.",
           "chips": [
             "agentic",
+            "cep",
+            "decis",
+            "perso"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Zen Media Builds Three-Part Google Preferred Sources Framework for Answer Engine Optimization",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zen-media-develops-three-part-google-preferred-sources-framework-for-answer-engine-optimization-aeo/",
+          "plain": "Zen Media reverse-engineered Google's opaque Preferred Sources criteria into a repeatable framework: domain eligibility, consistent publishing, and citable content. It's one of the first practitioner-built playbooks for <b>getting brands surfaced inside AI-generated answers</b>, making it directly actionable for any marketer worried about visibility as search shifts to AI engines.",
+          "chips": [
+            "geo",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "AgentCloak Desktop Shields Private Data from AI Chatbots with Synthetic Substitution",
+          "url": "https://martechseries.com/analytics/data-management-platforms/agentcloak-launches-agentcloak-desktop-free-sovereign-ai-that-cloaks-private-data-before-it-reaches-popular-ai-chatbots/",
+          "plain": "AgentCloak's free desktop app replaces real names, addresses, and account numbers with synthetic data before any prompt reaches ChatGPT, Claude, or Gemini. This directly addresses a growing governance gap: <b>employees using frontier AI with sensitive customer data</b>. It changes how teams can safely adopt AI tools without waiting for enterprise contracts or IT sign-off.",
+          "chips": [
             "govern",
-            "decis"
+            "genai",
+            "cdp"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "SearchBlox Launches Agentic Search Integration for Adobe Experience Manager",
+          "url": "https://martechseries.com/content/searchblox-launches-searchai-integration-for-adobe-experience-manager/",
+          "plain": "SearchBlox plugs its SearchAI engine directly into Adobe Experience Manager so the system can interpret user intent, reason over governed content, and guide users from question to action — without leaving the AEM environment. It's a clear example of <b>agentic AI embedded inside an enterprise content platform</b>, shifting search from keyword retrieval to goal-directed assistance.",
+          "chips": [
+            "agentic",
+            "genai",
+            "govern",
+            "cep"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "CMB Introduces Intelligent Signals: Always-On AI Market Intelligence Fusing Primary Research with External Data",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cmb-introduces-intelligent-signals-an-ai-powered-always-on-market-intelligence-solution/",
+          "plain": "CMB's new platform continuously blends proprietary survey data with external signals and plugs into enterprise workflows via MCP-compatible integrations. The significance is in the architecture: <b>real-time market sensing fed directly into decision pipelines</b> rather than periodic research reports, changing how marketing teams detect and respond to emerging shifts in buyer behavior.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cdp",
+            "govern"
           ]
         }
       ]
@@ -119,89 +186,43 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Platforms <em>Rebuilt Around Agents</em>: The Stack Is Restructuring",
-          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
+          "head": "Search Is Now an <em>Answer Engine</em>: AEO Replaces SEO as the Core Visibility Fight",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zen-media-develops-three-part-google-preferred-sources-framework-for-answer-engine-optimization-aeo/",
           "body": [
-            "HubSpot, Salesforce, Stonly, and Vibe all made structural moves this month — not layering AI onto existing products but <b>rewiring the platform architecture itself</b> around autonomous agents. HubSpot's rebuild is the clearest signal: when a major CRM re-platforms around agents, every integration, workflow, and vendor decision downstream changes.",
-            "This is the decision that matters for buyers: choosing a platform now means choosing an <b>agent runtime</b>, not just a feature set. MoEngage's road-show bringing marketers face-to-face with brands already running agents in production confirms the shift is live, not theoretical — and that governance questions (Stensul's governed creation layer) are arriving right alongside the capability."
+            "Google and other AI-driven search surfaces are shifting from returning links to synthesising direct answers, which means the old SEO playbook — keywords, backlinks, page authority — no longer guarantees visibility. Zen Media's three-part Google Preferred Sources Framework and the SearchBlox integration with Adobe Experience Manager both reflect a market consensus: <b>brands must now optimise for being cited inside an answer, not just ranked on a results page</b>.",
+            "For decision-makers, this is a budget-allocation shift, not a tactical tweak. Content strategy, PR, and technical site structure all need to converge around the question 'will an AI model surface us as a trusted source?' — a much harder and more holistic standard than traditional search ranking."
           ],
           "ev": [
             [
-              "MarTech · HubSpot agents rebuild",
-              "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
+              "MarTech Series · Zen Media AEO Framework",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zen-media-develops-three-part-google-preferred-sources-framework-for-answer-engine-optimization-aeo/"
             ],
             [
-              "MarTech · Salesforce CRM AI edge",
-              "https://martech.org/salesforce-bets-crm-experience-can-give-its-ai-an-edge/"
+              "MarTech Series · SearchBlox Adobe AEM",
+              "https://martechseries.com/content/searchblox-launches-searchai-integration-for-adobe-experience-manager/"
             ],
             [
-              "MarTech Series · Stonly process agents",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/stonly-launches-business-process-agents-to-automate-complex-customer-service-processes/"
+              "Agile Brand · AI Search expert at ProfitCON",
+              "https://martechseries.com/content/ai-search-seo-and-marketing-expert-sandy-wardenburg-waggett-to-take-the-profitcon-main-stage/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI as <em>Gatekeeper, Not Amplifier</em>: The Funnel Flips",
-          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
+          "head": "<em>Autonomous Agents</em> Take Over the Marketing Workflow",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/noimosai-launches-customer-engagement-agent-to-automate-behavior-based-customer-marketing/",
           "body": [
-            "The most disruptive idea this month is structural: AI assistants are <b>actively recommending against purchases</b>, inserting a new decision layer between brand and consumer that brands do not control. ChatGPT Ads are framed as a tactical bet rather than a platform strategy precisely because the underlying model can override ad intent with a contrary recommendation.",
-            "Marketers built entire stacks around reaching people at the moment of intent — <b>that moment now belongs to an AI intermediary</b>. The CDP market's identity confusion and the call to give automation more context both trace back to the same root cause: the funnel now has a new top layer that older martech architectures were never designed to address."
+            "Within a single news cycle, multiple vendors shipped AI agents designed to run entire marketing sub-functions autonomously: NoimosAI's Customer Engagement Agent acts on behavioural signals without human queuing, CMB's Intelligent Signals platform monitors markets around the clock, and Toggl's Time Intelligence converts tracked work data into live business decisions. <b>The pattern is consistent — AI moves from assistive to executive, taking actions rather than making suggestions.</b>",
+            "The strategic implication is a redefinition of headcount and process design. Teams adopting these agents will need to govern them, not operate them, which shifts hiring priorities toward oversight, prompt engineering, and exception-handling rather than execution. Marketers who treat these as simple automation tools risk misaligned campaigns running at machine speed with no human checkpoint."
           ],
           "ev": [
             [
-              "MarTech · AI telling consumers not to buy",
-              "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
+              "MarTech Series · NoimosAI engagement agent",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/noimosai-launches-customer-engagement-agent-to-automate-behavior-based-customer-marketing/"
             ],
             [
-              "MarTech · ChatGPT Ads tactical bet",
-              "https://martech.org/chatgpt-ads-are-a-tactical-bet-not-a-platform-strategy/"
-            ],
-            [
-              "MarTech · automation needs more context",
-              "https://martech.org/your-marketing-automation-needs-more-context/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "<em>Governance &amp; Ownership</em> of Agents: The Accountability Gap",
-          "url": "https://martech.org/who-owns-your-ai-agents-after-they-launch/",
-          "body": [
-            "Three separate threads converge on the same problem: <b>nobody has clearly assigned ownership of AI agents once they are live</b>. The \"who owns your agents\" piece frames it as an org-chart question; \"AI doing exactly what you ask\" frames it as an alignment problem; Optmyzr's safety guardrails piece frames it as an operational risk in live ad accounts.",
-            "Stensul's governed-creation layer inside Salesforce Marketing Cloud and accessiBe's Code Agent for accessibility compliance are early commercial answers — <b>control surfaces bolted onto agentic systems after the capability shipped</b>. Expect governance tooling to become its own product category inside MarTech within two quarters."
-          ],
-          "ev": [
-            [
-              "MarTech · who owns AI agents",
-              "https://martech.org/who-owns-your-ai-agents-after-they-launch/"
-            ],
-            [
-              "MarTech · AI doing exactly what you ask",
-              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
-            ],
-            [
-              "MarTech · safer AI in live ad accounts",
-              "https://martech.org/3-ways-to-make-ai-safer-in-a-live-ad-account/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "Measuring <em>the Wrong Thing</em>: AI ROI Frameworks Are Broken",
-          "url": "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/",
-          "body": [
-            "The month surfaced a quiet consensus: companies are benchmarking AI against <b>cost savings and speed</b> when the actual leverage is process redesign. \"Faster AI can make slow marketing processes worse\" makes the point bluntly — accelerating a broken workflow just produces bad output faster. Toggl's Time Intelligence launch points toward the corrective: using AI to expose <b>where time actually goes</b> before optimising anything.",
-            "The measurement error has a compounding effect because it determines budget allocation, vendor selection, and team structure. If the goal is set wrong from the start, every downstream decision — including which agents to deploy and how to evaluate them — <b>optimises for the wrong outcome</b>. Resetting the measurement framework is a prerequisite, not a follow-on step."
-          ],
-          "ev": [
-            [
-              "MarTech · measuring AI against wrong goal",
-              "https://martech.org/companies-are-measuring-ai-against-the-wrong-goal/"
-            ],
-            [
-              "MarTech · faster AI makes slow processes worse",
-              "https://martech.org/faster-ai-can-make-slow-marketing-processes-worse/"
+              "MarTech Series · CMB Intelligent Signals",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cmb-introduces-intelligent-signals-an-ai-powered-always-on-market-intelligence-solution/"
             ],
             [
               "Agile Brand · Toggl Time Intelligence",
@@ -210,30 +231,76 @@
           ]
         },
         {
-          "num": "Theme 05",
-          "head": "The <em>CDP &amp; Data Layer</em> in Crisis: Identity Without a Home",
-          "url": "https://martech.org/does-anyone-understand-the-cdp-market-anymore/",
+          "num": "Theme 03",
+          "head": "Data Sovereignty &amp; <em>Private-First AI</em> Become Competitive Differentiators",
+          "url": "https://martechseries.com/analytics/data-management-platforms/agentcloak-launches-agentcloak-desktop-free-sovereign-ai-that-cloaks-private-data-before-it-reaches-popular-ai-chatbots/",
           "body": [
-            "The CDP market piece asks an honest question that the rest of the month's news quietly answers: <b>agent-first platforms are absorbing CDP functions</b>, blurring category boundaries so thoroughly that buyers can no longer use the label as a purchasing shortcut. Fingerprint's Bot Directory launch signals the parallel pressure — as AI traffic swamps human traffic, the identity data that CDPs were built to unify is <b>increasingly polluted by non-human signals</b>.",
-            "Causaly integrating into Microsoft Copilot and cPanel embedding AI into hosting infrastructure both illustrate the same force: <b>data intelligence is being pushed down into the infrastructure layer</b>, not up into a standalone CDP layer. Marketers who have deferred a CDP decision may find the decision has been made for them by the platforms they already use."
+            "Three launches this period — AgentCloak Desktop, Socratus's local-first workspace, and Mozilla Data Collective's $5M raise — share a single thesis: <b>the default of sending all data to cloud AI models is becoming unacceptable</b> for privacy-conscious enterprises and individuals. Each product intercepts or localises data before it reaches centralised AI systems, turning data containment into a product feature rather than a compliance checkbox.",
+            "For marketing &amp; IT leaders, this trend signals an emerging vendor evaluation criterion: not just 'what can this AI do?' but 'where does our data go while it does it?' Brands handling first-party customer data, proprietary research, or regulated information will increasingly face pressure to adopt sovereign or on-premises AI pipelines, even if it means trading some model capability for data control."
           ],
           "ev": [
             [
-              "MarTech · CDP market confusion",
-              "https://martech.org/does-anyone-understand-the-cdp-market-anymore/"
+              "MarTech Series · AgentCloak Desktop",
+              "https://martechseries.com/analytics/data-management-platforms/agentcloak-launches-agentcloak-desktop-free-sovereign-ai-that-cloaks-private-data-before-it-reaches-popular-ai-chatbots/"
             ],
             [
-              "MarTech Series · Fingerprint Bot Directory",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fingerprint-launches-bot-directory-built-for-the-ai-era/"
+              "MarTech Series · Socratus local-first workspace",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/socratus-launches-private-local-first-workspace-uniting-notes-code-and-ai-agents/"
             ],
             [
-              "MarTech Series · Causaly in Microsoft Copilot",
-              "https://martechseries.com/sales-marketing/customer-experience-management/causaly-is-now-available-in-microsoft-copilot/"
+              "MarTech Series · Mozilla Data Collective $5M",
+              "https://martechseries.com/analytics/data-management-platforms/mozilla-data-collective-raises-5m-to-scale-a-more-equitable-data-ecosystem-for-ai/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "Retail &amp; Commerce Media Becomes <em>Full-Funnel Infrastructure</em>",
+          "url": "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/",
+          "body": [
+            "DoorDash's framing of retail media as a channel capable of moving a shopper from awareness to delivered product in 30 minutes, combined with Topsort's expansion of commerce media beyond owned surfaces via Universal Ads, signals that <b>retail media is graduating from a performance tactic into a full brand-building medium</b>. The distinction matters: it changes how budgets are planned, measured, and attributed across the funnel.",
+            "Marketers who still treat retail media purely as a last-mile conversion tool will underinvest in its upper-funnel potential and cede ground to competitors who are already running awareness campaigns through these channels. The emerging playbook requires unifying commerce data, creative strategy, and measurement frameworks that can credit both brand lift and immediate purchase."
+          ],
+          "ev": [
+            [
+              "Agile Brand · DoorDash full-funnel retail media",
+              "https://agilebrandguide.com/doordashs-peter-giordano-on-retail-media-when-the-shelf-is-a-doorstep/"
+            ],
+            [
+              "MarTech Series · Topsort Universal Ads",
+              "https://martechseries.com/sales-marketing/programmatic-buying/topsort-expands-commerce-media-beyond-owned-surfaces-with-universal-ads/"
+            ],
+            [
+              "Agile Brand · 2026 Holiday Enterprise Playbook",
+              "https://agilebrandguide.com/tvscientific-mastering-the-2026-holiday-season-a-strategic-playbook-for-enterprise-marketers/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "Brand as <em>Lived Product</em>: Marketing Earns Trust Through Experience, Not Campaigns",
+          "url": "https://agilebrandguide.com/airstream-cmo-mollie-hansen-and-nomadics-chris-pendl-on-camp-airstream-as-a-product-not-a-campaign/",
+          "body": [
+            "Airstream's CMO framing Camp Airstream as a product rather than a campaign, the AdRoll insight that single-objective focus outperforms five-KPI sprawl, and the Billo finding that employee creators often outperform paid influencers all converge on one idea: <b>audiences are trusting brands that demonstrate rather than declare</b>. Authenticity is now an operational discipline, not a tone-of-voice guideline.",
+            "The decision change here is structural. Investing in tangible community experiences, internal creator programmes, and ruthlessly simplified measurement frameworks yields more durable brand equity than broad campaign spending. In an AI-saturated content environment where synthetic content is everywhere, first-hand human experience — whether a campground or an employee review — becomes a scarce &amp; high-value trust signal."
+          ],
+          "ev": [
+            [
+              "Agile Brand · Airstream CMO brand as product",
+              "https://agilebrandguide.com/airstream-cmo-mollie-hansen-and-nomadics-chris-pendl-on-camp-airstream-as-a-product-not-a-campaign/"
+            ],
+            [
+              "Agile Brand · AdRoll one objective focus",
+              "https://agilebrandguide.com/expert-mode-one-objective-not-five-kpis-with-alex-weinberger-from-adroll/"
+            ],
+            [
+              "Agile Brand · Employee creators on payroll",
+              "https://agilebrandguide.com/expert-mode-your-best-creator-is-probably-already-on-payroll-with-donatas-smailys-from-billo/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — platform rebuilds, AI gatekeeping, governance gaps, broken metrics, and collapsing data categories — points to the same underlying shift: <em>the martech stack is being redesigned from the outside in, driven by AI agents that marketers do not yet fully own, measure, or control</em>."
+      "takeaway": "Across every layer of the stack — search, agents, data, media, &amp; brand — the month's news confirms that <em>AI is collapsing the distance between strategy and execution</em>, forcing marketers to govern systems rather than run campaigns and to earn trust through experience rather than spend."
     }
   }
 }
