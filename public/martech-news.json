@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T10:06:54.371442+00:00",
+  "generatedAt": "2026-09-23T17:54:04.461601+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,37 +45,50 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Progress Software Completes Acquisition of Domo's AI and Data Platform Business",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/progress-software-completes-acquisition-of-domos-ai-and-data-platform-business/",
-          "plain": "Progress Software has closed its purchase of Domo's AI and data platform assets, folding a widely-used business-intelligence layer into its infrastructure stack. This reshapes how enterprises will connect <b>data context to agentic AI workflows</b>, and signals continued consolidation in the AI data platform market — directly affecting buying decisions for MarTech stacks.",
+          "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
+          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
+          "plain": "OpenAI is reportedly testing a <b>persistent identifier for ad tracking</b> inside ChatGPT, similar to third-party cookies. This matters because it signals ChatGPT is becoming a measurable ad channel — and raises immediate questions about <b>consent and data governance</b> that every marketing and legal team will need to answer before buying in.",
           "chips": [
-            "agentic",
-            "cdp",
-            "govern"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Datris Releases Open-Source Data Control Plane for AI Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datris-releases-open-source-data-control-plane-for-ai-agents/",
-          "plain": "Datris open-sourced a data control plane that gives AI agents <b>credential brokering, per-action policy enforcement, audit logging, and row-level provenance</b>. This is a significant governance infrastructure release — anyone building or buying agentic marketing systems now has a concrete, inspectable model for how to keep agent data access safe and auditable.",
+          "head": "AI search is changing ecommerce forever",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
+          "plain": "Product pages and catalogs built for keyword search are losing visibility as <b>AI-powered search engines answer queries directly</b>. Retailers must rethink how they structure product data and content so AI models surface their products — a practical introduction to <b>Generative Engine Optimization</b> for commerce teams.",
           "chips": [
-            "agentic",
-            "govern",
-            "cdp"
+            "geo",
+            "genai",
+            "perso"
           ]
         },
         {
           "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "plain": "Jon Miller's new platform Phave is built around <b>AI agents that coordinate across buying groups</b>, not individual leads — a direct challenge to legacy marketing automation logic. Coming from a Marketo founder, this signals a potential generational shift in how <b>B2B marketing platforms are bought and built</b>.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Attentive Releases Lifecycle Intelligence Inside AI Pro, Reports 13% Revenue Lift for Frye",
+          "head": "Attentive releases agentic Lifecycle Intelligence inside AI Pro Suite",
           "url": "https://martechseries.com/analytics/data-management-platforms/attentive-releases-new-ai-pro-and-ai-reporting-functionality-helping-brands-turn-customer-signals-into-higher-value-engagement/",
-          "plain": "Attentive's new Lifecycle Intelligence layer turns real-time customer signals into <b>agentic, personalized omnichannel engagement decisions</b> — and backs it with a named brand's 13% revenue lift. That combination of a live use-case result and a new agentic decisioning capability makes this a benchmark other CEP vendors will have to respond to.",
+          "plain": "Attentive's new Lifecycle Intelligence layer uses <b>agentic AI to read customer signals and decide when and how to engage</b> each person across channels. A reported 13% revenue lift at Frye gives buyers a concrete benchmark. This advances the product from message scheduler to <b>autonomous decisioning engine</b>.",
           "chips": [
             "agentic",
             "decis",
@@ -84,29 +97,15 @@
           ]
         },
         {
-          "num": "04",
+          "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Aprimo Launches AI-Powered Content Portfolio Management to Govern Distributed Content Ecosystems",
+          "head": "Aprimo launches AI-powered Content Portfolio Management to govern distributed content beyond the DAM",
           "url": "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/",
-          "plain": "Aprimo's new Content Portfolio Management product uses AI to discover brand and compliance policy violations across an entire content ecosystem — <b>without requiring migration into a central DAM</b>. As generative AI floods organizations with content, automated governance that works across distributed systems is becoming a must-have for risk-conscious marketing ops teams.",
+          "plain": "Aprimo's new product uses AI to <b>discover and govern content scattered across an entire ecosystem</b> without forcing migration into a single repository. It automatically applies brand and compliance policies — addressing a real pain point as AI-generated content volumes grow and <b>governance gaps widen</b> across enterprise stacks.",
           "chips": [
             "govern",
             "genai"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Phaedon's Tally Lets Loyalty Teams Build and Change Live Programs Through AI Conversation",
-          "url": "https://agilebrandguide.com/phaedon-hands-loyalty-teams-the-controls-letting-them-build-and-run-entire-programs-by-ai-conversation/",
-          "plain": "Tally is the first loyalty platform where a <b>conversational AI agent drafts live changes to earning rules, tiers, and promotions</b> — but a human must approve each change before it commits. This human-in-the-loop agentic model for loyalty program management sets a new pattern for how governance can be built directly into agentic marketing tools.",
-          "chips": [
-            "agentic",
-            "govern",
-            "perso",
-            "decis"
           ]
         }
       ]
@@ -115,37 +114,49 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Progress Software Completes Acquisition of Domo's AI and Data Platform Business",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/progress-software-completes-acquisition-of-domos-ai-and-data-platform-business/",
-          "plain": "Progress Software has formally closed its purchase of Domo's AI and data platform assets. This reshapes who controls a major analytics and data infrastructure layer used by marketing and operations teams. Buyers evaluating <b>agentic AI infrastructure</b> now face a changed vendor landscape, since Progress is folding Domo's capabilities into a platform explicitly positioned for trusted, governed AI outcomes.",
+          "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
+          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
+          "plain": "OpenAI is experimenting with <b>persistent user identifiers inside ChatGPT ads</b>, mirroring the third-party tracking cookies marketers lost in browsers. This reshapes how ad measurement works inside AI interfaces and raises fresh consent and privacy questions — directly affecting how marketers buy and govern advertising in generative AI environments.",
           "chips": [
-            "agentic",
+            "genai",
             "govern",
-            "cdp"
+            "geo"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Datris Releases Open-Source Data Control Plane for AI Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datris-releases-open-source-data-control-plane-for-ai-agents/",
-          "plain": "Datris open-sourced a <b>data control plane built specifically for AI agents</b>, adding credential brokering, per-action policy enforcement, audit logging, and row-level provenance. This is directly relevant to anyone deploying agents in regulated marketing contexts — it addresses the governance gap that has made enterprise AI agent adoption slow and risky.",
+          "head": "IAB sets new standards for agentic buying and measurement",
+          "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/",
+          "plain": "The IAB has published frameworks standardizing how <b>AI agents negotiate and execute media buys</b> and how measurement contracts should be structured. Industry-wide standards like these determine which platforms get built, what vendors must support, and how accountability is assigned when an agent makes a bad call.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Attentive Releases Lifecycle Intelligence Agentic AI and Reporting Inside AI Pro Suite",
-          "url": "https://martechseries.com/analytics/data-management-platforms/attentive-releases-new-ai-pro-and-ai-reporting-functionality-helping-brands-turn-customer-signals-into-higher-value-engagement/",
-          "plain": "Attentive's new Lifecycle Intelligence layer uses <b>agentic AI to act on customer signals</b> across the full lifecycle, not just single sends. Frye reported a 13% overall revenue lift using the suite. For retail and e-commerce marketers this represents a concrete benchmark for what agentic decisioning inside a CEP can deliver commercially.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "AI search is changing ecommerce forever",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
+          "plain": "Product catalogs and pages built for keyword search are failing inside AI-generated answer engines. The piece explains how <b>generative engine optimization (GEO)</b> now determines whether a product appears in an AI shopping response at all — a structural shift in how e-commerce brands must build and describe their inventory.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "plain": "Jon Miller, who built Marketo and Engagio, says legacy marketing automation was never designed for <b>modern buying groups or agentic AI</b>. His new platform Phave is an early sign of what replaces the category — relevant to anyone evaluating which platforms to buy or build on as the automation stack gets rebuilt.",
           "chips": [
             "agentic",
             "decis",
@@ -154,29 +165,17 @@
           ]
         },
         {
-          "num": "04",
+          "num": "05",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "Phaedon Tally Lets Loyalty Teams Build and Change Programs via AI Conversation, With Human Approval Gate",
+          "fresh": true,
+          "head": "Phaedon lets loyalty teams build and run entire programs by AI conversation",
           "url": "https://agilebrandguide.com/phaedon-hands-loyalty-teams-the-controls-letting-them-build-and-run-entire-programs-by-ai-conversation/",
-          "plain": "Tally is described as the first loyalty platform where <b>AI proposes live changes to earning rules, tiers and promotions</b> while a human must approve each before it goes live. This human-in-the-loop model is a practical governance pattern that loyalty and retention teams will watch closely as agentic tools move into high-stakes program management.",
+          "plain": "Phaedon's Tally platform lets marketers <b>reshape earning rules, tiers, and promotions through natural-language conversation</b>, with a human approval step before any change goes live. It's a concrete example of governed agentic AI in a high-stakes CX domain, showing how the human-in-the-loop model works in practice.",
           "chips": [
             "agentic",
             "govern",
-            "decis",
+            "perso",
             "cep"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Aprimo Launches AI-Powered Content Portfolio Management to Govern Distributed Content Without Migration",
-          "url": "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/",
-          "plain": "Aprimo's new Content Portfolio Management product uses AI to discover content scattered across an entire organisation and automatically apply <b>brand and compliance policies</b> without requiring teams to consolidate files first. As generative AI floods marketing with new content volume, automated governance of what exists — and whether it's compliant — becomes a buying priority.",
-          "chips": [
-            "govern",
-            "genai"
           ]
         }
       ]
@@ -186,109 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Need <em>Infrastructure &amp; Guardrails</em> Before They Scale",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datris-releases-open-source-data-control-plane-for-ai-agents/",
+          "head": "AI Agents Are <em>Reshaping the Stack</em>",
+          "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
           "body": [
-            "A cluster of launches this month — Datris's open-source data control plane, Memories.ai's local context layer, and Beeline/Insygna's cost-control partnership — all point to the same gap: <b>AI agents are outpacing the plumbing needed to run them safely</b>. Enterprises are discovering that spinning up agents is easy; governing what data they touch, what they cost, and what risks they carry is the hard part.",
-            "This represents a genuine decision fork for MarTech buyers. Choosing an agent framework now means implicitly choosing a governance model — and vendors who bundle control-plane tooling with their agent offerings are pulling ahead of those who treat it as an afterthought. <b>Infrastructure readiness, not model capability, is becoming the real differentiator.</b>"
+            "HubSpot's full platform rebuild around AI agents is not an upgrade — it is a structural shift in what marketing software <b>fundamentally does</b>. Platforms like Typeface, Phaedon, and WisdomAI are following the same logic: replace discrete tools with orchestration layers where agents handle end-to-end workflows. The IAB has already moved to set standards for agentic buying &amp; measurement, signalling this is no longer experimental.",
+            "For decision-makers, the implication is that vendor evaluation criteria must change. Asking 'what features does it have?' matters less than asking <b>'what can its agents autonomously execute — and what governance do I retain?'</b> Marketers who delay platform reassessment risk locking into architectures designed for a pre-agent world."
           ],
           "ev": [
             [
-              "MarTech Series · Datris data control plane",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datris-releases-open-source-data-control-plane-for-ai-agents/"
+              "MarTech · HubSpot rebuilds for AI agents",
+              "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
             ],
             [
-              "Agile Brand · Beeline &amp; Insygna cost controls",
-              "https://agilebrandguide.com/beeline-and-insygna-partner-to-bring-ai-agent-cost-controls-and-risk-mitigation-to-enterprise-workforce-orchestration/"
+              "Agile Brand · Typeface orchestration engine",
+              "https://agilebrandguide.com/typeface-launches-the-next-generation-of-its-orchestration-engine-with-adaptable-ai-experiences-for-humans-and-agents/"
             ],
             [
-              "Agile Brand · Memories.ai LUCI context layer",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/memories-ai-launches-luci-desktop-a-local-context-layer-for-ai-agents/"
+              "MarTech · IAB agentic standards",
+              "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "Content Governance <em>Escapes the DAM</em>",
-          "url": "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/",
+          "head": "AI Search Is <em>Disrupting Discovery</em>",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
           "body": [
-            "Aprimo's Content Portfolio Management launch and Typeface's next-generation orchestration engine both signal that <b>governing content is no longer a storage problem — it's a workflow and compliance problem</b>. As AI generates content at scale, the question shifts from 'where do assets live?' to 'who approved this, which version is live, and does it comply across every channel?'",
-            "For marketing operations leaders, this means DAM alone is insufficient. <b>A new layer of portfolio-level governance</b> — tracking content strategy, compliance status, and ROI attribution across human- and AI-generated work simultaneously — is becoming a buying criterion rather than a nice-to-have."
+            "AI-powered search engines are now surfacing product recommendations — and active <b>dis-recommendations</b> — before a consumer ever reaches a brand's own site. The MarTech piece 'AI is telling consumers not to buy your product' makes clear this is already happening at scale, compressing the funnel in ways that SEO and paid search playbooks were never designed to handle.",
+            "OpenAI testing third-party-style tracking inside ChatGPT ads introduces a second disruption: the same AI layer that advises consumers could soon monetise that attention directly, cutting across existing programmatic supply chains. <b>Brands need visibility strategies built for AI intermediaries</b>, not just for Google's crawlers."
           ],
           "ev": [
             [
-              "MarTech Series · Aprimo Content Portfolio Mgmt",
-              "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/"
+              "MarTech · AI search &amp; ecommerce",
+              "https://martech.org/ai-search-is-changing-ecommerce-forever/"
             ],
             [
-              "Agile Brand · Typeface orchestration engine",
-              "https://agilebrandguide.com/typeface-launches-the-next-generation-of-its-orchestration-engine-with-adaptable-ai-experiences-for-humans-and-agents/"
+              "MarTech · AI telling consumers not to buy",
+              "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
+            ],
+            [
+              "MarTech · OpenAI ChatGPT ad tracking",
+              "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Consolidation Accelerates: <em>Acquisitions Reshape</em> the Stack",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/progress-software-completes-acquisition-of-domos-ai-and-data-platform-business/",
+          "head": "Proprietary Data Is the <em>Real AI Moat</em>",
+          "url": "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/",
           "body": [
-            "Progress Software absorbing Domo's AI &amp; data business and Bending Spoons completing the Airtable acquisition are not isolated deals — they are part of a compression wave where <b>profitable platforms are buying capability rather than building it</b>. Both targets had standalone audiences and strong product reputations, yet they became acquisition targets as the cost of competing on AI accelerates.",
-            "For teams evaluating long-term vendors, <b>platform stability is now a first-order concern</b>. When best-of-breed tools get absorbed, roadmaps shift, pricing structures change, and integrations get renegotiated. Buyers should stress-test their stack against plausible ownership changes over the next 18 months."
+            "The clearest strategic signal this month is that generic AI models produce generic outputs — the differentiation comes from feeding AI <b>your company's unique knowledge, processes, and customer signals</b>. Attentive's new AI Pro turns first-party behavioural signals into higher-value engagement; WisdomAI &amp; Teradata partner to put agentic intelligence directly onto mission-critical enterprise data warehouses.",
+            "DataArt's 'Domain Deployed Engineering' framework formalises this idea: AI deployment must be industry-specific &amp; outcome-based, not model-first. <b>Marketers who treat their proprietary data as a strategic asset — and invest in making it AI-ready — will compound an advantage</b> that commodity model access cannot replicate."
           ],
           "ev": [
             [
-              "MarTech Series · Progress acquires Domo",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/progress-software-completes-acquisition-of-domos-ai-and-data-platform-business/"
+              "MarTech · real AI advantage is what you know",
+              "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/"
             ],
             [
-              "Agile Brand · Bending Spoons acquires Airtable",
-              "https://agilebrandguide.com/bending-spoons-completes-the-acquisition-of-airtable/"
+              "MarTech Series · WisdomAI &amp; Teradata agentic data",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wisdomai-and-teradata-partner-to-deliver-agentic-intelligence-for-mission-critical-enterprise-data/"
+            ],
+            [
+              "MarTech Series · DataArt domain-deployed AI",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dataart-introduces-domain-deployed-engineering-for-industry-specific-outcome-based-ai-deployment/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>Signal-to-Engagement</em> Loops Replace Batch Campaigns",
-          "url": "https://martechseries.com/analytics/data-management-platforms/attentive-releases-new-ai-pro-and-ai-reporting-functionality-helping-brands-turn-customer-signals-into-higher-value-engagement/",
+          "head": "B2B Automation Gets a <em>Hard Rethink</em>",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
           "body": [
-            "Attentive's AI Pro release and Phaedon's conversational loyalty builder both reframe the campaign as a <b>continuous signal-processing loop</b> rather than a scheduled send. Customer behavior triggers model-driven responses in near-real time, and reporting closes the loop by attributing which signals drove which outcomes — making 'set and forget' campaigns look increasingly antiquated.",
-            "The strategic implication is that <b>audience segmentation logic must now live inside the model, not in a spreadsheet</b>. Teams still thinking in list-based batch workflows will find themselves unable to compete with brands that have wired customer signals directly into automated, adaptive engagement paths."
+            "Marketo co-founder Jon Miller publicly arguing that the marketing automation category he helped create needs a full rebuild for the AI age is a rare and significant signal. The core critique: <b>legacy automation was built around volume &amp; sequence; AI-era buying is non-linear, multi-agent, and resistant to spray-and-pray tactics</b>. Flat marketing budgets — flagged separately this month — make the efficiency pressure even sharper.",
+            "BrainTrust Partners launching products specifically to accelerate AI planning ROI, and UiPath's Cartographer turning scattered process knowledge into actionable maps, both point the same direction: <b>the next generation of B2B marketing tech is about orchestration &amp; intelligence, not just automation</b>. Teams still optimising legacy MAP workflows risk spending more to achieve less."
           ],
           "ev": [
             [
-              "MarTech Series · Attentive AI Pro",
-              "https://martechseries.com/analytics/data-management-platforms/attentive-releases-new-ai-pro-and-ai-reporting-functionality-helping-brands-turn-customer-signals-into-higher-value-engagement/"
+              "MarTech · Jon Miller rethinks B2B automation",
+              "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/"
             ],
             [
-              "Agile Brand · Phaedon loyalty AI",
-              "https://agilebrandguide.com/phaedon-hands-loyalty-teams-the-controls-letting-them-build-and-run-entire-programs-by-ai-conversation/"
+              "MarTech Series · BrainTrust AI planning ROI",
+              "https://martechseries.com/analytics/data-management-platforms/braintrust-partners-launches-new-products-to-accelerate-ai-planning-implementation-and-return-on-investment/"
+            ],
+            [
+              "MarTech · flat budgets threaten growth",
+              "https://martech.org/when-flat-marketing-budgets-threaten-growth/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Strategy Stays In-House; <em>Execution Gets Distributed</em>",
-          "url": "https://agilebrandguide.com/office-beacon-ceo-pranav-dalal-on-building-the-right-marketing-team/",
+          "head": "Governance &amp; <em>Trust Infrastructure</em> Becomes Non-Negotiable",
+          "url": "https://martech.org/building-an-ai-governance-framework-for-marketing/",
           "body": [
-            "Office Beacon CEO Pranav Dalal's framing — keep strategy in-house, execute anywhere — and Tempo's Loop operating model for connecting strategy to both human and AI work point to a <b>fundamental restructuring of the marketing org chart</b>. Core brand judgment and strategic planning are increasingly treated as the one thing that must stay inside the company; everything else is a candidate for AI or distributed execution.",
-            "<b>This changes hiring, vendor selection, and team design simultaneously.</b> Leaders who internalize this model will invest in fewer, more senior strategists while building fluid execution networks around them. Those who don't will find themselves owning large operational headcounts that AI is rapidly commoditising."
+            "As AI takes on more autonomous marketing actions, governance is moving from compliance checkbox to <b>core operating infrastructure</b>. MarTech's deep-dive on building an AI governance framework, combined with IAB's new agentic measurement standards, signals that the industry is codifying rules before regulators impose them. Separately, Red Sift's BIMI Maker and Aprimo's content portfolio governance tools reflect demand for trust signals at the asset &amp; channel level.",
+            "The problem is subtle: as one piece notes, AI doing <b>exactly what you ask</b> can still produce harmful or brand-damaging outcomes if the brief is wrong or context is missing. <b>Governance frameworks must address prompt design, output review, and accountability chains</b> — not just data privacy. Teams that build this infrastructure now will move faster later, because they won't be firefighting trust failures."
           ],
           "ev": [
             [
-              "Agile Brand · Office Beacon strategy in-house",
-              "https://agilebrandguide.com/office-beacon-ceo-pranav-dalal-on-building-the-right-marketing-team/"
+              "MarTech · AI governance framework",
+              "https://martech.org/building-an-ai-governance-framework-for-marketing/"
             ],
             [
-              "Agile Brand · Tempo Loop operating model",
-              "https://agilebrandguide.com/tempo-launches-loop-to-turn-fragmented-ai-adoption-into-an-enterprise-ai-operating-model-that-connects-strategy-to-human-and-ai-work/"
+              "MarTech · problem with AI doing exactly what you ask",
+              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
             ],
             [
-              "MarTech Series · BrainTrust AI planning",
-              "https://martechseries.com/analytics/data-management-platforms/braintrust-partners-launches-new-products-to-accelerate-ai-planning-implementation-and-return-on-investment/"
+              "MarTech Series · Aprimo content governance beyond DAM",
+              "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the common pressure is the same: <em>AI is moving faster than the governance, org design, and infrastructure needed to deploy it responsibly at scale</em> — and the vendors &amp; leaders who close that gap first will set the terms for everyone else."
+      "takeaway": "Every major move this month — from HubSpot's rebuild to Jon Miller's critique to OpenAI's ad tracking — confirms that <em>the entire marketing stack is being re-architected around AI agents, and teams that govern that transition intentionally will outpace those that merely adopt tools</em>."
     }
   }
 }
