@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T17:54:04.461601+00:00",
+  "generatedAt": "2026-09-24T10:12:27.956768+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -46,10 +46,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
-          "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
+          "fresh": false,
+          "head": "OpenAI Testing Third-Party-Style Tracking in ChatGPT Ads",
           "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
-          "plain": "OpenAI is reportedly testing a <b>persistent identifier for ad tracking</b> inside ChatGPT, similar to third-party cookies. This matters because it signals ChatGPT is becoming a measurable ad channel — and raises immediate questions about <b>consent and data governance</b> that every marketing and legal team will need to answer before buying in.",
+          "plain": "OpenAI is experimenting with a <b>persistent identifier for ad tracking inside ChatGPT</b>, similar to third-party cookies. This matters because it shapes how advertisers measure campaigns inside AI interfaces — and raises serious consent and data-privacy questions that will drive governance requirements for any brand buying AI-native ad placements.",
           "chips": [
             "geo",
             "govern",
@@ -59,10 +59,23 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
-          "head": "AI search is changing ecommerce forever",
+          "fresh": false,
+          "head": "Marketo Co-Founder Jon Miller Rethinks B2B Marketing Automation for the AI Age with Phave",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "plain": "Jon Miller, who helped build modern marketing automation, says legacy platforms weren't designed for today's B2B buying groups and has launched <b>Phave as an AI-native replacement</b>. When the person who defined the category says it needs to be rebuilt from scratch, buyers and vendors of marketing automation stacks should pay close attention.",
+          "chips": [
+            "agentic",
+            "cep",
+            "decis"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "AI Search Is Changing Ecommerce Forever — And Current Product Pages Aren't Ready",
           "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
-          "plain": "Product pages and catalogs built for keyword search are losing visibility as <b>AI-powered search engines answer queries directly</b>. Retailers must rethink how they structure product data and content so AI models surface their products — a practical introduction to <b>Generative Engine Optimization</b> for commerce teams.",
+          "plain": "Product catalog pages built for keyword search and blue-link results are poorly suited to <b>AI-generated answer engines</b> that synthesize and surface products differently. Retailers need to rethink content structure, metadata, and how product information is presented to stay visible inside AI-driven shopping queries.",
           "chips": [
             "geo",
             "genai",
@@ -70,42 +83,29 @@
           ]
         },
         {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age",
-          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
-          "plain": "Jon Miller's new platform Phave is built around <b>AI agents that coordinate across buying groups</b>, not individual leads — a direct challenge to legacy marketing automation logic. Coming from a Marketo founder, this signals a potential generational shift in how <b>B2B marketing platforms are bought and built</b>.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep"
-          ]
-        },
-        {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Attentive releases agentic Lifecycle Intelligence inside AI Pro Suite",
-          "url": "https://martechseries.com/analytics/data-management-platforms/attentive-releases-new-ai-pro-and-ai-reporting-functionality-helping-brands-turn-customer-signals-into-higher-value-engagement/",
-          "plain": "Attentive's new Lifecycle Intelligence layer uses <b>agentic AI to read customer signals and decide when and how to engage</b> each person across channels. A reported 13% revenue lift at Frye gives buyers a concrete benchmark. This advances the product from message scheduler to <b>autonomous decisioning engine</b>.",
+          "head": "Peec AI Adds Monitoring for Meta's Muse Personal AI Agent, Expanding Brand Visibility Tracking",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-adds-coverage-for-metas-muse-extending-visibility-monitoring-to-personal-ai-agents/",
+          "plain": "Peec AI now tracks how brands appear inside <b>Meta's Muse personal AI agent</b>, including brand sentiment and cited sources. As personal AI agents become a primary discovery surface, marketers need tools that show whether and how their brand is being recommended — making this an early signal for the GEO category.",
           "chips": [
+            "geo",
             "agentic",
-            "decis",
-            "perso",
-            "cep"
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Aprimo launches AI-powered Content Portfolio Management to govern distributed content beyond the DAM",
-          "url": "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/",
-          "plain": "Aprimo's new product uses AI to <b>discover and govern content scattered across an entire ecosystem</b> without forcing migration into a single repository. It automatically applies brand and compliance policies — addressing a real pain point as AI-generated content volumes grow and <b>governance gaps widen</b> across enterprise stacks.",
+          "head": "Guava Launches Daytona Voice Model and Open Benchmark for Voice Agent Performance",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guava-launches-daytona-a-state-of-the-art-voice-model-alongside-an-open-benchmark-evaluating-voice-agent-performance/",
+          "plain": "Guava released both a new voice AI model and an <b>open benchmark — the Guava Voice Index — comparing AI voice agents to human call handlers</b>. Standardised, public benchmarks change how buyers evaluate and procure voice AI, pushing the whole category toward measurable quality standards rather than vendor demos.",
           "chips": [
+            "agentic",
             "govern",
-            "genai"
+            "cep"
           ]
         }
       ]
@@ -115,67 +115,67 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
           "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
-          "plain": "OpenAI is experimenting with <b>persistent user identifiers inside ChatGPT ads</b>, mirroring the third-party tracking cookies marketers lost in browsers. This reshapes how ad measurement works inside AI interfaces and raises fresh consent and privacy questions — directly affecting how marketers buy and govern advertising in generative AI environments.",
+          "plain": "OpenAI is piloting a <b>persistent identifier for ad tracking</b> inside ChatGPT, similar to how third-party cookies worked on the open web. This directly changes how marketers measure conversions in AI-native environments and raises fresh consent and privacy questions that will shape how budgets flow into ChatGPT advertising.",
           "chips": [
-            "genai",
+            "geo",
             "govern",
-            "geo"
+            "genai"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "IAB sets new standards for agentic buying and measurement",
           "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/",
-          "plain": "The IAB has published frameworks standardizing how <b>AI agents negotiate and execute media buys</b> and how measurement contracts should be structured. Industry-wide standards like these determine which platforms get built, what vendors must support, and how accountability is assigned when an agent makes a bad call.",
+          "plain": "The IAB published frameworks that define how <b>AI agents should handle media proposals</b> and how measurement contracts should be written when machines, not humans, make buying decisions. Industry standards like these determine which vendors get built into procurement pipelines and who gets left out.",
           "chips": [
             "agentic",
-            "decis",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": true,
-          "head": "AI search is changing ecommerce forever",
-          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
-          "plain": "Product catalogs and pages built for keyword search are failing inside AI-generated answer engines. The piece explains how <b>generative engine optimization (GEO)</b> now determines whether a product appears in an AI shopping response at all — a structural shift in how e-commerce brands must build and describe their inventory.",
+          "fresh": false,
+          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age with Phave",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "plain": "Jon Miller, who co-built the marketing automation category with Marketo, says legacy platforms were never designed for modern B2B buying groups and launches Phave as a replacement. His view carries serious market weight and signals where <b>enterprise marketing automation investment is heading</b> next.",
           "chips": [
-            "geo",
+            "agentic",
+            "cep",
+            "decis",
             "genai"
           ]
         },
         {
           "num": "04",
           "src": "MarTech",
-          "fresh": true,
-          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age",
-          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
-          "plain": "Jon Miller, who built Marketo and Engagio, says legacy marketing automation was never designed for <b>modern buying groups or agentic AI</b>. His new platform Phave is an early sign of what replaces the category — relevant to anyone evaluating which platforms to buy or build on as the automation stack gets rebuilt.",
+          "fresh": false,
+          "head": "AI search is changing ecommerce forever",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
+          "plain": "Product pages and catalogs built for keyword search are becoming invisible inside AI-generated answers. The piece explains how retailers must restructure content and data so AI engines surface — rather than skip — their products, making <b>generative engine optimization</b> a core ecommerce competency.",
           "chips": [
-            "agentic",
-            "decis",
-            "cep",
+            "geo",
+            "genai",
             "perso"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Phaedon lets loyalty teams build and run entire programs by AI conversation",
-          "url": "https://agilebrandguide.com/phaedon-hands-loyalty-teams-the-controls-letting-them-build-and-run-entire-programs-by-ai-conversation/",
-          "plain": "Phaedon's Tally platform lets marketers <b>reshape earning rules, tiers, and promotions through natural-language conversation</b>, with a human approval step before any change goes live. It's a concrete example of governed agentic AI in a high-stakes CX domain, showing how the human-in-the-loop model works in practice.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Building an AI governance framework for marketing",
+          "url": "https://martech.org/building-an-ai-governance-framework-for-marketing/",
+          "plain": "A practical guide to standing up <b>cross-functional AI oversight</b> covering legal, security, and operations — the controls that protect brands when generative and agentic tools run at scale. As regulators and procurement teams increasingly demand documented governance, this defines what 'good' looks like for marketing orgs.",
           "chips": [
-            "agentic",
             "govern",
-            "perso",
-            "cep"
+            "genai",
+            "agentic"
           ]
         }
       ]
@@ -185,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Reshaping the Stack</em>",
+          "head": "AI Agents Are <em>Replacing the Funnel</em> Itself",
           "url": "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/",
           "body": [
-            "HubSpot's full platform rebuild around AI agents is not an upgrade — it is a structural shift in what marketing software <b>fundamentally does</b>. Platforms like Typeface, Phaedon, and WisdomAI are following the same logic: replace discrete tools with orchestration layers where agents handle end-to-end workflows. The IAB has already moved to set standards for agentic buying &amp; measurement, signalling this is no longer experimental.",
-            "For decision-makers, the implication is that vendor evaluation criteria must change. Asking 'what features does it have?' matters less than asking <b>'what can its agents autonomously execute — and what governance do I retain?'</b> Marketers who delay platform reassessment risk locking into architectures designed for a pre-agent world."
+            "HubSpot's full platform rebuild around AI agents, Jon Miller's rethink of B2B automation, and Workato's AIRO launch all signal the same thing: the classic funnel — attract, nurture, convert — is being replaced by <b>orchestrated agent networks</b> that execute across the entire revenue cycle autonomously. Agentic AI is moving sales from management to orchestration, meaning humans set goals and guardrails while agents handle sequencing.",
+            "This is not an upgrade to existing MarTech stacks — it is a structural change in what a marketing platform is. Vendors who still sell point tools for individual funnel stages face commoditization as platforms absorb those tasks into agent workflows, <b>compressing the stack and the headcount around it</b>."
           ],
           "ev": [
             [
-              "MarTech · HubSpot rebuilds for AI agents",
+              "MarTech · HubSpot rebuilds around AI agents",
               "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
             ],
             [
-              "Agile Brand · Typeface orchestration engine",
-              "https://agilebrandguide.com/typeface-launches-the-next-generation-of-its-orchestration-engine-with-adaptable-ai-experiences-for-humans-and-agents/"
+              "Agile Brand · Agentic AI moves sales to orchestration",
+              "https://agilebrandguide.com/why-agentic-ai-is-moving-sales-performance-from-management-to-orchestration/"
             ],
             [
-              "MarTech · IAB agentic standards",
-              "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/"
+              "MarTech · Marketo co-founder rethinks B2B automation",
+              "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Search Is <em>Disrupting Discovery</em>",
+          "head": "<em>AI Search</em> Rewrites Discovery — and Brand Visibility",
           "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
           "body": [
-            "AI-powered search engines are now surfacing product recommendations — and active <b>dis-recommendations</b> — before a consumer ever reaches a brand's own site. The MarTech piece 'AI is telling consumers not to buy your product' makes clear this is already happening at scale, compressing the funnel in ways that SEO and paid search playbooks were never designed to handle.",
-            "OpenAI testing third-party-style tracking inside ChatGPT ads introduces a second disruption: the same AI layer that advises consumers could soon monetise that attention directly, cutting across existing programmatic supply chains. <b>Brands need visibility strategies built for AI intermediaries</b>, not just for Google's crawlers."
+            "AI-powered search is no longer a future threat: it is already redirecting purchase intent. The MarTech piece on ecommerce makes clear that AI answer engines are <b>collapsing the click-through model</b>, and a companion piece notes that AI is actively advising consumers not to buy certain products — meaning brands can lose consideration before a human ever sees their site. Peec AI's expansion to monitor Meta's Muse personal agent underlines that visibility now has to be tracked inside AI models, not just search-engine result pages.",
+            "Scorpion's coalition with OpenAI and TikTok for home-services businesses shows that <b>forward-looking operators are already rebuilding their discovery infrastructure</b> for an AI-first search world. The strategic decision this forces: treat generative AI model rankings as a new owned-media channel requiring dedicated content and data strategies, separate from traditional SEO."
           ],
           "ev": [
             [
-              "MarTech · AI search &amp; ecommerce",
+              "MarTech · AI search changing ecommerce forever",
               "https://martech.org/ai-search-is-changing-ecommerce-forever/"
             ],
             [
-              "MarTech · AI telling consumers not to buy",
+              "MarTech · AI is telling consumers not to buy",
               "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
             ],
             [
-              "MarTech · OpenAI ChatGPT ad tracking",
-              "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/"
+              "MarTech Series · Peec AI covers Meta Muse agents",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-adds-coverage-for-metas-muse-extending-visibility-monitoring-to-personal-ai-agents/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Proprietary Data Is the <em>Real AI Moat</em>",
+          "head": "Proprietary Data Is the <em>Real Moat</em>",
           "url": "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/",
           "body": [
-            "The clearest strategic signal this month is that generic AI models produce generic outputs — the differentiation comes from feeding AI <b>your company's unique knowledge, processes, and customer signals</b>. Attentive's new AI Pro turns first-party behavioural signals into higher-value engagement; WisdomAI &amp; Teradata partner to put agentic intelligence directly onto mission-critical enterprise data warehouses.",
-            "DataArt's 'Domain Deployed Engineering' framework formalises this idea: AI deployment must be industry-specific &amp; outcome-based, not model-first. <b>Marketers who treat their proprietary data as a strategic asset — and invest in making it AI-ready — will compound an advantage</b> that commodity model access cannot replicate."
+            "The clearest strategic argument of the month comes from MarTech's piece asserting that <b>the AI advantage belongs to whoever controls the best proprietary data</b>, not whoever licenses the best model. Verato and Tech Mahindra's partnership to fix messy healthcare data reinforces the point: AI outputs are only as good as the identity and data layer beneath them. This shifts investment priority from model selection to data quality, unification, and governance.",
+            "OpenAI testing third-party-style ad tracking inside ChatGPT signals that even model providers are scrambling to build the data assets they currently lack — and are willing to enter advertising infrastructure to get them. <b>Marketers who clean and structure their first-party data now will have compounding leverage</b> as AI personalization and targeting depend increasingly on proprietary signal rather than shared cookies or public web crawls."
           ],
           "ev": [
             [
-              "MarTech · real AI advantage is what you know",
+              "MarTech · The real AI advantage is proprietary knowledge",
               "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/"
             ],
             [
-              "MarTech Series · WisdomAI &amp; Teradata agentic data",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/wisdomai-and-teradata-partner-to-deliver-agentic-intelligence-for-mission-critical-enterprise-data/"
+              "MarTech · OpenAI testing third-party tracking in ChatGPT ads",
+              "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/"
             ],
             [
-              "MarTech Series · DataArt domain-deployed AI",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dataart-introduces-domain-deployed-engineering-for-industry-specific-outcome-based-ai-deployment/"
+              "MarTech Series · Verato &amp; Tech Mahindra fix data problem",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/verato-and-tech-mahindra-partner-to-fix-the-data-problem-behind-healthcare-ai/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "B2B Automation Gets a <em>Hard Rethink</em>",
-          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "head": "Agentic Buying Demands <em>New Industry Standards</em>",
+          "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/",
           "body": [
-            "Marketo co-founder Jon Miller publicly arguing that the marketing automation category he helped create needs a full rebuild for the AI age is a rare and significant signal. The core critique: <b>legacy automation was built around volume &amp; sequence; AI-era buying is non-linear, multi-agent, and resistant to spray-and-pray tactics</b>. Flat marketing budgets — flagged separately this month — make the efficiency pressure even sharper.",
-            "BrainTrust Partners launching products specifically to accelerate AI planning ROI, and UiPath's Cartographer turning scattered process knowledge into actionable maps, both point the same direction: <b>the next generation of B2B marketing tech is about orchestration &amp; intelligence, not just automation</b>. Teams still optimising legacy MAP workflows risk spending more to achieve less."
+            "The IAB's move to set standards for agentic media buying and measurement is the most structurally significant governance event of the month. When AI agents buy media autonomously — bidding, targeting, and optimizing without human approval on each step — <b>existing measurement frameworks break down</b>. New standards are needed to define attribution, brand safety, and audit trails in a world where the buyer is software.",
+            "Simultaneously, MarTech's piece on building an AI governance framework for marketing and the broader conversation about AI doing exactly what you ask (but not what you mean) highlight the <b>alignment risk layer</b>: agents optimizing hard metrics can damage brand, customer trust, or compliance without any single human making a bad decision. The governance and standards gap is now a board-level risk, not just an ops problem."
           ],
           "ev": [
             [
-              "MarTech · Jon Miller rethinks B2B automation",
-              "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/"
+              "MarTech · IAB sets agentic buying standards",
+              "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/"
             ],
             [
-              "MarTech Series · BrainTrust AI planning ROI",
-              "https://martechseries.com/analytics/data-management-platforms/braintrust-partners-launches-new-products-to-accelerate-ai-planning-implementation-and-return-on-investment/"
+              "MarTech · Building AI governance framework",
+              "https://martech.org/building-an-ai-governance-framework-for-marketing/"
             ],
             [
-              "MarTech · flat budgets threaten growth",
-              "https://martech.org/when-flat-marketing-budgets-threaten-growth/"
+              "MarTech · Problem with AI doing exactly what you ask",
+              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Governance &amp; <em>Trust Infrastructure</em> Becomes Non-Negotiable",
-          "url": "https://martech.org/building-an-ai-governance-framework-for-marketing/",
+          "head": "Voice &amp; <em>Ambient AI</em> Enters the Customer Journey",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guava-launches-daytona-a-state-of-the-art-voice-model-alongside-an-open-benchmark-evaluating-voice-agent-performance/",
           "body": [
-            "As AI takes on more autonomous marketing actions, governance is moving from compliance checkbox to <b>core operating infrastructure</b>. MarTech's deep-dive on building an AI governance framework, combined with IAB's new agentic measurement standards, signals that the industry is codifying rules before regulators impose them. Separately, Red Sift's BIMI Maker and Aprimo's content portfolio governance tools reflect demand for trust signals at the asset &amp; channel level.",
-            "The problem is subtle: as one piece notes, AI doing <b>exactly what you ask</b> can still produce harmful or brand-damaging outcomes if the brief is wrong or context is missing. <b>Governance frameworks must address prompt design, output review, and accountability chains</b> — not just data privacy. Teams that build this infrastructure now will move faster later, because they won't be firefighting trust failures."
+            "Three separate product launches — Guava's Daytona voice model with an open benchmark, 800.com's AI receptionist booking live appointments, and Sol Foundry's AI that executes commitments made in email — mark a shift from voice as a novelty to voice as a <b>transactional layer inside the customer journey</b>. Guava's open benchmark matters strategically: it gives buyers a shared evaluation standard for the first time, accelerating enterprise adoption.",
+            "For marketers, this means customer touchpoints are fragmenting into <b>ambient, always-on voice and messaging agents</b> that operate without a screen and without a deliberate brand moment. The design question shifts from visual identity and landing-page conversion to how a brand sounds, responds, and follows through inside automated conversations — a capability most marketing teams do not yet have."
           ],
           "ev": [
             [
-              "MarTech · AI governance framework",
-              "https://martech.org/building-an-ai-governance-framework-for-marketing/"
+              "MarTech Series · Guava Daytona voice model &amp; benchmark",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guava-launches-daytona-a-state-of-the-art-voice-model-alongside-an-open-benchmark-evaluating-voice-agent-performance/"
             ],
             [
-              "MarTech · problem with AI doing exactly what you ask",
-              "https://martech.org/the-problem-with-ai-doing-exactly-what-you-ask/"
+              "MarTech Series · 800.com AI receptionist books appointments",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/800-coms-ai-receptionist-now-books-calendly-appointments-during-live-calls/"
             ],
             [
-              "MarTech Series · Aprimo content governance beyond DAM",
-              "https://martechseries.com/content/digi-asset-mgmt/aprimo-launches-content-portfolio-management-to-extend-governance-beyond-the-dam/"
+              "MarTech Series · Sol Foundry executes email promises via AI",
+              "https://martechseries.com/content/email-mktg/sol-from-sol-foundry-inc-emerges-from-stealth-with-4m-for-ai-that-finds-and-does-the-work-you-promised-in-email/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — from HubSpot's rebuild to Jon Miller's critique to OpenAI's ad tracking — confirms that <em>the entire marketing stack is being re-architected around AI agents, and teams that govern that transition intentionally will outpace those that merely adopt tools</em>."
+      "takeaway": "Across every layer of the stack this month, the evidence converges on one shift: <em>AI agents are becoming the primary actors in discovery, buying, and customer interaction</em>, making governance, proprietary data, and ambient-channel strategy the new competitive battleground for marketers."
     }
   }
 }
