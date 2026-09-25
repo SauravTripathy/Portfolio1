@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T17:54:22.344357+00:00",
+  "generatedAt": "2026-09-25T10:18:19.091024+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,21 +47,23 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "ZeroDrift Launches Anchor 3.0: Small Models Built to Enforce AI Agent Compliance",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zerodrift-launches-anchor-3-0-the-first-family-of-models-built-for-enforcement-runtime-of-ai-agent-communications/",
-          "plain": "ZeroDrift's Anchor 3.0 is a family of small language models purpose-built to <b>police what AI agents say in real time</b>, catching more FINRA violations than large frontier models while running up to 34x faster and 12x cheaper. This matters because it shows compliance enforcement doesn't require expensive frontier models — changing how regulated industries can safely deploy marketing agents.",
+          "head": "Iterable Fall Release Adds Native RCS, Nova Conversations, Integrations Hub, and New AI Agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/",
+          "plain": "Iterable's biggest platform update in years bundles <b>agentic AI agents</b> (Nova Intelligence), a native integrations hub, RCS messaging, and a conversational layer into one continuous learning loop. This matters because it collapses the gap between customer data, decisioning, and cross-channel execution inside a single CEP — changing how the platform is bought and evaluated.",
           "chips": [
+            "cep",
             "agentic",
-            "govern"
+            "decis",
+            "cdp"
           ]
         },
         {
           "num": "02",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Dataiku Launches Agent Management to Track and Govern AI Agents Across Platforms",
+          "head": "Dataiku Launches Agent Management to Track and Govern AI Agents Across Any Platform",
           "url": "https://agilebrandguide.com/dataiku-launches-agent-management-to-track-and-manage-performance-of-ai-agents-built-and-running-on-leading-platforms/",
-          "plain": "Dataiku's new Agent Management layer discovers, measures, and flags risk for AI agents regardless of where they were built or run. This is a direct response to enterprises deploying agents across multiple platforms with no unified oversight. <b>Cross-platform agent governance</b> at this level changes how marketing and IT teams buy and manage AI infrastructure.",
+          "plain": "Dataiku's new Agent Management layer discovers, measures value, and flags risk for AI agents regardless of where they were built. This is a direct answer to the <b>governance gap</b> that enterprises face as agentic deployments multiply — it gives buyers a cross-platform control plane, which shifts what 'enterprise-ready AI' means in procurement conversations.",
           "chips": [
             "agentic",
             "govern"
@@ -69,36 +71,39 @@
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Conductor Shifts Full Focus to Answer Engine Optimization, Names New CEO",
-          "url": "https://martechseries.com/analytics/data-management-platforms/conductor-doubles-down-on-aeo-investment-as-global-demand-surges-one-year-after-conductor-ai-launch/",
-          "plain": "One year after launching Conductor AI, the company is repositioning itself entirely around <b>answer engine optimization</b> and appointing a new CEO to lead that chapter. Surging enterprise demand for AEO signals a real budget shift away from traditional SEO toward strategies that put brands inside AI-generated answers — a structural change in how marketing visibility is bought.",
+          "head": "TransUnion's Matt Spiegel: Only 13% of Marketers Have Fully Scaled AI Due to Fragmented Data",
+          "url": "https://agilebrandguide.com/transunions-matt-spiegel-on-the-ai-confidence-readiness-paradox/",
+          "plain": "TransUnion's EVP explains why confidence in AI outpaces actual readiness: siloed teams, fragmented data, and ROI measured in time saved rather than revenue growth. The <b>AI confidence-readiness paradox</b> is a practical framework for understanding why most marketing AI pilots stall before scale — critical context for anyone buying or building in this space.",
           "chips": [
-            "geo"
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "AISEOgic Launches Free Audit Tool Combining SEO, GEO, AEO, and LLMO Analysis",
-          "url": "https://martechseries.com/content/aiseogic-launches-free-ai-seo-audit-platform-for-google-and-ai-search/",
-          "plain": "AISEOgic offers a free website audit that scores readiness across traditional search and <b>AI-answer visibility metrics</b> including GEO and LLMO in one place. Lowering the cost of entry to AI-search diagnostics matters because it accelerates adoption across small and mid-size marketers, helping define what good GEO practice looks like at scale.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Klaviyo CMO: Whoever Owns the Customer Record Wins the AI-Mediated Buying Journey",
+          "url": "https://agilebrandguide.com/expert-mode-what-a-cmo-still-owns-when-the-assistant-writes-the-answer-with-jamie-domenici-from-klaviyo/",
+          "plain": "Klaviyo's CMO argues the real competitive battle is over <b>first-party customer data</b>, not content, because AI assistants now sit between brands and buyers. The insight reframes CDP investment as a GEO and brand survival issue — if a model answers instead of your site, your customer record is the last moat you control.",
           "chips": [
-            "geo"
+            "cdp",
+            "geo",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Adobe Embeds Creative Tools in Google Gemini and Expands Claude Plugin to 80+ Capabilities",
-          "url": "https://agilebrandguide.com/adobe-brings-creative-tools-to-google-gemini-and-adds-acrobat-to-its-claude-plugin/",
-          "plain": "Adobe is plugging its creative and document tools directly into the AI assistants — Gemini and Claude — that employees already use daily. <b>Embedding creative AI into existing workflows</b> rather than requiring a separate app lowers friction for marketing teams and shifts how creative software is distributed and adopted inside enterprises.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "B2B Brands Turn to Creator Video to Resist AI-Generated Slop and Boost AI Search Visibility",
+          "url": "https://martech.org/b2b-brands-turn-to-creator-video-to-fight-ai-slop-and-aid-ai-search/",
+          "plain": "B2B marketers are investing in creator-led video as a dual strategy: differentiating from <b>AI-generated commodity content</b> and earning citations inside AI search answers. The piece links content authenticity directly to generative engine optimization, making it actionable for anyone planning 2027 content budgets in a world where AI answers replace search pages.",
           "chips": [
-            "genai",
-            "agentic"
+            "geo",
+            "genai"
           ]
         }
       ]
@@ -107,62 +112,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "ZeroDrift Anchor 3.0: Small Models Built to Enforce AI Agent Compliance in Real Time",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zerodrift-launches-anchor-3-0-the-first-family-of-models-built-for-enforcement-runtime-of-ai-agent-communications/",
-          "plain": "ZeroDrift's Anchor 3.0 is a family of <b>purpose-built small language models</b> that monitor what AI agents say and flag regulatory violations — catching more FINRA breaches than frontier models while running 34x faster and 12x cheaper. This matters because it shows a new category forming: <b>enforcement runtime</b> that sits between agentic AI and the rules it must obey.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
+          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
+          "plain": "OpenAI is experimenting with a <b>persistent identifier for ad tracking inside ChatGPT</b>, similar to third-party cookies. This matters enormously because it signals how the dominant AI assistant could become a measurable ad channel — while raising fresh consent and privacy questions that will shape how marketers can buy and govern campaigns there.",
           "chips": [
-            "agentic",
-            "govern"
+            "govern",
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Dataiku Launches Agent Management to Discover, Measure, and Govern AI Agents Across Platforms",
-          "url": "https://agilebrandguide.com/dataiku-launches-agent-management-to-track-and-manage-performance-of-ai-agents-built-and-running-on-leading-platforms/",
-          "plain": "Dataiku now lets enterprises see all their AI agents in one place — regardless of where they were built — and track their business value and risk signals. As companies accumulate agents from multiple vendors, <b>cross-platform agent observability</b> becomes a buying requirement. This is an early sign that <b>AI agent governance</b> is maturing into a distinct product category.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "IAB sets new standards for agentic buying and measurement",
+          "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/",
+          "plain": "The IAB has released frameworks standardizing how <b>AI agents handle media proposals</b> and how contracts for advertising measurement should be structured. Industry-wide standards directly shape how martech is bought and governed, so this is a foundational shift for anyone building or procuring agentic ad systems.",
           "chips": [
             "agentic",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Conductor Pivots Entirely to Answer Engine Optimization One Year After AI Launch",
-          "url": "https://martechseries.com/analytics/data-management-platforms/conductor-doubles-down-on-aeo-investment-as-global-demand-surges-one-year-after-conductor-ai-launch/",
-          "plain": "Conductor is making <b>answer engine optimization (AEO)</b> its entire product focus and bringing in a new CEO to lead that bet. One year after launching Conductor AI, surging enterprise demand for visibility inside AI-generated answers is reshaping how marketing search tools are built and sold. This signals AEO is moving from experiment to core budget line.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Marketo co-founder Jon Miller rethinks B2B marketing automation for the AI age with Phave",
+          "url": "https://martech.org/marketo-co-founder-jon-miller-rethinks-b2b-marketing-automation-for-the-ai-age/",
+          "plain": "Jon Miller, who built Marketo, argues legacy marketing automation was never designed for modern <b>B2B buying groups</b> and has launched Phave as a replacement. When the person who defined a category says it is broken and ships something new, it signals a genuine platform shift worth tracking for buyers and builders alike.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "cep",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Adobe Embeds Creative Tools in Google Gemini and Expands Claude Plugin to 80+ Capabilities",
-          "url": "https://agilebrandguide.com/adobe-brings-creative-tools-to-google-gemini-and-adds-acrobat-to-its-claude-plugin/",
-          "plain": "Adobe is plugging its creative and document tools directly into the AI assistants employees already use — Google Gemini and Anthropic's Claude. Rather than pulling users into Adobe apps, it is <b>pushing capabilities into the AI workflow</b>. This changes how creative software is bought and integrated, and raises the stakes for competitors who don't have similar distribution deals.",
+          "head": "Iterable Fall Release: native RCS, Nova Conversations, Integrations Hub, and new AI Agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/",
+          "plain": "Iterable's major platform update adds <b>agentic Nova Intelligence Agents</b>, a native Integrations Hub, RCS messaging, and a conversational layer that links every customer interaction into a continuous learning loop. It moves Iterable from a messaging tool toward a full decisioning engine, changing what buyers should expect from a CEP.",
           "chips": [
-            "genai",
-            "agentic"
+            "cep",
+            "agentic",
+            "perso",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "AISEOgic Launches Free Audit Platform Covering SEO, GEO, AEO, and LLMO in One Report",
-          "url": "https://martechseries.com/content/aiseogic-launches-free-ai-seo-audit-platform-for-google-and-ai-search/",
-          "plain": "AISEOgic gives any marketer a free report scoring their site across traditional SEO, <b>generative engine optimization (GEO)</b>, answer engine optimization, and large-language-model optimization. A free, all-in-one audit tool lowers the barrier for smaller teams to assess AI-search readiness and accelerates adoption of <b>GEO as a standard marketing practice</b>, pressuring larger paid platforms to respond.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Dataiku launches Agent Management to track and govern AI agents across platforms",
+          "url": "https://agilebrandguide.com/dataiku-launches-agent-management-to-track-and-manage-performance-of-ai-agents-built-and-running-on-leading-platforms/",
+          "plain": "Dataiku's new Agent Management layer discovers all AI agents running across an enterprise, measures their value, and flags risk — regardless of where they were built. As companies deploy more agents, <b>cross-platform agent governance</b> becomes a critical buying criterion, making this a direct answer to a gap most martech stacks currently have.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "govern"
           ]
         }
       ]
@@ -172,105 +182,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>AI Agent Governance</em> Layer Becomes Real Infrastructure",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zerodrift-launches-anchor-3-0-the-first-family-of-models-built-for-enforcement-runtime-of-ai-agent-communications/",
+          "head": "The rise of <em>AI coworkers</em> inside marketing teams",
+          "url": "https://martech.org/how-to-build-a-marketing-team-with-ai-coworkers/",
           "body": [
-            "Three separate product launches this month — Dataiku's Agent Management, ZeroDrift's Anchor 3.0, and Workshop's AI Studio — all solve the same new problem: <b>AI agents are already running in production, but nobody has reliable visibility or control over what they do.</b> This is not a future concern; it is an operational gap that vendors are now racing to close with dedicated runtime-enforcement and performance-tracking tooling.",
-            "The strategic implication for marketing and CX leaders is that <b>buying or building an agent is now only half the decision</b>; the other half is choosing a governance layer that can audit, throttle, or override agent behavior. Teams that skip this step are accumulating silent compliance and brand-safety risk every time an agent sends a message or makes a recommendation."
+            "Across the month, vendors stopped pitching AI as a feature and started shipping it as a <b>named team member with a job description</b>. Snappy Kraken's \"marketing operations coworker,\" HubSpot's platform rebuild around agents, and Marketo co-founder Jon Miller's rethink of B2B automation all point to the same structural shift: the unit of deployment is no longer a tool but a role.",
+            "For decision-makers this changes the org-design question. You are no longer asking which software to buy; you are asking <b>which human roles get augmented, which get replaced, and who owns accountability</b> when the agent acts autonomously. IAB's new standards for agentic buying signal that the industry is beginning to answer that question with governance, not just enthusiasm."
           ],
           "ev": [
             [
-              "MarTech Series · ZeroDrift Anchor 3.0",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zerodrift-launches-anchor-3-0-the-first-family-of-models-built-for-enforcement-runtime-of-ai-agent-communications/"
+              "MarTech · AI coworkers",
+              "https://martech.org/how-to-build-a-marketing-team-with-ai-coworkers/"
             ],
             [
-              "Agile Brand · Dataiku Agent Management",
-              "https://agilebrandguide.com/dataiku-launches-agent-management-to-track-and-manage-performance-of-ai-agents-built-and-running-on-leading-platforms/"
+              "MarTech · HubSpot rebuilds around agents",
+              "https://martech.org/hubspot-rebuilds-its-platform-around-ai-agents/"
             ],
             [
-              "MarTech Series · Workshop AI Studio",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/workshop-launches-ai-studio-an-agentic-layer-designed-to-give-internal-communications-teams-the-capacity-theyve-never-had/"
+              "MarTech Series · Snappy AI coworker launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/snappy-kraken-launches-snappy-ai-a-marketing-operations-coworker-for-financial-advisors/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Answer Engine Optimization</em> Displaces Classic SEO",
-          "url": "https://martechseries.com/analytics/data-management-platforms/conductor-doubles-down-on-aeo-investment-as-global-demand-surges-one-year-after-conductor-ai-launch/",
+          "head": "<em>AI search</em> rewrites the purchase funnel",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
           "body": [
-            "Conductor's report of surging global demand one year after its AEO launch, combined with the debut of AISEOgic's free audit platform targeting both Google <b>and</b> AI search, signals that Answer Engine Optimization has crossed from early-adopter experiment to mainstream budget line. Brands that structured content only for ten blue links are now invisible in the AI-generated answers where purchase journeys increasingly begin.",
-            "<b>The decision that changes</b> is where content investment goes: keyword-density thinking gives way to structured, citable, authoritative content designed to be quoted by large language models. SEO teams need new audit metrics — citation rate, answer inclusion, source attribution — not just rankings."
+            "AI assistants are now injecting themselves between brand and buyer at the moment of intent — recommending, filtering, and in some cases <b>actively advising consumers not to purchase</b>. The ecommerce piece and the \"AI is telling consumers not to buy your product\" piece together describe a funnel where the marketer no longer controls the last mile of discovery.",
+            "B2B brands are responding by investing in creator video precisely because <b>human-authored, high-trust content is harder for AI summaries to flatten into generic answers</b>. OpenAI testing third-party-style ad tracking inside ChatGPT shows the other side of the coin: the platforms building these assistants are already monetising the attention they intercept, creating a new paid-search dynamic marketers must learn quickly."
           ],
           "ev": [
             [
-              "MarTech Series · Conductor AEO demand",
-              "https://martechseries.com/analytics/data-management-platforms/conductor-doubles-down-on-aeo-investment-as-global-demand-surges-one-year-after-conductor-ai-launch/"
+              "MarTech · AI search &amp; ecommerce",
+              "https://martech.org/ai-search-is-changing-ecommerce-forever/"
             ],
             [
-              "MarTech Series · AISEOgic audit platform",
-              "https://martechseries.com/content/aiseogic-launches-free-ai-seo-audit-platform-for-google-and-ai-search/"
+              "MarTech · AI tells consumers not to buy",
+              "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
+            ],
+            [
+              "MarTech · B2B creator video vs AI slop",
+              "https://martech.org/b2b-brands-turn-to-creator-video-to-fight-ai-slop-and-aid-ai-search/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Creative AI <em>Embeds Into Existing Workflows</em> Rather Than Replacing Them",
-          "url": "https://agilebrandguide.com/adobe-brings-creative-tools-to-google-gemini-and-adds-acrobat-to-its-claude-plugin/",
+          "head": "Proprietary data as the <em>real competitive moat</em>",
+          "url": "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/",
           "body": [
-            "Adobe's decision to surface its creative tools inside Google Gemini and Claude — rather than forcing users into Adobe's own interface — marks a shift in how AI creative capability gets distributed. <b>The platform war is being fought inside other platforms</b>: wherever a marketer is already working, AI-powered design and document tools now appear as plugins rather than destinations.",
-            "For MarTech buyers this means vendor lock-in calculus changes. A tool's value increasingly depends on <b>how many adjacent environments it plugs into</b>, not on how good its standalone UI is. Procurement teams should now evaluate integration breadth as a first-order criterion alongside feature quality."
+            "Two pieces this month made the same argument from different angles: AI outputs are only as good as the data fed in, and that data is now the primary differentiator. MarTech's \"the real AI advantage is what your company already knows\" and TransUnion's Matt Spiegel on the \"AI confidence-readiness paradox\" both warn that <b>generic models trained on public data will converge, leaving proprietary data as the last defensible edge</b>.",
+            "Iterable's \"memory\" feature — connecting every customer interaction into a persistent record — is the product embodiment of this thesis. Marketers who have not yet audited what first-party signals they actually own, and how clean those signals are, are <b>building AI strategies on borrowed ground</b>."
           ],
           "ev": [
             [
-              "Agile Brand · Adobe Gemini &amp; Claude plugin",
-              "https://agilebrandguide.com/adobe-brings-creative-tools-to-google-gemini-and-adds-acrobat-to-its-claude-plugin/"
+              "MarTech · proprietary data advantage",
+              "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/"
             ],
             [
-              "MarTech Series · Xelta.ai post-creation workflow",
-              "https://martechseries.com/content/xelta-ai-takes-aim-at-the-work-that-comes-after-ai-creates-the-content/"
+              "Agile Brand · TransUnion data-readiness paradox",
+              "https://agilebrandguide.com/transunions-matt-spiegel-on-the-ai-confidence-readiness-paradox/"
+            ],
+            [
+              "MarTech Series · Iterable persistent memory",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>Consumer Price Skepticism</em> Forces CX Transparency Upgrades",
-          "url": "https://agilebrandguide.com/akeneo-survey-finds-shoppers-no-longer-take-prices-at-face-value/",
+          "head": "<em>Agentic governance</em> moves from theory to standard",
+          "url": "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/",
           "body": [
-            "Akeneo's survey data shows shoppers are actively questioning whether displayed prices are real, personalized, or AI-inflated — a trust breakdown that turns product-information quality into a competitive differentiator. <b>Brands with inconsistent, incomplete, or opaque product data are now actively losing transactions</b>, not just trailing on experience scores.",
-            "The strategic lever is product content infrastructure: rich, accurate, consistently syndicated data that lets a shopper verify value instantly across channels. This repositions tools like PIMs and content marketing platforms from back-office cost centers to <b>front-line revenue defenses</b> in an environment where consumer trust is structurally lower."
+            "The IAB publishing standards for agentic buying and measurement is the clearest signal yet that autonomous AI action in media is <b>no longer a pilot programme — it is a procurement reality that needs rules</b>. Dataiku's agent-management dashboard and MarTech's AI governance framework piece show the same pressure building on the enterprise side: someone must own oversight of agents that spend money and contact customers.",
+            "The governance gap is especially acute because agents can now act across platforms simultaneously. <b>The risk is not that AI does the wrong thing; it is that no human knows it did anything at all</b> — which is exactly the problem the IAB standards and internal governance frameworks are designed to close."
           ],
           "ev": [
             [
-              "Agile Brand · Akeneo shopper trust survey",
-              "https://agilebrandguide.com/akeneo-survey-finds-shoppers-no-longer-take-prices-at-face-value/"
+              "MarTech · IAB agentic standards",
+              "https://martech.org/iab-sets-new-standards-for-agentic-buying-and-measurement/"
             ],
             [
-              "Agile Brand · Akeneo enterprise CX imperatives",
-              "https://agilebrandguide.com/akeneo-addressing-consumer-price-skepticism-strategic-imperatives-for-enterprise-cx-and-marketing/"
+              "MarTech · AI governance framework",
+              "https://martech.org/building-an-ai-governance-framework-for-marketing/"
             ],
             [
-              "Agile Brand · Liferay Content Marketing Platform",
-              "https://agilebrandguide.com/liferay-announces-general-availability-of-liferay-content-marketing-platform/"
+              "Agile Brand · Dataiku agent management",
+              "https://agilebrandguide.com/dataiku-launches-agent-management-to-track-and-manage-performance-of-ai-agents-built-and-running-on-leading-platforms/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI-Era <em>Email Trust &amp; Deliverability</em> Becomes a Security Problem",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/easydmarc-launches-email-trust-platform-to-restore-email-trust-and-performance-in-the-era-of-ai-threats/",
+          "head": "The CMO's job shrinks to <em>what AI cannot own</em>",
+          "url": "https://agilebrandguide.com/expert-mode-what-a-cmo-still-owns-when-the-assistant-writes-the-answer-with-jamie-domenici-from-klaviyo/",
           "body": [
-            "EasyDMARC's new Email Trust Platform frames deliverability not as a sending-reputation issue but as an <b>AI-threat-surface problem</b>: generative AI has made phishing and spoofing cheap and convincing enough that inbox providers are tightening authentication requirements, and legitimate marketing email is collateral damage. Restoration of email performance now requires solving an authentication and domain-security challenge, not just list hygiene.",
-            "<b>The decision boundary shifts</b> from marketing ops to a shared responsibility between marketing and security teams. Brands that treat DMARC, DKIM, and BIMI as IT checkbox items rather than active brand-protection infrastructure will see deliverability degrade precisely as AI-generated impersonation of their domains scales up."
+            "Klaviyo's Jamie Domenici framed the leadership question bluntly: when the assistant writes the answer, <b>the CMO's remaining value is judgment, taste, ethics, and brand conviction</b> — things that cannot be prompted into existence. Agile Brand's agentic sales piece echoes this, arguing that the manager's job is shifting from directing activity to orchestrating systems that direct themselves.",
+            "This is a strategic forcing function, not just a cultural one. Marketing teams that cannot articulate <b>what uniquely human decisions they are making — and why those decisions matter — will find budgets and headcount absorbed by the automation layer</b>. The \"do you really need so much marketing?\" piece suggests that pressure is already arriving in boardroom conversations."
           ],
           "ev": [
             [
-              "MarTech Series · EasyDMARC Email Trust Platform",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/easydmarc-launches-email-trust-platform-to-restore-email-trust-and-performance-in-the-era-of-ai-threats/"
+              "Agile Brand · CMO in the AI-answer era",
+              "https://agilebrandguide.com/expert-mode-what-a-cmo-still-owns-when-the-assistant-writes-the-answer-with-jamie-domenici-from-klaviyo/"
+            ],
+            [
+              "Agile Brand · agentic sales orchestration",
+              "https://agilebrandguide.com/why-agentic-ai-is-moving-sales-performance-from-management-to-orchestration/"
+            ],
+            [
+              "MarTech · do you need so much marketing",
+              "https://martech.org/do-you-really-need-so-much-marketing/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every category — agents, search, creative, commerce, and email — <em>the infrastructure layer is being rebuilt to handle AI-native threats and workflows</em>, meaning the MarTech decisions that mattered last year (which tool creates the best output) are being eclipsed by decisions about governance, trust, and cross-platform integration."
+      "takeaway": "Every headline this month is a variation on one underlying shift: <em>AI is collapsing the distance between intent and action across the entire marketing stack</em>, forcing leaders to decide urgently what humans, data, and governance must anchor that system before the agents do it for them."
     }
   }
 }
