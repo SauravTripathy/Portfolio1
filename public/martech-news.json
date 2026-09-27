@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T10:37:50.785347+00:00",
+  "generatedAt": "2026-09-27T17:50:27.892060+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,10 +47,12 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Gartner: 57% of Consumers Trust Brand Content Less Because of Generative AI",
-          "url": "https://agilebrandguide.com/someone-has-to-decide-what-the-machine-stops-making-change-futurist-september-24-2026/",
-          "plain": "Gartner data shows more than half of consumers now trust brand messaging less when they know it is AI-generated. HBR and Marketing Week add that <b>no one in most organisations owns the decision of what AI should stop producing</b>. This is a direct governance gap that affects how AI content tools are justified and controlled.",
+          "head": "40 Digital Transformation Statistics for 2026: Agentic AI, GEO, and Martech Benchmarks",
+          "url": "https://agilebrandguide.com/digital-transformation-statistics/",
+          "plain": "A compiled benchmark report drawing on 9 studies gives marketers hard numbers on <b>agentic AI adoption</b> and <b>generative engine optimization</b> alongside broader martech and automation trends. Useful as a reality check against vendor claims and for building internal business cases for new AI investments.",
           "chips": [
+            "agentic",
+            "geo",
             "genai",
             "govern"
           ]
@@ -58,47 +60,10 @@
         {
           "num": "02",
           "src": "Agile Brand",
-          "fresh": false,
-          "head": "34% of Companies Govern AI Agents Like Employees — and Miss Critical Permission Controls",
-          "url": "https://agilebrandguide.com/34-of-companies-govern-their-agents-like-employees-martech-futurist-august-28-2026/",
-          "plain": "Okta has pushed <b>agent identity into core single sign-on</b>, Gartner forecasts a $4.8B market for securing AI systems, and only a third of companies have governance frameworks built for agents rather than humans. The article argues the permission set is now the most urgent martech specification marketers are ignoring.",
-          "chips": [
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand · via CMSWire",
-          "fresh": false,
-          "head": "Why Publishing More Owned Content Is Shrinking Your AI Answer Visibility",
-          "url": "https://agilebrandguide.com/cmswire-why-does-more-owned-content-cap-your-answer-engine-visibility/",
-          "plain": "Counterintuitively, <b>brands that publish more content on their own sites are seeing their share of AI-generated answers decline</b>. The piece explains why generative engines favour third-party citations over brand-owned pages, a structural shift that changes where marketers should invest content effort.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand · via MarTech",
-          "fresh": false,
-          "head": "How to Restructure a Marketing Team to Work Alongside AI Coworkers",
-          "url": "https://agilebrandguide.com/martech-how-to-build-a-marketing-team-with-ai-coworkers/",
-          "plain": "With 2027 planning underway, this piece gives practical guidance on <b>integrating AI agents into headcount and budget decisions</b> rather than treating them as add-on tools. It covers role redefinition, data requirements, and platform choices — directly relevant to anyone buying or building marketing AI right now.",
-          "chips": [
-            "agentic",
-            "govern",
-            "cep"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
           "fresh": true,
-          "head": "Martech Rollouts Fail Because of Operating Model Gaps, Not Software Flaws",
+          "head": "Martech Rollouts Fail Because of Operating Models, Not Technology, Says Qualified Digital's Kate Dalbey",
           "url": "https://agilebrandguide.com/expert-mode-your-martech-is-only-as-good-as-your-operating-model-with-kate-dalbey-qualified-digital/",
-          "plain": "Kate Dalbey argues that <b>stalled AI tool rollouts almost always trace back to the human operating model</b>, not feature gaps or bad demos. For teams evaluating or deploying marketing AI, this reframes the success criteria: process design and ownership clarity matter more than which platform you pick.",
+          "plain": "An expert interview arguing that <b>stalled martech deployments</b> stem from broken human processes and governance gaps rather than software flaws. Directly relevant to anyone buying or implementing AI-driven marketing tools, because even the best platform underperforms without the right team structure and decision rights around it.",
           "chips": [
             "govern",
             "cep"
@@ -110,23 +75,11 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "34% of Companies Govern Their Agents Like Employees — Okta, Gartner Signal $4.8B Securing-AI Market",
-          "url": "https://agilebrandguide.com/34-of-companies-govern-their-agents-like-employees-martech-futurist-august-28-2026/",
-          "plain": "Okta has baked agent identity into its core SSO product, and Gartner now ranks customer identity and access management among the top three value platforms, projecting a <b>$4.8 billion market for securing AI agents</b>. The piece argues that the permission set — what an agent is allowed to do — has become the most urgent martech specification, because misconfigurations compound at machine speed.",
-          "chips": [
-            "agentic",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "AI Media Agents Can't Pick Up the Phone: AAMP 2.3 Changes Vendor Compliance at Machine Speed",
-          "url": "https://agilebrandguide.com/expert-mode-your-media-agent-cant-pick-up-the-phone-with-richy-glassberg-from-safeguard-privacy/",
-          "plain": "SafeGuard Privacy's Richy Glassberg explains how <b>AAMP 2.3 forces CMOs to rethink vendor compliance</b> when AI agents are making buying and placement decisions faster than any human can review them. Because agents can't negotiate or call a rep, every compliance rule must be machine-readable before the agent fires — rewriting how procurement and legal work in martech stacks.",
+          "head": "GTM teams are losing track of their AI agents",
+          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
+          "plain": "As <b>AI agents proliferate across the GTM stack</b>, most teams have no clear inventory of what each agent does, who owns it, or what decisions it makes autonomously. This directly affects how marketing AI is bought and governed — if you can't see your agents, you can't control their spend, compliance, or outcomes.",
           "chips": [
             "agentic",
             "govern",
@@ -134,12 +87,12 @@
           ]
         },
         {
-          "num": "03",
+          "num": "02",
           "src": "MarTech Series",
           "fresh": false,
-          "head": "Iterable Fall Release Adds Native RCS, Nova Conversations, Integrations Hub, and Agentic Intelligence Agents",
+          "head": "Iterable Fall Release: native RCS, Nova Conversations, Integrations Hub, and new AI Agents",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/",
-          "plain": "Iterable's biggest platform update this year ships <b>native RCS messaging, an AI conversation layer (Nova Conversations), a no-code Integrations Hub, and new agentic intelligence agents</b> that tie customer data, chat history, and campaign decisions into one continuous loop. This matters because it moves a major CEP from discrete sends toward a memory-driven system that acts on its own learnings across channels.",
+          "plain": "Iterable's major platform update adds <b>agentic intelligence layers</b> that create a continuous learning loop across customer data, conversations, and channel decisions. Adding native RCS, an integrations hub, and autonomous Nova Agents in one release signals how fast CEPs are evolving from message-senders into decision-making systems — changing what buyers should evaluate.",
           "chips": [
             "cep",
             "agentic",
@@ -148,24 +101,38 @@
           ]
         },
         {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "OpenAI testing third-party-style tracking in ChatGPT ads",
+          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
+          "plain": "OpenAI is reportedly testing <b>persistent identifiers for ad measurement inside ChatGPT</b>, raising immediate questions about consent and data privacy in AI-native environments. If this ships, it reshapes how marketers buy and measure inside AI surfaces — and triggers fresh governance obligations around personal data in generative experiences.",
+          "chips": [
+            "genai",
+            "govern",
+            "geo"
+          ]
+        },
+        {
           "num": "04",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Gartner: 57% of Consumers Trust Brand Content Less Because of AI — Nobody Owns the 'Stop' Decision",
-          "url": "https://agilebrandguide.com/someone-has-to-decide-what-the-machine-stops-making-change-futurist-september-24-2026/",
-          "plain": "A Gartner stat — <b>57% of consumers now trust brand messaging less because of AI-generated content</b> — anchors a broader argument from HBR and Marketing Week: companies have workflows for producing AI content but no clear owner for deciding what to stop making. That governance gap is a brand-risk problem that procurement, legal, and marketing all avoid claiming.",
+          "head": "34% of companies govern their AI agents like employees — and why that's dangerous",
+          "url": "https://agilebrandguide.com/34-of-companies-govern-their-agents-like-employees-martech-futurist-august-28-2026/",
+          "plain": "Okta has shipped <b>agent identity into core SSO</b>, Gartner forecasts a $4.8B market for securing AI systems, and most companies still treat agent permissions as an afterthought. This piece argues the permission set is now the most consequential martech specification — directly affecting how agentic AI is safely built and governed.",
           "chips": [
-            "genai",
-            "govern"
+            "agentic",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "Agile Brand · via CMSWire",
           "fresh": false,
-          "head": "Why More Owned Content Caps Your Answer Engine Visibility — and What to Do Instead",
+          "head": "Why more owned content can actually reduce your brand's AI answer-engine visibility",
           "url": "https://agilebrandguide.com/cmswire-why-does-more-owned-content-cap-your-answer-engine-visibility/",
-          "plain": "Greg Kihlström's CMSWire piece finds that <b>publishing more first-party content can actually shrink your share of AI-generated answers</b> because generative engines weight third-party citations over brand-owned pages. The practical implication: GEO strategy now requires earning coverage on external sources, not just producing more on your own domain — a direct shift in how content budgets should be allocated.",
+          "plain": "Counter-intuitive finding: flooding your own site with content may shrink the share of <b>third-party citations AI engines use</b> when mentioning your brand. For marketers investing in GEO, this reframes the production strategy — more isn't better, and earned coverage on external sources now carries more weight in AI-generated answers.",
           "chips": [
             "geo",
             "genai"
@@ -178,117 +145,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Need <em>Governance Frameworks</em>, Not Just Deployment Plans",
-          "url": "https://agilebrandguide.com/34-of-companies-govern-their-agents-like-employees-martech-futurist-august-28-2026/",
+          "head": "AI Agents Need <em>Governance Frameworks</em> Before They Scale",
+          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
           "body": [
-            "A striking data point anchors this shift: <b>34% of companies are already governing AI agents the way they manage human employees</b> — with roles, responsibilities, and accountability structures. This signals that the question is no longer whether to deploy agents, but how to supervise them once they're running inside marketing and CX workflows.",
-            "The practical implication is that marketers need <b>operating models, not just tech stacks</b>. One expert framed it directly: your MarTech is only as good as the processes and people decisions wrapped around it. Governance is becoming a competitive differentiator, not a compliance afterthought."
+            "GTM teams are already deploying AI agents across campaigns, data pipelines, and customer journeys — but most organisations have no coherent way to track what those agents are doing or who owns them. One survey found that <b>34% of companies are governing agents the way they govern employees</b>, which sounds logical until you realise most employee governance is itself poorly defined.",
+            "The practical decision this forces is immediate: before adding another agent to your stack, map accountability. Marketing AI governance frameworks are emerging as a distinct discipline — not IT policy, not legal compliance, but a marketing-ops responsibility that decides what the machine is allowed to stop doing as much as what it starts."
           ],
           "ev": [
             [
-              "Martech Futurist · Agent governance stat",
+              "MarTech · GTM agent oversight",
+              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
+            ],
+            [
+              "Agile Brand · 34% govern agents like employees",
               "https://agilebrandguide.com/34-of-companies-govern-their-agents-like-employees-martech-futurist-august-28-2026/"
             ],
             [
-              "Agile Brand · Operating model expert mode",
-              "https://agilebrandguide.com/expert-mode-your-martech-is-only-as-good-as-your-operating-model-with-kate-dalbey-qualified-digital/"
-            ],
-            [
-              "Agile Brand · Media agent accountability",
-              "https://agilebrandguide.com/expert-mode-your-media-agent-cant-pick-up-the-phone-with-richy-glassberg-from-safeguard-privacy/"
+              "MarTech AI · governance framework guide",
+              "https://martech.org/building-an-ai-governance-framework-for-marketing/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>AI Coworker</em> Model Is Reshaping Marketing Teams",
-          "url": "https://agilebrandguide.com/martech-how-to-build-a-marketing-team-with-ai-coworkers/",
+          "head": "Answer Engine Visibility Rewrites <em>Content Strategy</em>",
+          "url": "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/",
           "body": [
-            "Multiple product launches this month — from Snappy AI for financial advisors to Iterable's persistent customer memory layer — share a common design philosophy: <b>AI positioned not as a tool but as a teammate</b> with a defined role in the workflow. This reframes how marketers think about headcount, skill gaps, and team structure.",
-            "The tension this creates is real: <b>someone still has to decide what the machine stops making</b>, as one piece put it. Human judgment about scope, priorities, and brand voice remains essential precisely because AI coworkers will execute at scale without hesitation. Defining those boundaries is now a core leadership task."
+            "AI search and answer engines are now filtering — and sometimes actively discouraging — purchases by synthesising third-party signals rather than serving up brand-owned pages. <b>More owned content can actually cap your visibility</b> in these systems because LLMs weight authoritative, independent sources over self-promotional assets. B2B brands are responding by funding creator video and third-party editorial to seed the training and retrieval layers that answer engines draw from.",
+            "The strategic shift here is fundamental: optimising for answer engines means earning mentions in content you do not control. Teams must reallocate budget from owned-content volume toward influence in the broader information ecosystem — reviews, analyst coverage, creator partnerships, and structured data that LLMs can cite with confidence."
           ],
           "ev": [
             [
-              "MarTech · Building teams with AI coworkers",
-              "https://agilebrandguide.com/martech-how-to-build-a-marketing-team-with-ai-coworkers/"
+              "MarTech · AI telling consumers not to buy",
+              "https://martech.org/ai-is-telling-consumers-not-to-buy-your-product/"
             ],
             [
-              "MarTech Series · Snappy AI coworker launch",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/snappy-kraken-launches-snappy-ai-a-marketing-operations-coworker-for-financial-advisors/"
+              "Agile Brand · owned content caps AEO visibility",
+              "https://agilebrandguide.com/cmswire-why-does-more-owned-content-cap-your-answer-engine-visibility/"
             ],
             [
-              "Change Futurist · What the machine stops making",
-              "https://agilebrandguide.com/someone-has-to-decide-what-the-machine-stops-making-change-futurist-september-24-2026/"
+              "MarTech · B2B creator video &amp; AI search",
+              "https://martech.org/b2b-brands-turn-to-creator-video-to-fight-ai-slop-and-aid-ai-search/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>Data Quality</em> Is the Binding Constraint on AI Confidence",
-          "url": "https://agilebrandguide.com/transunions-matt-spiegel-on-the-ai-confidence-readiness-paradox/",
+          "head": "The Operating Model Is the <em>Real Constraint</em>",
+          "url": "https://agilebrandguide.com/expert-mode-your-martech-is-only-as-good-as-your-operating-model-with-kate-dalbey-qualified-digital/",
           "body": [
-            "TransUnion's Matt Spiegel named a growing problem directly: there is a <b>confidence-readiness paradox</b> where marketers feel bullish about AI capabilities but haven't audited the data those systems depend on. The Evalueserve-Databricks partnership signals the same anxiety at the infrastructure level — organisations are scrambling to get data pipelines AI-ready.",
-            "This is a decision-forcing issue because <b>bad data doesn't just produce bad outputs — it produces confidently wrong outputs at speed</b>. Investing in data governance, enrichment, and integration platforms (Workato's Gartner recognition lands here too) is no longer a back-office concern; it is the prerequisite for any AI marketing initiative to be trusted."
+            "Across practitioner commentary this month, one pattern dominates: organisations that stall on AI transformation are not blocked by tooling — they are blocked by unclear ownership, fragmented decision rights, and workflows designed for a pre-agent world. <b>Your MarTech stack is only as good as the operating model surrounding it</b>, and adding AI coworkers without redesigning roles creates duplication, not leverage.",
+            "The actionable implication is that hiring and org-design decisions now precede tool selection. Teams are mapping which skills humans must retain — judgment, context-setting, stakeholder negotiation — and which are safely delegated to agents. The 'AI coworker' framing is becoming standard shorthand for this restructuring, signalling a move from automation-as-feature to AI-as-team-member."
           ],
           "ev": [
             [
-              "Agile Brand · AI confidence-readiness paradox",
-              "https://agilebrandguide.com/transunions-matt-spiegel-on-the-ai-confidence-readiness-paradox/"
+              "Agile Brand · operating model as constraint",
+              "https://agilebrandguide.com/expert-mode-your-martech-is-only-as-good-as-your-operating-model-with-kate-dalbey-qualified-digital/"
             ],
             [
-              "MarTech Series · Evalueserve &amp; Databricks data transformation",
-              "https://martechseries.com/analytics/data-management-platforms/evalueserve-partners-with-databricks-to-accelerate-data-and-ai-transformation/"
+              "MarTech · build a team with AI coworkers",
+              "https://martech.org/how-to-build-a-marketing-team-with-ai-coworkers/"
             ],
             [
-              "MarTech Series · Workato iPaaS Gartner recognition",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/workato-named-a-customers-choice-in-2026-gartner-peer-insights-voice-of-the-customer-for-integration-platform-as-a-service/"
+              "MarTech · martech skills to survive",
+              "https://martech.org/the-martech-skills-you-need-to-survive/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Answer Engine Visibility Is <em>Rewriting Content Strategy</em>",
-          "url": "https://agilebrandguide.com/cmswire-why-does-more-owned-content-cap-your-answer-engine-visibility/",
+          "head": "Proprietary Data Is the <em>Durable AI Moat</em>",
+          "url": "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/",
           "body": [
-            "A counterintuitive finding is reshaping SEO and content investment: <b>publishing more owned content can actually suppress a brand's visibility inside AI answer engines</b>. The mechanism matters — LLM-powered answer layers appear to favour authoritative third-party citations over brand-controlled pages, inverting years of content-volume orthodoxy.",
-            "For marketing strategists this is a direct budget-allocation question. <b>The playbook of 'create more content and rank higher' breaks down</b> in an answer-engine world. Brands may need to shift resources toward earning external citations, structured data, and formats that AI systems prefer to quote — rather than simply producing more pages."
+            "As foundation models commoditise, the differentiation question shifts entirely to data. <b>The real AI advantage is what your company already knows</b> — customer interaction history, proprietary research, first-party behavioural signals — and how well that knowledge is structured for machine retrieval. Partnerships like Evalueserve–Databricks and platform moves like Iterable's persistent memory layer all point to the same underlying bet: whoever controls clean, connected data wins the personalisation race.",
+            "This reframes the data-warehouse conversation from a back-office cost to a front-line competitive asset. Marketers who can articulate the business value locked in their data — and push for the integrations and governance to unlock it — will have more influence over technology roadmaps than those who treat data infrastructure as an IT problem."
           ],
           "ev": [
             [
-              "CMSWire via Agile Brand · Owned content &amp; answer engines",
-              "https://agilebrandguide.com/cmswire-why-does-more-owned-content-cap-your-answer-engine-visibility/"
+              "MarTech · proprietary data as AI advantage",
+              "https://martech.org/the-real-ai-advantage-is-what-your-company-already-knows/"
             ],
             [
-              "Agile Brand · Sept 26 news digest",
-              "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-26-2026/"
+              "MarTech Series · Evalueserve–Databricks data AI partnership",
+              "https://martechseries.com/analytics/data-management-platforms/evalueserve-partners-with-databricks-to-accelerate-data-and-ai-transformation/"
+            ],
+            [
+              "MarTech Series · Iterable persistent memory layer",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Persistent <em>Customer Memory</em> Becomes a Platform Feature",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/",
+          "head": "AI Advertising Enters a <em>Privacy Reckoning</em>",
+          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
           "body": [
-            "Iterable's launch of a cross-interaction memory layer, paired with UserTesting embedding human insight directly into AI workflows via MCP servers, points to a maturing expectation: <b>AI systems should carry context forward across every touchpoint, not reset with each session</b>. This is the infrastructure precondition for genuinely personalised customer journeys at scale.",
-            "The competitive implication is that <b>memory — who the customer is, what they've done, what they care about — is becoming a durable platform asset</b>, not a campaign-level variable. Brands that invest in unified customer memory now will compound that advantage as agent-driven interactions multiply, while those relying on session-based logic will produce experiences that feel increasingly fragmented."
+            "OpenAI's quiet testing of third-party-style tracking inside ChatGPT ads signals that the same data-privacy tensions that reshaped display advertising are now arriving in AI-native channels — possibly faster and with less regulatory preparation. <b>Media agents cannot pick up the phone</b> when consent questions arise, meaning the accountability gap between automated ad buying and privacy compliance is widening at exactly the moment AI ad placements are scaling.",
+            "Marketers face a near-term decision: engage now with privacy vendors and legal teams to define acceptable AI ad-tracking parameters, or inherit the liability later. The CTV &amp; programmatic expansion happening in parallel — as seen with Viant's direct-access publisher deals — means the volume of AI-placed impressions will outpace governance unless brands act proactively rather than reactively."
           ],
           "ev": [
             [
-              "MarTech Series · Iterable customer memory",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/iterable-gives-marketing-tech-a-memory-connecting-every-customer-interaction-to-the-next/"
+              "MarTech · OpenAI ChatGPT ad tracking test",
+              "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/"
             ],
             [
-              "MarTech Series · UserTesting MCP &amp; AI workflows",
-              "https://martechseries.com/technology/usertesting-brings-human-insight-directly-into-ai-workflows-with-new-mcp-servers/"
+              "Agile Brand · media agent privacy gap",
+              "https://agilebrandguide.com/expert-mode-your-media-agent-cant-pick-up-the-phone-with-richy-glassberg-from-safeguard-privacy/"
             ],
             [
-              "MarTech Series · CSG/Netcracker journey orchestration",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/multiple-industry-honors-reinforce-csg-netcracker-leadership-in-customer-journey-orchestration-and-ai-innovation/"
+              "MarTech Series · Viant CTV direct-access expansion",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/viant-expands-direct-access-to-support-deal-based-buying-across-the-largest-publishers-in-ctv/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — data, content, agents, and team design — the defining shift is that <em>AI forces structural decisions that marketers can no longer defer to technologists</em>."
+      "takeaway": "Every major move this month — agent proliferation, answer-engine visibility, org redesign, data moats, AI ad tracking — converges on a single pressure point: <em>the organisations that define accountability before they scale AI will set the rules everyone else inherits</em>."
     }
   }
 }
