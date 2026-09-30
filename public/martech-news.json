@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T18:43:33.099010+00:00",
+  "generatedAt": "2026-09-30T11:14:37.655433+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,52 +45,11 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · via MarTech Series",
-          "fresh": true,
-          "head": "Braze launches Decisioning Studio Go, Agentic Standards, and Operator Connect for real-time customer journey AI",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-accelerates-ai-innovation-empowering-marketers-to-treat-every-customer-like-their-only-customer/",
-          "plain": "Braze unveiled three major AI additions: Decisioning Studio Go for automated journey decisions, Agentic Standards to let external agents act inside Braze, and Operator Connect for conversational AI across channels. This is a significant platform shift — <b>agentic decisioning baked into a major CEP</b> — changing how brands buy and build customer engagement tech.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "perso"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Braze expands AI from content creation to campaign operations, connecting to external LLMs",
-          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
-          "plain": "This editorial deep-dive explains how Braze's new tools automate campaign checks and wire the platform to external LLMs like Claude. It matters because <b>connecting a CEP to outside models</b> lets marketers swap AI brains without changing their execution layer — a new buying and architecture pattern for marketing teams.",
-          "chips": [
-            "genai",
-            "agentic",
-            "cep",
-            "govern"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Global study: consumers grant AI access reluctantly more than twice as often as willingly — \"resigned consent\" emerges as hidden risk",
-          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
-          "plain": "Usercentrics' 2026 Digital Trust research coins <b>\"resigned consent\"</b> — people allowing AI access not because they want to but because they feel they have no real choice. This reframes governance risk: compliance checkboxes don't equal genuine trust, which has direct implications for how AI-driven personalization programs should be designed and audited.",
-          "chips": [
-            "govern",
-            "perso",
-            "cdp"
-          ]
-        },
-        {
-          "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "CData launches Connect AI Gateway with enterprise MCP to govern AI agent access to business data at record level",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cdata-launches-connect-ai-gateway-one-control-point-between-ai-and-the-systems-that-run-the-business/",
-          "plain": "CData's new gateway gives companies a single control point between AI agents and enterprise data sources, with <b>field-level governance and model routing</b> built in via the Model Context Protocol. This directly addresses a gap in agentic AI stacks: agents pulling live business data without guardrails — a growing concern for buyers and compliance teams.",
+          "head": "Stibo Systems Launches AgentWorkx: Governed AI Agents Built Into Master Data Management",
+          "url": "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/",
+          "plain": "Stibo Systems has shipped AgentWorkx, a framework that lets businesses deploy <b>AI agents directly inside master data management</b> workflows. Customers can use pre-built Stibo agents or build their own. Because data quality is the foundation of every marketing AI decision, putting governed agents at the data layer changes how MarTech stacks are bought and architected.",
           "chips": [
             "agentic",
             "govern",
@@ -99,15 +58,55 @@
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech",
+          "num": "02",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "How to build a visual SEO strategy for AI search by linking images to authoritative entity data",
-          "url": "https://martech.org/how-to-build-a-visual-seo-strategy-for-ai-search/",
-          "plain": "As AI answers increasingly surface visual content, this guide explains how to connect image assets to structured entity data so they appear inside AI-generated results. <b>Generative Engine Optimization for visual content</b> is an emerging discipline; marketers who ignore it risk losing discovery-stage visibility as AI search replaces traditional blue-link results.",
+          "head": "Braze Signs Strategic Collaboration with AWS to Expand AI-Powered Customer Engagement",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/",
+          "plain": "Braze announced a formal strategic agreement with AWS at its Forge conference, targeting deeper <b>generative AI capabilities inside its customer engagement platform</b>. This is more than a logo deal — it signals infrastructure investment that will shape how brands access AI-driven messaging at scale, affecting both build decisions and vendor selection in the CEP market.",
+          "chips": [
+            "cep",
+            "genai",
+            "perso",
+            "decis"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "\"Resigned Consent\": Global Study Finds Consumers Grant AI Access Reluctantly More Than Twice as Often as Willingly",
+          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
+          "plain": "Usercentrics' 2026 global research reveals that <b>consumers accept AI data access out of resignation, not genuine trust</b>, at a ratio greater than 2:1. For marketers, this is a governance warning: compliance numbers look healthy while underlying consent is fragile, making AI personalization programs legally and reputationally vulnerable if regulators or public sentiment shift.",
+          "chips": [
+            "govern",
+            "cdp",
+            "perso"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "After Zero-Click Search: Why the Social Feed Is Becoming the New Search Bar",
+          "url": "https://martechseries.com/mts-insights/guest-authors/after-zero-click-search-the-feed-is-the-new-search-bar/",
+          "plain": "A guest analysis argues that Google's shift to <b>AI answer boxes is eliminating organic click traffic</b>, forcing marketers to rethink discovery entirely. As search moves to conversational AI, brand visibility now depends on being cited inside AI-generated answers rather than ranked in blue-link results — a fundamental change to content and SEO strategy.",
           "chips": [
             "geo",
             "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Guideline Launches WRAP Cloud: AI-Enabled TV and CTV Audience Analytics via MCP and Agentic Workflows",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guideline-launches-new-audience-analytics-data-platform-wrap-cloud/",
+          "plain": "Guideline has moved its WRAP TV audience analysis tool to a SaaS platform, adding <b>Model Context Protocol support and embedded agentic workflows</b> for media planning. MCP integration means AI assistants can query live audience data autonomously, signalling how agentic systems are beginning to take over routine media-buying analysis tasks.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cdp"
           ]
         }
       ]
@@ -116,68 +115,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series · via MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Braze launches Decisioning Studio Go, Agentic Standards, and Operator Connect for real-time journey AI",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-accelerates-ai-innovation-empowering-marketers-to-treat-every-customer-like-their-only-customer/",
-          "plain": "Braze unveiled three major AI additions: <b>Decisioning Studio Go</b> for real-time per-person journey choices, Agentic Standards to govern how AI agents behave inside campaigns, and Operator Connect to link Braze with external LLMs. This moves a major CEP from content generation into full agentic decisioning — a meaningful shift in how marketing automation is built and bought.",
+          "head": "Stibo Systems Launches AgentWorkx: Governed AI Agents Built Into Master Data Management",
+          "url": "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/",
+          "plain": "Stibo Systems introduced AgentWorkx, a framework that puts <b>governed AI agents directly inside master data management</b> workflows. Marketers and data teams can either use pre-built agents or wire in their own. This matters because clean, governed master data is the foundation of every personalization and decisioning system — and autonomous agents acting on bad data is a well-known enterprise risk.",
           "chips": [
             "agentic",
-            "decis",
-            "cep",
-            "govern"
+            "govern",
+            "cdp",
+            "decis"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Braze expands AI from content creation to campaign operations, connects to external LLMs",
-          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
-          "plain": "MarTech's editorial breakdown of Braze's new releases explains how <b>AI decisioning and automated campaign checks</b> differ from simple content generation, and what plugging in Claude and other LLMs means for marketers who buy or build on the platform. A useful plain-language companion to the press release for anyone evaluating CEP vendors.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "\"Resigned Consent\": Global Study Finds Consumers Give AI Access Reluctantly More Than Twice as Often as Willingly",
+          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
+          "plain": "Usercentrics research across multiple markets shows that <b>resigned consent — not informed agreement — drives most AI data permissions</b>. Consumers click accept because refusing feels futile, not because they trust the system. For marketers building AI-powered personalization, this is a governance and trust problem that regulation alone won't fix.",
           "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "genai"
+            "govern",
+            "cdp",
+            "perso"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "\"Resigned consent\": consumers grant AI data access reluctantly more than twice as often as willingly",
-          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
-          "plain": "Usercentrics' 2026 global study coins <b>\"resigned consent\"</b> — people allow AI access not because they trust it but because they see no real choice. This reframes opt-in rates as a false signal of genuine approval, with direct implications for how brands govern data use and comply with regulators who scrutinize informed consent.",
+          "head": "After Zero-Click Search, Brands Must Rethink Visibility as the Feed Becomes the New Search Bar",
+          "url": "https://martechseries.com/mts-insights/guest-authors/after-zero-click-search-the-feed-is-the-new-search-bar/",
+          "plain": "A guest analysis argues that <b>Google's shift to conversational AI answers has ended the era of blue-link SEO</b>, forcing brands to optimize for AI-generated responses and social feeds instead. This reframes where marketing budgets and content strategies should point — a direct challenge to how most teams still measure search visibility.",
           "chips": [
-            "govern",
-            "cdp"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "CData launches Connect AI Gateway: one governed control point between AI agents and enterprise data",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cdata-launches-connect-ai-gateway-one-control-point-between-ai-and-the-systems-that-run-the-business/",
-          "plain": "CData's new gateway embeds enterprise MCP (model context protocol) to <b>route AI agent requests through a single governed layer</b>, controlling access down to the record level and choosing the most efficient model per task. For anyone building agentic martech stacks, this is the kind of infrastructure layer that shapes what agents can actually do — and what they can't.",
+          "head": "Braze Signs AWS Strategic Collaboration to Deepen Generative AI in Customer Engagement",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/",
+          "plain": "Braze and AWS formalized a strategic deal at Braze Forge to <b>embed generative AI deeper into the Braze customer engagement platform</b> using AWS infrastructure. Unlike a logo partnership, this includes joint engineering on AI features and industry-specific solutions, which changes what Braze customers can build and how they buy AI capabilities.",
           "chips": [
-            "agentic",
-            "govern",
-            "cdp"
+            "cep",
+            "genai",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "OpenAI testing third-party-style tracking identifier inside ChatGPT ads",
-          "url": "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/",
-          "plain": "OpenAI is piloting a <b>persistent ad-tracking identifier in ChatGPT</b>, similar to the third-party cookies marketers are trying to leave behind. It could improve measurement inside AI-answer ad placements but raises fresh consent questions. This matters for anyone planning GEO or paid visibility strategies inside generative search environments.",
+          "head": "Infobip Forecasts 7.3 Billion AI-Driven Holiday Interactions as Consumers Shop Earlier and Expect Personalization",
+          "url": "https://agilebrandguide.com/infobip-predicts-7-3-billion-black-friday-and-cyber-monday-interactions-as-ai-reshapes-the-2026-shopping-season/",
+          "plain": "Research across nine markets projects <b>7.3 billion brand-consumer interactions over Black Friday and Cyber Monday 2026</b>, with 63% of shoppers already using AI while browsing. Only 19% plan to wait until peak week to shop, meaning engagement platforms and personalization engines must be ready earlier and at far greater scale.",
           "chips": [
-            "geo",
-            "govern",
-            "genai"
+            "cep",
+            "perso",
+            "agentic"
           ]
         }
       ]
@@ -187,117 +185,105 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Made Marketing <em>Faster, Not Better</em> — and the Reckoning Is Here",
-          "url": "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/",
+          "head": "<em>Agentic AI</em> moves inside enterprise data pipes",
+          "url": "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/",
           "body": [
-            "A wave of honest post-mortems is landing: AI tooling accelerated production cycles but quality, strategic thinking, and genuine differentiation have not kept pace. Job-posting data reinforces the gap — employers now demand AI fluency, yet the skills they list are mostly operational rather than creative or analytical.",
-            "The practical decision this forces is <b>rebalancing the AI investment</b> from content volume toward judgment, measurement, and governance. Speed without direction compounds mediocrity at scale, and the brands quietly winning are the ones that constrained output to raise the bar on each piece."
+            "Stibo Systems embedding its AgentWorkx engine directly into master data management signals a structural shift: AI agents are no longer sitting on top of enterprise systems as add-ons but are <b>wired into the authoritative data layer itself</b>. This means decisions made by agents carry the same governed, single-source context that humans once had to look up manually.",
+            "Combined with ZoomInfo pushing GTM context graph data into live customer workflows, the pattern is clear — the new battleground is <b>which vendor owns the pipe the agent reads from</b>. Marketers who do not audit where their agents source data will inherit whatever biases or gaps live in those underlying graphs."
           ],
           "ev": [
             [
-              "MarTech · AI Made Marketing Faster",
-              "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/"
+              "MarTech Series · Stibo AgentWorkx launch",
+              "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/"
             ],
             [
-              "MarTech · What Job Postings Say About AI Skills",
-              "https://martech.org/what-marketing-job-postings-say-about-ai-skills/"
-            ],
-            [
-              "MarTech · Why You Need to Stop Treating LLMs Like People",
-              "https://martech.org/why-you-need-to-stop-treating-llms-like-people/"
+              "MarTech Series · ZoomInfo GTM Context Graph",
+              "https://martechseries.com/analytics/data-management-platforms/zoominfo-launches-superhuman-go-connector-bringing-gtm-context-graph-data-into-customer-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Resigned Consent</em>: Consumers Tolerate AI, They Don't Welcome It",
-          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
+          "head": "The <em>feed replaces search</em> as the discovery surface",
+          "url": "https://martechseries.com/mts-insights/guest-authors/after-zero-click-search-the-feed-is-the-new-search-bar/",
           "body": [
-            "A global study finds that consumers grant AI access <b>reluctantly more than twice as often as willingly</b> — a posture the researchers call \"resigned consent.\" Separately, 43 % say they would pay a premium specifically for guaranteed access to a human support agent, signalling that the automation push has overshot consumer comfort.",
-            "For marketers this is a strategic pricing and positioning signal, not just an ethics footnote. Brands that make <b>human escalation a visible, marketed feature</b> rather than a buried fallback can capture a real willingness-to-pay premium while differentiating against fully automated rivals."
+            "Zero-click search has quietly gutted the traditional SEO funnel, and the analysis published this month argues that <b>algorithmic feeds — not keyword results pages — are now where brand discovery happens</b>. The implication for budget allocation is immediate: optimizing for feed relevance signals matters more than chasing blue-link rankings.",
+            "HighLevel's integration with Meta's Muse AI product reinforces this: <b>the social feed is being turbocharged with generative AI</b>, making it simultaneously a discovery engine, a creative canvas, and a conversion surface. Brands that still separate 'social' from 'search' in their channel strategy are working with an outdated map."
           ],
           "ev": [
             [
-              "Agile Brand · Resigned Consent Study",
-              "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/"
+              "MarTech Series · Zero-click feed analysis",
+              "https://martechseries.com/mts-insights/guest-authors/after-zero-click-search-the-feed-is-the-new-search-bar/"
             ],
             [
-              "MarTech Series · 43% Would Pay More for Human Support",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/43-of-consumers-would-pay-more-for-a-product-that-guarantees-access-to-human-support-according-to-alchemer-ai-customer-experience-report/"
+              "MarTech Series · HighLevel + Meta Muse",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/highlevel-connects-to-muse-a-new-ai-product-from-meta-bringing-ai-into-everyday-business-workflows/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Generative Search Is <em>Rewriting Discovery</em> — Including for Ecommerce",
-          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
+          "head": "<em>Resigned consent</em> is the AI trust crisis hiding in plain sight",
+          "url": "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/",
           "body": [
-            "AI-powered search engines and ChatGPT-style interfaces are displacing traditional blue-link results as the first stop for product and brand discovery. Strategies built around keyword ranking are losing ground to <b>structured, visual, and semantically rich content</b> that generative models can surface and cite directly.",
-            "OpenAI is already testing third-party-style ad tracking inside ChatGPT, meaning the ad-attribution plumbing that underlies ecommerce ROI is being rebuilt in real time. Marketers who have not yet audited their content for generative-engine legibility are effectively invisible to a fast-growing share of high-intent shoppers."
+            "A new global study finds that consumers hand over AI access reluctantly more than twice as often as they do willingly — a phenomenon the researchers call <b>'resigned consent.'</b> This is not passive acceptance; it is suppressed resistance that accumulates into churn, regulatory complaints, and brand damage once a better-trusted alternative appears.",
+            "The data should change how CMOs frame AI adoption internally: <b>a high opt-in rate is not the same as earned trust</b>. Pairing this finding with ObservePoint's human-curated cookie database launch — which explicitly positions accuracy and governance as differentiators — suggests that the next competitive moat in MarTech is demonstrable data stewardship, not just AI feature count."
           ],
           "ev": [
             [
-              "MarTech · AI Search Is Changing Ecommerce",
-              "https://martech.org/ai-search-is-changing-ecommerce-forever/"
+              "Agile Brand · Resigned consent global study",
+              "https://agilebrandguide.com/resigned-consent-new-global-study-finds-consumers-grant-ai-access-reluctantly-more-than-twice-as-often-as-willingly/"
             ],
             [
-              "MarTech · Optimizing Content for Generative Engine Models",
-              "https://martech.org/optimizing-content-for-generative-engine-search-models/"
-            ],
-            [
-              "MarTech · OpenAI Testing Third-Party Tracking in ChatGPT Ads",
-              "https://martech.org/openai-testing-third-party-style-tracking-in-chatgpt-ads/"
+              "MarTech Series · ObservePoint cookie database",
+              "https://martechseries.com/analytics/observepoint-launches-the-worlds-most-accurate-human-curated-cookie-and-tag-database/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>AI Agent Governance</em> Gap Is a Live Operational Risk",
-          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
+          "head": "Cloud giants <em>anchor the AI stack</em> through strategic lock-in",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/",
           "body": [
-            "Go-to-market teams are deploying AI agents faster than they can inventory them — and many organisations now have <b>no reliable map of which agents are running, what data they touch, or who owns them</b>. CData's launch of an AI Gateway product and Usermaven's agentic attribution platform both reflect vendor recognition that control-plane infrastructure is urgently missing.",
-            "The risk is not theoretical: ungoverned agents make autonomous decisions on spend, messaging, and customer data. The immediate decision for any team scaling AI agents is to <b>establish an agent registry and ownership policy</b> before the next wave of launches, not after an incident forces the issue."
+            "Braze signing a strategic collaboration agreement with AWS — and Adobe deepening its ChatGPT plugin at OpenAI DevDay — show that best-of-breed MarTech vendors are deliberately <b>anchoring their AI roadmaps to hyperscaler infrastructure</b>. This is not just a distribution play; it shifts where AI model training data, compute, and compliance controls live.",
+            "For enterprise buyers, the practical consequence is that <b>your MarTech vendor's cloud partnership now shapes your own data sovereignty options</b>. Evaluating point solutions without mapping their hyperscaler dependencies risks waking up to unexpected data residency or egress constraints when AI features scale."
           ],
           "ev": [
             [
-              "MarTech · GTM Teams Losing Track of AI Agents",
-              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
+              "MarTech Series · Braze &amp; AWS collaboration",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/"
             ],
             [
-              "MarTech Series · CData Connect AI Gateway",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cdata-launches-connect-ai-gateway-one-control-point-between-ai-and-the-systems-that-run-the-business/"
-            ],
-            [
-              "MarTech Series · Usermaven Agentic Maven AI 2.0",
-              "https://martechseries.com/analytics/usermaven-launches-agentic-maven-ai-2-0-for-marketing-attribution-and-growth/"
+              "Agile Brand · Adobe ChatGPT plugin at OpenAI DevDay",
+              "https://agilebrandguide.com/adobe-adds-hands-on-editing-controls-to-its-chatgpt-plugin-at-openai-devday/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Platform Consolidation: <em>AI as the Integration Layer</em> Between Clouds",
-          "url": "https://agilebrandguide.com/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/",
+          "head": "AI scales <em>commerce interactions</em> but pressure-tests infrastructure",
+          "url": "https://agilebrandguide.com/infobip-predicts-7-3-billion-black-friday-and-cyber-monday-interactions-as-ai-reshapes-the-2026-shopping-season/",
           "body": [
-            "The month's biggest partnership announcements — Braze with AWS, Acquia with Vercel, GoDaddy's AI coding API — share a structural logic: <b>AI is becoming the connective tissue</b> that replaces bespoke integrations between marketing execution platforms and cloud infrastructure. Vendors are racing to lock in preferred-partner status before the integration map hardens.",
-            "For buyers this changes the vendor-evaluation calculus: the question is no longer which platform has the best individual features but <b>which ecosystem partnership gives your AI agents the cleanest, most governed data path</b> across the full stack. Choosing a point solution that sits outside a major cloud partnership is increasingly a technical debt decision."
+            "Infobip's forecast of 7.3 billion AI-mediated interactions over Black Friday &amp; Cyber Monday 2026 is a concrete volume signal: <b>AI is not incrementally improving commerce communications, it is multiplying their scale by an order of magnitude</b>. This exposes every weak point in deliverability, personalization pipelines, and loyalty infrastructure simultaneously.",
+            "InboxAlly's new deliverability research and Pointics' AI loyalty platform for WordPress both arrive at the same moment for the same reason: <b>brands need hardened last-mile infrastructure before AI-driven volume hits</b>. Strategy teams that treat deliverability and retention mechanics as 'ops problems' rather than strategic levers will find the performance gap widening sharply at peak season."
           ],
           "ev": [
             [
-              "Agile Brand · Braze &amp; AWS Collaboration",
-              "https://agilebrandguide.com/braze-signs-strategic-collaboration-agreement-with-aws-to-advance-ai-powered-customer-engagement/"
+              "Agile Brand · Infobip BFCM 7.3B interactions",
+              "https://agilebrandguide.com/infobip-predicts-7-3-billion-black-friday-and-cyber-monday-interactions-as-ai-reshapes-the-2026-shopping-season/"
             ],
             [
-              "MarTech · Braze Expands AI to Campaign Operations",
-              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
+              "MarTech Series · InboxAlly deliverability insights",
+              "https://martechseries.com/content/email-mktg/inboxally-leading-email-deliverability-platform-announces-new-insights-on-the-critical-role-of-email-deliverability-in-business-communication/"
             ],
             [
-              "Agile Brand · Acquia &amp; Vercel Partnership",
-              "https://agilebrandguide.com/acquia-announces-partnership-with-vercel-to-bring-headless-drupal-experiences-to-javascript-front-ends/"
+              "MarTech Series · Pointics AI loyalty platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/pointics-launches-ai-powered-loyalty-rewards-platform-for-wordpress-to-boost-customer-retention/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the central tension is the same: <em>AI is scaling outputs and automating decisions faster than teams have built the governance, trust, and strategic clarity to direct it well</em>."
+      "takeaway": "Across every layer of the stack this month, the defining pressure is the same: <em>AI is moving from pilot feature to load-bearing infrastructure</em>, and the brands that treat governance, trust, and delivery reliability as afterthoughts will pay that debt at scale."
     }
   }
 }
