@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T18:30:01.905155+00:00",
+  "generatedAt": "2026-10-01T11:42:01.262661+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,65 +47,68 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Stibo Systems launches AgentWorkx, putting governed AI agents inside enterprise master data",
-          "url": "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/",
-          "plain": "Stibo Systems has launched AgentWorkx, a framework for building and governing AI agents directly inside master data management. This matters because <b>agentic AI acting on dirty or ungoverned master data</b> is a top enterprise risk. Baking governance rails into the data layer — not bolted on afterward — changes how companies buy and build AI-driven marketing operations.",
+          "head": "Yext acquires Flamel.ai to extend agentic marketing platform into local paid media",
+          "url": "https://martechseries.com/sales-marketing/yext-signs-definitive-agreement-to-acquire-flamel-ai-extending-its-agentic-marketing-platform-into-local-paid-media/",
+          "plain": "Yext is buying Flamel.ai to let multi-location brands run <b>localized paid campaigns across Google, Meta, and ChatGPT</b> from one platform. This matters because it merges organic AI-answer visibility with paid media execution, directly connecting <b>agentic marketing</b> to where AI-driven search is sending shoppers right now.",
           "chips": [
             "agentic",
-            "govern",
-            "cdp"
+            "geo",
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "80% of marketing and IT leaders say manual validation is blocking AI at scale",
-          "url": "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/",
-          "plain": "Pantheon's State of the Web 2026 report finds that AI has dramatically sped up content and code creation, but <b>human review and approval workflows haven't scaled to match</b>. Four in five leaders say this bottleneck is the real barrier to AI deployment — reframing the governance problem from ethics to plain operational throughput.",
+          "src": "MarTech · via MarTech.org",
+          "fresh": false,
+          "head": "Salesforce buys AI customer research startup Listen Labs",
+          "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
+          "plain": "Salesforce acquired Listen Labs, which runs <b>AI-powered customer interviews and simulated customer behavior</b>. Plugging that into Salesforce's CRM and AI agents means brands could soon test messaging or personalization strategies against synthetic customer models before deploying them — changing how AI is built and validated inside enterprise stacks.",
           "chips": [
-            "govern",
-            "genai"
+            "agentic",
+            "cdp",
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Coforge launches CXNova, a multi-agent platform for real-time CX orchestration",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coforge-launches-cxnova-an-agentic-cx-orchestration-platform-that-delivers-intelligent-real-time-customer-experiences/",
-          "plain": "CXNova uses a <b>multi-agent architecture</b> to unify disconnected AI, content, and channel systems into one execution layer. Unlike single-vendor suites, it aims to orchestrate across existing tools — which changes the buying question from 'which platform' to 'which orchestration layer.' Personalization and decisioning happen continuously at the individual level.",
+          "head": "Topsort unveils T-Brain, a commerce-specific foundation model for enterprise decisioning",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/topsort-unveils-t-brain-a-commerce-specific-foundation-model-for-enterprise-decision-making/",
+          "plain": "Topsort launched T-Brain, a <b>Large Commerce Model trained on billions of retail decisions</b> covering products, queries, shoppers, and transactions. Unlike general-purpose LLMs, it is purpose-built for commerce signals, which could shift how retailers buy or build AI decisioning tools rather than fine-tuning generic models.",
           "chips": [
-            "agentic",
             "decis",
+            "bandit",
             "perso",
-            "cep"
+            "agentic"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Yext releases multiplayer agent harness in Scout for shared marketing AI workflows",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-announces-multiplayer-agent-harness-purpose-built-for-marketing-growth/",
-          "plain": "Yext's new Scout feature lets human marketers and AI agents <b>plan and execute campaigns inside a single shared workspace</b> with common context. This 'multiplayer' model — where agents and people collaborate rather than hand off — is an emerging design pattern that will shape how marketing teams are structured and how agentic tools get procured.",
+          "head": "80% of marketing and IT leaders say manual validation is blocking AI at scale",
+          "url": "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/",
+          "plain": "Pantheon's 2026 report finds AI has accelerated content and code creation, but <b>human review bottlenecks now cap what organisations can actually ship</b>. This is a direct governance gap — the systems built to approve AI output haven't scaled with the output itself, making it a buying and build priority.",
           "chips": [
-            "agentic",
+            "govern",
             "genai",
-            "cep"
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "MediaRadar launches Insights Studio, an AI-native intelligence platform for humans and agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/mediaradar-launches-insights-studio-an-ai-native-intelligence-platform-built-for-people-and-agents/",
-          "plain": "MediaRadar's Insights Studio is built on an <b>interoperable architecture designed to serve both human analysts and AI agents</b> consuming advertising intelligence. It signals a broader shift in data platform design: systems must now be architected for machine consumers, not just dashboards — with direct implications for how martech stacks are evaluated and integrated.",
+          "head": "Why LLMs cite Gartner Peer Insights over analysts — and what that means for influence strategy",
+          "url": "https://agilebrandguide.com/spotlight-summit-recap-john-rockhold-on-influence-orchestration-and-the-evolution-of-analyst-relations/",
+          "plain": "Spotlight's John Rockhold explains that <b>LLMs pull from structured peer-review data rather than analyst reports</b>, forcing B2B brands to rethink where they earn credibility. This reframes analyst relations as <b>generative engine optimization</b> — a practical shift in how marketing AI visibility is built and bought.",
           "chips": [
-            "agentic",
-            "govern",
-            "cdp"
+            "geo",
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -114,66 +117,72 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Stibo Systems launches AgentWorkx, putting governed AI agents inside enterprise master data",
-          "url": "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/",
-          "plain": "Stibo Systems has built a framework that lets companies deploy AI agents directly inside their master data management layer, with built-in guardrails. This matters because <b>governed agentic AI acting on master data</b> is a new category — it changes how enterprises buy both MDM and AI tooling, and sets a precedent for what safe agent deployment looks like in production.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Salesforce acquires AI customer research startup Listen Labs",
+          "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
+          "plain": "Salesforce is buying Listen Labs, a startup that uses AI to run customer interviews, analyze responses, and simulate customer behavior. Folding this into Salesforce's CRM and AI agents means <b>synthetic customer research</b> could feed directly into automated decisioning — changing how marketers validate campaigns and personalize at scale.",
           "chips": [
             "agentic",
-            "govern",
-            "cdp"
+            "decis",
+            "cdp",
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "80% of marketing and IT leaders say manual validation is the main bottleneck blocking AI at scale",
-          "url": "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/",
-          "plain": "Pantheon's 2026 State of the Web report shows AI has turbocharged content and code creation, but <b>human review and approval workflows haven't scaled to match</b>. For anyone building or buying AI marketing tools, this pinpoints exactly where the next wave of investment — and governance tooling — needs to go.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Braze expands AI from content creation into campaign operations and external LLM connections",
+          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
+          "plain": "Braze is pushing AI beyond copywriting into <b>automated campaign checks and AI decisioning</b>, while also letting marketers connect to external LLMs like Claude. This matters because a major CEP moving AI into operational workflow — not just content — shifts how marketing teams buy and configure engagement platforms.",
           "chips": [
-            "genai",
-            "govern"
+            "cep",
+            "agentic",
+            "decis",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Coforge launches CXNova, a multi-agent platform for real-time customer experience orchestration",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coforge-launches-cxnova-an-agentic-cx-orchestration-platform-that-delivers-intelligent-real-time-customer-experiences/",
-          "plain": "CXNova uses a <b>multi-agent architecture to unify disconnected AI, content, and channel systems</b> into one execution layer for personalization and engagement. It represents a new class of agentic CEP — where agents don't just suggest actions but coordinate them across touchpoints in real time, changing how enterprises shop for customer experience infrastructure.",
+          "head": "Yext acquires Flamel.ai to add localized paid media to its agentic marketing platform",
+          "url": "https://martechseries.com/sales-marketing/yext-signs-definitive-agreement-to-acquire-flamel-ai-extending-its-agentic-marketing-platform-into-local-paid-media/",
+          "plain": "Yext is buying Flamel.ai to run <b>localized paid campaigns across Google, Meta, and ChatGPT</b> from one platform alongside organic visibility. For multi-location brands this collapses paid and organic AI-search presence into a single agentic stack — a meaningful shift in how local marketing is bought and managed.",
           "chips": [
             "agentic",
+            "geo",
             "decis",
-            "perso",
             "cep"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Yext launches multiplayer agent harness in Scout, letting humans and AI agents share one marketing workspace",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-announces-multiplayer-agent-harness-purpose-built-for-marketing-growth/",
-          "plain": "Scout's new harness creates a <b>shared context layer where marketing teams and AI agents plan and execute together</b>. This is a meaningful product shift — it moves agentic AI from a solo copilot to a collaborative teammate model, which has direct implications for how marketing workflows are designed and how teams are structured.",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "GTM teams are losing visibility and ownership of their AI agents",
+          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
+          "plain": "As AI agents proliferate across the go-to-market stack, most teams lack a clear map of what each agent does or who owns it. This is a <b>governance gap with real risk</b> — agents making customer-facing decisions with no accountability structure. Directly relevant to anyone buying or building agentic martech.",
           "chips": [
             "agentic",
-            "genai",
-            "decis"
+            "govern",
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Adobe adds direct editing controls to its ChatGPT plugin, blending prompting with hands-on manipulation",
-          "url": "https://agilebrandguide.com/adobe-adds-hands-on-editing-controls-to-its-chatgpt-plugin-at-openai-devday/",
-          "plain": "Adobe's ChatGPT plugin now lets users switch between typing prompts and directly editing images, designs, and PDFs — with the chat and editor <b>sharing the same context</b>. This closes a major usability gap in generative creative tools and signals how AI-native creative workflows will be built, bought, and embedded going forward.",
+          "head": "Pantheon: 80% of marketing and IT leaders say manual validation is blocking AI at scale",
+          "url": "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/",
+          "plain": "Pantheon's 2026 State of the Web report finds AI has sped up content and code creation but <b>human review workflows have not kept pace</b>, stalling deployment at scale. This identifies a structural bottleneck in how organizations govern AI output — critical for anyone planning an AI content or automation rollout.",
           "chips": [
+            "govern",
             "genai",
-            "agentic"
+            "agentic",
+            "cep"
           ]
         }
       ]
@@ -183,113 +192,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The rise of <em>agentic orchestration</em> as the new marketing stack layer",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-announces-multiplayer-agent-harness-purpose-built-for-marketing-growth/",
+          "head": "Speed Without Quality: <em>AI Made Marketing Faster</em>, Not Better",
+          "url": "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/",
           "body": [
-            "Multiple launches this month — Yext's Multiplayer Agent Harness, Coforge's CXNova, and Stibo's AgentWorkx — share the same architecture: <b>autonomous agents that coordinate with each other</b>, not just assist a human. This is a structural shift from AI as a point tool to AI as an orchestration layer sitting above existing martech.",
-            "The implication for decision-makers is that the next vendor evaluation shouldn't ask 'does it use AI?' but rather <b>'which agents can it run, govern, and hand off to?'</b> Platforms that can't expose agentic interfaces will quietly become dead-ends in the stack."
+            "The dominant story of the past 30 days is a reckoning: AI has compressed production timelines dramatically, but output quality and strategic judgment have not kept pace. Multiple signals — from job-posting analysis to practitioner essays — converge on the same finding: <b>velocity is no longer a differentiator when everyone has the same acceleration tools.</b>",
+            "The practical implication is that the next competitive edge sits in validation, governance, and taste — not generation. Roughly 80% of marketing &amp; IT leaders report that <b>manual validation bottlenecks are actively blocking AI at scale</b>, meaning the constraint has shifted from creation to quality control. Brands that invest in the review layer now will pull ahead as raw generation becomes a commodity."
           ],
           "ev": [
             [
-              "MarTech Series · Yext Multiplayer Agent Harness",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-announces-multiplayer-agent-harness-purpose-built-for-marketing-growth/"
+              "MarTech · AI makes marketing faster",
+              "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/"
             ],
             [
-              "MarTech Series · Coforge CXNova agentic CX",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coforge-launches-cxnova-an-agentic-cx-orchestration-platform-that-delivers-intelligent-real-time-customer-experiences/"
+              "Agile Brand · manual validation blocking AI",
+              "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/"
             ],
             [
-              "MarTech Series · Stibo AgentWorkx master data",
-              "https://martechseries.com/analytics/data-management-platforms/stibo-systems-announces-agentic-ai-engine-agentworkx-bringing-governed-agents-directly-into-enterprise-master-data/"
+              "Agile Brand · trust beats speed",
+              "https://agilebrandguide.com/expert-mode-the-unsexy-truth-about-ai-and-why-trust-beats-speed-every-time/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Manual validation</em> is the silent AI bottleneck",
-          "url": "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/",
+          "head": "<em>Agentic AI Sprawl</em>: GTM Teams Are Losing Control",
+          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
           "body": [
-            "A striking data point anchors this theme: <b>roughly 80% of marketing, engineering, and IT leaders say manual validation is blocking AI at scale</b>. Ascerta's $18M raise to improve AI ROI measurement lands in the same moment, signalling that the investment community sees 'AI governance overhead' as a solvable, fundable problem.",
-            "The pattern matters because most AI conversations focus on capability, not <b>the operational drag that prevents deployment</b>. Teams that automate validation pipelines — quality checks, compliance sign-offs, output audits — will compound AI returns while competitors stall in review queues."
+            "A new class of problem is emerging as AI agents proliferate across go-to-market stacks: <b>no one has a complete map of what agents are running, what decisions they are making, or where they overlap.</b> Yext's acquisition of Flamel.ai to extend its agentic marketing platform, and Levelpath's launch of an autonomous procurement agent, illustrate how quickly agent-first products are shipping — faster than governance frameworks can follow.",
+            "The risk is compounding invisibility: each agent optimizes its slice, but cross-agent conflicts and unmonitored spend decisions accumulate silently. Larridin's collaboration with Google Cloud specifically to <b>measure and maximize AI impact</b> signals that ROI accountability for agents is now a funded problem — and a gap most enterprises have not yet closed."
           ],
           "ev": [
             [
-              "Agile Brand · 80% say manual validation blocks AI",
-              "https://agilebrandguide.com/roughly-80-of-marketing-engineering-and-it-leaders-say-manual-validation-is-blocking-ai-at-scale/"
+              "MarTech · GTM teams losing track of agents",
+              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
             ],
             [
-              "Agile Brand · Ascerta $18M AI ROI raise",
+              "MarTech Series · Yext acquires Flamel.ai",
+              "https://martechseries.com/sales-marketing/yext-signs-definitive-agreement-to-acquire-flamel-ai-extending-its-agentic-marketing-platform-into-local-paid-media/"
+            ],
+            [
+              "Agile Brand · Ascerta raises $18M for AI ROI",
               "https://agilebrandguide.com/ascerta-raises-18m-to-help-enterprises-maximize-ai-roi/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI platforms built for <em>people and agents</em> simultaneously",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/mediaradar-launches-insights-studio-an-ai-native-intelligence-platform-built-for-people-and-agents/",
+          "head": "Generative Search <em>Rewrites Discoverability</em> Rules",
+          "url": "https://martech.org/ai-search-is-changing-ecommerce-forever/",
           "body": [
-            "MediaRadar's Insights Studio markets itself explicitly as built 'for people <b>and</b> agents' — a phrase that would have been nonsensical two years ago. HighLevel's integration with Meta's Muse follows the same logic: surface AI inside everyday human workflows so the human and the agent share the same interface rather than operating in parallel silos.",
-            "This dual-audience design philosophy changes how you spec software. <b>User stories must now cover both human operators and automated agent consumers</b> of the same data and UI, raising new questions about permissions, rate limits, and auditability that most martech teams haven't written requirements for yet."
+            "AI-powered search engines are no longer auxiliary — they are becoming the primary surface where purchase intent is shaped and resolved. Items this month document how <b>generative engine optimization is displacing traditional SEO</b> logic, requiring brands to think in structured, citable content rather than keyword density. Attentive research confirms that AI is already influencing what shoppers actually buy, not just how they discover products.",
+            "The strategic shift goes beyond tactics: LLMs preferentially cite sources like Gartner Peer Insights over analyst commentary, meaning <b>peer-generated evidence now outranks expert opinion in AI-mediated search.</b> Brands and B2B firms that do not build a presence in AI-citation-friendly formats — reviews, structured data, visual content — risk becoming invisible in the next search paradigm entirely."
           ],
           "ev": [
             [
-              "MarTech Series · MediaRadar Insights Studio",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/mediaradar-launches-insights-studio-an-ai-native-intelligence-platform-built-for-people-and-agents/"
+              "MarTech · AI search changing ecommerce",
+              "https://martech.org/ai-search-is-changing-ecommerce-forever/"
             ],
             [
-              "MarTech Series · HighLevel &amp; Meta Muse integration",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/highlevel-connects-to-muse-a-new-ai-product-from-meta-bringing-ai-into-everyday-business-workflows/"
+              "MarTech · optimizing for generative engines",
+              "https://martech.org/optimizing-content-for-generative-engine-search-models/"
+            ],
+            [
+              "Agile Brand · LLMs cite Peer Insights not analysts",
+              "https://agilebrandguide.com/spotlight-summit-recap-john-rockhold-on-influence-orchestration-and-the-evolution-of-analyst-relations/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Real-time <em>data intelligence</em> collapses the insight-to-action gap",
-          "url": "https://agilebrandguide.com/xr-integrates-with-kinetiq-political-insights-to-connect-real-time-political-ad-intelligence-with-campaign-delivery/",
+          "head": "<em>Trust &amp; Disclosure</em> Becoming a Brand Liability",
+          "url": "https://martechseries.com/mts-insights/staff-writers/ai-disclosure-experience-how-brands-can-label-ai-interactions-without-creating-trust-fatigue/",
           "body": [
-            "XR's integration with Kinetiq Political Insights connects live ad intelligence directly to campaign delivery — eliminating the analyst-in-the-middle step. Vespa.ai earning AWS AI Competency points to the same pressure: <b>search and retrieval infrastructure must now operate at the speed of inference</b>, not the speed of a nightly data job.",
-            "For marketers, the practical shift is from dashboards you consult to intelligence that <b>automatically routes into execution systems</b>. The competitive advantage will belong to teams that wire insight feeds directly into buying, personalisation, and optimisation loops rather than pausing to review them."
+            "Regulators, states, and consumers are simultaneously tightening scrutiny of AI-mediated brand interactions. States are actively rewriting social-media rules, identity fraud is growing more sophisticated and adaptive, and the question of <b>how to label AI interactions without triggering trust fatigue</b> has moved from ethics whitepaper to urgent design problem. Persona's expanded identity-theft protection tools reflect how quickly fraud is evolving alongside AI capabilities.",
+            "Brands face a delicate calibration: over-disclose and users disengage; under-disclose and regulators &amp; advocates intervene. The emerging best practice — surfaced in MarTech Series analysis — is to <b>contextualise AI disclosure at the moment of consequence</b> rather than burying it in terms of service, preserving transparency without adding friction to every micro-interaction."
           ],
           "ev": [
             [
-              "Agile Brand · XR &amp; Kinetiq real-time political ad intelligence",
-              "https://agilebrandguide.com/xr-integrates-with-kinetiq-political-insights-to-connect-real-time-political-ad-intelligence-with-campaign-delivery/"
+              "MarTech Series · AI disclosure without trust fatigue",
+              "https://martechseries.com/mts-insights/staff-writers/ai-disclosure-experience-how-brands-can-label-ai-interactions-without-creating-trust-fatigue/"
             ],
             [
-              "MarTech Series · Vespa.ai AWS AI Competency",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vespa-ai-achieves-aws-ai-competency/"
+              "MarTech · states rewriting social media rules",
+              "https://martech.org/states-are-starting-to-rewrite-the-rules-of-social-media/"
             ],
             [
-              "MarTech Series · MediaRadar AI-native intelligence",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/mediaradar-launches-insights-studio-an-ai-native-intelligence-platform-built-for-people-and-agents/"
+              "MarTech Series · identity fraud more adaptive",
+              "https://martechseries.com/sales-marketing/id-mgmt/persona-expands-identity-theft-protection-tools-as-new-data-reveals-identity-fraud-is-becoming-more-adaptive-and-sophisticated/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "The <em>experience debt</em> reckoning arrives",
-          "url": "https://agilebrandguide.com/jonathan-moran-from-sas-on-when-experience-design-collides-with-customer-reality/",
+          "head": "Consolidation Wave: <em>Acquisitions Hardwire AI</em> Into Platforms",
+          "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
           "body": [
-            "SAS's Jonathan Moran articulates what many CMOs feel but haven't named: <b>experience debt</b> — the gap between the brand you design and the brand customers actually encounter under real load conditions. ObservePoint's launch of a human-curated cookie &amp; tag database addresses one concrete manifestation: broken or misfiring tags silently degrade personalisation and analytics at the worst moments.",
-            "Adobe adding hands-on editing controls to its ChatGPT plugin at OpenAI DevDay fits here too — <b>creative teams are being handed AI tools faster than governance and quality controls can keep up</b>. The theme uniting these signals is that AI amplifies experience debt as much as it promises to solve it, and the brands that win will be the ones that measure both sides of that equation."
+            "The M&amp;A pattern of the past 30 days is consistent: large platforms are buying specialist AI startups to <b>embed intelligence directly into workflow layers</b> rather than offering it as an add-on. Salesforce acquiring Listen Labs (AI customer research), Yext acquiring Flamel.ai (AI local paid media), and Braze expanding AI from content creation into campaign operations all follow the same logic — AI as infrastructure, not feature.",
+            "For buyers and decision-makers, this consolidation compresses the window for standalone AI-point-solution vendors. <b>Integrated AI capabilities are quickly becoming table stakes</b> within incumbent platforms, raising the question of whether best-of-breed AI tools can survive as independents or whether their exit is inevitably acquisition. The Ascerta $18M raise targeting enterprise AI ROI measurement suggests investors still see a gap — but the gap is narrowing fast."
           ],
           "ev": [
             [
-              "Agile Brand · SAS on experience debt",
-              "https://agilebrandguide.com/jonathan-moran-from-sas-on-when-experience-design-collides-with-customer-reality/"
+              "MarTech · Salesforce buys Listen Labs",
+              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
             ],
             [
-              "MarTech Series · ObservePoint cookie &amp; tag database",
-              "https://martechseries.com/analytics/observepoint-launches-the-worlds-most-accurate-human-curated-cookie-and-tag-database/"
+              "MarTech · Braze expands AI into campaign ops",
+              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
             ],
             [
-              "Agile Brand · Adobe ChatGPT plugin editing controls",
-              "https://agilebrandguide.com/adobe-adds-hands-on-editing-controls-to-its-chatgpt-plugin-at-openai-devday/"
+              "MarTech Series · Yext acquires Flamel.ai",
+              "https://martechseries.com/sales-marketing/yext-signs-definitive-agreement-to-acquire-flamel-ai-extending-its-agentic-marketing-platform-into-local-paid-media/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the defining pressure is the same: <em>AI is moving from assistant to autonomous operator, and the organisations that will lead are those building the governance, data infrastructure, and dual human-agent workflows to keep up with that transition</em>."
+      "takeaway": "Across every signal this month, the field is splitting into two tracks: those still chasing AI-generated speed, and those who have realised that <em>the real advantage now lives in governance, trust, and discoverability architecture</em> — the unglamorous layer that determines whether AI output actually reaches and converts an audience."
     }
   }
 }
