@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T17:42:08.378059+00:00",
+  "generatedAt": "2026-10-05T12:24:03.467627+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,26 +47,63 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "From Found to Cited: How AI Agents Are Replacing Human Web Visitors",
-          "url": "https://agilebrandguide.com/expert-mode-from-found-to-cited-navigating-the-new-frontier-of-ai-search/",
-          "plain": "The article argues that <b>AI agents acting on behalf of consumers</b> are now the most important 'visitors' to your site — meaning brands must optimize for being cited inside AI-generated answers, not just ranked in traditional search. This reframes SEO strategy entirely and has direct budget and content-production implications for marketing teams.",
+          "head": "Braze CTO: Human still presses launch button even as AI runs the campaign",
+          "url": "https://agilebrandguide.com/braze-cto-jon-hyman-on-where-marketing-judgment-sits-when-ai-runs-the-campaign/",
+          "plain": "Braze co-founder Jon Hyman explains the design philosophy behind Decisioning Studio Go and Operator Connect: AI can build and optimize campaigns end-to-end, but a human must confirm before sending. This is a concrete <b>governance stance</b> from a major CEP vendor — directly shaping how agentic marketing gets bought and deployed across enterprise teams.",
           "chips": [
-            "geo",
             "agentic",
-            "genai"
+            "decis",
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "02",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "AI usage for local search surges 6X, fragmenting the digital ecosystem",
+          "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
+          "plain": "SOCi research shows consumers now bounce across AI tools, maps, and review sites in a 'verification loop' before acting on local business information. A <b>sixfold rise in AI-driven local search</b> means brands that ignore generative engine optimization risk disappearing from the discovery path entirely — a direct threat to local marketing budgets.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "27 Holiday Shopping Statistics for 2026: AI Agents and Cyber Week Trends",
-          "url": "https://agilebrandguide.com/holiday-shopping-statistics/",
-          "plain": "A sourced data roundup showing how <b>AI shopping agents</b> are reshaping consumer behavior during peak retail seasons. Marketers planning holiday campaigns need to understand how autonomous agents are intercepting purchase decisions before a human ever reaches a brand's site or ad — changing where and how to compete for attention.",
+          "head": "Constructor launches Agentic Checkout with Stripe inside a single AI shopping agent",
+          "url": "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/",
+          "plain": "Constructor's new feature lets an AI shopping agent handle discovery and payment in one unbroken session, powered by Stripe. This is a meaningful product change: it closes the loop between <b>agentic commerce and transaction</b>, raising the stakes for any retailer still routing shoppers to a separate checkout flow — and for rivals building their own shopping agents.",
           "chips": [
             "agentic",
             "decis",
             "perso"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Creatify Labs releases Boreal-H3, an ad-optimized video model at $0.04 per second",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/creatify-labs-launches-boreal-h3-a-minimax-h3-video-model-post-trained-for-advertising/",
+          "plain": "Creatify post-trained MiniMax H3 specifically on advertising creative, scoring 33% higher on its ad quality index at roughly one-twelfth the cost of a leading rival model. <b>Ad-specific fine-tuning at commodity pricing</b> signals a rapid commoditization of AI video generation for marketers — changing the build-vs-buy calculus for creative teams.",
+          "chips": [
+            "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Pixability launches tool to block 'AI slop' inventory on YouTube",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pixability-launches-new-solution-to-help-advertisers-avoid-ai-slop-on-youtube/",
+          "plain": "Pixability's new capability uses its Pixie agentic AI and Famous Birthdays creator data to flag and exclude low-quality AI-generated content from YouTube ad buys. As <b>AI-generated junk content scales</b>, brand-safety tooling that can distinguish human from machine creators becomes a core part of how programmatic campaigns are governed and bought.",
+          "chips": [
+            "agentic",
+            "govern",
+            "genai"
           ]
         }
       ]
@@ -75,53 +112,55 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "ZoomInfo acquires DoubleO.ai and launches Agent Teams for autonomous GTM execution",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-introduces-agent-teams-powered-by-the-acquisition-of-doubleo-ai/",
-          "plain": "ZoomInfo bought AI-agent startup DoubleO.ai and shipped <b>Agent Teams</b>, a product that coordinates multiple AI agents across a company's data and systems to run full go-to-market plays — from spotting a signal to taking action — with no human babysitting each step. This changes how revenue teams buy and deploy sales-marketing automation at scale.",
+          "src": "MarTech · via Agile Brand",
+          "fresh": true,
+          "head": "Braze CTO: Why the campaign launch button stays human even as AI runs the rest",
+          "url": "https://agilebrandguide.com/braze-cto-jon-hyman-on-where-marketing-judgment-sits-when-ai-runs-the-campaign/",
+          "plain": "Braze co-founder Jon Hyman explains how <b>Decisioning Studio Go</b> hands AI control over sequencing and timing while keeping a human approval step before any campaign fires. This directly shapes how brands will <b>govern agentic marketing systems</b> — and signals the industry standard Braze is trying to set for human-in-the-loop AI.",
           "chips": [
             "agentic",
             "decis",
+            "govern",
             "cep"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Braze expands AI from content creation to campaign operations and external LLM connections",
-          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
-          "plain": "Braze added <b>AI decisioning tools</b> that automate campaign health checks and let marketers pipe in external LLMs like Anthropic's Claude. This matters because it moves a major CEP beyond copy generation into operational AI — shifting how marketers buy and configure engagement platforms.",
+          "fresh": true,
+          "head": "AI usage for local search surges 6X, fragmenting the digital ecosystem",
+          "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
+          "plain": "SOCi research shows consumers now use AI tools six times more for local search than two years ago, creating a <b>'verification loop'</b> across multiple platforms before they act. For local and multi-location marketers this means traditional search presence is no longer enough — <b>AI answer visibility</b> is now a survival issue.",
           "chips": [
-            "cep",
-            "decis",
-            "genai",
+            "geo",
+            "agentic",
             "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": false,
-          "head": "Jellyfish research shows AI shopping assistants create entirely different competitive 'shelves', launches Share of Model optimization",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-shopping-upends-the-rules-of-brand-leadership-price-positioning-competition-according-to-new-jellyfish-research/",
-          "plain": "Jellyfish found that <b>AI shopping assistants surface radically different product sets</b> than traditional search, reshuffling brand leadership and price positioning. They're launching a 'Share of Model' measurement product to help marketers understand and influence what AI recommends — a direct challenge to conventional search and retail media strategies.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Constructor launches Agentic Checkout with Stripe, collapsing discovery-to-purchase into one AI agent",
+          "url": "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/",
+          "plain": "Constructor's new feature lets a <b>single AI agent handle product discovery and payment in one session</b> via Stripe, removing the redirect to a checkout page. This is a concrete example of agentic AI changing how e-commerce is built and bought — and raises new questions about <b>who controls the purchase decision</b>.",
           "chips": [
-            "geo",
             "agentic",
+            "decis",
             "perso"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": false,
-          "head": "DataDome joins Experian Agent Trust ecosystem to verify AI agent intent continuously during agentic commerce",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datadome-joins-experian-agent-trust-ecosystem-to-add-continuous-intent-verification-to-trusted-agentic-commerce/",
-          "plain": "Experian's Agent Trust platform now uses DataDome to check not just who an AI agent claims to represent, but whether its <b>actions stay consistent with what it was authorized to do</b> throughout a transaction. This is foundational governance infrastructure for any brand letting AI agents transact on customers' behalf.",
+          "head": "Braze expands AI from content creation into full campaign operations",
+          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
+          "plain": "Braze's latest release adds <b>automated campaign health checks, AI decisioning tools, and external LLM connectors</b> (including Claude) to its platform. This moves AI from a copywriting aid into the operational core of campaign management, directly affecting how marketing teams will buy, configure and audit a <b>customer engagement platform</b> going forward.",
           "chips": [
+            "cep",
             "agentic",
+            "decis",
             "govern"
           ]
         },
@@ -129,12 +168,13 @@
           "num": "05",
           "src": "MarTech",
           "fresh": false,
-          "head": "Salesforce acquires AI customer research startup Listen Labs",
+          "head": "Salesforce acquires AI customer-research startup Listen Labs",
           "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
-          "plain": "Salesforce bought Listen Labs, whose platform runs <b>AI-simulated customer interviews and behavioral analysis</b>. Folding this into Salesforce's CRM and agent stack means marketers could get real-time synthetic customer insight baked into the same platform running their campaigns — changing what 'knowing your customer' costs and requires.",
+          "plain": "Salesforce is folding Listen Labs — which runs <b>AI-simulated customer interviews and behavioral analysis</b> — into its CRM and agent stack. The deal matters because it embeds synthetic customer insight directly into decisioning pipelines, letting AI agents act on <b>richer, continuously refreshed customer understanding</b> without separate research tools.",
           "chips": [
             "cdp",
             "agentic",
+            "decis",
             "genai"
           ]
         }
@@ -145,121 +185,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "From Found to <em>Cited by AI</em>: Search Visibility Rewrites Its Rules",
-          "url": "https://agilebrandguide.com/expert-mode-from-found-to-cited-navigating-the-new-frontier-of-ai-search/",
+          "head": "The <em>Agentic Commerce</em> Stack Is Closing the Loop",
+          "url": "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/",
           "body": [
-            "AI-powered search engines no longer surface ten blue links — they <b>synthesise an answer and cite a handful of sources</b>. That means ranking in a traditional sense is less valuable than being the source a generative model trusts enough to quote, a fundamentally different optimisation target that requires structured authority signals, visual assets, and schema rather than keyword density.",
-            "Myth-busting data confirms that many assumptions carried over from classic SEO simply do not hold in generative engines. Brands that continue optimising for click-through will find themselves invisible in AI answers, while those who reframe content as <b>citable evidence</b> — precise, attributed, and multimodal — capture the new zero-click citation slot."
+            "AI agents are no longer stopping at recommendations — they are completing purchases, routing customer calls, and managing lease audits without a human handoff. Constructor's agentic checkout wired directly to Stripe is the clearest example: discovery and transaction now collapse into a single agent loop, removing every traditional conversion touchpoint in between.",
+            "This is a structural change for MarTech stacks, not a feature upgrade. <b>Any platform that only influences the top of the funnel risks being bypassed entirely</b> as agents handle the full customer journey. Teams need to audit which of their tools assume a human is still clicking."
           ],
           "ev": [
             [
-              "Agile Brand · From Found to Cited",
-              "https://agilebrandguide.com/expert-mode-from-found-to-cited-navigating-the-new-frontier-of-ai-search/"
+              "Agile Brand · Constructor agentic checkout",
+              "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/"
             ],
             [
-              "MarTech · 7 AI search myths busted",
-              "https://martech.org/7-ai-search-myths-busted-by-data/"
+              "MarTech Series · followOS-email agentic service",
+              "https://martechseries.com/content/email-mktg/follow-inc-releases-followos-email-delivering-the-agentic-ai-marketing-service-months-ahead-of-schedule/"
             ],
             [
-              "MarTech · Visual SEO for AI search",
-              "https://martech.org/how-to-build-a-visual-seo-strategy-for-ai-search/"
+              "MarTech · GTM teams losing track of AI agents",
+              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Agents Run Amok</em>: Governance Becomes the Urgent Priority",
-          "url": "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/",
+          "head": "AI Search Is <em>Fragmenting Discovery</em> — and the Old SEO Playbook Is Broken",
+          "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
           "body": [
-            "Go-to-market teams are deploying AI agents faster than they can inventory them, creating a sprawl of autonomous actions that nobody fully tracks. <b>ZoomInfo's acquisition of DoubleO.ai to launch Agent Teams</b> and DataDome's integration with Experian's Agent Trust ecosystem both signal that the market is now scrambling to build the oversight layer that should have come first.",
-            "IBM's self-hosted deployment for AI sovereignty and Experian's continuous intent verification show that <b>governance, provenance, and trust verification</b> are emerging as genuine product categories — not compliance afterthoughts. Marketers who treat agent orchestration as a pure efficiency play without audit trails will accumulate invisible risk in their pipelines."
+            "AI-powered local search has surged 6× in a single year, pulling queries away from Google's traditional results page and into generative answer surfaces. <b>Brands that optimised for blue-link rankings are now invisible</b> in the spaces where buying intent actually lives, and the gap between 'found' and 'cited' is widening fast.",
+            "The required response is not more keyword stuffing but a fundamentally different content architecture — structured, visual, authoritative — that generative engines can quote rather than merely index. Several new monitoring tools launched this month specifically to track AI citation share, signalling that GEO (Generative Engine Optimisation) is becoming its own discipline alongside traditional SEO."
           ],
           "ev": [
             [
-              "MarTech · GTM teams losing track of AI agents",
-              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
+              "MarTech · AI local search surges 6X",
+              "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/"
             ],
             [
-              "MarTech Series · ZoomInfo Agent Teams",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-introduces-agent-teams-powered-by-the-acquisition-of-doubleo-ai/"
+              "Agile Brand · From Found to Cited",
+              "https://agilebrandguide.com/expert-mode-from-found-to-cited-navigating-the-new-frontier-of-ai-search/"
             ],
             [
-              "MarTech Series · DataDome Agent Trust",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/datadome-joins-experian-agent-trust-ecosystem-to-add-continuous-intent-verification-to-trusted-agentic-commerce/"
+              "MarTech · Optimising for generative engines",
+              "https://martech.org/optimizing-content-for-generative-engine-search-models/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI <em>Raises the Bar</em> While Squeezing Tolerance for Failure",
-          "url": "https://martech.org/ai-is-making-customers-expect-more-and-tolerate-less/",
+          "head": "<em>Speed Without Quality</em>: The AI Content Credibility Crisis",
+          "url": "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/",
           "body": [
-            "Consumers now experience AI-native convenience everywhere — instant answers, hyper-relevant recommendations, frictionless checkout — and they carry those expectations into every brand interaction. The result is a <b>compressed tolerance window</b>: a single clunky experience that would have been forgiven two years ago now triggers churn because the mental benchmark has shifted upward.",
-            "Mixbook's deliberate choice to <b>hide the word 'AI' from customer messaging</b> while still leveraging it deeply is a leading signal: the brands winning this moment are those using AI to deliver emotional resonance and permanence, not those waving it as a feature flag. Speed of production must be matched by quality of outcome or the gap becomes a brand liability."
+            "A month of coverage converges on an uncomfortable truth: AI dramatically accelerated content production but has not yet raised content quality — and in some channels it is actively degrading it. Pixability's new YouTube tool exists solely to help advertisers avoid appearing next to 'AI slop,' a category that barely existed two years ago. <b>Volume without editorial judgment is becoming a brand-safety liability.</b>",
+            "The talent market is catching up: job postings now explicitly demand AI prompt engineering paired with critical editorial skills, not just AI familiarity. Brands that treat LLMs as autonomous authors rather than accelerators are the ones accumulating reputational debt that faster output cannot repay."
           ],
           "ev": [
             [
-              "MarTech · AI makes customers expect more",
-              "https://martech.org/ai-is-making-customers-expect-more-and-tolerate-less/"
-            ],
-            [
-              "Agile Brand · Mixbook CEO on permanence &amp; AI",
-              "https://agilebrandguide.com/mixbooks-ceo-andrew-laffoon-on-designing-for-permanence-at-the-speed-of-ai/"
-            ],
-            [
               "MarTech · AI made marketing faster not better",
               "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/"
+            ],
+            [
+              "MarTech Series · Avoiding AI slop on YouTube",
+              "https://martechseries.com/sales-marketing/programmatic-buying/pixability-launches-new-solution-to-help-advertisers-avoid-ai-slop-on-youtube/"
+            ],
+            [
+              "MarTech · What job postings say about AI skills",
+              "https://martech.org/what-marketing-job-postings-say-about-ai-skills/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "B2B's <em>Evidence Gap</em>: Proving Pipeline in an AI-Shaped Buyer Journey",
-          "url": "https://martech.org/b2b-marketing-doesnt-have-an-roi-problem-it-has-an-evidence-problem/",
+          "head": "Human Judgment as <em>The Last Control Point</em> in AI Campaigns",
+          "url": "https://agilebrandguide.com/braze-cto-jon-hyman-on-where-marketing-judgment-sits-when-ai-runs-the-campaign/",
           "body": [
-            "B2B marketing's credibility crisis is not a measurement technology problem — it is a <b>failure to build and present the right evidence</b> to CFOs and boards. As AI reshapes the buyer journey by collapsing research stages and shifting brand discovery into AI chat interfaces, the traditional funnel attribution models produce data that no longer maps to how deals actually form.",
-            "Circle &amp; Square's buyer intelligence guide and Growth7's CRM-to-pipeline platform both point to the same response: <b>richer first-party intent signals, tied to revenue outcomes, not activity metrics</b>. CMOs who can reconstruct a coherent evidence chain through the new AI-mediated journey will own the boardroom conversation; those who cannot will keep losing budget."
+            "As AI takes over campaign execution — from send-time optimisation to full orchestration — a clear governance question has surfaced: <b>where does a human remain accountable?</b> Braze CTO Jon Hyman's framing is explicit: the launch button stays human, even when every upstream decision is machine-made. This is not sentimentality; it is liability architecture.",
+            "The new operating model emerging from this month's coverage places AI in the execution layer and humans at the approval &amp; exception layer. Marketers who understand this distinction will structure their workflows accordingly; those who do not will discover the gap the hard way when an autonomous agent makes a costly error at scale."
           ],
           "ev": [
             [
-              "MarTech · B2B evidence problem",
-              "https://martech.org/b2b-marketing-doesnt-have-an-roi-problem-it-has-an-evidence-problem/"
+              "Agile Brand · Braze CTO on human judgment",
+              "https://agilebrandguide.com/braze-cto-jon-hyman-on-where-marketing-judgment-sits-when-ai-runs-the-campaign/"
             ],
             [
-              "Agile Brand · CMOs &amp; AI-shaped B2B journey",
-              "https://agilebrandguide.com/circle-square-releases-buyer-intelligence-guide-how-cmos-can-adapt-to-the-ai-shaped-b2b-buyer-journey/"
+              "MarTech · Braze expands AI to campaign operations",
+              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
             ],
             [
-              "MarTech Series · Growth7 CRM-to-pipeline",
-              "https://martechseries.com/sales-marketing/crm/growth7-launches-ai-marketing-platform-that-turns-crm-data-into-pipeline-action/"
+              "Agile Brand · Operating model for agent-driven marketing",
+              "https://agilebrandguide.com/new-book-from-greg-kihlstrom-and-publisher-de-gruyter-brill-defines-the-operating-model-for-marketing-in-an-agent-driven-market/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>Retail Media Grows Up</em>: From Banner to Full-Funnel Experience",
-          "url": "https://agilebrandguide.com/expert-mode-the-dawn-of-experiential-retail-media-and-why-your-next-big-win-is-in-the-aisles/",
+          "head": "The <em>Infrastructure Cost Reckoning</em> Behind AI's Promise",
+          "url": "https://martechseries.com/mts-insights/guest-authors/can-adtech-afford-the-infrastructure-behind-the-ai-boom/",
           "body": [
-            "Retail media is moving beyond sponsored product listings into <b>experiential, in-aisle, and full-funnel formats</b> that blend the physical and digital. CommerceIQ's AI-powered expansion to Chewy Ads and Particular Audience's trade media solution show that the category is now sophisticated enough to manage inventory, creative, and measurement in a single automated layer.",
-            "Comcast's research confirming that <b>TV and streaming drive results across the entire buyer journey</b> reinforces that channel convergence — not channel siloing — is the strategic imperative. Brands that unify retail media, CTV, and in-store signals into one attribution view will capture both the impulse moment and the long-term brand equity that sustains price positioning."
+            "The economics of AI in adtech are entering a stress-test phase. <b>Compute costs for running large models at campaign scale are rising faster than the incremental revenue those models generate</b> for most mid-market players, and the 'get more from AI without spending more' imperative is now a real editorial genre, not just a budget tip. Salesforce's acquisition of Listen Labs signals that the platform layer is consolidating to spread infrastructure costs across larger customer bases.",
+            "Smaller vendors face a binary choice: find a differentiated model narrow enough to run cheaply, or get absorbed. For buyers, this means the vendor landscape will look materially different in 12 months — and locking into long contracts with standalone AI point-solutions carries real risk of backing a company that cannot sustain its own inference bill."
           ],
           "ev": [
             [
-              "Agile Brand · Experiential retail media",
-              "https://agilebrandguide.com/expert-mode-the-dawn-of-experiential-retail-media-and-why-your-next-big-win-is-in-the-aisles/"
+              "MarTech Series · Can adtech afford AI infrastructure?",
+              "https://martechseries.com/mts-insights/guest-authors/can-adtech-afford-the-infrastructure-behind-the-ai-boom/"
             ],
             [
-              "MarTech Series · CommerceIQ Chewy Ads",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/commerceiq-brings-ai-powered-retail-media-management-to-chewy-ads/"
+              "MarTech · Salesforce buys Listen Labs",
+              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
             ],
             [
-              "MarTech Series · Comcast TV &amp; streaming buyer journey",
-              "https://martechseries.com/tv-advertising/comcast-advertising-research-reveals-how-tv-and-streaming-drive-results-across-the-buyer-journey/"
+              "MarTech · Get more from AI without spending more",
+              "https://martech.org/get-more-from-ai-without-spending-more/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the central pressure is the same: <em>AI is simultaneously raising customer expectations, collapsing old measurement frameworks, and demanding new governance disciplines</em> — and the brands that will pull ahead are those treating all three as one integrated strategic problem rather than three separate vendor decisions."
+      "takeaway": "Every major shift this month points to the same inflection: <em>AI is moving from a tool marketers use to an agent that acts on their behalf</em>, and the urgent decisions now are about governance, cost sustainability, and discoverability in a world where the customer journey may never touch a human-designed interface."
     }
   }
 }
