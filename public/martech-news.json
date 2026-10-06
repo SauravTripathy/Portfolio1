@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T12:06:53.717535+00:00",
+  "generatedAt": "2026-10-06T18:58:11.313362+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,26 +45,27 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "SAS AI Navigator launches on Microsoft Marketplace as AI governance SaaS tool",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sas-ai-navigator-now-available-to-supercharge-ai-governance/",
-          "plain": "SAS released a dedicated SaaS platform to inventory every AI model a company runs, then align those models to risk and compliance rules. Landing on Microsoft Marketplace makes it immediately purchasable by enterprise IT buyers. As regulators push for <b>AI accountability</b>, a tool that gives compliance teams a complete map of AI in use directly shapes how marketing AI gets approved and governed.",
+          "head": "OpenAI adds visuals to ChatGPT ads — but bots are inflating click numbers",
+          "url": "https://martech.org/openai-ads-visuals-to-chatgpt-ad/",
+          "plain": "OpenAI is rolling out <b>visual ad formats inside ChatGPT</b> alongside improved measurement tools, signaling the platform is becoming a serious paid channel. The catch: bot traffic is already distorting click-through rates. Marketers planning to buy ChatGPT inventory need to scrutinize measurement quality before committing budget.",
           "chips": [
-            "govern"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand · via Agile Brand Guide",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "InMobi: 36% of U.S. storefronts ready for AI agent checkout; DoubleVerify adds ChatGPT Ads attribution",
-          "url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-6-2026/",
-          "plain": "Two findings in one digest: more than a third of U.S. storefronts can now handle purchases made by an <b>AI shopping agent</b> without a human in the loop, and DoubleVerify has wired attribution measurement into ChatGPT ad placements. Both signal that agentic buying and AI-native ad channels are moving from experiment to infrastructure fast.",
+          "head": "pubX raises $5M and acquires Compliant to build agent-to-agent advertising infrastructure",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pubx-raises-5m-series-a-led-by-chicago-ventures-and-acquires-compliant-to-build-agent-to-agent-advertising-infrastructure-from-the-ground-up/",
+          "plain": "pubX is building plumbing for a world where <b>AI buyer agents and seller agents transact directly</b>, without humans in the middle. The Compliant acquisition bakes media quality and governance signals into every automated deal. This is an early structural bet on how programmatic advertising gets rebuilt for agentic AI.",
           "chips": [
             "agentic",
             "decis",
-            "geo",
             "govern"
           ]
         },
@@ -72,42 +73,38 @@
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Predactiv People Model: a foundation model built specifically for marketing audiences and behavior prediction",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/the-predactiv-people-model-represents-a-new-class-of-ai-foundation-models/",
-          "plain": "Predactiv detailed a patent-pending AI foundation model trained on marketing and consumer behavior data rather than general text. It promises more accurate <b>audience prediction and behavioral modeling</b> than adapting a generic LLM. A purpose-built foundation model for marketing changes what agencies and data owners can build on top of — and who controls the underlying intelligence.",
+          "head": "Tealium integrates ChatGPT Ads Measurement Pixel and Conversions API to recover lost journey signals",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/tealium-brings-greater-visibility-to-ai-influenced-customer-journeys-with-chatgpt-ads-connectors/",
+          "plain": "Tealium's CDP now connects to OpenAI's ad measurement tools on both the client and server side, letting brands <b>track conversions that happen inside AI-assisted journeys</b>. As more customers discover and buy via ChatGPT, traditional pixels miss the path — this integration closes that attribution gap.",
           "chips": [
             "cdp",
-            "perso",
-            "bandit",
-            "decis"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "MarTech · via Agile Brand",
           "fresh": true,
-          "head": "Captello Intelligence Cards deliver live CRM records and AI summaries at the moment of lead capture",
-          "url": "https://martechseries.com/sales-marketing/crm/captello-launches-intelligence-cards-turning-lead-capture-and-meeting-check-in-from-data-collection-into-live-qualification/",
-          "plain": "Captello's update surfaces a full account record — firmographics, open deals, contacts, tasks, and an AI summary — the instant a badge is scanned or a meeting attendee is checked in. This turns a passive data-collection step into <b>real-time lead qualification</b>, reducing the lag between event contact and sales action and changing how field teams prioritize follow-up.",
+          "head": "Treasure AI launches Personalization Studio to activate real-time website experiences without engineering handoffs",
+          "url": "https://martech.org/treasure-ai-takes-on-two-martech-headaches-at-once/",
+          "plain": "Treasure AI's new workspace lets marketers plug <b>live behavioral signals and existing customer profiles directly into website personalization</b> without waiting on data teams. A new engagement-based email pricing model ships alongside it. Both moves reduce friction and cost between knowing who a customer is and acting on it.",
           "chips": [
             "cdp",
-            "genai",
-            "agentic",
-            "perso"
+            "perso",
+            "cep"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "How to turn customer signals into smarter email automation",
-          "url": "https://martech.org/how-to-turn-customer-signals-into-smarter-email-automation/",
-          "plain": "A practical guide on using behavioral signals — including inaction, not just clicks — to trigger more relevant automated email campaigns. For practitioners building or auditing their engagement stack, it offers a clear framework for <b>signal-driven automation</b> that sits between basic rules-based sends and full AI decisioning, making it useful for teams at any maturity level.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "How to strengthen your brand story to improve AEO visibility in AI answers",
+          "url": "https://martech.org/how-to-strengthen-your-brand-story-to-improve-aeo-visibility/",
+          "plain": "Third-party mentions and consistent brand narratives across the web now directly shape whether <b>AI engines cite your brand in their answers</b>. This practical guide covers auditing, updating, and reinforcing brand signals for generative engine optimization — a discipline that is quickly becoming as important as traditional SEO.",
           "chips": [
-            "cep",
-            "perso",
-            "decis",
-            "cdp"
+            "geo",
+            "genai"
           ]
         }
       ]
@@ -116,65 +113,63 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "Braze expands AI from content creation to campaign operations",
-          "url": "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/",
-          "plain": "Braze is moving its AI beyond writing copy into <b>automated campaign decisioning</b> — checking campaign logic, choosing timing and channel per person, and connecting to external LLMs like Claude. This shifts Braze from a messaging tool into a platform that acts on decisions, which changes how marketers evaluate and buy customer engagement software.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "OpenAI adds visuals to ChatGPT ads — and bots are already inflating click numbers",
+          "url": "https://martech.org/openai-adds-visuals-to-chatgpt-ad/",
+          "plain": "OpenAI is rolling out <b>visual ad formats inside ChatGPT</b> alongside improved measurement tools, but the launch is immediately shadowed by bot traffic inflating click-through rates. This matters because it signals ChatGPT is becoming a serious paid media channel — and raises urgent questions about measurement integrity that every media buyer needs to understand now.",
           "chips": [
-            "cep",
-            "decis",
-            "genai",
-            "agentic"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Constructor launches Agentic Checkout powered by Stripe inside a single AI agent experience",
-          "url": "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/",
-          "plain": "Constructor and Stripe let shoppers go from AI-driven product discovery all the way to <b>completed purchase without leaving the agent</b>. This is a concrete example of an AI agent controlling a full commercial transaction — not just recommending — which reshapes how retailers think about checkout and conversion infrastructure.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "pubX raises $5M and acquires Compliant to build agent-to-agent advertising infrastructure",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pubx-raises-5m-series-a-led-by-chicago-ventures-and-acquires-compliant-to-build-agent-to-agent-advertising-infrastructure-from-the-ground-up/",
+          "plain": "pubX is building infrastructure where <b>AI buyer agents and seller agents transact directly</b>, with Compliant's media quality signals embedded in every decision. This is an early but concrete step toward a future programmatic stack that runs without human traders — and sets governance expectations for that world from day one.",
           "chips": [
             "agentic",
             "decis",
-            "cep",
-            "perso"
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "SAS AI Navigator launches on Microsoft Marketplace as a SaaS AI governance tool",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sas-ai-navigator-now-available-to-supercharge-ai-governance/",
-          "plain": "SAS has released a dedicated SaaS product that lets compliance, risk, and AI teams build a <b>complete inventory of all AI systems</b> and align them with governance policies — now purchasable directly through Microsoft Marketplace. As AI regulations tighten, having an auditable register of automated decisions is becoming a buying requirement, not a nice-to-have.",
+          "head": "Tealium integrates ChatGPT Ads Measurement Pixel and Conversions API to track AI-influenced journeys",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/tealium-brings-greater-visibility-to-ai-influenced-customer-journeys-with-chatgpt-ads-connectors/",
+          "plain": "Tealium now passes both client-side and server-side signals to ChatGPT Ads, recovering <b>conversion data that standard tracking misses</b> when customers start a journey inside an AI answer. As AI-influenced attribution becomes a mainstream challenge, CDPs that can bridge this gap become essential infrastructure.",
           "chips": [
-            "govern",
-            "agentic"
+            "cdp",
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "Salesforce acquires AI customer research startup Listen Labs",
-          "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
-          "plain": "Salesforce is bringing AI-run customer interviews and <b>simulated customer behavior</b> directly into its CRM and agent layer. Acquiring the capability — rather than building it — signals that synthetic customer insight is becoming a core CRM feature, changing how marketers budget for research and how Salesforce competes with pure-play insight vendors.",
+          "src": "Agile Brand · via MarTech",
+          "fresh": true,
+          "head": "Treasure AI launches Personalization Studio: real-time website experiences without engineering handoffs",
+          "url": "https://martech.org/treasure-ai-takes-on-two-martech-headaches-at-once/",
+          "plain": "Treasure AI's new marketer-facing workspace connects <b>existing CDP profiles and live behavioral signals directly to website personalization</b>, cutting out the data-engineering queue. A new engagement-based email pricing model ships alongside it. Both changes lower the cost and complexity of acting on customer data — a meaningful shift for mid-market teams.",
           "chips": [
-            "agentic",
             "cdp",
-            "genai",
-            "govern"
+            "perso",
+            "cep"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
-          "fresh": false,
-          "head": "AI local search usage surges 6X, fragmenting the digital ecosystem",
+          "fresh": true,
+          "head": "AI usage for local search surges 6X, fragmenting the digital discovery ecosystem",
           "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
-          "plain": "SOCi data shows consumers using AI for local search has grown six-fold, and they now loop across multiple platforms to verify results before acting. This <b>fragmentation of local search intent</b> forces marketers to optimize for AI-generated answers — not just Google rankings — fundamentally changing local SEO and media spend decisions.",
+          "plain": "SOCi research shows consumers now use AI tools 6× more often for local search than a year ago, and then loop through multiple platforms to verify results before acting. This <b>verification loop reshapes where brands must be visible</b> — making generative engine optimization a practical priority, not a future concern, for any location-based marketer.",
           "chips": [
             "geo",
             "genai"
@@ -187,121 +182,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Search Is <em>Fragmenting Discovery</em> — and Rewriting SEO Rules",
-          "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
+          "head": "<em>Agentic AI</em> hits the enterprise readiness wall",
+          "url": "https://agilebrandguide.com/new-riverbed-global-survey-finds-agentic-ai-is-reshaping-it-90-plan-to-pursue-autonomous-it-yet-77-require-human-approval/",
           "body": [
-            "AI-powered local search has surged <b>6× in usage</b>, pulling queries away from traditional search engines and toward conversational engines that generate their own shortlists. Brands that relied on classic keyword ranking are finding themselves invisible in results they never optimized for.",
-            "Practitioners are now being forced to build <b>visual SEO strategies</b> and optimize content specifically for generative engine models — a discipline that barely existed 18 months ago. The decision that changes: your SEO budget and content architecture must now account for multiple AI-mediated discovery surfaces, not just one search index."
+            "Ninety percent of enterprises say they plan to pursue autonomous AI operations, yet 77% still require human sign-off on every consequential action. That gap — between stated ambition and actual trust — is the defining tension of the moment. Tools are ready; governance frameworks and organizational confidence are not.",
+            "The pattern repeats across vendors: ActiveCampaign earns an IDC agentic-marketing leadership designation aimed at small businesses, VIDIZMO builds agentic AI designed to run entirely inside a customer's own security boundary, and Vertesia is recognized as an IDC Innovator specifically for <b>context infrastructure</b> — the plumbing that makes agents reliable. The race is now less about capability and more about proving control."
           ],
           "ev": [
             [
-              "MarTech · AI Usage Surges 6X",
-              "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/"
+              "Riverbed · agentic readiness survey",
+              "https://agilebrandguide.com/new-riverbed-global-survey-finds-agentic-ai-is-reshaping-it-90-plan-to-pursue-autonomous-it-yet-77-require-human-approval/"
             ],
             [
-              "MarTech · Visual SEO for AI Search",
-              "https://martech.org/how-to-build-a-visual-seo-strategy-for-ai-search/"
+              "Vertesia · IDC Innovator context infra",
+              "https://martechseries.com/content/vertesia-named-an-idc-innovator-for-context-infrastructure-for-agentic-ai/"
             ],
             [
-              "MarTech · Optimizing for Generative Engines",
-              "https://martech.org/optimizing-content-for-generative-engine-search-models/"
+              "ActiveCampaign · IDC agentic leader",
+              "https://agilebrandguide.com/activecampaign-named-a-leader-in-idc-marketscape-worldwide-agentic-marketing-for-small-businesses-2026/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic AI</em> Moves Into the Revenue Stack",
-          "url": "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/",
+          "head": "AI search is <em>fragmenting discovery</em> faster than anyone planned",
+          "url": "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/",
           "body": [
-            "AI agents are no longer confined to content drafting — they are now <b>closing transactions</b>. Constructor's agentic checkout collapses product discovery and purchase into a single agent session, while Captello's Intelligence Cards turn live event check-ins into real-time lead qualification without human intervention.",
-            "Meanwhile, GTM teams are already reporting they have <b>lost track of which agents are running</b> which tasks across their stacks. The governance gap is real: deploying agents faster than you can audit them creates compounding risk for compliance, data quality, and brand consistency."
+            "AI-assisted local search has surged 6× in a single year, and ChatGPT is now serving visual ads inside its results — meaning buyers are finding, evaluating, and nearly deciding on purchases inside AI interfaces that most brand SEO strategies were never built to reach. <b>Answer Engine Optimization (AEO)</b> is no longer a niche experiment; it is an urgent channel decision.",
+            "Two concrete strategies are emerging: strengthening narrative brand signals so generative models surface the right story, and building visual asset libraries optimized for AI search rendering. Tealium's new ChatGPT Ads connectors also show that the attribution stack must now close the loop from an AI-generated answer all the way back to a CRM record — a journey no legacy analytics setup handles cleanly."
           ],
           "ev": [
             [
-              "Agile Brand · Agentic Checkout",
-              "https://agilebrandguide.com/constructor-launches-agentic-checkout-powered-by-stripe-letting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience/"
+              "SOCi · AI local search 6× surge",
+              "https://martech.org/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem/"
             ],
             [
-              "MarTech · GTM Teams Losing Track of Agents",
-              "https://martech.org/gtm-teams-are-losing-track-of-their-ai-agents/"
+              "MarTech · AEO brand story visibility",
+              "https://martech.org/how-to-strengthen-your-brand-story-to-improve-aeo-visibility/"
             ],
             [
-              "MarTech Series · Captello Intelligence Cards",
-              "https://martechseries.com/sales-marketing/crm/captello-launches-intelligence-cards-turning-lead-capture-and-meeting-check-in-from-data-collection-into-live-qualification/"
+              "Tealium · ChatGPT Ads connectors",
+              "https://martechseries.com/sales-marketing/programmatic-buying/tealium-brings-greater-visibility-to-ai-influenced-customer-journeys-with-chatgpt-ads-connectors/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Speed Without Quality: <em>AI Made Marketing Faster</em>, Not Better",
-          "url": "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/",
+          "head": "Real-time <em>personalization at the edge</em> becomes table stakes",
+          "url": "https://martech.org/treasure-ai-takes-on-two-martech-headaches-at-once/",
           "body": [
-            "A recurring editorial thread this month is the uncomfortable truth that <b>AI accelerated output before it improved outcomes</b>. Campaigns publish faster, copy is generated in seconds, and personalization pipelines are automated — but customer expectations have risen in parallel, leaving tolerance for mediocre experiences at an all-time low.",
-            "Canva's B2B CMO Meghan Gendelman puts the counter-argument directly: <b>AI investment demands a proportional investment in brand</b>, because undifferentiated fast content erodes brand equity. The practical decision for marketers is to pair every efficiency gain with a deliberate brand-quality checkpoint, not just a speed metric."
+            "Treasure AI's Personalization Studio, Acoustic's expanded behavioral intelligence layer, and Braze's push from content creation into campaign operations all landed within the same news cycle. The common thread: platforms are moving decisively from <b>batch-and-blast personalization</b> to context-aware, millisecond-level adaptation triggered by live customer signals rather than historical segments.",
+            "This shift changes the data architecture decision, not just the UX. Marketers now need a pipeline that pipes behavioral context into a model and fires a response before the page finishes loading — which is why Treasure AI explicitly frames its product around eliminating the lag between data collection and experience delivery. Vendors that can't close that loop in real time will look like legacy tools within 18 months."
           ],
           "ev": [
             [
-              "MarTech · AI Made Marketing Faster",
-              "https://martech.org/ai-made-marketing-faster-than-it-made-marketing-better/"
+              "Treasure AI · Personalization Studio",
+              "https://martech.org/treasure-ai-takes-on-two-martech-headaches-at-once/"
             ],
             [
-              "MarTech · AI Makes Customers Expect More",
-              "https://martech.org/ai-is-making-customers-expect-more-and-tolerate-less/"
+              "Acoustic · behavioral intelligence expansion",
+              "https://agilebrandguide.com/acoustic-expands-behavioral-intelligence-and-ai-recommendations-to-help-ecommerce-marketers-improve-customer-engagement/"
             ],
             [
-              "Agile Brand · Brand Investment alongside AI",
-              "https://agilebrandguide.com/expert-mode-why-your-ai-investment-demands-a-parallel-investment-in-brand-with-meghan-gendelman-cmo-of-b2b-at-canva/"
+              "Braze · AI campaign operations",
+              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Governance &amp; <em>Evidence Infrastructure</em> Become Non-Negotiable",
-          "url": "https://martech.org/b2b-marketing-doesnt-have-an-roi-problem-it-has-an-evidence-problem/",
+          "head": "Brand investment as the <em>AI hedge</em>",
+          "url": "https://agilebrandguide.com/expert-mode-why-your-ai-investment-demands-a-parallel-investment-in-brand-with-meghan-gendelman-cmo-of-b2b-at-canva/",
           "body": [
-            "Across B2B and enterprise contexts, the conversation has shifted from <b>whether to use AI to how to prove it works</b>. SAS launched an AI Navigator specifically to supercharge governance, while Salesforce's acquisition of Listen Labs signals a push to ground AI decisions in richer, auditable customer research rather than model assumptions alone.",
-            "The evidence problem is structural: marketing teams can produce AI outputs at scale but cannot yet produce <b>the causal proof</b> that those outputs drove revenue. Until measurement infrastructure catches up, budget decisions will remain contested — making investment in attribution and AI audit tooling as urgent as the AI itself."
+            "Canva's B2B CMO Meghan Gendelman argues that every dollar spent on AI capability must be matched by investment in brand distinctiveness — because AI commoditizes execution faster than it commoditizes <b>trust and recognition</b>. The logic: if any competitor can generate the same quality of content and personalization, the only durable moat is the identity people already believe in.",
+            "This frames a strategic fork that every marketing leader must navigate now: optimizing AI for efficiency (cost-reduction framing) versus using AI to free budget and talent for the brand-building work machines cannot replicate. The evidence that AI is simultaneously raising customer expectations while shrinking their tolerance for generic experiences makes the brand-investment argument more urgent, not less."
           ],
           "ev": [
             [
-              "MarTech · B2B Evidence Problem",
-              "https://martech.org/b2b-marketing-doesnt-have-an-roi-problem-it-has-an-evidence-problem/"
+              "Canva CMO · AI demands brand investment",
+              "https://agilebrandguide.com/expert-mode-why-your-ai-investment-demands-a-parallel-investment-in-brand-with-meghan-gendelman-cmo-of-b2b-at-canva/"
             ],
             [
-              "MarTech Series · SAS AI Navigator",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sas-ai-navigator-now-available-to-supercharge-ai-governance/"
+              "MarTech · AI raises expectations &amp; intolerance",
+              "https://martech.org/ai-is-making-customers-expect-more-and-tolerate-less/"
             ],
             [
-              "MarTech · Salesforce Buys Listen Labs",
-              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
+              "MarTech · get more from AI without spending more",
+              "https://martech.org/get-more-from-ai-without-spending-more/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "The <em>Human Skills Gap</em> Reshapes Marketing Careers",
+          "head": "The <em>talent &amp; skills reckoning</em> arrives for marketing teams",
           "url": "https://martech.org/apprenticeships-are-the-key-to-saving-early-career-marketing-roles/",
           "body": [
-            "Job posting analysis shows that <b>AI skill requirements in marketing roles have surged</b>, but the pipeline for developing those skills is broken — early-career positions are being eliminated rather than retrained, creating a cohort gap that will hollow out mid-level talent within two to three years. Apprenticeship models are being proposed as the structural fix.",
-            "At the same time, platforms like Braze are <b>expanding AI from content creation into campaign operations</b>, meaning the required skill set now spans prompt engineering, workflow design, and agent oversight — not just copywriting. Marketers who do not invest in this upskilling now will find themselves dependent on vendors for capabilities that should be in-house."
+            "Job posting analysis shows employers demanding AI fluency as a baseline expectation across almost every marketing role — not as a specialization but as literacy. At the same time, early-career positions are being hollowed out as AI handles the executional work that used to be a training ground. <b>The entry-level pipeline is breaking</b> just as demand for senior AI-literate strategists spikes.",
+            "The proposed fix gaining traction is structured apprenticeship programs that compress the learning curve by pairing junior hires with senior practitioners on live AI-augmented campaigns. Separately, Salesforce's acquisition of Listen Labs signals that even qualitative research skills are being automated — compressing another traditional career path and raising the question of which human judgment calls remain genuinely irreplaceable."
           ],
           "ev": [
             [
-              "MarTech · Apprenticeships &amp; Early-Career Roles",
+              "MarTech · apprenticeships &amp; early-career roles",
               "https://martech.org/apprenticeships-are-the-key-to-saving-early-career-marketing-roles/"
             ],
             [
-              "MarTech · What Job Postings Say About AI Skills",
+              "MarTech · what job postings say about AI skills",
               "https://martech.org/what-marketing-job-postings-say-about-ai-skills/"
             ],
             [
-              "MarTech · Braze Expands AI to Campaign Operations",
-              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
+              "Salesforce · acquires Listen Labs",
+              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
             ]
           ]
         }
       ],
-      "takeaway": "The month's signal is unified: <em>AI is restructuring every layer of the marketing stack simultaneously — discovery, execution, governance, and talent — faster than most teams have built the evidence, oversight, or skills to manage it safely.</em>"
+      "takeaway": "Every theme this month points to the same underlying tension: <em>AI is advancing faster than the organizational trust, talent pipelines, and brand foundations required to deploy it safely and distinctively</em> — and the marketers who close that gap first will define the next competitive tier."
     }
   }
 }
