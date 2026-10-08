@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:25:22.299860+00:00",
+  "generatedAt": "2026-10-08T12:07:20.501979+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,67 +45,69 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Olyzon Launches Agentic Orchestration Platform for Advertising at Advertising Week NY",
-          "url": "https://martechseries.com/tv-advertising/olyzon-launches-its-agentic-orchestration-platform-for-advertising-live-at-advertising-week-new-york/",
-          "plain": "Olyzon's platform puts <b>AI agents in charge of media budget allocation</b> across CTV, YouTube, social, audio, and DOOH, connecting directly to The Trade Desk, Amazon DSP, Yahoo DSP, and measurement partners. This is a live product shipping now — not a roadmap — and it shifts who (or what) controls ad spend decisions day-to-day.",
+          "head": "Tealium + Jev: Real-time AI decisioning without the LLM cost",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-tealium-and-jev/",
+          "plain": "Tealium's CDP calls Jev, a lightweight AI decision model, to pick the next best action after a cart abandonment — skipping a full large-language model and cutting inference costs. This matters because it shows a practical, cheaper path to <b>real-time agentic decisioning</b> inside an existing customer data stack, which changes the build-vs-buy calculus for marketing teams.",
           "chips": [
-            "agentic",
+            "cdp",
             "decis",
-            "govern"
+            "agentic",
+            "bandit"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Aembit Extends Identity Access Controls to Personal AI Agents Entering Enterprise Environments",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/aembit-extends-access-controls-to-personal-ai-agents/",
-          "plain": "Personal AI agents like Meta Muse and OpenAI Dots are now reaching into corporate email, cloud apps, and internal tools. Aembit's update lets enterprises <b>govern exactly what those personal agents can access</b> without custom integration. As agentic AI enters the workplace, this kind of identity control layer becomes a prerequisite for safe deployment.",
+          "head": "Pega CFO: biggest AI budget waste is automating routine rules-based work",
+          "url": "https://agilebrandguide.com/pega-cfo-and-coo-ken-stillwell-on-whats-actually-inside-your-ai-budget/",
+          "plain": "Pega's CFO Ken Stillwell argues that most enterprise AI spend goes on <b>automating work that simple rules could handle</b> at a fraction of the cost. He outlines proxy ROI measures and a discipline for shutting down projects that don't deliver. Practical financial framing like this directly shapes how AI projects are approved and governed inside large marketing orgs.",
           "chips": [
+            "govern",
             "agentic",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Precisely Launches Unified Data Management Platform and MCP Servers to Make Enterprise Data AI-Ready",
-          "url": "https://martechseries.com/analytics/data-management-platforms/precisely-introduces-new-unified-data-management-platform-to-make-enterprise-data-ai-ready/",
-          "plain": "Precisely announced both a <b>unified data platform built on a single metadata and semantic layer</b> and Model Context Protocol servers so AI agents can plug into that data without custom code. Together these releases address one of the biggest blockers to enterprise AI: getting clean, governed data to agents quickly.",
+          "head": "Verndale launches AI Visibility services to help brands show up inside AI-generated answers",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers/",
+          "plain": "Verndale is offering a new service that audits whether a brand is named, recommended, and accurately described inside AI assistant answers, then fixes the gaps. As AI-generated answers increasingly replace search results, <b>being present in those answers is becoming a core marketing priority</b>. This is a direct, commercially available response to the GEO challenge.",
           "chips": [
-            "cdp",
-            "agentic",
+            "geo",
+            "genai",
             "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech · via Agile Brand",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Classic Marketing Automation Is Dead: Rule-Based Systems Give Way to Autonomous Marketing",
-          "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next/",
-          "plain": "This analysis argues that <b>rule-based \"if-then\" automation is being replaced by systems that decide and act autonomously</b>, and explains how human-in-the-loop design should be built into new stacks. It's a practical framework piece that shapes how buyers evaluate the next generation of marketing platforms.",
+          "head": "Bazaarvoice: ads buy placement but can't buy belief in AI-answer era",
+          "url": "https://agilebrandguide.com/expert-mode-ads-can-buy-placement-but-they-cant-buy-belief-with-doug-straton-from-bazaarvoice/",
+          "plain": "Doug Straton from Bazaarvoice argues that <b>user-generated content and authentic reviews</b> — not paid ads — determine whether an AI assistant recommends a brand. As AI answers displace traditional search rankings, how marketers earn credibility signals rather than just buy placement is a fundamental strategic shift affecting budgets and content strategy.",
           "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "cep"
+            "geo",
+            "genai",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Algolia Acquires Velou to Inject AI Product Intelligence Into Search, Recommendations, and Agent Studio",
+          "src": "Agile Brand · via Algolia",
+          "fresh": false,
+          "head": "Algolia acquires Velou to add AI product intelligence across search, recommendations and agents",
           "url": "https://agilebrandguide.com/algolia-acquires-velou-to-advance-ai-product-intelligence-across-every-search-recommendation-and-ai-agent/",
-          "plain": "Velou's <b>AI-powered product catalog enrichment and retail taxonomy</b> will now run under Algolia's search, recommendations, personalization, and agentic Agent Studio for 18,000 customers. The acquisition directly upgrades how AI shopping agents understand and surface products, affecting both search vendors and retailers evaluating the stack.",
+          "plain": "Algolia bought Velou, whose AI enriches product catalogs with retail taxonomy and a product graph, feeding better data to search, recommendations, and AI shopping agents for 18,000 customers. This is a <b>structural change to how product data powers both personalization and agentic shopping</b>, making it relevant to anyone building AI-driven commerce or recommendation systems.",
           "chips": [
             "agentic",
             "perso",
-            "genai"
+            "cdp",
+            "decis"
           ]
         }
       ]
@@ -114,67 +116,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Olyzon Launches Agentic Orchestration Platform for Advertising at Advertising Week New York",
-          "url": "https://martechseries.com/tv-advertising/olyzon-launches-its-agentic-orchestration-platform-for-advertising-live-at-advertising-week-new-york/",
-          "plain": "Olyzon's platform lets AI agents <b>autonomously orchestrate media budgets</b> across CTV, YouTube, social, audio, and DOOH, plugging into The Trade Desk, Amazon DSP, Yahoo DSP, and measurement partners. This matters because it moves budget allocation from human-managed line items to agent-driven decisions across channels — a fundamental shift in how paid media is bought and managed.",
+          "head": "Tealium + Jev demo: real-time AI decisioning after cart abandonment — no LLM bill",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-tealium-and-jev/",
+          "plain": "Tealium shows how its CDP can call Jev, a lightweight AI decision model, to pick a next-best action in real time after a cart abandonment — <b>without routing every decision through an expensive large language model</b>. This matters because it demonstrates a cost-efficient path to <b>agentic decisioning at scale</b>, which changes how marketers budget for real-time personalization.",
           "chips": [
-            "agentic",
+            "cdp",
             "decis",
-            "cep",
-            "govern"
+            "agentic",
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Aembit Extends Identity Access Controls to Personal AI Agents Entering Enterprise Environments",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/aembit-extends-access-controls-to-personal-ai-agents/",
-          "plain": "Personal AI agents like Meta Muse and OpenAI Dots are entering workplaces and can touch email, cloud apps, and internal tools. Aembit now lets enterprises <b>control what those agents can access</b> without custom integration. This is a governance milestone: as consumer AI agents blur into enterprise workflows, identity controls become a critical buying and risk consideration.",
+          "head": "Pega CFO Ken Stillwell: biggest AI budget waste is automating routine, rules-based work",
+          "url": "https://agilebrandguide.com/pega-cfo-and-coo-ken-stillwell-on-whats-actually-inside-your-ai-budget/",
+          "plain": "Pega's CFO and COO breaks down where enterprise AI spend goes wrong — chiefly, using costly AI to do work that simple rules already handle. He offers <b>proxy ROI measures and criteria for shutting down failing AI projects</b>. Directly useful for anyone evaluating or approving a marketing AI budget, and rare candor from a C-suite operator inside a major platform vendor.",
           "chips": [
+            "govern",
             "agentic",
-            "govern"
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Precisely Launches Unified Data Platform with MCP Server Support to Feed AI Agents Trusted Data",
-          "url": "https://martechseries.com/analytics/data-management-platforms/precisely-brings-trusted-data-management-and-customer-communications-to-ai-agents-with-no-custom-integration-required/",
-          "plain": "Precisely released both a unified data management platform and <b>Model Context Protocol (MCP) servers</b> that let any MCP-compatible AI agent tap its data and customer communications products with no custom code. MCP is fast becoming the standard pipe between enterprise data and AI agents, so this signals how data quality and governance infrastructure will be bought going forward.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Algolia acquires Velou to embed AI product intelligence across search, recommendations and agents",
+          "url": "https://agilebrandguide.com/algolia-acquires-velou-to-advance-ai-product-intelligence-across-every-search-recommendation-and-ai-agent/",
+          "plain": "Algolia is folding Velou's <b>AI-powered catalog enrichment and product graph</b> into its platform used by 18,000 customers, covering search, recommendations, personalization, and its Agent Studio. This is a real product acquisition that extends how AI agents understand and surface products — directly affecting how brands are bought and built on top of Algolia.",
           "chips": [
-            "cdp",
             "agentic",
-            "govern"
+            "perso",
+            "cdp",
+            "geo"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Classic Marketing Automation Is Dead: The Case for Truly Autonomous, Human-in-the-Loop Marketing",
-          "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next/",
-          "plain": "This analysis argues that <b>rule-based marketing automation is being replaced by autonomous systems</b> that decide and act without pre-written triggers, while keeping humans accountable for strategy and oversight. It frames the human-in-the-loop model as the practical bridge — directly relevant to how teams should buy, configure, and govern next-generation marketing platforms.",
+          "head": "Verndale launches AI visibility and content supply chain services to help brands appear in AI-generated answers",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers/",
+          "plain": "Verndale is offering a new service layer to audit and improve whether brands are <b>named, recommended, and accurately described inside AI-generated search answers</b>. As AI assistants increasingly replace traditional search for research and buying decisions, this is a concrete commercial service built around <b>Generative Engine Optimization</b> — a fast-growing governance and content challenge for marketing teams.",
           "chips": [
-            "agentic",
-            "decis",
+            "geo",
             "govern",
-            "cep"
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "OpenAI Adds Visual Ad Formats to ChatGPT While Bot Traffic Inflates Click Metrics",
-          "url": "https://martech.org/openai-ads-visuals-to-chatgpt-ad/",
-          "plain": "OpenAI is rolling out <b>visual ad units inside ChatGPT</b> alongside improved measurement tools, but the report flags that bots are already distorting click-through rates. This matters for MarTech buyers because ChatGPT is now a paid media channel with its own measurement problems — and it sits at the intersection of generative AI and ad spend accountability.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "FouAnalytics and fraud0 deploy AI agent that automatically recovers wasted Google Ads spend",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fouanalytics-and-fraud0-partner-to-bring-automated-google-ads-refunds-to-the-worlds-largest-advertisers/",
+          "plain": "The partnership goes beyond measurement: an <b>AI agent now automatically files for and recovers Google Ads refunds</b> caused by invalid traffic, on behalf of large brand advertisers globally. This shifts ad-fraud remediation from a manual reporting task to an autonomous action loop — a meaningful example of <b>agentic AI changing how media budgets are governed and recovered</b>.",
           "chips": [
-            "genai",
-            "geo",
+            "agentic",
             "govern"
           ]
         }
@@ -185,121 +187,101 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Classic Marketing Automation Is Over — <em>Agentic Orchestration</em> Takes Its Place",
-          "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next/",
+          "head": "The <em>Enterprise AI Readiness</em> Gap Is the Real Blocker",
+          "url": "https://agilebrandguide.com/typeface-cro-jamie-garverick-on-the-enterprise-ai-readiness-gap/",
           "body": [
-            "The rules-based drip sequences and trigger workflows that defined marketing automation for a decade are being displaced by AI agents that plan, decide, and act across campaigns without step-by-step human instruction. Platforms like Braze, Olyzon, and ClicData are each shipping agent layers that shift the marketer's role from configuring logic to setting goals and guardrails.",
-            "This is not an incremental upgrade — <b>the decision architecture changes entirely</b>. Instead of asking 'what should happen when X occurs,' teams now ask 'what outcome do I want and how much autonomy do I grant?' That reframe forces a rethink of governance, approval workflows, and who owns the campaign brief."
+            "Executives across MarTech are discovering that <b>the technology is no longer the limiting factor</b> — internal readiness is. Typeface's Jamie Garverick and Pega's Ken Stillwell both flag that most enterprise AI budgets are quietly dominated by automating routine, rules-based work rather than genuine transformation.",
+            "The implication for decision-makers is stark: before buying another AI platform, audit whether your data, workflows, and teams are actually prepared to use it. <b>Buying AI without readiness is spending on a capability you cannot yet capture.</b>"
           ],
           "ev": [
             [
-              "MarTech · Classic automation is dead",
-              "https://martech.org/classic-marketing-automation-is-dead-whats-next/"
+              "Agile Brand · Typeface CRO on readiness gap",
+              "https://agilebrandguide.com/typeface-cro-jamie-garverick-on-the-enterprise-ai-readiness-gap/"
             ],
             [
-              "MarTech · Braze expands AI to campaign ops",
-              "https://martech.org/braze-expands-ai-from-content-creation-to-campaign-operations/"
-            ],
-            [
-              "MarTech Series · Olyzon agentic ad platform",
-              "https://martechseries.com/tv-advertising/olyzon-launches-its-agentic-orchestration-platform-for-advertising-live-at-advertising-week-new-york/"
+              "Agile Brand · Pega CFO on AI budgets",
+              "https://agilebrandguide.com/pega-cfo-and-coo-ken-stillwell-on-whats-actually-inside-your-ai-budget/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI-Ready Data</em> Becomes the New Infrastructure Imperative",
-          "url": "https://martechseries.com/analytics/data-management-platforms/precisely-introduces-new-unified-data-management-platform-to-make-enterprise-data-ai-ready/",
+          "head": "<em>Agentic AI</em> Moves from Concept to Product",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cisco-unveils-new-agentic-collaboration-experiences/",
           "body": [
-            "Every AI agent or model is only as reliable as the data it ingests, and enterprises are discovering that most of their data estates are not structured, governed, or trusted enough to fuel autonomous systems. Precisely, Quantum Metric, and HG Insights all shipped platforms this month explicitly framed around making enterprise data 'AI-ready' — a label that signals a distinct new product category.",
-            "<b>The bottleneck has shifted from model capability to data quality.</b> Teams that can unify, label, and govern their customer and product data now have a structural advantage; those that cannot will find that adding more AI tooling only amplifies bad inputs. Budget conversations are moving from 'which AI tool do we buy' to 'how do we clean the pipes that feed everything.'"
+            "Cisco's new agentic collaboration experiences and Algolia's acquisition of Velou both signal that <b>autonomous, multi-step AI agents are shipping as real products</b>, not just roadmap promises. These agents operate across search, recommendation, and workflow layers — collapsing tasks that previously required human handoffs.",
+            "For marketers, this means vendor selection is shifting: the question is no longer 'does it use AI?' but <b>'can its agents act on my behalf across my full stack without constant supervision?'</b> Platforms that cannot answer yes will lose deals to those that can."
           ],
           "ev": [
             [
-              "MarTech Series · Precisely unified data platform",
-              "https://martechseries.com/analytics/data-management-platforms/precisely-introduces-new-unified-data-management-platform-to-make-enterprise-data-ai-ready/"
+              "MarTech Series · Cisco agentic experiences",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/cisco-unveils-new-agentic-collaboration-experiences/"
             ],
             [
-              "MarTech Series · Quantum Metric experience context",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/quantum-metric-triples-arr-from-new-customers-as-enterprises-turn-to-experience-context-to-power-ai/"
-            ],
-            [
-              "Agile Brand · HG Insights contextual intelligence",
-              "https://agilebrandguide.com/hg-insights-launches-contextual-intelligence-platform-bringing-precision-to-ai-driven-gtm-revenue/"
+              "Agile Brand · Algolia acquires Velou for AI agents",
+              "https://agilebrandguide.com/algolia-acquires-velou-to-advance-ai-product-intelligence-across-every-search-recommendation-and-ai-agent/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Search Is Fragmenting — <em>AEO &amp; Generative Visibility</em> Demand a New Playbook",
-          "url": "https://martech.org/optimizing-content-for-generative-engine-search-models/",
+          "head": "AI <em>Content Supply Chain</em> Becomes a Managed Service",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers/",
           "body": [
-            "Google, ChatGPT, and emerging AI search surfaces are replacing the ten-blue-links paradigm with synthesized answers, meaning a brand that ranks well in traditional SEO may be invisible in AI-generated responses. Articles this month on Answer Engine Optimization, visual SEO for AI search, and Snipp's research on AI shifting from product search to purchase influence all point to the same disruption: <b>the path from query to conversion is being rewritten.</b>",
-            "Marketers now need to think in two layers simultaneously — classic keyword authority to satisfy crawlers, and structured, authoritative narrative that AI models can confidently cite. The Algolia-Velou acquisition signals that even on-site search is being rebuilt around AI product intelligence, so the fragmentation is both external (Google vs. ChatGPT) and internal (site search as an AI recommendation layer)."
+            "Verndale's new AI Visibility &amp; Content Supply Chain services and Stensul's personalization-at-scale push show that <b>content operations are being industrialised through AI</b>. The goal is to move content from a creative bottleneck to a continuously optimised pipeline that feeds every channel automatically.",
+            "This reframes the role of the content team: instead of producing individual assets, they govern templates, rules, and signals. <b>Marketers who restructure around supply-chain thinking will outpace those still commissioning content piece by piece.</b>"
           ],
           "ev": [
             [
-              "MarTech · Generative engine optimisation",
-              "https://martech.org/optimizing-content-for-generative-engine-search-models/"
+              "MarTech Series · Verndale content supply chain",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/verndale-introduces-ai-visibility-and-content-supply-chain-services-for-marketers/"
             ],
             [
-              "MarTech · AEO brand story visibility",
-              "https://martech.org/how-to-strengthen-your-brand-story-to-improve-aeo-visibility/"
-            ],
-            [
-              "Agile Brand · Algolia acquires Velou",
-              "https://agilebrandguide.com/algolia-acquires-velou-to-advance-ai-product-intelligence-across-every-search-recommendation-and-ai-agent/"
+              "Agile Brand · Stensul personalization at scale",
+              "https://agilebrandguide.com/stensul-advances-personalization-at-scale-for-enterprise-email-campaigns/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Human Oversight Backlash</em> Gains Serious Momentum",
-          "url": "https://martech.org/stop-letting-ai-make-your-marketing-decisions/",
+          "head": "<em>Ad Fraud &amp; Transparency</em> Force Accountability Into Automation",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fouanalytics-and-fraud0-partner-to-bring-automated-google-ads-refunds-to-the-worlds-largest-advertisers/",
           "body": [
-            "Alongside every launch touting AI autonomy, a counter-narrative is hardening among practitioners: AI is moving faster than teams can validate its outputs, and ceding decisions to models without robust review creates brand, legal, and customer-experience risk. MarTech published multiple pieces this month — on automation moving too fast, on evaluating AI advice, and on stopping AI from owning decisions — that collectively reflect a real anxiety among working marketers, not just philosophers.",
-            "<b>The practical consequence is a demand for 'confidence layers'</b> — approval gates, audit trails, and human-in-the-loop checkpoints that let organisations enjoy AI speed while retaining accountability. Aembit's move to extend access controls to personal AI agents, and Riverbed's report on the enterprise readiness gap, show that security and IT teams are arriving at the same conclusion from a different direction."
+            "FouAnalytics and fraud0 partnering to deliver automated Google Ads refunds — and Vresk labelling every AI-generated answer with its source — reflect a single pressure: <b>buyers are demanding verifiable proof, not just vendor assurances</b>. Transparency is becoming a product feature, not a compliance footnote.",
+            "For CMOs this means <b>procurement of AI &amp; ad-tech must now include auditability requirements</b>. Vendors who cannot show their working — whether on ad spend or AI outputs — will face both financial clawbacks and loss of trust."
           ],
           "ev": [
             [
-              "MarTech · Stop letting AI decide",
-              "https://martech.org/stop-letting-ai-make-your-marketing-decisions/"
+              "MarTech Series · FouAnalytics fraud refunds",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fouanalytics-and-fraud0-partner-to-bring-automated-google-ads-refunds-to-the-worlds-largest-advertisers/"
             ],
             [
-              "MarTech · When automation moves too fast",
-              "https://martech.org/when-marketing-automation-moves-too-fast/"
-            ],
-            [
-              "Agile Brand · Riverbed agentic AI readiness gap",
-              "https://agilebrandguide.com/riverbed-agentic-ai-high-ambition-meets-enterprise-readiness-gap-in-autonomous-it-operations/"
+              "MarTech Series · Vresk source-labelled AI workspace",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vresk-launches-ai-workspace-that-puts-open-models-side-by-side-and-labels-every-answer-with-its-source/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Big Platforms Consolidate Customer Intelligence Through <em>Strategic Acquisitions</em>",
-          "url": "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/",
+          "head": "Rebrands Must <em>Behave Differently</em>, Not Just Look Different",
+          "url": "https://agilebrandguide.com/expert-mode-how-to-make-your-rebrand-behave-differently-not-just-look-different-with-greg-heinz-of-optimizely/",
           "body": [
-            "Salesforce acquiring Listen Labs for AI-powered customer research, and Algolia acquiring Velou for AI product intelligence, are not isolated deals — they are evidence of a consolidation wave in which large platforms are buying the insight layer rather than building it. <b>The goal is to close the loop between customer signal and autonomous action inside a single vendor's stack.</b>",
-            "For buyers, this compression of the vendor landscape has a sharp implication: the best standalone point solutions are increasingly absorbed before most teams even evaluate them. Procurement strategies need to track acquisition pipelines alongside product roadmaps, and teams should pressure-test whether a specialist tool they rely on will still be independent — or affordable — twelve months from now."
+            "Optimizely's Greg Heinz and Bazaarvoice's Doug Straton make complementary arguments: a new visual identity means nothing if the underlying experience &amp; proof points do not change, and <b>advertising can buy placement but cannot manufacture belief</b>. In an AI-saturated media environment, authenticity signals are amplified or destroyed faster than ever.",
+            "The strategic shift here is that <b>brand investment must now be measured by behaviour change — in the company and in customers — not by creative awards</b>. Teams using AI to personalise at scale while ignoring earned trust are building on sand."
           ],
           "ev": [
             [
-              "MarTech · Salesforce buys Listen Labs",
-              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
+              "Agile Brand · Optimizely rebrand behaviour",
+              "https://agilebrandguide.com/expert-mode-how-to-make-your-rebrand-behave-differently-not-just-look-different-with-greg-heinz-of-optimizely/"
             ],
             [
-              "Agile Brand · Algolia acquires Velou",
-              "https://agilebrandguide.com/algolia-acquires-velou-to-advance-ai-product-intelligence-across-every-search-recommendation-and-ai-agent/"
-            ],
-            [
-              "MarTech Series · Userlytics AI UX research",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/userlytics-launches-ai-study-designer-and-qual-reporting-advancing-ai-assisted-ux-research-from-design-to-decisions/"
+              "Agile Brand · Bazaarvoice ads vs belief",
+              "https://agilebrandguide.com/expert-mode-ads-can-buy-placement-but-they-cant-buy-belief-with-doug-straton-from-bazaarvoice/"
             ]
           ]
         }
       ],
-      "takeaway": "The month's noise resolves into a single tension: <em>AI agents are ready to run marketing autonomously, but the data pipelines, governance frameworks, and human oversight structures needed to trust them are still being built.</em>"
+      "takeaway": "Across every category this month, the common signal is that <em>AI capability is now abundant but the trust, readiness, and accountability infrastructure to use it well is not</em> — and that gap is where the next wave of MarTech competition will be decided."
     }
   }
 }
