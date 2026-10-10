@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T18:53:51.193612+00:00",
+  "generatedAt": "2026-10-10T11:15:54.338477+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,7 +49,7 @@
           "fresh": true,
           "head": "AI budgets are growing faster than proof of ROI",
           "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
-          "plain": "Marketing teams are pouring money into AI — especially agentic projects — but most deployments haven't reached full scale and few can show a clear financial return. This matters because budget holders will eventually demand proof, and the gap between spend and demonstrated value is where programmes get cut or restructured.",
+          "plain": "Companies are spending heavily on AI but most <b>agentic projects haven't reached full scale</b> and marketing teams struggle to show clear financial returns. This matters because budget owners and CFOs are starting to demand accountability, which will reshape how AI tools are bought and justified in marketing.",
           "chips": [
             "agentic",
             "govern"
@@ -61,7 +61,7 @@
           "fresh": true,
           "head": "Not everyone in marketing should be an AI builder",
           "url": "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/",
-          "plain": "Marketing orgs are over-indexing on people who build AI tools and ignoring the maintainers, monitors, and everyday users those tools need to stay safe and effective. <b>Governance roles</b> — the people who watch what AI does day-to-day — are being left unfilled, which is a structural risk as automation scales.",
+          "plain": "Marketing orgs are over-rewarding people who build AI tools while neglecting the <b>monitors, maintainers, and everyday users</b> those systems need. This shapes how teams are structured and hired — a practical governance argument that affects how AI gets deployed safely at scale.",
           "chips": [
             "govern",
             "agentic"
@@ -71,37 +71,25 @@
           "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Fibr AI CEO on making your website legible to AI agents, not just humans",
-          "url": "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/",
-          "plain": "Fibr AI's CEO argues that AI agents are now a second audience for every website, and <b>being cited accurately by those agents</b> matters more than just showing up. This is a practical GEO conversation — how brands structure content so AI systems cite them correctly when answering customer queries.",
+          "head": "Hightouch acquires Strata, ZoomInfo and Nectar ship MCP connectors, AI bots blocked at rising rate",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-october-10-2026/",
+          "plain": "Three signal stories in one brief: Hightouch buying Strata expands its <b>CDP and decisioning reach</b>; MCP connectors from ZoomInfo and Nectar push data into AI agent workflows; and sites blocking 13.47% of AI bot requests in Q3 signals a growing <b>GEO and access battle</b> between publishers and AI crawlers.",
           "chips": [
-            "geo",
-            "agentic"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Validity Engage adds MCP connector to bring email intelligence into AI tools",
-          "url": "https://martechseries.com/content/programmatic-email/validity-engage-expands-email-intelligence-into-tools-marketers-already-use-with-mcp-connector/",
-          "plain": "Validity's email platform now ships a <b>Model Context Protocol connector</b>, letting AI assistants pull pre-send deliverability and engagement data without switching tools. MCP is becoming a de-facto plumbing standard for agentic marketing stacks, so this signals how established MarTech vendors are repositioning to stay relevant inside AI workflows.",
-          "chips": [
+            "cdp",
             "agentic",
-            "cep",
+            "geo",
             "govern"
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech Series",
+          "num": "04",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Morrisons grows loyalty-linked sales from 47% to 65% in 18 months using Eagle Eye AIR",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/morrisons-revolutionises-loyalty-with-eagle-eye-air/",
-          "plain": "UK supermarket Morrisons used Eagle Eye's AI platform to rebuild its loyalty programme and lifted the share of sales tied to loyalty cards by 18 percentage points in 18 months. It's a rare <b>quantified retail AI ROI case study</b>, making it useful evidence for teams trying to justify similar investment.",
+          "head": "Closing the measurement gap between the digital ad and the physical aisle",
+          "url": "https://agilebrandguide.com/expert-mode-closing-the-measurement-gap-between-the-ad-and-the-aisle/",
+          "plain": "Retail Media Networks attract big budgets but a core problem persists: no one can reliably link a <b>digital ad impression to an in-store purchase decision</b>. Solving this matters for how AI-driven personalization and decisioning tools get evaluated and funded in retail marketing.",
           "chips": [
             "perso",
-            "cep",
             "decis"
           ]
         }
@@ -112,10 +100,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "AI budgets are growing faster than proof of ROI",
           "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
-          "plain": "Most marketing AI projects are still not at full scale, yet budgets keep rising. The core problem: teams can't show clear financial value for what they're spending. This shapes <b>how AI is bought</b> — and whether finance teams will keep approving the spend. A must-read for anyone pitching or defending AI investment.",
+          "plain": "Most AI agent projects in marketing haven't reached full scale, and marketing teams struggle to show clear financial returns on AI spend. This matters because it signals a <b>governance and accountability gap</b> that will shape how AI budgets get approved and how vendors must prove value — not just promise it.",
           "chips": [
             "agentic",
             "govern"
@@ -123,54 +111,54 @@
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Tealium calls Jev AI decision model for real-time next-best-action after cart abandonment",
-          "url": "https://agilebrandguide.com/one-amazing-thing-about-tealium-and-jev/",
-          "plain": "Tealium's CDP triggers a lightweight AI decision model — Jev — to pick the <b>next best action</b> after a cart abandonment, without routing every call through an expensive LLM. This is a concrete, working example of <b>agentic decisioning inside a live CEP stack</b>, showing how cost and latency can be managed in real deployments.",
+          "head": "OpenAI adds visual ad formats to ChatGPT with bot-inflation problem",
+          "url": "https://martech.org/openai-ads-visuals-to-chatgpt-ad/",
+          "plain": "OpenAI is rolling out richer visual ad units inside ChatGPT alongside better measurement tools, but <b>bot traffic is already inflating click-through numbers</b>. This changes how marketers must buy and verify AI-native advertising — a genuinely new channel with new fraud risks baked in from the start.",
           "chips": [
-            "cdp",
-            "decis",
-            "cep",
-            "agentic"
+            "geo",
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech · AI",
+          "src": "MarTech",
           "fresh": false,
-          "head": "OpenAI adds visual ad formats to ChatGPT with new measurement tools",
-          "url": "https://martech.org/openai-ads-visuals-to-chatgpt-ad/",
-          "plain": "ChatGPT is rolling out richer visual ad formats alongside measurement capabilities — but bot traffic is already inflating click numbers. This matters because <b>a new ad channel inside an AI answer engine</b> changes both media buying and how brands think about <b>visibility in AI-generated responses</b>. Fraud risk is already present at launch.",
+          "head": "Classic marketing automation is dead: agentic systems are next",
+          "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next/",
+          "plain": "Rule-based marketing automation is being replaced by <b>autonomous, agentic systems</b> that decide and act without pre-written rules. The piece argues for human-in-the-loop design to keep marketers in control of outcomes — directly affecting how organisations build, buy and govern the next generation of marketing tools.",
           "chips": [
-            "geo",
-            "govern"
+            "agentic",
+            "decis",
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "04",
           "src": "MarTech",
           "fresh": false,
-          "head": "Agentic media buying needs malware guardrails built into optimization logic",
-          "url": "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/",
-          "plain": "As AI agents take over more campaign decisions autonomously, traffic-quality and security signals must become part of what those agents optimize for — not an afterthought. This piece raises a <b>governance gap specific to agentic buying</b>: agents optimizing on bad signals can scale fraud faster than humans ever did.",
+          "head": "Not everyone in marketing should be an AI builder — monitors and maintainers matter too",
+          "url": "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/",
+          "plain": "Marketing teams are over-indexing on AI builders and ignoring the people who watch, maintain, and safely operate AI systems. This reframes <b>AI workforce design</b> and governance, with direct implications for hiring, training, and how organisations structure accountability around automated marketing decisions.",
           "chips": [
-            "agentic",
-            "decis",
-            "govern"
+            "govern",
+            "agentic"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Fibr AI CEO: AI agents are your website's second audience — being cited correctly matters more than being cited",
+          "fresh": false,
+          "head": "Fibr AI CEO: AI agents are your website's second audience — accuracy of citations now critical",
           "url": "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/",
-          "plain": "Ankur Goyal argues that AI agents now read and act on your website independently of human visitors, making <b>accurate brand representation inside AI-generated answers</b> a new priority. Getting cited is not enough — the citation must be correct. This reframes <b>GEO from an SEO add-on into a brand safety issue</b>.",
+          "plain": "AI agents increasingly read and cite brand websites, making <b>how a brand is represented inside AI answers</b> as important as how it ranks in search. This interview explains why being cited correctly — not just cited — is the new frontier of brand visibility, changing content strategy and GEO priorities.",
           "chips": [
             "geo",
             "agentic",
-            "govern"
+            "genai"
           ]
         }
       ]
@@ -180,34 +168,34 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Budgets Outrun <em>Proof of Value</em>",
+          "head": "AI Spend Races Ahead of <em>Proof of Value</em>",
           "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
           "body": [
-            "Spending on AI tools is accelerating across marketing organisations, but <b>measurement frameworks have not kept pace</b>. Executives are approving larger budgets while finance teams struggle to attribute outcomes, creating a dangerous credibility gap that risks a backlash when results disappoint.",
-            "The pressure is sharpened by findings that a <b>significant slice of AI cost goes to automating routine, rules-based work</b> — the lowest-value use case. Marketers who cannot articulate what incremental lift AI delivers will face hard questions in the next budget cycle, making ROI literacy the skill that matters most right now."
+            "Marketing budgets are flowing into AI faster than measurement frameworks can catch up. <b>Organisations are committing real money before they can articulate what a return looks like</b>, creating a credibility gap that threatens the next budget cycle.",
+            "The pressure to show ROI is pushing teams toward two parallel strategies: squeezing more from existing infrastructure rather than buying more tools, and standardising on fewer, better-integrated platforms. Without both moves, spend will keep outpacing results."
           ],
           "ev": [
             [
-              "MarTech · AI budgets vs. ROI",
+              "MarTech · AI budgets vs ROI",
               "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
-            ],
-            [
-              "Pega CFO on what's inside AI budgets",
-              "https://agilebrandguide.com/pega-cfo-and-coo-ken-stillwell-on-whats-actually-inside-your-ai-budget/"
             ],
             [
               "MarTech · Get more without spending more",
               "https://martech.org/get-more-from-ai-without-spending-more/"
+            ],
+            [
+              "MarTech Series · Databricks cost optimisation",
+              "https://martechseries.com/analytics/data-management-platforms/seemoredata-launches-databricks-cost-optimization-to-help-enterprises-fund-ai/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic Automation</em> Replaces Classic Workflows",
+          "head": "The Rise of <em>Agentic &amp; Autonomous</em> Marketing Systems",
           "url": "https://martech.org/classic-marketing-automation-is-dead-whats-next/",
           "body": [
-            "The rule-based, campaign-centric model of marketing automation is being declared obsolete as <b>AI agents capable of autonomous decision-making</b> move into production. The shift is not incremental — agents handle sequencing, personalisation, and channel selection in real time, collapsing what used to require multi-step workflows.",
-            "Yet speed itself is emerging as a risk: agentic media buying operating without guardrails is already being linked to <b>malware exposure and brand-safety failures</b>. The decision for teams is no longer whether to adopt agents but how to build the oversight layer that keeps them from moving too fast."
+            "Classic rule-based marketing automation is being retired in favour of AI agents that can plan, decide, and act across channels without step-by-step human instruction. <b>This is not an upgrade — it is an architectural replacement</b>, and it changes who owns the marketing workflow.",
+            "The shift brings new dangers: agentic media buying can expose brands to malware networks if guardrails are absent, and automation that moves faster than human review creates compounding errors. The industry is simultaneously celebrating the capability and scrambling to govern it."
           ],
           "ev": [
             [
@@ -215,86 +203,86 @@
               "https://martech.org/classic-marketing-automation-is-dead-whats-next/"
             ],
             [
-              "MarTech · When automation moves too fast",
-              "https://martech.org/when-marketing-automation-moves-too-fast/"
+              "MarTech · Agentic media buying guardrails",
+              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
             ],
             [
-              "MarTech · Agentic media buying &amp; malware",
-              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
+              "MarTech · When automation moves too fast",
+              "https://martech.org/when-marketing-automation-moves-too-fast/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Agents Become Your Brand's <em>Second Audience</em>",
-          "url": "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/",
+          "head": "Measurement's <em>New Source of Truth</em>",
+          "url": "https://martech.org/brand-measurement-needs-a-new-source-of-truth/",
           "body": [
-            "LLM-powered assistants and search agents are now <b>crawling, summarising, and citing brand content</b> independently of human queries. This creates a second audience — AI systems — whose interpretation of your website determines whether your brand is recommended or ignored in AI-generated answers.",
-            "Early movers are already optimising content structure and metadata for AI legibility, mirroring the early days of SEO. <b>Partnerships like Getfluence &amp; OtterlyAI</b> are turning AI search-visibility scores into editorial action plans, signalling that AI-answer optimisation is becoming a discrete discipline inside content strategy."
+            "The old attribution stack — last-click, pixel-based, platform-reported — is no longer sufficient as journeys fragment across AI-answered queries, retail media, and agentic touchpoints. <b>Closing the gap between the ad and the aisle now requires a new measurement layer</b> that bridges online signals with real-world sales outcomes.",
+            "Synthetic audience testing is emerging as a complementary pre-flight tool, letting teams pressure-test campaigns before real customers see them. Together, these approaches signal a move from post-campaign reporting to a continuous, predictive measurement loop."
           ],
           "ev": [
             [
-              "Fibr AI CEO on the second audience",
-              "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/"
-            ],
-            [
-              "Getfluence &amp; OtterlyAI partnership",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/getfluence-and-otterlyai-partner-to-turn-ai-search-visibility-into-editorial-action/"
-            ],
-            [
-              "MarTech · Brand measurement needs new truth",
+              "MarTech · Brand measurement new source of truth",
               "https://martech.org/brand-measurement-needs-a-new-source-of-truth/"
+            ],
+            [
+              "Agile Brand · Closing the ad-to-aisle gap",
+              "https://agilebrandguide.com/expert-mode-closing-the-measurement-gap-between-the-ad-and-the-aisle/"
+            ],
+            [
+              "MarTech Series · Synthetic audience testing",
+              "https://martechseries.com/mts-insights/staff-writers/synthetic-audience-testing-how-marketers-can-pressure-test-ai-campaigns-before-customers-see-them/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>AI Readiness Gap</em> Inside Enterprises",
-          "url": "https://agilebrandguide.com/typeface-cro-jamie-garverick-on-the-enterprise-ai-readiness-gap/",
+          "head": "AI Agents as Your Brand's <em>Second Audience</em>",
+          "url": "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/",
           "body": [
-            "Large organisations are discovering that <b>tooling is ahead of talent and governance</b>. Not every marketer needs to be an AI builder, but every team needs someone who can translate AI capabilities into sound decisions — a role most enterprises have not yet defined or hired for.",
-            "The gap shows up concretely in data infrastructure: vendors like Seemoredata are selling Databricks cost-optimisation specifically so enterprises can <b>free up budget to fund AI without adding net spend</b>. The pattern — bolt-on optimisation to justify AI investment — suggests many organisations are still in a retrofitting phase rather than a transformation one."
+            "Brands now have two distinct audiences reading their content: human visitors and the AI agents that synthesise, cite, and recommend on their behalf. <b>Optimising only for human readers means surrendering how your brand appears in AI-generated answers</b>, a fast-growing discovery channel that operates by entirely different rules.",
+            "Partnerships like Getfluence &amp; OtterlyAI — turning AI search visibility data into editorial action — illustrate how teams are restructuring content strategy around AI citation rather than keyword ranking. The Validity Engage MCP connector shows the same logic applied to email: embed intelligence where the agent already works."
           ],
           "ev": [
             [
-              "Typeface CRO on enterprise readiness gap",
-              "https://agilebrandguide.com/typeface-cro-jamie-garverick-on-the-enterprise-ai-readiness-gap/"
+              "Agile Brand · Fibr AI second audience",
+              "https://agilebrandguide.com/fibr-ai-ceo-ankur-goyal-on-your-websites-second-audience/"
             ],
             [
-              "MarTech · Not everyone should be an AI builder",
-              "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/"
+              "MarTech Series · Getfluence &amp; OtterlyAI AI search",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/getfluence-and-otterlyai-partner-to-turn-ai-search-visibility-into-editorial-action/"
             ],
             [
-              "Seemoredata Databricks cost optimisation",
-              "https://martechseries.com/analytics/data-management-platforms/seemoredata-launches-databricks-cost-optimization-to-help-enterprises-fund-ai/"
+              "MarTech Series · Validity Engage MCP connector",
+              "https://martechseries.com/content/programmatic-email/validity-engage-expands-email-intelligence-into-tools-marketers-already-use-with-mcp-connector/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI-Native <em>Creative &amp; Content</em> Pipelines Consolidate",
-          "url": "https://agilebrandguide.com/adobe-adds-send-to-adobe-handoff-from-claude-motion-to-firefly-video-editor/",
+          "head": "The <em>Enterprise Readiness Gap</em> and Who Owns AI",
+          "url": "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/",
           "body": [
-            "The month's product moves reveal a clear direction: <b>AI generation and professional editing tools are being stitched into single handoff workflows</b>. Adobe's Claude Motion-to-Firefly connector, the Deepdub &amp; Spikes multilingual content partnership, and OpenAI adding visuals to ChatGPT ads all point to end-to-end pipelines where humans review and approve rather than create from scratch.",
-            "Synthetic audience testing is emerging as the quality-control layer in these pipelines, letting teams <b>pressure-test AI-generated campaigns against simulated segments</b> before any real customer sees them. Together these moves suggest that within a planning cycle, the default creative workflow will be AI-first with human editorial oversight, not the reverse."
+            "A growing debate is settling around role design: <b>not every marketer needs to build AI workflows, but every marketer needs to understand what the outputs mean</b>. The Typeface CRO's framing of an 'enterprise AI readiness gap' captures a structural lag — data, governance, and skills are not keeping pace with tool availability.",
+            "Salesforce's acquisition of Listen Labs and Adobe's Claude Motion-to-Firefly handoff both point toward platforms consolidating AI capability so individual teams don't have to assemble it themselves. The platform layer is absorbing complexity, but only organisations that have already done the internal readiness work will benefit."
           ],
           "ev": [
             [
-              "Adobe Claude Motion to Firefly handoff",
-              "https://agilebrandguide.com/adobe-adds-send-to-adobe-handoff-from-claude-motion-to-firefly-video-editor/"
+              "MarTech · Not everyone should be an AI builder",
+              "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/"
             ],
             [
-              "Synthetic audience testing explainer",
-              "https://martechseries.com/mts-insights/staff-writers/synthetic-audience-testing-how-marketers-can-pressure-test-ai-campaigns-before-customers-see-them/"
+              "Agile Brand · Typeface enterprise AI readiness gap",
+              "https://agilebrandguide.com/typeface-cro-jamie-garverick-on-the-enterprise-ai-readiness-gap/"
             ],
             [
-              "Deepdub &amp; Spikes global content pipeline",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/deepdub-and-spikes-partner-to-turn-one-piece-of-content-into-a-global-revenue-stream/"
+              "MarTech · Salesforce buys Listen Labs",
+              "https://martech.org/salesforce-buys-ai-customer-research-startup-listen-labs/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — budget, workflow, content, search, and talent — <em>the real transformation is not adopting AI but building the judgment layer that keeps AI-speed decisions from outrunning human accountability</em>."
+      "takeaway": "Across every layer of the stack — spend, automation, measurement, content, and org design — <em>the central question has shifted from 'should we use AI' to 'who controls what AI decides'</em>, and teams that cannot answer it are already behind."
     }
   }
 }
