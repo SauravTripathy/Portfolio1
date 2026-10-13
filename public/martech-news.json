@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:48:05.149902+00:00",
+  "generatedAt": "2026-10-13T12:48:35.148019+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,14 +47,14 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "The state of AI in marketing: Q4 2026",
-          "url": "https://martech.org/the-state-of-ai-in-marketing-q4-2026/",
-          "plain": "A quarterly benchmark showing where marketing AI actually stands heading into the final stretch of 2026. The key finding: most teams are still stuck with <b>basic AI tools</b> and won't unlock real business value until they make deeper <b>systemic organisational changes</b>. A useful reality check for anyone buying or building marketing AI right now.",
+          "head": "AI agents are coming between you and your customers",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "plain": "AI agents are now handling customer preferences, purchase decisions, and even checkout — moving these moments outside brands' direct control. This matters because marketers must rethink how they reach and influence buyers when an <b>agentic intermediary</b> stands between them and the customer. The piece outlines what brands can still shape and how.",
           "chips": [
-            "genai",
             "agentic",
+            "decis",
             "govern",
-            "cep"
+            "perso"
           ]
         },
         {
@@ -63,7 +63,7 @@
           "fresh": true,
           "head": "How MOps teams are restructuring for autonomous AI agents",
           "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
-          "plain": "Marketing operations roles are shifting from hands-on execution to <b>agent orchestration and systems oversight</b>. The piece explains what that restructuring looks like in practice — new skills, new reporting lines, new controls. Anyone responsible for hiring or org design in a marketing team needs to read this now.",
+          "plain": "Marketing operations teams are shifting from manually running campaigns to <b>orchestrating and overseeing autonomous AI agents</b>. This changes hiring, workflows, and tooling — a structural shift that affects how martech is bought and built. Anyone responsible for a marketing tech stack needs to understand this reorganization now.",
           "chips": [
             "agentic",
             "decis",
@@ -73,43 +73,42 @@
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Treasure AI CEO on governing autonomous agents and keeping them on-brand",
-          "url": "https://agilebrandguide.com/treasure-ai-ceo-kaz-ohta-on-keeping-autonomous-agents-on-brand/",
-          "plain": "Treasure AI's Kaz Ohta lays out a concrete framework: <b>start every agent at zero permission</b>, audit every action, and anchor the whole system to governed customer data. Rare practitioner-level detail on agent governance from someone building the infrastructure — directly relevant to anyone deploying agentic marketing tools.",
+          "head": "Movable Ink Introduces Headless Marketing Capabilities with Agentic Orchestration",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/movable-ink-introduces-headless-marketing-capabilities/",
+          "plain": "Movable Ink now lets marketers run and optimize campaigns directly through its platform or via external AI tools using a <b>Model Context Protocol (MCP) Server</b>. This headless approach means personalized content can be triggered and managed by agentic systems, not just human operators — a concrete product shift that changes how personalization platforms are integrated.",
           "chips": [
             "agentic",
-            "govern",
-            "cdp",
-            "decis"
+            "perso",
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "ZoomInfo launches native n8n integration through GTM.AI for agentic GTM workflows",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-launches-native-integration-with-n8n-through-gtm-ai/",
-          "plain": "ZoomInfo's verified contact and company data can now flow directly into n8n's <b>AI agent and workflow automation</b> environment via the GTM.AI layer. This lowers the barrier to building agentic go-to-market pipelines without custom API work, which matters to anyone evaluating B2B data and automation stacks together.",
+          "head": "Semrush Releases 2026 AI Visibility Index with First UK Benchmark",
+          "url": "https://martechseries.com/analytics/data-management-platforms/semrush-releases-2026-ai-visibility-index-revealing-its-first-uk-benchmark/",
+          "plain": "Semrush's new index shows <b>AI visibility varies significantly between UK and US markets</b> and that ranking well on one AI platform doesn't guarantee visibility on another. For marketers investing in GEO strategies, this data reveals that geographic and platform-specific approaches are now essential, not optional.",
           "chips": [
-            "agentic",
-            "cdp",
-            "decis",
-            "cep"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "MarTech · via SAP",
           "fresh": true,
-          "head": "Guideline launches AI Ingestion Agent to eliminate media plan re-entry bottleneck",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/guideline-ends-the-media-plan-re-entry-bottleneck-with-launch-of-new-ai-ingestion-agent/",
-          "plain": "Guideline's new agent reads <b>media plan spreadsheets in any format</b> and converts them into clean, governed platform data in seconds — killing a notorious manual bottleneck that costs agencies hours per campaign. A clear example of agentic AI solving a real operational pain point with measurable time savings.",
+          "head": "SAP research: 60% of consumers want shared control with AI — 'earned autonomy' key to loyalty",
+          "url": "https://martech.org/why-earned-autonomy-is-the-sweet-spot-for-ai-and-customer-loyalty-in-2027/",
+          "plain": "New SAP research finds most consumers don't want AI acting fully on their behalf — they want <b>shared control, with autonomy granted gradually</b> as trust is built. This shapes how brands should design AI-driven personalization and decisioning systems, with governance and transparency becoming competitive advantages heading into 2027.",
           "chips": [
-            "agentic",
             "govern",
-            "genai"
+            "agentic",
+            "decis",
+            "perso"
           ]
         }
       ]
@@ -120,23 +119,23 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "The state of AI in marketing: Q4 2026",
-          "url": "https://martech.org/the-state-of-ai-in-marketing-q4-2026/",
-          "plain": "A broad Q4 2026 snapshot of where marketing AI actually stands — and the core finding is that <b>most teams are stuck at basic tooling</b> and haven't made the systemic changes needed to unlock real business value. This is the clearest current benchmark for understanding the gap between AI hype and operational reality across the industry.",
+          "head": "AI agents are coming between you and your customers",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "plain": "As <b>AI agents increasingly handle purchase decisions and even checkout</b> on behalf of consumers, brands are losing direct influence over the customer relationship. The piece outlines what marketers can still control — signals, trust, and structured data — and why this structural shift in the buying journey changes how marketing must be built.",
           "chips": [
             "agentic",
-            "govern",
-            "genai",
-            "cep"
+            "decis",
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "How MOps teams are restructuring for autonomous AI agents",
           "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
-          "plain": "Marketing operations is shifting from hands-on campaign execution to <b>agent orchestration and systems oversight</b>. This piece lays out what that structural change looks like in practice — new roles, new oversight models, and new risk controls — directly affecting how MarTech teams are built and staffed right now.",
+          "plain": "Marketing operations teams are moving away from hands-on campaign execution toward <b>agent orchestration and systems oversight</b>. The article details the new roles, workflows, and oversight structures MOps needs as autonomous agents take on more decisions — a practical guide to the org-design shift agentic AI demands.",
           "chips": [
             "agentic",
             "govern",
@@ -146,43 +145,41 @@
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Treasure AI CEO on governing autonomous agents: start at zero permission, audit every action",
-          "url": "https://agilebrandguide.com/treasure-ai-ceo-kaz-ohta-on-keeping-autonomous-agents-on-brand/",
-          "plain": "Kaz Ohta lays out a concrete governance framework for keeping AI agents on-brand: <b>default to zero permissions, log every action, and build on governed customer data</b>. Practical and vendor-neutral enough to apply broadly, this is one of the clearest practitioner takes on agentic AI governance published this week.",
-          "chips": [
-            "agentic",
-            "govern",
-            "cdp",
-            "decis"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech · AI",
+          "src": "MarTech",
           "fresh": false,
-          "head": "OpenAI adds visual ad formats to ChatGPT and confronts bot-inflated click numbers",
-          "url": "https://martech.org/openai-adds-visuals-to-chatgpt-ad/",
-          "plain": "ChatGPT's ad product is expanding to visual formats and adding measurement tools, but <b>bots are already inflating click-through rates</b> — a structural credibility problem for the emerging AI-native ad channel. Matters for anyone planning media budgets around generative AI platforms or evaluating GEO-adjacent advertising.",
+          "head": "The state of AI in marketing: Q4 2026",
+          "url": "https://martech.org/the-state-of-ai-in-marketing-q4-2026/",
+          "plain": "A broad Q4 snapshot finds that <b>moving beyond basic AI tools requires systemic organisational change</b>, not just better models. Most teams are still stuck at the tool-adoption stage and haven't unlocked real business value — useful benchmarking for anyone trying to assess where their programme stands.",
           "chips": [
             "genai",
-            "geo",
+            "agentic",
             "govern"
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Agentic media buying needs malware guardrails built into optimization logic",
-          "url": "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/",
-          "plain": "As AI agents take over more programmatic buying decisions, <b>traffic-quality and security signals must become part of the agent's optimization loop</b> — not a separate manual check. This raises a governance question that will affect every brand running agentic campaigns: who is accountable when an agent buys bad inventory?",
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Movable Ink introduces headless marketing and agentic orchestration via MCP Server",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/movable-ink-introduces-headless-marketing-capabilities/",
+          "plain": "Movable Ink now lets marketers run and optimise personalised content campaigns through its own interface or any connected AI tool via a <b>Model Context Protocol (MCP) Server</b>. The headless approach and AI-powered assistants signal a shift toward agentic orchestration of content delivery — changing how personalisation platforms are bought and integrated.",
           "chips": [
             "agentic",
-            "decis",
-            "govern",
-            "bandit"
+            "perso",
+            "genai",
+            "cep"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Semrush releases 2026 AI Visibility Index with first UK benchmark",
+          "url": "https://martechseries.com/analytics/data-management-platforms/semrush-releases-2026-ai-visibility-index-revealing-its-first-uk-benchmark/",
+          "plain": "Semrush's index shows that <b>brands visible in US AI answers are not automatically visible in UK AI answers</b>, and that presence on one AI platform does not transfer to others. This is the first cross-market benchmark for generative engine optimisation, giving marketers concrete data on how fragmented AI visibility already is.",
+          "chips": [
+            "geo",
+            "govern"
           ]
         }
       ]
@@ -192,24 +189,24 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "MOps Teams Rebuilt Around <em>Autonomous Agents</em>",
-          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
+          "head": "AI Agents Are <em>Intercepting the Customer</em> Relationship",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
           "body": [
-            "Marketing operations teams are no longer just managing tools — they are redesigning org structures to supervise AI agents that execute tasks end-to-end. Roles are splitting between those who <b>configure and govern agents</b> and those who interpret results, collapsing several traditional specialist layers in between.",
-            "Vendors are racing to match this shift: Vannor's agentic marketing suite, Guideline's AI ingestion agent for media plans, and ZoomInfo's GTM.AI integrations with n8n and ClickUp all hand routine workflow steps to software agents. The practical question is no longer whether to deploy agents but <b>how to keep them on-brand and auditable</b> — a concern Treasure AI's Kaz Ohta made explicit."
+            "Autonomous AI agents are no longer hypothetical — they are now sitting between brands and the humans they serve, filtering, deciding, and sometimes replacing the moments that used to define loyalty. MarOps teams are actively restructuring roles and workflows to manage agents that can act without human approval on individual customer interactions.",
+            "The implication for strategy is stark: <b>if an agent mediates the experience, then the brand relationship is only as strong as the rules and values baked into that agent.</b> Treasure AI's focus on keeping autonomous agents 'on-brand' and SAP's concept of 'earned autonomy' both signal that governance of agent behavior is becoming a core marketing competency, not an IT problem."
           ],
           "ev": [
             [
-              "MarTech · MOps restructuring",
+              "MarTech · AI agents vs customers",
+              "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/"
+            ],
+            [
+              "MarTech · MOps restructuring for agents",
               "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
             ],
             [
               "Agile Brand · Treasure AI on-brand agents",
               "https://agilebrandguide.com/treasure-ai-ceo-kaz-ohta-on-keeping-autonomous-agents-on-brand/"
-            ],
-            [
-              "MarTech Series · Vannor agentic launch",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vannor-launches-agentic-marketing-after-ai-agents-drive-30-fold-increase-in-first-page-google-rankings/"
             ]
           ]
         },
@@ -218,12 +215,12 @@
           "head": "<em>AI Budgets Outrun</em> Proof of ROI",
           "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
           "body": [
-            "Spending on AI-powered martech is accelerating well ahead of any rigorous evidence that it pays back. The Q4 2026 state-of-AI-in-marketing report confirms budgets are climbing, but <b>measurement frameworks have not kept pace</b>, leaving CMOs defending investments with anecdote rather than attribution.",
-            "Two companion pieces sharpen the tension: a call to stop letting AI make marketing decisions autonomously, and a frank look at why brand measurement needs a new source of truth in an AI-mediated media environment. Together they argue that <b>governance and measurement infrastructure</b> are now the real competitive differentiator — not the AI tools themselves."
+            "Spending on AI in marketing is accelerating at a pace that measurable business outcomes cannot yet match. The Q4 2026 state-of-AI report confirms a pattern familiar from earlier technology waves: investment decisions are being made on competitive anxiety and vendor momentum rather than demonstrated return.",
+            "<b>The danger is organizational debt</b> — teams accumulating tools, subscriptions, and custom models without a clear framework for measuring what works. The advice emerging from practitioners is to move beyond pilot programs and build durable AI capabilities with defined accountability, rather than chasing the next shiny deployment."
           ],
           "ev": [
             [
-              "MarTech · AI budgets vs ROI",
+              "MarTech · Budgets vs ROI",
               "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
             ],
             [
@@ -231,82 +228,82 @@
               "https://martech.org/the-state-of-ai-in-marketing-q4-2026/"
             ],
             [
-              "MarTech · Brand measurement truth",
-              "https://martech.org/brand-measurement-needs-a-new-source-of-truth/"
+              "Agile Brand · Beyond the pilot program",
+              "https://agilebrandguide.com/expert-mode-beyond-the-pilot-program-building-a-true-ai-capability-in-marketing-with-mike-kaput-marketing-ai-institute/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "MCP Servers Open an <em>AI-Native Data Layer</em>",
-          "url": "https://martechseries.com/mts-insights/nectar-mcp-brings-consumer-and-creator-data-to-chatgpt-claude-gemini-and-copilot/",
+          "head": "The Race for <em>AI Search Visibility</em>",
+          "url": "https://martechseries.com/analytics/data-management-platforms/semrush-releases-2026-ai-visibility-index-revealing-its-first-uk-benchmark/",
           "body": [
-            "Model Context Protocol (MCP) servers are emerging as the connective tissue between proprietary marketing data and frontier AI models. Sound.me and Nectar both launched MCP integrations this month, piping creator &amp; consumer data directly into ChatGPT, Claude, Gemini, and Copilot so analysts can query live campaign data inside the chat interface they already use.",
-            "This is a structural shift, not a feature release: <b>data no longer has to travel to a dashboard</b> — the AI model comes to the data through a standardised protocol. Expect MCP adoption to become a procurement criterion as marketers demand their platforms speak natively to whichever LLM they rely on."
+            "As AI-generated answers increasingly replace traditional search results, a new competitive metric is emerging: whether your brand is cited, summarized, or surfaced by large language models at all. Semrush's 2026 AI Visibility Index — now benchmarked in the UK — is an early sign that 'share of AI answer' is becoming as strategically important as share of search-engine page rank was a decade ago.",
+            "OpenAI adding visuals to ChatGPT ads and the broader push by AI platforms to monetize discovery mean that <b>organic AI visibility and paid AI placement are converging into a single new arena.</b> Marketers who still think of SEO and paid search as separate channels from AI discovery are already operating with an outdated map."
           ],
           "ev": [
             [
-              "MarTech Series · Nectar MCP",
-              "https://martechseries.com/mts-insights/nectar-mcp-brings-consumer-and-creator-data-to-chatgpt-claude-gemini-and-copilot/"
+              "MarTech Series · Semrush AI Visibility Index",
+              "https://martechseries.com/analytics/data-management-platforms/semrush-releases-2026-ai-visibility-index-revealing-its-first-uk-benchmark/"
             ],
             [
-              "MarTech Series · Sound.me MCP",
-              "https://martechseries.com/sales-marketing/programmatic-buying/sound-me-brings-creator-campaigns-to-chatgpt-and-claude-with-new-mcp-server/"
+              "MarTech · OpenAI ChatGPT ads visuals",
+              "https://martech.org/openai-ads-visuals-to-chatgpt-ad/"
             ],
             [
-              "MarTech Series · ZoomInfo GTM.AI n8n",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-launches-native-integration-with-n8n-through-gtm-ai/"
+              "Agile Brand · Influence orchestration &amp; earned authority",
+              "https://agilebrandguide.com/spotlights-john-rockhold-on-influence-orchestration-in-b2b/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Agentic Media Buying Demands <em>New Safety Rails</em>",
-          "url": "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/",
+          "head": "<em>Headless &amp; Composable</em> Infrastructure as AI Prerequisite",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/movable-ink-introduces-headless-marketing-capabilities/",
           "body": [
-            "As AI agents begin placing and optimising media buys autonomously, a new class of risk surfaces: agents can inadvertently purchase inventory adjacent to malware or brand-unsafe content with no human in the loop to catch it. PropellerAds' analysis argues that <b>guardrails must be baked into the agent layer</b>, not bolted on after placement.",
-            "OpenAI adding visual ads inside ChatGPT adds urgency — the line between editorial AI response and paid placement is blurring at the same moment buying decisions are being automated. Marketers now need <b>policy, technical controls, and audit trails</b> simultaneously, a combination most martech stacks are not yet equipped to provide."
+            "Movable Ink's move to headless marketing, Loops raising seed capital to build an 'AI operating system for commerce,' and practitioner discussions about what a replatform really exposes all point to the same root issue: <b>legacy monolithic stacks physically cannot deliver the real-time, personalized, agent-orchestrated experiences that AI promises.</b> Infrastructure is the bottleneck, not the model.",
+            "The strategic decision is no longer 'should we adopt AI' but 'is our data and content infrastructure composable enough to let AI act on it at speed.' Teams that skip this infrastructure audit before layering on AI tools will find that their agents are sophisticated but starved of clean, accessible data."
           ],
           "ev": [
             [
-              "MarTech · Agentic buying guardrails",
-              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
+              "MarTech Series · Movable Ink headless",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/movable-ink-introduces-headless-marketing-capabilities/"
             ],
             [
-              "MarTech · OpenAI ChatGPT visual ads",
-              "https://martech.org/openai-adds-visuals-to-chatgpt-ad/"
+              "Agile Brand · Infrastructure behind AI transformation",
+              "https://agilebrandguide.com/the-infrastructure-decisions-behind-successful-ai-transformation/"
             ],
             [
-              "MarTech · Stop letting AI decide",
-              "https://martech.org/stop-letting-ai-make-your-marketing-decisions/"
+              "Agile Brand · Replatform exposes content ops",
+              "https://agilebrandguide.com/expert-mode-what-a-replatform-really-exposes-in-your-content-and-operations-with-melissa-ryan-federated-hermes/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI <em>Democratises Video &amp; Creative</em> Production",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/az8-integrates-zumi-and-oxygen-for-ai-video-ad-creation-on-an-infinite-canvas/",
+          "head": "Agentic Advertising Demands <em>New Trust &amp; Safety</em> Rails",
+          "url": "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/",
           "body": [
-            "Multiple launches this month — Wondershare Filmora 16, AZ8's infinite-canvas video ad tool, and the Loops commerce OS — point to the same underlying shift: <b>professional-grade creative production is becoming accessible without specialist headcount</b>. AI handles rendering, editing, and format adaptation, compressing timelines from days to minutes.",
-            "The business implication is that creative volume is no longer the bottleneck; <b>creative strategy and brand judgment</b> are. Teams that invest in clear brand guidelines and quality-control workflows will extract far more value from these tools than those who simply hand the brief to the AI and publish what comes back."
+            "When AI agents are permitted to buy media, personalize creative, and optimize bids autonomously, the blast radius of a bad decision — or a malicious injection — grows exponentially. PropellerAds' call for malware guardrails in agentic media buying and Intent IQ's BidPulse transparency tool both reflect an industry beginning to grapple with safety at machine speed.",
+            "<b>The trust problem is not just technical — it is relational.</b> The AI email trust panic, the debate over whether AI should be making marketing decisions at all, and the push for simpler rather than smarter advertising all share a common thread: speed without accountability erodes the credibility brands have spent years building. Guardrails are becoming a competitive differentiator, not just a compliance checkbox."
           ],
           "ev": [
             [
-              "MarTech Series · AZ8 AI video canvas",
-              "https://martechseries.com/sales-marketing/programmatic-buying/az8-integrates-zumi-and-oxygen-for-ai-video-ad-creation-on-an-infinite-canvas/"
+              "MarTech · Agentic media buying guardrails",
+              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
             ],
             [
-              "MarTech Series · Filmora 16 AI video",
-              "https://martechseries.com/video/wondershare-filmora-16-launches-to-make-professional-video-creation-more-accessible-with-ai/"
+              "MarTech Series · BidPulse identity transparency",
+              "https://martechseries.com/sales-marketing/programmatic-buying/intent-iq-launches-bidpulsesm-bringing-new-transparency-to-identity-accuracy-in-programmatic-advertising/"
             ],
             [
-              "Agile Brand · Loops commerce OS",
-              "https://agilebrandguide.com/loops-raises-3-5m-to-build-the-ai-operating-system-for-commerce/"
+              "Agile Brand · AI email trust panic",
+              "https://agilebrandguide.com/expert-mode-the-ai-email-trust-panic-is-pointed-at-the-wrong-problem-with-ben-billups-from-breaker/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — data, creative, media, and org design — <em>the decisive capability is no longer AI access but the governance, measurement, and human judgment wrapped around it</em>."
+      "takeaway": "Across every layer of the stack — infrastructure, media buying, search discovery, and live customer interactions — <em>AI is shifting from a tool marketers use to an actor that makes decisions on their behalf</em>, making governance, transparency, and composable foundations the real competitive battleground of late 2026."
     }
   }
 }
