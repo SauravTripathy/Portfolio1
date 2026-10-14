@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:55:06.100963+00:00",
+  "generatedAt": "2026-10-14T10:20:55.392703+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,124 +45,11 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "AI agents are coming between you and your customers",
-          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
-          "plain": "As <b>AI agents</b> increasingly handle product discovery, comparison, and checkout on behalf of consumers, brands lose direct influence over the purchase journey. This piece maps out what marketers can still control — pricing signals, structured data, reputation — and why the shift demands a rethink of where and how brands show up.",
-          "chips": [
-            "agentic",
-            "decis",
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Salesforce buys AI analytics startup Loops",
-          "url": "https://martech.org/salesforce-buys-ai-analytics-startup-loops/",
-          "plain": "Salesforce acquires Loops, a startup that uses AI to automatically explain why business metrics change — not just report that they did. This pushes <b>continuous AI-driven interpretation of data</b> deeper into Salesforce's stack, affecting how marketing and revenue teams diagnose campaign and pipeline performance at scale.",
-          "chips": [
-            "agentic",
-            "govern",
-            "cdp",
-            "decis"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Google changed its content guidance — don't expect a reset",
-          "url": "https://martech.org/google-changed-its-content-guidance-dont-expect-a-reset/",
-          "plain": "Google updated its guidelines to ask for more <b>human review of AI-generated content</b>, but explicitly warns that compliance won't automatically restore lost search rankings. For marketers who rely on generative AI for content production, this sets a harder bar: editorial oversight is now table stakes, with no promised upside.",
-          "chips": [
-            "genai",
-            "govern",
-            "geo"
-          ]
-        },
-        {
-          "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Hyax adds AI agents to its CMS — case study claims 2,473 monthly ChatGPT mentions",
-          "url": "https://martechseries.com/content/hyax-adds-ai-agents-to-its-cms-as-case-study-shows-2473-monthly-chatgpt-mentions-for-one-saas-site/",
-          "plain": "Hyax, a $29/month CMS, now runs <b>scheduled AI agents</b> for content, support, and research, with a human approving output before it goes live. A paired case study reports a SaaS site reaching 2,000–3,000 ChatGPT mentions monthly — a concrete, if vendor-sourced, data point on GEO tactics that budget-conscious teams can replicate.",
-          "chips": [
-            "agentic",
-            "genai",
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech · via SAP",
-          "fresh": true,
-          "head": "SAP research: 60% of consumers want shared control with AI in loyalty experiences",
-          "url": "https://martech.org/why-earned-autonomy-is-the-sweet-spot-for-ai-and-customer-loyalty-in-2027/",
-          "plain": "New SAP survey data shows most consumers accept AI making decisions on their behalf only when trust has been built incrementally — a concept the report calls <b>earned autonomy</b>. For teams building AI-driven loyalty and personalisation programmes, this sets a concrete design principle: automate gradually, demonstrate value first, and keep humans in the loop.",
-          "chips": [
-            "perso",
-            "decis",
-            "govern",
-            "agentic"
-          ]
-        }
-      ]
-    },
-    "week": {
-      "stories": [
-        {
-          "num": "01",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Salesforce buys AI analytics startup Loops",
-          "url": "https://martech.org/salesforce-buys-ai-analytics-startup-loops/",
-          "plain": "Salesforce is acquiring Loops, a startup that uses AI to automatically explain why business metrics shift — not just report that they did. This moves Salesforce analytics from dashboards you read to a system that interprets itself. That has direct implications for how marketing teams <b>buy and govern AI-driven decisioning</b> inside the Salesforce stack.",
-          "chips": [
-            "agentic",
-            "decis",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "AI agents are coming between you and your customers",
-          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
-          "plain": "When consumers use AI assistants to browse, compare and buy, brands lose direct access to the decision moment. This piece maps what marketers can still influence — from <b>structured data signals</b> to <b>GEO tactics</b> — when an agent, not a person, is doing the shopping. A practical governance and visibility guide for 2027 planning.",
-          "chips": [
-            "agentic",
-            "decis",
-            "geo",
-            "govern"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Google changed its content guidance — don't expect a reset",
-          "url": "https://martech.org/google-changed-its-content-guidance-dont-expect-a-reset/",
-          "plain": "Google now wants more human editorial review over AI-generated content but explicitly refuses to promise that compliance will restore lost search traffic. For any brand relying on <b>AI-generated content at scale</b>, this changes the risk calculus: following the rules no longer guarantees recovery, reshaping how content AI is governed and budgeted.",
-          "chips": [
-            "genai",
-            "govern",
-            "geo"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "How MOps teams are restructuring for autonomous AI agents",
-          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
-          "plain": "Marketing operations is shifting from people who run campaigns manually to teams that <b>orchestrate and oversee autonomous agents</b>. The piece details the new roles — agent architect, systems monitor — and why org charts built for human execution break down when software agents make real-time decisions. Essential reading for anyone buying or building agentic martech.",
+          "head": "Contentsquare Reimagines Experience Platform to Track and Optimize Both Human and AI Agent Journeys",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentsquare-announces-new-ai-first-experience-platform-to-optimize-every-human-and-agent-journey/",
+          "plain": "Contentsquare's rebuilt platform now ingests signals from web, mobile, LLMs, and <b>AI agents</b>, turning them into predictions and automated actions. New features include LLM/chatbot analytics and <b>agentic experimentation</b>. This matters because it's one of the first major analytics tools to treat AI agents as first-class journeys alongside human users — reshaping how marketers measure CX.",
           "chips": [
             "agentic",
             "decis",
@@ -171,17 +58,125 @@
           ]
         },
         {
-          "num": "05",
+          "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Hyax adds AI agents to its CMS; case study shows 2,473 monthly ChatGPT mentions",
-          "url": "https://martechseries.com/content/hyax-adds-ai-agents-to-its-cms-as-case-study-shows-2473-monthly-chatgpt-mentions-for-one-saas-site/",
-          "plain": "A $29/month CMS now runs content, support and research agents on a schedule, with a human approving results before they publish. A cited case study claims the approach drove thousands of <b>ChatGPT mentions per month</b> for one SaaS site — making this a concrete, low-cost example of <b>GEO and agentic content</b> working together at small-business scale.",
+          "head": "Siteimprove Deploys Remediation Agents That Fix Accessibility and Compliance Issues Directly Inside CMS and PDFs",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/siteimprove-advances-its-agentic-content-intelligence-platform-shift-left-with-ai-remediation-agents-to-fix-content-compliance-issues-directly-in-drupal-wordpress-and-pdfs-strengthen-governance-and/",
+          "plain": "Siteimprove's new agents detect and <b>auto-fix accessibility violations</b> inside Drupal, WordPress, and PDFs without leaving the authoring environment. A conversational analytics agent lets teams query data in plain language. The 'shift-left' approach embeds <b>content governance</b> at the creation stage rather than after publication — a significant workflow change for regulated industries.",
           "chips": [
             "agentic",
-            "genai",
-            "geo",
+            "govern",
+            "genai"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Treasure AI CFO Explains Why Finance Is Scrutinizing AI Spend and How Engagement-Based Pricing Changes the Equation",
+          "url": "https://agilebrandguide.com/treasure-ai-coo-cfo-dan-weirich-on-what-the-cfo-sees-in-your-ai-spend/",
+          "plain": "Treasure AI's CFO describes a shift to <b>engagement-based pricing</b> — charging customers only when clicks happen — as finance teams push back on vague AI ROI claims. Recorded at Agentic World 2026, this is a practical signal that <b>AI procurement and budget governance</b> are tightening, directly affecting how MarTech vendors must structure and justify their offerings.",
+          "chips": [
+            "govern",
+            "agentic",
+            "cep"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Nimble MCP Lets Claude and ChatGPT Write and Clean CRM Records Automatically After Meetings",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean/",
+          "plain": "Nimble's new MCP connector plugs major AI assistants directly into its CRM so meeting recaps auto-populate contact records, stale data gets flagged, and pre-meeting briefs are generated on demand. Included free in all plans. This is an early live example of <b>agentic AI managing structured customer data</b> via the emerging Model Context Protocol standard.",
+          "chips": [
+            "agentic",
+            "cdp",
+            "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Research: Consumers Prioritize Value and Convenience While Marketers Double Down on Personalization and AI",
+          "url": "https://agilebrandguide.com/wunderkind-and-cordial-research-finds-consumers-want-value-convenience-while-marketers-invest-in-personalization-ai/",
+          "plain": "A Wunderkind and Cordial study surfaces a meaningful gap: shoppers rank price and ease above tailored experiences, while marketing budgets flow toward <b>AI-driven personalization</b>. This misalignment is a governance and strategy red flag — teams may be optimizing for the wrong outcomes — making it relevant for anyone deciding where to deploy <b>CEP and personalization spend</b>.",
+          "chips": [
+            "perso",
+            "cep",
             "govern"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Treasure AI CFO on engagement-based pricing and CFO scrutiny of AI spend",
+          "url": "https://agilebrandguide.com/treasure-ai-coo-cfo-dan-weirich-on-what-the-cfo-sees-in-your-ai-spend/",
+          "plain": "Treasure AI's CFO explains a shift to <b>engagement-based pricing</b> that ties vendor revenue directly to customer clicks — and warns CMOs that CFOs are now demanding proof of ROI before approving AI budgets. This reframes how marketing AI tools are bought and justified, making it a pivotal governance and procurement story.",
+          "chips": [
+            "govern",
+            "agentic"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Contentsquare launches AI-first Experience Platform with LLM analytics and agentic experimentation",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentsquare-announces-new-ai-first-experience-platform-to-optimize-every-human-and-agent-journey/",
+          "plain": "Contentsquare rebuilt its platform to track signals across web, mobile, chatbots, and <b>LLM agent journeys</b>, then use those signals for agentic experimentation and deployment. It is one of the first major analytics platforms to treat AI agents as first-class users alongside humans, changing how experience data is collected and acted on.",
+          "chips": [
+            "agentic",
+            "decis",
+            "genai",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Siteimprove adds agentic remediation agents for Drupal, WordPress and PDFs with governance controls",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/siteimprove-advances-its-agentic-content-intelligence-platform-shift-left-with-ai-remediation-agents-to-fix-content-compliance-issues-directly-in-drupal-wordpress-and-pdfs-strengthen-governance-and/",
+          "plain": "Siteimprove deploys <b>autonomous remediation agents</b> that fix accessibility and compliance issues directly inside Drupal, WordPress, and PDFs without human intervention, plus a conversational analytics agent. This shows agentic AI moving into regulated content governance, raising important questions about automated editorial control.",
+          "chips": [
+            "agentic",
+            "govern",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Nimble MCP lets Claude and ChatGPT write and clean CRM records automatically",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean/",
+          "plain": "Nimble's new <b>Model Context Protocol connector</b> lets general-purpose AI assistants read and write directly into a team CRM — converting meeting notes into records and flagging stale data. It signals a broader shift where AI agents manage customer data infrastructure, blurring the line between chat tools and CDPs.",
+          "chips": [
+            "agentic",
+            "cdp",
+            "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Research: consumers prioritize value and convenience while marketers double down on personalization and AI",
+          "url": "https://agilebrandguide.com/wunderkind-and-cordial-research-finds-consumers-want-value-convenience-while-marketers-invest-in-personalization-ai/",
+          "plain": "A Wunderkind and Cordial study finds a clear gap: marketers are pouring money into <b>AI-driven personalization</b> while consumers rank price and ease above tailored experiences. This matters for how personalization budgets are set and measured, and raises governance questions about whether AI investment is solving the right problem.",
+          "chips": [
+            "perso",
+            "genai",
+            "govern",
+            "cep"
           ]
         }
       ]
@@ -191,121 +186,105 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting the Customer Relationship</em>",
-          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "head": "AI Agents Are <em>Rewriting the Stack</em>: From CRM to Content Compliance",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean/",
           "body": [
-            "AI agents are increasingly acting as intermediaries between brands and buyers — filtering offers, making micro-decisions, and reducing the moments when a human ever sees your marketing message. Platforms like Contentsquare and 6sense are already redesigning their products to optimize for <b>both human and agent journeys</b>, treating autonomous AI as a first-class audience.",
-            "The strategic implication is sharp: if an AI agent buys on behalf of a consumer, loyalty programs, personalization engines, and conversion funnels built for human psychology may simply stop working. SAP's concept of <b>\"earned autonomy\"</b> — where brands must earn the right to have agents act for customers — signals a coming debate about who controls the purchase decision."
+            "Autonomous AI agents are no longer a prototype — they are being wired directly into the tools marketers already use. Nimble's MCP lets Claude and ChatGPT maintain CRM records in real time, while Siteimprove deploys remediation agents that <b>fix compliance issues inside WordPress, Drupal, and PDFs without human intervention</b>. The decisioning layer is shifting from dashboards to agents.",
+            "Contentsquare's new AI-First Experience Platform extends this further, explicitly optimising for both human <em>and</em> agent journeys — a sign that vendors are designing for a world where software, not people, is often the end-user. Marketers who delay building agent-ready data structures will find their stacks increasingly hard to automate."
           ],
           "ev": [
             [
-              "MarTech · AI agents between you &amp; customers",
-              "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/"
+              "MarTech Series · Nimble MCP launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/nimble-launches-nimble-mcp-letting-claude-and-chatgpt-keep-team-crms-current-and-clean/"
             ],
             [
-              "MarTech · Earned autonomy &amp; loyalty 2027",
-              "https://martech.org/why-earned-autonomy-is-the-sweet-spot-for-ai-and-customer-loyalty-in-2027/"
+              "MarTech Series · Siteimprove agentic platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/siteimprove-advances-its-agentic-content-intelligence-platform-shift-left-with-ai-remediation-agents-to-fix-content-compliance-issues-directly-in-drupal-wordpress-and-pdfs-strengthen-governance-and/"
             ],
             [
-              "Agile Brand · Contentsquare AI-first platform",
-              "https://agilebrandguide.com/contentsquare-announces-new-ai-first-experience-platform-to-optimize-every-human-and-agent-journey/"
+              "MarTech Series · Contentsquare AI-First",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentsquare-announces-new-ai-first-experience-platform-to-optimize-every-human-and-agent-journey/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>MOps Restructuring</em> Around Autonomous AI",
-          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
+          "head": "Moving <em>Beyond the AI Pilot</em>: Building Durable Organisational Capability",
+          "url": "https://agilebrandguide.com/expert-mode-beyond-the-pilot-program-building-a-true-ai-capability-in-marketing-with-mike-kaput-marketing-ai-institute/",
           "body": [
-            "Marketing operations teams are not just adopting AI tools — they are rebuilding their org structures to govern autonomous agents. The Q4 2026 state-of-AI report and the MOps restructuring piece both show that <b>role definitions, approval workflows, and oversight layers</b> are being redrawn to account for AI systems that act without human sign-off on each step.",
-            "A critical nuance is emerging: not every marketer should become an AI builder. MarTech's framing of <b>specialized AI roles versus general fluency</b> suggests organizations will need a tiered model — a small group of AI architects setting guardrails, and a broader team executing within them. Companies still stuck in pilot mode risk being structurally outpaced."
+            "The conversation is shifting from \"we ran a test\" to \"we have a repeatable AI capability.\" Marketing AI Institute's Mike Kaput argues that most marketing teams are stuck in perpetual pilot mode, and the decisive move is <b>institutionalising AI skills, processes, and ownership</b> — not launching another experiment. This is a structural, not a tactical, challenge.",
+            "The CFO lens reinforces the urgency: Treasure AI's Dan Weirich notes that finance is now scrutinising AI spend for <b>measurable ROI</b>, not innovation theatre. Teams that cannot show compounding returns risk having budgets cut precisely when capability is most needed. The pilot era is closing; the capability era is opening."
           ],
           "ev": [
             [
-              "MarTech · MOps restructuring for agents",
-              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
-            ],
-            [
-              "MarTech · Not everyone should be an AI builder",
-              "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/"
-            ],
-            [
-              "Agile Brand · Beyond the pilot program",
+              "Agile Brand · Mike Kaput on AI capability",
               "https://agilebrandguide.com/expert-mode-beyond-the-pilot-program-building-a-true-ai-capability-in-marketing-with-mike-kaput-marketing-ai-institute/"
+            ],
+            [
+              "Agile Brand · CFO view on AI spend",
+              "https://agilebrandguide.com/treasure-ai-coo-cfo-dan-weirich-on-what-the-cfo-sees-in-your-ai-spend/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Consolidation: <em>Acquisitions Accelerate</em> the Stack",
-          "url": "https://martech.org/salesforce-buys-ai-analytics-startup-loops/",
+          "head": "The <em>Personalisation–Value Gap</em>: Consumers Want Convenience, Not Cleverness",
+          "url": "https://agilebrandguide.com/wunderkind-and-cordial-research-finds-consumers-want-value-convenience-while-marketers-invest-in-personalization-ai/",
           "body": [
-            "Salesforce's acquisition of Loops — just days after the startup raised $3.5M — is a vivid example of how <b>platform giants are absorbing AI-native analytics capabilities</b> rather than building them slowly. Treasure AI's Snowflake validation and 6sense's sixth consecutive Gartner Leader placement reinforce that the market is sorting into dominant platforms and niche specialists, with the middle ground shrinking.",
-            "For buyers, this means vendor risk calculus is changing: a best-of-breed AI tool today may be a platform feature tomorrow, with roadmap control transferred to the acquirer. <b>Evaluating interoperability and exit costs</b> is now as important as evaluating current feature sets."
+            "A Wunderkind &amp; Cordial study reveals a widening mismatch: <b>marketers are pouring investment into AI-driven personalisation while consumers say they primarily want value and convenience</b>. Sophisticated recommendation engines may be solving the wrong problem if the offer itself is not compelling or the experience is not frictionless.",
+            "This matters for budget allocation. Every dollar spent on hyper-personalisation that does not translate into a simpler, more rewarding experience is at risk. The insight is not that personalisation is wrong, but that <b>it must serve utility first</b> — and marketers need to resequence their priorities accordingly."
           ],
           "ev": [
             [
-              "MarTech · Salesforce buys Loops",
-              "https://martech.org/salesforce-buys-ai-analytics-startup-loops/"
+              "Agile Brand · Wunderkind &amp; Cordial research",
+              "https://agilebrandguide.com/wunderkind-and-cordial-research-finds-consumers-want-value-convenience-while-marketers-invest-in-personalization-ai/"
             ],
             [
-              "Agile Brand · Loops raises $3.5M",
-              "https://agilebrandguide.com/loops-raises-3-5m-to-build-the-ai-operating-system-for-commerce/"
-            ],
-            [
-              "MarTech · Treasure AI two headaches at once",
-              "https://martech.org/treasure-ai-takes-on-two-martech-headaches-at-once/"
+              "Agile Brand · AI email trust mis-diagnosis",
+              "https://agilebrandguide.com/expert-mode-the-ai-email-trust-panic-is-pointed-at-the-wrong-problem-with-ben-billups-from-breaker/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>AI Budgets Outrun</em> Proof of ROI",
-          "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
+          "head": "<em>End-to-End AI Video</em> Workflows Collapse the Creation-to-Revenue Distance",
+          "url": "https://martechseries.com/video/medeo-introduces-creative-os-taking-ai-video-from-trend-discovery-to-monetization-in-one-continuous-workflow/",
           "body": [
-            "Spending on AI in marketing is accelerating even as the evidence base for returns remains thin. The Wunderkind &amp; Cordial research adds a consumer-side warning: shoppers still prioritize <b>value and convenience over AI-powered personalization</b>, meaning much of the investment may be optimizing for metrics customers do not actually care about.",
-            "The ROI gap is not just a measurement problem — it reflects a strategy problem. Marketers are investing in AI capabilities before clearly defining what outcomes those capabilities are supposed to move. <b>Tying AI spend to specific, measurable customer behaviors</b> rather than to technology adoption rates will become the dividing line between programs that survive budget reviews and those that do not."
+            "Medeo's Creative OS connects trend discovery, AI video generation, and monetisation inside a single workflow — eliminating the hand-offs between insight, production, and distribution that previously added days or weeks. <b>The production bottleneck for video is effectively gone</b> when AI handles ideation through publication in one continuous loop.",
+            "Vimeo's simultaneous decision to remove limits on public video sharing signals that distribution constraints are also evaporating. Together these moves redefine the competitive bar: speed from idea to revenue-generating video is now a <b>core differentiator</b>, not a nice-to-have, and teams without an integrated video workflow will fall visibly behind."
           ],
           "ev": [
             [
-              "MarTech · AI budgets outpace ROI proof",
-              "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
+              "MarTech Series · Medeo Creative OS",
+              "https://martechseries.com/video/medeo-introduces-creative-os-taking-ai-video-from-trend-discovery-to-monetization-in-one-continuous-workflow/"
             ],
             [
-              "Agile Brand · Consumers want value not AI personalization",
-              "https://agilebrandguide.com/wunderkind-and-cordial-research-finds-consumers-want-value-convenience-while-marketers-invest-in-personalization-ai/"
-            ],
-            [
-              "MarTech · State of AI in marketing Q4 2026",
-              "https://martech.org/the-state-of-ai-in-marketing-q4-2026/"
+              "MarTech Series · Vimeo unlimited sharing",
+              "https://martechseries.com/video/vimeo-removes-limits-on-public-videos-so-anyone-can-share-unlimited-work-for-free/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Search &amp; Discoverability Shift to <em>AI-Native Channels</em>",
-          "url": "https://martech.org/google-changed-its-content-guidance-dont-expect-a-reset/",
+          "head": "Earned Authority &amp; <em>Influence Orchestration</em> Overtake Owned Content",
+          "url": "https://agilebrandguide.com/spotlights-john-rockhold-on-influence-orchestration-in-b2b/",
           "body": [
-            "Google's updated content guidance is not a return to older SEO norms — and one case study showing 2,473 monthly ChatGPT mentions for a single SaaS site signals that <b>AI chatbots are becoming a parallel discovery layer</b> alongside traditional search. Brands optimizing only for Google rankings are already missing a growing share of how buyers find solutions.",
-            "The emerging discipline requires marketers to think about <b>\"answer engine optimization\"</b> — structuring content so that large language models cite and surface it accurately. Hyax embedding AI agents directly into its CMS to track these mentions is an early sign that measurement frameworks will need to expand well beyond click-based attribution."
+            "Spotlight's John Rockhold makes the case that in a world saturated with AI-generated owned content, <b>earned authority — credibility granted by third parties and communities — is becoming the scarcest and most valuable signal</b>. The shift he calls \"influence orchestration\" moves B2B brands away from publishing volume toward strategic presence in trusted external conversations.",
+            "This has direct implications for content strategy and budget: doubling down on blog output and brand-owned channels is a diminishing-returns play. Demandbase's continued leadership in ABM underlines the same logic — <b>relevance in the right accounts, amplified by trusted voices</b>, beats broad content reach. Allocating resources toward orchestrated influence is the emerging counter-move."
           ],
           "ev": [
             [
-              "MarTech · Google content guidance no reset",
-              "https://martech.org/google-changed-its-content-guidance-dont-expect-a-reset/"
-            ],
-            [
-              "MarTech Series · Hyax AI agents &amp; ChatGPT mentions",
-              "https://martechseries.com/content/hyax-adds-ai-agents-to-its-cms-as-case-study-shows-2473-monthly-chatgpt-mentions-for-one-saas-site/"
-            ],
-            [
-              "Agile Brand · Influence orchestration &amp; earned authority",
+              "Agile Brand · Rockhold on influence orchestration",
               "https://agilebrandguide.com/spotlights-john-rockhold-on-influence-orchestration-in-b2b/"
+            ],
+            [
+              "MarTech Series · Demandbase ABM leadership",
+              "https://martechseries.com/sales-marketing/account-based-marketing/demandbase-named-a-leader-in-the-2026-gartner-magic-quadrant-for-account-based-marketing-platforms/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack, the 30-day signal is the same: <em>AI is shifting from a feature marketers use to an actor that markets on its own</em>, forcing simultaneous rethinks of org design, budget accountability, vendor strategy, and how customers are even reached."
+      "takeaway": "Across every layer of the stack, <em>the window for running isolated AI experiments is closing</em> — vendors are shipping agent-native platforms, CFOs are demanding compounding returns, and consumers are punishing complexity that does not deliver tangible value."
     }
   }
 }
