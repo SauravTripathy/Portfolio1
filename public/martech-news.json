@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:05:06.605124+00:00",
+  "generatedAt": "2026-10-15T17:49:58.782243+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,65 +45,65 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "60%+ of consumers start shopping with AI tools — your data is now your brand",
-          "url": "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/",
-          "plain": "Gary Lombardo of Athos Commerce argues that when the majority of shoppers begin their journey inside an AI discovery engine, <b>traditional top-of-funnel marketing is bypassed entirely</b>. The new imperative: structured, high-quality first-party data that AI systems can surface. This reframes what 'brand' means and changes how marketers should invest.",
+          "head": "HubSpot adds spending controls and flexible billing as AI usage grows",
+          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
+          "plain": "HubSpot is introducing <b>spend limits and seat-swap billing</b> to rein in unpredictable costs as consumption-based AI pricing takes hold. This directly changes how marketing teams buy and budget for AI tools — a concrete product shift that any marketer evaluating or already using HubSpot needs to understand before their next renewal.",
           "chips": [
-            "geo",
-            "cdp",
-            "genai"
+            "govern",
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Airship achieves ISO 42001 AI governance certification, first mover in CX industry",
-          "url": "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/",
-          "plain": "Airship is among the first customer engagement platforms to earn the global ISO 42001 AI management standard. This matters because <b>enterprise buyers increasingly require governance credentials before procurement</b>, and EU AI Act readiness is becoming a hard buying criterion. It shifts governance from a soft talking point to a contractual requirement.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Anthropic and OpenAI revenue claims may not be supported by facts — why marketers should care",
+          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
+          "plain": "A MarTech roundup flags that <b>Anthropic and OpenAI revenue figures are disputed</b>, raising questions about the financial stability of the AI suppliers that underpin most martech stacks. If the foundational model providers are on shakier ground than advertised, vendor selection and contract decisions for marketing AI need a harder look.",
           "chips": [
             "govern",
-            "cep",
-            "agentic"
+            "genai"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Your AI visibility score may be hiding a problem: brand mentions vs. source citations diverge",
-          "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
-          "plain": "Marketers tracking AI visibility often conflate two very different signals: being mentioned by an AI answer versus being cited as a source. <b>Each requires a different fix</b>, and confusing them wastes budget. This practical diagnostic reframes how teams should measure and act on their generative engine presence.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "60%+ of consumers now start shopping journeys inside AI tools, bypassing brand funnels",
+          "url": "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/",
+          "plain": "Gary Lombardo of Athos Commerce argues that when most shoppers begin in an <b>AI discovery engine brands don't own or measure</b>, first-party data becomes the only durable brand asset. The piece reframes how marketers should think about CDPs and GEO as core infrastructure, not add-ons.",
           "chips": [
+            "cdp",
             "geo",
             "genai"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "ZoomInfo · via MarTech Series",
           "fresh": true,
-          "head": "Druid AI adds governance, auditability, and agent interoperability to move AI from pilot to production",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/druid-ai-expands-enterprise-agentic-ai-platform-with-voice-enhancements-agent-interoperability-governance-capabilities/",
-          "plain": "Druid AI released platform updates covering voice interfaces, cross-agent interoperability, and <b>built-in governance and evaluation tools</b> designed to get agentic AI out of sandboxes and into live enterprise workflows. For buyers, this signals that auditability is now a product feature, not an afterthought — changing what enterprise AI procurement checklists look like.",
+          "head": "ZoomInfo integrates Workbounce to add semantic knowledge layer to its GTM Context Graph",
+          "url": "https://martechseries.com/analytics/data-management-platforms/zoominfo-brings-enterprise-knowledge-into-the-gtm-context-graph-through-workbounce-acquisition/",
+          "plain": "ZoomInfo is activating its 2024 Workbounce acquisition to merge <b>unstructured internal knowledge with verified market data</b> inside a unified GTM graph. This matters because it shows how B2B revenue platforms are evolving into agentic decision engines that draw on both external signals and a company's own institutional knowledge.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "decis",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Sitecore · via MarTech Series",
           "fresh": true,
-          "head": "MNTN integrates Tealium CDP audiences into AI-powered Connected TV targeting",
-          "url": "https://martechseries.com/tv-advertising/mntn-brings-tealium-first-party-data-into-mntn-matched-to-advance-ai-powered-tv-targeting/",
-          "plain": "MNTN's native Tealium integration lets advertisers push <b>first-party CDP audiences directly into CTV campaign targeting</b>, combining verified customer data with AI household matching. As third-party signals erode, this shows how CDPs are becoming the essential upstream data source for performance advertising across emerging channels like streaming TV.",
+          "head": "Sitecore and Dataweavers expand sovereign cloud hosting for SitecoreAI into China, Middle East, and Canada",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sitecore-and-dataweavers-expand-sovereign-cloud-hosting-for-sitecoreai-into-new-regulated-markets/",
+          "plain": "Sitecore is extending <b>sovereign cloud hosting for its AI platform</b> into heavily regulated markets — China, the Middle East, and Canada. This is a governance and market-access story: brands operating across borders now have a concrete path to deploy marketing AI without violating local data-residency laws.",
           "chips": [
-            "cdp",
-            "perso",
+            "govern",
+            "genai",
             "cep"
           ]
         }
@@ -113,66 +113,69 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Expert Mode: 60%+ of consumers start shopping in AI tools — your data is your new brand",
-          "url": "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/",
-          "plain": "When <b>most shoppers begin their journey inside an AI assistant</b>, brands lose control of the funnel's top. Gary Lombardo argues that first-party data is now the primary brand asset — not creative or media spend. This reframes how marketers should think about data strategy, GEO, and what 'discovery' even means in 2026.",
-          "chips": [
-            "geo",
-            "cdp",
-            "agentic",
-            "perso"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Airship achieves ISO 42001 certification, advancing EU AI Act readiness for CX platforms",
-          "url": "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/",
-          "plain": "Airship is among the first customer engagement platforms to earn <b>ISO 42001 — the global AI management systems standard</b>. This matters because enterprise procurement teams and EU AI Act compliance officers are starting to require it. It signals that governance certification is becoming a real buying criterion, not just a checkbox.",
+          "head": "HubSpot adds spending controls and flexible billing as AI usage grows",
+          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
+          "plain": "HubSpot is introducing <b>spend caps and seat-swap flexibility</b> directly in response to unpredictable consumption-based AI pricing. This matters because it signals a broader shift in how martech vendors will price AI features — and gives buyers a concrete new lever to control runaway AI costs before they hit finance.",
           "chips": [
             "govern",
+            "genai",
             "cep"
           ]
         },
         {
-          "num": "03",
-          "src": "Demand-Genius · via Agile Brand",
+          "num": "02",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Survey of 47 B2B agencies reveals how GEO is being priced, packaged and sold",
-          "url": "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/",
-          "plain": "The first substantive agency-side look at how <b>Generative Engine Optimization is being commercialized</b>: what agencies charge, how they scope the work, and what enterprise buyers should expect. Useful because it moves GEO from concept to actual market practice, giving buyers a benchmark for evaluating vendors.",
+          "head": "The state of AI in marketing: Q4 2026",
+          "url": "https://martech.org/the-state-of-ai-in-marketing-q4-2026/",
+          "plain": "A quarterly benchmark showing that most marketing teams are still stuck using AI as a <b>basic productivity tool</b> rather than a systemic capability. The key finding: unlocking real business value requires organizational and process change, not just more tools. Essential orientation for anyone entering the field right now.",
           "chips": [
-            "geo",
             "genai",
+            "agentic",
+            "govern"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech · AI",
+          "fresh": false,
+          "head": "AI agents are coming between you and your customers",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "plain": "As consumers delegate shopping decisions to <b>personal AI agents</b>, brands lose direct control over discovery, preference formation, and checkout. The article maps what marketers can still influence — pricing signals, structured data, reputation in AI training sets — making it a practical governance and strategy read.",
+          "chips": [
+            "agentic",
+            "decis",
+            "geo",
             "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Your AI visibility score may be hiding a problem: brand mentions vs. source citations tell different stories",
-          "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
-          "plain": "Being mentioned in an AI answer and being cited as a trusted source are two very different signals — and many marketers are tracking only one. <b>Conflating brand mentions with authoritative citations</b> leads to wrong fixes. This piece gives practitioners a clearer diagnostic framework for AI-search presence.",
+          "head": "Airship achieves ISO 42001 certification for responsible enterprise AI",
+          "url": "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/",
+          "plain": "Airship is among the first customer engagement platforms to earn <b>ISO 42001</b>, the new global AI management standard. For buyers, this certification now becomes a procurement checkpoint; for vendors, it accelerates EU AI Act readiness. It concretely changes how enterprise AI is evaluated and purchased.",
           "chips": [
-            "geo",
-            "govern"
+            "govern",
+            "cep",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Druid AI adds governance and auditability to move enterprise agents from pilot to production",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/druid-ai-expands-enterprise-agentic-ai-platform-with-voice-enhancements-agent-interoperability-governance-capabilities/",
-          "plain": "Druid AI's new release targets the #1 blocker of enterprise AI deployment: <b>lack of governance and auditability</b>. New capabilities cover agent interoperability, voice, and evaluation tools designed to satisfy IT and legal review boards. This is a concrete product signal that governed agentic AI is moving from aspiration to shippable feature.",
+          "head": "How MOps teams are restructuring for autonomous AI agents",
+          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
+          "plain": "Marketing operations teams are being redesigned around <b>agent orchestration and systems oversight</b> rather than manual campaign execution. This piece explains the new roles, reporting lines, and control layers required — directly affecting how AI is built and governed inside marketing organizations.",
           "chips": [
             "agentic",
+            "decis",
             "govern",
-            "decis"
+            "cep"
           ]
         }
       ]
@@ -182,103 +185,80 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting the Customer Interface</em>",
+          "head": "AI Agents Are <em>Intercepting the Customer</em> Relationship",
           "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
           "body": [
-            "Autonomous AI agents are no longer a future concept — they are actively inserting themselves between brands and buyers, filtering decisions, summarising offers, and reducing direct human touchpoints. Seismic pushing agentic revenue execution into every GTM workflow, and Druid AI adding agent interoperability &amp; governance, show how quickly the stack is being re-plumbed around agent-to-agent handoffs.",
-            "<b>The strategic consequence is stark:</b> marketers who optimise for human eyes risk becoming invisible to the agents that now pre-select options for real buyers. Teams must plan for both human and machine audiences simultaneously, or cede the top of funnel to whoever's agents are better trained."
+            "Autonomous AI agents are no longer back-office tools — they are now the first point of contact between brands and buyers. From agentic media buying to agentic revenue execution, these systems make decisions, filter information, and transact on behalf of humans before a human ever gets involved.",
+            "This shift fundamentally changes what 'reach' means: <b>if your brand isn't legible to an AI agent, it effectively doesn't exist</b> in that buying moment. MOps teams are already restructuring around this reality, moving from campaign orchestration to agent orchestration &amp; governance."
           ],
           "ev": [
             [
-              "MarTech · AI agents coming between you and customers",
+              "MarTech · AI · Agents between you &amp; customers",
               "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/"
+            ],
+            [
+              "MarTech · AI · MOps restructuring for agents",
+              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
             ],
             [
               "Agile Brand · Seismic agentic revenue execution",
               "https://agilebrandguide.com/seismic-brings-agentic-revenue-execution-everywhere-go-to-market-teams-work/"
-            ],
-            [
-              "MarTech · How MOps teams restructure for autonomous agents",
-              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>First-Party Data</em> as the New Brand Asset",
-          "url": "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/",
+          "head": "Generative Engine Optimization Is the <em>New SEO Battle</em>",
+          "url": "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/",
           "body": [
-            "As channels fragment and third-party signals erode, proprietary customer data is becoming a durable competitive moat — not just a targeting input. MNTN pulling Tealium first-party data directly into AI-powered TV targeting, and ZoomInfo folding Workbounce's enterprise knowledge into its GTM context graph, both illustrate that the race is now about <b>who owns the richest, most connected data layer</b>.",
-            "Gary Lombardo's framing — 'your data is your new brand' — captures the shift cleanly: media budgets rent attention, but a well-structured first-party graph compounds over time. Organisations that treat data infrastructure as a cost centre rather than a brand investment are likely to find themselves outmanoeuvred by leaner rivals with better-connected signals."
+            "As buyers increasingly get answers from generative AI engines rather than search result pages, brands face a parallel visibility problem: your AI visibility score can look healthy while hiding deep gaps in how LLMs represent your products. F&amp;N Group's selection of a dedicated Generative Engine Optimization partner signals this is now a boardroom-level procurement decision, not an SEO team experiment.",
+            "<b>The strategic imperative is to make your brand's data, language, and authority legible to AI citation systems</b> — not just Google's crawlers. Companies that treat GEO as a subset of SEO will be systematically under-cited in the AI answers their prospects are reading."
           ],
           "ev": [
             [
-              "Agile Brand · Data is your new brand, Gary Lombardo",
-              "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/"
+              "Agile Brand · GEO strategic imperatives",
+              "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/"
             ],
             [
-              "MarTech Series · MNTN + Tealium first-party TV targeting",
-              "https://martechseries.com/tv-advertising/mntn-brings-tealium-first-party-data-into-mntn-matched-to-advance-ai-powered-tv-targeting/"
+              "MarTech · AI visibility score hiding problems",
+              "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/"
             ],
             [
-              "MarTech Series · ZoomInfo Workbounce GTM context graph",
-              "https://martechseries.com/analytics/data-management-platforms/zoominfo-brings-enterprise-knowledge-into-the-gtm-context-graph-through-workbounce-acquisition/"
+              "MarTech Series · F&amp;N selects GEO partner",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fn-group-selects-addlly-ai-as-generative-engine-optimization-partner/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Generative Engine Optimisation — <em>Beyond Traditional SEO</em>",
-          "url": "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/",
+          "head": "<em>AI Spend Governance</em> Becomes Non-Negotiable",
+          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
           "body": [
-            "Google's updated content guidance and the rise of AI-generated answer surfaces have rendered classic SEO metrics misleading. MarTech's warning that 'your AI visibility score may be hiding a problem' underscores that brands can appear to rank well in legacy dashboards while quietly disappearing from the LLM-driven answers that increasingly shape buyer awareness.",
-            "<b>Generative Engine Optimisation (GEO)</b> demands a fundamentally different content strategy: structured, citable, authoritative content that AI systems can confidently surface and attribute. This is not an incremental update to existing SEO playbooks — it is a new discipline requiring new measurement frameworks and new editorial standards."
+            "AI budgets are growing faster than proof of ROI, and the market is responding with infrastructure to slow runaway costs. HubSpot's new spending controls &amp; flexible billing, Airship's ISO 42001 certification, and Sitecore's sovereign cloud expansion for regulated markets all point to the same underlying pressure: <b>finance and legal are now co-owners of AI rollout decisions</b>.",
+            "For marketers, this means AI capability conversations must now be paired with cost-cap mechanisms, compliance certifications, and auditability before procurement will approve. The era of 'move fast and expense it later' in MarTech AI is closing — governance is the new feature."
           ],
           "ev": [
             [
-              "Agile Brand · GEO strategic imperatives for enterprise CX",
-              "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/"
+              "MarTech · HubSpot spending controls",
+              "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/"
             ],
             [
-              "MarTech · AI visibility score hiding a problem",
-              "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/"
+              "MarTech · AI · Budgets outpacing ROI proof",
+              "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
             ],
             [
-              "MarTech · Google content guidance reset warning",
-              "https://martech.org/google-changed-its-content-guidance-dont-expect-a-reset/"
+              "Agile Brand · Airship ISO 42001 certification",
+              "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>AI Governance &amp; Trust</em> Becoming Table Stakes",
-          "url": "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/",
-          "body": [
-            "Regulatory pressure and buyer scepticism are forcing AI deployments out of the 'move fast' phase into a governed, auditable one. Airship achieving ISO 42001 certification, Sitecore expanding sovereign cloud hosting for its AI into regulated markets, and PropellerAds flagging malware guardrails for agentic media buying all signal that <b>governance is no longer a legal afterthought</b> — it is a sales prerequisite.",
-            "The 'people still trust people over pixels' finding reinforces why: enterprise buyers and consumers alike are applying a trust discount to AI-generated experiences. Vendors that can demonstrate certified, transparent AI processes are gaining a procurement edge, particularly in financial services, healthcare, and public-sector verticals where compliance is non-negotiable."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Airship ISO 42001 responsible AI",
-              "https://agilebrandguide.com/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/"
-            ],
-            [
-              "MarTech Series · Sitecore sovereign cloud regulated markets",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sitecore-and-dataweavers-expand-sovereign-cloud-hosting-for-sitecoreai-into-new-regulated-markets/"
-            ],
-            [
-              "MarTech · Agentic media buying needs malware guardrails",
-              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 05",
-          "head": "The <em>CMO Role &amp; Marketing Org</em> Under Structural Pressure",
+          "head": "The CMO Role Is <em>Structurally Breaking Apart</em>",
           "url": "https://martech.org/the-cmo-role-is-evolving-before-our-very-eyes/",
           "body": [
-            "AI is not just changing what marketing does — it is exposing a mismatch between what modern marketing requires and how most organisations are structured to support it. MarTech's analysis that 'marketing has outgrown the organisation built to run it' resonates alongside the Q4 2026 state-of-AI report showing <b>AI budgets growing faster than proof of ROI</b>, creating accountability gaps at the executive level.",
-            "The CMO's remit is simultaneously expanding (owning data strategy, AI governance, revenue attribution) and being challenged from below by MOps teams restructuring around autonomous agents. The practical upshot: organisations need clearer role definitions — not everyone should be an AI builder — and CMOs must make the case for measurement frameworks before budgets outrun evidence of impact."
+            "Multiple signals this month point to a single structural crack: marketing has grown in scope, technical depth, and revenue accountability faster than the organizational model built to run it. The CMO role is fragmenting into specialized functions — revenue operations, AI orchestration, brand stewardship — while the traditional single-leader model struggles to hold.",
+            "<b>Not everyone in marketing should be an AI builder, and not every AI output should be a marketer's job to QA</b> — yet most org charts haven't caught up with that division of labor. Companies that redesign teams around these distinctions will move faster than those trying to retrain every marketer as a prompt engineer."
           ],
           "ev": [
             [
@@ -286,17 +266,40 @@
               "https://martech.org/the-cmo-role-is-evolving-before-our-very-eyes/"
             ],
             [
-              "MarTech · Marketing outgrown its organisation",
+              "MarTech · Marketing outgrown its org",
               "https://martech.org/marketing-has-outgrown-the-organization-built-to-run-it/"
             ],
             [
-              "MarTech · AI budgets growing faster than proof of ROI",
-              "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
+              "MarTech · AI · Not everyone should be an AI builder",
+              "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "First-Party Data Is Now <em>Your Actual Brand Moat</em>",
+          "url": "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/",
+          "body": [
+            "With channel fragmentation accelerating and AI intermediaries filtering brand messages, proprietary customer data has become the primary differentiator — not creative or media spend. ZoomInfo's Workbounce acquisition to build a GTM Context Graph, Adstra's Snowflake acceleration, and the 'your data is your new brand' framing from Athos Commerce all converge on the same point: <b>the brands that win are the ones whose data is richest, fastest, and most connected</b>.",
+            "Consumer trust research reinforces the urgency: people still trust people over AI-generated pixels, meaning brands must use their first-party data to enable genuinely human &amp; personalized moments rather than generic AI outputs. The differentiation gap will widen between companies treating data as infrastructure and those treating it as a campaign asset."
+          ],
+          "ev": [
+            [
+              "Agile Brand · Data is your new brand",
+              "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/"
+            ],
+            [
+              "MarTech Series · ZoomInfo GTM Context Graph",
+              "https://martechseries.com/analytics/data-management-platforms/zoominfo-brings-enterprise-knowledge-into-the-gtm-context-graph-through-workbounce-acquisition/"
+            ],
+            [
+              "Agile Brand · People trust people over pixels",
+              "https://agilebrandguide.com/tfc-in-the-age-of-ai-people-still-trust-people-over-pixels/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — data, agents, search, governance, and org design — the common thread is that <em>AI is forcing decisions that were previously deferrable</em>, and the brands that move from experimentation to structured commitment now will set the defaults everyone else inherits."
+      "takeaway": "Across every layer of the stack — visibility, spend, org design, channels, and data — <em>AI is forcing every marketing decision to be remade from first principles</em>, and the companies moving fastest are those that treat governance and proprietary data as the foundation, not the afterthought."
     }
   }
 }
