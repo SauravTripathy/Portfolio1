@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T09:57:09.769883+00:00",
+  "generatedAt": "2026-10-16T17:33:17.095227+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,37 +45,50 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "HubSpot adds spending controls and flexible billing as AI usage grows",
-          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
-          "plain": "HubSpot is responding to <b>unpredictable AI consumption costs</b> by introducing spend limits and flexible seat swaps. This matters because consumption-based pricing is replacing flat SaaS fees across martech, and marketers now need budget guardrails baked into the platform itself — changing how AI tools are bought and managed.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "HubSpot's Unbound 2026: Major product announcements unpacked",
+          "url": "https://martech.org/hubspots-unbound-2026-the-big-announcements-and-updates/",
+          "plain": "HubSpot's annual conference delivered significant platform updates that will shape how mid-market teams buy and use marketing AI. Conference product drops often set <b>buying agendas</b> for the following year, so understanding what changed — not just what was announced — matters for anyone evaluating or renewing a <b>customer engagement platform</b>.",
           "chips": [
-            "govern",
+            "cep",
+            "genai",
             "agentic",
-            "cep"
+            "perso"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Egnyte unveils Context Studio and AI Control Center for agent data governance",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/egnyte-unveils-context-studio-and-ai-control-center-for-more-accurate-secure-and-cost-efficient-ai/",
-          "plain": "Egnyte launched two tools that let IT teams <b>control exactly what data each AI agent can see and use</b>. As agentic systems get deployed in marketing, the ability to restrict sensitive data access per agent is becoming a core governance requirement — directly shaping how AI is built and audited inside enterprises.",
+          "head": "Webflow and Google Gemini launch agentic integration for marketing teams",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-and-google-gemini-announce-new-agentic-integration/",
+          "plain": "Webflow is now a connected app inside Google Gemini, letting AI agents read site context and make or suggest changes directly. This is a concrete example of <b>agentic AI entering the content production stack</b> — not a lab demo but a live integration that changes how digital experience teams build and iterate sites.",
           "chips": [
             "agentic",
-            "govern",
-            "cdp"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "ZoomInfo named flagship data partner for Salesforce's Hunter outbound sales agent",
+          "head": "Egnyte launches Context Studio and AI Control Center to govern agent data access",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/egnyte-unveils-context-studio-and-ai-control-center-for-more-accurate-secure-and-cost-efficient-ai/",
+          "plain": "Egnyte's two new tools let IT set exactly which sensitive data each AI agent can see and rescope access in one dashboard. As <b>agentic systems multiply inside enterprises</b>, controlling what they can read is a core governance challenge — this product directly addresses the gap between AI capability and safe deployment.",
+          "chips": [
+            "agentic",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "ZoomInfo confirmed as flagship data partner for Salesforce's Hunter outbound sales agent",
           "url": "https://martechseries.com/sales-marketing/crm/zoominfo-named-a-flagship-data-partner-for-hunter-salesforces-new-outbound-sales-agent/",
-          "plain": "Salesforce's new Hunter agent uses ZoomInfo data to research accounts, find prospects, and draft personalized outreach — all inside Sales Cloud. This signals how <b>agentic sales automation is becoming a standard CRM feature</b>, with third-party data providers baked in as essential infrastructure rather than optional add-ons.",
+          "plain": "Salesforce's Hunter agent now pulls ZoomInfo intelligence directly inside Sales Cloud to research accounts and draft <b>personalized outreach autonomously</b>. This shapes how B2B data is bought — instead of standalone enrichment tools, buyers will evaluate data vendors by their fit inside <b>agentic sales workflows</b>.",
           "chips": [
             "agentic",
             "decis",
@@ -84,25 +97,12 @@
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Webflow and Google Gemini announce agentic integration for site building and management",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-and-google-gemini-announce-new-agentic-integration/",
-          "plain": "Google Gemini can now connect directly to Webflow, letting AI agents build, update, and improve websites on behalf of marketing teams. This is a concrete example of <b>agentic AI embedded in content infrastructure</b>, and it raises real questions about who controls digital experience decisions when an LLM is in the loop.",
-          "chips": [
-            "agentic",
-            "genai",
-            "govern"
-          ]
-        },
-        {
           "num": "05",
-          "src": "MarTech · via MarTech.org",
-          "fresh": false,
-          "head": "Anthropic and OpenAI revenue claims raise questions marketers should heed",
-          "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "A MarTech roundup flags that <b>Anthropic and OpenAI are reporting revenues that may not be fully verified</b>, alongside other martech AI releases. For marketers building strategy around these platforms, inflated or unaudited financials matter — they affect vendor stability, pricing credibility, and the due-diligence questions buyers should be asking.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Email marketing history offers a practical framework for AI governance",
+          "url": "https://martech.org/email-marketings-history-can-guide-ai-governance/",
+          "plain": "The article draws parallels between early email compliance battles and today's <b>AI governance gaps</b>, arguing that attribution, accuracy, and authenticity are proven starting points for responsible AI use. Practical and non-vendor-specific, it gives teams a concrete mental model for building <b>guardrails around AI-generated content</b> before regulators impose their own.",
           "chips": [
             "govern",
             "genai"
@@ -116,22 +116,51 @@
           "num": "01",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "Salesforce buys AI analytics startup Loops to explain metric changes automatically",
-          "url": "https://martech.org/salesforce-buys-ai-analytics-startup-loops/",
-          "plain": "Salesforce is acquiring Loops, a startup that uses AI to diagnose <b>why business metrics shift</b> — not just report that they did. For martech buyers, this signals Salesforce is embedding continuous AI-driven interpretation directly into its platform, which could change how teams buy and use analytics tools alongside Salesforce CRM and Marketing Cloud.",
+          "head": "The state of AI in marketing: Q4 2026",
+          "url": "https://martech.org/the-state-of-ai-in-marketing-q4-2026/",
+          "plain": "A quarterly snapshot of where AI actually stands in marketing practice right now. The key finding: most teams are stuck using <b>basic AI tools</b> and won't unlock real business value without deeper <b>systemic change</b> — new processes, roles, and governance — not just more software. Essential reading for anyone planning 2027 budgets or roadmaps.",
           "chips": [
             "agentic",
-            "decis",
-            "govern"
+            "govern",
+            "genai",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
+          "head": "How MOps teams are restructuring for autonomous AI agents",
+          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
+          "plain": "Marketing operations teams are moving from hands-on campaign execution to <b>agent orchestration</b> — overseeing fleets of autonomous software instead of doing the work themselves. The piece maps the new roles, reporting lines, and oversight controls this shift demands, making it directly useful for anyone building or buying AI-driven marketing systems.",
+          "chips": [
+            "agentic",
+            "decis",
+            "govern",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "HubSpot's Unbound 2026: The big announcements and updates",
+          "url": "https://martech.org/hubspots-unbound-2026-the-big-announcements-and-updates/",
+          "plain": "HubSpot's annual product event revealed a range of updates that affect how a very large installed base buys and uses marketing AI. Beyond the main-stage headlines, the piece surfaces <b>under-the-radar changes</b> to pricing, agentic features, and platform architecture — details that matter for buyers evaluating or already on the platform.",
+          "chips": [
+            "agentic",
+            "genai",
+            "cep",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": true,
           "head": "HubSpot adds spending controls and flexible billing as AI usage grows",
           "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
-          "plain": "HubSpot now lets teams set <b>hard spending caps and swap seat types</b> as consumption-based AI pricing makes budgets unpredictable. This directly affects how marketing AI is bought: finance and ops leaders can cap runaway AI costs without killing access, making governance of AI spend a built-in platform feature rather than a manual workaround.",
+          "plain": "<b>Consumption-based AI pricing</b> is making marketing budgets unpredictable, and HubSpot is responding with spend caps and flexible seat swaps. This matters beyond HubSpot: it signals that the whole industry is being forced to build <b>financial governance</b> into AI products as usage scales and costs become hard to forecast.",
           "chips": [
             "govern",
             "genai",
@@ -139,43 +168,17 @@
           ]
         },
         {
-          "num": "03",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "AI agents are coming between brands and their customers",
-          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
-          "plain": "When buyer-side AI agents handle search, comparison, and checkout, brands lose direct access to the customer journey. The piece maps what marketers <b>can still influence</b> — data quality, structured content, and agent-readable signals — making it essential reading for anyone planning personalization or GEO strategy in 2027 budgets.",
-          "chips": [
-            "agentic",
-            "geo",
-            "perso",
-            "cdp"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Your AI visibility score may be hiding a problem: brand mentions vs. source citations differ",
-          "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
-          "plain": "Being mentioned in an AI answer is not the same as being cited as a source — and the gap between those two metrics exposes very different weaknesses. The article gives marketers a practical framework for <b>diagnosing GEO health</b> before choosing a fix, which matters as generative search reshapes how brands are discovered.",
-          "chips": [
-            "geo",
-            "govern"
-          ]
-        },
-        {
           "num": "05",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "How MOps teams are restructuring for autonomous AI agents",
-          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
-          "plain": "Marketing operations is shifting from manual campaign execution to <b>orchestrating and overseeing autonomous agents</b>. The article details the new roles, skills, and governance structures teams are building — directly relevant to anyone deciding how to staff, buy tools for, or set guardrails around agentic marketing systems.",
+          "head": "AI agents are coming between you and your customers",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "plain": "Buyers' own AI agents are now filtering brand messages, comparing products, and completing purchases — often without a human ever seeing your content. The article explains what brand signals and <b>structured data</b> still influence <b>agent-mediated decisions</b>, giving marketers a practical starting point for adapting their strategies before this shift accelerates further.",
           "chips": [
             "agentic",
             "decis",
-            "govern",
-            "cep"
+            "geo",
+            "perso"
           ]
         }
       ]
@@ -185,57 +188,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Reshaping the Customer Relationship</em>",
+          "head": "AI Agents Are <em>Displacing Human Touchpoints</em>",
           "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
           "body": [
-            "Autonomous AI agents are no longer a future scenario — they are actively inserting themselves between brands and buyers, handling outbound prospecting (Salesforce's Hunter), media buying, and customer-service resolution without human hand-holding. <b>The channel is no longer a screen; it is increasingly a bot talking to another bot.</b> This fundamentally changes who — or what — a brand must persuade.",
-            "Marketing &amp; sales teams that treat agents as just another automation layer will be caught flat-footed. The real decision is whether your brand, data, and offers are structured so that AI intermediaries can represent you accurately — or whether they default to a competitor whose data is cleaner and more accessible."
+            "Autonomous AI agents are now sitting in the middle of buyer-seller interactions — handling outbound prospecting (Salesforce's Hunter + ZoomInfo), web publishing (Webflow + Gemini), and customer-service queues — meaning brands no longer control every conversation their customers have about them. The implications for loyalty, data ownership, and brand voice are profound.",
+            "<b>Marketing ops teams are actively restructuring</b> to accommodate agents that can act without human sign-off, raising urgent questions about guardrails, audit trails, and who is accountable when an agent says the wrong thing. The window for setting those rules internally is closing fast."
           ],
           "ev": [
             [
-              "MarTech · AI · Agents coming between you and customers",
+              "MarTech · AI agents between you &amp; customers",
               "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/"
             ],
             [
-              "MarTech Series · ZoomInfo / Salesforce Hunter outbound agent",
-              "https://martechseries.com/sales-marketing/crm/zoominfo-named-a-flagship-data-partner-for-hunter-salesforces-new-outbound-sales-agent/"
+              "MarTech · MOps restructuring for autonomous agents",
+              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
             ],
             [
-              "MarTech · AI · Agentic media buying guardrails",
-              "https://martech.org/agentic-media-buying-needs-malware-guardrails-a-propellerads-view/"
+              "MarTech Series · ZoomInfo + Salesforce Hunter agent",
+              "https://martechseries.com/sales-marketing/crm/zoominfo-named-a-flagship-data-partner-for-hunter-salesforces-new-outbound-sales-agent/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "MOps Teams <em>Restructure Around Autonomy</em>",
-          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
+          "head": "<em>AI Spend Outrunning</em> Proof of Return",
+          "url": "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/",
           "body": [
-            "Marketing-operations teams are actively redesigning roles and reporting lines to supervise, not just operate, autonomous AI systems. <b>The new skill set is less about executing campaigns and more about setting guardrails, auditing agent decisions, and owning the data pipelines agents depend on.</b> Egnyte's AI Control Center and ImageKit's MCP governance layer are vendor signals that enterprise-grade oversight tooling is becoming table-stakes infrastructure.",
-            "The corollary finding from the Q4 2026 state-of-AI report is blunt: AI budgets are growing faster than proof of ROI, which means MOps leaders who cannot measure agent impact will lose budget in the next planning cycle. Organizations must instrument agent workflows now, before spend locks in."
+            "Budgets for AI tools are expanding at pace, but measurable business outcomes are not keeping up — a pattern also visible in retail media, where advertiser patience is eroding despite rising spend. HubSpot's new spending controls and flexible billing are a direct product response to CFOs demanding cost visibility before committing to AI infrastructure at scale.",
+            "<b>The pressure to justify AI investment is reshaping procurement</b>: vendors are now leading with modelled ROI figures (RWS claims 212% over three years) and enterprise governance layers (Egnyte's AI Control Center) to give buyers something defensible to take to finance. Teams that can't attach AI usage to pipeline or retention metrics risk having budgets clawed back in 2027 planning cycles."
           ],
           "ev": [
             [
-              "MarTech · AI · MOps restructuring for agents",
-              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
-            ],
-            [
-              "MarTech · AI · Budgets outpacing ROI proof",
+              "MarTech · AI budgets outpacing ROI proof",
               "https://martech.org/ai-budgets-are-growing-faster-than-proof-of-roi/"
             ],
             [
-              "MarTech Series · Egnyte AI Control Center",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/egnyte-unveils-context-studio-and-ai-control-center-for-more-accurate-secure-and-cost-efficient-ai/"
+              "MarTech · HubSpot spending controls",
+              "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/"
+            ],
+            [
+              "MarTech Series · RWS 212% modelled ROI",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/rws-content-solution-blending-ai-and-human-expertise-delivered-a-212-modelled-3-year-roi/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Generative Search Forces a <em>New Visibility Playbook</em>",
+          "head": "Generative Search Is <em>Rewriting Visibility Rules</em>",
           "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
           "body": [
-            "Generative Engine Optimization (GEO) is emerging as the successor discipline to SEO: brands must now optimize for how AI answer engines summarize and cite them, not just for blue-link rankings. <b>An AI visibility score that looks healthy can mask the fact that the model is citing you in low-intent contexts or misrepresenting your offer.</b> Surface-level metrics are no longer sufficient diagnostics.",
-            "The strategic imperative is to treat structured, authoritative content as a distribution asset — because generative engines reward depth &amp; provenance over keyword density. Marketers who conflate traditional SEO with GEO will optimize for a game that has already changed."
+            "As AI-generated answers replace blue-link results, the metric of 'AI visibility score' has emerged — but it can mask structural problems in how a brand's content is indexed and cited by large language models. Generative Engine Optimization (GEO) is becoming a distinct discipline, separate from traditional SEO, with its own signals, citation logic, and measurement frameworks.",
+            "<b>Brands that rank well on Google may be nearly invisible to AI answer engines</b>, and vice versa — forcing marketing leaders to maintain two parallel content strategies. The competitive gap between early GEO adopters and laggards is compounding weekly, making this one of the highest-urgency capability gaps in enterprise CX right now."
           ],
           "ev": [
             [
@@ -243,63 +246,63 @@
               "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/"
             ],
             [
-              "Agile Brand · GEO strategic imperatives",
+              "Agile Brand · Navigating Generative Engine Optimization",
               "https://agilebrandguide.com/demand-genius-navigating-generative-engine-optimization-strategic-imperatives-for-enterprise-cx-and-marketing-leaders/"
             ],
             [
-              "Agile Brand · Data as new brand / fragmentation",
+              "Agile Brand · Data is your new brand",
               "https://agilebrandguide.com/expert-mode-the-great-fragmentation-and-why-your-data-is-your-new-brand-with-gary-lombardo-athos-commerce/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The CMO Role and <em>Marketing Org Are Breaking</em>",
-          "url": "https://martech.org/the-cmo-role-is-evolving-before-our-very-eyes/",
+          "head": "<em>AI Governance</em> Becomes a Product Category",
+          "url": "https://martech.org/email-marketings-history-can-guide-ai-governance/",
           "body": [
-            "Two parallel MarTech editorials reached the same conclusion from different angles: the CMO function is mutating under AI pressure, and the organizational structure built to run marketing has not kept pace with what marketing must now do. <b>Strategy, technology stewardship, data governance, and real-time experimentation now have to coexist inside a function that was designed for brand &amp; campaigns.</b>",
-            "The practical consequence is a mandate to redesign team charters before the next budget cycle, not after. Roles focused purely on execution are being absorbed by agents; roles focused on judgment, measurement, &amp; cross-functional alignment are becoming more valuable — and harder to hire for."
+            "Governance is no longer just a compliance checkbox — it is being productised. Egnyte launched a dedicated AI Control Center; ImageKit expanded its MCP Server with enterprise-grade governance; and HubSpot's Unbound announcements included guardrails alongside capability releases. The lesson drawn from email marketing's CAN-SPAM era is that industries that self-regulate early avoid the blunt regulatory interventions that follow public scandals.",
+            "<b>For marketing leaders, the decision is no longer whether to govern AI outputs but which governance architecture to buy or build.</b> Vendors are racing to make their control layers a competitive differentiator, which means governance tooling will be a primary evaluation criterion in stack reviews through 2027."
           ],
           "ev": [
             [
-              "MarTech · CMO role evolving",
-              "https://martech.org/the-cmo-role-is-evolving-before-our-very-eyes/"
+              "MarTech · Email history &amp; AI governance",
+              "https://martech.org/email-marketings-history-can-guide-ai-governance/"
             ],
             [
-              "MarTech · Marketing outgrown its org",
-              "https://martech.org/marketing-has-outgrown-the-organization-built-to-run-it/"
+              "MarTech Series · Egnyte AI Control Center",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/egnyte-unveils-context-studio-and-ai-control-center-for-more-accurate-secure-and-cost-efficient-ai/"
             ],
             [
-              "MarTech · AI · Not everyone should be an AI builder",
-              "https://martech.org/not-everyone-in-marketing-should-be-an-ai-builder/"
+              "MarTech Series · ImageKit MCP governance",
+              "https://martechseries.com/content/imagekit-expands-mcp-server-offering-with-enterprise-grade-governance-enhanced-capabilities-and-agent-skills/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Controlled <em>AI Spend &amp; Stack Consolidation</em> Mature",
-          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
+          "head": "The <em>Human Skills Gap</em> That AI Cannot Fill",
+          "url": "https://martech.org/adding-ai-or-headcount-wont-fix-a-marketing-skills-gap/",
           "body": [
-            "HubSpot adding per-seat spending controls and Treasure AI's advice to prove one or two workflows before consolidating are two sides of the same coin: the industry is moving from AI experimentation to <b>deliberate governance of AI cost and scope</b>. Vendors are building spend guardrails into the platform layer because buyers are demanding them after a year of uncapped usage surprises.",
-            "For decision-makers, this is a green light to negotiate AI usage terms actively rather than accepting default pricing. It also reframes stack consolidation — the question is no longer 'which tool has the best AI feature' but 'which platform gives me auditability, cost predictability, &amp; the ability to prove incremental value before committing at scale.'"
+            "Multiple signals this month converge on a single uncomfortable finding: neither hiring nor AI adoption closes the strategic capability gap inside marketing teams. The Q4 2026 state-of-AI report shows wide tool adoption but shallow integration into decision-making, while practitioners caution that consolidating martech before proving even one or two workflows is a recipe for expensive failure.",
+            "<b>Trust is the underlying currency that technology cannot manufacture.</b> Research on live experiences shows consumers still require human-anchored proof points before acting on AI-mediated recommendations — a finding that reframes 'human in the loop' from a safety concern into a genuine growth lever. Organisations that invest in judgment, creativity, and interpretive skills alongside AI tooling will outperform those that treat headcount and software as interchangeable."
           ],
           "ev": [
             [
-              "MarTech · HubSpot spending controls",
-              "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/"
+              "MarTech · AI won't fix skills gap",
+              "https://martech.org/adding-ai-or-headcount-wont-fix-a-marketing-skills-gap/"
             ],
             [
-              "Agile Brand · Treasure AI on right time for martech change",
-              "https://agilebrandguide.com/treasure-ais-brenno-valerio-on-finding-the-right-time-to-make-martech-changes/"
-            ],
-            [
-              "MarTech · AI · State of AI in marketing Q4 2026",
+              "MarTech · State of AI in marketing Q4 2026",
               "https://martech.org/the-state-of-ai-in-marketing-q4-2026/"
+            ],
+            [
+              "Agile Brand · Prove workflows before consolidating",
+              "https://agilebrandguide.com/treasure-ais-brenno-valerio-on-finding-the-right-time-to-make-martech-changes/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack, <em>autonomous agents are forcing marketers to govern AI rather than just deploy it</em> — rewiring org structures, pricing models, search visibility, and the customer relationship simultaneously."
+      "takeaway": "Across every layer of the stack, <em>the race to deploy AI is outpacing the organisational capacity to govern, measure, and trust it</em> — and the teams that close that gap first will define the competitive baseline for 2027."
     }
   }
 }
