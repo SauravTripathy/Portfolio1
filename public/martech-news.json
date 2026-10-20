@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:24:00.121014+00:00",
+  "generatedAt": "2026-10-20T10:11:30.381212+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,69 +47,68 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Contentsquare CMO: Measure AI crawlers, AI-referred shoppers, and buying agents as separate traffic types",
-          "url": "https://agilebrandguide.com/contentsquares-jean-christophe-pitie-on-measuring-cx-when-the-visitor-is-an-ai-agent/",
-          "plain": "Contentsquare's CMO argues that the three kinds of AI visitors — crawlers, AI-referred humans, and autonomous buying agents — need separate measurement tracks. With AI referrals currently just 0.45% of traffic, the patterns are still small but growing fast. Marketers who lump them together will misread conversion data and misjudge where <b>agentic shoppers</b> drop off.",
+          "head": "Aampe CEO on why personalization was always rules at scale — and how AI agents change that",
+          "url": "https://agilebrandguide.com/moengage-ceo-paul-meinshausen-on-the-control-marketers-never-had/",
+          "plain": "Paul Meinshausen, CEO of Aampe (now part of MoEngage), argues that <b>traditional personalization was just rules dressed up as intelligence</b> — and explains what genuine per-user AI agents require in terms of governance and measurement. This reframes how marketers should evaluate CEPs and sets a practical standard for AI accountability.",
           "chips": [
             "agentic",
-            "geo",
+            "perso",
             "govern",
-            "cdp"
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Treasure AI unveils Digital Worker and Personalization Studio at Agentic World 2026",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/treasure-ai-builds-a-brand-live-on-stage-at-agentic-world-2026-unveils-digital-worker/",
-          "plain": "Treasure AI launched a live brand build on stage, then announced three concrete products: a <b>Digital Worker</b> (an autonomous marketing agent), Personalization Studio, and click-based email pricing. The pricing shift alone changes buying decisions — pay-per-click email could undercut volume-licence rivals and push the whole CEP market toward outcome-based contracts.",
+          "head": "Optimove launches Content Studio to unify brand, personalization, and AI optimization across channels",
+          "url": "https://agilebrandguide.com/optimove-launches-content-studio-to-help-marketers-keep-ai-era-content-on-brand-and-personalized-at-scale/",
+          "plain": "Optimove's new Content Studio combines templates, creative assets, QA, and <b>AI-powered content optimization in one workflow</b>, aiming to cut time from creative brief to live campaign. It signals a shift toward integrated content-plus-decisioning platforms, raising the bar for standalone content tools competing in the CEP space.",
           "chips": [
-            "agentic",
+            "genai",
             "perso",
             "cep",
-            "decis"
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
-          "fresh": true,
-          "head": "Creative AdTech deep-dive: AI turns live ad creative into a real-time optimization loop",
-          "url": "https://martechseries.com/mts-insights/staff-writers/creative-adtech-when-ai-makes-the-advertisement-itself-a-real-time-optimization-system/",
-          "plain": "This explainer details how generative AI now rewrites ad copy, visuals, and calls-to-action mid-flight based on performance signals — effectively making the ad itself a <b>continuous bandit experiment</b>. Marketers who still hand creative off at launch and wait for the report are operating a generation behind. Relevant for anyone buying or building ad tooling.",
-          "chips": [
-            "genai",
-            "bandit",
-            "perso",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "StackAdapt 2027 Programmatic Report: Top performers are twice as likely to expand channel mix and prioritize connected customer data",
+          "fresh": false,
+          "head": "StackAdapt 2027 report: top marketers expand channel mix and treat connected customer data as a core advantage",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/stackadapts-2027-programmatic-advertising-report-finds-top-performers-are-twice-as-likely-to-expand-their-channel-mix/",
-          "plain": "Annual benchmark research across programmatic buyers finds that high-performing marketers handle more channels and complexity — but reduce fragmentation by <b>connecting customer data centrally</b>. The finding directly supports investment in CDPs and AI orchestration layers. Useful data for anyone making a budget or vendor case in 2027 planning cycles.",
+          "plain": "A large-scale industry report finds that <b>high-performing marketers are twice as likely to broaden their channel mix</b> while reducing data fragmentation. Connected customer data is identified as the key differentiator, giving buyers a concrete benchmark for CDP investment and multi-channel orchestration decisions heading into 2027.",
           "chips": [
             "cdp",
             "cep",
             "decis",
+            "bandit"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Only 29% of marketers feel prepared for AI-powered inboxes ahead of holiday season, Validity research finds",
+          "url": "https://agilebrandguide.com/most-marketers-are-adapting-email-strategies-for-ai-powered-inboxes-but-just-29-feel-well-prepared-ahead-of-holidays-validity-research-finds/",
+          "plain": "Validity's survey shows most email marketers are adjusting strategies for <b>AI-filtered inboxes</b> but the vast majority feel underprepared entering Q4. This matters because inbox AI changes what signals drive deliverability and visibility — directly affecting how email fits into any personalization or engagement stack.",
+          "chips": [
+            "geo",
+            "perso",
+            "cep",
             "govern"
           ]
         },
         {
           "num": "05",
           "src": "MarTech",
-          "fresh": true,
-          "head": "Future marketing leaders must redesign workflows — not just adopt AI tools",
+          "fresh": false,
+          "head": "The next great marketing leaders will design how people and AI divide work — not just approve AI output",
           "url": "https://martech.org/the-next-great-marketing-leaders-will-design-how-work-gets-done/",
-          "plain": "MarTech argues the bottleneck in AI-powered marketing is no longer the model — it's human process design. Leaders who define <b>clear roles for people versus AI agents</b>, cut handoff steps, and set priorities will turn faster AI output into faster campaign delivery. A practical framing for anyone managing a marketing team adopting automation.",
+          "plain": "This essay argues that <b>marketing leadership now means architecting workflows</b> — deciding which tasks AI owns versus humans — rather than reviewing finished work. It provides a practical mental model for teams buying or building AI tools, making it relevant for anyone governing agentic systems inside a marketing org.",
           "chips": [
             "agentic",
             "govern",
-            "genai",
             "decis"
           ]
         }
@@ -121,9 +120,9 @@
           "num": "01",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "Salesforce buys AI analytics startup Loops to automate metric interpretation",
+          "head": "Salesforce buys AI analytics startup Loops to explain why metrics change",
           "url": "https://martech.org/salesforce-buys-ai-analytics-startup-loops/",
-          "plain": "Salesforce is acquiring Loops, a startup that uses AI to automatically explain why business metrics change — not just report that they did. This matters because it pushes analytics from passive dashboards toward <b>continuous AI-driven interpretation</b>, changing how marketing platforms are built and what buyers expect from analytics built into their stack.",
+          "plain": "Salesforce is acquiring Loops, a startup that uses AI to automatically diagnose why key business metrics go up or down. This matters because it pushes analytics from reporting what happened toward <b>continuously interpreting why</b> — a capability that could reshape how marketing teams make decisions inside the Salesforce stack.",
           "chips": [
             "agentic",
             "govern",
@@ -132,55 +131,55 @@
         },
         {
           "num": "02",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "AI agents are intercepting customers before brands can reach them",
-          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
-          "plain": "Buyer-side AI agents are now handling product research, preference filtering, and even checkout on behalf of consumers, <b>removing brands from the decision loop</b>. The piece outlines what signals and data formats still let marketers influence agent choices — a structural shift in how personalization and governance must be designed.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Aampe CEO: personalization was always rules at scale — here's how to govern AI agents instead",
+          "url": "https://agilebrandguide.com/moengage-ceo-paul-meinshausen-on-the-control-marketers-never-had/",
+          "plain": "Paul Meinshausen of Aampe by MoEngage argues that traditional marketing 'control' was just rule-writing at scale, not true personalization. He explains how <b>AI agents can optimize per individual user</b> and what governance guardrails marketers actually need — a clear framework for anyone evaluating agentic CEP tools.",
           "chips": [
             "agentic",
-            "decis",
             "perso",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Contentsquare CMO: measure AI crawlers, AI-referred visitors, and buying agents as three separate audiences",
-          "url": "https://agilebrandguide.com/contentsquares-jean-christophe-pitie-on-measuring-cx-when-the-visitor-is-an-ai-agent/",
-          "plain": "Contentsquare's CMO explains that <b>AI agents now generate traffic that looks like human visits but behaves nothing like them</b> — and lumping them together ruins CX measurement. With AI referrals at just 0.45% of traffic today, the window to build the right measurement framework is now, before the numbers grow.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "HubSpot adds AI spend controls and flexible billing as consumption costs grow unpredictable",
+          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
+          "plain": "HubSpot introduced hard spend limits and seat-swap billing to help marketers manage <b>unpredictable AI consumption costs</b>. As usage-based pricing spreads across martech, these controls signal a new procurement concern: AI tools that charge per action can blow budgets fast without circuit-breakers in place.",
           "chips": [
-            "agentic",
-            "geo",
+            "genai",
             "govern",
-            "cdp"
+            "cep"
           ]
         },
         {
           "num": "04",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "Your AI visibility score may be hiding a problem: brand mentions and source citations diverge",
-          "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
-          "plain": "A single GEO score can look healthy while one of its two components — brand mentions or actual source citations — is failing badly. The piece explains <b>how to diagnose which metric is weak</b> before spending budget on the wrong fix, giving marketers a practical framework for AI search optimization.",
+          "head": "AI agents are coming between brands and their customers — what you can still influence",
+          "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
+          "plain": "Buying agents are making preferences, comparisons, and checkout decisions on behalf of consumers, moving key touchpoints outside brand control. The article identifies what marketers can still shape — structured data, reputation signals, and <b>how your brand looks to an AI acting as a buyer's proxy</b> — making it essential reading for teams rethinking reach.",
           "chips": [
+            "agentic",
             "geo",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "HubSpot adds spending controls and flexible billing as consumption-based AI pricing grows unpredictable",
-          "url": "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/",
-          "plain": "HubSpot now lets admins set hard spend limits and swap seat types as AI feature usage drives unpredictable monthly bills. This is a <b>governance and procurement shift</b> — consumption-based AI pricing is becoming the norm, and platforms that lack spend guardrails will lose deals to those that offer them.",
+          "head": "Your AI visibility score may be hiding a gap between brand mentions and source citations",
+          "url": "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/",
+          "plain": "Marketers tracking AI visibility are often measuring the wrong thing: a brand can be mentioned in AI answers without being cited as a trusted source, or vice versa. The piece shows why <b>splitting mention-rate from citation-rate</b> is the first step in any GEO strategy — and why fixing the wrong metric wastes budget.",
           "chips": [
-            "govern",
-            "genai",
-            "cep"
+            "geo",
+            "govern"
           ]
         }
       ]
@@ -190,107 +189,84 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>AI Agents Hijacking</em> the Customer Relationship",
+          "head": "AI Agents Are <em>Hijacking the Customer Relationship</em>",
           "url": "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/",
           "body": [
-            "AI agents are increasingly acting as intermediaries in the buyer journey, fielding queries, filtering options, and making shortlist decisions before a human ever touches a brand touchpoint. Contentsquare's analysis makes the problem concrete: an <b>AI crawler is not a customer</b>, yet it now accounts for a measurable share of site traffic that CX metrics treat as real engagement.",
-            "This intermediation forces a strategic reset. Brands that optimise only for human visitors risk becoming invisible to the agents that pre-screen on their customers' behalf, while conventional conversion metrics quietly inflate with non-human sessions. MOps teams are already restructuring around <b>autonomous agent workflows</b>, and the Q4 2026 state-of-AI report confirms this is no longer a future concern."
+            "A structural shift is underway: <b>AI agents now sit between brands and human buyers</b>, intercepting search, evaluation, and even purchase decisions before a person ever sees a campaign. Contentsquare's analysis found that AI crawlers are inflating traffic metrics while contributing nothing to actual conversion, meaning dashboards built for human visitors are now lying to marketers.",
+            "The implication is not just tactical but existential for MarTech stacks built around human click-paths. Teams must start measuring <b>agent-to-brand interactions</b> as a distinct channel, rethinking attribution, personalization logic, and even brand positioning for an audience that may never be a human at all."
           ],
           "ev": [
             [
-              "MarTech · AI · agents between you &amp; customers",
+              "MarTech · AI agents &amp; customers",
               "https://martech.org/ai-agents-are-coming-between-you-and-your-customers/"
             ],
             [
-              "Agile Brand · AI crawler is not a customer",
+              "Agile Brand · AI crawler ≠ customer",
               "https://agilebrandguide.com/contentsquares-jean-christophe-pitie-on-measuring-cx-when-the-visitor-is-an-ai-agent/"
             ],
             [
-              "MarTech · AI · MOps restructuring",
-              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
+              "MarTech · AI visibility score",
+              "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "Marketing Leaders Must <em>Redesign Work Itself</em>",
-          "url": "https://martech.org/the-next-great-marketing-leaders-will-design-how-work-gets-done/",
+          "head": "<em>MOps Restructures</em> Around Autonomous Agents",
+          "url": "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/",
           "body": [
-            "The dominant advice of the month is not about which AI tool to buy but about <b>how leaders orchestrate humans and machines together</b>. MarTech's leadership piece argues the next great CMOs will be work-design architects, not just strategy setters, because AI collapses old org-chart logic faster than headcount or software purchases can compensate.",
-            "A companion piece underlines the point bluntly: <b>adding AI or headcount alone won't close a marketing skills gap</b>. The lever is process redesign — mapping which decisions belong to agents, which to humans, and building feedback loops that improve both. Treasure AI's on-stage brand build at Agentic World 2026 dramatised this shift, showing a 'digital worker' handling tasks that previously required a small team."
+            "Marketing operations teams are no longer just buying and configuring tools — they are <b>designing the systems that decide how work gets done</b>. The Q4 2026 state-of-AI report and the MOps restructuring piece both show that autonomous agents are absorbing execution tasks, pushing human roles toward orchestration, governance, and judgment calls that agents cannot safely make alone.",
+            "HubSpot's Unbound 2026 announcements — including <b>spending controls and flexible billing tied to AI usage</b> — signal that vendors are responding to this shift by giving ops leaders financial levers, not just feature toggles. The next marketing leader, per MarTech's analysis, will be an architect of workflows rather than a manager of campaigns."
           ],
           "ev": [
             [
-              "MarTech · leaders design how work gets done",
+              "MarTech · MOps restructuring",
+              "https://martech.org/how-mops-teams-are-restructuring-for-autonomous-ai-agents/"
+            ],
+            [
+              "MarTech · next great marketing leaders",
               "https://martech.org/the-next-great-marketing-leaders-will-design-how-work-gets-done/"
             ],
             [
-              "MarTech · AI won't fix a skills gap",
-              "https://martech.org/adding-ai-or-headcount-wont-fix-a-marketing-skills-gap/"
-            ],
-            [
-              "MarTech Series · Treasure AI digital worker",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/treasure-ai-builds-a-brand-live-on-stage-at-agentic-world-2026-unveils-digital-worker/"
+              "MarTech · HubSpot spending controls",
+              "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Retail Media's <em>Accountability Reckoning</em>",
-          "url": "https://martech.org/retail-media-budgets-are-growing-advertisers-patience-isnt/",
+          "head": "Personalization at Scale Hits a <em>Brand-Control Crisis</em>",
+          "url": "https://agilebrandguide.com/optimove-launches-content-studio-to-help-marketers-keep-ai-era-content-on-brand-and-personalized-at-scale/",
           "body": [
-            "Retail media budgets keep rising on paper, but the mood among buyers has shifted: <b>patience for opaque measurement and slow optimisation is exhausting</b>. MarTech's analysis shows advertisers demanding cleaner attribution and faster proof of return, even as networks push for larger upfront commitments.",
-            "Melissa Gallo's Agile Brand interview adds texture — retail media dollars don't vanish in a single cut; they erode gradually as advertisers quietly reallocate to channels that report more transparently. The practical implication is that <b>measurement infrastructure, not inventory scale, is now the competitive moat</b> for retail media networks trying to hold budget."
+            "The promise of AI-driven personalization is colliding with a hard reality: <b>the more content variants AI generates, the harder it is to keep them on-brand</b>. Optimove's Content Studio launch and Aampe CEO Paul Meinshausen's argument that 'rules-at-scale' was never real control both point to the same gap — marketers traded consistency for volume and are now scrambling to reclaim both.",
+            "Validity's research adds urgency: <b>only 29% of marketers feel well-prepared for AI-powered inboxes</b> heading into the holiday season, even as they actively adapt their email strategies. The tools are outrunning the governance frameworks, and the gap is widest exactly when stakes are highest."
           ],
           "ev": [
             [
-              "MarTech · retail media budgets &amp; patience",
-              "https://martech.org/retail-media-budgets-are-growing-advertisers-patience-isnt/"
+              "Agile Brand · Optimove Content Studio",
+              "https://agilebrandguide.com/optimove-launches-content-studio-to-help-marketers-keep-ai-era-content-on-brand-and-personalized-at-scale/"
             ],
             [
-              "Agile Brand · retail media doesn't get cut all at once",
-              "https://agilebrandguide.com/expert-mode-retail-media-doesnt-get-cut-all-at-once-with-melissa-gallo-from-vantage/"
+              "Agile Brand · Aampe on rules vs. control",
+              "https://agilebrandguide.com/moengage-ceo-paul-meinshausen-on-the-control-marketers-never-had/"
             ],
             [
-              "MarTech Series · top performers expand channel mix",
-              "https://martechseries.com/sales-marketing/programmatic-buying/stackadapts-2027-programmatic-advertising-report-finds-top-performers-are-twice-as-likely-to-expand-their-channel-mix/"
+              "Agile Brand · email readiness research",
+              "https://agilebrandguide.com/most-marketers-are-adapting-email-strategies-for-ai-powered-inboxes-but-just-29-feel-well-prepared-ahead-of-holidays-validity-research-finds/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "<em>AI Governance by Analogy</em>: Learning from Email's Past",
-          "url": "https://martech.org/email-marketings-history-can-guide-ai-governance/",
-          "body": [
-            "Regulators and practitioners alike are groping for frameworks to govern AI in marketing, and a quietly influential MarTech piece argues the <b>history of email regulation — CAN-SPAM, GDPR, deliverability norms — offers a ready-made playbook</b>. The pattern: a powerful channel emerges, abuse follows, then industry self-regulation and legal guardrails arrive in waves.",
-            "HubSpot's Unbound 2026 announcements gave this theme a product face: the platform introduced <b>spending controls and flexible billing tied directly to AI usage growth</b>, a signal that vendors themselves are building governance into the commercial layer. The broader implication is that AI governance will be as much a pricing &amp; contract negotiation as a policy question."
-          ],
-          "ev": [
-            [
-              "MarTech · email history guides AI governance",
-              "https://martech.org/email-marketings-history-can-guide-ai-governance/"
-            ],
-            [
-              "MarTech · HubSpot spending controls",
-              "https://martech.org/hubspot-adds-spending-controls-and-flexible-billing-as-ai-usage-grows/"
-            ],
-            [
-              "MarTech · HubSpot Unbound 2026 announcements",
-              "https://martech.org/hubspots-unbound-2026-the-big-announcements-and-updates/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 05",
-          "head": "Creative Becomes a <em>Real-Time Optimisation Layer</em>",
+          "head": "Creative Adtech Becomes a <em>Real-Time Optimization Engine</em>",
           "url": "https://martechseries.com/mts-insights/staff-writers/creative-adtech-when-ai-makes-the-advertisement-itself-a-real-time-optimization-system/",
           "body": [
-            "The boundary between creative production and media optimisation is dissolving. MarTech Series describes a new class of creative adtech where <b>the ad itself becomes a dynamic system</b> — copy, visuals, and calls-to-action adjusted in real time by AI against live performance signals, not just A/B tested in advance.",
-            "Kling 4.0's global launch and Wondershare's AI media processing update are supply-side proof: <b>professional-grade generative video and intelligent automation are now commercially available</b> at a price point that puts real-time creative variation within reach of mid-market teams. Combined, these moves suggest that 'creative strategy' will soon mean designing the rules by which AI iterates, not designing individual assets."
+            "AI is dissolving the boundary between creative production and media buying: <b>the ad itself is now a dynamic optimization system</b>, adjusting copy, visuals, and calls-to-action in real time based on audience signals. Kling 4.0's professional-grade video generation and tools like Wondershare UniConverter 18 are pushing this capability to teams that previously needed agency budgets to produce video at volume.",
+            "StackAdapt's programmatic report reinforces the channel side of this shift — <b>top performers are twice as likely to expand their channel mix</b>, meaning creative agility and distribution breadth are now the same competitive variable. Brands that can generate on-brand creative fast enough to fill an expanding channel mix will structurally outperform those that cannot."
           ],
           "ev": [
             [
-              "MarTech Series · AI makes the ad a real-time system",
+              "MarTech Series · creative adtech optimization",
               "https://martechseries.com/mts-insights/staff-writers/creative-adtech-when-ai-makes-the-advertisement-itself-a-real-time-optimization-system/"
             ],
             [
@@ -298,13 +274,36 @@
               "https://martechseries.com/video/kling-ai-launches-kling-4-0-globally-with-professional-grade-output-stable-motion-and-multimodal-control/"
             ],
             [
-              "MarTech Series · Wondershare AI media processing",
-              "https://martechseries.com/content/wondershare-uniconverter-18-advances-ai-powered-media-processing-with-intelligent-automation-and-enhanced-creative-tools/"
+              "MarTech Series · StackAdapt programmatic report",
+              "https://martechseries.com/sales-marketing/programmatic-buying/stackadapts-2027-programmatic-advertising-report-finds-top-performers-are-twice-as-likely-to-expand-their-channel-mix/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "Retail Media's <em>ROI Reckoning</em> Arrives",
+          "url": "https://martech.org/retail-media-budgets-are-growing-advertisers-patience-isnt/",
+          "body": [
+            "Retail media budgets are still growing, but <b>advertiser patience with opaque measurement and slow optimization is running out</b>. MarTech's analysis shows a widening tension: retailers want long-term commitments while brands demand proof of incrementality they have rarely received. Vantage's Melissa Gallo noted that retail media budgets don't get cut all at once — they erode quietly, channel by channel.",
+            "This reckoning is forcing a measurement maturity sprint inside brands and retailers alike. <b>AI-powered attribution and closed-loop reporting</b> are moving from differentiator to baseline requirement, and vendors that cannot provide them are watching budgets migrate to platforms that can. The window for retailers to get measurement right before the next planning cycle is narrowing fast."
+          ],
+          "ev": [
+            [
+              "MarTech · retail media budgets &amp; patience",
+              "https://martech.org/retail-media-budgets-are-growing-advertisers-patience-isnt/"
+            ],
+            [
+              "Agile Brand · retail media doesn't get cut at once",
+              "https://agilebrandguide.com/expert-mode-retail-media-doesnt-get-cut-all-at-once-with-melissa-gallo-from-vantage/"
+            ],
+            [
+              "MarTech · content &amp; attention fragmentation",
+              "https://martech.org/content-everywhere-winning-attention-in-a-fragmented-marketing-landscape/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — measurement, org design, governance, creative, and the buyer journey itself — <em>AI is not augmenting existing workflows so much as forcing marketers to rebuild the workflows from scratch</em>."
+      "takeaway": "Across every layer of the stack, <em>AI is no longer a feature being added to marketing — it is the new operating environment that is rewriting who the customer is, who does the work, and what counts as proof that anything worked</em>."
     }
   }
 }
