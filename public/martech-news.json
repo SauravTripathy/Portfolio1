@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:14:05.665320+00:00",
+  "generatedAt": "2026-10-23T17:55:41.492400+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,63 +47,68 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "ModelOp Center 3.5 unifies governance of AI agents across Microsoft and Amazon, adds token-cost tracking",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/modelop-takes-control-of-enterprise-ai-agent-sprawl-with-expanded-microsoft-and-amazon-integrations/",
-          "plain": "ModelOp's new release gives enterprises a single control panel for every AI agent running across Microsoft Agent 365, Amazon Bedrock AgentCore, and Amazon Q — including <b>use-case-level token cost tracking</b>. As companies deploy more agents, knowing who's doing what and what it costs is a real governance gap. This directly changes how enterprises buy and oversee agentic AI.",
+          "head": "Limelit launches agentic GEO platform with MCP server and 211 automation tools",
+          "url": "https://martechseries.com/content/ai-visibility-tool-with-an-mcp-server-and-autonomous-content-agents-limelit-gives-ai-agents-211-tools-to-automate-geo-workflows-free-to-start/",
+          "plain": "Limelit connects Claude, ChatGPT, and other AI assistants to a platform that tracks brand visibility inside six AI search engines and runs <b>autonomous GEO workflows</b>. Agents identify content gaps and produce governed, approved content to close them. This matters because it turns GEO from a manual audit task into a <b>self-operating system</b> any marketing team can run.",
           "chips": [
+            "geo",
             "agentic",
-            "govern"
+            "govern",
+            "genai"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series · via Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "ThoughtSpot launches AgentSpot, pricing AI workforce by business outcome",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/introducing-agentspot-from-chatbots-to-multiplayer-ai/",
-          "plain": "AgentSpot shifts the model from single chatbots to <b>coordinated AI agents grounded in company data</b>, priced by outcome rather than seat. Built-in governance and centralized context let teams move fast without losing control. The outcome-based pricing model is a meaningful shift in how enterprise AI is bought and budgeted.",
+          "head": "EngageLab's Agent Email lets AI agents receive, understand, and reply to customer emails at scale",
+          "url": "https://martechseries.com/content/email-mktg/aurora-mobiles-engagelab-brings-ai-beyond-the-send-button-with-agent-email-letting-ai-agents-receive-and-answer-customer-replies-at-scale/",
+          "plain": "Aurora Mobile's EngageLab moves AI beyond outbound sends: its <b>Agent Email</b> infrastructure lets AI agents read inbound replies, answer them using a private knowledge base, and write intent signals back into CRM. Replies stay threaded in Gmail and Outlook. This shifts email from a broadcast tool to a <b>two-way agentic channel</b>, changing how engagement platforms are built.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "cep",
+            "decis",
+            "cdp"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Peec AI launches Peec Agent to help brands act on what AI search engines say about them",
+          "head": "Peec AI launches Peec Agent to help marketing teams act on AI search brand signals",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-launches-peec-agent-and-expands-actions-so-marketing-teams-can-act-on-what-ai-search-says-about-their-brand/",
-          "plain": "Peec Agent goes beyond monitoring to give marketing teams <b>evidence-backed actions — technical, content, and third-party — to improve how AI search engines represent their brand</b>. Used by 3,500+ companies, the move from insight to automated remediation marks a maturing of the GEO category into execution, not just measurement.",
+          "plain": "Peec Agent, used by 3,500+ companies, now delivers <b>evidence-backed recommendations</b> across technical, content, and third-party opportunities and can execute actions — not just report findings. It closes the loop between monitoring what AI search engines say about a brand and <b>actually changing that representation</b>, making GEO an active rather than passive discipline.",
           "chips": [
             "geo",
             "agentic",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "ChatGPT sends less than 1% of Google's traffic, but converts better — raising questions for GEO strategy",
-          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
-          "plain": "Data shows Google organic still drives 27× more conversions than all LLMs combined, yet <b>ChatGPT visitors converted at a higher rate per visit</b>. For marketers weighing investment in generative engine optimization versus traditional SEO, this benchmark resets expectations about where AI search actually sits today.",
+          "src": "MarTech · via MarTech.org",
+          "fresh": true,
+          "head": "Personalization works best when it targets what customers want, not who they are",
+          "url": "https://martech.org/personalization-knows-what-customers-want-not-who-they-are/",
+          "plain": "This piece argues that <b>intent-based personalization</b> outperforms identity-based profiling: consumers value useful, relevant offers but will leave if brands demand personal data without a clear benefit. It reframes the data-collection debate — less 'who are you?' and more 'what do you need right now?' — with direct implications for how CDPs and personalization engines should be designed.",
           "chips": [
-            "geo",
-            "genai"
+            "perso",
+            "cdp",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Creator content is shaping AI product recommendations — what brands need to know",
-          "url": "https://martech.org/creator-content-shapes-ai-product-recommendations/",
-          "plain": "AI recommendation engines are drawing on creator reviews, product experiences, and consumer sentiment — not just brand-owned pages — to surface products. <b>Brands that ignore creator-led content risk being invisible inside AI answers.</b> This connects influencer strategy directly to GEO and changes how content investment decisions are made.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "ThoughtSpot's AgentSpot prices AI analytics by business outcome, not seat",
+          "url": "https://agilebrandguide.com/introducing-agentspot-from-chatbots-to-multiplayer-ai/",
+          "plain": "AgentSpot positions itself as a <b>multiplayer AI workforce</b> grounded in company data, moving beyond single-user chatbots. ThoughtSpot's outcome-based pricing model — paying for results rather than licenses — signals a <b>new commercial pattern</b> for enterprise AI that could reshape how marketing AI tools are bought and budgeted across teams.",
           "chips": [
-            "geo",
-            "genai",
-            "perso"
+            "agentic",
+            "decis",
+            "govern",
+            "cdp"
           ]
         }
       ]
@@ -113,65 +118,67 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": false,
-          "head": "Salesforce acquires Braze for $5.7 billion, reshaping customer engagement platform market",
+          "fresh": true,
+          "head": "Salesforce's $5.7B Braze acquisition reshapes the customer engagement platform market",
           "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Salesforce's $5.7 billion purchase of Braze is one of the biggest martech deals in years. It combines Salesforce's data and AI stack with Braze's <b>real-time customer engagement</b> muscle. This changes how enterprise marketers will buy, build, and consolidate their messaging and personalization tools — and it already has competitors worried.",
+          "plain": "Salesforce is acquiring Braze, a leading <b>customer engagement platform</b>, for $5.7 billion. This is a major consolidation move that changes the competitive landscape for how brands buy and operate marketing technology. Any team evaluating CEP vendors or Salesforce's Data Cloud ecosystem now has a materially different set of options and lock-in risks to consider.",
           "chips": [
             "cep",
-            "perso",
-            "genai",
+            "cdp",
             "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
-          "fresh": false,
-          "head": "ModelOp Center 3.5 unifies governance of AI agent sprawl across Microsoft and Amazon platforms",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/modelop-takes-control-of-enterprise-ai-agent-sprawl-with-expanded-microsoft-and-amazon-integrations/",
-          "plain": "ModelOp's new release gives enterprises a single control panel for AI agents running across Microsoft 365 Agents and Amazon Bedrock — including <b>use-case-level token cost tracking</b>. As agentic AI spreads inside large companies, this kind of centralized oversight tool directly addresses the governance gap that makes buyers nervous about deploying agents at scale.",
+          "fresh": true,
+          "head": "Aurora Mobile's EngageLab launches Agent Email: AI agents that receive and reply to customer email at scale",
+          "url": "https://martechseries.com/content/email-mktg/aurora-mobiles-engagelab-brings-ai-beyond-the-send-button-with-agent-email-letting-ai-agents-receive-and-answer-customer-replies-at-scale/",
+          "plain": "EngageLab's Agent Email lets <b>AI agents handle inbound customer replies</b> — reading, understanding, and responding — while staying threaded in Gmail and Outlook and writing intent signals back to CRM. This moves AI email from just sending to fully autonomous two-way conversation, a significant shift in how customer engagement pipelines are built and governed.",
           "chips": [
             "agentic",
-            "govern"
+            "cep",
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Peec Agent launches to let marketing teams act on how their brand appears in AI search results",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-launches-peec-agent-and-expands-actions-so-marketing-teams-can-act-on-what-ai-search-says-about-their-brand/",
-          "plain": "Peec AI now goes beyond monitoring — its new agent surfaces evidence-backed fixes for <b>how a brand is represented inside AI-generated answers</b> and executes technical, content, and third-party changes. With 3,500+ companies using the platform, this marks a shift from passive GEO reporting to automated GEO action.",
+          "head": "Limelit launches agentic GEO platform with MCP server giving AI agents 211 tools to automate AI search visibility",
+          "url": "https://martechseries.com/content/ai-visibility-tool-with-an-mcp-server-and-autonomous-content-agents-limelit-gives-ai-agents-211-tools-to-automate-geo-workflows-free-to-start/",
+          "plain": "Limelit's platform connects Claude, ChatGPT, and Cursor to a <b>generative engine optimization workflow</b> that tracks brand visibility across six AI search engines and runs governed agents to turn visibility gaps into approved content automatically. It signals how <b>GEO is maturing from monitoring into autonomous action</b>, changing how marketing teams staff and budget for AI search.",
           "chips": [
             "geo",
             "agentic",
+            "govern",
             "genai"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "ChatGPT drives less than 1% of Google's traffic but converts at a higher rate",
-          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
-          "plain": "New data shows Google organic still delivers 27 times more conversions than all large language models combined — but <b>ChatGPT visitors convert at a meaningfully higher rate</b>. This is the clearest benchmark yet for how much budget and effort marketers should allocate to GEO versus traditional SEO right now.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Peec AI launches Peec Agent to let marketing teams act on what AI search engines say about their brand",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-launches-peec-agent-and-expands-actions-so-marketing-teams-can-act-on-what-ai-search-says-about-their-brand/",
+          "plain": "Peec Agent, used by over 3,500 companies, now goes beyond reporting to give <b>evidence-backed recommendations and autonomous actions</b> on how brands appear in AI search results. This shifts GEO from a reporting discipline into an agentic workflow, meaning marketers need to think about governance guardrails alongside visibility strategy.",
           "chips": [
             "geo",
-            "genai"
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Framer launches MCP server letting external AI agents build and edit websites with governed permissions",
-          "url": "https://agilebrandguide.com/framer-launches-official-mcp-server-letting-outside-ai-agents-build-and-edit-websites/",
-          "plain": "Framer's official Model Context Protocol server lets ChatGPT, Claude, Cursor, and Grok connect directly to live website projects. OAuth sign-in and <b>branch-based review steps</b> keep humans in the loop before changes go live. This is an early, concrete example of agentic AI taking action on owned marketing infrastructure — with governance baked in.",
+          "head": "ChatGPT sends less than 1% of Google's traffic but converts at a higher rate",
+          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
+          "plain": "New data shows ChatGPT drives under 1% of Google's traffic volume, yet <b>those visitors convert at a higher rate</b> — while Google organic still produces 27 times more total conversions than all LLMs combined. This benchmark gives marketers a concrete basis for deciding how much budget to shift toward GEO versus traditional SEO right now.",
           "chips": [
-            "agentic",
-            "govern",
-            "genai"
+            "geo",
+            "decis"
           ]
         }
       ]
@@ -181,34 +188,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The rise of <em>agentic AI orchestration</em> as the new marketing stack layer",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/introducing-agentspot-from-chatbots-to-multiplayer-ai/",
+          "head": "AI Agents Take Over the <em>Full Marketing Workflow</em>",
+          "url": "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/",
           "body": [
-            "The dominant story of the month is not individual AI tools but <b>coordinated networks of AI agents</b> that hand off tasks among themselves — what AgentSpot calls \"multiplayer AI.\" ModelOp's push to govern enterprise agent sprawl and Templafy's document-agent builder both signal that orchestration, not generation, is now the hard problem.",
-            "For a marketing decision-maker this means the stack question is no longer \"which AI tool?\" but <b>\"who governs the agents, and what data do they share?\"</b> Governance frameworks and reliable data pipelines become as important as the agents themselves — a structural shift that changes procurement, ops, and risk simultaneously."
+            "The past month marks a clear inflection point: AI is no longer just generating content or scoring leads — it is <b>executing end-to-end marketing tasks autonomously</b>. EngageLab's Agent Email receives and answers customer replies without human intervention; Limelit deploys 211 tools to automate GEO workflows; AgentSpot moves from single chatbots to coordinated multi-agent systems.",
+            "This shift from assistants to autonomous operators forces a structural question: <b>who owns the decisions AI agents are making</b>, and what data do they act on? Building a reliable source of truth — clean, governed, accessible — is now a prerequisite, not a nice-to-have, for any team deploying agentic martech."
           ],
           "ev": [
             [
-              "AgentSpot · multiplayer AI launch",
-              "https://agilebrandguide.com/introducing-agentspot-from-chatbots-to-multiplayer-ai/"
-            ],
-            [
-              "ModelOp · agent sprawl governance",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/modelop-takes-control-of-enterprise-ai-agent-sprawl-with-expanded-microsoft-and-amazon-integrations/"
-            ],
-            [
-              "MarTech · building a source of truth for agents",
+              "MarTech · Agents need a source of truth",
               "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/"
+            ],
+            [
+              "MarTech Series · EngageLab Agent Email",
+              "https://martechseries.com/content/email-mktg/aurora-mobiles-engagelab-brings-ai-beyond-the-send-button-with-agent-email-letting-ai-agents-receive-and-answer-customer-replies-at-scale/"
+            ],
+            [
+              "Agile Brand · AgentSpot multi-agent",
+              "https://agilebrandguide.com/introducing-agentspot-from-chatbots-to-multiplayer-ai/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI search visibility</em> replaces SEO as brand discoverability battleground",
+          "head": "MCP Becomes the <em>New Integration Standard</em> for MarTech",
+          "url": "https://agilebrandguide.com/framer-launches-official-mcp-server-letting-outside-ai-agents-build-and-edit-websites/",
+          "body": [
+            "Model Context Protocol (MCP) servers are quietly becoming the connective tissue of modern martech stacks. Framer launched an official MCP server so outside AI agents can build and edit websites directly; GeeLark added MCP support to its cloud phone workflows; Limelit built its GEO automation layer on MCP. <b>Multiple independent vendors converging on the same protocol in a single month is a standardization signal, not a coincidence.</b>",
+            "For martech buyers, MCP adoption means the composability question is shifting from APIs to agent-readable interfaces. Teams that choose platforms with MCP support today are <b>preserving optionality</b> to plug in whatever AI orchestration layer wins — rather than locking into a single vendor's agent runtime."
+          ],
+          "ev": [
+            [
+              "Agile Brand · Framer MCP server",
+              "https://agilebrandguide.com/framer-launches-official-mcp-server-letting-outside-ai-agents-build-and-edit-websites/"
+            ],
+            [
+              "MarTech Series · GeeLark API &amp; MCP",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/geelark-expands-cloud-phone-workflows-with-api-cli-and-mcp-support/"
+            ],
+            [
+              "MarTech Series · Limelit GEO &amp; MCP",
+              "https://martechseries.com/content/ai-visibility-tool-with-an-mcp-server-and-autonomous-content-agents-limelit-gives-ai-agents-211-tools-to-automate-geo-workflows-free-to-start/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "AI Search Reshapes <em>Brand Discoverability</em> at Its Root",
           "url": "https://martech.org/ai-search-is-turning-prompts-into-customer-research/",
           "body": [
-            "AI-powered search engines are now where buyers form opinions, and the signals they consume are <b>different from classic SEO signals</b> — creator content, structured product data, and cited sources inside chat responses matter more than PageRank. Peec AI's agent launch and CommerceIQ's \"discoverability as the new shelf\" framing both land on the same insight: if an AI answer doesn't mention your brand, you are effectively off the shelf.",
-            "Meanwhile, the \"AI visibility score\" article warns that top-line scores can mask category-level blind spots, and MarTech's data point that <b>ChatGPT delivers less than 1% of Google's referral traffic</b> reminds strategists that influence on AI answers does not yet translate cleanly into clicks — so measurement models need rebuilding from scratch."
+            "AI search engines are transforming how buyers research products — prompts are replacing queries, and the content that surfaces inside an AI answer is becoming the new top-of-funnel. <b>Creator content is already shaping AI product recommendations</b>, and CommerceIQ's CEO frames retail-media and product content as a single discoverability system, not separate channels. Peec AI launched an agent specifically to monitor and act on what AI search says about a brand.",
+            "Meanwhile, data showing <b>ChatGPT still sends less than 1% of Google's traffic</b> is a useful corrective: AI search influence on purchase decisions is already large even when referral traffic looks small, because the research happens inside the model. Marketers who wait for traffic dashboards to signal the shift will arrive late."
           ],
           "ev": [
             [
@@ -216,86 +246,63 @@
               "https://martech.org/ai-search-is-turning-prompts-into-customer-research/"
             ],
             [
-              "Peec AI · act on what AI search says about your brand",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/peec-ai-launches-peec-agent-and-expands-actions-so-marketing-teams-can-act-on-what-ai-search-says-about-their-brand/"
+              "MarTech · Creator content shapes AI recommendations",
+              "https://martech.org/creator-content-shapes-ai-product-recommendations/"
             ],
             [
-              "MarTech · AI visibility score problem",
-              "https://martech.org/your-ai-visibility-score-may-be-hiding-a-problem/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "Customer engagement shifts from <em>journeys to real-time decisions</em>",
-          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
-          "body": [
-            "The journey-map mental model — fixed stages, linear funnels — is giving way to a <b>decision-moment model</b> where AI evaluates context in real time and acts immediately. The Golden State Warriors' agentic voice platform for fan engagement is a live example: engagement is triggered by a fan query at any moment, not by a campaign calendar.",
-            "This reframes the marketer's job from designing sequences to <b>defining decision rules and data inputs</b> that agents use moment to moment. Voice-of-the-customer programs must also be retooled — continuous signal capture replaces periodic surveys — because the cadence of customer decisions has outpaced the cadence of traditional research."
-          ],
-          "ev": [
-            [
-              "MarTech · journeys to decisions",
-              "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/"
-            ],
-            [
-              "MarTech · rethink voice of the customer",
-              "https://martech.org/its-time-to-re-think-voice-of-the-customer-programs/"
-            ],
-            [
-              "GSW · agentic voice fan engagement",
-              "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/golden-state-warriors-name-ringcentral-official-agentic-ai-powered-voice-platform-for-fan-engagement/"
+              "MarTech · ChatGPT traffic vs Google",
+              "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Creator &amp; influencer content becomes <em>AI training signal</em>, not just reach",
-          "url": "https://martech.org/creator-content-shapes-ai-product-recommendations/",
+          "head": "Personalization Pivots to <em>Intent, Not Identity</em>",
+          "url": "https://martech.org/personalization-knows-what-customers-want-not-who-they-are/",
           "body": [
-            "A quiet but consequential shift: <b>creator content is now an input to AI product recommendation engines</b>, not merely a channel for human eyeballs. When an AI summarises \"best running shoes,\" it draws on reviews, unboxings, and tutorials — which means influencer briefs need to optimise for machine readability alongside human appeal.",
-            "Extreme Reach's \"XR Pay for Creators\" launch, which puts influencer payment infrastructure on par with celebrity talent, signals that the industry is professionalising creator relationships at scale. <b>Brands that treat creator content purely as paid media placements will lose the AI-recommendation layer</b> to competitors who treat it as structured product data."
+            "A maturing signal in this month's coverage is the explicit rejection of identity-based personalization in favor of <b>behavioral intent signals</b>. The argument is practical: knowing what a customer wants in the moment — inferred from context, content consumption, and decision patterns — is more actionable than a demographic profile, and survives privacy constraints that are dismantling third-party identity graphs.",
+            "This aligns with the broader shift from customer journeys to real-time decisions described in the 'next era of customer engagement' piece. <b>Marketers are being asked to architect systems that decide, not just segment</b> — which means AI inference engines, not CRM records, become the personalization backbone going forward."
           ],
           "ev": [
             [
-              "MarTech · creator content &amp; AI recommendations",
-              "https://martech.org/creator-content-shapes-ai-product-recommendations/"
+              "MarTech · Personalization = wants not who",
+              "https://martech.org/personalization-knows-what-customers-want-not-who-they-are/"
             ],
             [
-              "Extreme Reach · XR Pay for Creators",
-              "https://agilebrandguide.com/advertising-payments-leader-extreme-reach-launches-xr-pay-for-creators-putting-influencers-on-par-with-the-biggest-celebs/"
+              "MarTech · Journeys to decisions",
+              "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/"
             ],
             [
-              "CommerceIQ · discoverability as the new shelf",
-              "https://agilebrandguide.com/commerceiq-ceo-rahul-shah-on-discoverability-as-the-new-shelf/"
+              "Agile Brand · Measure AI by customers kept",
+              "https://agilebrandguide.com/expert-mode-measure-ai-by-the-customers-it-keeps-with-tim-hayden-from-braintrust-partners/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI governance &amp; <em>skills gaps</em> are now execution blockers, not future risks",
-          "url": "https://martech.org/adding-ai-or-headcount-wont-fix-a-marketing-skills-gap/",
+          "head": "<em>Composable Architecture</em> Becomes the Default Stack Decision",
+          "url": "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/",
           "body": [
-            "Several items converge on a single uncomfortable truth: <b>most marketing organisations lack the judgment infrastructure to deploy AI responsibly at speed.</b> Adding tools or headcount doesn't close a skills gap rooted in unclear decision rights, data literacy deficits, and absent governance — a point reinforced by the email-marketing-as-governance-model analogy, which notes that email took decades to develop the norms AI needs now.",
-            "The \"measure AI by the customers it keeps\" framing from BrainTrust Partners adds a concrete accountability lens: <b>retention and trust metrics, not output volume, should be the KPIs for AI programmes.</b> For new entrants to the field, the practical implication is that governance design and change management are higher-leverage investments right now than any individual AI tool purchase."
+            "Composable martech — assembling best-of-breed modules rather than buying a monolithic suite — has crossed from trend to working assumption. The driver is speed of AI change: <b>no single platform can iterate fast enough</b> to cover every emerging AI capability, so teams that locked into suites are already hitting ceilings. Composability is the structural answer to an environment where the tooling changes quarterly.",
+            "The practical consequence is that <b>data architecture decisions now precede vendor decisions</b>. CEOs are asking questions dashboards cannot answer, skills gaps cannot be papered over with headcount or AI alone, and AI governance needs the kind of deliberate policy layer email marketing built over decades. Composable stacks only deliver their promise if the underlying data, governance, and skills are solid — making this theme inseparable from every other shift in this month's coverage."
           ],
           "ev": [
             [
-              "MarTech · AI won't fix a skills gap",
-              "https://martech.org/adding-ai-or-headcount-wont-fix-a-marketing-skills-gap/"
+              "MarTech · Composable martech is the new standard",
+              "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/"
             ],
             [
-              "MarTech · email history guides AI governance",
+              "MarTech · CEO wants answers dashboards can't give",
+              "https://martech.org/your-ceo-wants-answers-your-dashboard-cant-give/"
+            ],
+            [
+              "MarTech · AI governance lessons from email",
               "https://martech.org/email-marketings-history-can-guide-ai-governance/"
-            ],
-            [
-              "Agile Brand · measure AI by customers it keeps",
-              "https://agilebrandguide.com/expert-mode-measure-ai-by-the-customers-it-keeps-with-tim-hayden-from-braintrust-partners/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — search, engagement, content, and ops — <em>AI is moving authority away from human-scheduled campaigns and toward autonomous agents making real-time decisions</em>, which means the most urgent marketing investments are in governance, data quality, and the judgment to set the rules those agents follow."
+      "takeaway": "Every major move this month — agentic automation, MCP standardization, AI-search discoverability, intent-led personalization, and composable stacks — converges on one irreversible reality: <em>the martech stack is being rebuilt around AI inference rather than human workflow</em>, and teams that treat this as a tooling upgrade rather than an architectural rethink will find themselves optimizing a system that no longer matches how customers or markets actually behave."
     }
   }
 }
