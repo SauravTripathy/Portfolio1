@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T19:26:20.227586+00:00",
+  "generatedAt": "2026-10-27T10:42:59.686307+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -46,69 +46,71 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "The next wave of marketing automation is taking aim at Marketo",
           "url": "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/",
-          "plain": "Marketo's original architects are building AI-native rivals that replace its complex, manually configured workflows with autonomous agents. This matters because <b>Marketo-style marketing automation</b> underpins billions in spend, and a credible replacement challenge signals a major shift in how marketing software is bought and built — not just incremental AI bolted onto legacy platforms.",
+          "plain": "Marketo's original architects are building AI-native platforms meant to replace the complex manual workflows that define today's marketing automation. If they succeed, <b>the category of MAP (Marketing Automation Platform) gets rebuilt from scratch</b> around agentic logic — a shift that affects every marketing ops budget and vendor shortlist.",
           "chips": [
             "agentic",
+            "genai",
             "cep",
-            "decis",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Restructuring martech ops for autonomous AI agents",
-          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
-          "plain": "Marketing operations teams are being redesigned from task executors into <b>AI fleet managers</b>, overseeing autonomous agents rather than running campaigns step by step. This practical shift affects hiring, tooling, and governance structures — making it essential reading for anyone building or buying martech stacks that include agentic systems.",
+          "head": "Bloomreach launches zero-copy activation for any data warehouse or CDP",
+          "url": "https://martechseries.com/analytics/data-management-platforms/as-martech-consolidates-into-closed-systems-bloomreach-doubles-down-on-openness-with-zero-copy-activation-for-any-data-warehouse-or-cdp/",
+          "plain": "Bloomreach now lets brands pull audience segments from any CDP or data warehouse into its engagement platform <b>without copying or moving the data</b>. This composable approach directly challenges closed-stack vendors and lowers the switching cost for brands that want to mix best-of-breed tools — a meaningful architectural choice for martech buyers.",
           "chips": [
-            "agentic",
-            "govern",
+            "cdp",
             "cep",
-            "decis"
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Parloa's Agent Management Platform becomes an SAP Solution Extension for agentic customer interactions",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/parloas-agent-management-platform-now-sold-as-an-sap-solution-extension-for-agentic-customer-interactions/",
-          "plain": "Parloa's platform for building, deploying, and governing AI customer-service agents is now <b>embedded inside SAP's ecosystem</b> as a certified Solution Extension. SAP's massive enterprise install base means this accelerates how quickly large companies can deploy agentic CX — and raises the bar for governance controls baked into those agents.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Restructuring martech ops for autonomous AI agents",
+          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
+          "plain": "A practical look at how Marketing Ops teams are evolving from running workflows to <b>managing fleets of autonomous AI agents</b> — new skills, new oversight structures, and new governance needs. Directly relevant to anyone deciding how to staff or organize a modern MOps function alongside agentic tools.",
           "chips": [
             "agentic",
-            "cep",
             "govern",
+            "cep",
             "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Why winning AI search isn't enough to win B2B buyers",
-          "url": "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/",
-          "plain": "Getting cited in AI-generated answers drives traffic, but <b>cognitive-load barriers</b> — vague claims, confusing navigation, missing proof — still kill conversion after the click. The piece introduces cognitive-load testing as a practical complement to GEO, reframing the funnel for an era where the first touchpoint is often an AI answer rather than a search listing.",
+          "head": "Omnichat raises $10M Series A to scale Agentic AI marketing platform globally",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omnichat-raises-us10m-series-a-led-by-openspace-capital-to-scale-ai-agent-platform-and-drive-global-expansion/",
+          "plain": "Omnichat secured $10 million to expand its AI-native customer engagement platform, with investment focused on <b>Omni AI Agents that act autonomously across marketing and CX channels</b>. This signals continued investor appetite for agentic CEP challengers and raises competitive pressure on established platforms.",
           "chips": [
-            "geo",
+            "agentic",
+            "cep",
+            "decis",
             "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "TapClicks releases MCP server for governed AI access to marketing data",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/tapclicks-delivers-governed-ai-data-access-with-the-public-release-of-tapclicks-mcp/",
-          "plain": "TapClicks now lets Claude, ChatGPT, Gemini, and other AI assistants query live campaign data directly via a <b>Model Context Protocol server</b>, with governance controls on what data each AI can see. This is an early commercial example of governed AI data access for marketing intelligence — a pattern likely to spread across the martech stack.",
+          "head": "Dataiku demos Agent Management: one inventory of AI agents across Salesforce, Snowflake, and Databricks",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-dataiku-agent-management-with-jed-dougherty/",
+          "plain": "Dataiku's Agent Management tool gives enterprises a single dashboard to track, cost, and govern AI agents running across multiple cloud and CRM platforms. <b>Centralised agent oversight with built-in risk controls</b> is exactly what governance-minded buyers need as agentic deployments multiply — and this demo shows what that looks like in practice.",
           "chips": [
-            "cdp",
-            "govern",
             "agentic",
-            "genai"
+            "govern",
+            "decis",
+            "cdp"
           ]
         }
       ]
@@ -118,10 +120,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "The next wave of marketing automation is taking aim at Marketo",
           "url": "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/",
-          "plain": "Marketo's original architects are building AI-native platforms that <b>replace complex workflow configuration with autonomous agents</b>. This matters because it signals a structural shift in how marketing automation is bought and built — moving from rules-based tools requiring heavy admin to systems that decide and act on their own, threatening incumbents at the core of the martech stack.",
+          "plain": "Original Marketo architects are building <b>AI-native automation</b> that replaces complex manual workflows with models that decide and act. This matters because it signals a platform-level shift in how B2B marketing is bought and run — incumbent MAP vendors face structural pressure, not just feature competition.",
           "chips": [
             "agentic",
             "decis",
@@ -132,10 +134,10 @@
         {
           "num": "02",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "Restructuring martech ops for autonomous AI agents",
           "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
-          "plain": "Marketing operations teams are shifting from running campaigns manually to <b>managing fleets of autonomous AI agents</b> alongside traditional software. This redefines MOps roles, hiring needs, and governance structures — directly changing how marketing AI is built and overseen inside organisations of every size.",
+          "plain": "MOps teams are being recast as <b>AI fleet managers</b>, overseeing autonomous agents rather than configuring individual campaign tasks. This is a practical operations guide that changes how marketing teams are structured, hired, and governed — directly affecting how AI is built and run inside brands.",
           "chips": [
             "agentic",
             "govern",
@@ -145,39 +147,43 @@
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Why winning AI search isn't enough to win B2B buyers",
-          "url": "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/",
-          "plain": "Appearing in AI-generated answers gets buyers to your site, but <b>cognitive load — confusing navigation and vague claims — loses them after arrival</b>. The piece introduces cognitive-load testing as a complement to GEO strategy, showing that visibility and conversion must be optimised together for AI-era B2B marketing to work.",
+          "head": "Bloomreach launches zero-copy activation from any data warehouse or CDP",
+          "url": "https://martechseries.com/analytics/data-management-platforms/as-martech-consolidates-into-closed-systems-bloomreach-doubles-down-on-openness-with-zero-copy-activation-for-any-data-warehouse-or-cdp/",
+          "plain": "Bloomreach's <b>external segments feature</b> lets brands pipe audiences directly from Snowflake, Databricks, or any CDP into its engagement platform without copying data. As martech consolidates into closed stacks, this composable approach changes the build-vs-buy calculus for brands that want data portability without sacrificing activation speed.",
           "chips": [
-            "geo",
-            "perso"
+            "cdp",
+            "cep",
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "ChatGPT sends less than 1% of Google's traffic, but converts better",
-          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
-          "plain": "Data shows Google organic still drives <b>27 times more conversions than all LLMs combined</b>, yet ChatGPT visitors convert at a higher rate when they do arrive. This benchmark helps marketers decide how much budget and effort to allocate to generative engine optimisation versus traditional SEO right now.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Omnichat raises $10M Series A to scale Agentic AI marketing platform globally",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/omnichat-raises-us10m-series-a-led-by-openspace-capital-to-scale-ai-agent-platform-and-drive-global-expansion/",
+          "plain": "Omnichat secured $10M to expand its <b>Omni AI Agents</b> — autonomous systems that handle marketing and customer experience across channels. The funding signals growing investor conviction in agentic CX platforms, and the global expansion push will test whether agentic decisioning scales across different regulatory markets.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "decis",
+            "cep",
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "Creator content shapes AI product recommendations",
-          "url": "https://martech.org/creator-content-shapes-ai-product-recommendations/",
-          "plain": "AI recommendation engines increasingly pull from creator reviews and consumer sentiment rather than brand copy alone. <b>Brands that don't seed creator content risk being omitted from AI-driven product suggestions</b>, making influencer and UGC strategy a direct input into how products are discovered — a new dimension of generative engine optimisation.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Brandi AI expands GEO platform with Content Compass 2.0 and brand voice analytics",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandi-ai-expands-its-ai-visibility-and-geo-platform-to-connect-narrative-intelligence-content-development-and-performance-measurement/",
+          "plain": "Brandi AI now connects <b>AI visibility measurement to content creation and performance tracking</b> in one platform. For marketers, this closes the loop between knowing where your brand appears in AI-generated answers and actually optimizing content to improve that presence — a capability gap most enterprises currently fill with disconnected tools.",
           "chips": [
             "geo",
             "genai",
-            "perso"
+            "govern"
           ]
         }
       ]
@@ -187,121 +193,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "<em>Agentic Operations</em> Demand a New Martech Stack",
-          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
+          "head": "The <em>Silent B2B Decision</em>: AI Search Rewrites the Buying Journey",
+          "url": "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/",
           "body": [
-            "The dominant story this month is not AI as a feature but AI as an <b>operator</b>. Autonomous agents are being wired directly into email infrastructure, SAP enterprise systems, and SEO pipelines — meaning the stack must now support machine-to-machine workflows, not just human-to-dashboard ones.",
-            "This shift forces a structural decision: existing platforms like Marketo were built for human-paced campaign cycles, and a new generation of automation tools is explicitly targeting that gap. <b>Teams that don't redesign their ops model around agents will find their tooling becomes the bottleneck.</b>"
+            "B2B buyers are arriving at conversations with vendors having already formed strong preferences — shaped by AI-generated summaries, creator content, and prompt-driven research rather than traditional search results. Winning visibility in ChatGPT or Perplexity is now a prerequisite, but it still does not guarantee a sale because trust and narrative must also hold up under scrutiny.",
+            "The strategic shift is that <b>brand narrative must be engineered for AI retrieval</b>, not just SEO. Platforms like Brandi AI are emerging specifically to connect narrative intelligence with generative-engine optimisation (GEO) and performance measurement, signalling that a new category of tools is forming around this problem."
           ],
           "ev": [
             [
-              "MarTech · Restructuring ops for agents",
-              "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
+              "Agile Brand · B2B buyer decides before meeting",
+              "https://agilebrandguide.com/expert-mode-why-your-b2b-buyer-has-already-made-a-decision-before-you-meet-them/"
             ],
             [
-              "MarTech · Next wave targeting Marketo",
-              "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/"
+              "MarTech · AI search turns prompts into research",
+              "https://martech.org/ai-search-is-turning-prompts-into-customer-research/"
             ],
             [
-              "Agile Brand · Parloa on SAP as agent platform",
-              "https://agilebrandguide.com/parloas-agent-management-platform-now-sold-as-an-sap-solution-extension-for-agentic-customer-interaction/"
+              "MarTech Series · Brandi AI GEO platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandi-ai-expands-its-ai-visibility-and-geo-platform-to-connect-narrative-intelligence-content-development-and-performance-measurement/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "AI Search Wins <em>Visibility but Not Buyers</em>",
-          "url": "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/",
+          "head": "<em>Agentic Infrastructure</em> Becomes the New Martech Stack",
+          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
           "body": [
-            "Two data points collide this month: ChatGPT sends less than 1% of Google's referral traffic, yet AI search is increasingly where B2B buyers begin their research. <b>Appearing in an AI answer and converting that appearance into pipeline are entirely different problems</b>, and most teams are optimising for only the first.",
-            "Creator and third-party content is emerging as a decisive factor — AI recommendation engines surface it heavily, meaning brand authority now depends on the broader content ecosystem, not just owned channels. Winning AI search is a <b>necessary but insufficient condition</b> for demand generation."
+            "The conversation has moved beyond AI features bolted onto existing tools: autonomous agents now need their own management layers, reliable data sources-of-truth, and governance frameworks before they can be trusted to act on behalf of a brand. Dataiku, Parloa, Halon, and Omnichat all launched or extended agent-management products this month, pointing to a new infrastructure tier sitting between data warehouses and customer touchpoints.",
+            "<b>Operators must redesign their martech ops</b> — not just adopt new tools — because agents make decisions at machine speed without human sign-off. The practical question is no longer 'which AI feature do I add?' but 'what guardrails, data contracts, and orchestration logic do I put in place first?'"
           ],
           "ev": [
             [
-              "MarTech · AI search not enough for B2B",
-              "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/"
+              "MarTech · restructuring ops for agents",
+              "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
             ],
             [
-              "MarTech · ChatGPT under 1% of Google traffic",
-              "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
+              "MarTech · build a reliable source of truth for AI agents",
+              "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/"
             ],
             [
-              "MarTech · Creator content shapes AI recommendations",
-              "https://martech.org/creator-content-shapes-ai-product-recommendations/"
+              "Agile Brand · Dataiku agent management",
+              "https://agilebrandguide.com/one-amazing-thing-about-dataiku-agent-management-with-jed-dougherty/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "<em>Governed Data Access</em> as the New Infrastructure Layer",
-          "url": "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/",
+          "head": "Open vs. Closed: The <em>Composability War</em> in Martech Platforms",
+          "url": "https://martechseries.com/analytics/data-management-platforms/as-martech-consolidates-into-closed-systems-bloomreach-doubles-down-on-openness-with-zero-copy-activation-for-any-data-warehouse-or-cdp/",
           "body": [
-            "As agents proliferate, the question of <b>what data they can see and trust</b> has become urgent. Releases like TapClicks MCP and Rapid Indexer's MCP Server signal a convergence around the Model Context Protocol as a standard for giving AI agents governed, auditable access to marketing data sources.",
-            "The underlying decision for strategists: <b>you cannot delegate to an agent you haven't given a reliable source of truth</b>. Dashboards built for human interpretation fail agents that need structured, permissioned, machine-readable feeds — making data infrastructure a prerequisite, not an afterthought."
+            "As major vendors consolidate into walled-garden suites, a counter-movement is gathering momentum: composable, open architectures that let marketers activate data from any warehouse or CDP without copying it. Bloomreach's zero-copy activation and the broader argument for composable martech reflect a growing belief that <b>vendor lock-in is now a strategic risk</b>, not just a procurement inconvenience.",
+            "The next-generation marketing-automation challengers targeting Marketo are also exploiting this gap — promising flexibility and modern data contracts that legacy suites cannot easily retrofit. For decision-makers, the core question is whether short-term integration convenience with a closed suite outweighs the long-term cost of being unable to swap components as AI capabilities evolve rapidly."
           ],
           "ev": [
             [
-              "MarTech · Reliable source of truth for agents",
-              "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/"
+              "MarTech · composable martech is the new standard",
+              "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/"
             ],
             [
-              "MarTech Series · TapClicks governed AI data via MCP",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/tapclicks-delivers-governed-ai-data-access-with-the-public-release-of-tapclicks-mcp/"
+              "MarTech · next wave targeting Marketo",
+              "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/"
             ],
             [
-              "MarTech Series · Rapid Indexer MCP for SEO agents",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automating-seo-and-link-building-for-ai-agents-with-rapid-indexers-new-mcp-server1/"
+              "MarTech Series · Bloomreach zero-copy openness",
+              "https://martechseries.com/analytics/data-management-platforms/as-martech-consolidates-into-closed-systems-bloomreach-doubles-down-on-openness-with-zero-copy-activation-for-any-data-warehouse-or-cdp/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Personalization Shifts to <em>Intent Over Identity</em>",
+          "head": "<em>Behavioural Personalisation</em> Displaces Identity-Based Targeting",
           "url": "https://martech.org/personalization-knows-what-customers-want-not-who-they-are/",
           "body": [
-            "A quiet but consequential reframe is underway: effective personalization no longer requires knowing <b>who</b> a customer is — it requires knowing <b>what they want right now</b>. Behavioral and contextual signals are outperforming identity-based targeting as privacy constraints tighten and cookie deprecation continues.",
-            "The commercial evidence is stark: 46% of frequent shoppers have abandoned a site while ready to buy, pointing to a failure of real-time intent recognition rather than a lack of profile data. <b>The architecture implication is a move from CRM-centric to signal-centric personalization engines.</b>"
+            "A quiet but decisive shift is underway: effective personalisation is increasingly built on <b>what a customer is doing right now</b> rather than who they are in a profile. The Gladly finding that 46% of frequent shoppers abandoned a site while ready to buy underscores how badly moment-of-intent signals are still being missed, even with sophisticated identity graphs in place.",
+            "Creator content influencing AI product recommendations adds another dimension — the signals shaping purchase intent are now distributed across platforms that brands do not own or fully monitor. Marketers need real-time behavioural infrastructure, not richer demographic segments, to intercept these moments before a competitor's narrative fills the gap."
           ],
           "ev": [
             [
-              "MarTech · Personalization on intent not identity",
+              "MarTech · personalisation knows what not who",
               "https://martech.org/personalization-knows-what-customers-want-not-who-they-are/"
             ],
             [
-              "Agile Brand · 46% leave ready to buy",
+              "Agile Brand · 46% left site ready to buy",
               "https://agilebrandguide.com/46-of-frequent-shoppers-have-left-a-site-ready-to-buy-gladly-survey-finds/"
             ],
             [
-              "MarTech · AI search turns prompts into research",
-              "https://martech.org/ai-search-is-turning-prompts-into-customer-research/"
+              "MarTech · creator content shapes AI recommendations",
+              "https://martech.org/creator-content-shapes-ai-product-recommendations/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "<em>Composable &amp; Creative</em> Investment as Strategic Moats",
-          "url": "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/",
+          "head": "AI Measurement Gap: <em>Dashboards vs. Decisions</em>",
+          "url": "https://martech.org/your-ceo-wants-answers-your-dashboard-cant-give/",
           "body": [
-            "Composable martech — assembling best-of-breed components rather than buying monolithic suites — is moving from niche preference to mainstream standard, driven by the need to swap in AI modules without rearchitecting entire platforms. <b>Flexibility is now a measurable competitive advantage</b>, not just an IT preference.",
-            "Running in parallel, research from System1 reinforces that <b>creative quality combined with media placement explains 60% of campaign outcomes</b> — a reminder that no amount of stack optimisation substitutes for strong creative. The strategic tension is balancing investment in adaptive infrastructure with sustained investment in creative as a revenue driver, not a cost line."
+            "Executives are demanding business-outcome answers — revenue attribution, competitive impact, scenario modelling — while most martech dashboards still report on campaign metrics. The arrival of AI-powered intelligence layers (Adsterra's decade-trained ad engine, Revvim's auction-gap analysis) shows the market responding, but the organisational gap between data output and executive decision-making remains wide.",
+            "<b>The measurement problem is also structural</b>: ChatGPT sending less than 1% of Google's traffic volume yet influencing a disproportionate share of considered purchases means that click-based attribution models now systematically undercount AI-assisted journeys. Marketers who do not redesign their measurement frameworks around influence — not just last-click — will misread where budget is actually working."
           ],
           "ev": [
             [
-              "MarTech · Composable martech becomes standard",
-              "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/"
-            ],
-            [
-              "Agile Brand · Creative as investment not line item",
-              "https://agilebrandguide.com/system1-chief-growth-officer-andrew-tindall-on-treating-creative-as-an-investment-not-a-line-item/"
-            ],
-            [
               "MarTech · CEO wants answers dashboards can't give",
               "https://martech.org/your-ceo-wants-answers-your-dashboard-cant-give/"
+            ],
+            [
+              "MarTech · ChatGPT sends less than 1% of Google traffic",
+              "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
+            ],
+            [
+              "Agile Brand · Revvim uncontested auction value",
+              "https://agilebrandguide.com/revvim-ceo-matt-lebaron-on-unlocking-value-in-your-existing-ad-campaigns/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every theme this month, the common forcing function is the same: <em>AI agents are graduating from assistants to operators, and the entire martech discipline — data, stack, personalization, search, and creative — must be re-evaluated against that new reality.</em>"
+      "takeaway": "Every theme this month points to the same underlying pressure: <em>AI has collapsed the distance between a buyer forming an opinion and a buyer making a decision</em>, forcing marketers to rebuild their infrastructure, measurement, and narrative strategies around influence signals they do not yet fully own or see."
     }
   }
 }
