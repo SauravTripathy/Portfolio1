@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T18:58:19.262774+00:00",
+  "generatedAt": "2026-10-29T11:37:17.796188+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,23 +45,11 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "WRITER Launches Invisible, Enterprise-Specific Watermarks for AI-Generated Text",
-          "url": "https://martechseries.com/content/writer-gives-enterprises-control-over-ai-detection-with-invisible-customer-specific-watermarks/",
-          "plain": "WRITER now lets enterprises embed invisible, customer-specific watermarks into AI-generated text so they can track and verify their own outputs. This matters because <b>AI content governance</b> is a rising compliance demand — brands need audit trails proving what was human-written versus machine-generated, and this is one of the first enterprise tools to hand that control directly to the buyer.",
-          "chips": [
-            "genai",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Fibr AI Launches Agent Experience Optimization (AXO) to Make Websites Readable by AI Agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/",
-          "plain": "Fibr AI's new AXO product adapts brand websites dynamically for each visiting AI platform or autonomous agent — so the site surfaces correctly inside AI-driven answers and can be acted upon in <b>agent-led purchases</b>. This is a direct commercial response to the rise of agentic shopping, pushing GEO beyond search into task-completing AI systems.",
+          "head": "Fibr AI Launches Agent Experience Optimization (AXO) to Make Websites Visible and Actionable to AI Agents",
+          "url": "https://agilebrandguide.com/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/",
+          "plain": "Fibr AI's new AXO product adapts brand websites in real time depending on which AI platform or autonomous agent is visiting — not just human visitors. This matters because <b>AI agents are increasingly the ones deciding what to buy or recommend</b>, so brands that can't be read and acted on by those agents lose out before a human ever sees a result.",
           "chips": [
             "geo",
             "agentic",
@@ -69,43 +57,54 @@
           ]
         },
         {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Sprinklr Report: 92% of Firms Say AI Improved CX, Only 27% Can Prove It",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sprinklr-research-92-of-organizations-claim-ai-delivered-improved-customer-experience-only-27-can-prove-it/",
+          "plain": "A new Sprinklr/Metric Sherpa study exposes a massive gap between confidence and evidence in AI-driven customer experience. <b>Most organizations can claim AI is working but cannot measure or demonstrate the impact</b>. For anyone buying or governing marketing AI, this is a direct warning that measurement frameworks need to be built before — not after — deployment.",
+          "chips": [
+            "govern",
+            "cep"
+          ]
+        },
+        {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Zoho Analytics Becomes Intelligence Layer Grounding AI Agents in Trusted Business Data",
-          "url": "https://martechseries.com/mts-insights/zoho-brings-trusted-business-intelligence-to-ai-agents-in-zoho-analytics-platform-evolution-connecting-data-business-context-insights-and-action/",
-          "plain": "Zoho is evolving its Analytics platform into a semantic and ontology layer that feeds verified business context to AI agents across its app ecosystem. This is significant because <b>grounding agentic AI in trusted, structured data</b> — rather than raw text — is the key governance challenge enterprises face when deploying autonomous decision-making tools.",
+          "head": "Monte Carlo Launches Bayes, an AI Agent That Autonomously Detects and Fixes Broken Production Agents",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/monte-carlo-launches-bayes-an-ai-teammate-that-fixes-production-ai-agents-and-their-data/",
+          "plain": "Monte Carlo's Bayes is an AI agent that watches other AI agents in production, spots data and logic failures, and fixes them without waiting for a human. <b>Governing a fleet of AI agents at scale requires automated oversight</b>, and Bayes is among the first commercial tools built specifically for that job — directly affecting how enterprises buy and trust agentic systems.",
           "chips": [
             "agentic",
-            "decis",
-            "govern",
-            "cdp"
+            "govern"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Ameena.ai Launches Strategic Judgment Layer for B2B Marketing Stacks",
-          "url": "https://martechseries.com/sales-marketing/ameena-ai-launches-the-strategic-layer-b2b-marketing-tools-are-missing/",
-          "plain": "Ameena.ai sits on top of existing B2B marketing tools to spot where pipeline is falling behind and recommend actions while there is still time to course-correct. It targets marketing VPs who have data but lack <b>real-time strategic decisioning</b> — positioning itself as the reasoning layer above dashboards, not another data warehouse.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Akeneo Autumn 2026 Release: AI Agents Take Over Product Data Work With Enterprise Controls Built In",
+          "url": "https://agilebrandguide.com/akeneo-puts-ai-agents-to-work-across-product-data-with-enterprise-control-built-in/",
+          "plain": "Akeneo's latest platform release hands more product data tasks to AI agents while keeping every action auditable and reversible — plus it acquires AI-native PIM specialist Dataggo. <b>Embedding governance directly into agentic workflows</b>, rather than bolting it on later, sets a new expectation for how enterprise AI tools should be bought and evaluated.",
           "chips": [
             "agentic",
-            "decis",
+            "govern",
             "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Analysis: What Data and AI Still Hide About Your Customers",
-          "url": "https://martech.org/what-data-and-ai-hide-about-your-customers/",
-          "plain": "This piece challenges the assumption that more data and more AI tools equal better customer understanding, arguing that <b>measurement blind spots and model bias</b> often distort the picture rather than clarify it. Useful context for practitioners deciding where to trust AI outputs and where human judgment must remain in the loop.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "How Major Brands Are Doing Agentic Marketing Today: Lessons From 2026 Contentstack Award Winners",
+          "url": "https://agilebrandguide.com/how-brands-do-agentic-marketing-today-lessons-from-the-2026-contentstack-experience-award-winners/",
+          "plain": "Philips, Alaska Airlines, Verizon Connect and others share real results — timelines cut from months to weeks, conversion up 30% — from deploying <b>AI-ready content pipelines and real-time personalization powered by agentic workflows</b>. These are practitioner case studies showing what agentic marketing looks like in production, not in demos.",
           "chips": [
-            "cdp",
-            "govern",
-            "genai"
+            "agentic",
+            "perso",
+            "genai",
+            "cep"
           ]
         }
       ]
@@ -116,68 +115,67 @@
           "num": "01",
           "src": "MarTech",
           "fresh": false,
-          "head": "Salesforce–Braze deal: speed gains and stack overlap explained",
+          "head": "Braze acquisition by Salesforce: more speed, more overlap, more lock-in risk",
           "url": "https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/",
-          "plain": "Salesforce's $5.7 billion acquisition of Braze gives it a faster, more modern <b>customer engagement platform</b> — but it also creates real tension with existing Salesforce Marketing Cloud products. Buyers now face harder choices about pricing, product overlap, and <b>long-term lock-in</b>. This reshapes how enterprise marketing tech is bought and bundled.",
+          "plain": "Salesforce's $5.7 billion purchase of Braze reshapes who controls <b>customer engagement infrastructure</b> for thousands of brands. The analysis warns buyers about tighter AI bundling but also harder choices on pricing and long-term lock-in — directly changing how CEPs are bought and which vendors survive.",
           "chips": [
             "cep",
             "agentic",
-            "perso",
-            "govern"
+            "govern",
+            "perso"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Marketo's original architects bet AI can replace complex automation workflows",
-          "url": "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/",
-          "plain": "The engineers who built Marketo are now building AI-native tools that aim to replace the <b>manual workflow configuration</b> that has defined B2B marketing automation for decades. If they succeed, it changes what marketing ops teams need to buy, build, and know. A direct challenge to a category-defining platform.",
+          "head": "Fibr AI launches Agent Experience Optimization (AXO) to make brand websites readable by AI agents",
+          "url": "https://agilebrandguide.com/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/",
+          "plain": "Fibr AI's AXO adapts a brand's existing website in real time for each visiting AI platform or shopping agent — making the site <b>machine-readable for agentic purchases</b>, not just human visitors. This is a new product category sitting at the intersection of GEO and agentic commerce that marketers will need to evaluate now.",
           "chips": [
+            "geo",
             "agentic",
-            "genai",
-            "cep",
-            "govern"
+            "perso"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Restructuring martech ops for autonomous AI agents",
-          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
-          "plain": "Marketing operations teams are shifting from running campaigns manually to managing fleets of <b>autonomous AI agents</b> — a fundamental change in job scope, tooling, and governance. The piece outlines what that organizational shift looks like and why it matters for anyone buying or building martech right now.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Monte Carlo launches Bayes, an AI agent that autonomously detects and fixes broken production agents and their data",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/monte-carlo-launches-bayes-an-ai-teammate-that-fixes-production-ai-agents-and-their-data/",
+          "plain": "Monte Carlo's Bayes is an <b>agent-trust layer</b> that watches other AI agents in production, spots when bad data or logic causes errors, and fixes them without human intervention. As companies run more autonomous marketing agents, tools that govern and self-heal those agents become critical buying decisions.",
           "chips": [
             "agentic",
             "govern",
-            "decis",
-            "cep"
+            "decis"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Fibr AI launches Agent Experience Optimization to make websites readable by AI agents",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/",
-          "plain": "Fibr AI's new AXO product adapts brand websites dynamically for visiting <b>AI agents and LLM crawlers</b> — not just human visitors — so brands can be found and acted upon inside AI-driven purchase flows. This is an early commercial product targeting the emerging <b>generative engine optimization</b> layer, with real implications for how websites are built.",
+          "head": "Sprinklr research: 92% say AI improved CX, only 27% can actually prove it",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sprinklr-research-92-of-organizations-claim-ai-delivered-improved-customer-experience-only-27-can-prove-it/",
+          "plain": "A new study exposes a massive gap between AI confidence and <b>measurable proof of impact</b> in customer experience. With most organizations unable to document ROI, this report will shape how procurement teams demand accountability and how vendors frame their governance and measurement stories going forward.",
           "chips": [
-            "geo",
-            "agentic",
-            "genai",
-            "perso"
+            "govern",
+            "cep",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "WRITER introduces invisible, enterprise-controlled watermarks for AI-generated text",
-          "url": "https://martechseries.com/content/writer-gives-enterprises-control-over-ai-detection-with-invisible-customer-specific-watermarks/",
-          "plain": "WRITER now lets enterprises embed invisible, <b>customer-specific watermarks</b> into AI-generated text so they can trace, audit, and verify their own outputs. This directly addresses growing regulatory and brand-safety pressure around <b>AI content governance</b> — and sets a practical standard for how enterprises should control what their AI writes.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Akeneo Autumn 2026 release puts AI agents in charge of product data with enterprise governance built in",
+          "url": "https://agilebrandguide.com/akeneo-puts-ai-agents-to-work-across-product-data-with-enterprise-control-built-in/",
+          "plain": "Akeneo's new release lets AI agents handle product information management tasks autonomously while keeping every action under enterprise control. It also acquires Dataggo, an AI-native PIM specialist. This matters because <b>product data quality is the foundation</b> for personalization, GEO visibility, and agentic shopping decisions.",
           "chips": [
-            "genai",
-            "govern"
+            "agentic",
+            "govern",
+            "cdp",
+            "perso"
           ]
         }
       ]
@@ -187,34 +185,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "Autonomous AI Agents Are <em>Reshaping MarTech Operations</em>",
+          "head": "The <em>Agentic Operations</em> Restructure",
           "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
           "body": [
-            "The dominant structural story of the past 30 days is the pivot from <b>rule-based automation to autonomous AI agents</b> that plan, decide, and act across marketing stacks without human intervention at every step. Pieces on restructuring martech ops, Zoho embedding agents in analytics, and Ameena.ai adding a strategic layer all point to the same shift: the orchestration layer is moving from workflows to agents.",
-            "This changes the decision calculus for ops teams immediately. <b>Existing data governance, source-of-truth infrastructure, and role definitions</b> must be rebuilt around agents that can query, interpret, and act — not just trigger emails. The window to retrofit old automation platforms is narrowing as challengers target incumbents like Marketo head-on."
+            "Autonomous AI agents are no longer a pilot concept — they are being wired into live marketing operations at companies like Akeneo, RingCentral, and Jedify. The shift requires rethinking org charts, data pipelines, and access-control policies rather than simply adding a new tool to the stack.",
+            "<b>The operational consequence is structural, not cosmetic.</b> Teams that treat agentic AI as a feature toggle will find their processes brittle; those that redesign workflows around agent-human handoffs — as RingCX is doing by orchestrating both as one workforce — will move faster and break fewer things."
           ],
           "ev": [
             [
-              "MarTech · Restructuring for AI agents",
+              "MarTech · Restructuring ops for agents",
               "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
             ],
             [
-              "MarTech · Marketing automation is dead",
-              "https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/"
+              "MarTech Series · RingCentral unified workforce",
+              "https://martechseries.com/sales-marketing/sales-enablement/unified-communications/ringcentral-orchestrates-ai-and-human-agents-as-one-workforce-in-ringcx/"
             ],
             [
-              "MarTech Series · Zoho AI agents in analytics",
-              "https://martechseries.com/mts-insights/zoho-brings-trusted-business-intelligence-to-ai-agents-in-zoho-analytics-platform-evolution-connecting-data-business-context-insights-and-action/"
+              "Agile Brand · Akeneo agents with enterprise control",
+              "https://agilebrandguide.com/akeneo-puts-ai-agents-to-work-across-product-data-with-enterprise-control-built-in/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Search Visibility</em> Is the New SEO Battleground",
+          "head": "AI Claims Meet the <em>Proof Gap</em>",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sprinklr-research-92-of-organizations-claim-ai-delivered-improved-customer-experience-only-27-can-prove-it/",
+          "body": [
+            "Sprinklr's research crystallises a tension visible across the whole month: 92% of organisations say AI improved customer experience, but only 27% can demonstrate it with data. This is not a technology failure — it is a measurement and data-quality failure that predates the AI layer.",
+            "<b>The gap signals that AI readiness begins with data readiness.</b> The MarTech Summit Boston finding that a 20% martech cut can improve AI readiness, and Monte Carlo's launch of Bayes to fix production AI data issues, both point to the same prescription: clean up the data substrate before trusting the agent outputs."
+          ],
+          "ev": [
+            [
+              "MarTech Series · Sprinklr proof gap stat",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/sprinklr-research-92-of-organizations-claim-ai-delivered-improved-customer-experience-only-27-can-prove-it/"
+            ],
+            [
+              "Agile Brand · 20% cut &amp; AI readiness",
+              "https://agilebrandguide.com/martech-summit-boston-what-a-20-martech-cut-teaches-about-ai-readiness/"
+            ],
+            [
+              "MarTech Series · Monte Carlo Bayes fixes agent data",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/monte-carlo-launches-bayes-an-ai-teammate-that-fixes-production-ai-agents-and-their-data/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "<em>AI Search</em> Rewrites Discovery — But Not Revenue Yet",
           "url": "https://martech.org/ai-search-is-turning-prompts-into-customer-research/",
           "body": [
-            "AI-powered search is fundamentally changing how buyers discover products and vendors, turning conversational prompts into the new top-of-funnel. Yet the data is sobering: <b>ChatGPT delivers less than 1% of Google's referral traffic</b>, meaning winning an AI answer box does not yet translate to winning B2B buyers — intent and trust signals still matter downstream.",
-            "The strategic response is bifurcated. Brands must optimize for <b>AI retrieval and agent visibility</b> (Fibr AI's 'Agent Experience Optimization' is an early commercial bet on this) while also ensuring that creator-generated content — which increasingly shapes AI product recommendations — is part of the content mix. Presence in AI answers is necessary but not sufficient for conversion."
+            "AI-powered search is reshaping how buyers research products — prompts are becoming the new search bar — yet ChatGPT still sends less than 1% of Google's referral traffic. <b>Visibility in AI answers and visibility in click-throughs are two entirely different metrics</b>, and most brands are only tracking the latter.",
+            "Creator content is already influencing AI product recommendations, and Fibr AI's launch of Agent Experience Optimization shows vendors racing to make brand websites legible to AI agents, not just humans. The strategic question has flipped: it is no longer enough to rank; brands must now be <b>citable by AI</b>."
           ],
           "ev": [
             [
@@ -226,82 +247,59 @@
               "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
             ],
             [
-              "MarTech Series · Fibr AI Agent Experience Optimization",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "Data Quality Is the <em>Hidden Failure Point</em> of AI Marketing",
-          "url": "https://martech.org/what-data-and-ai-hide-about-your-customers/",
-          "body": [
-            "Multiple pieces this month converge on a single uncomfortable truth: <b>AI surfaces patterns in the data you have, not the customers you're missing</b>. Dashboards built on first-party data systematically hide churn signals, underserved segments, and shifts in intent — and feeding that data to AI agents amplifies the blind spots rather than correcting them.",
-            "The operational fix starts with building a <b>reliable source of truth before deploying agents</b>, as the martech.org guide on agent data infrastructure makes clear. Circana's predictive commerce signals and Kanerika's migration pathways are both commercial answers to the same problem: garbage in, confident-sounding garbage out — and C-suite trust evaporates fast when AI-generated answers contradict reality."
-          ],
-          "ev": [
-            [
-              "MarTech · What data &amp; AI hide about customers",
-              "https://martech.org/what-data-and-ai-hide-about-your-customers/"
-            ],
-            [
-              "MarTech · Build a reliable source of truth for AI agents",
-              "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/"
-            ],
-            [
-              "MarTech · CEO wants answers dashboards can't give",
-              "https://martech.org/your-ceo-wants-answers-your-dashboard-cant-give/"
+              "Agile Brand · Fibr AI agent experience optimization",
+              "https://agilebrandguide.com/fibr-ai-launches-agent-experience-optimization-turning-brand-websites-into-engines-for-ai-visibility-and-agent-action/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Platform Consolidation Is <em>Redrawing Stack Boundaries</em>",
-          "url": "https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/",
+          "head": "Marketing Automation's <em>Platform Consolidation</em> War",
+          "url": "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/",
           "body": [
-            "Salesforce acquiring Braze, next-gen automation tools targeting Marketo, and Proximic expanding across Magnite's CTV ecosystem all signal the same macro move: <b>large platforms are absorbing point solutions</b> while challengers race to claim the territory incumbents leave behind. The stack is being redrawn, not incrementally upgraded.",
-            "For buyers, this means vendor decisions made 18 months ago may already be structurally obsolete. <b>Overlap between tools is growing</b> — Braze capabilities now live inside Salesforce, creating redundancy for existing customers — while new entrants like the next wave of automation platforms promise modern architecture without legacy debt. Procurement and ops leaders need a fresh map, not a refresh of the old one."
+            "A new wave of AI-native automation vendors is explicitly targeting legacy platforms like Marketo, while Salesforce's acquisition of Braze creates both speed and overlap in the enterprise stack. <b>The incumbent map is being redrawn faster than most budget cycles</b>, putting procurement decisions made two years ago at risk.",
+            "The underlying driver is that rule-based automation looks inadequate next to agent-driven orchestration. Martech.org's declaration that 'marketing automation is dead — long live marketing automation' is not clickbait; it reflects a genuine architectural break between sequence-based and intent-based campaign execution."
           ],
           "ev": [
-            [
-              "MarTech · Braze gives Salesforce more overlap",
-              "https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/"
-            ],
             [
               "MarTech · Next wave targeting Marketo",
               "https://martech.org/the-next-wave-of-marketing-automation-is-taking-aim-at-marketo/"
             ],
             [
-              "MarTech Series · Proximic expands CTV ecosystem",
-              "https://martechseries.com/sales-marketing/programmatic-buying/proximic-by-comscore-expands-integration-across-magnites-ctv-ecosystem/"
+              "MarTech · Braze gives Salesforce speed &amp; overlap",
+              "https://martech.org/braze-gives-salesforce-more-speed-and-more-overlap/"
+            ],
+            [
+              "MarTech · Automation is dead, long live automation",
+              "https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI Content Governance Demands <em>Provenance &amp; Control</em>",
-          "url": "https://martechseries.com/content/writer-gives-enterprises-control-over-ai-detection-with-invisible-customer-specific-watermarks/",
+          "head": "Data as the <em>Agent's Source of Truth</em>",
+          "url": "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/",
           "body": [
-            "As AI-generated content floods every channel, enterprises are discovering that <b>knowing what was made by AI — and proving it — is a competitive and legal necessity</b>. Writer's invisible, customer-specific watermarking is an early commercial signal that content provenance will become standard infrastructure, not an optional add-on.",
-            "This theme intersects with the broader agent story: when AI agents produce content autonomously, <b>brand safety, regulatory compliance, and audience trust</b> all depend on being able to audit the origin and intent of every asset. Marketers who treat governance as a post-launch concern will face the same crisis that hit data privacy — reactive, expensive, and reputationally costly."
+            "Every agentic launch this month — Bivia, Jedify's context graph, Bayes — rests on a shared premise: agents are only as trustworthy as the data they reason over. <b>Building a reliable source of truth is now a prerequisite</b>, not an IT backlog item, because agents act on data rather than merely reporting it.",
+            "The CEO dashboard problem and the 'what data and AI hide about your customers' piece both surface the same blind spot: aggregated, AI-mediated data can <b>obscure the signals that matter most</b>. Organisations that invest in context-rich, governed data layers will have a compounding advantage as agent autonomy increases."
           ],
           "ev": [
             [
-              "MarTech Series · Writer invisible watermarks",
-              "https://martechseries.com/content/writer-gives-enterprises-control-over-ai-detection-with-invisible-customer-specific-watermarks/"
+              "MarTech · Build a reliable source of truth for agents",
+              "https://martech.org/how-to-build-a-reliable-source-of-truth-for-ai-agents/"
             ],
             [
-              "MarTech · Creator content shapes AI recommendations",
-              "https://martech.org/creator-content-shapes-ai-product-recommendations/"
+              "MarTech · What data &amp; AI hide about customers",
+              "https://martech.org/what-data-and-ai-hide-about-your-customers/"
             ],
             [
-              "MarTech · Your event content needs a destination first",
-              "https://martech.org/your-event-content-needs-a-destination-before-it-needs-a-prompt/"
+              "MarTech Series · Jedify context graph data agents",
+              "https://martechseries.com/analytics/jedify-launches-data-agents-autonomous-analysts-built-on-its-context-graph/"
             ]
           ]
         }
       ],
-      "takeaway": "Every major move this month — from agent deployment to platform M&amp;A to AI search — ultimately depends on <em>whether your data infrastructure and governance are trustworthy enough to hand the wheel to a machine</em>."
+      "takeaway": "Across every corner of the feed, the real shift is that <em>AI agents are forcing organisations to solve data quality, measurement, and operational governance problems they have deferred for years</em> — because agents act on what they find, and sloppy foundations now produce sloppy autonomous decisions at scale."
     }
   }
 }
