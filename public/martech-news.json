@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:00:00.994901+00:00",
+  "generatedAt": "2026-10-31T17:51:03.700464+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,21 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "ZoomInfo puts MCP in Snowflake; 23% of shoppers would let AI buy on their behalf",
+          "head": "Agile Brand forecasts 3.0–3.5% holiday growth, below industry consensus, with AI Shopping Index tracker",
+          "url": "https://agilebrandguide.com/holiday-shoppers-will-spend-more-but-buy-less-this-season-with-real-sales-growth-falling-below-last-years-1-7-according-to-agile-brand-guide-predictions/",
+          "plain": "A new public tracker at holidayshopping.ai pulls over 100 sources and nearly 2,000 data points going back to 1992, including an <b>AI Shopping Index</b> that monitors how both consumers and AI agents shop. The below-consensus forecast matters because it signals that <b>AI-driven purchasing behavior</b> may be reshaping holiday demand in ways traditional models miss.",
+          "chips": [
+            "agentic",
+            "decis"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "MarTech digest: ZoomInfo adds MCP to Snowflake, only 3.1% AI mention share for top hotel brands, 23% of shoppers willing to let AI buy for them",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-october-31-2026/",
-          "plain": "Three signals in one roundup: ZoomInfo embedding Model Context Protocol inside Snowflake changes how <b>B2B data flows into AI pipelines</b>; Zen Media's audit showing no hotel brand tops 3.1% of AI mentions is a wake-up call for GEO; and nearly one-in-four shoppers willing to hand the checkout to an AI agent marks a real shift in <b>agentic commerce</b>.",
+          "plain": "Three data points in one roundup: ZoomInfo embedding <b>Model Context Protocol into Snowflake</b> changes how AI agents access B2B data; hotel brands barely registering in AI-generated answers highlights the GEO gap; and nearly one in four shoppers saying they'd <b>let AI make purchases on their behalf</b> signals a real shift in agentic buying behavior marketers must plan for.",
           "chips": [
             "agentic",
             "geo",
@@ -58,55 +70,40 @@
           ]
         },
         {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Most marketers say AI works. Few can prove it.",
-          "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
-          "plain": "A broad study finds marketers are adopting AI tools but lack the baselines and success metrics needed to <b>demonstrate measurable ROI</b>. Without proper measurement foundations set before launch, teams can't separate AI lift from background noise. This matters because it directly shapes AI budget decisions and governance conversations at the leadership level.",
-          "chips": [
-            "govern",
-            "genai",
-            "agentic"
-          ]
-        },
-        {
           "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "How to test incrementality before peak spending starts",
-          "url": "https://martech.org/how-to-test-incrementality-before-peak-spending-starts/",
-          "plain": "The article argues that <b>holdout tests run before Cyber Week</b> — not during — are the only reliable way to know which channels actually drive new sales versus capturing demand that would have happened anyway. Getting this right lets teams reallocate budget to proven channels before the most expensive ad days arrive, protecting margin.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Spending More, Buying Less: Agile Brand's 2026 Holiday Predictions explained",
+          "url": "https://agilebrandguide.com/spending-more-buying-less-our-2026-holiday-predictions/",
+          "plain": "While NRF, eMarketer, Bain, and Mastercard cluster between 4.1% and 5.5% growth, Agile Brand argues shoppers will spend more dollars but take home fewer units due to inflation and <b>AI-assisted deal-seeking behavior</b>. This divergence matters because marketing budgets tied to unit-volume assumptions could be badly miscalibrated heading into Q4.",
           "chips": [
-            "bandit",
-            "decis",
-            "govern"
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "More paid social ads won't fix a creative problem",
-          "url": "https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/",
-          "plain": "Running 20 ad variants that all test the same concept gives <b>algorithms nothing new to learn</b>. Better performance requires changing the underlying creative variables — not volume. This reframes how marketers should think about AI-assisted creative testing and bandit-style optimization in paid channels.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Airstream and Nomadics turn community into a paid product, not a campaign tactic",
+          "url": "https://agilebrandguide.com/beyond-the-campaign-spike-building-belonging-as-a-product/",
+          "plain": "Airstream CMO Mollie Hansen and Nomadics founder Chris Pendl describe moving from <b>campaign-driven engagement spikes to a paid membership community</b> that self-funds brand advocacy and authentic content. The model is relevant to MarTech practitioners because it reframes the CEP question: instead of optimizing message frequency, brands can build infrastructure customers willingly opt into.",
           "chips": [
-            "bandit",
-            "genai",
+            "cep",
             "perso"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Building marketing workflows around AI agents ahead of Nov. 4 conference",
-          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
-          "plain": "A preview of the free MarTech Conference outlines how teams should design workflows that pair <b>agentic AI efficiency with human oversight and governance</b>. The framing — AI as teammate, not replacement — is increasingly the practical model being adopted, making the governance and quality-control angle relevant to anyone buying or deploying marketing AI systems.",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "holidayshopping.ai tracker aggregates 2,000+ data points and an AI Shopping Index for real-time forecast scoring",
+          "url": "https://agilebrandguide.com/holiday-shoppers-will-spend-more-but-buy-less-this-season-with-real-sales-growth-falling-below-last-years-1-7-according-to-agile-brand-guide-predictions/",
+          "plain": "The public tracker is designed to be <b>scored against actual outcomes</b> after the season ends, bringing accountability to forecast claims. Its AI Shopping Index specifically tracks how AI agents participate in purchase decisions, giving MarTech teams a new benchmark for <b>agentic commerce readiness</b> as agent-assisted buying moves mainstream.",
           "chips": [
             "agentic",
             "govern",
-            "cep"
+            "decis"
           ]
         }
       ]
@@ -116,14 +113,14 @@
         {
           "num": "01",
           "src": "Agile Brand",
-          "fresh": false,
+          "fresh": true,
           "head": "Cordial Launches Headless CDP, Bringing Real-Time Customer Data to Where Marketers Work",
           "url": "https://agilebrandguide.com/cordial-launches-headless-cdp-bringing-real-time-customer-data-to-where-marketers-work/",
-          "plain": "Cordial has made its embedded CDP <b>headless</b>, meaning real-time customer data can now flow directly into the AI assistants and tools marketers already use, rather than staying locked inside one platform. This matters because it shifts the CDP from a destination you log into to an <b>infrastructure layer</b> any workflow can tap, changing how teams buy and integrate customer data tools.",
+          "plain": "Cordial has made its embedded CDP <b>headless</b>, meaning real-time customer data can now flow directly into AI assistants and other tools marketers already use — not just inside Cordial's own interface. This changes how CDPs are bought and integrated: data becomes portable infrastructure rather than a walled feature, raising the bar for every rival platform.",
           "chips": [
             "cdp",
-            "perso",
-            "agentic"
+            "agentic",
+            "perso"
           ]
         },
         {
@@ -132,47 +129,51 @@
           "fresh": false,
           "head": "Restructuring Martech Ops for Autonomous AI Agents",
           "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
-          "plain": "Marketing operations teams are evolving from people who run campaigns manually to <b>AI fleet managers</b> overseeing autonomous agents working alongside traditional software. The piece lays out what that org-design shift actually looks like, who owns what, and where human oversight must stay. This is a practical governance and buying signal for anyone building or budgeting a modern MOps team.",
+          "plain": "MOps teams are being recast as <b>AI fleet managers</b>, overseeing autonomous agents running alongside traditional software rather than executing tasks themselves. The piece lays out what that org-structure shift looks like in practice — directly relevant to anyone buying, staffing, or governing a modern martech stack.",
           "chips": [
             "agentic",
             "govern",
+            "decis",
             "cep"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "Coveo · via MarTech Series",
           "fresh": false,
-          "head": "Most Marketers Say AI Works. Few Can Prove It.",
-          "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
-          "plain": "A wide gap exists between marketers claiming AI delivers value and those who can actually demonstrate it with data. The problem is upstream: <b>weak baselines and vague success metrics set before launch</b>. This matters for anyone buying or building AI tools because it explains why ROI conversations stall and what measurement discipline needs to change first.",
+          "head": "Coveo Acquires Anglera to Power AI-Driven Product Data Enrichment in eCommerce",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coveo-acquires-anglera-to-make-product-data-a-competitive-advantage-in-ai-powered-ecommerce/",
+          "plain": "Coveo bought Anglera, a Y Combinator-backed startup whose <b>agentic product-data enrichment engine</b> automatically cleans and enriches catalog data to improve findability in both on-site search and AI shopping assistants. This is a product-changing acquisition that reshapes how enterprise retailers prepare data for AI-powered commerce.",
           "chips": [
-            "govern",
-            "genai"
+            "agentic",
+            "genai",
+            "geo",
+            "cdp"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": false,
-          "head": "Coveo Acquires Anglera to Embed Agentic Product Data Enrichment into AI-Powered eCommerce",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coveo-acquires-anglera-to-make-product-data-a-competitive-advantage-in-ai-powered-ecommerce/",
-          "plain": "Coveo bought Anglera, a Y Combinator-backed startup whose <b>agentic engine automatically enriches and structures product data</b> so items are easier to find inside both traditional ecommerce sites and AI shopping assistants. The deal signals that clean, structured product data is becoming a competitive moat as AI agents increasingly handle purchase decisions on behalf of shoppers.",
+          "head": "Most Marketers Say AI Works. Few Can Prove It.",
+          "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
+          "plain": "A broad look at why AI adoption surveys look rosy while <b>measurement baselines remain broken</b>: teams launch AI tools without clear success metrics, making ROI invisible. This matters because it shapes how procurement and governance conversations go — and why many AI budgets are now being challenged internally.",
           "chips": [
-            "agentic",
-            "geo",
-            "perso"
+            "govern",
+            "genai",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "The Risks of Optimizing SEO for AI Over Users",
-          "url": "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/",
-          "plain": "Chasing visibility inside AI-generated answers can push brands toward <b>generic, undifferentiated content</b> that satisfies an algorithm but erodes the trust and distinctiveness that win real buyers. The article is a useful counterweight to GEO hype, arguing that brand differentiation and user intent should still drive content strategy, with AI visibility as a by-product rather than the goal.",
+          "head": "Contentstack Canoe Shows Marketers How AI Engines Actually Describe Their Brand",
+          "url": "https://agilebrandguide.com/one-amazing-thing-about-contentstack-canoe-with-conor-egan/",
+          "plain": "Contentstack's Canoe tool lets marketers see exactly how ChatGPT, Gemini, Perplexity, and Claude describe their brand — and which sources those models are pulling from. This is a concrete <b>GEO diagnostic product</b>, making it easier for teams to act on AI-visibility gaps rather than just theorise about them.",
           "chips": [
             "geo",
+            "genai",
             "govern"
           ]
         }
@@ -183,57 +184,80 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Reshaping Marketing Ops</em> — But Security &amp; Governance Haven't Caught Up",
-          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
-          "body": [
-            "Autonomous AI agents are moving from experiment to infrastructure, forcing marketing operations teams to <b>redesign workflows, permissions, and accountability structures</b> from scratch. Articles this month on restructuring martech ops and on AI agent access control both flag that the org chart — not the technology — is the bottleneck.",
-            "Security leaders now rank AI agent access as their <b>top access-control priority for 2026</b>, yet most marketing teams are still deploying agents without formal governance frameworks. The gap between adoption speed and oversight maturity is where the real risk sits."
-          ],
-          "ev": [
-            [
-              "MarTech · AI · Restructuring ops for agents",
-              "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
-            ],
-            [
-              "Agile Brand · AI agent access &amp; security research",
-              "https://agilebrandguide.com/ai-agent-access-tops-security-leaders-2026-access-control-priorities-research-finds-nac-foundational-to-visibility-and-enforcement/"
-            ],
-            [
-              "MarTech · Building marketing workflows around AI agents",
-              "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 02",
-          "head": "AI Adoption Is <em>Wide but Unproven</em>: The Measurement Crisis",
+          "head": "AI adoption is near-universal, but <em>proof of impact</em> is nearly absent",
           "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
           "body": [
-            "Survey after survey this month tells the same story: <b>97% of marketers plan to use AI, most say it works, yet almost none can demonstrate measurable business impact.</b> Adoption is broad but shallow, concentrated in easy, visible tasks while harder workflow integrations lag. The DV Research and MarTech data both confirm the pattern.",
-            "This is a <b>measurement and incrementality problem</b> as much as a technology one. Without proper pre-peak incrementality testing and CEO-ready analytics, AI investment looks like faith rather than strategy — a vulnerability heading into high-spend holiday periods."
+            "Survey after survey now shows 97% of marketers planning to use AI, yet the same research reveals that almost no one has a rigorous method to attribute business outcomes to AI-driven actions. The gap between stated confidence and demonstrated ROI is widening, not closing, as tool sprawl accelerates.",
+            "<b>The decision this forces:</b> before adding another AI layer, teams must first wire measurement infrastructure — incrementality tests, holdout groups, and attribution models — or risk optimizing signals that feel good but change nothing. Spending without proof is the new vanity metric."
           ],
           "ev": [
             [
-              "MarTech · Most marketers say AI works. Few can prove it.",
+              "MarTech · AI works, few can prove it",
               "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/"
             ],
             [
-              "MarTech Series · DV Research: 97% plan AI, adoption uneven",
+              "MarTech Series · DV Research on uneven adoption",
               "https://martechseries.com/sales-marketing/programmatic-buying/dv-research-97-of-marketers-plan-to-use-ai-but-adoption-across-advertising-workflows-remains-uneven/"
             ],
             [
-              "MarTech · How to test incrementality before peak spending",
+              "MarTech · Incrementality testing before peak spend",
               "https://martech.org/how-to-test-incrementality-before-peak-spending-starts/"
             ]
           ]
         },
         {
+          "num": "Theme 02",
+          "head": "<em>Autonomous AI agents</em> are reshaping the martech org chart",
+          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
+          "body": [
+            "AI agents are moving from assistants that answer questions to teammates that own workflow steps — scheduling, segmenting, publishing, and optimizing without human sign-off on every action. This is forcing a structural rethink: who owns the agent, who audits its decisions, and how does accountability work when no human pressed 'go'?",
+            "<b>The practical shift:</b> martech ops roles are evolving into agent-orchestration roles. Teams that treat agents as a bolt-on to existing org structures will create governance gaps; those that redesign processes around agent capabilities first will compound efficiency gains faster than competitors."
+          ],
+          "ev": [
+            [
+              "MarTech · Restructuring ops for autonomous agents",
+              "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
+            ],
+            [
+              "MarTech · Building workflows around AI agents",
+              "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/"
+            ],
+            [
+              "MarTech · 6 mistakes in AI performance marketing",
+              "https://martech.org/6-mistakes-to-avoid-with-ai-powered-performance-marketing/"
+            ]
+          ]
+        },
+        {
           "num": "Theme 03",
-          "head": "Data Infrastructure Is <em>Getting a Ground-Up Rebuild</em> for AI-Native Marketing",
+          "head": "AI search is booming in hype, <em>tiny in traffic</em>",
+          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
+          "body": [
+            "Hard data punctures the narrative: ChatGPT currently delivers less than 1% of the referral traffic Google sends, meaning brands re-engineering their entire content strategy for AI search are solving a problem that is still marginal in scale. Optimizing for AI over users carries its own risk — alienating the humans who still drive the vast majority of clicks and conversions.",
+            "<b>The nuanced take:</b> AI-influenced search (where Google's own AI summaries suppress clicks) is a real and growing threat, but that is different from AI-as-search-engine replacing Google. Marketers should monitor both vectors separately and avoid conflating hype with current traffic economics."
+          ],
+          "ev": [
+            [
+              "MarTech · ChatGPT sends less than 1% of Google traffic",
+              "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
+            ],
+            [
+              "MarTech · Risks of optimizing SEO for AI over users",
+              "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/"
+            ],
+            [
+              "MarTech · Winning AI search isn't enough for B2B buyers",
+              "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "Customer data is being <em>restructured for real-time AI</em> consumption",
           "url": "https://agilebrandguide.com/cordial-launches-headless-cdp-bringing-real-time-customer-data-to-where-marketers-work/",
           "body": [
-            "The launch of a headless CDP, Coveo's acquisition of Anglera for product-data advantage, and Vusion's push into physical-store retail media all point to the same structural move: <b>data layers are being decoupled, embedded, and made real-time</b> so AI can act on signals wherever customers are, not just inside a single platform.",
-            "The underlying decision shift is significant — <b>data infrastructure is no longer a back-office IT concern but a direct source of competitive differentiation.</b> Marketers who control clean, contextual, real-time data will be able to feed AI agents that actually improve CX; those relying on siloed legacy stacks will not."
+            "A cluster of product launches and acquisitions this month — headless CDPs, AI-native product-data layers, in-store digital media integrations — share a single underlying logic: data must be available at the moment of decision, not exported in batches after the fact. Coveo acquiring Anglera for product-data enrichment and Cordial shipping a headless CDP both reflect the same architectural bet.",
+            "<b>What this changes:</b> the classic 'collect, clean, activate' waterfall is too slow for AI agents operating in real time. Buyers evaluating data infrastructure should now ask whether a platform can serve fresh signals to an AI model mid-session, not just build a warehouse segment overnight."
           ],
           "ev": [
             [
@@ -241,63 +265,40 @@
               "https://agilebrandguide.com/cordial-launches-headless-cdp-bringing-real-time-customer-data-to-where-marketers-work/"
             ],
             [
-              "MarTech Series · Coveo acquires Anglera for AI eCommerce",
+              "MarTech Series · Coveo acquires Anglera for product data",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/coveo-acquires-anglera-to-make-product-data-a-competitive-advantage-in-ai-powered-ecommerce/"
             ],
             [
-              "MarTech Series · Signal economics: which signals are worth paying for",
+              "MarTech Series · Which customer signals are worth paying for",
               "https://martechseries.com/mts-insights/staff-writers/martech-signal-economics-which-customer-signals-are-actually-worth-paying-for/"
             ]
           ]
         },
         {
-          "num": "Theme 04",
-          "head": "<em>AI Search Rewrites Discovery</em> — But Not the Way Anyone Expected",
-          "url": "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/",
-          "body": [
-            "ChatGPT still sends less than 1% of Google's traffic volume, yet the pressure to optimize for AI search is already distorting SEO strategy — pushing teams toward <b>AI-pleasing content at the expense of content that actually serves human buyers.</b> Winning an AI citation in B2B, it turns out, doesn't reliably convert to pipeline.",
-            "The practical implication is to <b>resist the reflex to chase AI search rankings as a primary KPI.</b> Brand authority, genuine expertise, and user-first content remain the durable foundations — AI search is an additional discovery layer, not a replacement distribution channel with proven ROI."
-          ],
-          "ev": [
-            [
-              "MarTech · AI · ChatGPT sends less than 1% of Google traffic",
-              "https://martech.org/chatgpt-sends-less-than-1-of-googles-traffic/"
-            ],
-            [
-              "MarTech · The risks of optimizing SEO for AI over users",
-              "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/"
-            ],
-            [
-              "MarTech · AI · Why winning AI search isn't enough for B2B",
-              "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/"
-            ]
-          ]
-        },
-        {
           "num": "Theme 05",
-          "head": "Creative &amp; Brand Strategy Must <em>Lead — Not Follow — the AI Tool</em>",
-          "url": "https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/",
+          "head": "Holiday 2026: consumers spending more but <em>buying less volume</em>",
+          "url": "https://agilebrandguide.com/spending-more-buying-less-our-2026-holiday-predictions/",
           "body": [
-            "A persistent thread across this month's content is that <b>AI amplifies whatever strategic clarity — or confusion — already exists.</b> More paid social won't fix a broken creative brief; an AI prompt without a content destination produces noise; and enterprise rebrands built around AI need a point of view strong enough to repel wrong-fit customers, not just attract attention.",
-            "The decision this forces is sequencing: <b>strategy, audience insight, and creative direction must be locked before AI tooling is introduced</b>, not after. Teams that hand AI an unclear brief and expect it to compensate are compounding the original problem at scale."
+            "Agile Brand's below-consensus forecast of 3.0–3.5% holiday sales growth captures a counter-intuitive dynamic: higher dollar spend driven by inflation &amp; tariff pass-through, but fewer units purchased as consumers trade down or simply skip discretionary items. This means revenue metrics will flatter performance while true volume and margin compress.",
+            "<b>The marketing implication:</b> paid social amplification alone cannot fix a creative or value-proposition problem when shoppers are already skeptical about price. Brands need to demonstrate tangible value and build belonging — retention mechanics, loyalty tiers, community — rather than doubling down on acquisition spend to hit topline numbers."
           ],
           "ev": [
+            [
+              "Agile Brand · Holiday predictions spending more buying less",
+              "https://agilebrandguide.com/spending-more-buying-less-our-2026-holiday-predictions/"
+            ],
+            [
+              "Agile Brand · Forecast scored against data",
+              "https://agilebrandguide.com/holiday-shoppers-will-spend-more-but-buy-less-this-season-with-real-sales-growth-falling-below-last-years-1-7-according-to-agile-brand-guide-predictions/"
+            ],
             [
               "MarTech · More paid social ads won't fix a creative problem",
               "https://martech.org/more-paid-social-ads-wont-fix-a-creative-problem/"
-            ],
-            [
-              "MarTech · AI · Event content needs a destination before a prompt",
-              "https://martech.org/your-event-content-needs-a-destination-before-it-needs-a-prompt/"
-            ],
-            [
-              "Agile Brand · iCIMS CMO on rebranding an enterprise around AI",
-              "https://agilebrandguide.com/icims-cmo-jody-kaminsky-on-rebranding-an-enterprise-around-ai/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the pattern is the same: <em>AI is ready to scale whatever foundations marketers have already built — strong or weak</em>, making strategy, data governance, and creative clarity more consequential, not less."
+      "takeaway": "Across every layer of the stack this month, the dominant pressure is the same: <em>AI capability is outpacing the measurement, governance, and data infrastructure needed to turn it into defensible business results</em>, and the brands that close that gap first will compound advantages that late movers will struggle to replicate."
     }
   }
 }
