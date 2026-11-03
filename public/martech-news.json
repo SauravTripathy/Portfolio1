@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T12:54:06.472779+00:00",
+  "generatedAt": "2026-11-03T20:11:28.936758+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,66 +45,67 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Salesforce to Acquire Voice AI Provider Cresta for ~$2.7 Billion",
-          "url": "https://agilebrandguide.com/salesforce-to-acquire-voice-ai-provider-cresta-adding-phone-based-service-to-a-year-of-cx-dealmaking/",
-          "plain": "Salesforce is buying Cresta, which runs <b>voice AI agents and real-time coaching for phone reps</b>, for a reported $2.7 billion. It plugs a gap in Service Cloud — phone-based service — and signals that the platform wars for agentic CX are moving from chat to voice. Any team evaluating enterprise CX stacks needs to factor this in.",
+          "head": "Salesforce acquires Cresta to bring AI voice agents into customer calls",
+          "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
+          "plain": "Salesforce is buying Cresta, an AI company that handles real-time coaching and automation on voice calls. The deal plugs live conversation intelligence directly into CRM data and the <b>Agentforce platform</b>, giving Salesforce a stronger end-to-end agentic story that rivals will have to match — reshaping how enterprise contact-centre AI is bought.",
           "chips": [
             "agentic",
+            "decis",
             "cep",
             "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Cyara Launches Agentic CX Trust Platform for Real-Time AI Agent Compliance",
-          "url": "https://martechseries.com/sales-marketing/customer-experience-management/cyara-launches-agentic-cx-trust-platform-to-provide-independent-proof-of-quality-and-compliance-on-every-live-agent-conversation-whether-human-or-ai/",
-          "plain": "Cyara's new platform gives enterprises <b>independent, real-time proof that AI agents are behaving correctly</b> on live customer calls — catching failures as they happen. As agentic systems handle more conversations, buyers and regulators will demand exactly this kind of third-party audit layer, making this a new category of governance tooling worth watching.",
+          "head": "Adobe data: AI-referred traffic converts 90% better and drives 83% more revenue per visit",
+          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
+          "plain": "Adobe's research shows visitors arriving from AI answer engines like ChatGPT spend more and convert far better than average web traffic. This is the first large-scale revenue data linking <b>generative engine referrals to bottom-line outcomes</b>, giving marketers a concrete financial case for investing in GEO strategies right now.",
           "chips": [
-            "agentic",
-            "govern",
-            "cep"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Yext Completes Acquisition of Flamel.ai, Adding Localized Ad Execution to Agentic Platform",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-completes-acquisition-of-flamel-ai/",
-          "plain": "Yext has closed its purchase of Flamel.ai, which automates <b>localized paid campaigns for franchise and multi-location brands</b>. Folded into Yext's agentic marketing stack, it means the platform can now decide, build, and launch local ads autonomously. This reshapes how multi-location brands will buy and manage media going forward.",
+          "head": "6sense repositions as 'Agentic GTM' platform, launches BDR Agent and AI Explainability tools",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026/",
+          "plain": "6sense is rebranding around agentic go-to-market and shipping real products: an autonomous BDR Agent, explainability features for AI decisions, and an AI Visibility module. The explainability and <b>governance additions</b> are significant — they address a key buying objection for enterprise procurement teams worried about black-box AI acting on their behalf.",
           "chips": [
             "agentic",
             "decis",
-            "perso"
+            "govern",
+            "geo"
           ]
         },
         {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Liferay Launches SEO & AEO Studio Beta to Monitor Visibility Inside AI Answer Engines",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/",
-          "plain": "Liferay's new tool lets marketing teams track and improve their content's presence in both <b>traditional search and AI-generated answers</b> from a single dashboard. As more buyers get answers from AI engines instead of search results pages, this kind of <b>Generative Engine Optimization</b> tooling shifts from nice-to-have to essential for organic visibility strategy.",
+          "head": "Hightouch launches Match Booster in Europe, raising audience match rates within GDPR compliance",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/",
+          "plain": "Hightouch's Match Booster expanded to five European markets and beat existing onboarding providers by 15–90% more matched profiles in head-to-head tests. <b>Higher match rates within privacy guardrails</b> directly change media ROI and CDP value for European brands — a practical proof point that compliance and reach don't have to trade off.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "cdp",
+            "govern",
+            "perso"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Hightouch Launches Match Booster in Europe, Lifting Audience Match Rates up to 90% Without Privacy Risk",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/",
-          "plain": "Hightouch expanded its Match Booster feature to five European markets, reporting <b>15%+ higher audience match rates on average and up to 90% in one test</b> — all within GDPR constraints. Better match rates mean more people reached with personalized ads, and doing it without compliance risk is the key hurdle for any CDP-to-media workflow in Europe.",
+          "head": "Liferay launches beta SEO & AEO Studio to monitor brand visibility inside AI answer engines",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/",
+          "plain": "Liferay is giving marketing teams a single dashboard to track and improve their presence in both traditional search and <b>AI-generated answers</b>. As a DXP vendor adding answer-engine optimisation tooling at scale, this signals that GEO is becoming a standard product category — not just an experiment — for enterprise content platforms.",
           "chips": [
-            "cdp",
-            "perso",
+            "geo",
+            "genai",
             "govern"
           ]
         }
@@ -115,10 +116,10 @@
         {
           "num": "01",
           "src": "Agile Brand",
-          "fresh": true,
+          "fresh": false,
           "head": "Salesforce to Acquire Voice AI Provider Cresta for ~$2.7 Billion",
           "url": "https://agilebrandguide.com/salesforce-to-acquire-voice-ai-provider-cresta-adding-phone-based-service-to-a-year-of-cx-dealmaking/",
-          "plain": "Salesforce is buying Cresta, a voice AI company, for a reported $2.7 billion. Cresta adds <b>end-to-end voice agents</b> and real-time coaching for human reps directly into Service Cloud. This is a major platform-level move that reshapes how Salesforce competes in AI-driven customer service and signals where CX budgets are heading.",
+          "plain": "Salesforce is paying roughly <b>$2.7 billion</b> for Cresta, which runs AI voice agents and real-time coaching for call-centre reps. The deal plugs a live-phone gap in Service Cloud and deepens the <b>Agentforce platform</b>, meaning buyers evaluating AI-driven customer service now have one more reason to consolidate on Salesforce rather than stitch together point solutions.",
           "chips": [
             "agentic",
             "cep",
@@ -127,27 +128,26 @@
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Cyara Launches Agentic CX Trust Platform for Real-Time AI Agent Quality and Compliance",
-          "url": "https://martechseries.com/sales-marketing/customer-experience-management/cyara-launches-agentic-cx-trust-platform-to-provide-independent-proof-of-quality-and-compliance-on-every-live-agent-conversation-whether-human-or-ai/",
-          "plain": "Cyara's new platform gives enterprises <b>independent, real-time proof of compliance and quality</b> for every AI or human agent conversation. It catches failures as they happen and prevents repeats. As agentic AI handles more live customer interactions, third-party oversight tools like this are becoming a procurement requirement, not a nice-to-have.",
+          "head": "Adobe Research: AI-Referred Traffic Converts 90% Better and Earns 83% More Revenue Per Visit",
+          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
+          "plain": "Adobe's data shows visitors arriving via AI answer engines — think ChatGPT or Perplexity — convert at nearly double the rate of ordinary search traffic and generate far more revenue per session. This is the clearest commercial evidence yet that <b>generative engine visibility</b> directly affects the bottom line, making GEO a budget-line item rather than an experiment.",
           "chips": [
-            "agentic",
-            "govern",
-            "cep"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Yext Completes Acquisition of Flamel.ai, Adding Localized Ad Execution to Agentic Platform",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-completes-acquisition-of-flamel-ai/",
-          "plain": "Yext has closed its purchase of Flamel.ai, which automates <b>localized paid campaign management</b> for franchise and multi-location brands. Plugging it into Yext's agentic platform means AI can now plan, localize, and execute paid ads autonomously at scale — a concrete example of agentic decisioning moving into media buying.",
+          "head": "Hightouch Launches Match Booster in Europe, Lifting Audience Match Rates 15–90% Within Compliance Rules",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/",
+          "plain": "Hightouch's Match Booster uses AI to link more first-party records to ad-platform IDs without breaching GDPR, beating an incumbent onboarding vendor in every head-to-head test across five European markets. For anyone running <b>paid media off a CDP</b>, higher match rates mean bigger addressable audiences and lower wasted spend — and doing it inside compliance constraints is the hard part solved.",
           "chips": [
-            "agentic",
-            "decis",
+            "cdp",
+            "govern",
             "perso"
           ]
         },
@@ -155,25 +155,27 @@
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Hightouch Launches Match Booster in Europe, Lifting Match Rates Up to 90% Without Breaking Compliance",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/",
-          "plain": "Hightouch's Match Booster is now live across the UK, Germany, France, Spain, and Italy, outperforming existing onboarding providers by <b>15% or more on average match rates</b> — up to 90% better in one test. Better identity resolution in privacy-strict markets directly improves personalization reach and ad targeting efficiency for European marketers.",
+          "head": "6sense Relaunches as 'Partner for Agentic GTM,' Debuts BDR Agent and AI Explainability Tools",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026/",
+          "plain": "6sense moved beyond account-based marketing labels to reposition its entire platform around <b>agentic go-to-market</b>, launching a BDR Agent that acts autonomously on intent signals, plus an Explainability feature that shows why the system chose each account. The explainability move matters most: it gives revenue teams — and compliance reviewers — a legible audit trail for AI-driven outreach decisions.",
           "chips": [
-            "cdp",
-            "perso",
-            "govern"
+            "agentic",
+            "decis",
+            "govern",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Liferay Launches Beta SEO & AEO Studio to Track Visibility in Both Search and AI Answer Engines",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/",
-          "plain": "Liferay's new studio gives marketing teams one dashboard to monitor and improve rankings in <b>traditional search and AI answer engines simultaneously</b>. As more buyer journeys start inside AI tools like ChatGPT or Perplexity, tracking and optimizing for both surfaces is becoming a standard marketing operations need, not a specialist task.",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Cyara Launches Agentic CX Trust Platform to Monitor AI Agent Quality and Compliance in Live Conversations",
+          "url": "https://agilebrandguide.com/cyara-launches-agentic-cx-trust-platform-to-provide-independent-proof-of-quality-and-compliance-on-every-live-agent-conversation-whether-human-or-ai/",
+          "plain": "Cyara's new platform sits as an independent layer over live AI-agent conversations, flagging failures the moment they happen and generating <b>compliance proof logs</b> for every interaction. As agentic AI handles more real customer calls, regulators and enterprise buyers increasingly want third-party verification — this product directly addresses that governance gap without requiring brands to build their own audit infrastructure.",
           "chips": [
-            "geo",
-            "genai"
+            "agentic",
+            "govern",
+            "cep"
           ]
         }
       ]
@@ -183,34 +185,34 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Demand <em>Ops Redesign</em>, Not Just Deployment",
+          "head": "The <em>Agentic Stack</em> Takes Shape",
           "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
           "body": [
-            "Autonomous AI agents are moving from pilot projects into live marketing workflows, and the consensus is clear: dropping them into existing org charts fails. <b>Teams must redesign decision rights, data access, and accountability structures</b> before agents can deliver on their promise — deployment alone is not transformation.",
-            "Platforms are accelerating this pressure. Asana's agentic work management and Cyara's Agentic CX Trust Platform both assume agents will run unsupervised on consequential tasks, which means <b>quality assurance and compliance proof must be baked into the infrastructure</b>, not bolted on afterward. The operational debt of ignoring this is compounding fast."
+            "Autonomous AI agents are moving from pilot projects to operational infrastructure, forcing marketing teams to redesign workflows, governance models, and accountability chains. Salesforce's acquisition of Cresta, 6sense's full pivot to 'agentic GTM,' and Cyara's new agentic-CX trust platform all signal that the question is no longer <b>whether</b> agents run customer-facing tasks, but <b>who owns the guardrails</b> when they do.",
+            "The structural implication is significant: martech ops roles must evolve from tool administrators to <b>agent orchestrators</b>, defining handoff rules, escalation triggers, and compliance checkpoints before any prompt is written. Teams that skip this redesign will find autonomous agents optimising for the wrong objectives at scale."
           ],
           "ev": [
             [
-              "MarTech · Restructuring for autonomous agents",
+              "MarTech · Restructuring martech ops for autonomous agents",
               "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
             ],
             [
-              "MarTech · Building workflows around AI agents",
-              "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/"
+              "MarTech Series · 6sense repositions for agentic GTM",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/6sense-repositions-as-partner-for-agentic-gtm-unveils-new-brand-and-major-product-innovations-at-breakthrough-2026/"
             ],
             [
-              "Agile Brand · Asana agentic work management",
-              "https://agilebrandguide.com/one-amazing-thing-about-asana-with-arnab-bose/"
+              "Agile Brand · Cyara agentic CX trust platform",
+              "https://agilebrandguide.com/cyara-launches-agentic-cx-trust-platform-to-provide-independent-proof-of-quality-and-compliance-on-every-live-agent-conversation-whether-human-or-ai/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>AI Proof Gap</em> Is a Leadership Crisis",
+          "head": "<em>AI ROI Credibility Gap</em> Widens",
           "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
           "body": [
-            "Most marketing teams report that AI is working — but almost none can demonstrate it with numbers their CFO or CEO will accept. <b>The gap between perceived value and provable ROI</b> is now the central tension in AI investment conversations, and it is eroding executive confidence at exactly the moment budgets are being set for 2027.",
-            "Two compounding problems drive this: AI surfaces patterns that still require human interpretation to mean anything actionable, and legacy dashboards were never built to attribute value to autonomous or semi-autonomous decisions. <b>Closing the proof gap requires new measurement frameworks</b>, not just more data — and incrementality testing before peak spend is one concrete first step."
+            "A stubborn disconnect has emerged: most marketers report that AI improves results, yet almost none can produce rigorous proof. The data point that AI-sourced traffic generates <b>83% more revenue per visit</b> is compelling, but it also illustrates the problem — a single revenue metric does not explain causation, attribution, or what to do next.",
+            "Pattern detection is increasingly easy; <b>interpretation remains a human job</b>. Organisations racing to deploy AI tools without measurement frameworks are accumulating unverifiable claims that will erode internal credibility when budgets tighten. Building proof infrastructure — controlled tests, clear baselines, agreed KPIs — is now a strategic prerequisite, not an afterthought."
           ],
           "ev": [
             [
@@ -218,86 +220,78 @@
               "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/"
             ],
             [
-              "MarTech · AI finds patterns, marketers find meaning",
-              "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/"
+              "MarTech · AI traffic drives 83% more revenue per visit",
+              "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
             ],
             [
-              "MarTech · CEO wants answers dashboards can't give",
-              "https://martech.org/your-ceo-wants-answers-your-dashboard-cant-give/"
+              "MarTech · AI can find patterns, but marketers must interpret them",
+              "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "CX Consolidation Around <em>Voice &amp; Agentic</em> AI",
-          "url": "https://agilebrandguide.com/salesforce-to-acquire-voice-ai-provider-cresta-adding-phone-based-service-to-a-year-of-cx-dealmaking/",
+          "head": "Salesforce's <em>CX Acquisition Blitz</em>",
+          "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
           "body": [
-            "Salesforce's acquisition of Cresta and Yext's absorption of Flamel.ai are not isolated deals — they signal that the major CX platforms are racing to own <b>every modality of customer interaction, including voice</b>, under a single AI-orchestrated roof. A year of dealmaking is converging into a small number of dominant stacks.",
-            "The strategic logic is straightforward: as AI agents handle more live customer conversations, brands need a single system of record that can <b>guarantee quality, compliance, and continuity</b> across human and machine interactions. Platforms that can offer independent proof of that quality — like Cyara's new trust platform — will become mandatory infrastructure rather than optional add-ons."
+            "Salesforce's purchase of Cresta is the latest move in a deliberate campaign to own the full AI-powered customer-experience stack — from marketing automation through to live voice support. Cresta adds real-time agent coaching and conversation intelligence, plugging a gap that text-based AI tools have never convincingly filled. The deal signals that <b>voice is the next contested frontier</b> in enterprise CX.",
+            "For competing vendors and martech buyers alike, the consolidation pattern matters: large platforms are acquiring point solutions before customers can stitch them together independently. <b>Best-of-breed stacks face increasing pressure</b> as suite vendors absorb specialised capabilities and bundle them into existing contracts, raising switching costs across the board."
           ],
           "ev": [
             [
-              "Agile Brand · Salesforce acquires Cresta",
+              "MarTech · Salesforce buying Cresta",
+              "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/"
+            ],
+            [
+              "Agile Brand · Salesforce acquires Cresta, voice AI &amp; CX dealmaking",
               "https://agilebrandguide.com/salesforce-to-acquire-voice-ai-provider-cresta-adding-phone-based-service-to-a-year-of-cx-dealmaking/"
-            ],
-            [
-              "MarTech Series · Yext acquires Flamel.ai",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/yext-completes-acquisition-of-flamel-ai/"
-            ],
-            [
-              "MarTech Series · Cyara Agentic CX Trust Platform",
-              "https://martechseries.com/sales-marketing/customer-experience-management/cyara-launches-agentic-cx-trust-platform-to-provide-independent-proof-of-quality-and-compliance-on-every-live-agent-conversation-whether-human-or-ai/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Search Is Splitting Into <em>SEO vs. AEO</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/",
+          "head": "<em>Search Optimisation</em> Splits in Two",
+          "url": "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/",
           "body": [
-            "Optimizing for AI-generated answers (AEO — Answer Engine Optimization) is diverging from traditional SEO, and the two disciplines now require different content architectures, different signals, and potentially conflicting trade-offs. <b>Liferay's launch of a combined SEO &amp; AEO Studio</b> is an early indicator that vendors see this as a durable split, not a passing trend.",
-            "The danger is that brands chasing AI search rankings may hollow out the user experience that made their content credible in the first place. <b>Winning in AI search is also not sufficient for B2B buyers</b>, who still require trust signals, peer validation, and human sales contact before committing — meaning AEO is a top-of-funnel tactic, not a full-funnel strategy."
+            "A fork is opening in search strategy: traditional SEO optimises for human intent and click-through, while the emerging discipline of AEO (Answer Engine Optimisation) targets AI-generated responses in tools like ChatGPT and Perplexity. Liferay's beta launch of an integrated SEO &amp; AEO Studio and the MarTech warning about the risks of over-indexing on AI signals both confirm that <b>the two objectives can actively conflict</b>.",
+            "The practical danger is that content teams chase AI citation at the cost of user experience and brand voice. Marketers need a deliberate <b>dual-track content architecture</b> — one that satisfies the structured, citation-friendly format AI systems reward while still delivering the depth and narrative that human readers and brand trust require."
           ],
           "ev": [
             [
-              "MarTech Series · Liferay SEO &amp; AEO Studio",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/"
-            ],
-            [
-              "MarTech · Risks of optimizing SEO for AI over users",
+              "MarTech · Risks of optimising SEO for AI over users",
               "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/"
             ],
             [
-              "MarTech · Winning AI search isn't enough for B2B",
-              "https://martech.org/why-winning-ai-search-isnt-enough-to-win-b2b-buyers/"
+              "MarTech Series · Liferay SEO &amp; AEO Studio beta",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/liferay-announces-beta-availability-of-liferay-seo-aeo-studio/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Identity Resolution Under <em>Compliance Pressure</em> Resurfaces",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/",
+          "head": "<em>Human Judgment</em> as the Durable Differentiator",
+          "url": "https://martech.org/if-you-dont-define-your-weakness-ai-will/",
           "body": [
-            "Hightouch's European launch of Match Booster — designed to raise audience match rates without breaching privacy regulations — and the renewed emphasis on podcast retargeting's identity advantage both point to the same underlying tension: <b>match rates collapsed after cookie deprecation</b>, and marketers are still searching for compliant ways to rebuild them at scale.",
-            "The solutions emerging are not a return to third-party data but a deeper investment in <b>first-party identity infrastructure and privacy-safe data collaboration</b>. This is reshaping how data teams are structured and which vendors sit at the center of the stack — making identity resolution a board-level budget conversation, not just a technical one."
+            "Beneath the automation headlines, a counter-narrative is strengthening: AI adoption stalls not because the tools fail, but because organisations haven't done the human work first. The advice to define your own weaknesses before AI does, the call for destination-first content strategy, and the change-management imperative in 'Beyond Deployment' all point to the same root cause — <b>strategic clarity cannot be delegated to a model</b>.",
+            "This is a durable competitive advantage hiding in plain sight. Teams that invest in <b>sharp positioning, interpretive skill, and deliberate workflow design</b> will extract compounding value from AI tools, while those that treat AI as a shortcut to strategy will produce faster, cheaper mediocrity. The differentiator in an AI-saturated market is irreducibly human judgment applied before and after the prompt."
           ],
           "ev": [
             [
-              "MarTech Series · Hightouch Match Booster Europe",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/hightouch-launches-match-booster-in-europe-raising-match-rates-without-compromising-compliance/"
+              "MarTech · If you don't define your weakness, AI will",
+              "https://martech.org/if-you-dont-define-your-weakness-ai-will/"
             ],
             [
-              "MarTech Series · Podcast retargeting &amp; identity advantage",
-              "https://martechseries.com/mts-insights/guest-authors/podcast-retargeting-works-the-real-advantage-is-identity/"
+              "MarTech · Beyond deployment: making AI adoption stick",
+              "https://martech.org/beyond-deployment-how-to-lead-the-change-and-make-ai-adoption-stick/"
             ],
             [
-              "MarTech · AI-powered performance marketing mistakes",
-              "https://martech.org/6-mistakes-to-avoid-with-ai-powered-performance-marketing/"
+              "MarTech · Event content needs a destination before a prompt",
+              "https://martech.org/your-event-content-needs-a-destination-before-it-needs-a-prompt/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — agents, measurement, CX platforms, search, and identity — <em>the common bottleneck is not AI capability but the human decisions, governance structures, and proof systems needed to make that capability trustworthy and accountable</em>."
+      "takeaway": "Across every layer of the stack — acquisition, measurement, search, ops, and culture — the month's news confirms that <em>AI amplifies strategic clarity but cannot substitute for it</em>, making human judgment the scarcest and most valuable input in modern marketing."
     }
   }
 }
