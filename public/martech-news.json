@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:06:36.988869+00:00",
+  "generatedAt": "2026-11-04T20:29:06.029293+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,11 +45,79 @@
       "stories": [
         {
           "num": "01",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "AI-generated answers now top starting point for product research among AI-active shoppers",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-generated-answers-are-now-the-top-starting-point-for-product-research-among-ai-active-shoppers/",
+          "plain": "Impact.com research finds <b>47% of AI-active U.S. consumers now begin product searches with an AI-generated answer</b>, outpacing traditional search at 26%. This reshapes where brands must show up — not just on Google, but inside AI responses — making generative engine optimization a budget-level decision, not a future experiment.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "What to do before buying a martech platform with AI context",
+          "url": "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/",
+          "plain": "Practical pre-purchase checklist for AI-enabled martech: define what content is approved, what's off-limits, and <b>who has final authority over AI-generated decisions</b> before signing a contract. Directly addresses how governance gaps cause costly regrets post-implementation — essential reading for anyone evaluating platforms this budget cycle.",
+          "chips": [
+            "govern",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "How AI agents help improve your customer experience",
+          "url": "https://martech.org/how-ai-agents-help-improve-your-customer-experience/",
+          "plain": "A practical guide to deploying <b>agentic AI in customer-facing roles</b>, covering where agents genuinely reduce friction versus where they frustrate customers. Useful for teams deciding which CX workflows to automate, and what guardrails to put in place before handing decisions to an agent.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Brandi AI CEO on winning the AI answer, not the click",
+          "url": "https://agilebrandguide.com/brandi-ai-ceo-leah-nurik-on-winning-the-answer-not-the-click/",
+          "plain": "Leah Nurik explains how <b>AI assistants decide which brand names to surface</b>, why GEO requires combining PR, product marketing, and structured data — not just SEO tricks — and what metrics replace traditional rank tracking. Actionable for any marketer whose budget still assumes Google is the main discovery channel.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Parloa survey: only 7% of travelers would let AI act autonomously on their behalf",
+          "url": "https://agilebrandguide.com/travelers-expect-holiday-disruption-and-are-open-to-ai-but-only-7-would-let-it-act-for-them-parloa-survey-finds/",
+          "plain": "Despite openness to AI monitoring trips, <b>consumer willingness to grant autonomous action stays at just 7%</b> — a critical trust gap for brands building agentic customer-service tools. Younger travelers show sharply higher acceptance, signaling where the ceiling will rise first and how to phase agentic rollouts by segment.",
+          "chips": [
+            "agentic",
+            "govern",
+            "decis"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
           "src": "MarTech",
           "fresh": false,
           "head": "Salesforce buying AI customer support company Cresta",
           "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
-          "plain": "Salesforce is acquiring Cresta, which puts <b>AI voice agents</b> inside live customer calls and links those conversations to CRM data. This extends Salesforce's Agentforce push deeper into real-time service interactions. Any marketer buying or governing customer-service AI needs to watch how this reshapes the vendor landscape and what it means for data ownership.",
+          "plain": "Salesforce is acquiring Cresta, which builds <b>AI voice agents</b> for live customer calls. The deal plugs real-time conversation intelligence directly into CRM data and Salesforce's Agentforce platform. This reshapes how enterprise contact-centre AI is bought — bundled with CRM rather than purchased as a point solution — raising the bar for standalone vendors.",
           "chips": [
             "agentic",
             "decis",
@@ -63,88 +131,7 @@
           "fresh": true,
           "head": "AI-generated answers now top starting point for product research among AI-active shoppers",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-generated-answers-are-now-the-top-starting-point-for-product-research-among-ai-active-shoppers/",
-          "plain": "Impact.com research finds <b>47% of AI-active U.S. consumers start product searches with an AI-generated answer</b>, beating traditional search at 26%. This is a structural shift in the buyer journey — brands that aren't visible inside AI responses are losing consideration before the shopper ever reaches a website or ad.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI traffic drives 83% more revenue per visit, Adobe research finds",
-          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
-          "plain": "Adobe data shows visitors arriving via AI referrals convert <b>90% better and generate 83% more revenue per visit</b> than non-AI traffic. This gives marketers a hard business case for investing in generative engine optimization — being named inside AI answers isn't just a vanity metric, it delivers measurably higher-quality buyers.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Brandi AI CEO on winning the AI answer, not the search click",
-          "url": "https://agilebrandguide.com/brandi-ai-ceo-leah-nurik-on-winning-the-answer-not-the-click/",
-          "plain": "Leah Nurik explains how <b>AI assistants decide which brand names to surface</b> and why GEO requires PR and product marketing — not just SEO tactics. As AI-generated answers displace search rankings, this interview offers concrete guidance on what to measure and how to build presence inside AI responses.",
-          "chips": [
-            "geo",
-            "genai",
-            "govern"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Only 7% of travelers would let AI act autonomously on their behalf, Parloa survey finds",
-          "url": "https://agilebrandguide.com/travelers-expect-holiday-disruption-and-are-open-to-ai-but-only-7-would-let-it-act-for-them-parloa-survey-finds/",
-          "plain": "Parloa's consumer survey reveals a sharp gap: people trust AI to monitor and alert, but <b>only 7% would let an agent take action without approval</b>. Willingness rises among younger consumers and in agent-to-agent scenarios. Marketers building agentic experiences need to design for human confirmation loops or risk losing customer trust.",
-          "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "cep"
-          ]
-        }
-      ]
-    },
-    "week": {
-      "stories": [
-        {
-          "num": "01",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Salesforce buying AI customer support company Cresta for ~$2.7B",
-          "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
-          "plain": "Salesforce is acquiring Cresta, which builds <b>AI voice agents</b> that handle and coach live customer calls. At a reported $2.7 billion, this is a major bet on agentic CX — tying phone conversations directly into CRM data and the Agentforce platform. It signals that autonomous agents are now core infrastructure, not an add-on, for enterprise marketing and service stacks.",
-          "chips": [
-            "agentic",
-            "cep",
-            "decis",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "AI-generated answers now top starting point for product research, beating traditional search",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-generated-answers-are-now-the-top-starting-point-for-product-research-among-ai-active-shoppers/",
-          "plain": "Impact.com research finds <b>47% of AI-active U.S. shoppers</b> now begin product searches with an AI-generated response, compared to only 26% starting with traditional search results. This is a tipping point for how brands get discovered — if you're not visible inside AI answers, you're missing the new front door of the buyer journey.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "Adobe research: AI-referred traffic converts 90% better and drives 83% more revenue per visit",
-          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
-          "plain": "Adobe's data shows visitors arriving from AI tools are far more purchase-ready than those from other channels — <b>90% higher conversion rates and 83% more revenue per visit</b>. This gives marketers a hard financial case for investing in generative engine optimization and understanding which AI surfaces are sending buyers their way.",
+          "plain": "Impact.com research finds <b>47% of AI-active U.S. consumers started their last product search with an AI-generated answer</b>, beating traditional search at 26%. This is a structural shift in discovery that forces marketers to rethink where budgets go and makes <b>Generative Engine Optimization</b> a commercial priority, not an experiment.",
           "chips": [
             "geo",
             "genai",
@@ -152,29 +139,42 @@
           ]
         },
         {
-          "num": "04",
-          "src": "Agile Brand",
+          "num": "03",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Brandi AI CEO explains how to win AI-answer visibility — GEO needs PR and product marketing, not SEO tactics",
-          "url": "https://agilebrandguide.com/brandi-ai-ceo-leah-nurik-on-winning-the-answer-not-the-click/",
-          "plain": "Leah Nurik explains that <b>AI assistants choose brands based on credibility signals</b> — third-party mentions, clear positioning, and product marketing clarity — not keyword density. She lays out what marketers should measure instead of search rank. Practical guidance for anyone trying to understand why their brand does or doesn't appear in AI-generated recommendations.",
+          "head": "What to do before buying a martech platform with AI context",
+          "url": "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/",
+          "plain": "A practical pre-purchase checklist for marketing teams evaluating AI-enabled platforms — covering what content and data the AI is allowed to use, who approves outputs, and how guardrails are enforced. Directly relevant to <b>governance decisions that must happen before a contract is signed</b>, not after deployment reveals the gaps.",
+          "chips": [
+            "govern",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "AI traffic drives 83% more revenue per visit, Adobe research finds",
+          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
+          "plain": "Adobe's data shows visitors arriving from AI assistants convert <b>90% better and generate 83% more revenue per visit</b> than non-AI traffic. This gives marketers concrete ROI justification for investing in GEO and content strategies aimed at AI answer engines, changing how channel attribution and budget allocation should be framed.",
           "chips": [
             "geo",
-            "govern"
+            "genai",
+            "decis"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Survey: consumers open to AI travel agents but only 7% will let AI act autonomously on their behalf",
-          "url": "https://agilebrandguide.com/travelers-expect-holiday-disruption-and-are-open-to-ai-but-only-7-would-let-it-act-for-them-parloa-survey-finds/",
-          "plain": "Parloa's consumer research reveals a sharp gap between AI trust and AI autonomy: people want AI to monitor and inform, but <b>only 7% will grant it permission to act without asking</b>. Willingness rises steeply among younger groups. This sets a real-world consent boundary that agentic platform designers and governance teams must plan around.",
+          "head": "Brandi AI CEO on winning the AI answer, not the click",
+          "url": "https://agilebrandguide.com/brandi-ai-ceo-leah-nurik-on-winning-the-answer-not-the-click/",
+          "plain": "Leah Nurik explains how AI assistants choose which vendors to name, why <b>GEO requires PR and product marketing to work together</b>, and what metrics replace traditional rank tracking. Actionable for anyone building a brand visibility strategy in a world where the AI answer, not the search result page, is the new front door.",
           "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "cep"
+            "geo",
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -184,11 +184,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Answers <em>Replace the Search Bar</em> as Discovery's Front Door",
+          "head": "AI agents are <em>rewriting the purchase journey</em>",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-generated-answers-are-now-the-top-starting-point-for-product-research-among-ai-active-shoppers/",
           "body": [
-            "AI-generated answers have overtaken traditional search as the primary starting point for product research among the most active digital shoppers. Data showing AI traffic delivers <b>83% more revenue per visit</b> than other channels means this is no longer a future-state concern — it is a present-tense reallocation of commercial intent.",
-            "The strategic implication is that <b>winning an AI recommendation slot</b> matters more than ranking on a results page. Brands must now optimise for how models summarise &amp; cite them, not just for crawlable keywords — a discipline Brandi AI's CEO calls 'winning the answer, not the click.'"
+            "AI-generated answers have displaced search engines as the primary starting point for product research among active AI users, and traffic arriving via AI referrals already converts at <b>83% higher revenue per visit</b> than traditional organic traffic. The implication is structural: the funnel no longer begins with a keyword query on a results page.",
+            "Brands that optimise only for clicks rather than for <b>being cited inside an AI answer</b> risk invisibility at the moment of highest commercial intent. As Brandi AI CEO Leah Nurik frames it, the new goal is 'winning the answer, not the click' — a complete inversion of two decades of SEO logic."
           ],
           "ev": [
             [
@@ -196,105 +196,109 @@
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/ai-generated-answers-are-now-the-top-starting-point-for-product-research-among-ai-active-shoppers/"
             ],
             [
-              "MarTech · AI traffic 83% revenue uplift",
+              "MarTech · AI traffic 83% more revenue per visit",
               "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
             ],
             [
-              "Agile Brand · Brandi AI CEO on winning the answer",
+              "Agile Brand · Brandi AI — winning the answer",
               "https://agilebrandguide.com/brandi-ai-ceo-leah-nurik-on-winning-the-answer-not-the-click/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic Autonomy</em> Runs Into a Trust Ceiling",
-          "url": "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/",
+          "head": "<em>Consumer trust</em> is the hard ceiling on AI autonomy",
+          "url": "https://agilebrandguide.com/travelers-expect-holiday-disruption-and-are-open-to-ai-but-only-7-would-let-it-act-for-them-parloa-survey-finds/",
           "body": [
-            "The industry is actively redesigning martech operations around autonomous AI agents, yet consumer willingness to grant that autonomy lags far behind vendor ambition. A Parloa survey found <b>only 7% of travellers</b> would let AI act on their behalf — a gap that exposes the difference between AI-assisted decisions and AI-executed ones.",
-            "Teamily AI's vision of an 'agentic, appless internet' and Asana's agentic work-management push show supply-side enthusiasm is at a peak. The practical constraint for marketers is <b>designing human-in-the-loop checkpoints</b> that preserve speed gains while staying inside the trust envelope consumers will actually accept."
+            "Survey after survey reveals the same gap: consumers are curious about AI assistance but deeply reluctant to hand over control. <b>Only 7% of travellers</b> would let AI act autonomously on their behalf, and Talkdesk's retail research shows enterprise AI ambitions consistently outrun the trust consumers are willing to extend.",
+            "This is not a temporary friction — it is a <b>structural ceiling</b> on agentic deployment. Marketers who push full automation without earning incremental trust will trigger backlash; those who design for human confirmation at key moments will compound adoption gradually and sustainably."
           ],
           "ev": [
             [
-              "MarTech · Restructuring ops for autonomous agents",
-              "https://martech.org/restructuring-martech-ops-for-autonomous-ai-agents/"
-            ],
-            [
-              "Agile Brand · Parloa survey — 7% let AI act",
+              "Agile Brand · Parloa — only 7% trust AI to act",
               "https://agilebrandguide.com/travelers-expect-holiday-disruption-and-are-open-to-ai-but-only-7-would-let-it-act-for-them-parloa-survey-finds/"
             ],
             [
-              "MarTech Series · Teamily agentic appless world",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/teamily-ai-envisions-the-next-internet-an-agentic-social-and-appless-world/"
+              "Agile Brand · Talkdesk retail AI divide",
+              "https://agilebrandguide.com/talkdesk-navigating-the-ai-retail-divide-bridging-enterprise-ambition-and-consumer-trust-in-2026/"
+            ],
+            [
+              "MarTech · How AI agents help CX",
+              "https://martech.org/how-ai-agents-help-improve-your-customer-experience/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Adoption's Dirty Secret: <em>Nobody Can Prove It Works</em>",
+          "head": "The <em>AI ROI proof gap</em> is becoming a governance crisis",
           "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
           "body": [
-            "Most marketers report that AI is working, yet few have the measurement infrastructure to substantiate the claim. This credibility gap — documented in martech surveys and reinforced by practitioner commentary on pattern-finding versus meaning-making — means <b>AI ROI is largely anecdotal</b> at the leadership level where budget decisions are made.",
-            "The risk is a coming correction: when CFOs demand proof, teams that skipped the measurement design phase will be exposed. Marketers are being advised to <b>define weaknesses and benchmarks before deploying AI</b>, not after, so there is a counterfactual to point to when the board asks."
+            "Most marketers report that AI is working, yet <b>few can produce evidence</b> that holds up to CFO scrutiny — a disconnect that is shifting from an embarrassment into a budget and procurement risk. Without measurement infrastructure, AI spend looks indistinguishable from faith-based marketing.",
+            "The practitioner guidance emerging in response stresses that <b>strategic intent must precede the prompt</b>: organisations need a destination for AI output before they can measure whether it arrived. Buying yet another AI-layer platform without that foundation compounds the proof gap rather than closing it."
           ],
           "ev": [
             [
-              "MarTech · Most marketers say AI works, few can prove it",
+              "MarTech · Most marketers can't prove AI works",
               "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/"
             ],
             [
-              "MarTech · AI finds patterns, marketers must interpret",
-              "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/"
+              "MarTech · What to do before buying AI martech",
+              "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/"
             ],
             [
-              "MarTech · If you don't define weakness AI will",
-              "https://martech.org/if-you-dont-define-your-weakness-ai-will/"
+              "MarTech · Event content needs destination before prompt",
+              "https://martech.org/your-event-content-needs-a-destination-before-it-needs-a-prompt/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "CX Consolidation: <em>Big Platforms Absorb Voice &amp; Service AI</em>",
+          "head": "Platform consolidation accelerates around <em>agentic CX stacks</em>",
           "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
           "body": [
-            "Salesforce's acquisition of Cresta — a voice AI specialist — signals that the era of best-of-breed point solutions for customer experience is compressing into platform-level bundles. The deal adds real-time, phone-based AI coaching to Salesforce's already expanding CX stack, raising the integration bar for independent vendors.",
-            "For martech buyers, this wave of consolidation means <b>fewer standalone AI tools will survive</b> as credible enterprise options; procurement decisions made today may be obsoleted by a platform announcement within 12–18 months. Evaluating vendor roadmaps for acquisition likelihood is becoming a standard due-diligence step."
+            "Salesforce's acquisition of Cresta is the clearest signal yet that the major CRM &amp; CX platforms are racing to own the full agentic loop — not just provide AI features, but absorb specialised AI capability so agents can act end-to-end without leaving the core platform. <b>Bolt-on AI is giving way to built-in AI</b>.",
+            "Teamily AI's vision of an 'agentic, appless world' points in the same direction: the app layer itself may compress as agents orchestrate tasks across services. For marketers, the near-term decision is whether to <b>consolidate into an emerging mega-platform</b> or preserve best-of-breed flexibility before exits close."
           ],
           "ev": [
             [
-              "MarTech · Salesforce buying Cresta",
+              "MarTech · Salesforce buys Cresta",
               "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/"
             ],
             [
-              "Agile Brand · Salesforce acquires Cresta voice AI",
-              "https://agilebrandguide.com/salesforce-to-acquire-voice-ai-provider-cresta-adding-phone-based-service-to-a-year-of-cx-dealmaking/"
+              "MarTech Series · Teamily AI agentic appless world",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/teamily-ai-envisions-the-next-internet-an-agentic-social-and-appless-world/"
+            ],
+            [
+              "Agile Brand · Asana agentic work management",
+              "https://agilebrandguide.com/one-amazing-thing-about-asana-with-arnab-bose/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Change Management, Not Code, Is the <em>Real AI Bottleneck</em>",
-          "url": "https://martech.org/beyond-deployment-how-to-lead-the-change-and-make-ai-adoption-stick/",
+          "head": "Human judgement remains the <em>irreplaceable last mile</em>",
+          "url": "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/",
           "body": [
-            "Deployment is no longer the hard part; getting teams to <b>change how they actually work</b> after deployment is. Multiple pieces this month converge on the same finding: AI tools that lack structured adoption programmes stall out, with staff reverting to old workflows within weeks of rollout.",
-            "The practical advice clusters around sequencing — establishing a content or data destination before reaching for a prompt, and redesigning incentives so that using AI tools is the path of least resistance rather than an extra step. <b>Leadership behaviour, not licence count</b>, is now the leading indicator of AI maturity."
+            "A consistent counter-current runs through this month's practitioner writing: AI surfaces patterns, optimises channels, and executes at scale — but it cannot supply <b>strategic meaning, brand values, or competitive self-awareness</b>. 'If you don't define your weakness, AI will' captures the risk of passive adoption.",
+            "The same tension appears in SEO: blindly optimising for AI ranking signals rather than genuine user value creates fragile visibility that algorithms can revoke. <b>Marketers who treat AI as a co-pilot rather than an autopilot</b> retain the interpretive layer that turns data into defensible decisions."
           ],
           "ev": [
             [
-              "MarTech · How to lead change and make AI adoption stick",
-              "https://martech.org/beyond-deployment-how-to-lead-the-change-and-make-ai-adoption-stick/"
+              "MarTech · AI finds patterns, marketers find meaning",
+              "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/"
             ],
             [
-              "MarTech · Event content needs a destination before a prompt",
-              "https://martech.org/your-event-content-needs-a-destination-before-it-needs-a-prompt/"
+              "MarTech · If you don't define your weakness, AI will",
+              "https://martech.org/if-you-dont-define-your-weakness-ai-will/"
             ],
             [
-              "MarTech · 6 mistakes in AI performance marketing",
-              "https://martech.org/6-mistakes-to-avoid-with-ai-powered-performance-marketing/"
+              "MarTech · Risks of optimising SEO for AI over users",
+              "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — discovery, service, measurement &amp; operations — <em>AI is shifting from a capability question to a governance &amp; trust question</em>, and the marketers who build that infrastructure now will be the ones who can prove value when scrutiny arrives."
+      "takeaway": "Every major signal this month points to the same underlying tension: <em>AI can automate the execution layer completely, but trust, meaning, and proof remain stubbornly human responsibilities</em> — and organisations that skip that layer will find their AI investments both unmeasurable and unaccepted."
     }
   }
 }
