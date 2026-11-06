@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T13:03:13.191148+00:00",
+  "generatedAt": "2026-11-06T20:00:31.950475+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,7 +49,7 @@
           "fresh": true,
           "head": "Visa study: AI shopping agents fail 42.8% of benchmark runs; 50% of consumers want to approve AI payments",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-6-2026/",
-          "plain": "Visa benchmarked AI shopping agents and found they fail nearly half the time — a stark reliability gap that will shape how brands and payment networks design <b>agentic commerce guardrails</b>. The parallel finding that half of consumers want to manually approve AI-initiated payments signals a <b>trust and governance bottleneck</b> that every marketer building autonomous purchase flows must solve.",
+          "plain": "Visa research finds <b>AI shopping agents fail nearly half of real-world purchase tasks</b>, and a separate FIS survey shows half of consumers want explicit sign-off before an agent spends their money. Both findings directly shape how marketers can and cannot deploy autonomous buying agents — raising the bar for reliability and consent before agentic commerce goes mainstream.",
           "chips": [
             "agentic",
             "decis",
@@ -58,23 +58,23 @@
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Zscaler CMO on marketing's shadow AI problem: why CMOs and CISOs must share responsibility for AI governance",
-          "url": "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/",
-          "plain": "Zscaler's CMO argues that as <b>AI agents act at machine speed</b>, unsanctioned 'shadow AI' in marketing teams creates security and compliance risks that neither the CMO nor CISO can tackle alone. The case for joint CMO-CISO ownership of AI governance is a practical framework shift for anyone building or buying marketing AI today.",
+          "head": "ChatGPT paid traffic generates 89¢ per session vs $2.45 from Google paid search",
+          "url": "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/",
+          "plain": "New revenue-per-session data shows <b>visitors arriving via ChatGPT convert at a fraction of the value of Google paid search visitors</b>. For marketers allocating budget toward generative engine visibility, this is a critical benchmark: GEO investment may drive reach but currently delivers lower-quality commercial intent than traditional search advertising.",
           "chips": [
-            "agentic",
-            "govern"
+            "geo",
+            "genai"
           ]
         },
         {
           "num": "03",
-          "src": "Five9 · via Agile Brand",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Five9 acquires Level AI to advance AI-powered customer experience platform",
+          "head": "Five9 acquires Level AI to deepen AI-powered customer experience platform",
           "url": "https://agilebrandguide.com/five9-to-acquire-level-ai-advancing-ai-powered-cx-platform/",
-          "plain": "Five9, a major cloud contact-centre vendor, is buying Level AI to bolt on <b>conversation intelligence and agentic CX capabilities</b>. The deal consolidates AI decisioning and customer engagement into one platform, raising the stakes for competitors and changing the vendor landscape that marketing and CX buyers evaluate.",
+          "plain": "Five9, a major cloud contact-center vendor, is buying Level AI to fold <b>conversation intelligence and agentic CX capabilities</b> directly into its platform. This consolidation shrinks the number of point solutions buyers must stitch together and signals that enterprise CEP vendors are racing to own the full AI-decisioning stack for customer interactions.",
           "chips": [
             "agentic",
             "cep",
@@ -83,28 +83,27 @@
         },
         {
           "num": "04",
-          "src": "Box · via MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Box launches agentic workflow automation and agent security controls for enterprise content",
-          "url": "https://martechseries.com/content/box-unveils-the-next-generation-of-enterprise-ai-with-new-agentic-workflow-automation-and-advanced-threat-detection/",
-          "plain": "Box is shipping 'Box Architect' for <b>AI-driven workflow automation</b> alongside new controls that govern which agents can access enterprise content and detect malicious agent activity. This is one of the first major platforms to publish explicit <b>agent security and governance</b> tooling — a blueprint other MarTech vendors will likely follow.",
+          "head": "Zscaler CMO on marketing's shadow AI problem: why CMOs and CISOs must share governance of agent risk",
+          "url": "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/",
+          "plain": "Zscaler's CMO argues that <b>unsanctioned AI tools inside marketing teams</b> create security and compliance exposure that neither CMOs nor CISOs can manage alone. As agents act at machine speed, human oversight must be built into workflows by design — a practical governance argument for any team rolling out AI-assisted campaigns.",
           "chips": [
-            "agentic",
-            "govern"
+            "govern",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "Kaltura · via MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "Kaltura makes Dynamic UI generally available, generating personalised multimedia experiences from AI conversations in real time",
-          "url": "https://martechseries.com/content/kaltura-announces-general-availability-of-dynamic-ui-turning-ai-conversations-into-rich-personalized-interactive-digital-experiences/",
-          "plain": "Kaltura's GA release lets its conversational AI agents <b>dynamically assemble multimedia interfaces</b> — video, images, interactive elements — tailored to each user in the moment. It moves personalisation from static templates to <b>generative, agent-driven experiences</b>, signalling a new content delivery model that content and digital experience teams need to understand.",
+          "head": "Engineering consent: turning opt-ins into a first-party data asset for personalization",
+          "url": "https://martech.org/beyond-the-opt-in-engineering-consent-for-better-marketing/",
+          "plain": "A MarTech Conference session reframes privacy compliance as a data strategy: <b>well-designed consent flows capture richer first-party signals</b> that fuel personalization rather than just satisfy regulators. With third-party data continuing to shrink, marketers who treat consent as an input — not a checkbox — gain a structural advantage in their CDPs.",
           "chips": [
-            "genai",
-            "agentic",
+            "cdp",
             "perso",
-            "decis"
+            "govern"
           ]
         }
       ]
@@ -113,67 +112,65 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Visa finds AI shopping agents fail 42.8% of benchmark runs; 50% of consumers want to approve AI payments",
-          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-6-2026/",
-          "plain": "Visa benchmarked AI shopping agents and found they failed nearly half the time, while FIS research shows most consumers still want to personally approve any payment an AI makes on their behalf. These two data points together define a hard <b>trust and reliability ceiling for agentic commerce</b> — a critical signal for anyone buying or building autonomous purchasing tools.",
-          "chips": [
-            "agentic",
-            "decis",
-            "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Adobe CX Enterprise Coworker now embedded in Anthropic, Google, Microsoft, OpenAI and more AI platforms",
-          "url": "https://agilebrandguide.com/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms-from-anthropic-google-microsoft-openai-and-more/",
-          "plain": "Adobe's agentic customer-experience tool is now a native capability inside the AI platforms that most large enterprises already run. That means <b>CX orchestration agents can be triggered directly from ChatGPT, Claude, Gemini and Copilot</b> without custom integration work — fundamentally changing how enterprise marketing stacks are assembled and where buying decisions start.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "perso"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "AI traffic converts 90% better and drives 83% more revenue per visit, Adobe finds",
+          "head": "AI traffic drives 83% more revenue per visit vs. non-AI traffic",
           "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
-          "plain": "Adobe's data shows visitors arriving from AI-generated answers spend more and convert far better than those from traditional search. This is the clearest commercial evidence yet that <b>Generative Engine Optimization is a revenue lever</b>, not just an SEO experiment — giving marketers a strong business case to invest in GEO strategies now.",
+          "plain": "Adobe research shows visitors arriving via AI-generated answers convert 90% better and spend 83% more per session than non-AI traffic. This directly changes how marketers should budget for <b>Generative Engine Optimization</b> and where they prioritize content investment — AI referrals are now a high-value acquisition channel worth measuring separately.",
           "chips": [
             "geo",
             "genai"
           ]
         },
         {
-          "num": "04",
+          "num": "02",
           "src": "MarTech",
+          "fresh": true,
+          "head": "ChatGPT paid traffic worth only 89 cents per session vs. $2.45 from Google Search",
+          "url": "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/",
+          "plain": "New data shows <b>paid visits from ChatGPT convert at a fraction of Google's value</b> — 89 cents versus $2.45 revenue per session. This matters enormously for media budget allocation: AI search is growing fast but still delivers inferior commercial intent, forcing marketers to rethink channel ROI models.",
+          "chips": [
+            "geo",
+            "genai"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "Salesforce acquires Cresta to bring AI voice agents into Agentforce",
-          "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
-          "plain": "Salesforce is adding Cresta's real-time voice AI to its Agentforce platform, tying live call intelligence directly into CRM data. This <b>extends agentic decisioning into voice channels</b> and signals that the next wave of marketing AI consolidation is happening at the conversation layer, reshaping which CEPs and CRMs marketers will buy.",
+          "head": "Adobe integrates agentic CX Coworker into Anthropic, Google, Microsoft and OpenAI platforms",
+          "url": "https://agilebrandguide.com/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms-from-anthropic-google-microsoft-openai-and-more/",
+          "plain": "Adobe's AI agent for customer experience orchestration is now embedded inside the most-used enterprise AI platforms. This means <b>agentic CX workflows can run inside tools companies already pay for</b>, lowering the switching cost and accelerating adoption — a significant shift in how enterprise marketing AI gets bought and deployed.",
           "chips": [
             "agentic",
             "decis",
             "cep",
-            "cdp"
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Zscaler CMO on marketing's shadow AI problem and why CMOs and CISOs must share trust",
+          "url": "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/",
+          "plain": "Zscaler's CMO argues that as <b>AI agents act at machine speed</b>, unsanctioned AI use inside marketing teams becomes a security and brand risk — not just an IT problem. The case for joint CMO-CISO governance frameworks is practical and urgent, reshaping how marketing AI gets approved and monitored.",
+          "chips": [
+            "agentic",
+            "govern"
           ]
         },
         {
           "num": "05",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Zscaler CMO on marketing's shadow AI problem: why CMOs and CISOs must share AI governance",
-          "url": "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/",
-          "plain": "Zscaler's CMO argues that as AI agents act at machine speed, <b>unsanctioned 'shadow AI' in marketing teams becomes a security and compliance crisis</b>, not just a productivity quirk. The piece makes a practical case for joint CMO-CISO ownership of AI guardrails — directly relevant to anyone structuring governance for agentic marketing tools.",
+          "fresh": false,
+          "head": "Dialpad and Ada merge to build agentic operating system for customer work",
+          "url": "https://agilebrandguide.com/dialpad-and-ada-combining-to-build-the-agentic-operating-system-for-customer-work/",
+          "plain": "Dialpad (voice and intelligence) and Ada (AI customer agents) are combining into a single platform, betting that <b>voice, data, and autonomous agents must run on one stack</b> to deliver coherent customer experiences. The merger reshapes the CEP competitive landscape and signals consolidation around end-to-end agentic CX platforms.",
           "chips": [
-            "govern",
-            "agentic"
+            "agentic",
+            "cep",
+            "decis"
           ]
         }
       ]
@@ -183,121 +180,117 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic CX Land-Grab</em> Is Rewriting Who Owns Customer Work",
-          "url": "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/",
+          "head": "AI Agents Are Becoming the <em>Operating Layer</em> for CX",
+          "url": "https://agilebrandguide.com/dialpad-and-ada-combining-to-build-the-agentic-operating-system-for-customer-work/",
           "body": [
-            "Within a single month, Salesforce acquired Cresta, Five9 acquired Level AI, Dialpad and Ada announced a merger to build an 'agentic operating system,' and SupportNinja bought Aventus — all targeting the same prize: owning the AI layer that handles customer interactions end-to-end. <b>The acquisition pace signals that incumbents believe the agentic CX category will consolidate fast</b>, leaving late movers with shrinking options.",
-            "Adobe went a step further by embedding its agentic CX coworker directly into the platforms of Anthropic, Google, Microsoft, &amp; OpenAI, turning interoperability into a distribution strategy. The practical decision for marketing leaders is no longer 'should we pilot AI in CX?' but 'which platform ecosystem are we betting our customer-work infrastructure on?'"
+            "Multiple major deals this month — Five9 acquiring Level AI, Dialpad merging with Ada, SupportNinja buying Aventus, and ASAPP partnering with Atain — all point to the same structural bet: <b>agentic AI is becoming the backbone of customer experience, not just a feature on top of it.</b> Adobe's move to integrate its CX coworker into Anthropic, Google, Microsoft, and OpenAI platforms signals that agents must interoperate across stacks to be useful.",
+            "The strategic decision this creates is urgent: companies must choose whether to build, buy, or partner for an agentic CX layer <b>before the consolidation window closes.</b> Waiting for the market to settle may mean inheriting a vendor's architectural assumptions rather than designing your own."
           ],
           "ev": [
             [
-              "MarTech · Salesforce/Cresta deal",
-              "https://martech.org/salesforce-buying-ai-customer-support-company-cresta/"
+              "Agile Brand · Five9 acquires Level AI",
+              "https://agilebrandguide.com/five9-to-acquire-level-ai-advancing-ai-powered-cx-platform/"
             ],
             [
-              "Agile Brand · Dialpad &amp; Ada merger",
+              "Agile Brand · Dialpad &amp; Ada agentic OS",
               "https://agilebrandguide.com/dialpad-and-ada-combining-to-build-the-agentic-operating-system-for-customer-work/"
             ],
             [
-              "Agile Brand · Adobe agentic coworker",
+              "Agile Brand · Adobe agentic CX coworker",
               "https://agilebrandguide.com/adobe-integrates-agentic-cx-enterprise-coworker-into-ai-platforms-from-anthropic-google-microsoft-openai-and-more/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Proving AI ROI</em>: The Gap Between Belief and Evidence",
-          "url": "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/",
+          "head": "AI Traffic Is Real — But <em>Revenue Quality Splits</em> by Source",
+          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
           "body": [
-            "Survey data shows most marketers believe AI is working, yet few can produce hard proof — a credibility gap that is starting to matter as CFOs scrutinize AI line items. <b>Productivity gains captured inside tools rarely translate automatically into revenue or margin improvement</b> without deliberate reinvestment decisions, a point underscored by a dedicated MarTech guide on converting AI efficiency into measurable marketing ROI.",
-            "A separate data point sharpens the urgency: AI-referred traffic already drives 83% more revenue per visit than average, meaning the gap between teams that can attribute AI impact and those that cannot is widening in real dollars. Leaders who build measurement frameworks now will have the evidence base to defend — and grow — their AI budgets in the next planning cycle."
+            "Two data points published this month force a rethink of AI-channel strategy: AI-referred traffic drives <b>83% more revenue per visit</b> than average web traffic, yet paid traffic from ChatGPT is worth <b>far less than equivalent paid traffic from Google.</b> These findings are not contradictory — they reveal that organic AI referrals attract high-intent buyers, while AI-native ad placements have not yet matched search-ad conversion quality.",
+            "The decision implication is to <b>prioritise content that earns organic AI citation</b> (structured, authoritative, citable) over rushing budget into AI ad products whose ROI is unproven. Measurement frameworks need a new dimension: AI-source tagging inside analytics to separate organic AI referral from paid AI placement."
           ],
           "ev": [
             [
-              "MarTech · Most marketers can't prove AI works",
-              "https://martech.org/most-marketers-say-ai-works-few-can-prove-it/"
-            ],
-            [
-              "MarTech · Turn AI gains into ROI",
-              "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/"
-            ],
-            [
-              "MarTech · AI traffic revenue lift",
+              "MarTech · AI traffic 83% revenue lift",
               "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
+            ],
+            [
+              "MarTech · ChatGPT paid traffic worth less",
+              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Shadow AI &amp; <em>Organizational Sprawl</em> Undermine Centralization",
-          "url": "https://martech.org/why-ai-is-complicating-marketing-centralization/",
+          "head": "Shadow AI &amp; <em>Governance Gaps</em> Are a CMO-Level Risk",
+          "url": "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/",
           "body": [
-            "AI tools are proliferating faster than governance structures can absorb them, creating a 'shadow AI' problem where individual marketers and teams adopt models, plugins, &amp; agents outside approved stacks. The Zscaler CMO framed this as a security &amp; compliance exposure, not just a productivity quirk — <b>unapproved AI usage is now a material risk category</b>, not just an IT headache.",
-            "MarTech's analysis adds a structural layer: decentralized AI adoption is actively fighting against marketing centralization efforts, fragmenting data, context, &amp; accountability. Before buying any new AI-enabled martech platform, teams are being advised to audit existing AI context and usage patterns — otherwise new purchases simply add to the sprawl."
+            "The Zscaler CMO's warning about marketing's shadow AI problem — teams using unsanctioned tools with live customer data — lands alongside a stat that <b>56% of workers say AI has raised the cost of admitting they don't know something,</b> creating pressure to use AI outputs without verification. Together these signals describe an organisation where AI use is spreading faster than the policies meant to govern it.",
+            "<b>Centralisation is not the answer either:</b> a separate piece argues AI is actively complicating marketing centralisation by enabling autonomous local decisions. The practical implication is that CMOs need lightweight governance guardrails — approved tool lists, data-classification rules, and clear escalation paths — rather than top-down control structures that teams will simply route around."
           ],
           "ev": [
             [
-              "MarTech · AI complicating centralization",
-              "https://martech.org/why-ai-is-complicating-marketing-centralization/"
-            ],
-            [
-              "Agile Brand · Shadow AI problem",
+              "Agile Brand · Zscaler CMO shadow AI",
               "https://agilebrandguide.com/zscaler-cmo-sunil-frida-on-marketings-shadow-ai-problem/"
             ],
             [
-              "MarTech · Before buying AI martech",
-              "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/"
+              "Agile Brand · 56% cost of not knowing",
+              "https://agilebrandguide.com/56-of-workers-say-ai-has-raised-the-cost-of-admitting-they-dont-know/"
+            ],
+            [
+              "MarTech · AI complicates centralisation",
+              "https://martech.org/why-ai-is-complicating-marketing-centralization/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Finds the Patterns — <em>Human Judgment</em> Still Owns Meaning",
-          "url": "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/",
+          "head": "Turning AI Productivity Into <em>Measurable Marketing ROI</em>",
+          "url": "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/",
           "body": [
-            "A cluster of editorial pieces this month pushed back on full AI automation by arguing that pattern detection and strategic interpretation are distinct skills — and only one of them can currently be delegated to a machine. <b>Marketers who outsource meaning-making to AI risk optimizing for signals that don't serve real business goals</b>, a failure mode visible in the SEO space where over-indexing for AI ranking criteria is already diverging from user value.",
-            "The psychological dimension surfaced too: 56% of workers report that AI has raised the perceived cost of admitting ignorance, creating pressure to accept AI outputs uncritically rather than interrogate them. The implication for team culture is significant — organizations need explicit norms that reward human skepticism of AI outputs, not just speed of adoption."
+            "The industry is graduating from 'AI saves time' to asking <b>where the saved time actually goes</b> — and whether it reaches the P&amp;L. Articles this month on converting AI productivity gains into ROI, on knowing what is inside your AI budget, and on what to do before buying a martech platform all share the same underlying concern: <b>AI investment is outpacing the ability to account for its returns.</b>",
+            "The practical shift required is building a feedback loop — from AI-assisted task to freed capacity to reinvested activity to measured outcome — before scaling spend. <b>Pattern recognition without human interpretation</b> is explicitly flagged as a failure mode: AI can surface correlations, but marketers must still decide what they mean and what to do next."
           ],
           "ev": [
             [
+              "MarTech · AI productivity to ROI",
+              "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/"
+            ],
+            [
+              "Agile Brand · What's inside your AI budget",
+              "https://agilebrandguide.com/expert-mode-whats-actually-inside-your-ai-budget-with-ken-stillwell-from-pega/"
+            ],
+            [
               "MarTech · AI finds patterns, humans find meaning",
               "https://martech.org/ai-can-find-patterns-but-marketers-must-figure-out-what-they-mean/"
-            ],
-            [
-              "Agile Brand · Cost of admitting ignorance",
-              "https://agilebrandguide.com/56-of-workers-say-ai-has-raised-the-cost-of-admitting-they-dont-know/"
-            ],
-            [
-              "MarTech · Risks of SEO for AI over users",
-              "https://martech.org/the-risks-of-optimizing-seo-for-ai-over-users/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Enterprise AI Gets <em>Vertical Context &amp; Workflow Depth</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/box-unveils-all-new-box-for-industries-to-securely-deliver-enterprise-context-to-ai-and-transform-critical-workflows/",
+          "head": "Consent &amp; Context as <em>AI Input Quality</em> Foundations",
+          "url": "https://martech.org/beyond-the-opt-in-engineering-consent-for-better-marketing/",
           "body": [
-            "Generic AI assistants are giving way to systems pre-loaded with industry-specific context and embedded inside mission-critical workflows. Box launched both a vertical industry product and an agentic workflow automation layer in the same week, signaling that <b>secure, contextual AI — not just capable AI — is becoming the enterprise buying criterion</b>. Kaltura's Dynamic UI similarly turns AI conversations into personalized interactive experiences rather than simple chatbot responses.",
-            "Priority Software's acquisition of Fireberry and ProAxis.AI's pay-per-call lead platform point to the same underlying shift in adjacent categories: AI is moving from a feature bolted onto platforms to the organizing logic of the platform itself. For buyers, this means evaluating AI martech on depth of domain context &amp; workflow integration, not just model quality or interface polish."
+            "Two MarTech pieces this month reframe consent and prompt design as upstream quality problems, not compliance checkboxes. <b>'Engineering consent' means collecting richer, more granular preference data</b> that feeds AI personalisation engines with accurate signals instead of binary opt-ins. Meanwhile, 'better prompts start before the prompt' argues that the real work is structuring internal knowledge and context <b>before you ever type into a model.</b>",
+            "Box's dual announcements — agentic workflow automation and an industry-specific platform for delivering enterprise context to AI — are the enterprise infrastructure answer to the same problem: <b>AI output quality is bounded by the quality and structure of the context it receives.</b> Marketers who invest in data architecture and consent design now are building a durable competitive input advantage."
           ],
           "ev": [
             [
-              "MarTech Series · Box for Industries",
+              "MarTech · Engineering consent",
+              "https://martech.org/beyond-the-opt-in-engineering-consent-for-better-marketing/"
+            ],
+            [
+              "MarTech · Better prompts start before the prompt",
+              "https://martech.org/better-prompts-start-before-the-prompt/"
+            ],
+            [
+              "MarTech Series · Box enterprise context for AI",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/box-unveils-all-new-box-for-industries-to-securely-deliver-enterprise-context-to-ai-and-transform-critical-workflows/"
-            ],
-            [
-              "MarTech Series · Box agentic workflows",
-              "https://martechseries.com/content/box-unveils-the-next-generation-of-enterprise-ai-with-new-agentic-workflow-automation-and-advanced-threat-detection/"
-            ],
-            [
-              "MarTech Series · Kaltura Dynamic UI",
-              "https://martechseries.com/content/kaltura-announces-general-availability-of-dynamic-ui-turning-ai-conversations-into-rich-personalized-interactive-digital-experiences/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the decisive shift is that <em>AI is moving from experimental add-on to the structural core of how customer work, marketing operations, and enterprise workflows are organized</em> — making governance, measurement, and human interpretive judgment the three capabilities that separate leaders from laggards."
+      "takeaway": "Across every layer of the stack — channels, agents, governance, ROI accounting, and data quality — the common pressure is that <em>AI is forcing decisions that were previously deferrable</em>, and the organisations that define their own frameworks first will set the terms everyone else inherits."
     }
   }
 }
