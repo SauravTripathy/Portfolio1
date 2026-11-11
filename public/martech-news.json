@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:31:10.113759+00:00",
+  "generatedAt": "2026-11-11T12:49:46.368407+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,39 +45,38 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Attentive's new CEO sets vision for individualized marketing, announces MCP general availability",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/attentives-new-ceo-eric-miao-sets-new-vision-to-transform-how-brands-market-to-consumers/",
-          "plain": "Attentive's incoming CEO outlines a shift toward full-lifecycle, <b>individualized marketing</b> and ships general availability of MCP — a protocol that connects OpenAI and Anthropic tools directly to Attentive's data and workflows. This matters because it lets third-party AI agents act inside a live customer engagement platform, changing how brands build and buy marketing automation.",
+          "head": "G2's CPTO: AI agents now build B2B shortlists using third-party evidence, not vendor positioning",
+          "url": "https://agilebrandguide.com/g2-cpto-alexis-zheng-on-who-builds-your-shortlist-now/",
+          "plain": "G2's chief product and technology officer explains that <b>AI agents doing B2B research trust third-party reviews and structured evidence</b> over a vendor's own marketing copy. This reshapes how software is bought: if an AI agent can't find credible external signals about your product, you won't make the shortlist — a direct threat to traditional demand-gen tactics.",
           "chips": [
-            "cep",
             "agentic",
-            "perso",
-            "decis"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "From journeys to decisions: how real-time AI decisioning replaces static customer journeys",
-          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
-          "plain": "A MarTech Conference session explains why pre-built journey maps can't match modern buyer behaviour and how <b>real-time AI decisioning</b> picks the next best action per person, per moment. It's a clear framework shift — from campaign orchestration to per-person autonomous choice — that shapes how CEPs are evaluated and bought.",
+          "head": "Adobe brings agentic AI to content supply chain with CX Enterprise Coworker in GenStudio",
+          "url": "https://martechseries.com/content/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/",
+          "plain": "Adobe's <b>CX Enterprise Coworker is an agentic teammate embedded in GenStudio</b> that can orchestrate content creation, approval, and delivery workflows with human oversight. This matters because it moves AI from a copy-drafting helper to an autonomous operator inside enterprise content pipelines, changing how brands buy and govern creative production at scale.",
           "chips": [
-            "decis",
             "agentic",
-            "cep",
-            "perso"
+            "genai",
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Zingtree launches agentic governance platform for contact centres in regulated industries",
+          "fresh": false,
+          "head": "Zingtree launches agentic governance platform for contact centers in regulated industries",
           "url": "https://agilebrandguide.com/zingtree-launches-first-agentic-governance-and-orchestration-platform-built-for-contact-centers-customer-operations-in-complex-regulated-industries/",
-          "plain": "Zingtree's new platform lets healthcare, insurance, and financial services companies deploy AI agents in customer support while keeping humans in control of cost, latency, and compliance. <b>Agentic governance for regulated sectors</b> is an emerging buying category — this is one of the first purpose-built products to name and address it directly.",
+          "plain": "Zingtree targets healthcare, insurance, and financial services with a platform that <b>lets companies govern and orchestrate AI agents handling high-stakes customer support</b>. It adds controls over cost, latency, and decision boundaries — exactly the guardrails regulators and risk teams demand before autonomous agents can be deployed in sensitive customer interactions.",
           "chips": [
             "agentic",
             "govern",
@@ -87,30 +86,30 @@
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Adobe expands Creative Agent across Firefly and Creative Cloud with local MCP integrations",
-          "url": "https://agilebrandguide.com/adobe-powers-a-new-era-of-creativity-bringing-agents-and-tools-to-creatives-wherever-and-however-they-create/",
-          "plain": "Adobe is embedding an <b>agentic creative workflow</b> across Photoshop, Illustrator, Premiere, After Effects, and Firefly via local MCP integrations, plus bringing a CX Enterprise Coworker into GenStudio. This rewires how marketing content is produced at scale — agents orchestrate tools, not just generate assets — affecting how enterprises budget for creative AI.",
+          "src": "MarTech · via MarTech",
+          "fresh": false,
+          "head": "From journeys to decisions: real-time AI decisioning replaces static customer journey maps",
+          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
+          "plain": "A MarTech Conference recap arguing that <b>pre-built journey maps are too rigid for today's buyers</b> and that real-time AI decisioning — choosing the next best action per person at the moment of contact — is the practical replacement. Useful framing for teams evaluating CEP vendors or rearchitecting their engagement stack.",
           "chips": [
-            "agentic",
-            "genai",
-            "govern",
-            "cep"
+            "decis",
+            "cep",
+            "perso",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Claritas adds live in-flight optimisation to acquisition email campaigns",
-          "url": "https://martech.org/claritas-brings-live-optimization-to-acquisition-email/",
-          "plain": "Claritas's new product adjusts audience segments and subject lines <b>while a campaign is still running</b>, then uses holdout groups and attribution to confirm whether the changes drove real lift. This moves email optimisation from post-send analysis to continuous adaptation — a meaningful shift in how acquisition email is built and measured.",
+          "head": "Claritas Email Advantage applies AI optimization to subject lines and audiences while campaigns run",
+          "url": "https://martechseries.com/content/email-mktg/claritas-launches-email-advantage-bringing-ai-powered-optimization-to-acquisition-email/",
+          "plain": "Claritas's new acquisition email product <b>adjusts audience targeting and subject lines dynamically during a live campaign</b>, then uses holdout groups to measure whether changes actually lifted results. That closed feedback loop — test, adjust, measure — brings bandit-style optimization to email acquisition, a channel that has historically relied on static A/B tests run before send.",
           "chips": [
             "bandit",
             "perso",
-            "cep",
-            "govern"
+            "cdp",
+            "cep"
           ]
         }
       ]
@@ -119,72 +118,71 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Attentive's new CEO sets vision for individualized marketing, announces MCP general availability",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/attentives-new-ceo-eric-miao-sets-new-vision-to-transform-how-brands-market-to-consumers/",
-          "plain": "Attentive's incoming CEO Eric Miao is pivoting the platform toward full-lifecycle individualized marketing and shipping <b>MCP general availability</b> so external AI tools from OpenAI and Anthropic can plug directly into Attentive's data and workflows. That connector standard matters because it shapes how the whole ecosystem of AI agents talks to customer data.",
+          "head": "G2's CPTO: AI agents now build B2B shortlists, trusting third-party evidence over vendor positioning",
+          "url": "https://agilebrandguide.com/g2-cpto-alexis-zheng-on-who-builds-your-shortlist-now/",
+          "plain": "G2's chief product and technology officer explains how <b>AI purchasing agents</b> are replacing human researchers in B2B software buying — and that they cite third-party reviews and evidence, not vendor marketing copy. This fundamentally changes how marketing teams need to think about brand presence and <b>generative engine visibility</b> in the buying process.",
           "chips": [
             "agentic",
-            "decis",
+            "geo",
+            "govern"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Adobe brings agentic AI to the content supply chain with CX Enterprise Coworker in GenStudio",
+          "url": "https://martechseries.com/content/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/",
+          "plain": "Adobe's CX Enterprise Coworker is an <b>agentic teammate</b> embedded inside GenStudio that can orchestrate content creation and delivery at scale. It signals a major shift in how enterprise marketing teams will build, approve, and distribute personalized content — with an AI agent handling steps that previously required human coordination across multiple tools.",
+          "chips": [
+            "agentic",
+            "genai",
             "perso",
             "cep"
           ]
         },
         {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "From journeys to decisions: The next era of customer engagement",
-          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
-          "plain": "A MarTech Conference session makes the case that <b>static journey maps are obsolete</b> and that real-time AI decisioning — choosing the right message, channel, and moment per person — is the new operating model. This reframes how teams should buy and configure customer engagement platforms.",
-          "chips": [
-            "decis",
-            "agentic",
-            "cep",
-            "perso"
-          ]
-        },
-        {
           "num": "03",
           "src": "Agile Brand",
-          "fresh": true,
-          "head": "Zingtree launches agentic governance platform for contact centers in regulated industries",
+          "fresh": false,
+          "head": "Zingtree launches agentic governance and orchestration platform for regulated contact centers",
           "url": "https://agilebrandguide.com/zingtree-launches-first-agentic-governance-and-orchestration-platform-built-for-contact-centers-customer-operations-in-complex-regulated-industries/",
-          "plain": "Zingtree is pitching the first platform built specifically to <b>govern and orchestrate AI agents in high-stakes customer support</b> — healthcare, insurance, financial services — where a wrong automated decision has legal and financial consequences. It addresses cost, latency, and explainability controls in one stack.",
+          "plain": "Zingtree's new platform lets healthcare, insurance, and financial services companies deploy AI agents in customer support while keeping <b>human-defined guardrails</b> in place. It addresses the hardest problem in agentic AI adoption: how do you let agents act autonomously while staying compliant in regulated industries? This sets a template for <b>governed agentic deployment</b>.",
           "chips": [
             "agentic",
             "govern",
-            "cep",
-            "decis"
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Adobe expands Creative Agent across Creative Cloud with local MCP integrations for Photoshop, Illustrator and more",
-          "url": "https://agilebrandguide.com/adobe-powers-a-new-era-of-creativity-bringing-agents-and-tools-to-creatives-wherever-and-however-they-create/",
-          "plain": "Adobe is embedding <b>agentic workflows directly inside Photoshop, Illustrator, Premiere and After Effects</b> via local MCP integrations, and bringing a CX Enterprise Coworker into GenStudio. This shifts Adobe's creative suite from a tool you operate to an agent you direct — a significant change for how marketing content is built at scale.",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "From journeys to decisions: real-time AI decisioning replaces static customer journey maps",
+          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
+          "plain": "A MarTech Conference session makes the case that <b>static journey maps are obsolete</b> — modern AI can make per-person, per-moment decisions about what to send, when, and on which channel. This reframes how marketing teams should evaluate CEPs and shifts budget thinking from campaign orchestration to <b>real-time decisioning infrastructure</b>.",
           "chips": [
-            "agentic",
-            "genai",
-            "govern",
-            "perso"
+            "decis",
+            "perso",
+            "cep",
+            "agentic"
           ]
         },
         {
           "num": "05",
-          "src": "Supermetrics · via MarTech Series",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Supermetrics launches Campaign Manager to bridge AI insights and campaign execution",
-          "url": "https://martechseries.com/sales-marketing/supermetrics-launches-campaign-manager-bringing-ai-powered-insights-and-campaign-execution-together/",
-          "plain": "Supermetrics — already the data-pipeline layer for 200,000+ businesses — is now letting marketers act on that data, not just see it. <b>Campaign Manager closes the loop between analysis and execution</b> across ad platforms while keeping humans in control of final decisions. It signals a broader move by data tools into the decisioning layer.",
+          "head": "Claritas Email Advantage adds live AI optimization — adjusting audiences and subject lines while campaigns run",
+          "url": "https://martech.org/claritas-brings-live-optimization-to-acquisition-email/",
+          "plain": "Claritas's new acquisition email product uses <b>AI to adjust audience targeting and subject lines in real time</b> during a live campaign, then measures actual lift using holdout groups. This moves email from a set-and-send channel to a continuously learning one — a meaningful shift in how marketers buy and evaluate email optimization tools.",
           "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "bandit"
+            "bandit",
+            "perso",
+            "cdp",
+            "cep"
           ]
         }
       ]
@@ -194,121 +192,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Referral Traffic Is <em>Rewriting Revenue Math</em>",
-          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
+          "head": "AI Agents Are <em>Rewriting the Buyer Shortlist</em>",
+          "url": "https://agilebrandguide.com/g2-cpto-alexis-zheng-on-who-builds-your-shortlist-now/",
           "body": [
-            "Visitors arriving via AI assistants generate <b>83% more revenue per visit</b> than average web traffic — yet the same data shows ChatGPT's paid referrals are worth far less than Google's equivalent clicks. That gap means the channel mix looks very different depending on whether you measure volume or value.",
-            "For budget holders, this is a decision-forcing signal: optimizing for AI-driven discovery is no longer experimental. Brands must now audit which AI surfaces send high-intent visitors and allocate accordingly, before competitors lock in early visibility advantages."
+            "AI agents — not human researchers — are increasingly doing the first round of vendor evaluation, pulling from third-party review sites, structured data, and public signals rather than your own positioning pages. G2's CPTO Alexis Zheng spelled out the implication plainly: <b>brands that don't show up in AI-readable evidence won't make the consideration set</b>, regardless of how good their own copy is.",
+            "This shifts marketing investment from polished owned-media messaging toward building verifiable, third-party-cited credibility. Tools like SEOAST's GEO &amp; AEO audits and Marcora's brand-context layer for ChatGPT &amp; Claude are early infrastructure responses — but most marketing teams haven't restructured their content strategy around this reality yet."
           ],
           "ev": [
             [
-              "MarTech · AI · Revenue per visit",
-              "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
+              "Agile Brand · G2 CPTO on AI shortlisting",
+              "https://agilebrandguide.com/g2-cpto-alexis-zheng-on-who-builds-your-shortlist-now/"
             ],
             [
-              "MarTech · AI · ChatGPT vs. Google value",
-              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
+              "MarTech Series · SEOAST GEO &amp; AEO Audits",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seoast-offers-free-geo-and-aeo-audits-that-show-how-search-and-ai-answer-engines-read-a-page/"
             ],
             [
-              "MarTech · Local AI visibility",
-              "https://martech.org/the-drivers-of-local-ai-visibility-for-multi-location-brands/"
+              "MarTech Series · Marcora in ChatGPT &amp; Claude",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/marcora-now-available-in-chatgpt-and-claude-one-source-of-brand-and-company-context-for-marketing-teams-ai-tools/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "From Journeys to <em>Real-Time Decisions</em>",
-          "url": "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/",
+          "head": "<em>Agentic AI</em> Enters the Content Supply Chain",
+          "url": "https://martechseries.com/content/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/",
           "body": [
-            "The industry is retiring the idea of a fixed customer journey in favor of <b>moment-by-moment decisioning</b> — where AI evaluates context signals and chooses the next best action rather than advancing a customer through a predetermined funnel. Claritas's live optimization for acquisition email and Inuvo's neighborhood-level CTV intelligence are live examples of this shift.",
-            "This changes what martech stacks must do: instead of orchestrating sequences, they must support <b>continuous inference at the edge of the customer interaction</b>. Teams that still think in campaign phases will find their tools increasingly misaligned with how the platforms actually operate."
+            "Adobe's CX Enterprise Coworker and its expanded Firefly Creative Studio represent a step-change: AI is no longer just a generation tool but an <b>autonomous coworker that plans, drafts, reviews, and routes content</b> across the full supply chain. Paired with the Adobe–Google model partnership, this creates end-to-end agentic workflows that compress multi-day creative cycles into hours.",
+            "The practical consequence for marketing teams is that human roles shift toward briefing, governance, and final approval rather than production. Medeo's white-label AI video platform and Zingtree's agentic governance layer for contact centers show the same pattern spreading across verticals — <b>autonomy with guardrails</b> is becoming the design standard."
           ],
           "ev": [
             [
-              "MarTech · Journeys to decisions",
-              "https://martech.org/from-journeys-to-decisions-the-next-era-of-customer-engagement/"
+              "MarTech Series · Adobe CX Enterprise Coworker",
+              "https://martechseries.com/content/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/"
             ],
             [
-              "MarTech · Claritas live optimization",
-              "https://martech.org/claritas-brings-live-optimization-to-acquisition-email/"
+              "Agile Brand · Adobe Firefly expansion",
+              "https://agilebrandguide.com/adobe-firefly-expands-as-the-ai-creative-studio-bringing-adobes-trusted-creative-tools-to-every-creator/"
             ],
             [
-              "MarTech Series · Inuvo neighborhood CTV",
-              "https://martechseries.com/sales-marketing/programmatic-buying/inuvo-advances-intentkey-ctv-intelligence-to-the-neighborhood-level/"
+              "Agile Brand · Zingtree agentic governance",
+              "https://agilebrandguide.com/zingtree-launches-first-agentic-governance-and-orchestration-platform-built-for-contact-centers-customer-operations-in-complex-regulated-industries/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Measurement Is <em>Fragmenting Into Layers</em>",
-          "url": "https://martech.org/why-marketing-needs-different-approaches-to-measurement/",
+          "head": "AI Traffic Is <em>High-Intent but Structurally Different</em>",
+          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
           "body": [
-            "No single attribution model holds anymore. Articles this month advocated stacking <b>Marketing Mix Modeling with post-purchase survey data</b>, running channel-specific logic for CTV, and accepting that different business questions need structurally different measurement instruments. This is not a tooling problem — it is a mental-model problem.",
-            "The practical implication is that <b>measurement literacy</b> is now a core marketing competency, not a data-team specialty. Leaders who insist on one dashboard to rule all channels will systematically misread performance and misdirect spend."
+            "Data now shows AI-referred visitors generate <b>83% more revenue per visit</b> than average web traffic — but ChatGPT's paid traffic is worth far less than Google's equivalent. The divergence reveals a nuanced reality: AI channels deliver warm, decision-ready users when the query is organic and informational, but monetization models for AI-driven paid placements remain immature.",
+            "For multi-location and B2B brands, local AI visibility is emerging as a distinct discipline separate from traditional SEO. <b>Marketers need separate tracking, separate content strategies, and separate attribution models</b> for AI-referred sessions — combining tools like MMM with post-purchase surveys is one practical bridge until cleaner AI attribution infrastructure exists."
           ],
           "ev": [
             [
-              "MarTech · Different measurement approaches",
-              "https://martech.org/why-marketing-needs-different-approaches-to-measurement/"
+              "MarTech · AI traffic 83% revenue uplift",
+              "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
             ],
             [
-              "MarTech · MMM plus survey attribution",
-              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
+              "MarTech · ChatGPT paid traffic vs Google",
+              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
             ],
             [
-              "MarTech · B2B CTV beyond awareness",
-              "https://martech.org/b2b-ctv-tactics-that-go-beyond-brand-awareness/"
+              "MarTech · Local AI visibility for multi-location brands",
+              "https://martech.org/the-drivers-of-local-ai-visibility-for-multi-location-brands/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Agents Need <em>Governance Rails</em> First",
-          "url": "https://martech.org/why-ai-is-complicating-marketing-centralization/",
+          "head": "Measurement Is <em>Fragmenting Into Layers</em>",
+          "url": "https://martech.org/why-marketing-needs-different-approaches-to-measurement/",
           "body": [
-            "Agentic AI — systems that act autonomously across workflows — is arriving in marketing operations faster than the governance structures to control it. Zingtree's launch of an agentic orchestration platform explicitly built for <b>regulated, complex industries</b> signals that guardrails are becoming a product category, not an afterthought. Meanwhile, Adobe's brand-intelligence push addresses the same anxiety from the creative side.",
-            "Without deliberate governance, AI agents will <b>decentralize decision-making in ways that are hard to audit or reverse</b>. The month's coverage consistently framed this as the central tension: productivity gains are real, but so is the organizational risk of letting agents operate without clear boundaries and accountability chains."
+            "A cluster of pieces this month converges on a single uncomfortable truth: <b>no single measurement method works across all channels or time horizons</b>. MMM captures long-run brand effects; post-purchase surveys capture last-touch intent; real-time optimization (like Claritas Email Advantage) handles in-flight decisions. Each lens answers a different question, and conflating them produces bad calls.",
+            "The practical response is a layered measurement stack rather than a unified attribution platform — <b>right model for the right decision</b>. Supermetrics' Campaign Manager, which pairs AI insights with campaign execution in one interface, points toward tooling that lets teams switch analytical frames without switching platforms, reducing the cognitive overhead of running multiple models simultaneously."
           ],
           "ev": [
             [
-              "MarTech · AI complicating centralization",
-              "https://martech.org/why-ai-is-complicating-marketing-centralization/"
+              "MarTech · Different approaches to measurement",
+              "https://martech.org/why-marketing-needs-different-approaches-to-measurement/"
             ],
             [
-              "Agile Brand · Zingtree agentic governance",
-              "https://agilebrandguide.com/zingtree-launches-first-agentic-governance-and-orchestration-platform-built-for-contact-centers-customer-operations-in-complex-regulated-industries/"
+              "MarTech · MMM with post-purchase survey attribution",
+              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
             ],
             [
-              "Agile Brand · Adobe brand integrity",
-              "https://agilebrandguide.com/adobe-elevating-brand-integrity-brand-intelligence-for-trust-and-consistency-in-an-ai-driven-landscape/"
+              "Agile Brand · Supermetrics Campaign Manager",
+              "https://agilebrandguide.com/supermetrics-launches-campaign-manager-bringing-ai-powered-insights-and-campaign-execution-together/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Turning AI Efficiency Into <em>Actual ROI</em>",
+          "head": "AI Productivity Gains Need <em>Deliberate ROI Conversion</em>",
           "url": "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/",
           "body": [
-            "Productivity gains from AI are widely documented, but converting saved hours into measurable revenue remains elusive. Coverage this month stressed that <b>efficiency without reinvestment strategy is just cost reduction</b> — and that the teams seeing ROI are deliberately redeploying freed capacity into higher-leverage creative or strategic work, not simply cutting headcount.",
-            "Supermetrics' Campaign Manager, which unifies AI insights with execution, and Phocas's embedded analytics represent a vendor-side response: <b>collapsing the gap between analysis and action</b> so that speed-to-decision itself becomes the efficiency dividend. Marketers evaluating new tools should ask not just what a platform automates, but where it redirects human attention."
+            "Efficiency gains from AI are real but <b>they don't automatically translate to business outcomes</b> — teams that save time on content production often just fill that time with more content rather than higher-value thinking. The month's editorial consensus is that converting productivity into ROI requires explicit redeployment decisions: fewer headcount additions, faster test-and-learn cycles, or reinvestment in strategy work.",
+            "Complicating this is the decentralization pressure AI creates inside marketing orgs — individual teams deploying their own AI tools fragment data, governance, and brand context. <b>Martech platform buyers now need to audit AI context handling before signing contracts</b>, and tools that inject consistent brand context (like Marcora's shared context layer) are addressing the organizational coherence problem that raw productivity tools leave behind."
           ],
           "ev": [
             [
-              "MarTech · AI productivity to ROI",
+              "MarTech · Turning AI productivity into ROI",
               "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/"
             ],
             [
-              "Agile Brand · Supermetrics Campaign Manager",
-              "https://agilebrandguide.com/supermetrics-launches-campaign-manager-bringing-ai-powered-insights-and-campaign-execution-together/"
+              "MarTech · AI complicating marketing centralization",
+              "https://martech.org/why-ai-is-complicating-marketing-centralization/"
             ],
             [
-              "MarTech Series · Phocas embedded AI analytics",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/phocas-expands-distribution-intelligence-with-embedded-ai-in-analytics-to-accelerate-decisions/"
+              "MarTech · What to do before buying a martech platform with AI context",
+              "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — traffic, creative, measurement, ops, &amp; ROI accounting — <em>AI is forcing marketers to replace inherited assumptions with live, evidence-based decisions</em>, and the brands that build that capability now will be structurally harder to displace."
+      "takeaway": "The month's signal is unified: AI is no longer a feature layer on top of existing martech — <em>it is restructuring who discovers brands, who creates content, how performance is measured, and where organizational authority sits</em>, forcing marketers to redesign strategy, tooling, and governance simultaneously."
     }
   }
 }
