@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:52:40.038621+00:00",
+  "generatedAt": "2026-11-12T20:58:31.264689+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,9 +47,35 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "Adobe expands AI stack with Google models, custom Disney models, and agentic workflow tools",
+          "head": "IAB unveils framework for measuring AI's part in conversions",
+          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
+          "plain": "The IAB has released a common standard for crediting AI when it influences or completes a sale. This matters because without agreed measurement, brands can't compare AI-driven results across vendors or channels. A shared attribution framework will shape how <b>marketing AI tools are bought and evaluated</b> — and who gets paid when a bot closes a deal.",
+          "chips": [
+            "govern",
+            "agentic",
+            "decis"
+          ]
+        },
+        {
+          "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "HubSpot brings back co-founder Brian Halligan as CEO to rebuild around AI",
+          "url": "https://agilebrandguide.com/hubspot-brings-back-co-founder-brian-halligan-as-ceo-names-adobes-karen-burgess-as-next-cfo/",
+          "plain": "Yamini Rangan is out after five years; Brian Halligan returns pledging to rebuild HubSpot's product, go-to-market, and culture around AI. HubSpot is a platform used by hundreds of thousands of businesses, so a <b>CEO-level strategic pivot to AI</b> will ripple through how mid-market companies buy and use marketing technology.",
+          "chips": [
+            "genai",
+            "agentic",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Adobe expands AI stack with Google models, custom Disney models, and agentic marketing tools",
           "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/",
-          "plain": "Adobe is wiring <b>Google and Disney-trained models</b> into its creative and marketing platform alongside new agentic tools that coordinate content and campaign workflows end-to-end. This matters because it signals how the biggest creative stack is shifting from AI-assisted to AI-orchestrated — a purchase and integration decision every enterprise marketer will face soon.",
+          "plain": "Adobe is adding Google's models and bespoke Disney models to its AI stack while rolling out agentic tools to coordinate content and marketing workflows. This shows the <b>enterprise AI content market consolidating around multi-model platforms</b>, with brand-specific fine-tuning becoming a competitive differentiator for large buyers.",
           "chips": [
             "genai",
             "agentic",
@@ -58,57 +84,31 @@
           ]
         },
         {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "When the buyer is not human: how to market to AI shopping agents",
-          "url": "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/",
-          "plain": "Optimove's piece explores what happens when <b>AI agents do the shopping</b> on behalf of consumers — the agent evaluates your catalog, compares offers, and decides, while the human never sees your message. Marketers must rethink relationship and loyalty tactics designed for human attention spans and emotional triggers.",
-          "chips": [
-            "agentic",
-            "decis",
-            "perso",
-            "cep"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "Sitecore launches MarketingIQ to link AI brand-discovery insights to content and campaign execution",
-          "url": "https://agilebrandguide.com/sitecore-introduces-marketingiq-to-turn-brand-intelligence-into-business-growth/",
-          "plain": "Sitecore's new MarketingIQ product connects <b>AI-generated brand-visibility data</b> — how a brand appears in AI search answers — directly to content creation and campaign tools. It is one of the first products to close the loop between generative engine optimization signals and actual marketing execution, making it relevant to both GEO strategy and content ops buyers.",
-          "chips": [
-            "geo",
-            "genai",
-            "agentic",
-            "cep"
-          ]
-        },
-        {
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Keeping AI agents on-brand: Treasure AI CEO warns of 'AI laziness' as bot volumes explode",
-          "url": "https://agilebrandguide.com/expert-mode-keeping-autonomous-ai-agents-on-brand-in-a-world-of-billions-of-bots-with-kaz-ohta-treasure-ai/",
-          "plain": "Kaz Ohta flags a real governance risk: teams that <b>blindly forward AI output</b> without review erode brand voice and trust at scale. With autonomous agents proliferating, this interview frames the emerging discipline of human-AI collaboration as a core marketing competency — not just a tech problem.",
+          "head": "ActiveCampaign opens Active Intelligence to any tool via Model Context Protocol",
+          "url": "https://agilebrandguide.com/activecampaign-lets-marketers-bring-google-ads-linkedin-webflow-airtable-and-any-tool-they-use-into-active-intelligence/",
+          "plain": "ActiveCampaign now lets marketers connect Google Ads, LinkedIn, Webflow, Airtable, or any MCP server to its AI layer, then run campaigns the agent designs. <b>MCP as an open standard for agentic tool-calling</b> is a structural shift in how marketing platforms integrate — this is an early real-world implementation buyers should watch.",
           "chips": [
             "agentic",
-            "govern",
-            "genai"
+            "decis",
+            "cep",
+            "cdp"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "G2 unifies four software marketplaces into one platform built for answer-engine optimization",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/g2-brings-four-leading-software-marketplaces-together-to-help-brands-win-the-answer-in-the-agentic-era/",
-          "plain": "G2 is merging G2, Capterra, Software Advice, and GetApp into a single platform that links reviews, listings, ads, and buyer data to help B2B software brands appear prominently in <b>AI-generated answers</b>. It is a significant structural move in the GEO space, directly affecting how MarTech vendors are discovered and evaluated by AI-assisted buyers.",
+          "head": "Optimove: how to retain the customer relationship when the buyer is an AI agent",
+          "url": "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/",
+          "plain": "Optimove's piece tackles what happens to loyalty and personalization when an AI agent — not a person — browses and buys on a shopper's behalf. It raises concrete questions about <b>how engagement platforms must adapt when the 'customer' in the journey is itself a bot</b>, a governance and architecture challenge that is arriving fast.",
           "chips": [
-            "geo",
             "agentic",
-            "cdp"
+            "perso",
+            "cep",
+            "govern"
           ]
         }
       ]
@@ -117,23 +117,37 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech · AI",
-          "fresh": false,
-          "head": "ChatGPT's paid traffic is worth far less than Google's",
-          "url": "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/",
-          "plain": "Data shows paid ChatGPT visits generate only 89 cents per session versus $2.45 from paid Google Search. This hard revenue gap <b>challenges the rush to shift budgets toward AI-answer placements</b> and forces marketers to rethink how they value GEO spend versus traditional search advertising.",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "IAB unveils framework for measuring AI's part in conversions",
+          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
+          "plain": "The IAB is proposing a <b>common standard for crediting AI-assisted conversions</b> — deciding how much of a sale belongs to an AI agent versus a human-driven touchpoint. This directly shapes how budgets are allocated, how vendors prove ROI, and how the whole industry agrees to measure AI's commercial role.",
           "chips": [
-            "geo",
-            "govern"
+            "govern",
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "HubSpot brings back co-founder Brian Halligan as CEO to rebuild around AI",
+          "url": "https://agilebrandguide.com/hubspot-brings-back-co-founder-brian-halligan-as-ceo-names-adobes-karen-burgess-as-next-cfo/",
+          "plain": "HubSpot's board replaced Yamini Rangan with founder Halligan, citing a need to <b>rebuild product, go-to-market, and culture around AI</b>. A major platform reshaping around AI strategy affects how tens of thousands of marketers buy and use their core marketing and CRM tools.",
+          "chips": [
+            "cep",
+            "genai",
+            "agentic"
+          ]
+        },
+        {
+          "num": "03",
           "src": "MarTech",
           "fresh": true,
-          "head": "Connecting with shoppers when the buyer is not human",
+          "head": "Connecting with shoppers when the buyer is not human — Optimove",
           "url": "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/",
-          "plain": "As AI shopping agents increasingly make purchase decisions on behalf of consumers, brands must rethink how they present catalogs, offers, and loyalty programmes. The piece argues that <b>the relationship layer still belongs to the brand</b>, but the transaction layer is fast being intermediated by autonomous agents — a structural shift in CEP strategy.",
+          "plain": "As AI shopping agents increasingly make purchase decisions on behalf of consumers, brands must rethink how they present offers and maintain relationships. This piece explains what it means for <b>customer engagement when the 'customer' doing the browsing is itself an AI agent</b> — a structural shift in martech strategy.",
           "chips": [
             "agentic",
             "decis",
@@ -142,44 +156,31 @@
           ]
         },
         {
-          "num": "03",
-          "src": "Agile Brand",
+          "num": "04",
+          "src": "ActiveCampaign · via Agile Brand",
           "fresh": true,
-          "head": "Adobe brings agentic AI to the content supply chain with CX Enterprise Coworker",
-          "url": "https://agilebrandguide.com/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/",
-          "plain": "Adobe's CX Enterprise Coworker is an agentic layer that plugs into its content supply chain, letting AI teammates coordinate creation, approval, and delivery of personalised content at scale. Combined with Google model integrations and custom Disney models noted in the MarTech roundup, this signals <b>major platform vendors embedding agentic decisioning directly into creative workflows</b>.",
+          "head": "ActiveCampaign opens Active Intelligence to MCP servers and third-party tools",
+          "url": "https://agilebrandguide.com/activecampaign-lets-marketers-bring-google-ads-linkedin-webflow-airtable-and-any-tool-they-use-into-active-intelligence/",
+          "plain": "ActiveCampaign now lets marketers plug any tool — Google Ads, LinkedIn, Airtable, or any MCP-compatible server — into its AI layer so agents can <b>run cross-channel campaigns using live business context</b>. MCP adoption as a connective standard is a meaningful architectural shift in how agentic martech stacks are assembled.",
           "chips": [
             "agentic",
-            "genai",
-            "perso",
-            "govern"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Claritas brings live optimization to acquisition email",
-          "url": "https://martech.org/claritas-brings-live-optimization-to-acquisition-email/",
-          "plain": "Claritas's new product adjusts audiences and subject lines <b>while campaigns are still running</b>, then uses holdout groups and attribution to measure real lift. This is a practical example of bandit-style learning applied to email acquisition — moving beyond static A/B tests toward continuous in-flight learning that affects how email tools are bought and evaluated.",
-          "chips": [
-            "bandit",
             "cep",
-            "govern",
-            "perso"
+            "decis",
+            "genai"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Sitecore · via Agile Brand",
           "fresh": true,
-          "head": "G2 unifies four software marketplaces to help brands win AI-answer visibility",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/g2-brings-four-leading-software-marketplaces-together-to-help-brands-win-the-answer-in-the-agentic-era/",
-          "plain": "G2 is merging G2, Capterra, Software Advice, and GetApp into one platform explicitly to power <b>answer engine optimization and answer engine marketing</b> strategies. For B2B software buyers, this reshapes where review and listing data lives and how AI answer engines surface vendor recommendations — a significant structural shift in how MarTech vendors compete for discovery.",
+          "head": "Sitecore launches MarketingIQ to connect AI discovery insights with content execution",
+          "url": "https://agilebrandguide.com/sitecore-introduces-marketingiq-to-turn-brand-intelligence-into-business-growth/",
+          "plain": "Sitecore's new MarketingIQ tool links <b>AI search visibility data directly to content and campaign execution</b>, letting brands see where they appear in AI-generated answers and act on those gaps without leaving the platform. It is one of the first martech products to close the loop between GEO insight and campaign action.",
           "chips": [
             "geo",
+            "genai",
             "agentic",
-            "cdp"
+            "govern"
           ]
         }
       ]
@@ -189,11 +190,11 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Commerce</em> Takeover",
+          "head": "The <em>Agentic Commerce</em> Takeover: When the Buyer Isn't Human",
           "url": "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/",
           "body": [
-            "Within a single news cycle, multiple vendors — ZEPIC, Jungle Scout, Spangle AI, 5.Y, and Adobe — launched products built on the assumption that <b>AI agents, not humans, will increasingly make or mediate purchase decisions</b>. The strategic question is no longer how to personalize for a person but how to make your product data legible to a bot evaluating thousands of options in milliseconds.",
-            "Optimove's framing — 'connecting with shoppers when the buyer is not human' — crystallizes the shift. <b>Brands that optimize only for human attention are already behind</b>; the new surface area is agent-readable product intelligence, structured data feeds, and machine-to-machine trust signals that autonomous CRMs &amp; storefronts can act on."
+            "AI agents are increasingly acting as autonomous buyers, researchers, and decision-makers on behalf of consumers — a shift that upends how brands think about the \"customer journey.\" Products like ZEPIC's Neura, Jungle Scout Agents, Spangle AI's Product Intelligence 360, and G2's unified marketplace all launched this month specifically to help brands <b>optimize for agent-driven discovery rather than human browsing</b>.",
+            "This isn't a future trend — it's a present procurement reality. If your product data, reviews, and brand signals aren't structured for AI agent consumption, you're invisible to a growing share of purchase decisions. Marketers must now treat <b>machine-readable brand intelligence</b> as a first-class asset, sitting alongside creative and copy."
           ],
           "ev": [
             [
@@ -201,109 +202,109 @@
               "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/"
             ],
             [
-              "MarTech Series · Spangle AI product intelligence",
+              "MarTech Series · Spangle AI",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/spangle-ai-unveils-product-intelligence-360-to-help-brands-win-in-the-age-of-ai-shopping-agents/"
             ],
             [
-              "MarTech Series · ZEPIC Neura storefront",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zepic-launches-neura-an-agentic-conversational-storefront-for-consumer-brands/"
+              "MarTech Series · G2 agentic era",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/g2-brings-four-leading-software-marketplaces-together-to-help-brands-win-the-answer-in-the-agentic-era/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Brand Governance</em> at Agent Scale",
-          "url": "https://agilebrandguide.com/expert-mode-keeping-autonomous-ai-agents-on-brand-in-a-world-of-billions-of-bots-with-kaz-ohta-treasure-ai/",
+          "head": "<em>Autonomous CRM &amp; Execution</em>: Agents Replace Workflow Rules",
+          "url": "https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/",
           "body": [
-            "As autonomous agents proliferate into customer-facing roles, a new operational problem emerges: <b>who is responsible when a bot goes off-brand?</b> Treasure AI's Kaz Ohta puts it starkly — in a world of billions of bots, brand consistency can no longer be enforced by human review; it must be encoded into the agent's architecture from the start.",
-            "Thought Industries CEO Irana Wasti reinforces this from the knowledge side, arguing that <b>AI needs a knowledge architecture, not just a knowledge base</b> — structured, governed information layers that give agents confident, on-brand answers rather than hallucinated ones. Together, these signals point to governance infrastructure becoming as critical as creative strategy."
+            "The classic rule-based marketing automation playbook — if-this-then-that sequences, drip campaigns, static lead scoring — is being retired and replaced by <b>agentic systems that reason, adapt, and act without human triggers</b>. Launches this month from 5.Y (GLUCOSE 4.0 autonomous CRM), ActiveCampaign's Active Intelligence, and Sitecore's MarketingIQ all share the same design philosophy: replace brittle rules with continuous AI judgment.",
+            "The strategic decision this forces is <b>where humans stay in the loop</b>. The Aampe/MoEngage CEO framing is useful: agents handle execution, but marketers must own the purpose and guardrails. Teams that hand off execution without defining brand constraints risk drifting — a point Treasure AI's Kaz Ohta made explicitly about keeping autonomous bots on-brand at scale."
           ],
           "ev": [
             [
-              "Agile Brand · On-brand agents",
+              "MarTech · Automation is dead/reborn",
+              "https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/"
+            ],
+            [
+              "MarTech Series · GLUCOSE 4.0 autonomous CRM",
+              "https://martechseries.com/sales-marketing/crm/5-y-launches-glucose-4-0-the-autonomous-crm-cx-and-cpaas-built-for-the-agentic-era/"
+            ],
+            [
+              "Agile Brand · Agents on-brand",
               "https://agilebrandguide.com/expert-mode-keeping-autonomous-ai-agents-on-brand-in-a-world-of-billions-of-bots-with-kaz-ohta-treasure-ai/"
-            ],
-            [
-              "Agile Brand · Knowledge architecture",
-              "https://agilebrandguide.com/thought-industries-ceo-irana-wasti-on-why-ai-needs-a-knowledge-architecture-not-a-knowledge-base/"
-            ],
-            [
-              "Agile Brand · Adobe agentic coworker",
-              "https://agilebrandguide.com/adobe-brings-agentic-ai-to-the-content-supply-chain-with-cx-enterprise-coworker/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Traffic's <em>Revenue Quality Gap</em>",
-          "url": "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/",
+          "head": "Measuring <em>AI's Attribution Fingerprint</em> Before Standards Lock In",
+          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
           "body": [
-            "Two findings landed this month that reframe how marketers should value AI-referred traffic. Visitors arriving via AI assistants drive <b>83% more revenue per visit</b> than average — but separately, paid traffic from ChatGPT is worth far less than equivalent Google paid traffic in terms of downstream conversion quality. The gap between organic AI referral value and paid AI channel value is a decision-changing insight.",
-            "Retailers layering first-party data into social campaigns face a parallel paradox: sharper targeting can <b>inflate CPMs enough to erase the precision premium</b>. Taken together, the month's data signals that marketers urgently need attribution models — MMM combined with post-purchase surveys — that can distinguish high-quality AI-sourced demand from expensive noise."
+            "The IAB's new framework for crediting AI touchpoints in conversion paths is the clearest signal yet that <b>the attribution model of the next decade is being written right now</b>. Simultaneously, data showing that ChatGPT's paid traffic converts far worse than Google's forces an immediate re-evaluation of how AI-referred visitors are valued in existing models. Combining Marketing Mix Modeling with post-purchase surveys is gaining traction as a triangulation method when AI muddies last-click logic.",
+            "The practical danger is locking in measurement contracts or tech stacks before these standards mature. <b>Brands that invest in flexible, multi-method attribution today</b> — rather than doubling down on a single vendor's black box — will be able to adopt the IAB framework without a painful rip-and-replace. The cost of cheap CAC metrics that ignore quality is showing up in this month's commentary on expensive growth."
           ],
           "ev": [
             [
-              "MarTech · AI traffic revenue per visit",
-              "https://martech.org/ai-traffic-drives-83-more-traffic-per-visit/"
+              "MarTech · IAB AI attribution framework",
+              "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/"
             ],
             [
-              "MarTech · ChatGPT paid vs Google paid",
+              "MarTech · ChatGPT traffic quality",
               "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
             ],
             [
-              "MarTech · Retailer data &amp; social cost",
-              "https://martech.org/retailer-data-can-sharpen-social-it-can-also-inflate-the-bill/"
+              "MarTech · MMM + survey attribution",
+              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>ROI Accountability</em> Reckoning",
-          "url": "https://agilebrandguide.com/61-of-marketers-face-c-suite-pressure-to-prove-roi-as-ai-gets-a-bigger-share-of-2027-budgets-validity-research-finds/",
+          "head": "The <em>Data Usability Reckoning</em>: Paying for Signals You Can't Activate",
+          "url": "https://martech.org/dont-pay-a-premium-for-data-you-cant-use/",
           "body": [
-            "Validity Research finds that <b>61% of marketers are facing C-suite pressure to prove AI ROI</b> as AI takes a larger slice of 2027 budgets — a figure that reframes every other story this month. The problem is not adoption; it is justification. AI productivity gains that stay inside the marketing function and never translate to measurable business outcomes are politically unsustainable.",
-            "MarTech's parallel pieces on cheap CAC being expensive growth and on not paying for data you cannot use underscore the same logic from the cost side: <b>efficiency metrics without revenue metrics are a liability in budget conversations</b>. Composable martech architectures are gaining ground partly because they let finance teams trace spend to outcome more clearly than monolithic suites do."
+            "Three separate pieces this month converged on the same warning: <b>organizations are acquiring data at a faster rate than their architecture can activate it</b>. Retailer data sharpens social targeting but can silently inflate media bills; premium data sources go unused because internal systems can't ingest them; and AI platforms confidently hallucinate answers because they're pulling from siloed, unstructured knowledge bases rather than a coherent knowledge architecture.",
+            "The Thought Industries CEO's distinction between a \"knowledge base\" and a \"knowledge architecture\" is the actionable frame here. <b>AI is only as reliable as the structure underneath it</b> — and most martech stacks were not built with that structure in mind. Before buying another AI-enhanced platform, the month's coverage argues you must audit what data you can actually use, not what you nominally own."
           ],
           "ev": [
             [
-              "Agile Brand · 61% ROI pressure",
-              "https://agilebrandguide.com/61-of-marketers-face-c-suite-pressure-to-prove-roi-as-ai-gets-a-bigger-share-of-2027-budgets-validity-research-finds/"
+              "MarTech · Don't pay for unusable data",
+              "https://martech.org/dont-pay-a-premium-for-data-you-cant-use/"
             ],
             [
-              "MarTech · Cheap CAC costly growth",
-              "https://martech.org/cheap-cac-can-be-expensive-growth/"
+              "MarTech · Retailer data &amp; inflated bills",
+              "https://martech.org/retailer-data-can-sharpen-social-it-can-also-inflate-the-bill/"
             ],
             [
-              "MarTech · Composable martech standard",
-              "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/"
+              "Agile Brand · Knowledge architecture vs. base",
+              "https://agilebrandguide.com/thought-industries-ceo-irana-wasti-on-why-ai-needs-a-knowledge-architecture-not-a-knowledge-base/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Measurement Expanding to <em>AI-Native Surfaces</em>",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/zefr-expands-ai-powered-media-quality-measurement-to-capcut-and-broadens-tiktok-coverage-across-topview-tiktok-image-ads-tiktok-search-ads-and-brand-auction-campaigns/",
+          "head": "<em>Composable, Consumer-Consented</em> AI: Architecture Meets Trust",
+          "url": "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/",
           "body": [
-            "Both Zefr and IAS independently expanded brand-safety &amp; media-quality measurement to CapCut and new TikTok ad formats this month — a signal that <b>measurement infrastructure is racing to keep pace with the explosion of AI-generated and short-form ad surfaces</b>. Where measurement does not yet exist, brand budgets cannot safely follow, making these expansions strategically enabling.",
-            "Samsung Ads' launch of three new interactive ad formats on Samsung TV Plus points in the same direction: <b>every new AI-powered content surface immediately creates a measurement gap</b> that must be closed before marketers can allocate at scale. The vendors closing those gaps fastest will gate access to the next generation of media spend — giving measurement companies unusual leverage in the ecosystem."
+            "Composable martech — assembling best-of-breed components rather than relying on monolithic suites — is accelerating precisely because <b>AI capabilities are evolving too fast for any single platform to stay current</b>. ActiveCampaign's open integration model and the broader industry pivot toward API-first stacks reflect this. At the same time, a Shift Browser study found Americans want AI on their own terms, signaling that <b>consumer trust and control are non-negotiable design constraints</b>, not afterthoughts.",
+            "These two forces — architectural flexibility and user consent — are converging into a single strategic imperative: build systems that can swap AI components as the market matures, while giving consumers visible control over how their data fuels those systems. Teams still evaluating monolithic AI platform purchases should weigh this month's pre-purchase checklist guidance heavily before signing."
           ],
           "ev": [
             [
-              "MarTech Series · Zefr CapCut &amp; TikTok",
-              "https://martechseries.com/sales-marketing/programmatic-buying/zefr-expands-ai-powered-media-quality-measurement-to-capcut-and-broadens-tiktok-coverage-across-topview-tiktok-image-ads-tiktok-search-ads-and-brand-auction-campaigns/"
+              "MarTech · Composable martech standard",
+              "https://martech.org/built-to-adapt-why-composable-martech-is-becoming-the-new-standard/"
             ],
             [
-              "MarTech Series · IAS TikTok quality",
-              "https://martechseries.com/content/ias-brings-total-media-quality-coverage-to-capcut-and-tiktoks-advertising-experiences/"
+              "Agile Brand · Americans want AI on own terms",
+              "https://agilebrandguide.com/americans-want-ai-on-their-own-terms-new-shift-browser-study-finds/"
             ],
             [
-              "MarTech Series · Samsung Ads formats",
-              "https://martechseries.com/tv-advertising/play-browse-act-samsung-ads-launches-three-new-ways-to-win-the-ad-break-on-samsung-tv-plus/"
+              "MarTech · Pre-purchase AI platform checklist",
+              "https://martech.org/what-to-do-before-buying-a-martech-platform-with-ai-context/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the decisive pressure is the same: <em>AI is shifting the buyer, the channel, and the accountability standard simultaneously</em>, and marketers who treat these as separate problems will be outpaced by those who redesign strategy, data architecture, and measurement as one integrated response."
+      "takeaway": "Every major move this month — from autonomous CRM launches to the IAB's attribution framework — points to the same inflection point: <em>the marketing stack is being re-engineered from the ground up for a world where AI agents are both the operators of campaigns and the targets of them</em>, and teams that treat this as a tooling upgrade rather than an architectural rethink will find themselves optimizing for a buyer experience that no longer exists."
     }
   }
 }
