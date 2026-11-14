@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T20:33:06.631381+00:00",
+  "generatedAt": "2026-11-14T12:18:45.102819+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -46,78 +46,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "Marketers deploying AI agents faster than they can measure them",
           "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
-          "plain": "Most marketing teams are rolling out <b>AI agents</b> without being able to link those agents' conversations to campaigns, conversions, or revenue. This measurement gap matters because buying and budgeting decisions depend on knowing what works — and right now, teams are flying blind on a fast-moving investment.",
-          "chips": [
-            "agentic",
-            "govern",
-            "decis"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Meet your new teammate: Building marketing workflows around AI agents",
-          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
-          "plain": "From the November MarTech Conference, this piece lays out how to design workflows that mix <b>AI agent efficiency with human oversight and governance</b>. It's practical guidance on where human judgment must stay in the loop — directly relevant to anyone deciding how to structure an AI-assisted marketing team.",
-          "chips": [
-            "agentic",
-            "govern",
-            "decis"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Scrunch launches Citation Optimization to help brands influence the sources behind AI recommendations",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scrunch-launches-citation-optimization-to-help-brands-influence-the-sources-behind-ai-recommendations/",
-          "plain": "Sitecore's Scrunch tool now shows marketers which third-party publishers and reviewers shape what AI engines recommend — and helps them act on that intelligence. This is a concrete new product in the fast-growing <b>Generative Engine Optimization</b> category, changing how brands think about visibility in AI-generated answers.",
-          "chips": [
-            "geo",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Iterable opens its platform to Claude, ChatGPT, and Cursor with a hosted MCP server",
-          "url": "https://martechseries.com/content/iterable-opens-its-platform-to-claude-chatgpt-and-cursor-with-a-hosted-mcp-server/",
-          "plain": "Iterable now lets external AI models like Claude and ChatGPT connect directly to its <b>customer engagement platform via a hosted MCP server</b>, plus adds AI-assisted SDKs and an expanded integrations hub. This shifts how CEPs get bought and built — teams can wire their preferred AI into campaign execution without custom engineering.",
-          "chips": [
-            "cep",
-            "agentic",
-            "genai"
-          ]
-        },
-        {
-          "num": "05",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "AppsFlyer expands Agentic AI and MCP tools with governed automation infrastructure",
-          "url": "https://martechseries.com/sales-marketing/marketing-automation/appsflyer-expands-agentic-ai-and-mcp-tools-to-empower-marketers-with-trusted-automation/",
-          "plain": "AppsFlyer's expanded Agent Hub lets marketing teams query and act on measurement data through automated agentic workflows, with explicit <b>governance guardrails built into the architecture</b>. It signals that measurement platforms are becoming agentic orchestration layers — and that governance is now a selling point, not an afterthought.",
-          "chips": [
-            "agentic",
-            "govern",
-            "decis"
-          ]
-        }
-      ]
-    },
-    "week": {
-      "stories": [
-        {
-          "num": "01",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Marketers deploying AI agents faster than they can measure them",
-          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
-          "plain": "Brands are rolling out AI agents across campaigns at speed, but most still cannot link those agent-driven conversations to actual conversions or revenue. This measurement gap is a serious governance and accountability problem: <b>you can't manage what you can't measure</b>, and untracked agents create budget and attribution blind spots that will compound fast.",
+          "plain": "Most marketing teams are rolling out AI agents quickly but lack the measurement tools to link those agent-driven conversations to actual campaigns, conversions, or revenue. This matters because <b>ungoverned agentic deployment</b> creates blind spots that make it impossible to know whether AI is helping or hurting — a core governance risk as budgets follow agents.",
           "chips": [
             "agentic",
             "govern",
@@ -129,9 +61,65 @@
           "num": "02",
           "src": "MarTech",
           "fresh": false,
+          "head": "Building marketing workflows around AI agents: human judgment still required",
+          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
+          "plain": "Coverage from the November MarTech Conference on how teams are redesigning workflows so <b>AI agents handle routine steps</b> while humans retain quality control and governance checkpoints. Practical guidance on where to insert human review makes this a usable blueprint for teams mid-deployment, not just theory.",
+          "chips": [
+            "agentic",
+            "govern",
+            "genai",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": false,
+          "head": "Scrunch launches Citation Optimization to help brands influence AI recommendation sources",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scrunch-launches-citation-optimization-to-help-brands-influence-the-sources-behind-ai-recommendations/",
+          "plain": "Scrunch, a Sitecore company, released a tool that maps which third-party publishers and reviewers shape AI-generated recommendations, then helps marketers act on that intelligence. <b>Citation Optimization is a concrete GEO product</b> — one of the first to operationalize influence over AI answer engines rather than just track brand mentions inside them.",
+          "chips": [
+            "geo",
+            "genai",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Relevance has an expiration date: stale signals are quietly killing personalization",
+          "url": "https://martech.org/relevance-has-an-expiration-date/",
+          "plain": "Campaigns keep running on old customer signals long after behavior has changed, producing messages that feel irrelevant or even alienating. The piece argues that <b>real-time signal freshness</b> is the missing ingredient in most personalization stacks — a data-layer problem that sits upstream of every AI model and agent making decisions.",
+          "chips": [
+            "perso",
+            "cdp",
+            "decis"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Harris Poll · via Agile Brand",
+          "fresh": false,
+          "head": "Harris Poll: Holiday shoppers are editing spending habits for the 2026 season",
+          "url": "https://agilebrandguide.com/harris-poll-the-holiday-edit-strategic-shifts-for-the-2026-season/",
+          "plain": "A survey of nearly 1,900 US shoppers finds consumers are trimming budgets and changing how and where they buy for the holidays, even while keeping traditions intact. For marketers, the data signals that <b>segment-level assumptions from prior years will misfire</b> and that more granular, real-time personalization strategies are needed this season.",
+          "chips": [
+            "perso",
+            "cdp"
+          ]
+        }
+      ]
+    },
+    "week": {
+      "stories": [
+        {
+          "num": "01",
+          "src": "MarTech",
+          "fresh": false,
           "head": "IAB unveils framework for measuring AI's part in conversions",
           "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
-          "plain": "The IAB has released a <b>common attribution standard</b> so brands and platforms can agree on how much credit AI-driven touchpoints deserve when a sale closes. This is a foundational governance move: without shared rules, every vendor will claim full credit and budgets will mis-allocate. Expect this to shape how MarTech contracts and reporting are written in 2027.",
+          "plain": "The IAB has released a common standard for deciding how much credit AI gets when it influences or completes a sale. This matters because <b>AI-assisted conversions</b> are rising fast but attribution rules differ by vendor — a shared framework changes how budgets are justified and how AI tools are bought and evaluated.",
           "chips": [
             "govern",
             "agentic",
@@ -139,30 +127,44 @@
           ]
         },
         {
-          "num": "03",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Iterable opens its platform to Claude, ChatGPT, and Cursor with a hosted MCP server",
-          "url": "https://martechseries.com/content/iterable-opens-its-platform-to-claude-chatgpt-and-cursor-with-a-hosted-mcp-server/",
-          "plain": "Iterable now exposes its customer engagement data to external AI models via a <b>hosted Model Context Protocol server</b>, letting tools like Claude or ChatGPT read and act on campaign data directly. This is a structural shift in how CEPs get built: instead of bespoke integrations, a standard protocol lets any capable AI agent plug in and run marketing workflows at scale.",
+          "num": "02",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Marketers deploying AI agents faster than they can measure them",
+          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
+          "plain": "Most marketing teams are rolling out AI agents without being able to tie those agents' conversations back to campaigns or revenue. The <b>measurement gap</b> is a governance problem: if you can't prove what an agent did, you can't justify the spend or catch mistakes — a core challenge for anyone buying or approving agentic tools.",
           "chips": [
-            "cep",
             "agentic",
-            "genai",
-            "govern"
+            "govern",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "Meet your new teammate: Building marketing workflows around AI agents",
+          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
+          "plain": "From the November MarTech Conference, this piece lays out practical patterns for <b>combining AI agents with human oversight</b> — where to let agents act autonomously, where to add checkpoints, and how governance fits in. It is one of the clearest how-to guides on redesigning marketing operations around agentic AI.",
+          "chips": [
+            "agentic",
+            "govern",
+            "decis",
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Scrunch launches Citation Optimization to help brands influence sources behind AI recommendations",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scrunch-launches-citation-optimization-to-help-brands-influence-the-sources-behind-ai-recommendations/",
-          "plain": "Scrunch (a Sitecore company) now shows marketers <b>which third-party publishers and reviewers shape AI-generated answers</b> about their brand, then helps them target those sources to earn more citations. This is a concrete, buyable GEO product — the first wave of tools turning AI-answer visibility from a theory into a managed channel with measurable tactics.",
+          "src": "MarTech · via Optimove",
+          "fresh": false,
+          "head": "Connecting with shoppers when the buyer is not human",
+          "url": "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/",
+          "plain": "AI shopping agents are starting to make purchase decisions on behalf of consumers, meaning <b>your next customer may be a bot, not a person</b>. This piece explains what that shift means for personalization, catalog data, and customer relationships — a genuinely new buying dynamic that changes how engagement platforms must work.",
           "chips": [
-            "geo",
-            "genai",
-            "govern"
+            "agentic",
+            "perso",
+            "cep",
+            "decis"
           ]
         },
         {
@@ -171,11 +173,11 @@
           "fresh": false,
           "head": "HubSpot brings back co-founder Brian Halligan as CEO to rebuild around AI",
           "url": "https://agilebrandguide.com/hubspot-brings-back-co-founder-brian-halligan-as-ceo-names-adobes-karen-burgess-as-next-cfo/",
-          "plain": "Yamini Rangan is out after five years; <b>Halligan returns explicitly to reorganize HubSpot's product, go-to-market, and culture around AI</b>. HubSpot is one of the largest SMB marketing platforms globally, so a founder-led AI pivot at this scale signals a coming wave of product and pricing changes that will affect how hundreds of thousands of businesses buy and use MarTech.",
+          "plain": "HubSpot's board replaced CEO Yamini Rangan with returning co-founder Brian Halligan, who says he will rebuild the company's product, go-to-market, and culture around AI. <b>A leadership reset at one of the largest marketing platforms</b> signals a strategic pivot that will affect how hundreds of thousands of businesses buy and use marketing software.",
           "chips": [
+            "genai",
             "agentic",
-            "cep",
-            "genai"
+            "cep"
           ]
         }
       ]
@@ -185,107 +187,84 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Agentic Flood</em>: Deploying AI Agents Faster Than You Can Govern Them",
+          "head": "AI Agents Are <em>Rewriting the Workflow</em> Before Anyone Can Measure Them",
           "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
           "body": [
-            "Every major platform — Constant Contact, AppsFlyer, ActiveCampaign, Nectar, DomoAI — shipped an autonomous or semi-autonomous AI agent this month. The pace is striking: products that would have required months of integration work are launching in weeks, promising to handle campaign execution, creator activation, and CRM automation with minimal human input.",
-            "<b>The governance gap is widening.</b> MarTech's own reporting flags that marketers are deploying these agents before they have metrics to judge whether they are working. Without measurement frameworks, teams risk optimising for agent activity rather than business outcomes — a classic proxy-metric trap, now running at machine speed."
+            "Marketing teams are embedding AI agents into live campaigns <b>faster than governance or measurement frameworks can keep up</b>. Multi-agent systems now coordinate across channels autonomously — handling segmentation, content, and bidding simultaneously — blurring where human decisions end and machine decisions begin.",
+            "The danger is not adoption speed per se; it is the <b>accountability gap</b> that opens when no one owns the output. Platforms like Constant Contact's Catalyst and AppsFlyer's agentic tools promise human-in-the-loop controls, but the industry is still negotiating what that phrase actually requires in practice."
           ],
           "ev": [
             [
-              "MarTech · Agents faster than metrics",
+              "MarTech · Agents faster than measurement",
               "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
             ],
             [
-              "MarTech Series · Multi-Agent collaboration",
+              "MarTech Series · Multi-Agent Martech",
               "https://martechseries.com/mts-insights/staff-writers/multi-agent-martech-when-marketing-ai-agents-collaborate-across-campaigns/"
             ],
             [
-              "MarTech · Automation is dead, long live automation",
-              "https://martech.org/marketing-automation-is-dead-long-live-marketing-automation/"
+              "MarTech · Meet your new teammate",
+              "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>MCP as Infrastructure</em>: AI Becomes the Universal Integration Layer",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-launches-new-mcp-connector-for-microsoft-copilot/",
+          "head": "<em>Measurement Infrastructure</em> Is Cracking Under AI-First Media",
+          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
           "body": [
-            "Webflow, Iterable, and AppsFlyer all released Model Context Protocol connectors this month, allowing large language models like Claude and ChatGPT to query and act inside their platforms directly. MCP is quietly becoming what REST APIs were in the 2010s: the lingua franca that lets tools talk to each other — except now the caller is an AI agent, not a developer.",
-            "<b>This changes the martech stack's architecture fundamentally.</b> Point-to-point integrations are giving way to a hub model where a reasoning layer orchestrates multiple tools via a shared protocol. Teams that understand MCP now will have a structural advantage as AI-to-tool connections multiply; those that don't will find their stacks increasingly unmanageable."
+            "The IAB's new framework for attributing AI's role in conversions signals that <b>the industry has formally acknowledged a measurement crisis</b>. When AI assistants, generative search results, and agentic buyers complete or heavily influence purchases, last-touch and even multi-touch models systematically miscount credit — making budget decisions unreliable.",
+            "Practitioners are now stitching together Media Mix Modeling with post-purchase surveys precisely because <b>no single signal is trustworthy alone</b>. ChatGPT's paid traffic converting far worse than Google's adds further urgency: channel ROI comparisons must be rebuilt from scratch for an AI-mediated funnel."
           ],
           "ev": [
             [
-              "MarTech Series · Iterable MCP server",
-              "https://martechseries.com/content/iterable-opens-its-platform-to-claude-chatgpt-and-cursor-with-a-hosted-mcp-server/"
+              "MarTech · IAB AI attribution framework",
+              "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/"
             ],
             [
-              "MarTech Series · AppsFlyer MCP tools",
-              "https://martechseries.com/sales-marketing/marketing-automation/appsflyer-expands-agentic-ai-and-mcp-tools-to-empower-marketers-with-trusted-automation/"
+              "MarTech · MMM plus post-purchase survey",
+              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
             ],
             [
-              "MarTech Series · Webflow MCP Connector",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-launches-new-mcp-connector-for-microsoft-copilot/"
+              "MarTech · ChatGPT traffic worth less than Google's",
+              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Measuring <em>AI-Attributed Conversions</em> Is Now a Board-Level Problem",
-          "url": "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/",
+          "head": "The <em>MCP Protocol</em> Is Quietly Becoming the Plumbing of MarTech",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-launches-new-mcp-connector-for-microsoft-copilot/",
           "body": [
-            "The IAB released a formal framework for attributing conversions that touch AI-driven touchpoints, and MarTech published guidance on building cross-channel measurement for an AI-first media landscape. These are signals that the industry has accepted a hard truth: last-click and even multi-touch models break down when AI agents, chatbot referrals, and generative search are part of the funnel.",
-            "<b>ChatGPT's paid traffic converting far worse than Google's</b> crystallises the stakes — not all AI-driven traffic is equal, and without better attribution, budget will flow toward channels that look good in dashboards rather than channels that drive revenue. Marketers combining Marketing Mix Modelling with post-purchase surveys are emerging as the measurement vanguard."
+            "Within weeks, Webflow, Iterable, and AppsFlyer all shipped Model Context Protocol connectors — letting large language models like Claude and ChatGPT <b>read and act on live marketing data without custom integrations</b>. MCP is emerging as the lingua franca that lets AI agents hop across the stack the same way REST APIs once stitched SaaS tools together.",
+            "This matters for procurement decisions: <b>MCP compatibility is becoming a de-facto buying criterion</b>, and vendors without it risk being invisible to AI agents that orchestrate campaigns. Teams evaluating platforms in 2027 should ask not just 'does it have an API?' but 'can an agent act on it natively?'"
           ],
           "ev": [
             [
-              "MarTech · IAB attribution framework",
-              "https://martech.org/iab-unveils-framework-for-measuring-ais-part-in-conversions/"
+              "MarTech Series · Webflow MCP Connector",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/webflow-launches-new-mcp-connector-for-microsoft-copilot/"
             ],
             [
-              "MarTech · ChatGPT traffic value vs Google",
-              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
+              "MarTech Series · Iterable MCP Server",
+              "https://martechseries.com/content/iterable-opens-its-platform-to-claude-chatgpt-and-cursor-with-a-hosted-mcp-server/"
             ],
             [
-              "MarTech · MMM plus post-purchase survey",
-              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
+              "MarTech Series · AppsFlyer MCP Tools",
+              "https://martechseries.com/sales-marketing/marketing-automation/appsflyer-expands-agentic-ai-and-mcp-tools-to-empower-marketers-with-trusted-automation/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "The <em>Expertise Erosion</em> Risk Hidden Inside AI Productivity Gains",
-          "url": "https://agilebrandguide.com/the-hidden-cost-of-ai-marketing-is-the-expertise-companies-stop-building/",
-          "body": [
-            "Two sharp opinion pieces this month — on the hidden cost of AI marketing and on what happens to enterprise SaaS when everyone can make software — converge on the same warning: <b>AI productivity gains are real, but they can hollow out the institutional knowledge needed to course-correct when models go wrong.</b> When AI writes the brief, executes the campaign, and reports the results, humans lose the feedback loops that build judgment.",
-            "This is not a hypothetical. Forrester's Joe Cicman frames it structurally: if everyone can ship software, the moat shifts from tooling to taste and domain expertise. For marketing teams, that means deliberately protecting spaces where humans still do hard strategic thinking — not as a romantic gesture, but as a competitive hedge against the moment AI outputs become undifferentiated."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Hidden cost of AI expertise",
-              "https://agilebrandguide.com/the-hidden-cost-of-ai-marketing-is-the-expertise-companies-stop-building/"
-            ],
-            [
-              "Agile Brand · Forrester on enterprise SaaS",
-              "https://agilebrandguide.com/forresters-joe-cicman-on-what-happens-to-enterprise-saas-when-everyones-making-software/"
-            ],
-            [
-              "MarTech · AI productivity to ROI",
-              "https://martech.org/how-to-turn-ai-productivity-gains-into-marketing-roi/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 05",
-          "head": "Brands Must Optimise for <em>AI Recommendation Engines</em>, Not Just Search Rankings",
+          "head": "<em>AI Visibility</em> Replaces SEO as the Brand Discoverability Battle",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scrunch-launches-citation-optimization-to-help-brands-influence-the-sources-behind-ai-recommendations/",
           "body": [
-            "Scrunch's launch of Citation Optimisation and MarTech's piece on relevance having an expiration date both point to the same structural shift: <b>the new discovery layer is an AI recommendation engine, not a search results page.</b> When ChatGPT, Perplexity, or a shopping agent recommends a brand, it cites sources — and those citations are becoming the new first-page rankings that CMOs need to manage.",
-            "This rewrites content strategy from top-of-funnel SEO to something closer to PR-meets-data-engineering: ensuring authoritative sources cite your brand accurately and frequently enough that AI models surface you in generative answers. Optimove's piece on connecting with shoppers when the buyer is not human adds another layer — B2C brands now need to market to AI agents making autonomous purchasing decisions on behalf of human consumers."
+            "Scrunch's Citation Optimization launch is an early commercial signal that <b>brands must now manage which sources AI systems cite when recommending them</b> — a discipline that did not exist two years ago. As generative search and AI assistants become primary discovery surfaces, being absent from their training or retrieval context is equivalent to being unindexed by Google in 2005.",
+            "Relevance, as one analysis put it, now has an <b>expiration date measured in model update cycles</b>, not content calendars. Marketers need a new content strategy layer focused on authoritative sourcing, structured data legible to LLMs, and proactive citation monitoring — none of which traditional SEO tooling covers."
           ],
           "ev": [
             [
-              "MarTech Series · Scrunch citation optimisation",
+              "MarTech Series · Scrunch Citation Optimization",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/scrunch-launches-citation-optimization-to-help-brands-influence-the-sources-behind-ai-recommendations/"
             ],
             [
@@ -293,13 +272,36 @@
               "https://martech.org/relevance-has-an-expiration-date/"
             ],
             [
-              "MarTech · Connecting with shoppers when buyer is not human",
-              "https://martech.org/connecting-with-shoppers-when-the-buyer-is-not-human/"
+              "MarTech · How to stand out in a sea of personalization",
+              "https://martech.org/how-to-stand-out-in-a-sea-of-personalization/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 05",
+          "head": "The <em>Hidden Cost of Automation</em>: Expertise Hollowing Out",
+          "url": "https://agilebrandguide.com/the-hidden-cost-of-ai-marketing-is-the-expertise-companies-stop-building/",
+          "body": [
+            "Offloading decisions to AI agents saves time but erodes the <b>institutional judgment needed to know when the AI is wrong</b>. The Agile Brand argument — that companies are quietly stopping the internal expertise-building that made their AI-assisted decisions trustworthy in the first place — is the counter-narrative to every efficiency headline this month.",
+            "Forrester's parallel warning about enterprise SaaS commoditisation reinforces this: when everyone can generate software or campaigns with a prompt, <b>strategic differentiation shifts entirely to taste, judgment, and proprietary data</b> — precisely the capabilities at risk of atrophy. The organizations that will win are those treating AI as a multiplier of human expertise, not a replacement for it."
+          ],
+          "ev": [
+            [
+              "Agile Brand · Hidden Cost of AI Marketing",
+              "https://agilebrandguide.com/the-hidden-cost-of-ai-marketing-is-the-expertise-companies-stop-building/"
+            ],
+            [
+              "Agile Brand · Forrester on enterprise SaaS",
+              "https://agilebrandguide.com/forresters-joe-cicman-on-what-happens-to-enterprise-saas-when-everyones-making-software/"
+            ],
+            [
+              "MarTech · Why AI complicates centralization",
+              "https://martech.org/why-ai-is-complicating-marketing-centralization/"
             ]
           ]
         }
       ],
-      "takeaway": "Every theme this month circles the same inflection point: <em>AI is shifting from a tool marketers use to an actor that buys, recommends, and executes alongside them</em> — and the strategies, metrics, and org structures built for the old model are expiring fast."
+      "takeaway": "Every major move this month — agent sprawl, measurement collapse, MCP standardization, AI-driven discovery, and expertise erosion — points to the same underlying shift: <em>the competitive advantage in marketing is no longer software access but the judgment to govern what the software does</em>."
     }
   }
 }
