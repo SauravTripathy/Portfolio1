@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T13:48:55.755792+00:00",
+  "generatedAt": "2026-11-16T22:57:38.855768+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,25 +45,25 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "MarTech · via MarTech Series",
           "fresh": true,
-          "head": "Bloomreach Acquires AEO Platform AthenaHQ to Turn AI Visibility Into Revenue",
+          "head": "Bloomreach acquires AthenaHQ to turn AI answer-engine visibility into measurable revenue",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
-          "plain": "Bloomreach, a major customer engagement platform, has bought AthenaHQ, a specialist in <b>answer engine optimization</b>. The deal signals that <b>AI agents shopping on behalf of consumers</b> are now a real buying channel — and that brands must be findable by those agents, not just by humans using search engines. This reshapes both SEO budgets and martech stack decisions.",
+          "plain": "Bloomreach bought AthenaHQ, a leading <b>Answer Engine Optimization (AEO)</b> platform, so brands can track whether showing up in AI-generated answers actually drives purchases. This is a direct product change that ties GEO/AEO performance to commerce revenue — a gap every marketer selling through AI-mediated search now needs to close.",
           "chips": [
             "geo",
+            "perso",
             "agentic",
-            "cep",
-            "perso"
+            "cdp"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech Series",
+          "src": "Zoho · via MarTech Series",
           "fresh": true,
-          "head": "Zoho Adds Blended Agents to Zoho Desk, Mixing AI Execution With Human Judgment at No Extra Cost",
+          "head": "Zoho adds Blended Agents to Zoho Desk, mixing AI execution with human judgment at no extra cost",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoho-introduces-blended-agents-to-zoho-desk-combining-ai-execution-with-human-judgment-to-help-businesses-more-effectively-resolve-customer-issues/",
-          "plain": "Zoho is embedding <b>blended AI-human agents</b> into its Desk CX product at no additional charge, with up to 30 million free tokens monthly for in-house models. This lowers the cost barrier for agentic CX and sets a pricing precedent that rivals will feel pressure to match, making AI-assisted service accessible to smaller businesses.",
+          "plain": "Zoho's new <b>Blended Agents</b> let AI handle routine customer-service tasks and hand off to humans when nuance is needed — bundled free with Zoho Desk. The human-in-the-loop design is a direct governance model, and the zero-added-cost pricing puts pressure on standalone AI CX vendors.",
           "chips": [
             "agentic",
             "govern",
@@ -73,11 +73,25 @@
         },
         {
           "num": "03",
-          "src": "MarTech · via MarTech.org",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Marketing Ops Must Fix Data Gaps Before AI Agents Make Broken Promises to Customers",
+          "head": "AI-native CRM Dreamteam raises $53M to challenge Salesforce with proactive AI coworkers",
+          "url": "https://agilebrandguide.com/ai-native-crm-dreamteam-raises-53m-to-challenge-incumbents-with-ai-coworkers-who-actually-get-work-done/",
+          "plain": "Dreamteam secured $53M from Accel, Together Fund and Premji Invest to build a CRM that <b>learns continuously from every sales conversation</b> and deploys specialized AI teammates to push deals forward autonomously. This signals serious capital moving toward agentic sales tools that could displace incumbent CRMs.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cdp",
+            "genai"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": true,
+          "head": "Marketing ops must fix disconnected data before AI agents make broken promises to customers",
           "url": "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/",
-          "plain": "A practical analysis arguing that <b>disconnected customer data</b> will cause AI agents to make commitments brands cannot fulfil — and that marketing operations teams are best placed to fix it. It reframes data readiness as a revenue issue, not an IT task, giving ops leaders a clear mandate and business case for <b>CDP investment</b>.",
+          "plain": "This piece argues that <b>AI agents are only as good as the data infrastructure beneath them</b> — fragmented customer data means agents confidently deliver wrong answers or experiences. It reframes marketing ops as the team responsible for agent readiness, making it directly relevant to anyone buying or governing AI systems.",
           "chips": [
             "agentic",
             "cdp",
@@ -86,31 +100,17 @@
           ]
         },
         {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Commerce.com Launches Conversational Shopping Agent for BigCommerce Merchants",
-          "url": "https://martechseries.com/sales-marketing/commerce-introduces-shopping-agent-to-enable-conversational-shopping-for-bigcommerce-merchants/",
-          "plain": "Commerce.com is rolling out a customizable <b>AI shopping agent</b> for BigCommerce stores just before the holiday peak. The agent handles product discovery and guided buying through conversation, turning a chat interface into a sales channel. It is a live, deployable example of <b>agentic decisioning at the point of purchase</b> that mid-market retailers can adopt now.",
-          "chips": [
-            "agentic",
-            "decis",
-            "perso",
-            "cep"
-          ]
-        },
-        {
           "num": "05",
-          "src": "MarTech · via MarTech.org",
+          "src": "Brandlight · via MarTech Series",
           "fresh": true,
-          "head": "Before AI Agents Can Write Like Your Brand, the Content Process Must Live Somewhere",
-          "url": "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/",
-          "plain": "Optimizely's Kevin Li argues that <b>brand voice fails in generative AI</b> when there is no structured, machine-readable content process behind it. He sets out what buyers should demand from an agentic CMS — a timely framework as more teams evaluate whether their content infrastructure can actually govern AI-generated output at scale.",
+          "head": "Brandlight launches tools to help enterprises configure OpenAI's ChatGPT Business Agents and optimize product catalogs",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandlight-launches-new-tools-to-help-enterprises-prepare-for-openais-businesses-in-chatgpt/",
+          "plain": "Brandlight — serving Samsung and Kimberly-Clark — released an enterprise toolkit specifically for <b>configuring ChatGPT Business Agents and structuring product data</b> so it surfaces correctly inside OpenAI's commerce layer. As OpenAI becomes a shopping channel, this is an early concrete playbook for GEO in AI-driven commerce.",
           "chips": [
-            "genai",
+            "geo",
             "agentic",
-            "govern",
-            "perso"
+            "genai",
+            "govern"
           ]
         }
       ]
@@ -121,13 +121,12 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Bloomreach Acquires AEO Leader AthenaHQ to Turn AI Visibility Into Measurable Revenue",
+          "head": "Bloomreach acquires AthenaHQ to turn AI answer-engine visibility into measurable revenue",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
-          "plain": "Bloomreach bought AthenaHQ, a platform built to get brands found inside AI-powered search and shopping agents. This matters because <b>AI agents are becoming the new discovery layer</b> — if a brand isn't visible to those agents, it loses the sale before a human ever sees it. The deal signals that <b>answer engine optimization is now a revenue function</b>, not just an SEO experiment.",
+          "plain": "Bloomreach bought AthenaHQ, a platform that helps brands show up inside AI-generated answers, not just search results. The deal matters because <b>AI agents are now doing the shopping research</b> — if a brand isn't in the AI's answer, it doesn't get considered. This is one of the first acquisitions directly linking <b>answer engine optimization (AEO) to revenue tracking</b>.",
           "chips": [
             "geo",
             "agentic",
-            "cep",
             "perso"
           ]
         },
@@ -135,23 +134,22 @@
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Zoho Introduces Blended Agents to Zoho Desk, Combining AI Execution With Human Judgment",
+          "head": "Zoho adds Blended Agents to Zoho Desk, mixing AI execution with human judgment at no extra cost",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoho-introduces-blended-agents-to-zoho-desk-combining-ai-execution-with-human-judgment-to-help-businesses-more-effectively-resolve-customer-issues/",
-          "plain": "Zoho is adding <b>blended agents</b> to its helpdesk — AI handles routine steps and escalates to humans when judgment is needed. Notably, it ships at no extra cost with up to 30 million free tokens monthly on Zoho-hosted models. This sets a pricing and <b>human-in-the-loop governance</b> benchmark that rivals will have to respond to.",
+          "plain": "Zoho is rolling out <b>Blended Agents</b> — AI that handles routine support steps but hands off to a human when nuance is needed — built into Zoho Desk at no added charge, with 30 million free tokens monthly. This lowers the cost barrier for agentic AI in customer service and sets a new pricing benchmark that rivals will have to match.",
           "chips": [
             "agentic",
             "govern",
-            "cep",
-            "decis"
+            "cep"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
           "fresh": true,
-          "head": "Marketing Ops Can Turn AI Agent Readiness From a Blind Spot to a Strength",
+          "head": "Marketing ops must fix disconnected data before AI agents make promises brands can't keep",
           "url": "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/",
-          "plain": "Disconnected customer data means AI agents make promises the business cannot keep. This piece argues that <b>marketing ops teams are the right owners of AI agent readiness</b> — connecting data pipelines and journey logic before agents act on them. It reframes a governance gap as a strategic opportunity, which changes how teams should prioritize martech investments.",
+          "plain": "This piece argues that <b>AI agents fail when the underlying customer data is fragmented</b> — they confirm delivery dates or offer discounts that the back end can't honour. Marketing ops teams are positioned to close that gap by unifying data infrastructure, making <b>agent readiness a core operational priority</b> rather than a tech-team afterthought.",
           "chips": [
             "agentic",
             "cdp",
@@ -161,30 +159,29 @@
         },
         {
           "num": "04",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Marketers Deploying AI Agents Faster Than They Can Measure Them",
-          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
-          "plain": "Most marketers are rolling out AI agents without being able to tie those agent conversations to campaigns, conversions, or revenue. The piece surfaces a <b>measurement gap that threatens AI ROI credibility</b>, and explains why existing attribution frameworks break when agents become a channel. This directly affects how AI tools get budgeted and justified going forward.",
+          "head": "Brandlight launches tools to help enterprises configure OpenAI's ChatGPT Business Agents and prepare product catalogs",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandlight-launches-new-tools-to-help-enterprises-prepare-for-openais-businesses-in-chatgpt/",
+          "plain": "Brandlight is building enterprise tooling specifically for <b>OpenAI's Businesses in ChatGPT</b>, helping brands set up product catalogs so AI agents can find and recommend them. This signals that <b>GEO is becoming a structured discipline</b> with real vendor tooling — not just SEO advice repackaged — and that ChatGPT is becoming a commerce channel brands must actively manage.",
           "chips": [
+            "geo",
             "agentic",
-            "govern",
-            "cep",
-            "decis"
+            "cdp"
           ]
         },
         {
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Brandlight Launches Tools to Help Enterprises Prepare for OpenAI's Businesses in ChatGPT",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandlight-launches-new-tools-to-help-enterprises-prepare-for-openais-businesses-in-chatgpt/",
-          "plain": "Brandlight is releasing enterprise tooling to configure <b>ChatGPT Business Agents</b> and structure product catalogs so brands surface correctly inside OpenAI's commercial AI layer. As OpenAI opens its platform to business integrations, <b>getting catalog data AI-ready becomes a buying decision</b> for enterprise marketing teams — this is an early concrete product response to that shift.",
+          "head": "Commerce.com launches Shopping Agent for BigCommerce merchants ahead of the holiday season",
+          "url": "https://martechseries.com/sales-marketing/commerce-introduces-shopping-agent-to-enable-conversational-shopping-for-bigcommerce-merchants/",
+          "plain": "Commerce.com's Shopping Agent lets BigCommerce store owners deploy a <b>conversational AI assistant</b> that guides shoppers to products through dialogue rather than keyword search. Launching before the holiday peak means real-world stress-testing at scale. It shows <b>agentic decisioning moving into everyday e-commerce</b>, not just enterprise platforms, changing how mid-market merchants think about product discovery.",
           "chips": [
-            "geo",
             "agentic",
-            "genai",
-            "govern"
+            "decis",
+            "perso",
+            "cep"
           ]
         }
       ]
@@ -194,121 +191,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Become <em>Marketing's Operational Core</em>",
-          "url": "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/",
+          "head": "AI Agents Are Redrawing <em>Customer Ownership</em>",
+          "url": "https://martech.org/ai-agents-make-cx-marketings-problem/",
           "body": [
-            "AI agents are no longer experimental add-ons — they are being embedded directly into campaign workflows, CRM loops, and customer-service queues. Zoho's blended-agent launch and multiple workflow-integration guides signal that the question has shifted from <b>whether</b> to use agents to <b>how</b> to govern them alongside humans.",
-            "The measurement gap is the pressing risk: one report found marketers are deploying agents faster than they can track outcomes. <b>Marketing ops teams</b> that build readiness frameworks now — clear ownership, audit trails, defined escalation paths — will convert this chaos into competitive advantage before rivals even notice the blind spot."
+            "When an AI agent places an order on a consumer's behalf, the brand never gets a touch-point — which means loyalty, upsell, and relationship all migrate to whoever controls the agent layer. Marketing is now accountable for an experience it did not design and may not even see, forcing a fundamental rethink of what <b>CX ownership</b> actually means.",
+            "New products like Zoho's blended agents and VoiceBit's voice commerce illustrate both the opportunity and the threat: AI can execute the transaction, but the brand equity either accumulates somewhere or evaporates. The strategic question is no longer 'how do we personalise the journey' but <b>'how do we stay in the journey at all.'</b>"
           ],
           "ev": [
             [
-              "MarTech · Agents faster than measurement",
-              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
-            ],
-            [
-              "MarTech · Agents make CX marketing's problem",
+              "MarTech · AI agents &amp; CX",
               "https://martech.org/ai-agents-make-cx-marketings-problem/"
             ],
             [
-              "MarTech · Agent readiness as strength",
-              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
+              "Agile Brand · VoiceBit on who keeps the customer",
+              "https://agilebrandguide.com/expert-mode-ai-can-take-the-order-who-keeps-the-customer-with-jay-patel-from-voicebit/"
+            ],
+            [
+              "MarTech Series · Zoho blended agents",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoho-introduces-blended-agents-to-zoho-desk-combining-ai-execution-with-human-judgment-to-help-businesses-more-effectively-resolve-customer-issues/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Answer Engine Optimisation</em> Replaces SEO Logic",
+          "head": "<em>Answer Engine Optimisation</em> Replaces SEO as the Visibility Battleground",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
           "body": [
-            "Bloomreach's acquisition of AthenaHQ and Brandlight's ChatGPT-readiness tools both signal that brand discovery is migrating from search-engine results pages to AI-generated answers. <b>Being mentioned is no longer the same as being chosen</b> — the Sitecore CEO framing captures it precisely: brands must now win a shortlist they cannot see before a single click occurs.",
-            "Data from paid-traffic studies reinforces the urgency: ChatGPT referral traffic converts at dramatically lower rates than Google's, meaning raw AI mentions are poor proxies for revenue. Marketers need new metrics — share of AI answer, citation authority, and answer-slot position — to translate visibility into measurable pipeline."
+            "AI-generated answers are absorbing clicks that used to flow to brand websites, and eSolve's warning that ad dollars are already shifting signals this is a revenue event, not just a traffic footnote. Bloomreach's acquisition of AthenaHQ — an answer-engine optimisation specialist — is the clearest M&amp;A proof that <b>being cited by an LLM is the new first page of Google.</b>",
+            "Brandlight's new tools for ChatGPT Business listings and Sitecore's framing of 'winning the shortlist before the first click' reinforce the same shift: brand discoverability must now be engineered inside model training data and AI retrieval layers, not just search indices. Marketers who ignore AEO risk becoming invisible to agents shopping on behalf of consumers."
           ],
           "ev": [
             [
-              "MarTech · ChatGPT paid traffic worth less than Google's",
-              "https://martech.org/chatgpts-paid-traffic-is-worth-far-less-than-googles/"
+              "MarTech Series · Bloomreach acquires AthenaHQ",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/"
             ],
             [
-              "Agile Brand · Winning the shortlist before the first click",
+              "MarTech Series · AI answers cutting clicks",
+              "https://martechseries.com/sales-marketing/programmatic-buying/esolve-warns-owners-that-ai-answers-are-cutting-clicks-and-moving-ad-dollars/"
+            ],
+            [
+              "Agile Brand · Sitecore on winning before the first click",
               "https://agilebrandguide.com/sitecore-ceo-eric-stine-and-scrunchs-christopher-andrew-on-winning-the-shortlist-before-the-first-click/"
-            ],
-            [
-              "MarTech Series · Brandlight ChatGPT readiness tools",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/brandlight-launches-new-tools-to-help-enterprises-prepare-for-openais-businesses-in-chatgpt/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Brand Infrastructure Must Be <em>Machine-Readable</em>",
-          "url": "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/",
+          "head": "AI Deployment Is Outrunning <em>Measurement &amp; Governance</em>",
+          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
           "body": [
-            "For AI agents to produce on-brand content at scale, brand guidelines, tone-of-voice rules, and editorial processes cannot live in someone's head or a stale PDF — they must be encoded in systems that agents can query in real time. Optimizely's piece articulates the foundational problem: <b>if the process has no structured home, the agent has no source of truth</b>.",
-            "This is a governance challenge as much as a technology one. Companies that have already invested in content operations, structured data, and modular asset libraries are discovering those investments now double as AI-readiness infrastructure — while those that haven't face a costly retrofit before they can safely automate brand voice at any meaningful volume."
+            "Multiple data points this month confirm the same gap: agents are being shipped, but the frameworks to evaluate them — let alone govern their brand voice or compliance footprint — are lagging badly. <b>Marketers deploying AI faster than they can measure it</b> is not a momentum story; it is an accountability crisis in slow motion.",
+            "The fix requires upstream work: Optimizely's argument that brand process must be codified before agents can write like your brand, and MarTech's guidance on agent readiness as a marketing-ops priority, both point to <b>structured content infrastructure and clear ownership</b> as prerequisites. Without that foundation, AI personalisation efforts will compound inconsistency at scale."
           ],
           "ev": [
             [
-              "Agile Brand · Website's second audience &amp; AI",
-              "https://agilebrandguide.com/expert-mode-your-websites-second-audience-and-the-age-of-ai-with-anku-goyal-of-fibr-ai/"
+              "MarTech · Deploying faster than measuring",
+              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
             ],
             [
-              "MarTech · How to protect brand reputation in the AI era",
-              "https://martech.org/how-to-protect-brand-reputation-in-the-ai-era/"
+              "MarTech · Agent readiness as MarOps strength",
+              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
             ],
             [
-              "MarTech · Better prompts start before the prompt",
-              "https://martech.org/better-prompts-start-before-the-prompt/"
+              "MarTech · Brand process must live somewhere",
+              "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Measurement Is <em>Breaking Under AI-First Media</em>",
-          "url": "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/",
+          "head": "Acquisition-Obsessed Brands Are Paying a <em>Retention Tax</em>",
+          "url": "https://martechseries.com/predictive-ai/predictive-marketing/businesses-chase-the-sale-but-ignore-the-stay-just-6-of-digital-tests-target-retention/",
           "body": [
-            "AI-driven channels — generative search, conversational commerce, agent-placed ads — do not fit neatly into last-click or even multi-touch attribution models built for a click-based web. The push to combine Marketing Mix Modelling with post-purchase survey data is a direct response to this blind spot: <b>no single methodology captures the full picture any more</b>.",
-            "The retention data sharpens the problem: only 6% of digital tests target retention, meaning the industry is still optimising for cheap acquisition while ignoring the lifetime value signals that AI-era personalisation could actually improve. Brands that build cross-channel measurement frameworks now — blending MMM, surveys, and experimentation — will make better budget decisions as AI media spend scales."
+            "Research released this month found that only 6% of digital experiments target retention — meaning the overwhelming majority of optimisation investment is spent winning customers who are then largely ignored. Combined with the finding that <b>cheap CAC can mask expensive growth</b>, the data paints a picture of budgets systematically misallocated toward the top of the funnel.",
+            "Consumers are now using AI tools to claw back money from brands that ignore post-purchase friction, making the cost of that neglect increasingly visible and immediate. The strategic correction is straightforward — <b>rebalance testing &amp; measurement toward lifetime value</b> — but it requires executives to rewire incentive structures that have rewarded acquisition volume for years."
           ],
           "ev": [
             [
-              "MarTech · Combining MMM with post-purchase survey attribution",
-              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
-            ],
-            [
-              "MarTech Series · Just 6% of digital tests target retention",
+              "MarTech Series · 6% of tests target retention",
               "https://martechseries.com/predictive-ai/predictive-marketing/businesses-chase-the-sale-but-ignore-the-stay-just-6-of-digital-tests-target-retention/"
             ],
             [
               "MarTech · Cheap CAC can be expensive growth",
               "https://martech.org/cheap-cac-can-be-expensive-growth/"
+            ],
+            [
+              "Agile Brand · Consumers use AI to recover money",
+              "https://agilebrandguide.com/consumers-use-ai-to-recover-money-from-ignored-charges/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Personalisation Hits a <em>Trust &amp; Expertise Ceiling</em>",
-          "url": "https://martech.org/how-to-balance-real-time-personalization-with-consumer-trust/",
+          "head": "AI-Native Stacks Are Challenging <em>Incumbent CRM &amp; Commerce</em> Platforms",
+          "url": "https://agilebrandguide.com/ai-native-crm-dreamteam-raises-53m-to-challenge-incumbents-with-ai-coworkers-who-actually-get-work-done/",
           "body": [
-            "Real-time personalisation powered by AI is reaching the point where consumers notice — and sometimes resent — how much brands know about them. Simultaneously, consumers are turning AI tools against brands to dispute charges and recover money, signalling a <b>power shift that hyper-personalisation alone will not fix</b>. Trust, transparency, and genuine utility are now the differentiating layer above the algorithm.",
-            "There is also an internal expertise risk: a prominent piece argues that the hidden cost of AI marketing is the human knowledge companies quietly stop building. Over-reliance on AI outputs without cultivating marketer judgment creates brittle capabilities — systems that perform well until an edge case or brand crisis arrives and no one remembers how to reason from first principles."
+            "Dreamteam's $53M raise to build AI-native CRM and Commerce's new shopping agent for BigCommerce are signs that the next platform cycle will not be won by bolting AI onto legacy architectures. <b>AI-native entrants</b> start from agent-first workflows and conversational commerce, putting pressure on incumbents to either acquire capability — as Bloomreach did — or risk architectural obsolescence.",
+            "The browser layer is also being contested: Shift Browser's 2027 roadmap frames intentional, user-controlled AI as a differentiator over passive AI assistants embedded in existing browsers. Taken together, these moves suggest the martech stack is being <b>rebuilt from the interface down</b>, with AI as the structural layer rather than a feature add-on."
           ],
           "ev": [
             [
-              "Agile Brand · Consumers use AI to recover money",
-              "https://agilebrandguide.com/consumers-use-ai-to-recover-money-from-ignored-charges/"
+              "Agile Brand · Dreamteam raises $53M",
+              "https://agilebrandguide.com/ai-native-crm-dreamteam-raises-53m-to-challenge-incumbents-with-ai-coworkers-who-actually-get-work-done/"
             ],
             [
-              "Agile Brand · Hidden cost of AI marketing is expertise lost",
-              "https://agilebrandguide.com/the-hidden-cost-of-ai-marketing-is-the-expertise-companies-stop-building/"
+              "MarTech Series · Commerce shopping agent for BigCommerce",
+              "https://martechseries.com/sales-marketing/commerce-introduces-shopping-agent-to-enable-conversational-shopping-for-bigcommerce-merchants/"
             ],
             [
-              "MarTech · How to stand out in a sea of personalization",
-              "https://martech.org/how-to-stand-out-in-a-sea-of-personalization/"
+              "Agile Brand · Shift Browser 2027 landscape",
+              "https://agilebrandguide.com/shift-browser-redefining-browser-strategy-user-control-and-intentional-ai-shape-the-2027-landscape/"
             ]
           ]
         }
       ],
-      "takeaway": "Every decision in the next planning cycle — channel mix, tech stack, team structure, measurement model — now hinges on whether your organisation has accepted that <em>AI agents, answer engines, and machine-readable brand infrastructure are the new baseline, not the next experiment</em>."
+      "takeaway": "The defining pressure of this month is that <em>AI is inserting itself between brands and their customers at every layer — discovery, transaction, and retention — faster than most marketing organisations can govern, measure, or even detect it.</em>"
     }
   }
 }
