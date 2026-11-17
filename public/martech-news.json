@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:40:48.033970+00:00",
+  "generatedAt": "2026-11-17T21:50:49.992524+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,50 +45,50 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand · via MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach acquires AthenaHQ to connect AI search visibility to measurable revenue",
+          "head": "Bloomreach Acquires AEO Leader AthenaHQ to Link AI Visibility to Revenue",
           "url": "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
-          "plain": "Bloomreach, a major customer engagement platform, is buying AthenaHQ, a specialist in <b>answer engine optimization</b>. The deal signals that <b>GEO is maturing from a tactic into a revenue-linked discipline</b> — and that CEPs are racing to own the layer between AI-generated search results and actual purchases. Big implications for how MarTech stacks are bought and built.",
+          "plain": "Bloomreach bought AthenaHQ, a platform that helps brands show up inside AI-generated answers. The deal signals that <b>answer engine optimization (AEO)</b> is moving from an experiment into a core capability that major engagement platforms are willing to pay for — and that proving revenue impact from AI search is now a competitive priority.",
           "chips": [
             "geo",
-            "cep",
-            "perso"
+            "perso",
+            "cep"
           ]
         },
         {
           "num": "02",
-          "src": "MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "When AI agents evaluate B2B vendors, what earns consideration?",
-          "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
-          "plain": "This piece explains how <b>AI buying agents now shortlist B2B vendors</b> — and what structured, credible product information you need to appear in those results. It shifts GEO from a consumer-brand concern to a B2B procurement issue, meaning how vendors present themselves online now directly affects whether an AI agent recommends them to a potential buyer.",
+          "head": "Twilio Launches Hallucination Detection and Task-Completion Scoring for AI Agents",
+          "url": "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/",
+          "plain": "Twilio's new Conversation Intelligence operators can flag when an AI agent makes things up and score whether it actually finished the job. These are <b>runtime governance controls</b> baked into a major CEP, which matters because brands deploying voice and chat agents have had almost no automated safety net until now.",
           "chips": [
-            "geo",
             "agentic",
-            "govern"
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech Series",
+          "src": "MarTech",
           "fresh": true,
-          "head": "ReachAgents launches personal-agent advertising medium with human review built in",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/reachagents-builds-human-review-into-its-personal-agent-advertising-medium/",
-          "plain": "Vulture Labs' ReachAgents is building a new ad channel where <b>sponsored content is served directly to consumers' personal AI agents</b>, with mandatory human review of businesses and creatives before anything reaches an agent. This is an early structural model for <b>governing agentic advertising</b> — a space that has no established rules yet.",
+          "head": "When AI Agents Evaluate B2B Vendors, Clear Evidence Beats Features",
+          "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
+          "plain": "As AI agents increasingly do the first round of vendor research for B2B buyers, the article explains that <b>structured, credible product information</b> — not just feature lists — determines whether a vendor even enters consideration. This reframes content strategy: you are now writing for an agent audience, not just a human one.",
           "chips": [
             "agentic",
-            "govern",
-            "decis"
+            "geo",
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Amperity's Pér AI agent demos end-to-end campaign creation from customer data gap to A/B test",
+          "head": "Amperity's Pér Agent Automates CDP Insight, Creative Pull, and A/B Test Setup in One Demo",
           "url": "https://agilebrandguide.com/one-amazing-thing-about-amperity-with-marcus-owens/",
-          "plain": "A short demo shows Amperity's agent <b>Pér spotting a Gen Z retention gap in live customer data</b>, pulling creative assets from Salesforce, designing a holdout group, and drafting the campaign — without human hand-holding at each step. It is a concrete example of <b>agentic decisioning running across a real CDP</b>, making abstract promises visible.",
+          "plain": "A live walkthrough shows Amperity's AI agent Pér spotting a Gen Z retention gap, fetching creative assets from Salesforce, configuring a holdout group, and drafting a campaign — all without manual handoffs. It is a concrete example of <b>agentic decisioning layered on top of a CDP</b>, making the concept tangible for buyers.",
           "chips": [
             "agentic",
             "cdp",
@@ -98,11 +98,11 @@
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Revefi · via MarTech Series",
           "fresh": true,
-          "head": "Revefi launches Closed-Loop AI FinOps to enforce enterprise AI spend at runtime",
+          "head": "Revefi Launches Closed-Loop AI FinOps to Enforce Enterprise AI Budgets at Runtime",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/revefi-launches-closed-loop-ai-finops-to-budget-track-and-enforce-enterprise-ai-spend/",
-          "plain": "Revefi's new system turns AI budget approvals into <b>hard runtime guardrails</b> — if an LLM or agent call would breach a budget policy, it is blocked before it runs. As agentic AI spend becomes unpredictable and large, <b>financial governance at the infrastructure level</b> is becoming a real procurement requirement for enterprise marketing teams.",
+          "plain": "Revefi's new Auto Policy tool turns AI spending budgets into <b>hard guardrails enforced in real time</b> across every LLM, agent, and AI app a company runs. For marketing teams scaling agentic campaigns, this kind of spend control is becoming a governance requirement before procurement will approve broad deployment.",
           "chips": [
             "govern",
             "agentic"
@@ -114,24 +114,38 @@
       "stories": [
         {
           "num": "01",
-          "src": "Agile Brand · via MarTech",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach acquires AthenaHQ to link AI answer-engine visibility to measurable revenue",
+          "head": "Bloomreach Acquires AEO Platform AthenaHQ to Link AI Visibility to Revenue",
           "url": "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
-          "plain": "Bloomreach, a major <b>customer engagement platform</b>, has bought AthenaHQ, whose answer-engine optimization tools track when and how brands appear inside AI-generated answers. The deal matters because it ties <b>GEO/AEO measurement directly to revenue</b>, giving marketers a commercial case for optimizing AI visibility rather than treating it as a vanity metric.",
+          "plain": "Bloomreach bought AthenaHQ, a specialist in answer engine optimization, to help brands show up inside AI-generated answers and tie that visibility to actual sales. This is a significant acquisition because it signals that <b>GEO is becoming a core martech capability</b>, not a side experiment — and that platforms are racing to own the measurement layer connecting AI discovery to revenue.",
           "chips": [
             "geo",
-            "cep",
-            "perso"
+            "perso",
+            "agentic",
+            "cep"
           ]
         },
         {
           "num": "02",
+          "src": "Agile Brand",
+          "fresh": true,
+          "head": "Twilio Launches Hallucination Detection and Task Completion Scoring for AI Agents",
+          "url": "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/",
+          "plain": "Twilio released two new Conversation Intelligence operators in public beta that flag when an AI agent says something false and score whether it actually finished the task. These are foundational <b>governance controls for agentic customer interactions</b>, giving enterprises a way to audit AI agent behavior in live conversations — a gap that has blocked many production deployments.",
+          "chips": [
+            "agentic",
+            "govern",
+            "cep"
+          ]
+        },
+        {
+          "num": "03",
           "src": "MarTech",
           "fresh": true,
-          "head": "When AI agents evaluate B2B vendors, what earns consideration?",
+          "head": "When AI Agents Evaluate B2B Vendors, What Earns Consideration?",
           "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
-          "plain": "As <b>AI agents increasingly shortlist B2B vendors</b> before a human buyer ever clicks, this piece examines what signals — clear product data, third-party evidence, structured content — actually move a brand onto an agent's recommendation list. It reframes <b>generative engine optimization</b> as a buying-process problem, not just an SEO problem.",
+          "plain": "As AI agents increasingly shortlist B2B vendors on behalf of buyers, the article argues that <b>clear, structured product information and third-party evidence</b> now matter more than feature lists. This reframes the go-to-market challenge: marketers must optimize content for machine readers making purchase recommendations, not just human browsers scanning a website.",
           "chips": [
             "geo",
             "agentic",
@@ -139,45 +153,29 @@
           ]
         },
         {
-          "num": "03",
+          "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Amperity Pér AI agent finds retention gap, pulls creative, sets A/B test, and drafts campaign autonomously",
+          "head": "Amperity Pér Demo: AI Agent Finds Retention Gap, Pulls Creative, and Drafts Campaign",
           "url": "https://agilebrandguide.com/one-amazing-thing-about-amperity-with-marcus-owens/",
-          "plain": "A live demo shows Amperity's <b>Pér agentic AI</b> working end-to-end: it spots a Gen Z retention problem in customer data, retrieves creative assets from Salesforce, configures a holdout and A/B test, and writes the campaign brief — without human handoffs. This is a concrete example of <b>agentic decisioning over a CDP</b> reaching production.",
+          "plain": "A live walkthrough shows Amperity's AI agent Pér identifying a Gen Z retention problem in the CDP, retrieving creative assets from Salesforce, configuring a holdout and A/B test, and drafting the campaign — all in one flow. It is a rare concrete demonstration of <b>agentic decisioning operating directly on a customer data platform</b>, making the abstract concept tangible for buyers.",
           "chips": [
             "agentic",
-            "cdp",
             "decis",
-            "perso"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "Marketing ops must fix disconnected data before AI agents make brand-breaking promises",
-          "url": "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/",
-          "plain": "AI agents acting on incomplete customer data will make commitments the brand can't keep — a governance risk hiding inside an infrastructure problem. The article argues <b>marketing ops owns agent readiness</b> and must connect data pipelines now, before <b>agentic workflows</b> scale errors into customer-facing failures.",
-          "chips": [
-            "agentic",
             "cdp",
-            "govern",
-            "decis"
+            "perso"
           ]
         },
         {
           "num": "05",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "AI-native CRM Dreamteam raises $53M to replace static pipelines with AI coworkers",
-          "url": "https://agilebrandguide.com/ai-native-crm-dreamteam-raises-53m-to-challenge-incumbents-with-ai-coworkers-who-actually-get-work-done/",
-          "plain": "Dreamteam has closed a $53M round to build a CRM that learns continuously from every customer conversation and uses <b>specialized AI teammates</b> to proactively advance deals. The funding signals serious venture conviction that <b>agentic, learning CRM</b> can displace Salesforce-era incumbents — changing what buyers expect from the category.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Revefi Launches Closed-Loop AI FinOps to Enforce Enterprise AI Spend at Runtime",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/revefi-launches-closed-loop-ai-finops-to-budget-track-and-enforce-enterprise-ai-spend/",
+          "plain": "Revefi's new product converts approved AI budgets into hard guardrails enforced in real time through a gateway that covers every LLM, agent, and AI app in the enterprise. As agentic systems multiply, <b>runtime cost enforcement becomes a governance requirement</b> — this is one of the first products to close the loop between budgeting and actual AI usage.",
           "chips": [
-            "agentic",
-            "cdp",
-            "decis",
-            "perso"
+            "govern",
+            "agentic"
           ]
         }
       ]
@@ -187,80 +185,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting the Purchase Funnel</em>",
+          "head": "AI Agents Are the New <em>Buyer, Gatekeeper &amp; Channel</em>",
           "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
           "body": [
-            "AI agents are increasingly making or heavily influencing vendor shortlists before a human buyer ever clicks. This means <b>being findable by an algorithm</b>, not just a person, is now a core demand-generation requirement — a shift that upends decades of SEO and content strategy.",
-            "Bloomreach's acquisition of AthenaHQ signals that <b>Answer Engine Optimisation (AEO)</b> is moving from experiment to boardroom priority. Brands that cannot surface credibly inside AI-generated answers risk being invisible to an entire class of automated buyers &amp; discovery engines."
+            "When an AI agent does the shopping — comparing vendors, filtering options, placing orders — the brand's traditional pitch to a human buyer is bypassed entirely. <b>What earns consideration is now structured data, verified credentials, and machine-readable trust signals</b>, not compelling copy or a salesperson's relationship.",
+            "This is not a future scenario: ReachAgents already positions a personal agent as the starting point for ad participation, and MarTech analysis confirms agents are actively evaluating B2B vendors today. <b>Marketers who ignore agent-readiness are effectively invisible</b> in a growing share of the purchase funnel."
           ],
           "ev": [
             [
-              "MarTech · AI agents &amp; vendor eval",
+              "MarTech · AI agents evaluate B2B vendors",
               "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
             ],
             [
-              "Agile Brand · Bloomreach/AthenaHQ AEO deal",
-              "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/"
+              "Agile Brand · Delivery promise becomes the pitch",
+              "https://agilebrandguide.com/expert-mode-when-an-agent-does-the-shopping-your-delivery-promise-becomes-the-pitch-with-robin-gomez-and-brendan-lease-from-paxon/"
             ],
             [
-              "Agile Brand · Sitecore on winning shortlist before first click",
-              "https://agilebrandguide.com/sitecore-ceo-eric-stine-and-scrunchs-christopher-andrew-on-winning-the-shortlist-before-the-first-click/"
+              "MarTech Series · ReachAgents personal-agent medium",
+              "https://martechseries.com/sales-marketing/programmatic-buying/reachagents-makes-a-personal-agent-the-starting-point-for-participation/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic Infrastructure</em> Becomes the New Martech Stack",
-          "url": "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/",
+          "head": "<em>AI Visibility &amp; AEO</em> Replaces SEO as Brand Discovery Layer",
+          "url": "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
           "body": [
-            "Multiple signals this month show that marketers are deploying AI agents <b>faster than the governance &amp; measurement frameworks</b> exist to manage them. Marketing ops teams are being pushed to build agent-readiness playbooks — data hygiene, process documentation, and brand guardrails — before autonomous systems make costly errors at scale.",
-            "Products like Optimizely's brand-process layer and ReachAgents' human-review loop reflect a new design pattern: <b>agents need structured guardrails baked in at the infrastructure level</b>, not bolted on afterward. This repositions marketing ops from a support function to the team that determines whether AI adoption actually sticks."
+            "Bloomreach's acquisition of AthenaHQ — the leading Answer Engine Optimization (AEO) platform — signals that <b>being found by AI answer engines is now a revenue-critical discipline</b>, not an experimental side project. The deal explicitly frames AI visibility as something that must convert to measurable revenue, not just impressions.",
+            "This mirrors the early SEO land-grab: the brands that figure out how to surface correctly inside ChatGPT, Perplexity, and similar interfaces <b>will compound an advantage that latecomers will find expensive to close</b>. Brand reputation management in the AI era is no longer about review sites — it is about what the model says when asked."
           ],
           "ev": [
             [
-              "MarTech · Agent readiness as marketing ops strength",
-              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
+              "Agile Brand · Bloomreach acquires AthenaHQ",
+              "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/"
             ],
             [
-              "MarTech · Before agents can write like your brand",
-              "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/"
+              "MarTech · Bloomreach AEO acquisition analysis",
+              "https://martech.org/bloomreach-goes-back-to-its-roots-with-athenahq-acquisition/"
             ],
             [
-              "MarTech · Building workflows around AI agents",
-              "https://martech.org/meet-your-new-teammate-building-marketing-workflows-around-ai-agents/"
+              "MarTech · Protect brand reputation in AI era",
+              "https://martech.org/how-to-protect-brand-reputation-in-the-ai-era/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "Who Owns <em>Customer Relationships When AI Takes the Order</em>?",
-          "url": "https://martech.org/ai-agents-make-cx-marketings-problem/",
-          "body": [
-            "As AI handles more transactional touchpoints — taking orders, resolving disputes, recommending products — brands face a structural question: <b>the relationship layer is migrating away from humans</b> on both sides of the transaction. Consumers are already using AI to dispute charges and recover fees, effectively putting a bot between themselves and the brand.",
-            "This month's coverage converges on a warning: <b>CX is now marketing's accountability</b>, not just a service function. If marketers do not architect the emotional &amp; relational signals inside AI-mediated journeys, brand loyalty becomes a residue rather than a managed asset."
-          ],
-          "ev": [
-            [
-              "MarTech · AI agents make CX marketing's problem",
-              "https://martech.org/ai-agents-make-cx-marketings-problem/"
-            ],
-            [
-              "Agile Brand · AI takes the order, who keeps the customer",
-              "https://agilebrandguide.com/expert-mode-ai-can-take-the-order-who-keeps-the-customer-with-jay-patel-from-voicebit/"
-            ],
-            [
-              "Agile Brand · Consumers use AI to recover money",
-              "https://agilebrandguide.com/consumers-use-ai-to-recover-money-from-ignored-charges/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 04",
-          "head": "<em>Measurement &amp; Attribution</em> Hit a Structural Wall",
+          "head": "Agent <em>Governance &amp; Measurement</em> Lags Dangerously Behind Deployment",
           "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
           "body": [
-            "Three separate pieces this month tackle the same underlying crisis: <b>legacy attribution models were not designed for AI-mediated, multi-agent media environments</b>. Marketers are deploying AI-driven campaigns while still relying on last-click or single-channel metrics that cannot capture how agents influence decisions upstream.",
-            "The emerging answer is a hybrid layer — <b>combining Marketing Mix Modelling with post-purchase survey data &amp; cross-channel frameworks</b> — but adoption is lagging deployment speed. The practical risk is that cheap CAC metrics mask expensive downstream churn, locking teams into growth strategies that look efficient on dashboards but erode lifetime value."
+            "Marketers are shipping AI agents faster than they can instrument them: <b>there is no standard metric for whether an agent completed its task correctly, let alone whether it hallucinated</b>. Twilio's new hallucination-detection and task-completion scoring tools exist precisely because that gap is now a liability, not a roadmap item.",
+            "Revefi's closed-loop AI FinOps launch and the broader ops-readiness conversation confirm that <b>the governance layer — budgets, guardrails, measurement, human review — is the missing infrastructure</b> under most agent deployments. Marketing ops teams that build this scaffolding now will own the function's credibility when agents inevitably make costly mistakes."
           ],
           "ev": [
             [
@@ -268,40 +243,63 @@
               "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
             ],
             [
-              "MarTech · Cross-channel measurement for AI-first media",
-              "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/"
+              "Agile Brand · Twilio hallucination detection",
+              "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/"
             ],
             [
-              "MarTech · Combining MMM with post-purchase survey attribution",
-              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
+              "MarTech · Marketing ops &amp; agent readiness",
+              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "Brand Process Must Be <em>Codified Before Agents Write</em>",
+          "url": "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/",
+          "body": [
+            "AI agents can produce content at scale, but they reproduce whatever brand logic is encoded — or fail when none is. <b>The prerequisite is not a better model; it is documented, structured brand process</b> that the agent can reference: voice guidelines, approval workflows, compliance rules, and audience definitions stored in a machine-readable form.",
+            "Tools like Postalytics Audience Builder 2.0 (build direct-mail lists by asking in plain language) and illumin's Ask Lu (from insight to ad activation via conversation) show the direction: <b>natural-language interfaces are wrapping structured data pipelines</b>, not replacing the need for clean, governed data underneath."
+          ],
+          "ev": [
+            [
+              "MarTech · Brand process must live somewhere (Optimizely)",
+              "https://martech.org/before-agents-can-write-like-your-brand-the-process-has-to-live-somewhere/"
+            ],
+            [
+              "MarTech Series · Postalytics Audience Builder 2.0",
+              "https://martechseries.com/content/email-mktg/postalytics-launches-audience-builder-2-0-marketers-build-direct-mail-lists-by-simply-asking/"
+            ],
+            [
+              "MarTech Series · illumin Ask Lu",
+              "https://martechseries.com/sales-marketing/programmatic-buying/illumin-redefines-ai-powered-advertising-from-insight-to-action-with-ask-lu/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "AI Cost Governance Emerges as a <em>Strategic Constraint</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/revefi-launches-closed-loop-ai-finops-to-budget-track-and-enforce-enterprise-ai-spend/",
+          "head": "Attribution &amp; CAC Economics Need <em>Fundamental Rethinking</em>",
+          "url": "https://martech.org/cheap-cac-can-be-expensive-growth/",
           "body": [
-            "With AI tooling now embedded across martech stacks, <b>uncontrolled compute &amp; data costs are surfacing as a material budget risk</b>. New entrants like Revefi (AI FinOps) and Seemore Data (cutting Snowflake &amp; Databricks costs by 33%) signal that cost governance is graduating from an IT concern to a CMO-level conversation.",
-            "This matters strategically because <b>unchecked AI spend can cannibalize the performance gains</b> AI is supposed to deliver. Marketing leaders who treat infrastructure economics as someone else's problem will find their AI ROI story undermined before they can prove it to the CFO."
+            "Several threads converged this month on a single uncomfortable truth: <b>the metrics marketers optimise — cheap CAC, last-touch attribution, channel-level ROAS — are increasingly disconnected from actual business outcomes</b> in an AI-mediated media landscape. Combining Marketing Mix Modelling with post-purchase surveys is now being proposed as a more honest proxy for causality.",
+            "The cross-channel measurement framework piece and the CAC-vs-growth analysis both argue that <b>AI-first media shuffles credit in ways that legacy attribution cannot see</b>. Teams that chase the cheapest acquisition cost often buy low-quality cohorts; the fix requires longer measurement windows, blended models, and willingness to accept ambiguity rather than false precision."
           ],
           "ev": [
             [
-              "MarTech Series · Revefi closed-loop AI FinOps",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/revefi-launches-closed-loop-ai-finops-to-budget-track-and-enforce-enterprise-ai-spend/"
-            ],
-            [
-              "MarTech Series · Seemore Data cuts cloud costs 33%",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/seemore-data-which-cuts-snowflake-databricks-costs-by-33-named-finalist-in-calcalist-ehrlich-group-competition/"
-            ],
-            [
               "MarTech · Cheap CAC can be expensive growth",
               "https://martech.org/cheap-cac-can-be-expensive-growth/"
+            ],
+            [
+              "MarTech · Cross-channel measurement AI-first landscape",
+              "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/"
+            ],
+            [
+              "MarTech · MMM with post-purchase survey attribution",
+              "https://martech.org/combining-mmm-with-post-purchase-survey-attribution/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack this month, the defining tension is the same: <em>AI is moving faster than the governance, measurement, and relationship models marketers need to control it</em> — and the teams that close that gap first will own the next competitive cycle."
+      "takeaway": "Every theme this month points to the same gap: <em>the operational infrastructure — governance, measurement, codified brand process, and agent-readable data — is not keeping pace with the speed at which AI is being dropped into customer-facing decisions</em>, and that gap is where competitive advantage will be won or lost."
     }
   }
 }
