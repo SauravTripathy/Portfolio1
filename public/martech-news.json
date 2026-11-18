@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T14:17:11.161065+00:00",
+  "generatedAt": "2026-11-18T21:29:47.595212+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,7 +49,7 @@
           "fresh": true,
           "head": "InMobi Launches Agentic AI Advertising Platform with Seven Specialized Agents",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/inmobi-launches-inmobi-accelerate-an-agentic-ai-advertising-platform-for-growing-businesses-and-agencies/",
-          "plain": "InMobi Accelerate deploys <b>seven specialized AI agents</b> that autonomously plan, build, launch, and optimize campaigns across Google, Meta, TikTok, Microsoft, and ChatGPT Ads. This signals a shift in how ad buying works — from human-managed dashboards to <b>agentic campaign execution</b> — with real implications for how ad tech is bought and staffed.",
+          "plain": "InMobi Accelerate deploys <b>seven specialized AI agents</b> that autonomously plan, build, launch, and optimize campaigns across Google, Meta, TikTok, Microsoft, and ChatGPT Ads. This matters because it shifts media buying from a human-driven workflow to an <b>agentic decisioning loop</b>, lowering the bar for smaller businesses and agencies to run omnichannel advertising without large ops teams.",
           "chips": [
             "agentic",
             "decis",
@@ -63,50 +63,50 @@
           "fresh": true,
           "head": "Marketing-Specific AI Guardrails Are Needed Beyond Enterprise Governance",
           "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
-          "plain": "Enterprise-wide AI governance policies miss the nuances of brand voice, campaign context, and customer sensitivity. The article argues that <b>marketing teams need their own AI guardrails</b> — not just IT-level controls — to stop off-brand or harmful content from going public. A practical wake-up call as genAI content scales.",
+          "plain": "Enterprise-wide AI governance policies are too broad to catch off-brand or legally risky marketing content before it goes public. The piece argues that <b>marketing teams need their own layer of AI guardrails</b> — tone, compliance, brand voice — sitting on top of corporate policy. Practically, this shapes how martech stacks must be bought and configured going forward.",
           "chips": [
             "govern",
             "genai",
-            "cep"
+            "agentic"
           ]
         },
         {
           "num": "03",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Forrester Analyst: AI Agent Autonomy Is a Risk Design Choice, Not a Maturity Badge",
-          "url": "https://agilebrandguide.com/forresters-charles-betz-on-what-to-build-before-you-trust-an-ai-agent/",
-          "plain": "Forrester's Charles Betz says <b>granting more autonomy to AI agents is a deliberate risk decision</b>, not a sign that the technology is mature. He outlines what governance structures and experiments must exist before organizations can safely trust agents to act. Essential framing for anyone evaluating or buying agentic tools.",
+          "head": "Impact.com: 92% of AI-Active Shoppers Buy AI-Recommended Products, But Most Finish Purchase Off-Platform",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/impact-com-research-92-of-ai-active-shoppers-buy-ai-recommended-products/",
+          "plain": "New research finds <b>92% of AI-active US consumers have purchased an AI-recommended product</b>, yet only 31% completed the transaction inside the AI tool — 55% left to finish at a retailer. This gap signals a critical attribution and conversion problem for marketers building strategies around AI-driven discovery and <b>generative engine optimization</b>.",
           "chips": [
-            "agentic",
-            "govern",
+            "geo",
+            "perso",
             "decis"
           ]
         },
         {
           "num": "04",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Twilio Adds Hallucination Detection and Task Completion Scoring for AI Agents",
-          "url": "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/",
-          "plain": "Twilio released two new Conversation Intelligence tools in public beta: <b>hallucination detection and task completion scoring</b> for AI agents. These are measurable quality controls baked into a major CEP, moving AI agent reliability from aspiration to something you can actually track — a meaningful step for anyone deploying customer-facing agents.",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "ZoomInfo Launches Sales Plugin for ChatGPT Work, Bringing GTM Data into AI Chat",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-launches-sales-plugin-extensions-for-chatgpt-through-gtm-ai/",
+          "plain": "ZoomInfo's new ChatGPT Work plugin lets sellers build prospect lists, find in-market accounts, and enrich data without leaving the chat interface. This is a meaningful product change — it embeds <b>live B2B data directly into an AI reasoning environment</b>, accelerating the shift toward <b>agentic sales workflows</b> where the AI both retrieves intelligence and suggests next actions.",
           "chips": [
             "agentic",
-            "govern",
-            "cep",
-            "genai"
+            "cdp",
+            "geo",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Impact.com: 92% of AI-Active Shoppers Buy AI-Recommended Products, But Most Finish at Retailer Sites",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/impact-com-research-92-of-ai-active-shoppers-buy-ai-recommended-products/",
-          "plain": "New research finds <b>92% of AI-active consumers have purchased an AI-recommended product</b>, but only 31% completed the transaction inside the AI tool — 55% left to finish at a retailer. This gap matters for attribution, affiliate strategy, and how marketers should optimize their presence inside AI discovery engines.",
+          "head": "Forrester's Charles Betz: AI Agent Autonomy Is a Risk Design Choice, Not a Maturity Milestone",
+          "url": "https://agilebrandguide.com/forresters-charles-betz-on-what-to-build-before-you-trust-an-ai-agent/",
+          "plain": "Forrester analyst Charles Betz reframes the debate: <b>giving an AI agent more autonomy is a deliberate risk decision</b>, not a sign of technical progress. He outlines what guardrails and audit infrastructure must exist before autonomy is expanded. For anyone buying or governing agentic martech, this is a practical framework that challenges vendor hype around autonomous agents.",
           "chips": [
-            "geo",
-            "perso",
+            "agentic",
+            "govern",
             "decis"
           ]
         }
@@ -118,70 +118,65 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Bloomreach Acquires AEO Platform AthenaHQ to Link AI Visibility to Revenue",
+          "head": "Bloomreach Acquires AEO Leader AthenaHQ to Connect AI Visibility to Revenue",
           "url": "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
-          "plain": "Bloomreach bought AthenaHQ, a specialist in <b>Answer Engine Optimization</b>, to connect a brand's presence inside AI-generated answers directly to measurable sales. This is a landmark deal because it makes <b>GEO a paid, trackable marketing channel</b> rather than an experimental SEO side-project, changing how CEPs budget for AI discovery.",
+          "plain": "Bloomreach, a major customer engagement platform, bought AthenaHQ, which specialises in <b>answer engine optimisation</b> — getting brands surfaced inside AI-generated answers. The deal signals that <b>GEO is now a board-level revenue topic</b>, not just an SEO experiment, and that CEPs are racing to own the measurement link between AI discovery and actual sales.",
           "chips": [
             "geo",
-            "perso",
             "cep",
-            "agentic"
+            "perso"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "InMobi Launches Agentic AI Advertising Platform with Seven Specialized Agents",
+          "head": "InMobi Launches Agentic AI Advertising Platform with Seven Specialised Campaign Agents",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/inmobi-launches-inmobi-accelerate-an-agentic-ai-advertising-platform-for-growing-businesses-and-agencies/",
-          "plain": "InMobi Accelerate uses <b>seven specialized AI agents</b> that autonomously plan, build, launch, and optimize omnichannel campaigns across Google, Meta, TikTok, Microsoft and ChatGPT Ads. This matters because it shifts campaign management from a human-operated workflow to an <b>agentic decisioning loop</b>, lowering the bar for sophisticated media buying.",
+          "plain": "InMobi Accelerate deploys <b>seven AI agents that plan, build, launch, and optimise omnichannel campaigns</b> across Google, Meta, TikTok, Microsoft and ChatGPT Ads without human hand-holding. This is a concrete example of agentic decisioning moving from enterprise pilots to self-serve tools available to smaller businesses and agencies, changing how ad budgets get managed.",
           "chips": [
             "agentic",
             "decis",
-            "bandit",
             "cep"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
-          "fresh": false,
+          "fresh": true,
           "head": "Twilio Adds Hallucination Detection and Task Completion Scoring for AI Agents",
           "url": "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/",
-          "plain": "Twilio released two Conversation Intelligence operators in public beta: one flags AI hallucinations in real time, the other scores whether an agent actually completed its task. These are <b>practical governance primitives</b> built into a major CEP, making it easier for marketers to audit and trust <b>AI agents handling live customer conversations</b>.",
+          "plain": "Twilio released two new Conversation Intelligence operators in public beta: one flags <b>AI hallucinations</b> in agent replies, the other scores whether the agent actually finished its task. These are the first measurable quality controls built directly into a major CEP, making <b>AI agent governance</b> a shipping feature rather than a policy document.",
           "chips": [
-            "govern",
             "agentic",
-            "cep",
-            "genai"
+            "govern",
+            "cep"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Impact.com: 92% of AI-Active Shoppers Buy AI-Recommended Products, But Most Complete Purchase Elsewhere",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/impact-com-research-92-of-ai-active-shoppers-buy-ai-recommended-products/",
-          "plain": "New research finds <b>92% of AI-active US consumers</b> have purchased a product an AI tool recommended, yet only 31% finished the transaction inside the AI — 55% bounced to a retailer. This gap reveals a critical <b>attribution blind spot</b> that changes how marketers must wire together AI discovery, affiliate tracking, and conversion measurement.",
+          "head": "Forrester Analyst: AI Agent Autonomy Is a Design Choice, Not a Maturity Level",
+          "url": "https://agilebrandguide.com/forresters-charles-betz-on-what-to-build-before-you-trust-an-ai-agent/",
+          "plain": "Forrester's Charles Betz argues that <b>how much autonomy you give an AI agent should be driven by risk tolerance</b>, not by chasing a maturity score. He lays out a practical framework for running AI experiments that actually teach you something before you expand agent authority — directly relevant to anyone buying or governing agentic tools.",
           "chips": [
-            "geo",
             "agentic",
-            "decis",
-            "govern"
+            "govern",
+            "decis"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "Enterprise AI Governance Alone Can't Protect Your Brand — Marketing-Specific Guardrails Are Needed",
-          "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
-          "plain": "Generic IT-level AI governance policies miss the brand-safety risks that live inside <b>marketing-specific generative workflows</b> — tone, claims, imagery, and audience targeting. The article argues marketers need their own layer of <b>content guardrails and approval gates</b>, separate from enterprise policy, before AI-generated content goes public.",
+          "head": "adMarketplace Data: AI Search Conversion Rates Up 156%, But Intent Varies Sharply by Platform",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/",
+          "plain": "A full year of live data from adMarketplace shows <b>conversion rates 156% higher in AI-powered search</b> experiences, but also that shoppers behave very differently across browsers, comparison engines and BNPL apps. The finding matters for media planners: <b>AI search is not one channel</b>, and treating it as such will misallocate budget.",
           "chips": [
-            "govern",
-            "genai",
-            "agentic",
-            "cep"
+            "geo",
+            "decis",
+            "bandit"
           ]
         }
       ]
@@ -191,121 +186,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting the Purchase Funnel</em>",
+          "head": "AI Agents Are <em>Reshaping the Buyer Journey</em> Before Marketers Are Ready",
           "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
           "body": [
-            "When an AI agent does the shopping — comparing vendors, filtering options, and surfacing recommendations — the traditional funnel collapses. <b>92% of AI-active shoppers buy what AI recommends</b>, meaning brands that aren't visible and credible to agents simply won't be considered, regardless of their ad spend.",
-            "This forces a structural rethink of marketing priorities: your delivery promise, your structured data, and your authority signals now pitch to a machine before they ever reach a human. Tools like AthenaHQ (acquired by Bloomreach) are emerging specifically to make brands legible &amp; persuasive to AI evaluators."
+            "AI agents are increasingly making or heavily influencing purchase decisions on behalf of consumers and B2B buyers, as evidenced by impact.com research showing <b>92% of AI-active shoppers buy AI-recommended products</b>. This means the audience a marketer must persuade is no longer purely human — it includes the agent doing the shortlisting.",
+            "The strategic implication is profound: traditional brand signals like ad creative and landing-page copy matter less if an agent never surfaces your brand in the first place. Bloomreach's acquisition of AEO specialist AthenaHQ signals that <b>AI Engine Optimization is becoming as essential as SEO</b>, and vendors who ignore agent-readable signals risk disappearing from consideration entirely."
           ],
           "ev": [
             [
-              "MarTech · When AI agents evaluate B2B vendors",
+              "MarTech · AI agents &amp; B2B consideration",
               "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
             ],
             [
-              "Impact.com · 92% of AI-active shoppers buy AI-recommended",
+              "impact.com · 92% AI shopper stat",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/impact-com-research-92-of-ai-active-shoppers-buy-ai-recommended-products/"
             ],
             [
-              "Agile Brand · When an agent does the shopping",
-              "https://agilebrandguide.com/expert-mode-when-an-agent-does-the-shopping-your-delivery-promise-becomes-the-pitch-with-robin-gomez-and-brendan-lease-from-paxon/"
+              "Agile Brand · Bloomreach acquires AthenaHQ",
+              "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>AI Governance &amp; Trust</em> Can't Be Bolted On Later",
-          "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
+          "head": "Agentic AI Demands <em>Governance Before Autonomy</em>",
+          "url": "https://agilebrandguide.com/forresters-charles-betz-on-what-to-build-before-you-trust-an-ai-agent/",
           "body": [
-            "Multiple signals this month confirm that internal AI governance policies are <b>necessary but not sufficient</b>: brand reputation now depends on how AI behaves across every customer touchpoint, including channels you don't fully control. Twilio adding hallucination detection and task-completion scoring reflects the industry starting to wire quality checks directly into agent pipelines.",
-            "Forrester's research reinforces that <b>autonomy is not the same as maturity</b> — teams must build trust infrastructure (audit trails, guardrails, human-in-the-loop checkpoints) before expanding agent scope. Marketers who skip this phase are deploying AI faster than they can measure it, a risk the data now confirms."
+            "Forrester's Charles Betz and multiple industry voices are issuing a consistent warning: <b>granting AI agents more autonomy does not equal greater maturity</b>. Organizations are deploying agents faster than they can define success metrics, accountability structures, or rollback procedures — a gap that creates compounding risk as agents touch customer-facing workflows.",
+            "Twilio's new hallucination-detection and task-completion scoring tools, and enterprise governance frameworks from Digital.ai, reflect a market response to this gap. Marketers need <b>observable, auditable agent behavior</b> as a prerequisite — not an afterthought — before handing over campaign execution or customer conversations to autonomous systems."
           ],
           "ev": [
             [
-              "MarTech · Enterprise AI governance alone can't protect your brand",
-              "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
-            ],
-            [
-              "Agile Brand · Forrester on what to build before you trust an agent",
+              "Agile Brand · Forrester on agent trust",
               "https://agilebrandguide.com/forresters-charles-betz-on-what-to-build-before-you-trust-an-ai-agent/"
             ],
             [
               "Agile Brand · Twilio hallucination detection",
               "https://agilebrandguide.com/twilio-adds-hallucination-detection-and-task-completion-scoring-for-ai-agents/"
+            ],
+            [
+              "MarTech · deploying agents faster than measuring",
+              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Search &amp; <em>Answer Engine Optimization</em> Becomes a Paid Channel",
-          "url": "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/",
+          "head": "ChatGPT Becomes an <em>Advertising &amp; Sales Surface</em>",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/pinewood-ai-expands-boost-advertising-tool-with-new-chatgpt-ads-channel/",
           "body": [
-            "The Bloomreach–AthenaHQ deal is a clear signal: <b>Answer Engine Optimization (AEO)</b> — getting your brand cited inside ChatGPT, Perplexity, and similar interfaces — is maturing from an SEO experiment into a revenue-linked discipline. Meanwhile, Pinewood.AI adding a ChatGPT Ads channel and adMarketplace publishing AI-search engagement data confirm that paid placement inside AI interfaces is real and growing.",
-            "Consumer behavior in AI search is measurably different from traditional search: engagement patterns vary by interface, and purchase intent is higher but compressed. <b>Marketers now need a distinct AEO budget line and measurement framework</b>, separate from legacy SEM, to capture this channel before it gets crowded."
+            "Within a single news cycle, Pinewood.AI added a ChatGPT ads channel to its Boost tool and ZoomInfo launched sales plugin extensions for ChatGPT via GTM.AI. <b>Conversational AI interfaces are no longer just content tools — they are emerging media placements</b> where brands can intercept buyer intent in a genuinely new context.",
+            "This compresses the traditional funnel: a buyer asking ChatGPT for vendor recommendations can receive a sponsored answer, click through, and be enriched with ZoomInfo data before reaching a sales rep. Marketers need to decide now <b>how to allocate budget and creative strategy</b> for this channel before it matures and CPMs spike."
           ],
           "ev": [
             [
-              "Agile Brand · Bloomreach acquires AthenaHQ",
-              "https://agilebrandguide.com/as-ai-reshapes-how-consumers-discover-brands-bloomreach-acquires-aeo-leader-athenahq-to-turn-ai-visibility-into-measurable-revenue/"
-            ],
-            [
-              "MarTech Series · adMarketplace AI search engagement data",
-              "https://martechseries.com/sales-marketing/programmatic-buying/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
-            ],
-            [
-              "MarTech Series · Pinewood.AI ChatGPT Ads channel",
+              "MarTech Series · Pinewood ChatGPT ads",
               "https://martechseries.com/sales-marketing/programmatic-buying/pinewood-ai-expands-boost-advertising-tool-with-new-chatgpt-ads-channel/"
+            ],
+            [
+              "MarTech Series · ZoomInfo GTM.AI ChatGPT plugin",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-launches-sales-plugin-extensions-for-chatgpt-through-gtm-ai/"
+            ],
+            [
+              "MarTech Series · adMarketplace AI search engagement",
+              "https://martechseries.com/sales-marketing/programmatic-buying/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Proprietary Business Knowledge Is the <em>New AI Moat</em>",
-          "url": "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/",
+          "head": "Brand Reputation Faces <em>AI-Era Blind Spots</em>",
+          "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
           "body": [
-            "Generic large language models are commoditizing fast — Microsoft's Ignite announcements showed aggressive price competition against OpenAI &amp; Anthropic. The real competitive advantage is shifting to the <b>proprietary context, processes, and data</b> you inject into AI: Qlik Answers, ZoomInfo's GTM.AI plugin, and the broader theme of grounding AI in institutional knowledge all point the same direction.",
-            "Marketers who treat AI as a plug-and-play tool will produce undifferentiated output. Those who systematically encode their brand voice, customer data, and domain expertise into their AI stack will produce work rivals can't replicate. <b>The moat is now your knowledge layer, not the model itself.</b>"
+            "Multiple pieces this month converge on a single warning: <b>internal AI governance policies cannot fully protect a brand</b> when the threats originate from third-party models, AI-generated misinformation, or agent-mediated discovery that surfaces competitors ahead of you. Reputation risk has expanded well beyond owned channels.",
+            "The practical response requires monitoring how AI systems describe and represent your brand externally, not just auditing your own AI outputs. <b>Real-time personalization must also be balanced against consumer trust</b> — over-targeting or opaque data use can erode the brand equity that AI-driven acquisition is meant to build."
           ],
           "ev": [
             [
-              "MarTech · Even the smartest AI needs your business knowledge",
-              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
+              "MarTech · AI governance can't protect brand",
+              "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
             ],
             [
-              "MarTech Series · Qlik Answers puts business expertise to work",
-              "https://martechseries.com/analytics/qlik-answers-puts-business-expertise-to-work-in-ai-assisted-decisions/"
+              "MarTech · protect brand reputation in AI era",
+              "https://martech.org/how-to-protect-brand-reputation-in-the-ai-era/"
             ],
             [
-              "Agile Brand · Microsoft prices against OpenAI at Ignite",
-              "https://agilebrandguide.com/microsoft-expands-its-in-house-ai-model-lineup-at-ignite-pricing-against-openai-and-anthropic/"
+              "MarTech · personalization vs consumer trust",
+              "https://martech.org/how-to-balance-real-time-personalization-with-consumer-trust/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Measurement Is <em>Breaking Under AI Velocity</em>",
-          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
+          "head": "Measurement Must Catch Up to <em>AI-First Media</em>",
+          "url": "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/",
           "body": [
-            "Teams are shipping AI-powered campaigns and agents at a pace that has outrun their ability to attribute outcomes, with <b>no agreed framework for what 'working' even means</b> at agent level. The push for cross-channel measurement, mixing Marketing Mix Modeling with post-purchase surveys, reflects a field scrambling to retrofit accountability onto a landscape that moved faster than the metrics did.",
-            "This measurement gap has real cost implications: cheap customer-acquisition cost can mask expensive downstream churn, and over-personalization can erode the distinctiveness that justifies a premium. <b>Closing the measurement gap — not deploying more AI — is the highest-leverage move for most marketing teams right now.</b>"
+            "As AI reshapes media buying, creative production, and channel mix simultaneously, legacy attribution models break down. Building a <b>cross-channel measurement framework designed for AI-first media</b> — one that accounts for agent-driven discovery, conversational ad placements, and AI-generated creative variants — has moved from best practice to urgent priority.",
+            "The warning that <b>cheap CAC can mask expensive long-term growth problems</b> reinforces this: optimizing for short-term conversion signals in AI-managed campaigns can destroy lifetime value and brand health metrics that only appear in longer measurement windows. Marketers who set up the right measurement infrastructure now will have a durable competitive advantage."
           ],
           "ev": [
             [
-              "MarTech · Marketers deploying agents faster than they can measure",
-              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
-            ],
-            [
-              "MarTech · Cross-channel measurement for AI-first media",
+              "MarTech · cross-channel AI measurement framework",
               "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/"
             ],
             [
-              "MarTech · Cheap CAC can be expensive growth",
+              "MarTech · deploying agents faster than measuring",
+              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
+            ],
+            [
+              "MarTech · cheap CAC expensive growth",
               "https://martech.org/cheap-cac-can-be-expensive-growth/"
             ]
           ]
         }
       ],
-      "takeaway": "Every theme this month converges on the same underlying tension: <em>AI is moving faster than the governance, measurement, and knowledge infrastructure needed to make it reliably valuable</em> — and the marketers who close that gap first will own the next competitive cycle."
+      "takeaway": "The defining tension of this moment is that <em>AI is simultaneously the new media surface, the new buyer, and the new execution layer</em> — and most marketing organizations have measurement, governance, and brand-visibility strategies built for none of those three roles."
     }
   }
 }
