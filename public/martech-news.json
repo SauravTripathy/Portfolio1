@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T13:35:08.705783+00:00",
+  "generatedAt": "2026-11-21T20:10:50.842346+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -47,27 +47,12 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "SAS expert explains how 'experience debt' from legacy systems derails customer journeys",
+          "head": "Confronting the 'Experience Debt' That Derails Your Customer Journey",
           "url": "https://agilebrandguide.com/expert-mode-confronting-the-experience-debt-that-derails-your-customer-journey-with-jonathan-moran-from-sas/",
-          "plain": "Jonathan Moran from SAS argues that every legacy system left unupdated quietly accumulates <b>experience debt</b> — a backlog of broken or inconsistent moments that erodes the customer journey over time. For MarTech buyers, this reframes platform modernisation not as a cost but as a compounding liability that gets harder to fix the longer it is ignored.",
+          "plain": "SAS strategist Jonathan Moran explains how <b>experience debt</b> builds up each time a legacy system is left unmodified, quietly degrading the customer journey. For MarTech buyers, it frames a real cost to inaction on platform modernization and helps justify investment in updated <b>customer engagement infrastructure</b>.",
           "chips": [
-            "cdp",
             "cep",
             "govern"
-          ]
-        },
-        {
-          "num": "02",
-          "src": "Agile Brand",
-          "fresh": false,
-          "head": "Tunnl's Brent Seaborn on closing the attribution gap AI creates — and the frequency check every CMO needs",
-          "url": "https://agilebrandguide.com/expert-mode-measuring-the-decisions-attribution-never-saw-with-brent-seaborn-from-tunnl/",
-          "plain": "Seaborn explains why adding AI to media decisions <b>widens the attribution gap</b> rather than closing it, and why holdout tests beat surveys for validating those decisions. He also flags a simple frequency audit CMOs should run before adding budget — practical governance advice for anyone buying or overseeing AI-driven marketing tools.",
-          "chips": [
-            "agentic",
-            "decis",
-            "govern",
-            "bandit"
           ]
         }
       ]
@@ -78,9 +63,9 @@
           "num": "01",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Intuit Agrees to Sell Mailchimp to Bending Spoons",
+          "head": "Intuit agrees to sell Mailchimp to Bending Spoons",
           "url": "https://agilebrandguide.com/intuit-reports-first-quarter-results-and-enters-agreement-to-sell-mailchimp-to-bending-spoons/",
-          "plain": "Intuit is offloading Mailchimp to Bending Spoons, the Italian app-consolidator behind Evernote and Airtable. This reshapes the email-marketing platform market: Bending Spoons typically cuts costs and raises prices after acquisitions, so millions of small-business marketers who rely on Mailchimp for <b>customer engagement</b> need to watch their contracts closely.",
+          "plain": "Intuit is selling Mailchimp — one of the world's best-known email marketing platforms — to Bending Spoons, the Italian app company known for taking over faded tech brands. This is a <b>major ownership shift for a platform used by millions of small businesses</b>, and raises real questions about where Mailchimp's AI and automation roadmap goes next.",
           "chips": [
             "cep",
             "genai",
@@ -91,52 +76,51 @@
           "num": "02",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "Enterprise AI Governance Alone Can't Protect Your Brand — Marketing-Specific Guardrails Are Needed",
+          "head": "Enterprise AI governance alone can't protect your brand — marketing-specific guardrails needed",
           "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
-          "plain": "Central IT governance policies miss the brand-specific risks that marketing AI creates — off-tone copy, hallucinated claims, discriminatory targeting. The article argues marketers must own their own <b>AI guardrails</b> rather than delegate to IT, making this directly relevant to anyone buying or deploying generative tools in a campaign stack.",
+          "plain": "Corporate IT-level AI governance policies are too broad to catch off-brand or legally risky content that marketing AI tools produce. The article argues marketers need <b>their own layer of content guardrails</b> — separate from enterprise policy — to stop embarrassing or harmful AI-generated output before it goes public. Directly shapes how AI creative is bought and governed.",
           "chips": [
             "govern",
-            "genai",
-            "cep"
+            "genai"
           ]
         },
         {
           "num": "03",
-          "src": "MarTech",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "Bloomreach Acquires AthenaHQ to Connect AI Search Discovery to Measurable Revenue",
-          "url": "https://martech.org/bloomreach-goes-back-to-its-roots-with-athenahq-acquisition/",
-          "plain": "Bloomreach bought AthenaHQ to close the gap between <b>conversational AI product discovery</b> and provable purchase revenue. It's a bet that proving ROI on AI-driven search is the next competitive battleground for commerce platforms, and signals that CDPs and CEPs will increasingly need built-in attribution for agentic shopping journeys.",
+          "head": "Constructor launches Commerce AEO to convert AI answer-engine visibility into retail sales",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/constructor-launches-commerce-aeo-to-help-retailers-turn-ai-visibility-into-sales/",
+          "plain": "Constructor's new Commerce AEO product goes beyond just appearing in ChatGPT or Perplexity answers — it tracks whether those appearances actually drive purchases. This is one of the first tools to <b>close the loop between generative engine visibility and revenue</b>, making GEO measurable for e-commerce teams rather than just a vanity metric.",
           "chips": [
-            "agentic",
             "geo",
-            "cdp",
-            "cep"
+            "agentic",
+            "decis"
           ]
         },
         {
           "num": "04",
-          "src": "MarTech Series",
+          "src": "MarTech · AI",
           "fresh": false,
-          "head": "Constructor Launches Commerce AEO to Turn AI Answer-Engine Visibility Into Retail Sales",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/constructor-launches-commerce-aeo-to-help-retailers-turn-ai-visibility-into-sales/",
-          "plain": "Constructor's new Commerce AEO product helps retailers <b>appear in AI shopping recommendations</b> from engines like ChatGPT and then tracks whether those appearances convert to actual purchases. This is one of the first tools to close the loop between generative engine optimization and e-commerce revenue, making it a concrete buying signal for retail marketers.",
+          "head": "The hidden risks of auto-generated creative: brand, legal, and regulatory exposure",
+          "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
+          "plain": "A practical breakdown of the copyright, false-advertising, data-privacy, and brand-safety risks marketers face when publishing AI-generated images and copy. As <b>AI content generation becomes routine in marketing workflows</b>, this sets out the legal and governance checkpoints teams need before hitting publish — relevant to anyone buying or building genAI creative tools.",
           "chips": [
-            "geo",
-            "agentic",
-            "perso"
+            "genai",
+            "govern"
           ]
         },
         {
           "num": "05",
-          "src": "MarTech · AI",
+          "src": "MarTech Series",
           "fresh": false,
-          "head": "The Hidden Legal and Brand Risks of Auto-Generated Creative",
-          "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
-          "plain": "A detailed breakdown of copyright liability, false-advertising exposure, and data-privacy risks that come with publishing <b>AI-generated marketing content</b> without proper review. As generative tools become standard in campaign workflows, this governance checklist is essential reading for any team deciding how much autonomy to give AI creative systems.",
+          "head": "SOCi launches MCP server to deepen integrations powering its agentic marketing workforce",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/soci-launches-mcp-server-and-expands-integrations-strengthening-the-context-layer-behind-its-agentic-workforce/",
+          "plain": "SOCi is rolling out a Model Context Protocol server so its AI agents can pull live data from over 140 tools — Salesforce, Snowflake, Canva and more — without manual hand-offs. <b>MCP is quickly becoming the connective tissue for agentic marketing stacks</b>, and this launch signals how multi-location brands will wire AI agents into their existing data and content systems.",
           "chips": [
-            "genai",
-            "govern"
+            "agentic",
+            "decis",
+            "cdp",
+            "cep"
           ]
         }
       ]
@@ -146,34 +130,57 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "AI Agents Are <em>Rewriting the Rules</em> of Customer Experience",
-          "url": "https://martech.org/ai-agents-make-cx-marketings-problem/",
+          "head": "AI Agents Are <em>Rewriting the Purchase Funnel</em>",
+          "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
           "body": [
-            "AI agents are no longer back-office tools — they are becoming the <b>primary interface between brands and customers</b>, making every CX failure a marketing problem. When an agent gives a wrong answer, misrepresents a product, or creates friction, the brand owns the damage regardless of whether a human was involved.",
-            "This forces marketing &amp; CX teams to collaborate on agent design, governance, and guardrails <b>before deployment, not after</b>. Marketing ops is being repositioned as the team that stress-tests agent readiness, turning what was a blind spot into a potential competitive advantage."
+            "AI agents are no longer just helping humans shop — they are increasingly making or heavily shaping purchase decisions on behalf of buyers. Constructor's Commerce AEO launch and research showing 72% of holiday shoppers using AI signal that <b>brand visibility inside AI outputs is now a commercial requirement</b>, not a nice-to-have.",
+            "This forces a structural rethink: optimising for AI agent consideration (AEO) sits alongside, and sometimes above, traditional SEO. Marketers must ask what signals — structured data, authoritative content, third-party validation — make an AI agent trust and recommend their brand, because a buyer's agent that never surfaces you is as bad as a search engine that never ranks you."
           ],
           "ev": [
             [
-              "MarTech · AI agents make CX marketing's problem",
-              "https://martech.org/ai-agents-make-cx-marketings-problem/"
+              "MarTech · When AI agents evaluate B2B vendors",
+              "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
             ],
             [
-              "MarTech · Marketing ops &amp; AI agent readiness",
-              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
+              "MarTech Series · Constructor Commerce AEO",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/constructor-launches-commerce-aeo-to-help-retailers-turn-ai-visibility-into-sales/"
             ],
             [
-              "MarTech · Deploying agents faster than measuring them",
-              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
+              "Agile Brand · 72% of shoppers use AI",
+              "https://agilebrandguide.com/72-of-holiday-shoppers-will-use-ai-but-almost-all-still-pair-it-with-customer-reviews-before-buying/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "The <em>Governance Gap</em> in AI-Generated Content",
+          "head": "Deploying Agents Fast, <em>Measuring Them Never</em>",
+          "url": "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/",
+          "body": [
+            "Organisations are shipping AI agents into production well ahead of any governance or measurement framework. The gap between deployment speed and accountability is widening — <b>marketers have no reliable way to audit what agents decide, what they cost in brand equity, or whether they are even working</b>.",
+            "Marketing ops teams are being asked to close this gap retroactively, turning agent readiness from a blind spot into a defensible capability. The practical implication: before the next agent goes live, teams need outcome definitions, escalation paths, and attribution hooks baked in — not bolted on after a problem surfaces."
+          ],
+          "ev": [
+            [
+              "MarTech · Deploying agents faster than measuring them",
+              "https://martech.org/marketers-deploying-ai-agents-faster-than-they-can-measure-them/"
+            ],
+            [
+              "MarTech · Marketing ops &amp; agent readiness",
+              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
+            ],
+            [
+              "MarTech · AI agents make CX marketing's problem",
+              "https://martech.org/ai-agents-make-cx-marketings-problem/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "AI Creative's <em>Hidden Liability Iceberg</em>",
           "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
           "body": [
-            "Auto-generated creative is scaling faster than the legal &amp; compliance frameworks meant to contain it. Brand, copyright, and regulatory exposure are <b>accumulating quietly</b> inside every AI-assisted campaign — risks that enterprise governance policies alone cannot catch.",
-            "The practical implication: marketers need <b>human review checkpoints and business-context layers</b> baked into AI workflows, not bolted on afterward. Without proprietary knowledge grounding model outputs, even the smartest AI produces content that is generically correct but specifically dangerous."
+            "Auto-generated creative is moving from experiment to everyday production pipeline, but the brand, legal, and regulatory exposure underneath it is barely understood. <b>Copyright ownership ambiguity, hallucinated claims, and regulatory non-compliance</b> are real risks that enterprise AI governance policies alone cannot contain.",
+            "The story from multiple items this month is consistent: AI tools need your proprietary business knowledge and brand rules injected into them, or they produce output that is generically competent but specifically dangerous. This makes <b>internal knowledge management and prompt governance</b> a legal &amp; compliance issue, not just a marketing quality issue."
           ],
           "ev": [
             [
@@ -181,45 +188,22 @@
               "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
             ],
             [
-              "MarTech · Enterprise AI governance can't protect your brand",
+              "MarTech · Enterprise AI governance can't protect brand",
               "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
             ],
             [
-              "MarTech · Even the smartest AI needs your business knowledge",
+              "MarTech · Even smartest AI needs business knowledge",
               "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
             ]
           ]
         },
         {
-          "num": "Theme 03",
-          "head": "<em>Answer Engine Optimization</em> Displaces Traditional SEO",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/constructor-launches-commerce-aeo-to-help-retailers-turn-ai-visibility-into-sales/",
-          "body": [
-            "A new category — <b>Answer Engine Optimization (AEO)</b> — is emerging as AI-powered search surfaces (Meta Muse, Bing AI Overviews, Google AI Mode) become primary discovery channels. Brands that are not structured to appear in AI-generated answers are effectively invisible to a fast-growing share of shoppers.",
-            "Tools like Constructor's Commerce AEO and Brandi AI's LLM monitoring signal that <b>the race to rank in AI overviews is already commercial</b>, not experimental. Marketers must start auditing how their products &amp; content appear — or fail to appear — inside these AI-mediated results."
-          ],
-          "ev": [
-            [
-              "MarTech Series · Constructor Commerce AEO launch",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/constructor-launches-commerce-aeo-to-help-retailers-turn-ai-visibility-into-sales/"
-            ],
-            [
-              "Agile Brand · Brandi AI expands LLM monitoring coverage",
-              "https://agilebrandguide.com/brandi-ai-expands-deep-sentiment-analysis-and-llm-monitoring-coverage-to-meta-muse-and-microsoft-bing-ai-mode-and-bing-ai-overviews/"
-            ],
-            [
-              "MarTech · When AI agents evaluate B2B vendors",
-              "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
-            ]
-          ]
-        },
-        {
           "num": "Theme 04",
-          "head": "Attribution Is <em>Structurally Broken</em> for AI-Era Journeys",
+          "head": "Attribution Is <em>Structurally Broken</em> Again",
           "url": "https://martechseries.com/mts-insights/staff-writers/multichannel-attribution-challenges-understanding-the-customer-journey-in-a-fragmented-marketing-landscape/",
           "body": [
-            "Traditional attribution models were built for linear, trackable paths — but shoppers now mix AI assistants, in-store visits, social discovery, and reviews in ways that <b>no single-touch or multi-touch model can reconstruct</b>. Research shows 72% of holiday shoppers use AI, yet nearly all validate with peer reviews, creating invisible handoffs attribution never sees.",
-            "New approaches — from decision-science measurement (Tunnl) to cross-channel MMM frameworks — are emerging to <b>fill the gaps left by click-based attribution</b>. The strategic shift is from measuring what happened to modeling what influenced the decision, even when it left no digital footprint."
+            "With AI-mediated touchpoints, zero-click answers, and agent-assisted purchases now embedded in the funnel, traditional multichannel attribution is missing decisions it cannot even see. <b>The decisions that convert are increasingly happening in channels that leave no trackable signal</b> — inside AI overviews, inside agents, inside conversations.",
+            "Emerging approaches — such as Tunnl's decision-layer measurement and cross-channel MMM frameworks built for AI-first media — suggest attribution must evolve from tracking clicks to <b>inferring influence across dark-funnel interactions</b>. Teams that cling to last-click or even multi-touch models will systematically misallocate budget as AI intermediaries multiply."
           ],
           "ev": [
             [
@@ -231,18 +215,18 @@
               "https://agilebrandguide.com/expert-mode-measuring-the-decisions-attribution-never-saw-with-brent-seaborn-from-tunnl/"
             ],
             [
-              "MarTech · Cross-channel measurement for AI-first media",
+              "MarTech · Cross-channel measurement AI-first media",
               "https://martech.org/building-cross-channel-measurement-for-ai-first-media-landscape/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "MarTech Stack <em>Consolidation &amp; Stewardship</em> Over Accumulation",
+          "head": "<em>Stack Consolidation</em> Accelerates Under AI Pressure",
           "url": "https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/",
           "body": [
-            "The era of buying software to solve every problem is giving way to a <b>stewardship mindset</b> — rationalizing what you own, making tools earn their seat, and treating abundance as a governance challenge rather than an opportunity. Intuit's sale of Mailchimp to Bending Spoons is the clearest signal yet that even flagship martech assets get divested when they no longer fit a focused AI-native strategy.",
-            "Forrester's framing of a <b>\"new era of software abundance\"</b> captures the broader dynamic: AI is commoditizing capabilities that once required expensive point solutions, forcing CMOs to decide which tools provide durable differentiation and which are now redundant. The decision framework is shifting from capability gaps to value density."
+            "The Mailchimp sale is the most visible signal of a broader consolidation wave: standalone marketing tools that cannot demonstrate clear AI-era value are being divested, acquired, or sunset. Forrester's framing of a <b>'software abundance' era</b> — where AI dramatically lowers the cost to build features — means differentiation through unique capability is harder and competitive pressure on point solutions is relentless.",
+            "Simultaneously, platforms like Bloomreach (AthenaHQ acquisition), SOCi (MCP server), and GoEnhance AI are racing to build unified workflow layers rather than isolated features. The strategic signal for buyers: <b>evaluate vendors on their integration &amp; orchestration architecture</b>, not just current feature parity, because the half-life of a standalone tool is shortening fast."
           ],
           "ev": [
             [
@@ -250,17 +234,17 @@
               "https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/"
             ],
             [
-              "Agile Brand · From scarcity to stewardship, Forrester",
+              "Agile Brand · Software abundance era, Forrester",
               "https://agilebrandguide.com/expert-mode-from-scarcity-to-stewardship-navigating-the-new-era-of-software-abundance-with-joe-cicman-forrester/"
             ],
             [
-              "MarTech · Bloomreach acquires AthenaHQ",
+              "MarTech · Bloomreach AthenaHQ acquisition",
               "https://martech.org/bloomreach-goes-back-to-its-roots-with-athenahq-acquisition/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the core tension is the same: <em>AI is accelerating execution faster than teams can build the governance, measurement, and strategic frameworks needed to control it</em> — and the marketers who close that gap first will own the next competitive cycle."
+      "takeaway": "Every theme this month connects to the same underlying shift: <em>AI intermediaries are absorbing the moments that used to be directly measurable, governed, and owned by marketers</em> — forcing a simultaneous rethink of visibility strategy, measurement architecture, creative governance, and stack design."
     }
   }
 }
