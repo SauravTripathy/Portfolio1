@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:00:48.092108+00:00",
+  "generatedAt": "2026-11-24T23:08:07.306448+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,51 +49,50 @@
           "fresh": true,
           "head": "ChatGPT Ads vs. Google Ads: B2B Tests Show Comparable CPCs but Weaker Conversions",
           "url": "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/",
-          "plain": "Early B2B tests place ChatGPT ad costs close to Google's, but engagement and conversion rates lag behind, and marketers have far less control over targeting and optimization. This matters because it gives buyers the first real data point on whether <b>advertising inside AI answer engines</b> is ready to absorb serious budget — and what the trade-offs are.",
+          "plain": "Early B2B tests place <b>ChatGPT ad CPCs near Google's levels</b> but show lower engagement, fewer conversions, and much less targeting control. This directly affects how marketers allocate paid budgets and whether AI-native ad surfaces can compete with search. Buyers and planners need a clear-eyed benchmark before shifting spend.",
           "chips": [
             "geo",
-            "govern",
-            "genai"
+            "govern"
           ]
         },
         {
           "num": "02",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Automation Anywhere Completes Boost.ai Acquisition to Build Autonomous Customer Service",
+          "head": "Automation Anywhere Completes Boost.ai Acquisition to Build Autonomous Customer Service Platform",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automation-anywhere-completes-boost-ai-acquisition-challenges-saas-giants-in-the-race-for-autonomous-customer-service-operations/",
-          "plain": "Automation Anywhere has closed its purchase of enterprise conversational-AI firm Boost.ai, combining voice and chat AI with <b>agentic process automation</b> across regulated industries. The deal reshapes how large enterprises will buy autonomous customer-service stacks, putting pressure on pure-play CX SaaS vendors and signalling consolidation in the agentic AI market.",
+          "plain": "Automation Anywhere has closed its purchase of Boost.ai, combining <b>enterprise conversational and voice AI</b> with agentic process automation. The combined platform targets regulated industries where agents must both talk to customers and trigger backend actions. This consolidation reshapes the competitive map for autonomous customer service and pressures legacy SaaS CX vendors.",
           "chips": [
             "agentic",
+            "decis",
             "cep",
-            "govern",
-            "decis"
+            "govern"
           ]
         },
         {
           "num": "03",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "AI Agents Now Drive 13% of Site Visits; Attentive MCP Reaches Snowflake",
+          "head": "AI Agents Now Initiate 13% of Website Visits, Attentive MCP Reaches Snowflake",
           "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-24-2026/",
-          "plain": "A Cequence report finds <b>AI agents account for 13% of website visits</b>, raising immediate questions about bot traffic, attribution, and consent. Separately, Attentive's MCP connector reaching Snowflake tightens the link between messaging execution and customer data — two signals that agentic traffic is now a governance and data-infrastructure problem, not a future one.",
+          "plain": "A Cequence study finds <b>AI agents account for 13% of web visits</b>, signalling a structural shift in traffic composition that breaks classic analytics assumptions. Separately, Attentive's MCP connector reaching Snowflake means messaging decisions can draw directly on warehouse data — a meaningful step for real-time personalisation at scale.",
           "chips": [
             "agentic",
             "cdp",
-            "govern",
-            "cep"
+            "perso",
+            "govern"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "Atypica CPO on When — and When Not — to Trust AI-Generated Customer Personas",
+          "head": "Atypica CPO Angela Xu on When — and When Not — to Trust AI-Generated Customer Personas",
           "url": "https://agilebrandguide.com/atypica-cpo-angela-xu-on-when-to-trust-a-customer-who-doesnt-exist/",
-          "plain": "Atypica's CPO Angela Xu explains how <b>synthetic AI personas</b> can close the gap between what customers say in surveys and what they actually do, while also flagging where the method breaks down. For marketers scaling personalization research, this is a practical framework for knowing when synthetic data is safe to act on.",
+          "plain": "Atypica's CPO explains how <b>synthetic AI personas can close the survey say-do gap</b> but warns of specific failure modes practitioners must check. As more teams replace qual research with AI-generated audiences, understanding where synthetic data misleads is a core governance skill for anyone buying or building marketing AI.",
           "chips": [
-            "perso",
             "genai",
+            "perso",
             "govern"
           ]
         },
@@ -101,14 +100,13 @@
           "num": "05",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "FalkorDB Brings Native Graph Database and GraphRAG to Valkey Open-Source Infrastructure",
+          "head": "FalkorDB Brings Graph Database and GraphRAG to Valkey Open-Source Infrastructure",
           "url": "https://martechseries.com/analytics/data-management-platforms/falkordb-extends-valkey-with-native-graph-database-capabilities/",
-          "plain": "FalkorDB has released a module that adds graph queries and <b>GraphRAG retrieval</b> directly to Valkey, the Linux Foundation's open-source Redis successor. For teams building agentic marketing systems, this lowers the cost of giving AI agents access to rich relational context — a key bottleneck in moving from simple generation to genuine decisioning.",
+          "plain": "FalkorDB's new module lets teams run <b>graph queries and GraphRAG retrieval</b> inside the Valkey datastore they already operate, lowering the infrastructure cost of building AI agents that reason across connected customer and product data. This matters for anyone architecting agentic marketing systems that need fast, relationship-aware context.",
           "chips": [
             "agentic",
             "cdp",
-            "genai",
-            "decis"
+            "genai"
           ]
         }
       ]
@@ -119,11 +117,12 @@
           "num": "01",
           "src": "MarTech",
           "fresh": true,
-          "head": "ChatGPT Ads vs. Google Ads: B2B Tests Show Comparable CPCs but Weaker Conversions",
+          "head": "ChatGPT Ads vs. Google Ads: B2B performance data compared",
           "url": "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/",
-          "plain": "Early B2B tests reveal ChatGPT's ad platform matches Google on <b>cost-per-click</b> but falls short on engagement, conversions, and targeting control. This directly affects how marketing budgets get allocated and signals whether <b>AI-native ad channels</b> are ready to rival search incumbents — a buying decision every performance marketer will face soon.",
+          "plain": "Early B2B tests show ChatGPT ads match Google on <b>cost-per-click</b> but trail badly on engagement, conversions, and targeting control. This matters because it gives buyers the first real performance benchmark for <b>AI-native ad inventory</b> — a signal that shapes where marketing budgets flow and how GEO strategy should be prioritised.",
           "chips": [
             "geo",
+            "genai",
             "govern"
           ]
         },
@@ -131,9 +130,36 @@
           "num": "02",
           "src": "MarTech",
           "fresh": false,
-          "head": "How to Vet AI Capabilities During Martech RFPs",
+          "head": "Six questions to vet real AI from relabelled automation in martech RFPs",
           "url": "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/",
-          "plain": "Six pointed questions help buyers separate <b>genuine AI functionality</b> from relabelled legacy automation during vendor evaluations. As AI claims flood every martech pitch, this practical RFP framework changes how platforms get bought and shortlisted — directly protecting budgets from hype-driven purchases.",
+          "plain": "A practical buying guide that gives procurement and marketing ops teams <b>six diagnostic questions</b> to separate genuine AI capability from old-rule automation with an AI badge. This directly changes how platforms are evaluated and bought — cutting through vendor hype at the moment a contract decision is made.",
+          "chips": [
+            "govern",
+            "agentic",
+            "genai"
+          ]
+        },
+        {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Automation Anywhere completes Boost.ai acquisition to unify conversational AI with agentic automation",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automation-anywhere-completes-boost-ai-acquisition-challenges-saas-giants-in-the-race-for-autonomous-customer-service-operations/",
+          "plain": "Automation Anywhere has closed its purchase of Boost.ai, combining <b>enterprise conversational and voice AI</b> with agentic process automation for regulated industries. The merger creates a platform that can take a customer conversation all the way to a completed back-office action — a structural shift in how <b>autonomous customer service</b> is built and sold.",
+          "chips": [
+            "agentic",
+            "cep",
+            "decis",
+            "govern"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech",
+          "fresh": false,
+          "head": "What's missing from your 2027 marketing AI budget",
+          "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
+          "plain": "The piece argues that most marketing AI budgets fund tools but skip the <b>people, training, and change-management</b> costs that determine whether those tools actually work. With 2027 budget cycles opening now, this framing directly influences how organisations plan and govern AI spending — not just what they buy.",
           "chips": [
             "govern",
             "genai",
@@ -141,40 +167,16 @@
           ]
         },
         {
-          "num": "03",
-          "src": "MarTech",
-          "fresh": false,
-          "head": "What's Missing from Your 2027 Marketing AI Budget?",
-          "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
-          "plain": "Buying AI tools is straightforward; building the people and processes to use them is not. This piece argues that most 2027 budgets underfund <b>change management and AI literacy</b>, leaving tool spend stranded. It reframes how marketing leaders should plan spending — shifting focus from licences to enablement.",
-          "chips": [
-            "govern",
-            "genai"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "Automation Anywhere Completes Boost.ai Acquisition to Build Autonomous Customer Service Platform",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automation-anywhere-completes-boost-ai-acquisition-challenges-saas-giants-in-the-race-for-autonomous-customer-service-operations/",
-          "plain": "Automation Anywhere has closed its purchase of Boost.ai, combining <b>enterprise conversational and voice AI</b> with agentic automation to create end-to-end autonomous customer service. This consolidation reshapes the competitive landscape for CX platforms and signals that <b>agentic automation stacks</b> are being assembled at scale through M&A, not just R&D.",
-          "chips": [
-            "agentic",
-            "cep",
-            "decis"
-          ]
-        },
-        {
           "num": "05",
-          "src": "MarTech · AI",
+          "src": "Agile Brand",
           "fresh": false,
-          "head": "The Hidden Risks of Auto-Generated Creative: Brand, Legal, and Regulatory Exposure",
-          "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
-          "plain": "Copyright liability, false advertising claims, data breaches, and brand damage are all live risks when marketers publish <b>AI-generated creative</b> without proper guardrails. The piece maps specific legal and regulatory exposure points, making it essential reading for anyone building or approving <b>AI content workflows</b> at scale.",
+          "head": "adMarketplace full-year data: AI search ad conversions up 156% but behaviour varies by platform",
+          "url": "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/",
+          "plain": "A full year of live data from adMarketplace's AI Discovery product shows <b>conversion rates 156% higher</b> than standard search ads, but purchase intent and product interest shift significantly across browsers, comparison engines, and BNPL apps. The finding matters because it proves <b>AI search surfaces cannot be treated as one channel</b> when planning or buying media.",
           "chips": [
-            "genai",
-            "govern"
+            "geo",
+            "perso",
+            "bandit"
           ]
         }
       ]
@@ -187,118 +189,118 @@
           "head": "AI Agents Are <em>Reshaping the Purchase Funnel</em> from Both Ends",
           "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
           "body": [
-            "AI agents are now acting as <b>buyers and evaluators</b> in B2B contexts, surfacing vendors based on structured data signals rather than traditional ad impressions. This means the funnel no longer starts with a human clicking an ad — it starts with an agent reading your content, schema, and reputation.",
-            "On the consumer side, ChatGPT's ad ambitions and adMarketplace data both show that shoppers engage with AI-native search experiences differently than with classic paid search. Marketers who don't redesign for <b>agent-readable signals</b> will simply be invisible at the top of the new funnel."
+            "AI agents are now acting as autonomous buyers on behalf of enterprise customers — evaluating B2B vendors, filtering search results, and sitting inside collaboration tools like Slack and Google Chat. This means brands must optimize not just for human readers but for <b>machine-readable credibility signals</b> that agents use to shortlist vendors.",
+            "At the same time, personal AI agents are being deployed for end consumers, compressing the discovery-to-decision journey. <b>Marketing ops teams</b> that treat AI-agent readiness as a back-burner project risk becoming invisible before a human buyer ever enters the picture."
           ],
           "ev": [
             [
-              "MarTech · AI — B2B vendor consideration by agents",
+              "MarTech · When AI agents evaluate B2B vendors",
               "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
             ],
             [
-              "MarTech — ChatGPT ads vs. Google Ads",
-              "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/"
+              "MarTech · Marketing ops &amp; AI agent readiness",
+              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
             ],
             [
-              "Agile Brand — AI search engagement data",
-              "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
+              "Agile Brand · Levenza personal AI agents launch",
+              "https://agilebrandguide.com/levenza-launches-personal-ai-agents-globally-for-the-enterprise/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Auto-Generated Creative</em> Hits a Governance Wall",
+          "head": "The <em>AI Creative Risk</em> Reckoning Arrives",
           "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
           "body": [
-            "The same week that OpenClips launched a tool to convert a product URL into production-ready ads, MarTech published sharp warnings about the <b>brand, legal, and regulatory exposure</b> hiding inside auto-generated creative. The speed benefit is real, but so is the liability when output drifts from brand standards or violates ad regulations.",
-            "Enterprise AI governance frameworks are proving insufficient on their own — policy documents don't catch a hallucinated claim in a dynamically generated banner. The emerging consensus is that <b>human review checkpoints and legally-aware guardrails</b> must be baked into the generation pipeline, not bolted on after launch."
+            "Automated creative generation is moving faster than the guardrails around it. Brand, legal, and regulatory exposure from auto-generated assets is no longer theoretical — from copyright ambiguity to regulatory non-compliance, <b>the liability lands with the marketer, not the model vendor</b>.",
+            "Enterprise AI governance frameworks are being stress-tested and found wanting: a governance policy alone cannot protect a brand when the output pipeline runs at machine speed. <b>Human review checkpoints and business-context grounding</b> are emerging as non-negotiable requirements, not optional upgrades."
           ],
           "ev": [
             [
-              "MarTech · AI — Hidden risks of auto-generated creative",
+              "MarTech · Hidden risks of auto-generated creative",
               "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
             ],
             [
-              "MarTech · AI — Enterprise AI governance limits",
+              "MarTech · Enterprise AI governance gaps",
               "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
             ],
             [
-              "MarTech Series — OpenClips product-link-to-ad platform",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/openclips-is-the-first-ai-platform-to-actually-turn-a-product-link-into-production-ready-ads/"
+              "MarTech · AI needs your business knowledge",
+              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
             ]
           ]
         },
         {
           "num": "Theme 03",
-          "head": "AI Budget &amp; Stack Planning Enters a <em>Reckoning Moment</em>",
-          "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
+          "head": "<em>ChatGPT Ads vs. Google</em>: A New Media Buying Decision",
+          "url": "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/",
           "body": [
-            "With 2027 planning underway, multiple pieces this month converged on the same blind spot: <b>most AI line items cover tools but skip the hidden costs</b> — training data, change management, model maintenance, and agent-readiness infrastructure. Mid-market teams are especially exposed because they adopted AI faster than their ops maturity could support.",
-            "The practical advice crystallizing is to audit AI claims rigorously during RFPs and demand proof-of-performance rather than feature lists. <b>Vetting discipline</b> is becoming the new competitive moat — teams that buy thoughtfully will outperform teams that bought enthusiastically."
+            "OpenAI's move into advertising creates a genuine fork in paid media strategy. ChatGPT ads operate inside a conversational, intent-rich context that differs structurally from keyword auctions — <b>engagement patterns, attribution logic, and creative formats are all distinct</b>, requiring separate evaluation rather than a simple budget reallocation.",
+            "Data from adMarketplace reinforces the point: consumers behave differently across AI search experiences, meaning <b>a single creative and bidding approach will underperform across both surfaces</b>. Marketers now need a framework for deciding which queries, audiences, and funnel stages belong on which platform."
           ],
           "ev": [
             [
-              "MarTech — 2027 AI budget gaps",
-              "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/"
+              "MarTech · ChatGPT ads vs. Google Ads",
+              "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/"
             ],
             [
-              "MarTech — Vetting AI in martech RFPs",
-              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
+              "Agile Brand · AI search advertising engagement data",
+              "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
             ],
             [
-              "MarTech — AI reshaping mid-market marketing",
-              "https://martech.org/how-ai-is-re-shaping-mid-market-marketing/"
+              "MarTech Series · OpenClips product-link-to-ad platform",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/openclips-is-the-first-ai-platform-to-actually-turn-a-product-link-into-production-ready-ads/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "Autonomous Agents Move from <em>Pilots to Platform Acquisitions</em>",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automation-anywhere-completes-boost-ai-acquisition-challenges-saas-giants-in-the-race-for-autonomous-customer-service-operations/",
+          "head": "AI Budget &amp; Stack Decisions Demand <em>Rigorous New Criteria</em>",
+          "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
           "body": [
-            "Automation Anywhere's completed acquisition of Boost.ai and Levenza's global enterprise launch signal that <b>agentic AI is graduating from experiment to M&amp;A target</b>. Incumbents are buying agent capability rather than building it, which typically means consolidation is accelerating faster than the market appreciates.",
-            "The Marcora agent embedding itself into Google Chat, Slack, and Teams shows the parallel distribution play: agents are being pushed into <b>where work already happens</b> rather than asking workers to adopt new surfaces. Ops and IT leaders now face decisions about which agent vendors get access to their collaboration layer — a choice with long lock-in implications."
+            "Planning cycles for 2027 are exposing a gap: most AI line items were added reactively and lack success metrics, ownership, or sunset criteria. <b>What's missing isn't money — it's a decision framework</b> for evaluating which AI capabilities actually compound returns versus which create technical debt.",
+            "RFP processes are catching up, with new guidance on how to vet AI claims during vendor selection. Mid-market teams in particular are finding that <b>AI is restructuring role boundaries</b>, not just automating tasks, which makes headcount and tooling decisions inseparable."
           ],
           "ev": [
             [
-              "MarTech Series — Automation Anywhere acquires Boost.ai",
-              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/automation-anywhere-completes-boost-ai-acquisition-challenges-saas-giants-in-the-race-for-autonomous-customer-service-operations/"
+              "MarTech · What's missing from your 2027 AI budget",
+              "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/"
             ],
             [
-              "Agile Brand — Levenza personal AI agents launch",
-              "https://agilebrandguide.com/levenza-launches-personal-ai-agents-globally-for-the-enterprise/"
+              "MarTech · How to vet AI in martech RFPs",
+              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
             ],
             [
-              "MarTech Series — Marcora agent in Google Chat &amp; Teams",
-              "https://martechseries.com/sales-marketing/messaging/marcora-marketing-agent-now-available-in-google-chat-and-works-in-slack-microsoft-teams-and-buzz/"
+              "MarTech · How AI reshapes mid-market marketing",
+              "https://martech.org/how-ai-is-re-shaping-mid-market-marketing/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Synthetic Personas vs. <em>Real Business Knowledge</em>: The Data Quality Divide",
-          "url": "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/",
+          "head": "Synthetic Personas &amp; <em>AI-Powered Customer Understanding</em> Go Mainstream",
+          "url": "https://agilebrandguide.com/atypica-cpo-angela-xu-on-when-to-trust-a-customer-who-doesnt-exist/",
           "body": [
-            "Two stories pulled in opposite directions this month: Atypica's CPO making the case for AI-generated synthetic customers as a valid signal source, while MarTech argued that <b>even frontier models fail without proprietary business context</b> injected at inference time. The tension is real — synthetic data scales, but it can compound blind spots if not grounded in actual customer behavior.",
-            "The psychological-grounding piece on AI personas added nuance: models produce more useful personas when <b>structured psychographic frameworks</b> constrain the generation, rather than free-form prompting. The practical upshot is that the quality of your AI outputs is now a direct function of the institutional knowledge and frameworks you bring to the prompt — garbage-in still applies."
+            "AI-generated customer personas — built from behavioral data and psychological models rather than survey panels — are moving from experiment to operational tool. The critical new question isn't whether to use them, but <b>when to trust a synthetic customer signal over a real one</b>, especially for edge cases and emerging segments.",
+            "Psychology-informed design of AI personas is gaining traction as a corrective to flat, demographic-only models. <b>Richer mental models of customer motivation</b> improve personalization accuracy and reduce the risk of AI recommendations that are statistically plausible but contextually wrong."
           ],
           "ev": [
             [
-              "MarTech · AI — AI needs your business knowledge",
-              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
-            ],
-            [
-              "Agile Brand — Atypica on trusting synthetic customers",
+              "Agile Brand · Atypica CPO on synthetic customer trust",
               "https://agilebrandguide.com/atypica-cpo-angela-xu-on-when-to-trust-a-customer-who-doesnt-exist/"
             ],
             [
-              "MarTech — Psychology &amp; AI-powered personas",
+              "MarTech · Psychology &amp; AI-powered personas",
               "https://martech.org/how-psychology-can-make-ai-powered-customer-personas-more-useful/"
+            ],
+            [
+              "Agile Brand · Your brand is your AI — Five9",
+              "https://agilebrandguide.com/expert-mode-your-brand-isnt-your-ads-its-your-ai-with-jay-lee-five9/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every layer of the stack — creative, search, agents, budgets, and data — the month's signal is that <em>AI amplifies the quality of the human judgment you bring to it, and punishes the absence of that judgment faster than any previous technology wave</em>."
+      "takeaway": "Across every layer of the stack — creative, media, personas, agents, and budgets — <em>AI is forcing marketers to make structural decisions they can no longer defer to a future planning cycle</em>."
     }
   }
 }
