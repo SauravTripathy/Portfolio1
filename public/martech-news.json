@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:11:19.509638+00:00",
+  "generatedAt": "2026-11-24T01:03:00.772680+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -49,7 +49,7 @@
           "fresh": true,
           "head": "How to vet AI capabilities during martech RFPs",
           "url": "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/",
-          "plain": "Six pointed questions help buyers separate <b>genuine AI capability</b> from rebranded automation during vendor selection. This matters because purchasing decisions lock in platforms for years, and most vendors are overclaiming right now. Any marketer sitting through a demo or writing an RFP this budget season needs this filter.",
+          "plain": "Six pointed questions help buyers separate <b>genuine AI capability</b> from rebranded automation during vendor evaluations. This matters because buying decisions made now will shape marketing stacks for years — and vendors routinely overclaim. Any team about to sign a martech contract should run these tests before the ink dries.",
           "chips": [
             "govern",
             "genai",
@@ -58,25 +58,11 @@
         },
         {
           "num": "02",
-          "src": "MarTech Series",
-          "fresh": true,
-          "head": "DXL deploys Meta's AI agent Muse via commercetools for product discovery",
-          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools/",
-          "plain": "Destination XL, the largest big-and-tall menswear retailer in the US, is now selling through <b>Meta's agentic shopping assistant Muse</b>. This is an early live example of a major retailer routing commerce through a third-party AI agent — a structural shift in how products get discovered and bought that marketers need to track.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "geo"
-          ]
-        },
-        {
-          "num": "03",
           "src": "MarTech",
           "fresh": true,
           "head": "What's missing from your 2027 marketing AI budget?",
           "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
-          "plain": "Most 2027 AI budgets fund tools but underfund the people and change-management processes that make tools work. This piece argues that <b>adoption and governance costs</b> are routinely left out of planning cycles, leaving teams with software they can't use. Directly relevant to anyone finalising next-year spend right now.",
+          "plain": "Most AI budgets cover software licences but skip <b>the people and change-management costs</b> that actually make tools work. This piece argues that without funding training, process redesign and governance roles, AI spend produces shelfware. It directly shapes how marketing leaders should allocate next year's money.",
           "chips": [
             "govern",
             "genai",
@@ -84,12 +70,26 @@
           ]
         },
         {
+          "num": "03",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "DXL Expands Customer Reach Through Meta's AI Agent Muse with commercetools",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools/",
+          "plain": "Destination XL is using <b>Meta's shopping agent Muse</b> as a new sales channel, letting consumers discover and buy big-and-tall apparel inside an AI experience rather than a traditional search result. This is an early real-world example of a retailer routing commerce through an agentic AI surface instead of a website or app.",
+          "chips": [
+            "agentic",
+            "decis",
+            "geo",
+            "cep"
+          ]
+        },
+        {
           "num": "04",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "fraud0 and FouAnalytics partner to offer impression-level ad governance as DoubleVerify alternative",
+          "head": "fraud0 Partners with FouAnalytics to Offer Impression-Level Digital Media Governance",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fraud0-partners-with-fouanalytics-to-offer-impression-level-digital-media-governance-to-replace-doubleverify-and-ias/",
-          "plain": "Two independent ad-verification firms are combining to give advertisers <b>AI-powered, impression-level fraud detection</b> with automatic Google Ads refunds — positioning directly against incumbents DoubleVerify and IAS. This signals growing competition in the media governance layer and new options for marketers worried about bot traffic eating budgets.",
+          "plain": "Two independent ad-analytics firms are combining to measure every impression — human and bot — and <b>automatically claim Google Ads refunds</b> for fraudulent spend. They position this as a cheaper, more transparent alternative to DoubleVerify and IAS. It raises the bar for what ad-fraud governance tools need to do to compete.",
           "chips": [
             "govern",
             "agentic"
@@ -99,9 +99,9 @@
           "num": "05",
           "src": "Agile Brand",
           "fresh": true,
-          "head": "adMarketplace AI Discovery shows 156% conversion lift and distinct behavior across AI search surfaces",
+          "head": "adMarketplace AI Discovery Full-Year Data: Conversion Rates Up 156% Across AI Search Surfaces",
           "url": "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/",
-          "plain": "A full year of real data from adMarketplace's AI Discovery product finds <b>conversion rates 156% higher</b> than standard search, but also that consumer intent and product interest differ significantly across browsers, comparison engines, and BNPL apps. This is rare empirical evidence about how <b>AI search surfaces fragment audience behavior</b> — critical for media planning.",
+          "plain": "A full year of live data from adMarketplace shows <b>consumers behave differently depending on which AI search surface they use</b> — browsers, comparison engines, and BNPL apps each produce distinct intent signals. The 156% conversion lift suggests AI-powered search advertising warrants its own channel strategy, not a copy-paste from Google campaigns.",
           "chips": [
             "geo",
             "decis",
@@ -115,10 +115,10 @@
         {
           "num": "01",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "How to vet AI capabilities during martech RFPs",
           "url": "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/",
-          "plain": "Six practical questions help buyers separate <b>genuine AI capability</b> from rebranded automation during vendor selection. This matters because marketing teams are spending real budget on tools that may deliver little beyond a fresh label — and a structured RFP checklist directly changes how AI is bought and evaluated.",
+          "plain": "Six pointed questions help buyers separate real AI from relabeled automation when evaluating martech vendors. This matters because <b>AI washing is rampant in vendor pitches</b>, and procurement teams without a clear framework are routinely overpaying for legacy tools dressed up with new language. Practical and immediately usable for anyone buying marketing software.",
           "chips": [
             "govern",
             "genai",
@@ -128,40 +128,38 @@
         {
           "num": "02",
           "src": "MarTech Series",
-          "fresh": true,
-          "head": "DXL deploys Meta's AI agent Muse via commercetools for product discovery",
+          "fresh": false,
+          "head": "DXL Expands Customer Reach Through Meta's AI Agent Muse with commercetools",
           "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools/",
-          "plain": "Destination XL is the first major apparel retailer to open a commerce channel through <b>Meta's agentic shopping AI, Muse</b>. This is a concrete case of an AI agent acting as a sales channel — not just a chatbot — signalling how agentic decisioning is reshaping where and how products get discovered and bought.",
+          "plain": "Destination XL is using <b>Meta's AI shopping agent Muse</b> as a live sales channel, letting the agent surface and recommend products to consumers directly. This is a concrete example of agentic AI acting as a buyer-facing commerce layer, shifting how retailers think about discovery and channel strategy beyond traditional ads.",
           "chips": [
             "agentic",
             "decis",
-            "cep",
-            "perso"
+            "perso",
+            "geo"
           ]
         },
         {
           "num": "03",
           "src": "MarTech",
-          "fresh": true,
+          "fresh": false,
           "head": "What's missing from your 2027 marketing AI budget?",
           "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
-          "plain": "Most AI budgets fund tools but skip the people, training, and processes needed to make them work. This piece offers a framework for <b>funding AI adoption — not just AI access</b>, directly shaping how marketing teams plan spending and governance going into the next annual cycle.",
+          "plain": "Most AI budgets fund tools but skip the people, training, and processes needed to make those tools work. The article argues that <b>change management and enablement spending</b> are the missing line items, and without them ROI stalls. Directly useful for anyone planning 2027 marketing technology investments right now.",
           "chips": [
             "govern",
-            "genai",
-            "agentic"
+            "genai"
           ]
         },
         {
           "num": "04",
           "src": "Agile Brand",
           "fresh": false,
-          "head": "Why a citation in an AI answer isn't the same as a recommendation — ZeroRank CEO",
+          "head": "Why a Citation Isn't a Recommendation: ZeroRank CEO on AI Visibility",
           "url": "https://agilebrandguide.com/expert-mode-why-a-citation-isnt-a-recommendation-with-kelvin-cobanaj-from-zerorank/",
-          "plain": "ZeroRank's CEO draws a sharp line between being mentioned and being recommended by an AI engine — a distinction most marketers currently ignore. The interview gives practical guidance on <b>measuring real AI visibility vs. vanity citations</b> and how to make the case to a CFO, which matters as GEO budgets are being set.",
+          "plain": "ZeroRank's CEO draws a clear line between being cited by an AI answer engine and being actually recommended to a buyer. <b>GEO measurement needs to track recommendation quality, not just mention count</b>, and the piece offers a CFO-ready framing for justifying investment in generative engine optimization programs.",
           "chips": [
             "geo",
-            "agentic",
             "govern"
           ]
         },
@@ -169,9 +167,9 @@
           "num": "05",
           "src": "MarTech · AI",
           "fresh": false,
-          "head": "The hidden risks of auto-generated creative: brand, legal, and regulatory exposure",
+          "head": "The hidden risks of auto-generated creative: Brand, legal, and regulatory exposure",
           "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
-          "plain": "AI-generated copy and images carry <b>copyright liability, false-advertising risk, and data-breach exposure</b> that many marketing teams haven't planned for. As generative AI becomes standard in content workflows, understanding these legal guardrails is essential before publishing — directly shaping how AI creative is governed and approved.",
+          "plain": "Copyright liability, false advertising claims, and brand damage are real and growing risks when teams publish <b>AI-generated creative without proper review workflows</b>. The article maps the specific legal and regulatory exposure points marketers face, making it essential reading for anyone scaling generative content production without a governance framework in place.",
           "chips": [
             "genai",
             "govern"
@@ -187,54 +185,31 @@
           "head": "AI Agents Are <em>Rewriting the Purchase Path</em>",
           "url": "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/",
           "body": [
-            "When AI agents begin shortlisting B2B vendors or steering shoppers toward products, the old rules of visibility collapse. <b>Getting cited by an AI is not the same as earning a recommendation</b> — a distinction that upends both SEO and paid-media assumptions built over two decades.",
-            "Retailers like DXL are already deploying Meta's AI agent Muse to extend customer reach, while marketers are warned that <b>AI agents make CX marketing's problem</b> — meaning responsibility for the experience now sits squarely with marketing operations, not just IT or product."
+            "When AI agents evaluate vendors, compare products, or handle customer service, the decision logic shifts from human instinct to machine-readable signals. <b>Brands that optimised for human browsers now risk being invisible to the agents doing the browsing.</b> DXL's deployment of Meta's AI Agent Muse and Levenza's enterprise agent launch both show this is live, not theoretical.",
+            "The implication for strategy is blunt: your brand's content, data structure, and reputation signals must be legible to an AI evaluator, not just an attractive landing page. Marketing ops teams are being asked to audit \"agent readiness\" as a first-class capability — a task most organisations have not budgeted for or even scoped."
           ],
           "ev": [
             [
-              "MarTech · AI · B2B vendor consideration",
+              "MarTech · AI · B2B vendor evaluation",
               "https://martech.org/when-ai-agents-evaluate-b2b-vendors-what-earns-consideration/"
             ],
             [
-              "MarTech · AI · CX ownership",
-              "https://martech.org/ai-agents-make-cx-marketings-problem/"
+              "MarTech · AI · agent readiness &amp; ops",
+              "https://martech.org/marketing-ops-can-turn-ai-agent-readiness-from-a-blind-spot-to-a-strength/"
             ],
             [
-              "MarTech Series · DXL &amp; Meta Muse",
+              "MarTech Series · DXL Meta Agent Muse",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/dxl-expands-customer-reach-through-metas-ai-agent-muse-with-commercetools/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Brand &amp; Legal Risk</em> Hidden Inside AI Creative",
-          "url": "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/",
-          "body": [
-            "Auto-generated creative is moving faster than the governance frameworks meant to contain it. <b>Brand, legal, and regulatory exposure</b> from AI-produced assets — think IP conflicts, hallucinated claims, and regulatory non-compliance — is being systematically underestimated inside marketing teams.",
-            "Enterprise governance policies alone are insufficient; the Five9 perspective crystallises it: <b>your brand is now your AI's behaviour, not your ads</b>. That shifts accountability from campaign managers to anyone who configures or prompts the model."
-          ],
-          "ev": [
-            [
-              "MarTech · AI creative risk",
-              "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
-            ],
-            [
-              "MarTech · enterprise governance limits",
-              "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
-            ],
-            [
-              "Agile Brand · brand is your AI",
-              "https://agilebrandguide.com/expert-mode-your-brand-isnt-your-ads-its-your-ai-with-jay-lee-five9/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "AI Search Creates <em>Fragmented Engagement Signals</em>",
+          "head": "<em>AI Search</em> Breaks the Old Advertising Playbook",
           "url": "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/",
           "body": [
-            "Data from adMarketplace confirms that consumers do not behave uniformly across AI search surfaces — click intent, dwell time, and conversion propensity vary significantly by experience. <b>Treating AI search as a single channel is a planning error</b> that will misallocate budget.",
-            "Simultaneously, ZeroRank's analysis reinforces that <b>a citation in an AI answer is not a purchase signal</b>. Marketers must build measurement frameworks that separate share-of-voice in AI responses from actual downstream intent and revenue."
+            "adMarketplace data shows consumers behave materially differently across AI search surfaces — click patterns, intent signals, and conversion rates do not map onto legacy SEM benchmarks. <b>A citation in an AI answer is not the same as a sponsored link, and treating them identically wastes budget.</b> ZeroRank's research reinforces this: being cited by an AI is not the same as being recommended.",
+            "Advertisers must now segment AI search as its own channel with its own measurement framework. Media governance is tightening in parallel — fraud0 and FouAnalytics are positioning impression-level oversight as a replacement for incumbents like DoubleVerify, signalling that the ad-verification layer itself is being rebuilt for AI-era inventory."
           ],
           "ev": [
             [
@@ -242,59 +217,86 @@
               "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
             ],
             [
-              "Agile Brand · citation vs recommendation",
+              "Agile Brand · citation ≠ recommendation, ZeroRank",
               "https://agilebrandguide.com/expert-mode-why-a-citation-isnt-a-recommendation-with-kelvin-cobanaj-from-zerorank/"
+            ],
+            [
+              "MarTech Series · impression-level media governance",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fraud0-partners-with-fouanalytics-to-offer-impression-level-digital-media-governance-to-replace-doubleverify-and-ias/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 03",
+          "head": "The <em>AI Governance Gap</em> Is a Brand Risk, Not Just a Compliance Checkbox",
+          "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
+          "body": [
+            "Three separate pieces this month converge on the same finding: <b>formal AI governance policies do not automatically protect brands from the creative, legal, and regulatory exposure that auto-generated content creates.</b> Governance frameworks lag the pace of AI deployment, leaving marketing teams exposed on IP, accuracy, and regulatory compliance.",
+            "The practical fix is not more policy documents but tighter human review loops and business-context grounding — AI still needs your proprietary knowledge to produce defensible outputs. For mid-market firms without large legal teams, this is especially acute, and new martech RFP guidance is pushing procurement teams to stress-test AI claims before signing contracts."
+          ],
+          "ev": [
+            [
+              "MarTech · enterprise AI governance &amp; brand risk",
+              "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
+            ],
+            [
+              "MarTech · AI · hidden risks of auto-generated creative",
+              "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
+            ],
+            [
+              "MarTech · vetting AI in martech RFPs",
+              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
             ]
           ]
         },
         {
           "num": "Theme 04",
-          "head": "AI Democratises Execution but <em>Demands Human Context</em>",
-          "url": "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/",
+          "head": "AI Collapses the <em>SMB Time-to-Market</em> Barrier",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/godaddy-airo-ai-builder-takes-entrepreneurs-from-prompt-to-payout/",
           "body": [
-            "Tools like GoDaddy Airo, Zakham.ai for the Middle East, and mid-market AI platforms are lowering the barrier to sophisticated marketing execution dramatically. <b>The gap between enterprise and SMB capability is narrowing faster than most analysts predicted</b>, with bilingual and region-specific AI workspaces accelerating global access.",
-            "Yet every practitioner piece this month echoes the same caveat: <b>the smartest AI still fails without embedded business knowledge</b>. Proprietary context — customer history, brand voice, pricing logic — is now the primary differentiator, not access to the model itself."
+            "GoDaddy Airo, Zakham.ai's bilingual Middle East workspace, and Picsart's open developer API are all aimed at the same gap: <b>small businesses and solopreneurs previously locked out of sophisticated marketing tools can now go from idea to revenue-generating presence in hours, not months.</b> The pattern is consistent — AI wraps complexity in a prompt interface and removes the need for a specialist.",
+            "This is not just a product launch story; it reshapes competitive dynamics. When a solo entrepreneur in Riyadh or a Main Street retailer can deploy the same quality of creative and personalisation as a large brand, the incumbency advantage of budget and headcount shrinks. Mid-market teams that relied on scale as a moat need a new differentiation strategy."
           ],
           "ev": [
-            [
-              "MarTech · AI needs business knowledge",
-              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
-            ],
             [
               "MarTech Series · GoDaddy Airo prompt-to-payout",
               "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/godaddy-airo-ai-builder-takes-entrepreneurs-from-prompt-to-payout/"
             ],
             [
-              "MarTech · mid-market AI reshaping",
+              "MarTech Series · Zakham.ai bilingual SMB workspace",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zakham-ai-launches-bilingual-ai-workspace-for-small-businesses-and-solopreneurs-in-the-middle-east/"
+            ],
+            [
+              "MarTech · AI reshaping mid-market marketing",
               "https://martech.org/how-ai-is-re-shaping-mid-market-marketing/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Budget &amp; Procurement Must <em>Catch Up to AI Reality</em>",
+          "head": "Your <em>AI Budget Has Blind Spots</em> That Will Hurt in 2027",
           "url": "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/",
           "body": [
-            "Planning cycles are still being built around last year's martech stack while AI capability is repricing and restructuring entire categories — Mailchimp's sale to Bending Spoons being the clearest consolidation signal. <b>What's missing from 2027 AI budgets</b> is line-item investment in governance, data quality, and agent-readiness infrastructure rather than just tool licences.",
-            "On the procurement side, teams lack structured methods to evaluate vendor AI claims during RFPs. <b>Vetting AI capabilities requires new criteria</b> — model transparency, auditability, and integration depth — that standard martech scoring matrices were never designed to test."
+            "Planning cycles are colliding with an uncomfortable reality: most 2027 marketing AI budgets were scoped before agent-era costs, data-grounding requirements, and governance overhead were fully understood. <b>The line items missing most often are change management, proprietary knowledge curation, and measurement infrastructure for new channels like AI search.</b> The Mailchimp-Bending Spoons acquisition also signals that the martech stack itself is consolidating, which changes vendor dependency calculations.",
+            "Teams that treat AI spend as a simple tool-licensing cost will under-invest in the human and data work that makes those tools defensible. The smarter framing — reinforced by the Five9 argument that your brand is now your AI's behaviour, not your ads — is to budget AI as an operational capability requiring ongoing tuning, oversight, and measurement rather than a one-time software purchase."
           ],
           "ev": [
             [
-              "MarTech · 2027 AI budget gaps",
+              "MarTech · 2027 AI budget blind spots",
               "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/"
             ],
             [
-              "MarTech · vetting AI in RFPs",
-              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
+              "Agile Brand · your brand is your AI, Five9",
+              "https://agilebrandguide.com/expert-mode-your-brand-isnt-your-ads-its-your-ai-with-jay-lee-five9/"
             ],
             [
-              "MarTech · Mailchimp consolidation",
-              "https://martech.org/intuit-finds-a-buyer-for-mailchimp-in-bending-spoons/"
+              "MarTech · AI needs your business knowledge",
+              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every corner of the feed, the month's signal is the same: <em>AI is shifting marketing's leverage points from creative output and media placement to data ownership, agent configuration, and governance</em> — and most budgets, teams, and procurement processes have not caught up."
+      "takeaway": "Across every corner of MarTech-AI this month, the same underlying shift is visible: <em>AI is no longer a feature inside your tools but the operating layer through which customers, vendors, and even other AIs experience your brand</em> — which means strategy, budget, and governance must all be rebuilt around that reality, not bolted onto the old one."
     }
   }
 }
