@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T22:39:02.217687+00:00",
+  "generatedAt": "2026-11-26T15:29:24.107342+00:00",
   "sourcesScanned": 6,
   "surfaced": 5,
   "concepts": {
@@ -45,53 +45,25 @@
       "stories": [
         {
           "num": "01",
-          "src": "MarTech Series",
+          "src": "Agile Brand",
           "fresh": true,
-          "head": "Magister Launches MCP Server Connecting Claude, ChatGPT and Codex to 85 Marketing Tools",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/magister-launches-a-marketing-mcp-server-that-connects-claude-chatgpt-codex-and-cursor-to-85-marketing-tools/",
-          "plain": "Magister's new MCP server lets any major AI assistant reach into a brand's real marketing stack — analytics, ad accounts, CMS — and act on it, but <b>requires human approval before anything is published or spent</b>. This is a concrete example of agentic marketing infrastructure with governance built in, directly changing how marketing AI is built and controlled.",
+          "head": "Walmart opens Black Friday to Meta's Muse agent; Omneky launches always-on ad agent",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-november-26-2026/",
+          "plain": "Two significant moves in <b>agentic marketing</b>: Walmart lets Meta's Muse agent handle Black Friday shopping actions, and Omneky ships an always-on ad agent. Together they signal that autonomous agents are now executing real retail and advertising decisions at scale — a shift in how brands buy and run campaigns.",
           "chips": [
             "agentic",
-            "govern",
+            "decis",
             "genai",
             "cep"
           ]
         },
         {
           "num": "02",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "What Is Marketing For Once Agents Run Execution? Aampe CEO Paul Meinshausen Explains",
-          "url": "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/",
-          "plain": "The CEO of Aampe (now part of MoEngage) argues that <b>when agents handle campaign execution, the marketer's job shifts to discovery and strategy</b> — not less important, but fundamentally different. This reframes how teams should be hired, structured, and measured as agentic decisioning moves from experiment to standard practice.",
-          "chips": [
-            "agentic",
-            "decis",
-            "cep",
-            "perso"
-          ]
-        },
-        {
-          "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Angler AI Scales Customer Foundation Model After Early Brands See Up to 4x Omnichannel ROAS Lift",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/ai-marketing-platform-angler-ai-scales-its-customer-foundation-model-after-early-customers-see-up-to-4x-lift-in-omnichannel-roas/",
-          "plain": "Angler AI's Customer Foundation Model is trained on live ad spend to predict each prospect's lifetime value and <b>teach ad-platform algorithms which audiences to find</b>. With reported 16x return on Angler spend and 50%+ lower acquisition costs, this shows how foundation-model-style AI is now being applied to media buying decisions.",
-          "chips": [
-            "bandit",
-            "decis",
-            "cdp",
-            "perso"
-          ]
-        },
-        {
-          "num": "04",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "The Proof Gap in AI Search: Why Well-Ranked Brands Still Vanish from AI Answers",
-          "url": "https://agilebrandguide.com/expert-mode-the-proof-gap-in-ai-search-with-john-thompson-from-rbb-communications/",
-          "plain": "rbb Communications VP John Thompson explains that <b>traditional SEO rankings no longer guarantee visibility inside AI-generated answers</b>, and shows CMOs how to measure and close that gap. As generative engines replace search results pages for many queries, this directly changes how content and thought-leadership budgets should be allocated.",
+          "head": "OtterlyAI launches ChatGPT plugin for GEO, expands tracking to Bing AI, DeepSeek, Meta Muse, Naver AI and Grok",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/otterlyai-launches-official-chatgpt-plugin-for-geo-adds-tracking-for-bing-ai-mode-deepseek-meta-muse-naver-ai-and-grok/",
+          "plain": "OtterlyAI now tracks brand visibility across six AI search engines and lets teams query that data directly inside ChatGPT. As <b>AI-generated answers replace search result pages</b>, marketers need new measurement tools. This is the first multi-engine GEO analytics plugin, changing how visibility and conversion are reported.",
           "chips": [
             "geo",
             "genai",
@@ -99,16 +71,45 @@
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "The More AI Can Do, the More Marketers Need Strategic and Technical Knowledge",
-          "url": "https://martech.org/the-more-ai-can-do-the-more-marketers-need-to-know/",
-          "plain": "As AI accelerates execution speed, the risk of fast but wrong decisions grows. The piece argues that <b>guardrails, strategic judgment, and technical literacy</b> are now core marketer competencies — not nice-to-haves. This shapes how marketing teams are trained and how governance policies around AI tools should be designed.",
+          "num": "03",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "Survey: Shoppers distrust AI-generated content and reject AI-driven purchases on their behalf",
+          "url": "https://agilebrandguide.com/rebuilding-digital-trust-why-shoppers-scrutinize-ai-driven-content-and-what-enterprises-must-do/",
+          "plain": "An Akeneo survey of 1,000 U.S. consumers shows widespread skepticism toward <b>AI-generated product content</b>, with most preferring to verify purchases themselves. This directly challenges the case for agentic shopping and AI personalization, and raises governance questions every MarTech buyer or builder needs to plan around.",
           "chips": [
             "govern",
+            "genai",
             "agentic",
-            "genai"
+            "perso"
+          ]
+        },
+        {
+          "num": "04",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "Fidiora launches agentic AI support platform, live with 100+ customers, billing only on confirmed resolutions",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fidiora-launches-agentic-ai-support-platform-after-18-months-of-development-going-live-with-more-than-100-customers/",
+          "plain": "Fidiora's AI-native helpdesk resolves support queries, captures leads in the same chat, and uses a <b>pay-per-resolution pricing model</b> with no seat fees. The business model innovation matters as much as the tech — it removes the fixed-cost barrier and ties vendor revenue directly to measurable outcomes.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep",
+            "govern"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "MarTech Series",
+          "fresh": true,
+          "head": "SendLint ships AI agent that QA-checks emails against the approved copy deck with 150+ automated checks",
+          "url": "https://martechseries.com/content/email-mktg/sendlint-launches-an-ai-agent-that-checks-emails-against-the-copy-deck/",
+          "plain": "SendLint automates the most tedious step in email production: verifying that every built email matches approved copy and creative before send. With <b>150+ compliance checks tied to sign-off records</b>, it reduces human QA hours and lowers the risk of off-brand or non-compliant sends — directly affecting email governance workflows.",
+          "chips": [
+            "agentic",
+            "govern",
+            "genai",
+            "cep"
           ]
         }
       ]
@@ -119,9 +120,9 @@
           "num": "01",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Magister Launches MCP Server Connecting Claude, ChatGPT and Codex to 85 Marketing Tools",
+          "head": "Magister Launches Marketing MCP Server Connecting Claude, ChatGPT and 85 Marketing Tools",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/magister-launches-a-marketing-mcp-server-that-connects-claude-chatgpt-codex-and-cursor-to-85-marketing-tools/",
-          "plain": "Magister's new <b>MCP server</b> lets marketers run campaigns directly from AI assistants like Claude or ChatGPT, with the assistant pulling live brand data and tool access across 85 platforms. A human approval gate blocks anything from being published or spent without sign-off. This matters because it is a real step toward <b>agentic marketing execution</b> with built-in governance.",
+          "plain": "Magister's MCP server lets any AI assistant — Claude, ChatGPT, Codex — plug directly into 85 marketing tools using a brand's live data, while requiring human approval before anything publishes or spends money. This matters because it sets a practical blueprint for <b>agentic marketing with a governance gate</b>, showing how teams can extend AI assistants without losing control over budgets or brand voice.",
           "chips": [
             "agentic",
             "govern",
@@ -131,25 +132,11 @@
         },
         {
           "num": "02",
-          "src": "Agile Brand",
+          "src": "MarTech Series",
           "fresh": true,
-          "head": "What Is Marketing For Once Agents Run Execution? Aampe CEO Paul Meinshausen Explains",
-          "url": "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/",
-          "plain": "Aampe's CEO argues that <b>agentic AI is absorbing routine marketing execution</b>, shifting the marketer's job toward strategy, discovery, and judgment. As a leader of a platform that already uses reinforcement learning to personalize messaging at scale, his view carries weight for anyone trying to understand how marketing roles and budgets will shift.",
-          "chips": [
-            "agentic",
-            "decis",
-            "perso",
-            "bandit"
-          ]
-        },
-        {
-          "num": "03",
-          "src": "Agile Brand",
-          "fresh": true,
-          "head": "The Proof Gap in AI Search: Why High-Ranking Brands Still Vanish from AI Answers",
-          "url": "https://agilebrandguide.com/expert-mode-the-proof-gap-in-ai-search-with-john-thompson-from-rbb-communications/",
-          "plain": "rbb Communications VP John Thompson explains why strong Google rankings no longer guarantee visibility inside AI-generated answers, and what CMOs should measure and do next. This directly addresses <b>Generative Engine Optimization</b> as a new discipline — brands that ignore it risk disappearing from the AI answers their buyers are increasingly relying on.",
+          "head": "OtterlyAI Launches ChatGPT Plugin for GEO, Adds Tracking for Bing AI Mode, DeepSeek, Meta Muse, Naver AI and Grok",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/otterlyai-launches-official-chatgpt-plugin-for-geo-adds-tracking-for-bing-ai-mode-deepseek-meta-muse-naver-ai-and-grok/",
+          "plain": "OtterlyAI now tracks brand visibility across six AI search engines — including Bing AI Mode, DeepSeek and Grok — and lets teams query their performance data inside ChatGPT itself. As <b>AI-generated answers replace blue-link results</b>, knowing whether and how your brand appears in those answers is becoming a core marketing metric, and this is one of the first tools to measure it at scale.",
           "chips": [
             "geo",
             "genai",
@@ -157,30 +144,44 @@
           ]
         },
         {
-          "num": "04",
+          "num": "03",
           "src": "MarTech Series",
           "fresh": true,
-          "head": "Angler AI Scales Customer Foundation Model After Early Users See Up to 4x Omnichannel ROAS Lift",
+          "head": "Angler AI Scales Customer Foundation Model After Early Customers Report Up to 4x Omnichannel ROAS Lift",
           "url": "https://martechseries.com/sales-marketing/programmatic-buying/ai-marketing-platform-angler-ai-scales-its-customer-foundation-model-after-early-customers-see-up-to-4x-lift-in-omnichannel-roas/",
-          "plain": "Angler AI trained a <b>Customer Foundation Model</b> on live ad spend alongside brands like ThredUp and At Home, using it to predict buyer lifetime value and teach ad-platform algorithms to find high-value customers. Results include 50% lower acquisition costs. This shows how <b>foundation models fine-tuned on first-party data</b> are changing how budgets are allocated across channels.",
+          "plain": "Angler AI trained a foundation model on live ad spend from real brands to predict each prospect's business value and feed that signal back into ad-platform AI. Early customers including ThredUp and At Home report more than 16x return on Angler spend and 50% lower acquisition costs. This shows <b>customer-level predictive scoring</b> reshaping how brands buy media, not just target it.",
           "chips": [
             "cdp",
-            "bandit",
             "perso",
+            "bandit",
             "decis"
           ]
         },
         {
-          "num": "05",
-          "src": "MarTech",
-          "fresh": true,
-          "head": "The More AI Can Do, the More Marketers Need Strategic Thinking and Guardrails",
-          "url": "https://martech.org/the-more-ai-can-do-the-more-marketers-need-to-know/",
-          "plain": "As AI takes over execution tasks, MarTech argues that <b>faster output amplifies bad decisions</b> rather than fixing them, making strategic judgment and AI guardrails more critical than ever. The piece is a practical governance argument aimed at marketing leaders budgeting for AI in 2027 — speed without oversight is the central risk to manage.",
+          "num": "04",
+          "src": "MarTech · via MarTech",
+          "fresh": false,
+          "head": "How to Vet AI Capabilities During Martech RFPs",
+          "url": "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/",
+          "plain": "Six pointed questions help buyers separate genuine AI capability from relabelled automation during vendor evaluations. As AI claims flood every martech pitch deck, this practical buyer's checklist directly changes <b>how marketing AI is bought and evaluated</b>, making it highly relevant for anyone responsible for a 2027 martech stack decision.",
           "chips": [
             "govern",
             "genai",
             "agentic"
+          ]
+        },
+        {
+          "num": "05",
+          "src": "Agile Brand",
+          "fresh": false,
+          "head": "What Is Marketing For Once Agents Run Execution? Paul Meinshausen of Aampe by MoEngage Explains",
+          "url": "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/",
+          "plain": "Aampe CEO Paul Meinshausen argues that <b>agentic systems taking over campaign execution</b> don't eliminate marketing jobs — they raise the bar for strategic and creative thinking. The conversation maps out what human marketers should own once AI handles sends, timing and channel selection, which is a practical framing for teams restructuring roles around AI.",
+          "chips": [
+            "agentic",
+            "decis",
+            "cep",
+            "govern"
           ]
         }
       ]
@@ -190,121 +191,121 @@
       "themes": [
         {
           "num": "Theme 01",
-          "head": "The <em>Trust Deficit</em> in AI-Generated Marketing",
-          "url": "https://agilebrandguide.com/rebuilding-digital-trust-why-shoppers-scrutinize-ai-driven-content-and-what-enterprises-must-do/",
+          "head": "AI Agents Are <em>Replacing Execution</em>, Not Just Assisting It",
+          "url": "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/",
           "body": [
-            "Shoppers are increasingly suspicious of content they suspect was machine-made, and that skepticism is now a measurable business risk. <b>Enterprises that flood channels with auto-generated copy are trading short-term efficiency for long-term brand erosion</b>, and regulators are beginning to notice the legal exposure that comes with unchecked AI creative.",
-            "The answer is not less AI but smarter governance: human editorial judgment layered on top of automation, proprietary expert voice that competitors cannot replicate, and clear signals to audiences that a real perspective stands behind the content. Brands that close this proof gap first will own the credibility premium."
+            "A wave of purpose-built agentic platforms — Fidiora in customer support, SendLint in email compliance, Truelist in list hygiene — arrived this month with one shared premise: the agent <b>owns the task end-to-end</b>, not just a step inside it. Magister's MCP server takes this further by wiring Claude, ChatGPT, and Codex into 85 marketing tools simultaneously, turning orchestration itself into an automated layer.",
+            "The strategic question this forces is not 'how do we use AI?' but <b>'what is a marketer actually for?'</b> Paul Meinshausen's interview frames it plainly: if agents handle scheduling, personalisation, and send-time optimisation, human value must migrate to judgment, strategy, and setting the objectives agents optimise toward."
           ],
           "ev": [
             [
-              "Agile Brand · Digital Trust &amp; Shoppers",
-              "https://agilebrandguide.com/rebuilding-digital-trust-why-shoppers-scrutinize-ai-driven-content-and-what-enterprises-must-do/"
+              "Agile Brand · Aampe / MoEngage interview",
+              "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/"
             ],
             [
-              "MarTech · Hidden Risks of Auto-Generated Creative",
-              "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
+              "MarTech Series · Fidiora launch",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/fidiora-launches-agentic-ai-support-platform-after-18-months-of-development-going-live-with-more-than-100-customers/"
             ],
             [
-              "MarTech · Expert Content Competitors Can't Copy",
-              "https://martech.org/how-to-create-expert-content-your-competitors-cant-copy/"
+              "MarTech Series · Magister MCP server",
+              "https://martechseries.com/sales-marketing/programmatic-buying/magister-launches-a-marketing-mcp-server-that-connects-claude-chatgpt-codex-and-cursor-to-85-marketing-tools/"
             ]
           ]
         },
         {
           "num": "Theme 02",
-          "head": "<em>Agentic Execution</em> Rewrites the Marketer's Role",
-          "url": "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/",
-          "body": [
-            "When AI agents handle targeting, sequencing, and send-time optimisation autonomously, the classic execution layer of marketing collapses into software. <b>The strategic question is no longer how to run campaigns but what marketing is actually for</b> once the repetitive decisions are automated away — and most organisations have not yet answered it.",
-            "This shift places a premium on judgment, context-setting, and the business knowledge only humans hold. Platforms like Upland &amp; Instant InfoSystems are racing to convert unstructured enterprise content into trusted context that agents can act on, underscoring that <b>the quality of human-curated knowledge becomes the new competitive moat</b>."
-          ],
-          "ev": [
-            [
-              "Agile Brand · Agents &amp; Aampe with Paul Meinshausen",
-              "https://agilebrandguide.com/expert-mode-what-is-marketing-for-once-agents-run-execution-with-paul-meinshausen-from-aampe-by-moengage/"
-            ],
-            [
-              "MarTech Series · Upland Trusted Context for Agentic Work",
-              "https://martechseries.com/content/upland-and-instant-infosystems-turn-business-content-into-trusted-context-for-human-and-agentic-work/"
-            ],
-            [
-              "MarTech · Even the Smartest AI Needs Your Business Knowledge",
-              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
-            ]
-          ]
-        },
-        {
-          "num": "Theme 03",
-          "head": "AI Search Creates a <em>New Advertising Battleground</em>",
+          "head": "Generative Engine Optimisation <em>Fractures Search</em> Strategy",
           "url": "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/",
           "body": [
-            "ChatGPT's move into advertising signals that the decade-long Google search-ad duopoly is structurally challenged for the first time. <b>Consumers engage differently depending on which AI search experience they use</b>, meaning keyword strategies built for one platform are not portable — budgets and measurement frameworks must be rebuilt from scratch.",
-            "Early data from adMarketplace shows engagement patterns in AI search diverge sharply from classic SERP behaviour, so brands that treat AI search as just another placement will misallocate spend. <b>The window to establish presence before auction prices inflate is narrow</b>, and 2027 budget planning conversations are already lagging behind this reality."
+            "ChatGPT's ad product, OtterlyAI's expansion into Bing AI Mode, DeepSeek, Meta Muse, Naver AI, and Grok tracking, and the ongoing 'proof gap in AI search' debate all signal the same shift: <b>there is no longer a single search surface to optimise for</b>. Each AI engine surfaces brands differently, using citation logic rather than keyword ranking, so a strategy built for Google alone is now structurally incomplete.",
+            "John Thompson's interview on the proof gap underlines the credibility problem — AI engines cite sources they deem authoritative, meaning brands without <b>verifiable, expert-backed content</b> simply don't appear. Budgets and content calendars built around traditional SEO need a parallel GEO track before 2027 planning locks in."
           ],
           "ev": [
             [
-              "MarTech · ChatGPT Ads vs. Google Ads",
+              "MarTech · ChatGPT ads vs Google Ads",
               "https://martech.org/what-you-need-to-know-about-chatgpt-ads-vs-google-ads/"
             ],
             [
-              "Agile Brand · AI Search Advertising Data from adMarketplace",
-              "https://agilebrandguide.com/ai-search-advertising-data-from-admarketplace-reveals-consumers-engage-differently-across-multiple-ai-experiences/"
+              "MarTech Series · OtterlyAI GEO tracking",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/otterlyai-launches-official-chatgpt-plugin-for-geo-adds-tracking-for-bing-ai-mode-deepseek-meta-muse-naver-ai-and-grok/"
             ],
             [
-              "Agile Brand · Proof Gap in AI Search",
+              "Agile Brand · Proof gap in AI search",
               "https://agilebrandguide.com/expert-mode-the-proof-gap-in-ai-search-with-john-thompson-from-rbb-communications/"
             ]
           ]
         },
         {
-          "num": "Theme 04",
-          "head": "The <em>AI Skill Gap</em> Is Now a Strategy Risk",
-          "url": "https://martech.org/the-more-ai-can-do-the-more-marketers-need-to-know/",
+          "num": "Theme 03",
+          "head": "AI Output <em>Trust Deficit</em> Demands Governance Beyond Policy",
+          "url": "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/",
           "body": [
-            "Counter-intuitively, the more capable AI tooling becomes, the more dangerous it is to deploy it without deep marketer understanding. <b>Teams that treat AI as a black box lose the ability to audit outputs, catch errors, or explain results to stakeholders</b> — creating compounding brand and legal liability over time, as the hidden-risks-of-auto-creative reporting makes plain.",
-            "This gap is hitting mid-market firms hardest, where headcount is lean and there is no dedicated AI governance function. <b>Budget planning for 2027 must include investment in human AI literacy</b>, not just tool licences, and procurement processes — such as RFP vetting of AI claims — are becoming a frontline defence against capability theatre."
+            "Three pieces this month converged on a single warning: governance documents and internal policies are <b>necessary but not sufficient</b>. The hidden risks of auto-generated creative — brand misalignment, regulatory exposure, uncleared IP — are operational risks that surface in production, not in a policy review. Meanwhile, shoppers are actively scrutinising AI-driven content, and their trust threshold is rising faster than most enterprise guardrails.",
+            "The practical implication is that <b>trust infrastructure must be embedded in tooling</b>, not layered on top of it. SendLint checking emails against copy decks in real time is an example of governance-by-default rather than governance-by-checklist. Teams that treat AI risk as a legal exercise rather than a workflow design challenge will face brand damage before their policies catch up."
           ],
           "ev": [
             [
-              "MarTech · The More AI Can Do, the More Marketers Need to Know",
+              "MarTech AI · Enterprise governance limits",
+              "https://martech.org/enterprise-ai-governance-alone-cant-protect-your-brand/"
+            ],
+            [
+              "MarTech AI · Auto-generated creative risks",
+              "https://martech.org/brand-legal-and-regulatory-risks-of-ai-generated-creative/"
+            ],
+            [
+              "Agile Brand · Shoppers scrutinise AI content",
+              "https://agilebrandguide.com/rebuilding-digital-trust-why-shoppers-scrutinize-ai-driven-content-and-what-enterprises-must-do/"
+            ]
+          ]
+        },
+        {
+          "num": "Theme 04",
+          "head": "Marketer Skill Gap <em>Widens With Capability</em>",
+          "url": "https://martech.org/the-more-ai-can-do-the-more-marketers-need-to-know/",
+          "body": [
+            "MarTech's headline 'The more AI can do, the more marketers need to know' captures a paradox the month's coverage kept returning to: <b>AI amplifies leverage, so the quality of human judgment above the tool matters more, not less</b>. Articles on vetting AI during martech RFPs, building 2027 AI budgets, and reshaping mid-market marketing all assume a buyer who understands what they are evaluating — a rapidly shrinking population.",
+            "The adjacent insight from the 'business knowledge' piece is that <b>AI outputs are only as good as the proprietary context fed into them</b>. Generic prompts return generic results. The competitive moat is shifting from access to AI tools — now a commodity — to the institutional knowledge, customer data, and domain expertise that make those tools produce differentiated outputs."
+          ],
+          "ev": [
+            [
+              "MarTech · More AI = more marketer knowledge",
               "https://martech.org/the-more-ai-can-do-the-more-marketers-need-to-know/"
             ],
             [
-              "MarTech · How to Vet AI Capabilities During Martech RFPs",
-              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
+              "MarTech AI · AI needs your business knowledge",
+              "https://martech.org/even-the-smartest-ai-needs-your-business-knowledge/"
             ],
             [
-              "MarTech · What's Missing from Your 2027 AI Budget",
-              "https://martech.org/whats-missing-from-your-2027-marketing-ai-budget/"
+              "MarTech · Vetting AI in martech RFPs",
+              "https://martech.org/how-to-vet-ai-capabilities-during-martech-rfps/"
             ]
           ]
         },
         {
           "num": "Theme 05",
-          "head": "Interoperability via <em>MCP &amp; Foundation Models</em> Reshapes the Stack",
-          "url": "https://martechseries.com/sales-marketing/programmatic-buying/magister-launches-a-marketing-mcp-server-that-connects-claude-chatgpt-codex-and-cursor-to-85-marketing-tools/",
+          "head": "AI-Native <em>Audience Intelligence</em> Resets ROAS Baselines",
+          "url": "https://martechseries.com/sales-marketing/programmatic-buying/ai-marketing-platform-angler-ai-scales-its-customer-foundation-model-after-early-customers-see-up-to-4x-lift-in-omnichannel-roas/",
           "body": [
-            "The launch of Magister's Marketing MCP Server — connecting major LLMs to 85 marketing tools through a single protocol — is a leading indicator that the future stack is model-agnostic and interoperability-first. <b>Rather than buying a monolithic AI suite, teams will orchestrate best-of-breed tools through open connectors</b>, fundamentally changing vendor selection criteria.",
-            "Simultaneously, customer foundation models like Angler AI are delivering up to 4x omnichannel ROAS lifts by collapsing fragmented data silos into a unified predictive layer. <b>The emerging architecture is: foundation model for prediction, MCP-style protocol for execution, and human governance for accountability</b> — a three-layer structure that will define martech procurement decisions for the next two years."
+            "Angler AI reporting up to <b>4x lift in omnichannel ROAS</b> after scaling its customer foundation model is the kind of number that resets board-level expectations — and competitive benchmarks. XEBO.ai pulling $10.5 million in Series A funding from the Emirates Growth Fund signals that Gulf-region capital sees AI-native audience &amp; experience intelligence as an infrastructure bet, not a feature.",
+            "Atypica's work on synthetic customer personas adds a methodological layer: <b>AI-generated customer proxies are now used to stress-test strategies before real spend is committed</b>. Taken together, these developments mean the baseline for what counts as adequate audience modelling is shifting upward, and teams still relying on static segments or last-click attribution will find themselves benchmarked against a moving target."
           ],
           "ev": [
             [
-              "MarTech Series · Magister MCP Server",
-              "https://martechseries.com/sales-marketing/programmatic-buying/magister-launches-a-marketing-mcp-server-that-connects-claude-chatgpt-codex-and-cursor-to-85-marketing-tools/"
-            ],
-            [
-              "MarTech Series · Angler AI 4x ROAS Lift",
+              "MarTech Series · Angler AI 4x ROAS",
               "https://martechseries.com/sales-marketing/programmatic-buying/ai-marketing-platform-angler-ai-scales-its-customer-foundation-model-after-early-customers-see-up-to-4x-lift-in-omnichannel-roas/"
             ],
             [
-              "MarTech · AI-Powered Martech News &amp; Releases",
-              "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
+              "MarTech Series · XEBO.ai Series A",
+              "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/xebo-ai-raises-10-5-million-in-series-a-funding-from-emirates-growth-fund/"
+            ],
+            [
+              "Agile Brand · Atypica synthetic personas",
+              "https://agilebrandguide.com/atypica-cpo-angela-xu-on-when-to-trust-a-customer-who-doesnt-exist/"
             ]
           ]
         }
       ],
-      "takeaway": "Across every signal this month, the decisive shift is that <em>AI capability now outpaces organisational readiness</em> — and the brands that close that gap through human expertise, rigorous governance, and interoperable architecture will capture disproportionate advantage while competitors drown in undifferentiated automation."
+      "takeaway": "Across every layer of the stack — search, creative, audience, execution, and governance — <em>AI is no longer a productivity add-on but the new structural baseline against which every marketing decision will be judged</em>."
     }
   }
 }
